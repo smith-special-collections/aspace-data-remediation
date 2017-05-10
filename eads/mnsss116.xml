@@ -1,0 +1,3714 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss116.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss116</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Thomas Thompson Trust Records, 1844-2001 </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Kathleen Banks Nutter.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss116 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Thomas Thompson Trust Records, 1844-2001</titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 358 </num>
+         <author encodinganalog="245$c">Kathleen Banks Nutter</author>
+         <date>Revised 2002</date>
+         
+         <sponsor>Processing of the Thomas Thompson Trust was made possible by the generous support of the Trust and Marilyn Schultz Blackwell (Smith Class of 1969). </sponsor>
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main-overview">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <corpname encodinganalog="110" source="lcnaf">Thomas Thompson Trust </corpname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Thomas Thompson Trust Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1844-2001</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 358</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">105 boxes</extent>
+            <extent encodinganalog="300$a">(51.5 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Charitable organization.  Records consist largely of charity case records of poor women from Brattleboro and some from Rhinebeck, New York. Files contain correspondence from clients as well as case notes by the local agent.  Collection contains the correspondence and papers of Richards M. Bradley, a trustee who oversaw the trust from 1901 to 1943.  Also included are the records of the Brattleboro Mutual Aid Association and the Brattleboro Memorial Hospital (includes blueprints and design).  BMAA records include annual reports, unpublished reports, and correspondence related to specific programs.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Historical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc240.jpg" altrender="right">
+<daodesc><p>Baby Clinic, 1928</p></daodesc></dao>
+         <p> The 1869 will of wealthy businessman Thomas Thompson established a trust fund "for or towards the relief and support of poor seamstresses, needle-women and shop girls, who may be in the temporary need from want of employment, sickness, or misfortune, in the towns of Brattleboro, Vermont and Rhinebeck, Dutchess County, New York, the amount being equally divided between the two towns." Thompson's will also required that surplus funds be distributed to other charities in the same towns.  Finally, the will declared that the Trust itself would not go into effect until the death of his wife, Elizabeth Rowell Thompson, who died in 1899.</p>
+         <p> In 1901 the Thomas Thompson Trust (TTT) began to carry out its duties, directed throughout the twentieth century by several Boston-based businessmen and a series of local agents.  One businessman in particular, Richards M. Bradley, a native of Brattleboro, was the guiding force of TTT for its first four decades. The first local agent, Augusta Wells, administered the Trust for most of its first twenty years.  Florence Hemenway Wells succeeded her adoptive mother, serving as the Trust's local agent from 1921 until the early-1960s.  By then, most of the work of the Trust had been taken over by government agencies.</p>
+         <p> By 1901, when TTT was ready to begin dispensing funds to the "needlewomen" of Rhinebeck and Brattleboro, the very nature of women's work had changed drastically in the three decades since Thompson's will was first written.  In Brattleboro, in particular, there had been significant demographic change.  Instead of working from their homes or in small shops employing only a handful of people, an increasing number of the town's working women labored within one of several factories.  Furthermore, a significant portion of these women were immigrants from the rural countryside or from other countries, especially Ireland.  These demographic changes, unanticipated by Thompson in 1869, shaped the decision making of the lawyers appointed to organize TTT.  The organizers were also influenced by Progressive era ideas, and since Thompson's will did not specify a plan for disbursement of funds, they were free to devise a plan within the context of those ideas.</p>
+         <p> Soon after the creation of the Trust was announced in the local papers, the working women of Rhinebeck and Brattleboro formed local committees in an effort to make the best use of the funds available to them.  At the same time, the first trustees appointed to oversee TTT, Richards M. Bradley and Boston-based lawyer, Laurence Minot, had their own vision of just how, and to whom, the Trust should dispense its funds in Brattleboro and Rhinebeck.  Guided initially by a traditional sense of noblesse oblige, Bradley, in particular, increasingly sought to shape TTT as a model of Progressive era reform, especially in Brattleboro.  Thus, from the beginning, TTT sought to prevent illness among working women and their families through public health programs that stressed education in diet and infant care, and by promoting affordable health care.  At the same time, small amounts of money were dispensed outright to women in need, sometimes in the form of a loan.</p>
+         <p> One of TTT's first major contributions to the town of Brattleboro was the funding of Brattleboro Memorial Hospital.  The hospital, opened in 1904, provided hospital care at a reduced rate for those women covered by the Trust.  In 1907, the Brattleboro Mutual Aid Association (BMAA) was created and funded by TTT as a way to oversee direct aid to the working women of Brattleboro.  Under the aegis of the BMAA, a district (or public) nursing program to oversee education and treatment was established. The BMAA also oversaw a service providing attendant (or practical) nursing service for working women confined to their homes during a serious illness.  For those women simply needing a rest, the BMAA ran a vacation house in Niantic, on the Connecticut shore, from 1910 to 1936.  In 1917, responding in part to a nation-wide nursing shortage precipitated by World War I, the BMAA created an attendant nursing school while the hospital maintained a training school for graduate (today known as registered) nurses.  In this way, TTT sought to address a potential crisis of care and at the same time provide the opportunity for Brattleboro working women to leave factory work for a more professional (and presumably more lucrative) career.  The Influenza epidemic of 1918-19 further emphasized the need for trained health care professionals.  The nursing schools remained an important function of TTT throughout the twentieth century.</p>
+         <p> In 1919, the Town of Brattleboro brought another lawsuit against TTT.  The Board claimed that TTT continued to not meet the intent of Thompson's will because they were administering the dispensation of funds inadequately. The working women of Brattleboro, through their organization, the Society of Seamstresses, filed their own complaint but did not join the suit which dragged on for several months before a Massachusetts court ruled in favor of TTT in early-1921. Although technically the victor in the case, Richards M. Bradley was chastened by the legal ordeal and sought to expand the activities of TTT.  The Trust increased outright aid and began an ambitious insurance program in the mid-1920s, open to all Brattleboro residents regardless of gender, occupation, or need.  The Thompson Benefit Association for Nursing Service (1926) and the Thompson Benefit Association for Hospital Service (1927), each for a small yearly premium, provided coverage for home nursing care as well as the costs associated with a hospital stay.  These programs, too, were administered by Florence Wells as TTT's local agent.  They would eventually be replaced in the 1950s by commercial health insurance offered in the workplace by Vermont Blue Cross/Blue Shield.</p>
+         <p> The New Deal profoundly altered the work of the Trust as, for example, the Social Security Act became law.  By the early 1960s, Florence Wells herself was a patient at Thompson House, TTT's nursing home in Brattleboro.  Her care was funded both by the Trust and the Great Society program, Medicare.  The Trust continues to exist in both Brattleboro and Rhinebeck and in 2001, celebrated its centennial in both communities.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The Thomas Thompson Trust Records (TTT), 51.5 linear feet, cover the period from the 1890s to the 1960s; the bulk of material is from the early years of the twentieth century.</p>
+         <p> The bulk of the records date from 1900 to 1960 and consist largely of charity case records of poor women from Brattleboro and some from Rhinebeck, New York. The case files contain correspondence from clients as well as case notes by the local agent that together provide a rich source of working-class women's history in Brattleboro during the early decades of the twentieth century.  Because client names can be found throughout the Records, researchers must first sign the Records Access Agreement Form (see p. 9).  A significant portion of the collection contains the correspondence and papers of Richards M. Bradley, a trustee who oversaw the trust from 1901 to 1943.  Bradley was particularly interested in the professionalization of public health services.  His efforts, as documented here, are a fine example of Progressive era reforms in practice, as are the records of the Brattleboro Mutual Aid Association, organized in 1907 as a sort of umbrella agency to oversee local programs.  The BMAA records include annual reports, unpublished reports, and correspondence related to specific programs.  The programs documented include the practical nursing school and public health programs concerning maternal and infant health care.  Material about the Brattleboro Memorial Hospital includes blueprints as well as correspondence regarding its design and opening and the creation of a graduate (registered) nursing school.  There is also extensive material documenting the development of health insurance in the 1920s.</p>
+         <p> For related materials, see the Associated Charities of Brattleboro Records and the Florence H. Wells Papers.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into nine series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. History</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Administration</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Financial Records</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Legal Records</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Agencies/ Service Programs</ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI. Insurance Programs</ref>
+            </item>
+            <item>
+               <ref target="list-ser7">VII. Client Records</ref>
+            </item>
+            <item>
+               <ref target="list-ser8">VIII. Photographs/Scrapbooks</ref>
+            </item>
+            <item>
+               <ref target="list-ser9">IX. Oversize Materials</ref>
+            </item>
+         </list>
+      </arrangement>
+      <arrangement id="scope-arr">
+         <head>Arrangement of the Collection</head>
+         <p>Note: every effort was made to honor the original filing system, when discernible, of the TTT Records. Because both originals and multiple copies were created by the Trustees in Boston and the local agents in Brattleboro and Rhinebeck, there is some duplication of materials throughout the series.  For the most part, these records have been arranged in chronological order except where noted.</p>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The processed portion (completed in 2001) is open to research according to the regulations of the Sophia Smith Collection.  However, due to the fact that there are client-related materials scattered throughout the collection, researchers must sign the "Access Agreement Form" before viewing.  New, unprocessed accessions are closed.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to unpublished works in this collection created by the Thomas Thompson Trust. Permission must be obtained to publish reproductions or quotations beyond "fair use."  Copyright to materials authored by others may be owned by those individuals or their heirs or assigns.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.  Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.  </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>The Thomas Thompson Trust Records, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions to collection are expected.</p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Thomas Thompson Trust began donating its records to the Sophia Smith Collection in 1995.  The trust is still active and this is a continuing collection.</p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Kathleen Banks Nutter, 2002.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj-subheads">
+         <head>Search Terms</head>
+         
+         <corpname encodinganalog="610" source="lcnaf">Brattleboro Memorial Hospital--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Charities--New York (State)--Rhinebeck--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Charities--Vermont--Brattleboro--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Poor women--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Public health nursing--Vermont--Brattleboro--History--Sources</subject>
+         <geogname encodinganalog="651" source="lcsh">Vermont--Brattleboro--History--20th century--Sources</geogname>
+         <geogname encodinganalog="651" source="lcsh">Vermont--Brattleboro--Social conditions</geogname>
+         <subject encodinganalog="650" source="lcsh">Women--Charities--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Employment--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Vermont--Social conditions--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Working class women--United States--History--20th century--Sources</subject>
+         <persname encodinganalog="600" source="lcnaf">Bradley, Richards M., 1861-1943</persname>
+         <corpname encodinganalog="610" source="lcnaf">Brattleboro Mutual Aid Association--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Charitable uses, trusts, and foundations--United States--History</subject>
+         <corpname encodinganalog="610" source="lcnaf">Thomas Thompson Trust</corpname>
+         <persname encodinganalog="600" source="lcnaf">Thompson, Elizabeth Rowell, 1821-1899</persname>
+         <persname encodinganalog="600" source="lcnaf">Thompson, Thomas, 1798-1869</persname>
+         <persname encodinganalog="600" source="lcnaf">Wells, Florence Hemenway, 1878-1967</persname>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>For related materials, see the 
+            <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss133_main.html">Associated Charities of Brattleboro Records</extref> and the 
+            <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss401_main.html">Florence H. Wells Papers</extref>.</p>
+         </relatedmaterial>
+         <bibliography>
+            <head>Bibliography</head>
+            <p>See also:</p>
+            <p>Blackwell, Marilyn Schultz. "The Deserving Sick: Poor Women and the Medicalization of Poverty in Brattleboro, Vermont." Journal of Women's History Vol. II, No. 1 (Spring 1999): 53-74.</p>
+            <p>_______.  "Entitled to Relief: Women, Charity, and Medicine, 1900-1920."  PhD diss., University of Massachusetts at Amherst, 1996.</p>
+            <p>_______.  "Keeping the 'Household Machine' Running: Attendant Nursing and Social Reform in the Progressive Era."  Bulletin of the History of Medicine  Vol. 74 (Summer 2000): 241-264.</p>
+            <p>_______.  "The Politics of Public Health: Medical Inspection and School Nursing in Vermont, 1910-1923."  Vermont History Vol. 68 (Winter/Spring 2000): 58-84.</p>
+            <p>Eaves, Lucile.  A  Legacy to Wage-Earning Women.  Boston: Women's Educational and Industrial Union, 1925.</p>
+         </bibliography>
+      </descgrp>
+      <!-- Begin series descriptions -->
+<dsc type="analyticover">
+    <c01 level="series">
+            <did>
+               <unittitle>SERIES I. HISTORY <unitdate>(1899-1961, n.d.)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p> This series consists of material related to the organization of the Trust as well as several writings, both published and unpublished, that provide an historical overview of TTT.  The Women's Educational and Industrial Union-sponsored study, <title>A Legacy to Wage-Earning Women</title> (1925), is especially useful in gaining a sense of TTT's early years.  Of particular interest are the Constitutions drawn up by the working women of Brattleboro (n.d.) and Rhinebeck (1901) as the women wage-earners sought to make the best use of the Trust funds available to them.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES II. ADMINISTRATION <unitdate>(1867-1952, n.d.)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>5 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series is dominated by material related to the Trustees of the Thomas Thompson Trust, especially Richards M. Bradley who oversaw TTT during its first four decades.  There is  voluminous correspondence, primarily with local agents in Brattleboro and Rhinebeck but  with clients and other public health practitioners around the country also.  Writings and speeches by Bradley can also be found here.  Also of interest are the deeds for income-producing properties in Boston held by the Trust and several official reports.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES III. FINANCIAL RECORDS <unitdate>(1901-69)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>11 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series contains a substantial amount of material that reflects the monies loaned or given outright to clients over the years.  Some of this is immediately evident within the Applications for aid subseries.  More tedious but equally telling are the several other financial record-keeping systems of TTT, including Invoice and expense reports, Ledger sheets and Check registers.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES IV. LEGAL RECORDS <unitdate>(1844-1946)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.75 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Of particular interest here are the records of the two court cases (1907-08 and 1919-20) that TTT went through as a result of client complaints.  These records include affidavits, petitions and decrees, and correspondence.  Also included in this series are several legal interpretations of the will of Thomas Thompson; material regarding properties held by the Trust; and copies of the court-mandated yearly notices of intent, published every year by TTT in the <title>Brattleboro Reformer</title>.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES V. AGENCIES/SERVICE PROGRAMS <unitdate>(1907-77)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>5 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The material within this series has been separated into three subseries: Brattleboro Mutual Aid Association, Brattleboro Memorial Hospital, and Rhinebeck.  The first two subseries represent agencies in Brattleboro.  Rhinebeck contains document related to TTT's less extensive activities in that city.  The BMMA subseries contains material regarding the various individual programs that TTT sponsored, including dental hygiene (1916-1942), the Thompson School for Attendant (later Practical) Nursing (established in 1917), the TTT-sponsored Tuberculosis Camp of 1911, and the Thompson Vacation House in Niantic, Connecticut.  The Brattleboro Memorial Hospital subseries contains records related to the development and construction of the hospital which reveal Richards M. Bradley as a guiding force.  The Rhinebeck subseries includes the records of the North Dutchess Health Service Center (Box 45), notable for an unusually frank discussion of therapeutic abortions in correspondence from 1938.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES VI. INSURANCE PROGRAMS--Thompson Benefit Associations <unitdate>(1926-59)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>5.5 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>In 1926, TTT expanded its services by venturing into the field of insurance, first by offering coverage for nursing care at home and, a year later, insurance benefits covering hospital stays. Premiums offered through the Thompson Benefit Associations were reasonable and coverage was available to all residents of Brattleboro and surrounding towns.  The bulk of the material re: the TTT insurance plans is records of premiums paid and payments to beneficiaries.  It documents the increasing specialization of medical services even within relatively rural areas such as Brattleboro. These records, most of which are from the 1930s, also document the nascent health insurance industry during a critical period of growth and increasing government involvement.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES VII. CLIENT RECORDS <unitdate>(1901-69)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>17.5 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series consists of material most directly related to the working women of Brattleboro and Rhinebeck.  In many cases, a woman's relationship with the Trust lasted decades and is documented through years of applications for aid as well as through reports written by either the local agent or, less often, an attending physician.  In many cases, there is correspondence from the clients to the Trust itself.  Of particular interest are the interviews carried out by Augusta Wells in the first years of TTT's operation in Brattleboro (Interview re: vital statistics, 1901-09).  While these and other documents have been filed alphabetically, one portion of the series has been filed according to the case number assigned by the Trust-a filing method that seems to have fallen out of use by the 1920s.  There is significant duplication of this material scattered among other series.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES VIII. PHOTOGRAPHS/SCRAPBOOKS <unitdate>(1902-62, n.d.)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>4.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Although there are very few photographs within the records of TTT, and most are undated, they nonetheless give a glimpse of the activities of this charitable organization.  One especially intriguing series of photographs documents the Dental Hygiene Program that the Trust sponsored for the children of Brattleboro (n.d., circa 1920s).  Other images include those  taken at a 1938 tribute dinner for Richards M. Bradley and for the Baby Welfare Conference (n.d., circa 1940s).  The scrapbooks cover the first six decades of TTT (1902-62) and are comprised primarily of newspaper clippings from the <title>Brattleboro Reformer</title>.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES IX. OVERSIZE MATERIALS <unitdate>(1901-2001)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>2.5 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series consists of architectural drawings for Brattleboro Memorial Hospital and oversize financial reports.</p>
+            </scopecontent>
+ </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. HISTORY <unitdate>(1899-1961, n.d.)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>
+                     <title>Will of Thomas Thompson Trust</title> (reprint, <unitdate>1944)</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>"Records of the Society of Seamstresses, Needlewomen and Shop-girls of Rhinebeck, NY," <unitdate>1901</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Constitution, Society of Seamstresses, Rhinebeck, <unitdate>1901</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Constitution of the Society of Seamstresses, Brattleboro: list of signers, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Articles and speeches: drafts, <unitdate>1908, 1923, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Historical summations and briefs for constructive charity</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Lucile Eaves and associates, <title>A Legacy to Wage-Earning Women</title> (Boston: Women's Educational and Industrial Union, <unitdate>1925)</unitdate> [2 copies]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Pamphlets, <unitdate>1917-40</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Allon Peebles and Valeria McDermott, <title>Nursing Service in Brattleboro</title>, Vermont <unitdate>(1932) </unitdate>[2 copies]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10-11</container>
+                  <unittitle>Original early documents used for Susan Carroll's Thesis research</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Miscellaneous, <unitdate>1931-61</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1</container>
+                  <unittitle>Newspapers and articles, <unitdate>1899-1991, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">2</container>
+                  <unittitle>Kellogg Foundation, <unitdate>1929-30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">3</container>
+                  <unittitle>New Bedford Health Association, <unitdate>1919-30, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4-7</container>
+                  <unittitle>Medical literature, <unitdate>1914-61, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. ADMINISTRATION <unitdate>(1867-1952, n.d.)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Trustees' correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Bradley, Richards M.</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">8</container>
+                        <unittitle>
+                           <unitdate>1902-03</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">9</container>
+                        <unittitle>Thompson, H.M., <unitdate>1903</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">10</container>
+                        <unittitle>
+                           <unitdate>1906-08</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">11</container>
+                        <unittitle>Re: clients, <unitdate>1908,n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">1</container>
+                        <unittitle>Coddington, J.R., <unitdate>1908-09</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">2-5</container>
+                        <unittitle>
+                           <unitdate>1909-16</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">6</container>
+                        <unittitle>Delaware Health and Reform League, <unitdate>1916</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">7</container>
+                        <unittitle>WWI nursing shortage, <unitdate>1916-18</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">8-11</container>
+                        <unittitle>
+                           <unitdate>1917-28</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">12</container>
+                        <unittitle>Miller, Dr. George, <unitdate>1927-30</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">13-14</container>
+                        <unittitle>
+                           <unitdate>1928-33</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">15</container>
+                        <unittitle>Frost, Benson R., <unitdate>1930-31</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">1</container>
+                        <unittitle>New Bedford Health Association, <unitdate>1934</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">2-3</container>
+                        <unittitle>Wells, Florence, <unitdate>1935</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate>1936</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">4</container>
+                           <container type="folder">4-9</container>
+                           <unittitle>A-E</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">1-3</container>
+                           <unittitle>F-H</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">4</container>
+                           <unittitle>Hudson, Miriam</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">5-7</container>
+                           <unittitle>K-M</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">8</container>
+                           <unittitle>Miscellaneous</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">9</container>
+                           <unittitle>N</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">10</container>
+                           <unittitle>Niantic Vacation House Sale</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">11-16</container>
+                           <unittitle>O-V</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">6</container>
+                           <container type="folder">1-2</container>
+                           <unittitle>W</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">6</container>
+                           <container type="folder">3</container>
+                           <unittitle>Wells, Florence</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">6</container>
+                           <container type="folder">4</container>
+                           <unittitle>X-Z</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">6</container>
+                           <container type="folder">5</container>
+                           <unittitle>Young, Lillie</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate>1937</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">6</container>
+                           <container type="folder">6-13</container>
+                           <unittitle>A-H</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">6</container>
+                           <container type="folder">14</container>
+                           <unittitle>Hudson, Miriam</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">7</container>
+                           <container type="folder">1-14</container>
+                           <unittitle>J-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate>1938	</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">8</container>
+                           <container type="folder">1-10</container>
+                           <unittitle>A-H</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">8</container>
+                           <container type="folder">11</container>
+                           <unittitle>Hudson, Miriam</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">8</container>
+                           <container type="folder">12</container>
+                           <unittitle>Inquiries</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">8</container>
+                           <container type="folder">13-16</container>
+                           <unittitle>J-M</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">9</container>
+                           <container type="folder">1-10</container>
+                           <unittitle>Mc-W</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">9</container>
+                           <container type="folder">11</container>
+                           <unittitle>Wells, Florence</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">9</container>
+                           <container type="folder">12</container>
+                           <unittitle>Young, Lillie</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">1-2</container>
+                        <unittitle>
+                           <unitdate>1939-40</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate>1941	</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">3</container>
+                           <unittitle>F</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">4</container>
+                           <unittitle>Hudson, Miriam</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">5-6</container>
+                           <unittitle>M-T</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate>1942</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">7-9</container>
+                           <unittitle>A-H</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">10</container>
+                           <unittitle>Hudson, Miriam</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">11-15</container>
+                           <unittitle>K-W</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate>1943</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">16-23</container>
+                           <unittitle>B-S</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">24</container>
+                           <unittitle>Smith, Anna</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">25-27</container>
+                           <unittitle>T-W</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">28</container>
+                           <unittitle>Wells, Florence</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">10</container>
+                           <container type="folder">29</container>
+                           <unittitle>X-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">1</container>
+                     <unittitle>Minot, Laurence, <unitdate>1907-11</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">2-8</container>
+                     <unittitle>Tyler, Roger B., <unitdate>1933-52, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Writings and speeches (Richards M. Bradley)</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">9-10</container>
+                        <unittitle>Speeches, <unitdate>1913-22, circa 1926, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">11</container>
+                        <unittitle>Proposal: "The Local Unit," <unitdate>1937</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">12</container>
+                        <unittitle>Notes, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">13</container>
+                        <unittitle>Press releases, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">14</container>
+                        <unittitle>Reprints, speeches and articles, <unitdate>1922-35, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">15</container>
+                        <unittitle>Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Local Agents</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">16</container>
+                     <unittitle>MacLeod, Charlotte, <unitdate>1909</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">17</container>
+                     <unittitle>Wells, Augusta, <unitdate>1906-10, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wells, Florence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">1-4a</container>
+                        <unittitle>Administrative, <unitdate>1920s-60</unitdate>s</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Nursing homes</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">12</container>
+                           <container type="folder">5-6</container>
+                           <unittitle>Program, <unitdate>1960</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">12</container>
+                           <container type="folder">7</container>
+                           <unittitle>Program expenses, <unitdate>1962-63</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">12</container>
+                           <container type="folder">8</container>
+                           <unittitle>General expenses, <unitdate>1962-63</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Property</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">9</container>
+                     <unittitle>Deeds, <unitdate>1910-15</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">10</container>
+                     <unittitle>Lists and evaluations, <unitdate>1914-16</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">11</container>
+                     <unittitle>Leases, 12 Derne St., Boston, <unitdate>1913-34</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">12</container>
+                     <unittitle>List of property held, <unitdate>1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">13</container>
+                     <unittitle>Applications for real estate tax abatement, <unitdate>1934-35, 1941-42</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">14</container>
+                  <unittitle>Annual report: Expenditures by the Trustees Under the <title>Will of Thomas Thompson in Brattleboro, VT from Jan. 1, 1901 to Aug. 1, 1903</title> (<unitdate>1904)</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">15-16</container>
+                  <unittitle>Other reports, <unitdate>1901-39, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. FINANCIAL RECORDS <unitdate>(1901-69)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>General</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">1</container>
+                     <unittitle>Securities, <unitdate>1901-29, 1947-55, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">2</container>
+                     <unittitle>Tax forms, <unitdate>1913-17</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">3</container>
+                     <unittitle>Estimated income, <unitdate>1932-33</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">4-6</container>
+                     <unittitle>Cash balance analysis, <unitdate>1944-61</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">7-8</container>
+                     <unittitle>Financial disclosures, <unitdate>1943-69</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Applications for aid</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">9-11</container>
+                     <unittitle>
+                        <unitdate>Jan-Aug. 1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">1-11</container>
+                     <unittitle>
+                        <unitdate>Sept. 1940-Oct. 1942</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">1-13</container>
+                     <unittitle>
+                        <unitdate>Nov. 1942-Sept. 1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">1-13</container>
+                     <unittitle>
+                        <unitdate>Oct. 1945-Dec. 1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <container type="folder">1-12</container>
+                     <unittitle>
+                        <unitdate>Jan. 1951- Dec. 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">1-16</container>
+                     <unittitle>
+                        <unitdate>Jan. 1954-Dec. 1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Invoices and expense reports</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <container type="folder">1</container>
+                     <unittitle>
+                        <unitdate>1908-38</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <container type="folder">2-8</container>
+                     <unittitle>
+                        <unitdate>Jan. 1940-Mar. 1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <container type="folder">1-12</container>
+                     <unittitle>
+                        <unitdate>Apr. 1944-Dec. 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <container type="folder">1-10</container>
+                     <unittitle>
+                        <unitdate>Jan. 1949-Jun. 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <container type="folder">1-11</container>
+                     <unittitle>
+                        <unitdate>Jul. 1951-Mar 1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">23</container>
+                     <container type="folder">1-14</container>
+                     <unittitle>
+                        <unitdate>Apr. 1954-Sept. 1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">1-3</container>
+                     <unittitle>
+                        <unitdate>Oct. 1957-61, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brattleboro</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">4</container>
+                     <unittitle>Expenditures, <unitdate>1901-20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">5</container>
+                     <unittitle>Tuberculosis work, <unitdate>1911-20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">6</container>
+                     <unittitle>Office receipts, <unitdate>1917-20, 1925</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">7</container>
+                     <unittitle>Free kindergarten, <unitdate>1920-25</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">8</container>
+                     <unittitle>Stock transfers, <unitdate>1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ledger sheets</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">1-14</container>
+                     <unittitle>Requisitions and expenses, <unitdate>1925-61, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <container type="folder">1-2</container>
+                     <unittitle>Requisitions and expenses, <unitdate>1926-42</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">26</container>
+                  <container type="folder">3-6</container>
+                  <unittitle>Balance sheets, <unitdate>1925-74</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">26</container>
+                  <container type="folder">7</container>
+                  <unittitle>Trial balances, <unitdate>1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cash receipts and disbursements</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <container type="folder">8</container>
+                     <unittitle>
+                        <unitdate>1961-63</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <container type="folder">1-3</container>
+                     <unittitle>
+                        <unitdate>1964-67</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <container type="folder">4</container>
+                     <unittitle>Florence Wells, <unitdate>1962-63</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <container type="folder">5</container>
+                     <unittitle>Adaline Shea, <unitdate>1964-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">6</container>
+                  <unittitle>Five-year audits, <unitdate>1930-40</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Yearly audit reports</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Thomas Thompson Trust</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">7-9</container>
+                        <unittitle>
+                           <unitdate>1931-59</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">28</container>
+                        <container type="folder">1-2</container>
+                        <unittitle>
+                           <unitdate>1960-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Brattleboro Mutual Aid Association</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">28</container>
+                        <container type="folder">3-6</container>
+                        <unittitle>
+                           <unitdate>1944-65</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">29</container>
+                        <container type="folder">1</container>
+                        <unittitle>
+                           <unitdate>1966-73</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">30</container>
+                  <unittitle>Ledger books, <unitdate>1902-73</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brattleboro</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Check registers</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <unittitle>
+                           <unitdate>1916-30</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">32</container>
+                        <unittitle>
+                           <unitdate>11 Oct. 1930-1 Oct. 1938</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">33</container>
+                        <unittitle>
+                           <unitdate>1 Oct. 1938-Sept. 1955</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">34</container>
+                        <unittitle>
+                           <unitdate>Oct. 1955-Apr. 1965</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rhinebeck</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Check registers, <unitdate>1946-69</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Cash and ledger, <unitdate>1947-69</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-earnings">[See also SERIES IX. OVERSIZE MATERIAL for: Earnings statements, 1930-43]</ref>
+                     </p>
+                  </note>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. LEGAL RECORDS <unitdate>(1844-1946)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">1</container>
+                  <unittitle>Thomas Thompson's last will and testament, <unitdate>1869</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">2</container>
+                  <unittitle>Legal interpretations of the Thompson will, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">3</container>
+                  <unittitle>Probate Court--trustee appointments, <unitdate>1911-46</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">4</container>
+                  <unittitle>Notices, <unitdate>1904-20, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">5</container>
+                  <unittitle>Brattleboro Memorial Hospital, <unitdate>1904</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">6</container>
+                  <unittitle>Client-related documents, <unitdate>1923-1935</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">7</container>
+                  <unittitle>Client mortgages, <unitdate>1855-1923</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Townsend Place</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">8</container>
+                     <unittitle>Deeds and lease agreements, <unitdate>1842-41</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">9</container>
+                     <unittitle>Correspondence, <unitdate>1911-29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">10</container>
+                     <unittitle>Repair and maintenance contracts, <unitdate>1915-17, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">11</container>
+                     <unittitle>Plot plan, <unitdate>1844</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">12-14</container>
+                  <unittitle>General legal documents, <unitdate>1901-44</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Court cases</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate>1907-08</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">35</container>
+                        <container type="folder">15</container>
+                        <unittitle>Correspondence</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">35</container>
+                        <container type="folder">16</container>
+                        <unittitle>Client affidavits</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">35</container>
+                        <container type="folder">17</container>
+                        <unittitle>Petitions and decrees</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">18</container>
+                     <unittitle>Mulvey case, <unitdate>1917</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate>1919-20</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">1</container>
+                        <unittitle>Correspondence</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">2</container>
+                        <unittitle>Petitions, decrees, and statements</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">3</container>
+                        <unittitle>Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>SERIES V. AGENCIES/SERVICE PROGRAMS <unitdate>(1907-77)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Brattleboro Mutual Aid Association</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Administration</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Histories</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">36</container>
+                           <container type="folder">4</container>
+                           <unittitle>
+                              <unitdate>1935-46, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">36</container>
+                           <container type="folder">5</container>
+                           <unittitle>Drafts, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">6</container>
+                        <unittitle>Anniversaries, <unitdate>1928, 1947, 1956-57</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">7</container>
+                        <unittitle>By-laws, <unitdate>1908, 1926, 1952, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">8</container>
+                        <unittitle>Members, <unitdate>1945-47, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Minutes</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">36</container>
+                           <container type="folder">9</container>
+                           <unittitle>Executive Board, <unitdate>1939-51, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">36</container>
+                           <container type="folder">10</container>
+                           <unittitle>
+                              <unitdate>1907-11</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">36</container>
+                           <container type="folder">11-13</container>
+                           <unittitle>with attachments, <unitdate>1928-46</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">14</container>
+                        <unittitle>Secretary's records, <unitdate>1942-46</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">15</container>
+                        <unittitle>Personnel, <unitdate>1951, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">16</container>
+                        <unittitle>Press releases, <unitdate>1952, 1958, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">17</container>
+                        <unittitle>Thompson House disaster plans, <unitdate>circa 1982</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Financial</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">1</container>
+                        <unittitle>Client expenditures, <unitdate>1907-09</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">2</container>
+                        <unittitle>Clients, <unitdate>1912-13</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">3</container>
+                        <unittitle>Reports, <unitdate>1907-47, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">4</container>
+                        <unittitle>Requisitions, <unitdate>1920-33</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">5</container>
+                        <unittitle>Reduction plan, <unitdate>1931-32</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">6</container>
+                        <unittitle>Stock receipts, <unitdate>1943-73</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">7-13</container>
+                        <unittitle>Monthly Treasurer's reports, <unitdate>1921-63</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Florence Wells</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">14</container>
+                        <unittitle>Notes and drafts, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">37</container>
+                        <container type="folder">15</container>
+                        <unittitle>Speeches</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">1-3</container>
+                        <unittitle>General, <unitdate>1931-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">4</container>
+                        <unittitle>Bradley, Richards M., <unitdate>1939-42</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">5</container>
+                        <unittitle>Burtek case, <unitdate>1973-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">6</container>
+                        <unittitle>Re: clients, <unitdate>1964-67</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">7</container>
+                        <unittitle>Fawcett, Benjamin, <unitdate>1973-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Harris Place</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">38</container>
+                           <container type="folder">8</container>
+                           <unittitle>General, <unitdate>1917-25</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">38</container>
+                           <container type="folder">9</container>
+                           <unittitle>Legal documents, <unitdate>1924-25</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">10</container>
+                        <unittitle>National Organization for Public Health Nursing, <unitdate>1919</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">11</container>
+                        <unittitle>Wells, Florence H., <unitdate>1939</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">12</container>
+                        <unittitle>Re: Florence Wells, <unitdate>1962-63</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Programs</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">13</container>
+                        <unittitle>Children's Repair Fund, <unitdate>1939-43</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">14</container>
+                        <unittitle>Cooperation with Hospital, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Dental hygiene</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">38</container>
+                           <container type="folder">15</container>
+                           <unittitle>Report and proposal, <unitdate>1916, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">38</container>
+                           <container type="folder">16</container>
+                           <unittitle>Annual reports, <unitdate>1936-42</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Monthly reports</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">38</container>
+                              <container type="folder">17-19</container>
+                              <unittitle>
+                                 <unitdate>1937-39</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">39</container>
+                              <container type="folder">1-3</container>
+                              <unittitle>
+                                 <unitdate>1940-42</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">4</container>
+                           <unittitle>Genevieve M. Ely, "The Importance of Baby Teeth": speech, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">5</container>
+                        <unittitle>Federal Nutritional Survey Unit, <unitdate>1945</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">6</container>
+                        <unittitle>Health exhibit, <unitdate>1910</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">7</container>
+                        <unittitle>House tour, <unitdate>1954-58</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">8</container>
+                        <unittitle>Influenza epidemic, <unitdate>1920</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">9</container>
+                        <unittitle>Nursing Center, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">10</container>
+                        <unittitle>Preschool clinic, <unitdate>1923, 1938</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Public health (District) nursing</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">11</container>
+                           <unittitle>General, <unitdate>1917-52, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">12</container>
+                           <unittitle>Instructive District Nursing Association (Boston), <unitdate>1920-24</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">13</container>
+                           <unittitle>National Organization for Public Health Nursing, <unitdate>1942-50, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">14</container>
+                        <unittitle>Red Cross, <unitdate>1917-35, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">15</container>
+                        <unittitle>School nurse, <unitdate>1916-37, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">16</container>
+                        <unittitle>Services to the sick, <unitdate>1921-28</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">17</container>
+                        <unittitle>Special Children's Health Fund, <unitdate>1941-44</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Thompson School for Practical Nursing</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">18</container>
+                           <unittitle>History, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">19</container>
+                           <unittitle>Correspondence, <unitdate>1950-51</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">20</container>
+                           <unittitle>Applications for Director, <unitdate>1950-51</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">21</container>
+                           <unittitle>Nurses' training publications</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">22</container>
+                           <unittitle>Radio script, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">39</container>
+                           <container type="folder">23</container>
+                           <unittitle>Reports, <unitdate>1950, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>National Association for Practical Nurse Education</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">39</container>
+                              <container type="folder">24</container>
+                              <unittitle>Accreditation, <unitdate>1949-51</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">39</container>
+                              <container type="folder">25</container>
+                              <unittitle>Constitution and By-laws, <unitdate>1947, 1951</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">39</container>
+                              <container type="folder">26</container>
+                              <unittitle>Newsletters, <unitdate>1949-50, n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">39</container>
+                              <container type="folder">27</container>
+                              <unittitle>Conference, <unitdate>1948-50</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">39</container>
+                              <container type="folder">28</container>
+                              <unittitle>Speech, <unitdate>1949</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">39</container>
+                              <container type="folder">29</container>
+                              <unittitle>Pamphlets, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">40</container>
+                           <container type="folder">1</container>
+                           <unittitle>Publications not by Thompson School, <unitdate>1912-50, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">2</container>
+                        <unittitle>Tuberculosis Camp, <unitdate>1911, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">3</container>
+                        <unittitle>Tuberculosis exhibit, <unitdate>1909</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">4</container>
+                        <unittitle>"Typical Day," <unitdate>1910, 1915</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Vacation house</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">40</container>
+                           <container type="folder">5</container>
+                           <unittitle>Property, <unitdate>1912, 1936</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">40</container>
+                           <container type="folder">6-13</container>
+                           <unittitle>Applicants, <unitdate>1914-21</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reports</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">14</container>
+                        <unittitle>Attendant Nursing Service, <unitdate>1939-42</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">15</container>
+                        <unittitle>Attendant Nursing Statistics, <unitdate>1934-35</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">16</container>
+                        <unittitle>Auxiliary Services, <unitdate>1959</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">17</container>
+                        <unittitle>Comparison of Practical Nursing Schools, <unitdate>n.d., circa 1940s</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">18-19</container>
+                        <unittitle>Public health (district) nurses, <unitdate>1939-42, 1945, 1951</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">20</container>
+                        <unittitle>Rural nurse, <unitdate>1930-37, 1939</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">21</container>
+                        <unittitle>Supervisor, <unitdate>1928-29, 1944-46, 1949-50</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">22</container>
+                        <unittitle>Sub-committees, <unitdate>1938-59</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">1</container>
+                        <unittitle>Miscellaneous, <unitdate>1917, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">2</container>
+                        <unittitle>Fragments, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Annual reports</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">3</container>
+                        <unittitle>Drafts, <unitdate>1949, 1956</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">4</container>
+                        <unittitle>Typescripts, <unitdate>1945-58</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">5-6</container>
+                        <unittitle>Published, <unitdate>1920-48</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Publications</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">7</container>
+                        <unittitle>"The Brattleboro Mutual Aid Association" <unitdate>n.d., circa 1910s</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">8</container>
+                        <unittitle>"Hospital Benefit Service," <unitdate>n.d., circa 1933</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">9</container>
+                        <unittitle>"Health and Service System," <unitdate>1931</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">10</container>
+                        <unittitle>"Health Work in Windham County," <unitdate>1931</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brattleboro Memorial Hospital</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>History</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">11</container>
+                        <unittitle>Pamphlets, <unitdate>1926, 1954-58</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">12</container>
+                        <unittitle>Suggestions from doctors, <unitdate>1901</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">13</container>
+                        <unittitle>Information re: other hospitals, <unitdate>circa 1901</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">14</container>
+                        <unittitle>Richards M. Bradley, "A Well Ordered Hospital": speech, <unitdate>n.d., circa 1901</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">15</container>
+                        <unittitle>Construction, <unitdate>1903-04</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">16</container>
+                        <unittitle>Plan of land near hospital, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">17</container>
+                        <unittitle>Hospital charter, <unitdate>1904, 1953</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">18</container>
+                        <unittitle>Hospital notice, <unitdate>1910</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">19</container>
+                        <unittitle>Patient survey, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">20</container>
+                        <unittitle>Hospital supply catalogs, <unitdate>n.d., circa 1940s</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">21</container>
+                        <unittitle>Administrative reports, <unitdate>1912-14, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">22-23</container>
+                        <unittitle>Annual reports, <unitdate>1906, 1908-13</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Financial</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">1</container>
+                        <unittitle>Funding, <unitdate>1930-42</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">2</container>
+                        <unittitle>Sources of income, <unitdate>1934-35</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">3</container>
+                        <unittitle>Client payments, <unitdate>1901-18</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">4</container>
+                        <unittitle>Schedule of fees, <unitdate>1924</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">5</container>
+                        <unittitle>Accountants' reports, <unitdate>1907-08</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">6-7</container>
+                        <unittitle>Yearly audits, <unitdate>1933-37, 1942</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">8-11</container>
+                        <unittitle>Monthly expense reports, <unitdate>January 1935-February 1943</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Graduate Nurses</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">12</container>
+                        <unittitle>Legislation, <unitdate>1911, 1941</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Reports</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">42</container>
+                           <container type="folder">13</container>
+                           <unittitle>Miscellaneous, <unitdate>1912, n.d., circa 1930s</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">42</container>
+                           <container type="folder">14</container>
+                           <unittitle>National League of Nursing Education, <unitdate>1934</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">42</container>
+                        <container type="folder">15</container>
+                        <unittitle>Questionnaire, <unitdate>1942</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rhinebeck</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <container type="folder">1</container>
+                     <unittitle>Expenses, <unitdate>1901-20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">2</container>
+                        <unittitle>General, <unitdate>1903, 1922, 1929, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Greenough, Dorothy</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">43</container>
+                           <container type="folder">3</container>
+                           <unittitle>Harding and Koch, <unitdate>1947-51</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">43</container>
+                           <container type="folder">4-6</container>
+                           <unittitle>General, <unitdate>1947-63</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">7-8</container>
+                        <unittitle>Hudson, Miriam, <unitdate>1939-43, 1946-47</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">9-13</container>
+                        <unittitle>Miller, George N., M.D., <unitdate>1925-32</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">14</container>
+                        <unittitle>Trustees, <unitdate>1941-43</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <container type="folder">15</container>
+                     <unittitle>Minutes, <unitdate>1913, 1929</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reports</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">16</container>
+                        <unittitle>Agency for Dependent Children, <unitdate>1916-17</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">17</container>
+                        <unittitle>Client case reports, <unitdate>1914-17</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <container type="folder">1</container>
+                        <unittitle>Legislation, <unitdate>1934-36</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <container type="folder">2</container>
+                        <unittitle>Nurses' monthly reports, <unitdate>1919</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <container type="folder">3</container>
+                        <unittitle>Special reports, <unitdate>1914-19, 1931, 1939-43, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <container type="folder">4</container>
+                        <unittitle>Superintendent's reports, <unitdate>1918, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">44</container>
+                     <container type="folder">5</container>
+                     <unittitle>Research notes, <unitdate>1910-13</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">44</container>
+                     <container type="folder">6-7</container>
+                     <unittitle>Publications, <unitdate>1908, 1915, 1931, 1936, 1947, 1953, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Programs</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Dutchess County Health Association</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">8</container>
+                           <unittitle>Proposal, <unitdate>1922</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">9</container>
+                           <unittitle>Miscellaneous</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>North Dutchess County Nursing Service</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">10</container>
+                           <unittitle>Financial reports, <unitdate>1938-44</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">11</container>
+                           <unittitle>Correspondence, <unitdate>1938-42</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">12-13</container>
+                           <unittitle>Monthly reports, <unitdate>1919, 1933-34, 1939-44</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">14</container>
+                           <unittitle>Annual reports, <unitdate>1939-43</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">14a</container>
+                           <unittitle>General, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">15</container>
+                           <unittitle>Therapeutic abortions: correspondence, <unitdate>1938</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">16</container>
+                           <unittitle>Registry, <unitdate>1939-41</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">17</container>
+                           <unittitle>Reports, <unitdate>1940-42</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">18</container>
+                           <unittitle>Publications, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Thompson House</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <unittitle>Financial</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">44</container>
+                              <container type="folder">19</container>
+                              <unittitle>Accountants' report, <unitdate>1903-08</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">45</container>
+                              <container type="folder">1-2</container>
+                              <unittitle>Treasurer's reports, <unitdate>1916-43</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">45</container>
+                              <container type="folder">3-4</container>
+                              <unittitle>Audits, <unitdate>1919-42</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">45</container>
+                              <container type="folder">5</container>
+                              <unittitle>Expenditures, <unitdate>1911-18</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">45</container>
+                           <container type="folder">6</container>
+                           <unittitle>Proposal, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">45</container>
+                           <container type="folder">7</container>
+                           <unittitle>Construction expenses, <unitdate>1907-10</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">45</container>
+                           <container type="folder">8</container>
+                           <unittitle>Monthly reports, <unitdate>1916-21</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">45</container>
+                           <container type="folder">9</container>
+                           <unittitle>Reports, <unitdate>1915, 1941-42</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">45</container>
+                           <container type="folder">10</container>
+                           <unittitle>Annual report, <unitdate>1915</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>SERIES VI. INSURANCE PROGRAMS--Thompson Benefit Associations <unitdate>(1926-59)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>General</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">1</container>
+                     <unittitle>Survey, <unitdate>1941</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">2</container>
+                     <unittitle>Reports, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">3</container>
+                     <unittitle>Drafts and notes, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">4</container>
+                     <unittitle>Publications, <unitdate>1926-32</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">5</container>
+                     <unittitle>Financial, <unitdate>1931-33, 1946, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Thompson Benefit Association for Nursing Service</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">6</container>
+                     <unittitle>Publications, <unitdate>1926-42</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">7-17</container>
+                     <unittitle>Client payments, <unitdate>1926-56</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brattleboro Memorial Hospital Benefit Association</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">18</container>
+                     <unittitle>Premiums collected, <unitdate>1933-35</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">19</container>
+                     <unittitle>Total hospital charges, <unitdate>1934-35</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">20</container>
+                     <unittitle>Non-Surgical case insurance, <unitdate>1934-35</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">21-22</container>
+                     <unittitle>Northfield student service, <unitdate>1934-37</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">23</container>
+                     <unittitle>Mr. Grimshaw's reports, <unitdate>1935-36</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <container type="folder">24</container>
+                     <unittitle>Miss Converse's reports, <unitdate>1938-39</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">1</container>
+                     <unittitle>Publications, <unitdate>1930s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">2</container>
+                     <unittitle>Reports, <unitdate>1936, 1941</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">3</container>
+                     <unittitle>Annual reports, <unitdate>1937-43</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Financial</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">47</container>
+                        <container type="folder">4</container>
+                        <unittitle>Client accounts, <unitdate>1933, 1946</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">47</container>
+                        <container type="folder">5</container>
+                        <unittitle>Infirmary payments, <unitdate>1938-46</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">47</container>
+                        <container type="folder">6</container>
+                        <unittitle>Infirmary receipts, <unitdate>1945-46</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">7</container>
+                     <unittitle>Legal: Freeman case, <unitdate>1932-33</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">47</container>
+                  <container type="folder">8</container>
+                  <unittitle>Springfield (VT) Mutual Benefit Association, <unitdate>1937-42</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">47</container>
+                  <container type="folder">9</container>
+                  <unittitle>Publications re: other insurance plans, <unitdate>1910s-1950s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Insurance client records</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">10</container>
+                     <unittitle>Ledger sheets, <unitdate>1932-33</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">11-12</container>
+                     <unittitle>Ledger sheets, <unitdate>1945-60</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48-50</container>
+                     <unittitle>Premium cards, <unitdate>1920s-50s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">51</container>
+                     <unittitle>Disbursements, <unitdate>1920s-50s</unitdate>; Information, 1920s</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">52-53</container>
+                     <unittitle>Enrollment, <unitdate>1920s-30s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">54-56</container>
+                     <unittitle>Receipts, <unitdate>1930s-50s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">57</container>
+                     <unittitle>Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser7">
+            <did>
+               <unittitle>SERIES VII. CLIENT RECORDS <unitdate>(1901-69)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">58</container>
+                  <unittitle>Report to Committee for Working Women Under Thompson Will, A-Z, <unitdate>1901-05</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">59</container>
+                  <container type="folder">1-4</container>
+                  <unittitle>Interview re: vital statistics, A-Y, <unitdate>1901-09</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">59</container>
+                  <container type="folder">5</container>
+                  <unittitle>Applications for aid, <unitdate>1914-19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Case Files (numerical)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">60</container>
+                     <container type="folder">1-40</container>
+                     <unittitle>#1501-1563</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">61</container>
+                     <container type="folder">1-34</container>
+                     <unittitle>#1564-1695</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">62</container>
+                     <container type="folder">1-46</container>
+                     <unittitle>1705-1760</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">63</container>
+                     <container type="folder">1-60</container>
+                     <unittitle>1761-1860</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">64</container>
+                     <container type="folder">1-37</container>
+                     <unittitle>1861-2499</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">65</container>
+                     <container type="folder">1-68</container>
+                     <unittitle>#2516-2694</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Case files (alphabetical)-Brattleboro</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">66</container>
+                     <container type="folder">1-34</container>
+                     <unittitle>A-Ber</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">67</container>
+                     <container type="folder">1-47</container>
+                     <unittitle>Bet-C</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">68</container>
+                     <container type="folder">1-35</container>
+                     <unittitle>D-F</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">68a</container>
+                     <container type="folder">36-50</container>
+                     <unittitle>D-F</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">69</container>
+                     <container type="folder">1-36</container>
+                     <unittitle>G-H</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">70</container>
+                     <container type="folder">1-27</container>
+                     <unittitle>I-L</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">71</container>
+                     <container type="folder">1-21</container>
+                     <unittitle>M</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">72</container>
+                     <container type="folder">1-12</container>
+                     <unittitle>N-O</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">73</container>
+                     <container type="folder">1-29</container>
+                     <unittitle>P-Sh</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">74</container>
+                     <container type="folder">1-29</container>
+                     <unittitle>Sm-V</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">75</container>
+                     <container type="folder">1-21</container>
+                     <unittitle>W-Y, no name</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Case files (alphabetical)-Rhinebeck</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">76</container>
+                     <container type="folder">1-13</container>
+                     <unittitle>A-B</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">77</container>
+                     <container type="folder">1-18</container>
+                     <unittitle>C-L</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">78</container>
+                     <container type="folder">1-25</container>
+                     <unittitle>M-V</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">79</container>
+                     <container type="folder">1-6</container>
+                     <unittitle>W</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Case files (chronological)-Rhinebeck</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">80</container>
+                     <container type="folder">1-37</container>
+                     <unittitle>
+                        <unitdate>1947-52</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">81</container>
+                     <container type="folder">1-30</container>
+                     <unittitle>
+                        <unitdate>1949-55</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">82</container>
+                     <container type="folder">1-31</container>
+                     <unittitle>
+                        <unitdate>1949-55</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">83</container>
+                     <container type="folder">1-28</container>
+                     <unittitle>
+                        <unitdate>1955-62</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">84-85</container>
+                     <container type="folder">1-24</container>
+                     <unittitle>Rhinebeck, A-Z, <unitdate>1960-69</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wells, Florence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">86</container>
+                     <container type="folder">1-4</container>
+                     <unittitle>Correspondence, <unitdate>1927-60</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">86</container>
+                     <container type="folder">5-7</container>
+                     <unittitle>"Notes," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">87</container>
+                     <container type="folder">1</container>
+                     <unittitle>Massachusetts Eye and Ear, <unitdate>1928-32</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Physicians</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">87</container>
+                     <container type="folder">2</container>
+                     <unittitle>Reports, <unitdate>1924, 1931, 1936</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">87</container>
+                     <container type="folder">3-5</container>
+                     <unittitle>Patient charges, <unitdate>1936-43</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">87</container>
+                     <container type="folder">6</container>
+                     <unittitle>Minimum charges, <unitdate>1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">87</container>
+                     <container type="folder">7-9</container>
+                     <unittitle>Correspondence, <unitdate>1940-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Client loans</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">87</container>
+                     <container type="folder">10</container>
+                     <unittitle>Brattleboro, <unitdate>1914-17, 1924, 1926, 1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">88</container>
+                     <container type="folder">1</container>
+                     <unittitle>Rhinebeck, <unitdate>1904-41</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Client reports</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">88</container>
+                     <container type="folder">2-3</container>
+                     <unittitle>Brattleboro, <unitdate>1902-03, 1909</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">88</container>
+                     <container type="folder">4</container>
+                     <unittitle>Rhinebeck, <unitdate>1906</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">88</container>
+                     <container type="folder">5</container>
+                     <unittitle>Sample cases, <unitdate>1909</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">88</container>
+                     <container type="folder">6</container>
+                     <unittitle>Miss Davis' reports, <unitdate>1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">88</container>
+                     <container type="folder">7</container>
+                     <unittitle>Patients admitted to BMH, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">88</container>
+                     <container type="folder">8-11</container>
+                     <unittitle>Client expenditures, Brattleboro, <unitdate>1913-49</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">88</container>
+                     <container type="folder">12-13</container>
+                     <unittitle>Client payments, Brattleboro, <unitdate>1901-07, 1917-19, 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">89-96</container>
+                     <unittitle>Client receipts, A-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser8">
+            <did>
+               <unittitle>SERIES VIII. PHOTOGRAPHS/SCRAPBOOKS <unitdate>(1902-62, n.d.)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">97</container>
+                  <unittitle>Photographs, <unitdate>1910s-40s, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">98-105</container>
+                  <unittitle>Scrapbooks, <unitdate>1902-64, 1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser9">
+            <did>
+               <unittitle>SERIES IX. OVERSIZE MATERIALS <unitdate>(1901-2001)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Architectural drawings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="map-case">Flat File</container>
+                     <unittitle>Brattleboro Hospital</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="map-case">Flat File</container>
+                     <unittitle>Brattleboro Hospital, alterations and additions</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="map-case">Flat File</container>
+                     <unittitle>Portable cottage</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="map-case">Flat File</container>
+                     <unittitle>Sewage disposal</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Expenditure sheets, <unitdate>1901-30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="list-earnings">
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Estate of Thomas Thompson: statements of earnings, <unitdate>1930-1943</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Disease Classifications: charts</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Notice of Centennial Celebration in Brattleboro, Vermont: poster, <unitdate>Dec. 13-15, 2001</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

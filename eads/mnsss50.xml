@@ -1,0 +1,202 @@
+<?xml-stylesheet href="print.xsl" type="text/xsl"?>
+
+
+
+
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss50.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss50</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Elizabeth C. Mooney Papers, 1977-1986
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Laura Finkel.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-05</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss50 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Elizabeth C. Mooney Papers, 1977-1986
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 401
+      </num>
+         <author encodinganalog="245$c">Laura Finkel
+      </author>
+         <date>2000
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Mooney, Elizabeth Comstock</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Elizabeth C. Mooney Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1977-1986</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 401</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">1 box</extent>
+            <extent encodinganalog="300$a">(1 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Author and journalist.  Papers consist mainly of her letters to Alice Ridenour Wareham, a fellow graduate of Smith College, which relate to Mooney's writing, her family, her illness and her education at Smith College. Also included are letters written by Wareham about Mooney and two of Mooney's published works: <title>Men and Marriage: The Changing Role of Husbands</title> and <title>Alone, Surviving as a Widow</title>.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p>Elizabeth Comstock Mooney was born February 8, 1918, in Rome, New York. Mooney graduated from Smith College with the class of 1939, and soon after took work as a civilian secretary for the war effort. In 1943 she became a reporter for the Utica Press and Observer-Dispatch in western New York State. She was made bureau chief in 1945, but left in 1946 after her marriage to Booth Mooney, biographer of President Lyndon Johnson. She then became a free-lance writer, working out of Texas and then Washington, D.C., where she was a member of the Washington Independent Writers.</p>
+         <p>While raising her two children, Edward (Ted) and Joan, Mooney wrote children's books, including: Jane Addams (Chicago: Follett Pub. Co., 1968), part of the Library of American Heroes Series; The Mystery of the Narrow Land, (Chicago: Follett Pub. Co., 1969), illustrated by Winnie Fitch; and The Sandy Shoes Mystery (Philadelphia: Lippincott, 1970), illustrated by Gustave E. Nebel.</p>
+         <p>When the children had grown, Mooney went back to non-fiction. She did a number of travel articles for magazines and newspapers including Smithsonian, Ladies' Home Journal, Yankee, Washingtonian, Maryland, Redbook, Newsday, and the Boston Globe. For several years she also did a regular column for the Washington Post called "The Weekend Traveler."</p>
+         <p>She also produced several books, including In the Shadow of the White Plague: A Memoir (New York: Crowell, 1979), about her mother's struggle with tuberculosis; and Alone, Surviving as a Widow (New York: Putnam, 1981), about life after the sudden death of her husband in 1977. Mooney's other full-length works are: Men and Marriage: The Changing Role of Husbands (New York: F. Watts, 1985); Not My Daughter: Facing up to Adolescent Pregnancy, with Katherine Brownell Oettinger, (Englewood Cliffs, NJ: Prentice-Hall, 1979); and Country Adventures in Maryland, Virginia &amp; West Virginia (Arlington, VA: Washington Book Trading, 1984), a collection of previously released travel essays.</p>
+         <p>While doing research for In the Shadow of the White Plague, Mooney became acquainted with Alice Ridenour Wareham, a fellow graduate of Smith College, then residing in Saranac Lake, New York. The two began a correspondence that was to last for nearly seven years, until the effects of an undiagnosed brain tumor limited Mooney's activity. Mooney died on May 20, 1986, in Washington, DC.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Elizabeth C. Mooney Papers consist of 2.5 linear inches of correspondence and published works. The correspondence, sent from Mooney to Alice Ridenour Wareham from 1977-1984, relates to Mooney's writing, her family, her illness and occasionally to her education at Smith College. There are also two items from Alice Ridenour Wareham. One is an note Wareham wrote to herself on August 12, 1986, upon learning of the death of Mooney three months earlier. The other is a letter sent to Margery Sly, Smith College Archivist, including a description of how Wareham and Mooney met and began to exchange letters.</p>
+         <p>The collection also includes two of Mooney's published works: Men and Marriage: The Changing Role of Husbands (New York: F. Watts, 1985) and Alone, Surviving as a Widow (New York: Putnam, 1981).</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into three series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Writings</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection. </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner for this collection is unknown. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Elizabeth C. Mooney Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Elizabeth C. Mooney Papers were given to the Smith College Archives in 1995 by Alice Ridenour Wareham (Class of 1944). They were transferred to the Sophia Smith Collection in 2000.</p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Laura Finkel, 2000.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <subject encodinganalog="650" source="lcsh">Authors, American--20th century</subject>
+         <subject encodinganalog="650" source="lcsh">Cancer--Patients--Correspondence</subject>
+         <persname encodinganalog="600" source="lcnaf">Mooney, Elizabeth Comstock</persname>
+         <corpname encodinganalog="610" source="lcnaf">Smith College--Students--History--Sources</corpname>
+      </controlaccess>
+      <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Alice Ridenour Wareham Letters,<unitdate> 1986-95</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3-4</container>
+                  <unittitle>Elizabeth Mooney to Alice Ridenour Wareham,<unitdate> 1977-84</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. WRITINGS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>
+                     <title>Alone, Surviving as a Widow New York</title>: Putnam,<unitdate> 1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>
+                     <title>Men and Marriage: The Changing Role of Husbands</title>: New York: F. Watts,<unitdate> 1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

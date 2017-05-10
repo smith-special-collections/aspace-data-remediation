@@ -1,0 +1,307 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss104.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss104</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Miscellaneous Memorabilia Collection, 1850s-2004</titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss104 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Miscellaneous Memorabilia Collection, 1850s-2004
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 441
+      </num>
+         <date>Revised 2005
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <unittitle label="Title:" encodinganalog="245$a">Miscellaneous Memorabilia Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1850s-2004</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 441</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">10 boxes</extent>
+            <extent encodinganalog="300$a">(5.25 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Includes postcards of women and historic sites pertaining to women, unidentified photographs of women and families, political buttons, and posters.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The Miscellaneous Memorabilia Collection contains postcards of women and historic sites pertaining to women; photographs and other images, mostly unidentified, of women and families; and numerous political buttons reflecting the opinions of various types of activism, mostly feminism.  Received from various donors, the postcard collection is eclectic in that it contains images of women who represent a range of social callings and political persuasions from Susan B. Anthony and Harriet Beecher Stowe, to Marilyn Monroe, Cleopatra, and Miss America. The photographs include portraits, snapshots, and postcards of women and families organized by decades.  Also included are 31 commemorative portrait medallions of famous women, issued from 1968 to 1979 by the Societe Commemorative de Femmes Celebres, plus newsletters and related documents, as well as a few posters from the March for Women's Lives in Washington, DC, April 2004.
+    </p>
+      </scopecontent>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection. </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Material in this collection may be protected by copyright. It is the responsibility of the researcher to identify and satisfy all copyright holders. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Miscellaneous Memorabilia Collection, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions to collection are expected.
+        </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Materials in this subject collection were either purchased or given to the Sophia Smith Collection by various donors.  </p>
+            </acqinfo>
+            <processinfo id="admin-process">
+               <p>Finding aid revised in 2005.  Recent additions may not be reflected in the finding aid. </p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <subject encodinganalog="650" source="lcsh">Women--History--Pictorial works</subject>
+         <subject encodinganalog="650" source="lcsh">Photography of women--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Postcards--United States--History--20th century-- Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Feminism--History--Collectibles</subject>
+      </controlaccess>
+
+	<odd id="odd-app">
+	 <head>APPENDIX: List of postcards</head>
+	    <list>
+  	      <item>Louisa May Alcott</item>
+  	      <item>Priscilla Alden</item>
+  	      <item>Miss America</item>
+  	      <item>Susan B. Anthony</item>
+  	      <item>Clara Barton</item>
+  	      <item>Rebecca and Abigail Bates</item>
+  	      <item>Sarah Bernhardt</item>
+  	      <item>Belle Boyd</item>
+  	      <item>Lizzie Borden</item>
+  	      <item>Audrey and Elsie Brinkley</item>
+  	      <item>Nancy Brown</item>
+  	      <item>Pearl Buck</item>
+  	      <item>Edith Cavell</item>
+  	      <item>Cleopatra</item>
+  	      <item>Katherine Cornell</item>
+  	      <item>Elizabeth Cushman</item>
+  	      <item>Zena Dare</item>
+  	      <item>Diana Darrell</item>
+  	      <item>Dionne quints</item>
+  	      <item>Dorothy Dix</item>
+  	      <item>Hannah Duston</item>
+  	      <item>Amelia Earhart</item>
+  	      <item>Mary Baker Eddy</item>
+  	      <item>Evangeline</item>
+  	      <item>Frances Fairchild (Bryant)</item>
+  	      <item>Mrs. John Lowell Gardner</item>
+  	      <item>Hampton Beach Memorial</item>
+  	      <item>Ann Hathaway</item>
+  	      <item>Margaret Haugery</item>
+  	      <item>Almira and Georgiana Hillman</item>
+  	      <item>Lady Caroline Howard</item>
+  	      <item>Helen Hunt Jackson</item>
+  	      <item>Mary Jamison</item>
+  	      <item>Anna M. Jarvis</item>
+  	      <item>Joanne of Arc</item>
+  	      <item>Helen Keller</item>
+  	      <item>Gertrude Lawrence</item>
+  	      <item>Annie Allegra Longfellow</item>
+  	      <item>Caroline Lowe</item>
+  	      <item>Juliette Gordon Lowe</item>
+  	      <item>Mary Lyon</item>
+  	      <item>Jane McCrae </item>
+  	      <item>Madonna of the trail monuments </item>
+  	      <item>Maria Mitchell </item>
+  	      <item>Margaret Mitchell</item>
+  	      <item>Marilyn Monroe</item>
+  	      <item>Lucy Maude Montgomery </item>
+  	      <item>Grandma Moses </item>
+  	      <item>Lucretia Mott </item>
+  	      <item>Lillian Nordica</item>
+  	      <item>Rebecca Nurse </item>
+  	      <item>Ocean Born Mary House</item>
+  	      <item>Elizabeth Pabodie</item>
+  	      <item>Alice Freeman Palmer</item>
+  	      <item>Persia </item>
+  	      <item>Gabrielle Petit</item>
+  	      <item>Mary Pickford </item>
+  	      <item>Pilgrim maiden/mother </item>
+  	      <item>Pioneer women monuments</item>
+  	      <item>Pocahontas</item>
+  	      <item>Emily Post</item>
+  	      <item>Ramona </item>
+  	      <item>Alice Roosevelt</item>
+  	      <item>Betsy Ross </item>
+  	      <item>Lillian Russell</item>
+  	      <item>Ann Rutledge</item>
+  	      <item>Sakajawea </item>
+  	      <item>Deborah Sampson</item>
+  	      <item>Mary E. Schenley</item>
+  	      <item>Mary Shaw </item>
+  	      <item>Frances Slocum </item>
+  	      <item>Elizabeth Foster (Mother Goose)</item>
+  	      <item>Margaret Chase Smith </item>
+  	      <item>Barbara Fritchie</item>
+  	      <item>Elizabeth Cady Stanton</item>
+  	      <item>Statue of Liberty</item>
+  	      <item>Lucy Stone </item>
+  	      <item>Harriet Beecher Stowe </item>
+  	      <item>Tahitian Dancer </item>
+  	      <item>Shirley Temple (Black)</item>
+  	      <item>Nyla Thompson </item>
+  	      <item>Joanna Troutmann </item>
+  	      <item>United Daughters of the Confederacy</item>
+  	      <item>Jennie Wade </item>
+  	      <item>Mrs. Humphrey Ward </item>
+  	      <item>Mary (Polly) Warner </item>
+  	      <item>Peregrine White</item>
+  	      <item>Mrs. Wiggs </item>
+  	      <item>Ella Wheeler Wilcox</item>
+  	      <item>Frances Willard </item>
+  	      <item>Mrs. Willoughby</item>
+</list>	
+</odd>
+
+
+
+      <dsc type="in-depth" id="list-contlist">
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Postcards of women and historic sites related to women</unittitle>
+            </did>
+            <note>
+               <p>
+                  <ref target="odd-app">[See appendix]</ref>
+               </p>
+            </note>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1A</container>
+               <unittitle>Pamphlets: women's history sites and tours</unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Photographs and other images of women and families<unitdate>1860s-1950s</unitdate></unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3-4A</container>
+               <unittitle>Political buttons</unittitle>
+            </did>
+	    <note>
+		<p>[See accession lists and notes in finding aid folder.]</p>
+	    </note>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">5</container>
+               <unittitle>31 commemorative portrait medallions issued by the Societe de Commemorative de Femmes Celebres, newsletters and related documents<unitdate>1968-2004</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">5</container>
+               <unittitle>Photograph (photocopy) and publications<unitdate>1976, n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>OVERSIZE MATERIAL</unittitle>
+            </did>
+	    <c02>
+            <did>
+               <container type="box">6</container>
+               <unittitle>Mobilize for Women's Lives march ribbon sash, Lincoln Memorial, Washington, D.C.<unitdate>1989 November 12</unitdate></unittitle>
+            </did>
+	    </c02>
+	    <c02>
+            <did>
+               <container type="box">6</container>
+               <unittitle>March for Women's Lives, D.C.: posters, fliers, and memorabilia<unitdate>2004 April 25</unitdate></unittitle>
+            </did>
+	    <note>
+		<p>[See list in finding aid folder.]</p>
+	    </note>
+	    </c02>
+	    <c02>
+            <did>
+               <container type="box">7</container>
+               <unittitle>Lavendar Menace t-shirt; scarf and tote bag made from t-shirts<unitdate>1970s</unitdate></unittitle>
+            </did>
+	    </c02>
+	    <c02>
+            <did>
+               <container type="box">8</container>
+               <unittitle>Images featuring women clipped from <title render="italic">Ballou's Pictorial Drawing-Room Companion</title>, <title render="italic">Harper's Weekly</title>, <title render="italic">The Illustrated London News</title>, <title render="italic">Illustrated Times</title><unitdate>1855-1875</unitdate></unittitle>
+            </did>
+	    </c02>
+	    <c02>
+            <did>
+               <container type="map-case">Flat file</container>
+               <unittitle>Posters (5): March for Women's Lives, D.C., April <unitdate>2004</unitdate></unittitle>
+            </did>
+	    </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

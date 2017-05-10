@@ -1,0 +1,482 @@
+<ead>
+ <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca379.xml//EN" countrycode="us" mainagencycode="manosca">manosca379</eadid>
+	<filedesc>
+	  <titlestmt>
+		<titleproper encodinganalog="245$a">Quentin Quesnell papers, 1927 - 2012 (bulk 1970 - 2000)</titleproper>
+		<subtitle>Finding Aid</subtitle>
+		<author encodinganalog="245$c">Finding aid prepared by Elizabeth Carron.</author>
+		 
+	  </titlestmt>
+	  <publicationstmt>
+		<publisher encodinganalog="260$b">Smith College Archives</publisher>
+		<address>
+		  <addressline>Northampton, MA</addressline>
+		  <addressline></addressline>
+		</address>
+		<date encodinganalog="260$c" normal="2014">2014</date>
+	  </publicationstmt>
+	</filedesc>
+	<profiledesc>
+	  <creation encodinganalog="500">Finding aid encoded in NoteTab Pro. Encoded by Elizabeth Carron. 
+		<date normal="2014-12-11">2014-12-11</date>
+	  </creation>
+	  <langusage>Finding aid written in
+		<language encodinganalog="546" langcode="eng" scriptcode="latn">English</language>
+	  </langusage>
+	</profiledesc>
+  </eadheader>
+
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did id="main">
+	<head>Collection Overview</head>
+	<origination label="Creator:">
+		<persname source="lcnaf" encodinganalog="100 1">Quesnell, Quentin</persname>
+	</origination>
+	<unittitle label="Title:" encodinganalog="245$a">Quentin Quesnell papers</unittitle>
+	<unitdate type="inclusive" label="Dates:">1927 - 2012</unitdate>
+	<unitdate type="bulk" encodinganalog="245$g">1970 - 2000</unitdate>
+	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+	
+	<physdesc label="Quantity:">
+		<extent encodinganalog="300$a">2 document boxes, 1 flat file</extent>
+		<extent encodinganalog="300$a">( 1.5 linear ft.)</extent>
+
+
+
+	</physdesc>
+	<langmaterial label="Language of Material:" encodinganalog="546">English, Greek</langmaterial>
+	<repository label="Location:">
+		<corpname>Smith College Archives</corpname>
+		<address>
+		  <addressline>Northampton, MA</addressline>
+		  <addressline></addressline>
+		</address>
+	</repository>
+	<abstract encodinganalog="520$a" label="Abstract:">
+		Faculty. Head of the Department of Religion from 1975 to 1997. The papers contain biographical materials including a complete bibliography, correspondence, notes, photographs, publications and research.  
+	</abstract>
+    </did>
+
+
+<!-- Enter collection level metadata -->
+    <bioghist id="bioghist">
+	<head>Biographical Note</head>
+<p>	Born on February 27, 1927 in Milwaukee, Wisconsin, Quesnell earned a Master's Degree in Philosophy and an STL from St. Louis University. He later did studies in eastern languages and the Bible in Vienna, Paris, Jerusalem, and Rome. After receiving a PhD in Sacred Scriptures from the Pontifical Biblical Institute, he joined Marquette University as a professor (1966 - 1972). He left Marquette for Smith College, becoming the head of the Department of religion from 1975 until 1997. During his time at Smith, Quesnell met fellow professor Jean Higgins and the two married in 1973. After retirement in 1997, he was awarded the Roe Straut Professor Emeritus (Roe Straut Professor of Humanities, 1988). 
+</p>
+<p>Quesnell actively engaged in several scholarly debates throughout his lifetime but is most known for his role in the Mar Saba Letter debate and his subsequent high-profile disputes with the discoverer letter, Morton Smith (1915 - 1991). In 1973 Smith published two books on his discovery of a previously unknown letter written by Clement of Alexandria to "Theodore" regarding a secret gospel of Mark. Quesnell's initial skepticism of the authenticity of this discovery sparked a 30-year debate within the academic community.</p>
+
+    </bioghist>
+    <scopecontent id="scope">
+	<head>Scope and Contents of the Collection</head>
+	<p>The collection contains correspondence, photographic prints and slides, publications, research and Quesnell's professional file.</p>
+ </scopecontent>
+
+<arrangement id="scope-org" encodinganalog="351$a">
+<head>Organization of the Collection</head>
+<p>This collection is organized into five series:</p>
+<list>
+<item>
+<ref target="list-ser1">Correspondence</ref>
+</item>
+<item>
+<ref target="list-ser2">Professional Life</ref>
+</item>
+<item>
+<ref target="list-ser3">Publications</ref>
+</item>
+<item>
+<ref target="list-ser4">Research</ref>
+</item>
+<item>
+<ref target="list-ser5">Oversized Materials</ref>
+</item>
+</list>
+</arrangement>
+
+   
+<!-- End collection level metadata -->
+
+
+<!-- Enter administrative information -->
+    <accessrestrict encodinganalog="506" id="admin-access">
+	<p>Except where noted in the finding aid, the papers are open to research according to the regulations of the Smith College Archives.  </p>
+    </accessrestrict>
+    <userestrict encodinganalog="540" id="admin-use">
+	<p>Smith College owns copyright to any published material relating to college events and activities. Copyright to materials created by other individuals may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Smith College Archives to publish reproductions or quotations beyond "fair use."</p>
+    </userestrict>
+    <prefercite id="admin-cite">
+	<p>Please use the following format when citing materials from this collection:</p>
+	<p>Quentin Quesnell papers, Box #, Smith College Archives </p>
+    </prefercite>
+    <acqinfo id="admin-acqinfo">
+	<p>The Quentin Quesnell Papers, 1927 - 2012 were created by Quentin Quesnell and donated over a period of two (2) years to the College Archives.</p> 
+    </acqinfo>
+    <processinfo id="admin-process">
+	<p>Aquisition evalutation performed by Mark Umstot, Simmons Library and Information Science student internship, 2013.
+Collection processed and encoded by Elizabeth Carron, Archives Specialist.</p> 
+    </processinfo>
+
+<!-- End administrative information -->
+
+
+<!-- Enter controlled access terms -->
+    <controlaccess id="subj">
+	  
+	<subject encodinganalog="650" source="lcsh">Bible -- Study and teaching (Higher) - Massachusetts -- Northampton.</subject>
+	<subject encodinganalog="650" source="lcsh">Hapax legomenon.</subject>
+	<subject encodinganalog="650" source="lcsh">Hebrew language -- Lexicology.</subject>
+	<subject encodinganalog="650" source="lcsh">Literary forgeries and mystifications - Early works to 1800.</subject>
+	<subject encodinganalog="650" source="lcsh">Mar Saba (Monastery)</subject>
+	<subject encodinganalog="650" source="lcsh">Secret Gospel according to Mark.</subject>
+	<persname encodinganalog="600" source="lcnaf">Quesnell, Quentin, 1927 -- 2012.</persname> 
+	<persname encodinganalog="600" source="lcnaf">Smith College. Department of Religion and Biblical Literature.</persname> 
+	<persname encodinganalog="600" source="lcnaf">Smith, Morton, 1915 -- 1991.</persname> 
+	<subject encodinganalog="650" source="lcsh">Writing -- Identification.</subject>
+	<genreform encodinganalog="655" source="aat">35mm</genreform> 
+	<genreform encodinganalog="655" source="aat">correspondence</genreform> 
+	<genreform encodinganalog="655" source="aat">drafts (documents)</genreform> 
+	<genreform encodinganalog="655" source="aat">manuscripts for publication</genreform> 
+	<genreform encodinganalog="655" source="aat">photographic prints</genreform> 
+
+  </controlaccess>
+<!-- end controlled access terms -->
+
+
+<!-- Enter additional information -->
+    <relatedmaterial id="add-related">
+	<p>   <list>
+	<item>42. Faculty - Quesnell, Jean Higgins</item>
+	<item>52. Department of Religion</item>
+   </list>
+</p>
+    </relatedmaterial>
+
+
+  <separatedmaterial id="add-separated">
+
+
+<p>Additional unprocessed materials are housed in fourteen (14) record center cartons measuring fourteen (14) linear feet. A 
+<extref href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ca_manosca379.pdf">preliminary inventory</extref> is available. Please contact the Smith College Archives for more information.</p>
+    </separatedmaterial>
+  
+
+
+<!-- End additional information -->
+
+
+<!-- Enter Series descriptions -->
+
+<dsc type="in-depth" id="list-contlist">
+   <c01 level="series" id="list-ser1">
+      <did>
+         <unittitle>Series I: Correspondence</unittitle>
+      </did>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">1</container>
+            <unittitle>Brown, Scott 
+               <unitdate>1994 - 2003</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">2</container>
+            <unittitle>Brown, Scott (thesis)
+               <unitdate>1994 - 2003</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">3</container>
+            <unittitle>editorial materials
+               <unitdate>1970 - 2000</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">4</container>
+            <unittitle>Fish, Dick
+               <unitdate>1990 - 1995</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">5</container>
+            <unittitle>Paananen, Timo
+               <unitdate>2009 - 2011</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">6</container>
+            <unittitle>Quesnell, Jean Higgins
+               <unitdate>1983</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">7</container>
+            <unittitle>Smith, Morton
+               <unitdate>1970 - 1985</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+<c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">8</container>
+            <unittitle>various scholars
+               <unitdate>1975 - 2005</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+   </c01>
+   <c01 level="series" id="list-ser2">
+      <did>
+         <unittitle>Series II: Professional Life</unittitle>
+      </did>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">9</container>
+            <unittitle>Smith College 
+               <unitdate>1994 - 2003</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+   </c01>
+   <c01 level="series" id="list-ser3">
+      <did>
+         <unittitle>Series III: Publications</unittitle>
+      </did>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">10</container>
+            <unittitle>"An Amusing Pericope" 
+               <unitdate>1994</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">11</container>
+            <unittitle>"Internal of the Literary Analysis"
+               <unitdate>1975 - 1989</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">12</container>
+            <unittitle>"The Mar Saba Clementine: A Question of Evidence"
+               <unitdate>1973 - 1985</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">13</container>
+            <unittitle>"A New Gospel Story and It's Explanation"
+               <unitdate>1975 - 1990</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">14</container>
+            <unittitle>"A Note On Overkill"
+               <unitdate>undated</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">1</container>
+            <container type="folder">15</container>
+            <unittitle>(review) "The Secret Gospel: The Discovery and Interpretation of the Secret Gospel According to Mark"
+               <unitdate>197</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+   </c01>
+   <c01 level="series" id="list-ser4">
+      <did>
+         <unittitle>Series IV: Research</unittitle>
+      </did>
+      <c02>
+         <did>
+            <container type="box">2</container>
+            <container type="folder">16</container>
+            <unittitle>handwriting analysis
+               <unitdate>undated</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">2</container>
+            <container type="folder">17</container>
+            <unittitle>Hapax legomenon
+               <unitdate>undated</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">2</container>
+            <container type="folder">18</container>
+            <unittitle>notes: A - H
+               <unitdate>undated</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">2</container>
+            <container type="folder">19</container>
+            <unittitle>notes: I -N
+               <unitdate>undated</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">2</container>
+            <container type="folder">20</container>
+            <unittitle>notes: O - Z
+               <unitdate>undated</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">2</container>
+            <container type="folder">21</container>
+            <unittitle>notes: untitled
+               <unitdate>undated</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">2</container>
+            <container type="folder">22</container>
+            <unittitle>notes: 2009
+               <unitdate>2009</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+      <c02>
+         <did>
+            <container type="box">2</container>
+            <container type="folder">23</container>
+            <unittitle>Professional Development Fund
+               <unitdate>1987 - 1988</unitdate>
+            </unittitle>
+         </did>
+      </c02>
+   </c01>
+   <c01 level="series" id="list-ser5">
+            <did>
+         <unittitle>Series V: Oversized Materials</unittitle>
+      </did>
+      <c02>
+<did>
+<container type="box">3</container>
+<unittitle>(3) 8" x 11" photographs, unknown manuscript
+<unitdate>circa 1988</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>(33) 11" x 14" photographs, unknown manuscript	
+<unitdate>circa 1988</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>(3) slides of a stone fish, sent by Dick Fish (see Correspondence)
+<unitdate>1995</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>( 9 ) slides; "unknown manuscript"
+<unitdate>circa 1983</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>( 3 ) slides; shelfmark, "VD v18"; by Garo Nalbandian
+<unitdate>circa 1983</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>( 4) slides;  title page, "Bibliotheque Maj. Coll. 1776"; by Garo Nalbandian
+<unitdate>circa 1983</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>( 3 ) slides; colophon, "Isacci Vossii de septuaginta interpretibus corumpque tralatione atque chronologia dissertatione"; by Garo Nalbandian
+<unitdate>circa 1983</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>( 4 ) slides;  title page, "Gerardi Ioannis Vossii harmoniae evangelicae de passion, morte, resurrection atque ascension Jesu Christi salvatoris nostri"; by Garo Nalbandian
+<unitdate>circa 1983</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>( 2 ) slides;  front endpaper, "Nota pro domina ad Xbre 1735", "Nota pro Marehesina Julio 1737", unknown manuscript; by Garo Nalbandian
+<unitdate>circa 1983</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+</dsc>
+
+<!-- End container list -->
+
+  </archdesc>
+</ead>
+
+

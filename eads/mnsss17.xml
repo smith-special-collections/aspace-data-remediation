@@ -1,0 +1,497 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss17.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss17</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Virginia Heim George Papers, 1925-1981
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Susan Boone.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-05</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss17 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Virginia Heim George Papers, 1925-1981
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>221
+      </num>
+         <author encodinganalog="245$c">Susan Boone
+      </author>
+         <date>1990
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">George, Virginia Heim, 1908-</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Virginia Heim George Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1925-1981</unitdate>
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">221</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">2 boxes</extent>
+            <extent encodinganalog="300$a">(1 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">YWCA executive, YWCA overseas secretary, and USO official.  Most material in the George papers pertains to her foreign secretary work in South America and Czechoslovakia and her USO work in the Caribbean. Personal letters and travel diaries include descriptions of life in Brazil and the Caribbean and in post-war Czechoslovakia and West Germany.  Material also includes speeches, clippings and photographs.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist-chron">
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date>1908</date>
+               <event>Born in St. Joseph, Missouri</event>
+            </chronitem>
+            <chronitem>
+               <date>1929</date>
+               <event>University of Wisconsin, major in economics</event>
+            </chronitem>
+            <chronitem>
+               <date>1929-40</date>
+               <eventgrp>
+                  <event>Program Director, YWCA, working with industrial workers, Kansas City, Utica, Pittsburgh</event>
+                  <event>Camp Director, YWCA </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1937</date>
+               <event>Carnegie Institute of Technology, graduate study in group work</event>
+            </chronitem>
+            <chronitem>
+               <date>1940-43</date>
+               <event>Executive Director, YWCA, Rio de Janiero, Brazil</event>
+            </chronitem>
+            <chronitem>
+               <date>1943-45</date>
+               <event>Regional Assistant Director of USO, Brazil, Caribbean Area</event>
+            </chronitem>
+            <chronitem>
+               <date>1946-48</date>
+               <event>Program Consultant, YWCA, Czechoslovakia, with two-week special</event>
+            </chronitem>
+            <chronitem>
+               <date>1948-51</date>
+               <event>National staff, YWCA, Community Division, working with business</event>
+            </chronitem>
+            <chronitem>
+               <date>1951-53</date>
+               <event>Group work and recreational director, YWCA, Oakland, California</event>
+            </chronitem>
+            <chronitem>
+               <date>1953-56</date>
+               <event>Executive Director, YWCA, Yakima, Washington</event>
+            </chronitem>
+            <chronitem>
+               <date>1956-66</date>
+               <event>Executive Director, YWCA, Utica, New York</event>
+            </chronitem>
+            <chronitem>
+               <date>1962-64</date>
+               <event>Advisor, YWCA, Taipei, Taiwan</event>
+            </chronitem>
+            <chronitem>
+               <date>1966-71</date>
+               <event>Advisor, YWCA, Colombia, with three short periods in Lima, Peru</event>
+            </chronitem>
+            <chronitem>
+               <date>1971</date>
+               <event>Executive Director, YWCA, Omaha, Nebraska</event>
+            </chronitem>
+	 <chronitem>
+               <date>2003?</date>
+               <event>Virginia Heim George died circa 2003</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2673.jpg" altrender="right">
+<daodesc><p>Virginia Heim (right) and others in<lb />
+            Bogota, Columbia, circa 1966-71</p></daodesc></dao>
+         <p>The Virginia Heim George Papers consist of one linear foot of correspondence, diaries, clippings, and photographs. The inclusive dates are 1925 to 1981, but the major portion of the material dates from 1940 to 1948, related to her foreign secretary work for the YWCA in South America and Czechoslovakia and her USO work in the Caribbean.</p>
+         <p>The papers are divided into two series, PERSONAL and  PROFESSIONAL. The PERSONAL material contains correspondence and diaries, both ranging from 1940 to 1981. The correspondence consists of letters to her family, mostly to her mother, with a small amount of incoming correspondence from family and friends, 1945-50. The nine diaries consist of six written between 1940 and 1948, plus three travel accounts from 1953, 1965, and 1981.  Both the letters and diaries provide a detailed description of George's life while working for the YWCA and the USO. She was an eager and enthusiastic participant in her work and also took advantage of the opportunities it provided to travel extensively. She was a keen observer of the countries she visited and the people she met. Her wartime letters as well and those from postwar Czechoslovakia reflect the mail censorship of the times. As a result the diaries and the occasional letters that she was able to write freely are more candid. The diaries written from her two trips to Czechoslovakia in 1965 and 1981 contain particularly interesting accounts of life there, and the 1965 account reports earlier arrests and trials, particularly an incident involving the YWCA in 1948.</p>
+         <p>The PROFESSIONAL material consist of clippings and articles about George and her work, 1925-1975, three reports from her Czechoslovakia and Germany experiences, 1948, and a nine-page speech on the USO, ca. 1945. In this series are also fifteen photographs, five of the USO, six related to the YWCA, and four of women in Puerto Rico.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into two series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Personal</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Professional</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to unpublished works of Virginia Heim George. Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
+           </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Virginia Heim George Papers, Sophia Smith Collection, Smith College, Northampton, MA</p>
+         </prefercite>
+	<altformavail id="admin-altform">
+		<head>Additional Formats</head>
+		<p>Selections from the Virginia Heim George Papers can be viewed in the Web exhibit	<extref href="http://www.smith.edu/libraries/libs/ssc/ywca-os/ywca-home.html">"An Ever-Widening Circle of Friendship":  YWCA Overseas Secretaries from China to Liberia</extref>.</p>
+	</altformavail>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Virginia Heim George Papers were a gift of Mrs. George in 1989.
+          </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Susan Boone, 1990.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <geogname encodinganalog="651" source="lcsh">Czechoslovakia--History--1945-1992--Sources</geogname>
+         <persname encodinganalog="600" source="lcnaf">George, Virginia Heim, 1908-</persname>
+         <geogname encodinganalog="651" source="lcsh">Brazil--History--20th century--Sources</geogname>
+         <geogname encodinganalog="651" source="lcsh">Caribbean area--History--20th century--Sources</geogname>
+         <corpname encodinganalog="610" source="lcnaf">United Service Organizations (U.S.)--History--Sources</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association of the U.S.A.--History--Sources</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association--South America--History--Sources</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association--World War, 1939-1945--War Work</corpname>
+      </controlaccess>
+      <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. PERSONAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Outgoing to family</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">1</container>
+                        <unittitle>
+                           <unitdate>1940</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">2</container>
+                        <unittitle>
+                           <unitdate>1941</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">3</container>
+                        <unittitle>
+                           <unitdate>1943</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">4</container>
+                        <unittitle>
+                           <unitdate>1944 Feb-Jun</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">5</container>
+                        <unittitle>
+                           <unitdate>1944 Jul-Dec</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">6</container>
+                        <unittitle>
+                           <unitdate>1945 Jan-Jun</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">7</container>
+                        <unittitle>
+                           <unitdate>1945 Jul-Dec</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">8</container>
+                        <unittitle>
+                           <unitdate>1946 Jan-Jun</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">9</container>
+                        <unittitle>
+                           <unitdate>1946 Jul-Dec</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">10</container>
+                        <unittitle>
+                           <unitdate>1947</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">11</container>
+                        <unittitle>
+                           <unitdate>1948</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">12</container>
+                        <unittitle>
+                           <unitdate>1951-81</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Incoming</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">13</container>
+                        <unittitle>Mildred Heim Gumm (sister),<unitdate> 1945-50</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">14</container>
+                        <unittitle>Friends,<unitdate> 1945-46, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">15</container>
+                     <unittitle>Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diaries</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">16</container>
+                     <unittitle>
+                        <unitdate>Jul-Nov 1940 (Brazil)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <unitdate>Jan-Feb 1941 (Brazil)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">17</container>
+                     <unittitle>
+                        <unitdate>Jan-Feb 1943 (Brazil-San Francisco River trip)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <unitdate>1945-46 (Puerto Rico, Czechoslovakia)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">18</container>
+                     <unittitle>
+                        <unitdate>1946-47 (Czechoslovakia)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <unitdate>1947-48 (Scandinavia, Czechoslovakia, Switzerland)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">19</container>
+                     <unittitle>
+                        <unitdate>1959? (U.S. trip itinerary)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <unitdate>1965 (Czechoslovakia)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <unitdate>1981 (Czechoslovakia)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. PROFESSIONAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">20</container>
+                  <unittitle>Clippings, articles,<unitdate> 1925-75</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">21</container>
+                  <unittitle>Reports, speech,<unitdate> 1945, 1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Photographs</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">22</container>
+                     <unittitle>YWCA</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">23</container>
+                     <unittitle>USO</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">24</container>
+                     <unittitle>Puerto Rico</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

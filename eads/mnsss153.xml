@@ -1,0 +1,884 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss153.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss153</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Midwifery Collection, 1972-1999</titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss153 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Midwifery Collection, 1972-1999
+
+
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 454
+
+      </num>
+         <date>Revised 2002
+
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main-overview">
+         <head>Collection Overview</head>
+         <unittitle label="Title:" encodinganalog="245$a">Midwifery Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1972-1999</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 454</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">6 boxes</extent>
+            <extent encodinganalog="300$a">(3 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">The Midwifery Collection includes articles, pamphlets, periodicals, by-laws, and newsletters pertaining to the practice of midwifery and home birth.  Included are publications of the Alliance of Radical Midwives, the Alternative Birth Association, National Midwives Association and the American College of Nurse Midwives.  The collection also contains information on schools and training for midwifery, insurance, legal status, and protocols of practice.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The Midwifery Collection is comprised entirely of printed materials such as articles, newspaper clippings, pamphlets, periodicals, by-laws, and newsletters pertaining to the practice of midwifery and home birth.  Included are publications of organizations such as the Alliance of Radical Midwives, the Alternative Birth Association, National Midwives Association and the American College of Nurse Midwives.  There are also files arranged by region, primarily in the United States. The collection also contains information on schools and training for Midwifery, insurance, legal status, and protocols of practice.  The collection dates from 1972 to 1999.</p>
+      </scopecontent>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Permission to publish quotations for publication beyond "fair use" must be obtained from the Sophia Smith Collection.</p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Midwifery Collection, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions to collection are expected.
+
+        </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Most of the materials in this subject collection were removed from the records of the Midwives' Alliance of North America when that collection was processed in 1999.  Additional items were purchased or given to the Sophia Smith Collection by various donors. </p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj-subheads">
+         <head>Search Terms</head>
+         
+         <corpname encodinganalog="610" source="lcnaf">American College of Nurse Midwives</corpname>
+         <subject encodinganalog="650" source="lcsh">Maternal health services--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Midwives--Education--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Midwives--Legal status, laws, etc.--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Midwives--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Childbirth at home--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Natural childbirth--History--20th century</subject>
+         <subject encodinganalog="650" source="lcsh">Women's health services--United States--History--20th century--Sources</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Associated material in contained in the Midwives' Alliance of North America Records, Sophia Smith Collection.
+
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="list-contlist">
+         <c01>
+            <did>
+               <unittitle>General Printed Material</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1-2</container>
+                  <unittitle>Articles and clippings,<unitdate> 1972-93, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Pamphlets,<unitdate> 1990, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Periodicals</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>
+                        <title>Midwife to Midwife</title>,<unitdate> 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4a</container>
+                     <unittitle>
+                        <title>Midwifery Matters</title>,<unitdate> 1993</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>
+                        <title>Practicing Midwife</title>,<unitdate> 1979-83, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Memorabilia</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Organizations</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Alliance of Radical Midwives,<unitdate> 1991, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Alternative Birth Association,<unitdate> 1979, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>American College of Nurse Midwives</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">9</container>
+                     <unittitle>By-laws and articles of incorporation,<unitdate> 1989, 1992</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">10</container>
+                     <unittitle>Meetings and conferences,<unitdate> 1987-93</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>Directories and membership,<unitdate> 1992, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>Position statements,<unitdate> 1978-93, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Articles and publications</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">13</container>
+                        <unittitle>Miscellaneous,<unitdate> 1976-92, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">14</container>
+                        <unittitle>
+                           <title>Quickening</title>,<unitdate> 1981-94</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">1</container>
+                     <unittitle>Rural health,<unitdate> 1991, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">2</container>
+                     <unittitle>Training and credentials,<unitdate> 1990-93, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">3</container>
+                     <unittitle>Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4</container>
+                  <unittitle>Association for Childbirth at Home,<unitdate> 1975-78</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">5</container>
+                  <unittitle>Childbirth Education Association,<unitdate> 1976-80</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">6</container>
+                  <unittitle>Citizens for Midwifery,<unitdate> 1997-99</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">7</container>
+                  <unittitle>Continental Friends of Midwives,<unitdate> 1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">8</container>
+                  <unittitle>The Farm,<unitdate> 1978-83</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">9</container>
+                  <unittitle>Home Oriented Maternity Experience (HOME),<unitdate> 1976-78</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">10</container>
+                  <unittitle>Homebirth,<unitdate> 1975-81</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">11</container>
+                  <unittitle>International Childbirth Education Association,<unitdate> 1976-93, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">12</container>
+                  <unittitle>National Association of Childbearing Centers,<unitdate> 1989-93</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">13</container>
+                  <unittitle>National Association of Parents and Professionals for Safe Alternatives in Childbirth (NAPSAC),<unitdate> 1978-89</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>[See also NAPSAC News in Sophia Smith Collection periodicals]</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">14</container>
+                  <unittitle>National Midwives Association,<unitdate> 1977-82</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">15</container>
+                  <unittitle>Miscellaneous organizations,<unitdate> 1973-97</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Schools and training</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">16</container>
+                     <unittitle>New York School of Midwifery,<unitdate> 1990, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="list-seattle">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">17</container>
+                     <unittitle>Seattle Midwifery School,<unitdate> 1984-96</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">18</container>
+                     <unittitle>Miscellaneous,<unitdate> 1990-97</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>States and Countries</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">1</container>
+                  <unittitle>Alaska: Alaska Midwives Association,<unitdate> 1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">2</container>
+                  <unittitle>Arizona,<unitdate> 1987-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">3</container>
+                  <unittitle>Arkansas,<unitdate> 1984-89</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>California</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">4</container>
+                     <unittitle>Miscellaneous,<unitdate> 1976-93</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">5</container>
+                     <unittitle>California Association of Midwives,<unitdate> 1992</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Canada</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">6</container>
+                     <unittitle>Miscellaneous,<unitdate> 1983-92, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">7</container>
+                     <unittitle>Ontario,<unitdate> 1985-93</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">8</container>
+                  <unittitle>Colorado,<unitdate> 1983-93</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">9</container>
+                  <unittitle>Delaware,<unitdate> 1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Florida</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">1</container>
+                     <unittitle>Miscellaneous,<unitdate> 1981-94</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">2</container>
+                     <unittitle>Florida Friends of Midwives,<unitdate> 1991-92</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">3</container>
+                  <unittitle>Georgia,<unitdate> 1986-87</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">4</container>
+                  <unittitle>Illinois,<unitdate> 1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">5</container>
+                  <unittitle>Indiana,<unitdate> 1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">6</container>
+                  <unittitle>Kansas,<unitdate> 1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">7</container>
+                  <unittitle>Kentucky,<unitdate> 1991, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">8</container>
+                  <unittitle>Maine,<unitdate> 1977-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">9</container>
+                  <unittitle>Maryland,<unitdate> 1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Massachusetts</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">10</container>
+                     <unittitle>Massachusetts Friends of Midwives,<unitdate> 1992, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">11</container>
+                     <unittitle>Massachusetts Midwives Alliance,<unitdate> 1985-92</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">12</container>
+                     <unittitle>Miscellaneous,<unitdate> 1991</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">13</container>
+                  <unittitle>Michigan, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">14</container>
+                  <unittitle>Minnesota,<unitdate> 1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Missouri</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">15</container>
+                     <unittitle>Miscellaneous,<unitdate> 1987-93</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">16</container>
+                     <unittitle>Missouri Midwives Association,<unitdate> 1991-93</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">17</container>
+                  <unittitle>Montana,<unitdate> 1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">1</container>
+                  <unittitle>Nebraska,<unitdate> 1993</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">2</container>
+                  <unittitle>New Hampshire,<unitdate> 1974-87</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>[See also Carol Leonard Papers]</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">3</container>
+                  <unittitle>New Jersey,<unitdate> 1989-94</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">4</container>
+                  <unittitle>New Mexico,<unitdate> 1984-90, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>New York</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">5</container>
+                     <unittitle>Miscellaneous,<unitdate> 1980-95</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">6</container>
+                     <unittitle>Midwives Alliance of New York,<unitdate> 1991</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">7</container>
+                     <unittitle>Midwifery Task Force of New York,<unitdate> 1986-92</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">8</container>
+                     <unittitle>New York Tocologist Association,<unitdate> 1983, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">9</container>
+                  <unittitle>North Dakota,<unitdate> 1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">10</container>
+                  <unittitle>Oregon,<unitdate> 1980-83</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pennsylvania</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">11</container>
+                     <unittitle>Miscellaneous,<unitdate> 1984-89</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Pennsylvania Midwives Association,<unitdate> 1989, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">12</container>
+                  <unittitle>Tennessee,<unitdate> 1987-90, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">13</container>
+                  <unittitle>Texas,<unitdate> 1986, n.d.</unitdate>
+                  </unittitle>
+               </did>
+		<c03>
+			<did>
+				<container type="box">5</container>
+				<container type="folder">13</container>
+				<unittitle>General,
+					<unitdate>1986, n.d.</unitdate>
+				</unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+				<container type="box">5</container>
+				<container type="folder">14</container>
+				<unittitle>Cox, Kay: interview and related documents
+					<unitdate>1973-2009</unitdate>
+				</unittitle>
+			</did>
+	<accessrestrict>
+		<p>[A/V duplication required prior to research use]</p>
+	</accessrestrict>
+		</c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">1</container>
+                  <unittitle>Utah,<unitdate> 1985, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">2</container>
+                  <unittitle>Vermont,<unitdate> 1990, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">3</container>
+                  <unittitle>Washington,<unitdate> 1984-91</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-seattle">[See also Seattle Midwifery School]</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">4</container>
+                  <unittitle>West Virginia, Wisconsin, and Wyoming,<unitdate> 1983-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">5</container>
+                  <unittitle>Miscellaneous countries, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Subjects</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">6</container>
+                  <unittitle>Insurance,<unitdate> 1985-89, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">7</container>
+                  <unittitle>Law and legal status,<unitdate> 1971-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">8</container>
+                  <unittitle>Protocols of practice,<unitdate> 1986</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

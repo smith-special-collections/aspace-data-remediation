@@ -1,0 +1,951 @@
+<ead>
+ <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss509.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss509</eadid>
+	<filedesc>
+	  <titlestmt>
+		<titleproper encodinganalog="245$a">Living U.S. Women's History Oral History Project</titleproper>
+		<subtitle>Finding Aid</subtitle>
+		<author encodinganalog="245$c">Finding aid prepared by Susan L. Boone.</author>
+		 
+	  </titlestmt>
+	  <publicationstmt>
+		<publisher encodinganalog="260$b">Sophia Smith Collection</publisher>
+		<address>
+		  <addressline>Smith College </addressline>
+		  <addressline>Northampton, MA</addressline>
+		</address>
+		<date encodinganalog="260$c" normal="2011">2011</date>
+	  </publicationstmt>
+	</filedesc>
+	<profiledesc>
+	  <creation encodinganalog="500">Finding aid encoded in NoteTab Pro. Encoded by Joanna Johnson. 
+		<date normal="2011-07-25">2011-07-25</date>
+	  </creation>
+	  <langusage>Finding aid written in
+		<language encodinganalog="546" langcode="eng" scriptcode="latn">English</language>
+	  </langusage>
+	</profiledesc>
+  </eadheader>
+
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did id="main">
+	<head>Collection Overview</head>
+	<unittitle label="Title:" encodinganalog="245$a">Living U.S. Women's History Oral History Project</unittitle>
+	<unitdate type="inclusive" label="Dates:">2000-2005</unitdate>
+	
+	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 423</unitid>
+	
+	<physdesc label="Quantity:">
+		<extent encodinganalog="300$a">56 boxes</extent>
+		<extent encodinganalog="300$a">(17.25 linear ft.)</extent>
+	</physdesc>
+	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+</langmaterial>
+	<repository label="Location:">
+		<corpname>Sophia Smith Collection</corpname>
+		<address>
+		  <addressline>Smith College </addressline>
+		  <addressline>Northampton, MA</addressline>
+		</address>
+	</repository>
+	<abstract encodinganalog="520$a" label="Abstract:">The collection includes fifty-one oral histories of scholars of U.S. women's history.  The interviews document the emergence and development of women's history as a discipline from 1960 to 2000, as well as the interviewees' professional and personal lives, their choices, and their intellectual commitments.</abstract>
+    </did>
+
+
+<!-- Enter collection level metadata -->
+    <bioghist id="bioghist">
+	<head>Project History</head>
+		<p><title render="italic">Living U.S. Women's History: Voices From the Field, 1960-2000: An Oral History Archive</title> is part of a larger project: <title render="italic">The Emergence of U.S. Women's History, 1972-1997: A Model for the Gender Equity Movement</title>. The purpose of the larger project is to document the history "of people who have worked on gender equity in schools, universities and university groups."   The project was conceived and conducted by Mary Logan Rothschild, Professor of History and Women's Studies at Arizona State University, and Kathryn Kish Sklar, Distinguished Professor of History and Co-Director of the Center for the Historical Study of Women and Gender at the State University of New York at Binghamton.  Funding has been provided in part by the Center for the Historical Study of Women and Gender at SUNY--Binghamton; Arizona State University; the American Association of University Women; the Arizona Humanities Council; and the Arizona Historical Society.  The Sophia Smith Collection provided procedural advice in addition to agreeing to be the archival repository for project records.</p>
+    </bioghist>
+
+    <scopecontent id="scope">
+	<head>Scope and Contents of the Collection</head>
+		<p>The Living U.S. Women's History Oral History Project collection consists of 17.25 linear feet of audiotapes, videotapes and transcripts. There are fifty-one individual oral histories plus group discussions conducted between 2000 and 2005. The project documents the emergence and development of U.S. women's history between 1960 and 2000 by creating an archive that explores a new group of scholars who entered the historical profession after 1960. It explores these historians' professional and personal lives, their choices, and their intellectual commitments.</p>
+    </scopecontent>
+<!-- End collection level metadata -->
+
+
+<!-- Enter administrative information -->
+    <accessrestrict encodinganalog="506" id="admin-access">
+
+  	<p><title render="bold">Final, edited transcripts</title> are open for research with the following exceptions: </p>
+	     <list>
+		<item>Anderson Karen (pp. 68-69 closed until 15 Jan 2016)</item>
+		<item>Antler, Joyce (p. 31 closed until 15 Nov 2015)</item>
+		<item>Banner, Lois (pp. 23-24 closed until 4 Apr 2016)</item>
+		<item>Brumberg, Joan (p. 76 closed until 29 May 2016)</item>
+		<item>Conway, Jill (closed until 3 Dec 2017)</item>
+		<item>Hall, Jacquelyn (closed until ?)</item>
+		<item>Horowitz, Helen Lefkowitz (pp. 83-89 closed until 17 May 2016)</item>
+		<item>Leavitt, Judith (pp. 14-15 closed until 4 Jan 2026)</item>
+		<item>Miller, Page Putnam (pp. 67-68 closed until 7 Mar 2016)</item>
+		<item>Oates, Mary (closed until 16 Nov 2025)</item>
+		<item>Sklar, Kathryn Kish (pp. 77-78, p. 80 closed until 6 Oct 2015)</item>
+	   </list>
+
+	 <p>For partially restricted interviews, restricted pages have been removed from the public version of the transcripts.   Electronic copies of open transcripts are available.  All <title render="bold">original transcripts</title> are closed.   </p>
+	<p>The audio recordings for unrestricted interviews are available for research, but all quotes for publication must be drawn from the final, edited transcriptions.  Audio recordings with restricted portions are closed. All original audio cassette tapes are closed; copies must be requested for research use. </p>
+
+    </accessrestrict>
+    <userestrict encodinganalog="540" id="admin-use">
+	<p>All narrators retain copyright to their interviews during their lifetimes and must give written permission for the reproduction of any portion of tapes or transcriptions during their lifetimes.  Permission must also be obtained from the Sophia Smith Collection as owners of the physical property.</p>
+    </userestrict>
+    <prefercite id="admin-cite">
+	<p>Please use the following format when citing materials from this collection:</p>
+	<p>Living U.S. Women's History Oral History Project, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+    </prefercite>
+
+    <acqinfo id="admin-acqinfo">
+	<p>The Living U.S. Women's History Oral History Project collection was received by the Sophia Smith Collection between 2001 and 2008.</p> 
+    </acqinfo>
+    <processinfo id="admin-process">
+	<p>Processed by Susan L. Boone, 2008 </p> 
+    </processinfo>
+
+<!-- End administrative information -->
+
+
+<!-- Enter controlled access terms -->
+    <controlaccess id="subj">
+		<persname encodinganalog="600" source="lcnaf">Anderson, Karen, 1947-</persname>
+		<persname encodinganalog="600" source="lcnaf">Antler, Joyce</persname> 
+	<persname encodinganalog="600" source="lcnaf">Banner, Lois</persname> 
+	<persname encodinganalog="600" source="lcnaf">Brumberg, Joan Jacobs</persname> 
+	<persname encodinganalog="600" source="lcnaf">Buhle, Mari Jo</persname> 
+	<persname encodinganalog="600" source="lcnaf">Chafe, William</persname> 
+	<persname encodinganalog="600" source="lcnaf">Chamberlain, Mariam</persname> 
+	<persname encodinganalog="600" source="lcnaf">Conway, Jill K., 1934-</persname> 
+	<persname encodinganalog="600" source="lcnaf">Cook, Blanche Wiesen</persname> 
+	<persname encodinganalog="600" source="lcnaf">Cott, Nancy</persname> 
+	<persname encodinganalog="600" source="lcnaf">Degler, Carl</persname> 
+	<persname encodinganalog="600" source="lcnaf">DeHart, Jane</persname> 
+	<persname encodinganalog="600" source="lcnaf">Dublin, Thomas, 1946-</persname> 
+	<persname encodinganalog="600" source="lcnaf">DuBois, Ellen</persname> 
+	<persname encodinganalog="600" source="lcnaf">Dunn, Mary Maples</persname> 
+	<persname encodinganalog="600" source="lcnaf">Evans, Sara</persname> 
+	<persname encodinganalog="600" source="lcnaf">Freedman, Estelle</persname> 
+	<persname encodinganalog="600" source="lcnaf">Gluck, Sherna</persname> 
+	<persname encodinganalog="600" source="lcnaf">Gonzalez, Deena</persname> 
+	<persname encodinganalog="600" source="lcnaf">Gordon, Linda</persname> 
+	<persname encodinganalog="600" source="lcnaf">Hall, Jacquelyn Dowd</persname> 
+
+	<persname encodinganalog="600" source="lcnaf">Hewitt, Nancy</persname> 
+	<persname encodinganalog="600" source="lcnaf">Hine, Darlene Clark</persname> 
+	<persname encodinganalog="600" source="lcnaf">Horowitz, Helen L.</persname> 
+	<persname encodinganalog="600" source="lcnaf">Huyck, Heather</persname> 
+	<persname encodinganalog="600" source="lcnaf">Jensen, Joan</persname> 
+	<persname encodinganalog="600" source="lcnaf">Kerber, Linda</persname> 
+	<persname encodinganalog="600" source="lcnaf">Kerr, Louise Ano Nuevo</persname> 
+	<persname encodinganalog="600" source="lcnaf">Kessler-Harris, Alice</persname> 
+	<persname encodinganalog="600" source="lcnaf">Kidwell, Clara Sue</persname> 
+	<persname encodinganalog="600" source="lcnaf">Leavitt, Judith Walker</persname> 
+	<persname encodinganalog="600" source="lcnaf">Lerner, Gerda, 1920-</persname> 
+	<persname encodinganalog="600" source="lcnaf">Matsumoto, Valerie</persname> 
+	<persname encodinganalog="600" source="lcnaf">Mayo, Edith</persname> 
+	<persname encodinganalog="600" source="lcnaf">Miller, Page Putnam</persname> 
+	<persname encodinganalog="600" source="lcnaf">Norton, Mary Beth</persname> 
+	<persname encodinganalog="600" source="lcnaf">Oates, Mary</persname> 
+	<persname encodinganalog="600" source="lcnaf">Perdue, Theda, 1949-</persname> 
+	<persname encodinganalog="600" source="lcnaf">Rosen, Ruth</persname> 
+	<persname encodinganalog="600" source="lcnaf">Rothschild, Mary Logan</persname> 
+	<persname encodinganalog="600" source="lcnaf">Ruíz, Vicki</persname> 
+	<persname encodinganalog="600" source="lcnaf">Rupp, Leila J., 1950-</persname> 
+	<persname encodinganalog="600" source="lcnaf">Ryan, Mary P.</persname> 
+	<persname encodinganalog="600" source="lcnaf">Scott, Anne Firor</persname> 
+	<persname encodinganalog="600" source="lcnaf">Sklar, Kathryn Kish</persname> 
+	<persname encodinganalog="600" source="lcnaf">Smith-Rosenberg, Carroll</persname> 
+	<persname encodinganalog="600" source="lcnaf">Ulrich, Laurel Thatcher</persname> 
+	<persname encodinganalog="600" source="lcnaf">Ware, Susan, 1950-</persname> 
+	<persname encodinganalog="600" source="lcnaf">White, Deborah Gray</persname> 
+	<persname encodinganalog="600" source="lcnaf">Yung, Judy</persname> 
+	<subject encodinganalog="650" source="lcsh">Historiography -- Women -- United States -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Historians -- United States -- Biography -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Oral history -- Archival resources</subject>
+	<subject encodinganalog="650" source="lcsh">Women historians -- United States -- Biography -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Women -- United States -- Biography -- Sources</subject>
+    </controlaccess>
+<!-- end controlled access terms -->
+
+
+<!-- Enter additional information -->
+    <relatedmaterial id="add-related">
+	<p>The Smith College Archives contains related material for
+	<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca73_main.html">Mary Maples Dunn</extref>,
+	<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca71_main.html">Jill Ker Conway</extref>, and Helen Horowitz.</p>
+    </relatedmaterial>
+
+<!-- End additional information -->
+
+
+<!-- Enter Series descriptions -->
+
+<dsc type="in-depth" id="list-contlist">
+ <c01 level="series" id="list-ser1">
+ <did>
+ <unittitle>Transcripts</unittitle>
+ </did>
+ <c02>
+ <did>
+ <unittitle>Final (Open)</unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">1</container>
+ <unittitle>Anderson, Karen</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">2</container>
+ <unittitle>Antler, Joyce</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">3</container>
+ <unittitle>Banner, Lois</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">4</container>
+ <unittitle>Brumberg, Joan Jacobs</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">5</container>
+ <unittitle>Buhl, Mary Jo</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">6</container>
+ <unittitle>Chafe, William</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">7</container>
+ <unittitle>Chamberlain, Mariam</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">8</container>
+ <unittitle>Cook, Blanche Wiesen</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">9</container>
+ <unittitle>Cott, Nancy</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">10</container>
+ <unittitle>Degler, Carl</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">1</container>
+ <unittitle>DeHart, Jane</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">2</container>
+ <unittitle>Dublin, Thomas</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">3</container>
+ <unittitle>Dubois, Ellen</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">4</container>
+ <unittitle>Dunn, Mary Maples</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">5</container>
+ <unittitle>Evans, Sara</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">6</container>
+ <unittitle>Freedman, Estelle</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">7</container>
+ <unittitle>Gluck, Sherna</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">8</container>
+ <unittitle>Gonzalez, Deena</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">9</container>
+ <unittitle>Gordon, Linda</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">1</container>
+ <unittitle>Hall, Jacquelyn Dowd</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">2</container>
+ <unittitle>Hewitt, Nancy</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">3</container>
+ <unittitle>Hine, Darlene Clark</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">4</container>
+ <unittitle>Horowitz, Helen Lefkowitz</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">5</container>
+ <unittitle>Huyck, Heather</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">6</container>
+ <unittitle>Jensen, Joan</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">7</container>
+ <unittitle>Kerber, Linda</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">1</container>
+ <unittitle>Kerr, Louise Ano Nuevo</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">2</container>
+ <unittitle>Kessler-Harris, Alice</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">3</container>
+ <unittitle>Kidwell, Clara Sue</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">4</container>
+ <unittitle>Leavitt, Judith Walker</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">5</container>
+ <unittitle>Lerner, Gerda</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">6</container>
+ <unittitle>Matsumoto, Valerie</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">7</container>
+ <unittitle>Mayo, Edith</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">8</container>
+ <unittitle>Miller, Page Putnam</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">9</container>
+ <unittitle>Norton, Mary Beth</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">1</container>
+ <unittitle>Perdue, Theda</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">2</container>
+ <unittitle>Rosen, Ruth</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">3</container>
+ <unittitle>Rothschild, Mary Logan</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">4</container>
+ <unittitle>Ruiz, Vicki</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">5</container>
+ <unittitle>Rupp, Leila</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">6</container>
+ <unittitle>Ryan, Mary</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">7</container>
+ <unittitle>Scott, Anne Firor</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">1</container>
+ <unittitle>Sklar, Kathryn Kish</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">2</container>
+ <unittitle>Smith-Rosenberg, Carroll</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">3</container>
+ <unittitle>Terborg-Penn, Rosalyn</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">4</container>
+ <unittitle>Ulrich, Laurel Thatcher</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">5</container>
+ <unittitle>Ware, Susan</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">6</container>
+ <unittitle>White, Deborah Gray</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">7</container>
+ <unittitle>Yung, Judy</unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Final <accessrestrict>(Closed)</accessrestrict></unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">7</container>
+ <container type="folder">1</container>
+ <unittitle>Conway, Jill Ker</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">7</container>
+ <container type="folder">2</container>
+ <unittitle>Oates, Mary J.</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">7</container>
+ <container type="folder">3</container>
+ <unittitle>Restricted pages removed from open transcripts</unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Original, edited <accessrestrict>(Closed)</accessrestrict></unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">1</container>
+ <unittitle>Anderson, Karen</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">2</container>
+ <unittitle>Antler, Joyce</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">3-4</container>
+ <unittitle>Banner, Lois</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">5</container>
+ <unittitle>Brumberg, Joan</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">6</container>
+ <unittitle>Buhl, Mary Jo</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">7</container>
+ <unittitle>Chafe, William</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">8</container>
+ <unittitle>Conway, Jill Ker</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">9</container>
+ <unittitle>Cook, Blanche Wiesen</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">10</container>
+ <unittitle>Cott, Nancy</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">8</container>
+ <container type="folder">11</container>
+ <unittitle>Degler, Carl</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">9</container>
+ <container type="folder">1</container>
+ <unittitle>DeHart, Jane</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">9</container>
+ <container type="folder">2</container>
+ <unittitle>Dublin, Thomas</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">9</container>
+ <container type="folder">3</container>
+ <unittitle>Dubois, Ellen</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">9</container>
+ <container type="folder">4</container>
+ <unittitle>Dunn, Mary Maples</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">9</container>
+ <container type="folder">5</container>
+ <unittitle>Evans, Sara</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">9</container>
+ <container type="folder">6-7</container>
+ <unittitle>Freedman, Estelle</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">9</container>
+ <container type="folder">8</container>
+ <unittitle>Gluck, Sherna</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">9</container>
+ <container type="folder">9</container>
+ <unittitle>Gonzalez, Deena</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">10</container>
+ <container type="folder">1</container>
+ <unittitle>Gordon, Linda</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">10</container>
+ <container type="folder">2</container>
+ <unittitle>Hall, Jacquelyn Dowd</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">10</container>
+ <container type="folder">3</container>
+ <unittitle>Hewitt, Nancy</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">10</container>
+ <container type="folder">4</container>
+ <unittitle>Hine, Darlene Clark</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">10</container>
+ <container type="folder">5</container>
+ <unittitle>Horowitz, Helen</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">10</container>
+ <container type="folder">6</container>
+ <unittitle>Huyck, Heather</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">10</container>
+ <container type="folder">7</container>
+ <unittitle>Jensen, Joan</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">10</container>
+ <container type="folder">8</container>
+ <unittitle>Kerber, Linda</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">1</container>
+ <unittitle>Kerr, Louise Ano Nuevo</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">2</container>
+ <unittitle>Kessler-Harris, Alice</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">3</container>
+ <unittitle>Kidwell, Clara Sue</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">4</container>
+ <unittitle>Leavitt, Judith Walker</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">5</container>
+ <unittitle>Lerner, Gerda</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">6</container>
+ <unittitle>Matsumoto, Valarie</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">7</container>
+ <unittitle>Mayo, Edith</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">8</container>
+ <unittitle>Miller, Page Putnam</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">9</container>
+ <unittitle>Norton, Mary Beth</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">10</container>
+ <unittitle>Oates, Mary</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">11</container>
+ <unittitle>Perdue, Theda</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">12</container>
+ <unittitle>Rosen, Ruth</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">11</container>
+ <container type="folder">13</container>
+ <unittitle>Rothschild, Mary Logan</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">1</container>
+ <unittitle>Ruiz, Vicki</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">2</container>
+ <unittitle>Rupp, Leila</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">3</container>
+ <unittitle>Ryan, Mary</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">4</container>
+ <unittitle>Scott, Anne Firor</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">5</container>
+ <unittitle>Sklar, Kathryn Kish</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">6</container>
+ <unittitle>Smith-Rosenberg, Carroll</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">7</container>
+ <unittitle>Terborg-Penn, Rosalyn</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">8</container>
+ <unittitle>Ulrich, Laurel Thatcher</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">9</container>
+ <unittitle>Ware, Susan</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">10</container>
+ <unittitle>White, Deborah Gray</unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">12</container>
+ <container type="folder">11</container>
+ <unittitle>Yung, Judy</unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">13</container>
+ <unittitle>Electronic copies of transcripts on CDs <accessrestrict>(Closed)</accessrestrict></unittitle>
+ </did>
+ </c02>
+ </c01>
+ <c01 level="series" id="list-ser2">
+ <did>
+ <unittitle>Audio and video recordings</unittitle>
+ </did>
+ <c02>
+ <did>
+ <container type="box">14-55</container>
+ <unittitle>Audio cassette tapes and Hi8 videotapes <accessrestrict>(Closed)</accessrestrict></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">56</container>
+ <unittitle>Floppy discs and unidentified cassette tapes <accessrestrict>(Closed)</accessrestrict></unittitle>
+ </did>
+ </c02>
+ </c01>
+</dsc>
+
+<!-- End Series descriptions -->
+
+<!-- Insert container list here:-->
+
+<!-- End container list -->
+
+  </archdesc>
+</ead>
+
+

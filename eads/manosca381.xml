@@ -1,0 +1,138 @@
+<ead>
+ <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca381.xml//EN" countrycode="us" mainagencycode="manosca">manosca381</eadid>
+	<filedesc>
+	  <titlestmt>
+		<titleproper encodinganalog="245$a">Charlotte Baum Papers, 1894 - 1989</titleproper>
+		<subtitle>Finding Aid</subtitle>
+		<author encodinganalog="245$c">Finding aid prepared by Madison White, Class of 2016.</author>
+		 
+	  </titlestmt>
+	  <publicationstmt>
+		<publisher encodinganalog="260$b">Smith College Archives</publisher>
+		<address>
+		  <addressline>Northampton, MA</addressline>
+		  <addressline></addressline>
+		</address>
+		<date encodinganalog="260$c" normal="2014">2014</date>
+	  </publicationstmt>
+	</filedesc>
+	<profiledesc>
+	  <creation encodinganalog="500">Finding aid encoded in NoteTab Pro. Encoded by Elizabeth Carron. 
+		<date normal="2014-12-19">2014-12-19</date>
+	  </creation>
+	  <langusage>Finding aid written in
+		<language encodinganalog="546" langcode="eng" scriptcode="latn">English</language>
+	  </langusage>
+	</profiledesc>
+  </eadheader>
+
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did id="main">
+	<head>Collection Overview</head>
+	<origination label="Creator:">
+		<persname source="lcnaf" encodinganalog="100 1">Baum, Charlotte, 1894 - 1989</persname>
+	</origination>
+	<unittitle label="Title:" encodinganalog="245$a">Charlotte Baum Papers</unittitle>
+	<unitdate type="inclusive" label="Dates:">1911 - 1915</unitdate>
+	
+	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">80</unitid>
+	
+	<physdesc label="Quantity:">
+		<extent encodinganalog="300$a">1 box</extent>
+		<extent encodinganalog="300$a">( .5 linear ft.)</extent>
+	</physdesc>
+	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<repository label="Location:">
+		<corpname>Smith College Archives</corpname>
+		<address>
+		  <addressline>Northampton, MA</addressline>
+		  <addressline></addressline>
+		</address>
+	</repository>
+	<abstract encodinganalog="520$a" label="Abstract:">
+		Class of 1915. Staff, Department of Art. Contains a memorabilia book documenting her experiences at Smith College.
+	</abstract>
+    </did>
+
+
+<!-- Enter collection level metadata -->
+    <bioghist id="bioghist">
+	<head>Biographical Note</head>
+	<p>	Born in 1894, Charlotte Baum entered Smith College in 1911. She was involved in a number of student activities including the Cricket Team, Senior Dramatics, and the Yearbook. After graduating in 1915 she studied at the Art Students League in New York City while working as an assistant cataloger for the library and photograph department of the Metropolitan Museum of Art. As the United States entered World War I, she left the museum to serve as a Reconstruction Aid in federal hospitals. After the war, she returned to libraries and became the cataloger for Columbia University before returning to Smith in 1926 as the Curator of Books and Photographs for the Art Department. Baum retired in 1959 but continued to work various volunteer positions at Cooley Dickinson Hospital until her death in 1989. </p>
+    </bioghist>
+
+
+    <scopecontent id="scope">
+	<head>Scope and Contents of the Collection</head>
+	<p>	One memorabilia book containing playbills, news clippings, correspondence, poetry, music programs, photographs and calling cards from 1911 - 1915. </p>
+    </scopecontent>
+<!-- End collection level metadata -->
+
+
+<!-- Enter administrative information -->
+    <accessrestrict encodinganalog="506" id="admin-access">
+	<p>The records are open for research according to the regulations of the Smith College Archives without any additional restrictions. </p>
+    </accessrestrict>
+    <userestrict encodinganalog="540" id="admin-use">
+	<p>Single photocopies may be made for research purposes. Permission to publish material from the documents must be requested from the Smith College Archives. Smith College owns copyright to any published material relating to college events and activities.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.</p>
+    </userestrict>
+    <prefercite id="admin-cite">
+	<p>Please use the following format when citing materials from this collection:</p>
+	<p>
+Charlotte Baum Papers, Box #, Smith College Archives 
+</p>
+    </prefercite>
+    <processinfo id="admin-process">
+	<p>Processed by Madison White, Class of 2016; Elizabeth Carron, Archives Specialist</p> 
+    </processinfo>
+
+<!-- End administrative information -->
+
+
+<!-- Enter controlled access terms -->
+    <controlaccess id="subj">
+	<corpname encodinganalog="610" source="lcsh">Smith College. Class of 1915</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Smith College -- Students</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Smith College -- Social life and customs -- Sources</corpname> 
+
+	    </controlaccess>
+<!-- end controlled access terms -->
+
+
+<!-- Enter additional information -->
+    <relatedmaterial id="add-related">
+	<p>The following related collections are available at Smith College:
+   <list>
+	<item>
+	<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca207_main.html">Class of 1915 Records, 1911 - 1985</extref></item>
+   </list>
+</p>
+    </relatedmaterial>
+
+<!-- End additional information -->
+
+
+<!-- Enter Series descriptions -->
+
+<!-- End Series descriptions -->
+
+<!-- Insert container list here:-->
+<dsc type="in-depth" id="list-contlist">
+   <c01>
+      <did>
+         <container type="box">1</container>
+         <container type="folder">1</container>
+         <unittitle>Memorabilia Book
+            <unitdate>1911 - 1915</unitdate>
+         </unittitle>
+      </did>
+   </c01>
+</dsc>
+
+<!-- End container list -->
+
+  </archdesc>
+</ead>
+
+

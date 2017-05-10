@@ -1,0 +1,732 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca79.xml//EN" countrycode="us" mainagencycode="manosca">manosca79</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Alfred Vance Churchill Papers, 1828-1948
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Joel Tansey.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+<date>2003-06-04</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca79 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Alfred Vance Churchill Papers, 1828-1948
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 42
+</num>
+<author>Joel Tansey
+</author>
+<date>2000
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Churchill, Alfred Vance, 1864-1949. </persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Alfred Vance Churchill Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1828-1948</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">4 boxes</extent>
+<extent encodinganalog="300$a">(2 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Professor of Fine Arts.  Contains biographical material, correspondence, material related to museum and art collecting, publications, and teaching materials.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p> Alfred Vance Churchill was born on August 14, 1864 in Oberlin, Ohio.  He was the son of Charles Henry Churchill, a professor at Oberlin College and his second wife, Henrietta Vance Churchill.  Alfred was the second child of Henrietta Vance Churchill, and was the sixth of Charles Henry Churchill's nine children.  After studies at Oberlin, Alfred studied art in Berlin, Leipzig, and Paris from 1887-1890.  He married Marie Marschall in 1890.  Their son Louis Nelson Churchill was born in 1897.  In 1892 Churchill directed the art department at Iowa College, Grinnell, Iowa.  From 1893-1897, he taught art in the High and Normal Schools of St. Louis, Missouri.  In 1897, he was made professor of art and Director of the Department of Fine Arts at Teachers College, Columbia University.  He received the degree of Master of Arts from Oberlin College in 1898. Columbia University dismissed Churchill in 1904, but gave him a grant to study and paint in Paris 1904-1906.  Smith College hired him in 1905 as the first resident professor in the appreciation and history of art.  During his years at Smith, he expanded the Smith College Art Museum into one of the outstanding collections in the United States.  A noted art critic, lecturer as well as a teacher and painter (whose work appeared in the Armory Show in Chicago in 1913), he influenced the standards of art teaching, especially as vice-president of the College Art Association.  After 27 years of service to Smith, Churchill retired in 1932, staying in Northampton, Massachusetts, and devoting himself to painting and writing.  He died on December 29, 1949.</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>There is copious correspondence with important art collectors and figures in the history of Smith College, as well as other educational institutions such as Columbia University.  Researchers interested in Oberlin College, family history and the social history of the Midwestern U.S. will find the manuscripts and typescripts of his unpublished book <title render="italic">Midwestern</title> of interest.  Genealogists will find some mention and dating of family names coming out of New England such as Franklin and Churchill.  Art historians will be interested to note Churchill's writings and lectures on the teaching of art, and his role in developing an American taste for French Romantic painters.</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into four series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Biographical Materials</ref>
+</item>
+<item>
+<ref target="list-ser2">II. General and Professional Correspondence </ref>
+</item>
+<item>
+<ref target="list-ser3">III. Museum and Art Collecting </ref>
+</item>
+<item>
+<ref target="list-ser4">IV. Publications and Teaching Materials </ref>
+</item>
+</list>
+</arrangement>
+<arrangement id="scope-arr">
+<head>Arrangement of the Collection</head>
+<p>There is some overlap in categories, but in keeping with the "respect des fonds," it was thought best to  retain where possible the arrangement of certain folders which Churchill himself devised.
+</p>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The papers are open for research according to the regulations of the Smith College Archives without any additional restrictions.</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the documents must be requested from the Smith College Archives.  Smith College owns copyright to any published material relating to college events and activities.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Alfred Vance Churchill Papers, Box #, Smith College Archives.</p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>Alfred Vance Churchill donated letters, photographs, poems, etc. from his own papers in 1941.  Later in the same year he donated more files for his biographical record.  Two letters written to the Smith College Archivist in 1941 or 1942 substantiate this as the year of donation, although nothing precludes the possibility of donations at an earlier date.   On April 26, 1966,  Mrs. Bernard A. Churchill [daughter-in-law] donated on behalf of Mrs. A. V. Churchill, a "MS of Oberlin book-typescript and carbon," written by Alfred Vance Churchill, which corresponds to the folders titled <title render="italic">"Midwestern."</title></p>
+</acqinfo>
+<processinfo id="admin-process">
+<p>Processed by Joel Tansey</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Churchill, Alfred Vance, 1864-1949.</persname>
+<persname encodinganalog="600" source="lcnaf">Churchill, Charles H. (Charles Henry), 1824-1904.</persname>
+<famname encodinganalog="600" source="lcnaf">Churchill family.</famname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Faculty.</corpname>
+<corpname encodinganalog="610" source="lcsh">Smith College. Museum of Art.</corpname>
+<corpname encodinganalog="610" source="lcsh">Columbia University. Teachers College--Faculty.</corpname>
+<corpname encodinganalog="610" source="lcsh">Oberlin College--History--Sources.</corpname>
+<subject encodinganalog="650" source="lcsh">Art--Study and teaching--Massachusetts--Northampton.</subject>
+<geogname encodinganalog="651" source="lcsh">Middle West--History.</geogname>
+<persname encodinganalog="700" source="lcnaf">Binyon, Laurence, 1869-1943.</persname>
+<persname encodinganalog="700" source="lcnaf">Burton, Marion Le Roy, 1874-1925.</persname>
+<persname encodinganalog="700" source="lcnaf">Churchill, Charles H. (Charles Henry), 1824-1904.</persname>
+<persname encodinganalog="700" source="lcnaf">Dewey, John, 1859-1952.</persname>
+<persname encodinganalog="700" source="lcnaf">Freer, Charles Lang, 1856-1919.</persname>
+<persname encodinganalog="700" source="lcnaf">Seelye, Laurenus Clark, 1837-1924.</persname>
+<persname encodinganalog="700" source="lcnaf">Tryon, Dwight William, 1849-1925.</persname>
+<persname encodinganalog="700" source="lcnaf">Walpole, Hugh, Sir, 1884-1941.</persname>
+<persname encodinganalog="700" source="lcnaf">White, Henry Cooke, 1861-</persname>
+</controlaccess>
+<dsc type="combined" id="list-contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I.  Biographical Material
+<unitdate>(1828-1942)</unitdate>
+</unittitle>
+</did>
+<scopecontent>
+<p>This series includes correspondence, news clippings, chronologies, obituary, and materials regarding retirement from Smith College and  departure from Columbia University.  This series also contains family history documents, including photographs, correspondence, and assorted other materials.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters to Smith College Archives.
+<unitdate>1941-42</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Biographical materials and chronology.  Includes obituary.</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">708</container>
+<unittitle>Retirement from Smith College.  (Includes letters from Stephan Bourgeois, Gordon B. Washburn, J. B. Neumann, Frank Jewett Mather, Daniel Catton Rich, Walter Pach, W. R. Valentiner, Edward Alden Jewell)
+<unitdate>1931-35</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">708</container>
+<unittitle>Columbia Teachers College.  (Includes letters from John Dewey and James E. Russell)
+<unitdate>1897-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Photographs: Alfred Vance Churchill and family.  (Includes Charles Henry Churchill and sister Lucretia Churchill in 1842, Henrietta Vance Churchill, Polly Franklin Churchill, Emilie von Zulich 1828, David Carroll Churchill)
+<unitdate>1828-1932, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Genealogy materials.  (Includes letters from Mrs. William A. Whitney and Benjamin E. Franklin)
+<unitdate>1936, n.d.</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">708</container>
+<unittitle>Genealogy book: <title>The Churchills of Oberlin</title>
+<unitdate>1965</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">708</container>
+<unittitle>Genealogical materials: Henrietta Beach Vance [grandmother].  (Includes materials about and letters of Henrietta Beach Vance to Alfred and Marie Churchill, materials related to the Vance family in Lagrange County, and to Lewis Nelson Churchill)
+<unitdate>1894-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Will and account book of Henrietta Beach Vance [grandmother].
+<unitdate>1886-1901</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Obituaries of Henrietta Vance Churchill [mother].
+<unitdate>1898-99</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters and writings of Henrietta Vance Churchill [mother].
+<unitdate>1858, 1892-93</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters of Charles Henry Churchill [father] to Alfred and Marie Churchill
+<unitdate>1890-1904</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters to Charles Henry Churchill from family.  (Includes photograph and postcard from Lyme, New Hampshire)
+<unitdate>1838-43, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Materials on Charles Henry Churchill [father].
+<unitdate>1872-1936</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters from brothers and sisters.
+<unitdate>1898-1941, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters to family from Berlin.
+<unitdate>1888-90</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Family letter.
+<unitdate>1895</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Family letter about Edward [brother].
+<unitdate>1933-34</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II.  General and Professional Correspondence
+<unitdate>(1889-1942)</unitdate>
+</unittitle>
+</did>
+<scopecontent>
+<p>This series contains correspondence relating to Churchill's research and and career at Smith College.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>General correspondence.
+<unitdate>1901-42</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters from Laurence Binyon
+<unitdate>1914-34</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Correspondence with Marion LeRoy Burton
+<unitdate>1914-17</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters from Charles Lang Freer
+<unitdate>1913-16</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters to Grace Gilfillan
+<unitdate>1901-04</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Correspondence with Laurenus Clark Seelye
+<unitdate>1905-15</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Correspondence with Dwight William Tryon
+<unitdate>1912-25</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters from Alice B. Tryon
+<unitdate>1926, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters from Hugh Walpole
+<unitdate>1922-26</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">708</container>
+<unittitle>Letters from Henry C. White
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III.  Museum and Art Collecting Materials
+<unitdate>(1905-1941)</unitdate>
+</unittitle>
+</did>
+<scopecontent>
+<p>This series includes materials related to museum exhibitions and art collecting, and Churchill's own art work.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Gericault exhibit: brochure and correspondence
+<unitdate>1929-36</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Booklet on art collecting: "Building a Collection"  Full title: <title>Building a Collection: Notes on the Work of Alfred Vance Churchill.</title>  Published by the American Association of University Women
+<unitdate>[1937?]</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Catalogues of the Smith College Museum of Art.  One of the two copies is annotated by Churchill.
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Materials on Churchill's art and exhibits.  Includes news clippings, brochure and correspondence.
+<unitdate>1905-50, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Silhouettes of Smith College presidents.  Includes correspondence.
+<unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser4">
+<did>
+<unittitle>Series IV.  Publications and Teaching Materials
+<unitdate>(1900-1948)</unitdate>
+</unittitle>
+</did>
+<scopecontent>
+<p>This series includes professional publications, course syllabi, lecture notes, speeches on art education, and transcripts of Churchill's book <title render="italic">Midwestern.</title></p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Prints used for courses Art 13 &amp; 14
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Lecture notes and outlines for art history.  Materials are printed, handwritten, or typed.
+<unitdate>1917-18, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Materials on teaching art.  Includes syllabi, correspondence.
+<unitdate>1900-41</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Speeches and materials on art in education
+<unitdate>1902-30, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Article: "The Meaning and Aim of Art in Education"
+<unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Article: "Art in the College Course"
+<unitdate>1915</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Booklet: "One Hour Course in Art Interpretation"
+<unitdate>1907</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>List of publications
+<unitdate>1932</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Pamphlet: "Catalogue of Architects, Sculptors &amp; Painters"
+<unitdate>1907</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Pamphlet: "Italian Painters of the Renaissance"
+<unitdate>1914</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Article: "Picasso's Failure"
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Article: "On Cezanne"
+<unitdate>1932</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Typescript: translations of German songs
+<unitdate>1941-48</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Book: <title>Golden Songs</title>.  Two copies, one annotated.
+<unitdate>1947</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Carbon typescript bound: "The Thirteenth Century"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">709</container>
+<unittitle>Manuscript: poems
+<unitdate>1904, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>
+<title>Midwestern</title>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">709</container>
+<unittitle>Background materials for <title>Midwestern</title>
+<unitdate>1902-40</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">709</container>
+<unittitle>Correspondence regarding families of Oberlin, Ohio.</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">709</container>
+<unittitle>Background materials for <title>Midwestern</title>
+<unitdate>1935-38</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Background materials for <title>Midwestern</title>.  This folder was also arranged by Churchill himself.
+<unitdate>1935-38</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Manuscript of <title>Midwestern</title>, first folder
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Manuscript of <title>Midwestern</title>, second folder
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Manuscript of <title>Midwestern</title>, third folder
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Manuscript of <title>Midwestern</title>, fourth folder
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>
+<title>Midwestern</title> MS typed: Preface, Prelude, Chapters 1-7.  Appears to be the latest and abridged version of the work.  Includes table of contents and a photo of  Mrs. Churchill.
+<unitdate>March 1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>
+<title>Midwestern</title> MS typed: Chapters 8-13
+<unitdate>March 1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>
+<title>Midwestern</title> MS typed: Chapters 14-17
+<unitdate>March 1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>
+<title>Midwestern</title> MS typed: Chapters 18-23
+<unitdate>March 1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Typescript of  <title render="italic">Midwestern</title>: Chapters 1-9
+<unitdate>February 1941</unitdate>
+</unittitle>
+</did>
+<note>
+<p>[See Churchill's note in front about the different versions.]</p>
+</note>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Typescript of  <title render="italic">Midwestern</title>: Chapters 10-13
+<unitdate>February 1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Typescript of  <title render="italic">Midwestern</title>: Chapters 14-21
+<unitdate>February 1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">710</container>
+<unittitle>Typescript of  <title render="italic">Midwestern</title>: Chapters 22-26
+<unitdate>February 1941</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

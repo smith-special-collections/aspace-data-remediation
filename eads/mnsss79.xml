@@ -1,0 +1,771 @@
+<ead>
+ <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss507.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss79</eadid>
+	<filedesc>
+	  <titlestmt>
+		<titleproper encodinganalog="245$a">Abortion Collection</titleproper>
+		<subtitle>Finding Aid</subtitle>
+		<author encodinganalog="245$c">Finding aid prepared by mnsss.</author><sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+	  </titlestmt>
+	  <publicationstmt>
+		<publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+		<address>
+		  <addressline>Northampton, MA</addressline>
+		</address>
+		<date encodinganalog="260$c" normal="2015">2015</date>
+	  </publicationstmt>
+	</filedesc>
+	<profiledesc>
+	  <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter. 
+		<date normal="2003-06-12">2003-06-12</date>
+	  </creation>
+	  <langusage>Finding aid written in
+		<language encodinganalog="546" langcode="eng" scriptcode="latn">English</language>
+	  </langusage>
+	</profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss79 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+  </eadheader>
+
+<archdesc level="collection" relatedencoding="MARC21">
+    <did id="main">
+	<head>Collection Overview</head>
+	<unittitle label="Title:" encodinganalog="245$a">Abortion Collection</unittitle>
+	<unitdate type="inclusive" label="Dates:">1936-2005</unitdate>
+	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 428</unitid>
+	
+	<physdesc label="Quantity:">
+		<extent encodinganalog="300$a">7 boxes</extent>
+		<extent encodinganalog="300$a">(3.25 linear ft.)</extent>
+	</physdesc>
+	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+</langmaterial>
+	<repository label="Location:">
+		<corpname>Sophia Smith Collection</corpname>
+		<address>
+		  <addressline>Smith College</addressline>
+		  <addressline>Northampton, MA</addressline>
+		</address>
+	</repository>
+	<abstract encodinganalog="520$a" label="Abstract:">
+Primarily printed materials, plus legislative records, memorabilia, and audiovisual materials documenting the efforts of both the pro-life and pro-choice movements.  The Legal status section documents specific court cases, with an emphasis on the <title render="italic">Roe v. Wade</title> case (1973).  Organizations represented include the National Abortion Rights Action League (NARAL) and the Women's National Abortion Action Coalition (WONAAC).
+	</abstract>
+    </did>
+
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6231.jpg" altrender="right">
+<daodesc><p>Flyer for Abortion Action Week, May 1972</p></daodesc></dao> 
+         <p>The Abortion Collection is comprised of mostly published materials organized in six series: General, Legal status, Organizations, Countries, States and Opposition.  Articles, pamphlets, newsletters, books, newspaper clippings, legislative records, memorabilia, and audiovisual materials document the efforts of both the pro-life and pro-choice movements from the 1930s to the present, although the bulk of the collection dates from the 1970s.  The Legal status series documents specific court cases, with an emphasis on the <title render="italic">Roe v. Wade</title> case (1973), and includes court transcripts and audiotapes from the Supreme Court hearing. Organizations represented include the National Abortion Rights Action League (NARAL) and the Women's National Abortion Action Coalition (WONAAC).  There are also clippings and newsletters on abortion-related issues in countries other than the United States.  The Opposition series includes memorabilia, printed material, books and videotapes related to the anti-abortion rights movement.</p>
+      </scopecontent>
+
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into five series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. General</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Law and Legislation</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Organizations</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Countries</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Opposition</ref>
+            </item>
+            <item>
+               <ref target="list-serOS">Oversize Materials</ref>
+            </item>
+         </list>
+      </arrangement>
+
+<!-- Enter administrative information -->
+    <accessrestrict encodinganalog="506" id="admin-access">
+	<p>The Papers are open to research according to the regulations of the Sophia Smith Collection.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="540" id="admin-use">
+	<p>Copyright to materials in the Abortion Collection is owned by the individuals and organizations that created them.  Permission must be obtained to publish reproductions or quotations beyond "fair use."  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.  Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.</p>
+    </userestrict>
+    <prefercite id="admin-cite">
+	<p>Please use the following format when citing materials from this collection:</p>
+	<p>Abortion Collection, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+    </prefercite>
+    <accruals id="admin-accruals">
+	<p>Periodic additions to collection are expected. Recent additions may not be reflected in the finding aid.</p>
+    </accruals>
+    <altformavail id="admin-altform">
+	<p>Original audiovisual recordings have been transferred to digital format for research use.</p>
+    </altformavail>
+    <acqinfo id="admin-acqinfo">
+	<p>Materials in this subject collection were either purchased or given to the Sophia Smith Collection by various donors.</p> 
+    </acqinfo>
+    <processinfo id="admin-process">
+	<p>Finding aid revised in 2002 by Gayla Spaulding, intern. Revised in 2015.</p> 
+    </processinfo>
+
+
+<!-- End administrative information -->
+
+<!-- Enter controlled access terms -->
+    <controlaccess id="subj">
+	<corpname encodinganalog="610" source="lcnaf">National Abortion Rights Action League--History</corpname>
+	<corpname encodinganalog="610" source="lcnaf">Women's National Abortion Action Coalition--History</corpname> 
+	<persname encodinganalog="600" source="lcnaf">Roe, Jane, 1947---Trials, litigation, etc.</persname>
+	<subject encodinganalog="650" source="lcsh">Pro-choice movement--United States--History--Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Pro-life movement--United States--History--Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Abortion--History--Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Abortion--Moral and ethical aspects--United States</subject>
+	<subject encodinganalog="650" source="lcsh">Abortion--Law and legislation--History--Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Abortion--Political aspects--United States</subject>
+    </controlaccess>
+<!-- end controlled access terms -->
+
+
+
+<!-- Enter additional information -->
+    <relatedmaterial id="add-related">
+<p>Related materials can be found elsewhere in the Sophia Smith Collection in the Records of the Abortion Rights Fund of Western Massachusetts, Catholics for Choice, 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss442_main.html">National Network of Abortion Funds</extref>, 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss482_main.html">Reproductive Rights National Network</extref>, 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss483_main.html">SisterSong Women of Color Reproductive Justice Collective</extref>, 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss337_main.html">Voters for Choice</extref>, 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss128_main.html">Planned Parenthood Federation of America</extref>, 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss297_main.html">Planned Parenthood League of Massachusetts</extref>, 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss335_main.html">ProChoice Resource Center</extref>, and many others.</p>
+<p>Note: For poster and other memorabilia from the March for Women's Lives, 26 Apr 2004, see the 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss104_main.html">Miscellaneous Memorabilia Collection</extref>.  For articles on that event, see the 
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss93_main.html">Health Collection</extref>.</p>
+    </relatedmaterial>
+
+<!-- End additional information -->
+
+
+<dsc type="in-depth" id="list-contlist">
+ <c01 level="series" id="list-ser1">
+ <did>
+ <unittitle>SERIES I. GENERAL</unittitle>
+ </did>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">1</container>
+ <unittitle><title render="italic">Abortion, Spontaneous and Induced: Medical and Social Aspects</title> by Frederick Taussig,<unitdate> 1936</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">2</container>
+ <unittitle><title render="italic">Abortion Surveillance</title>: annual summary, Center for Disease Control,<unitdate> 1973-75</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">3</container>
+ <unittitle><title render="italic">Abortion Trends</title> newsletter,<unitdate> 1975-78</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Bibliographies</unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">4</container>
+ <unittitle>General,<unitdate> 1971-95, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">5</container>
+ <unittitle><title render="italic">Abortion Bibliography for 1970</title> compiled by Mary K. Floyd, <unitdate>1972</unitdate></unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">6</container>
+ <unittitle>Buttons, cartoons, calendars, stickers, and miscellaneous memorabilia, <unitdate>n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">7-8</container>
+ <unittitle>Clippings,<unitdate> 1964-77, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">9</container>
+ <unittitle>Demonstrations,<unitdate> 1972-75, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">10</container>
+ <unittitle>Doctors and medical students,<unitdate> 1973-95, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">11</container>
+ <unittitle>Documentary film trilogy, "From the Back Alleys to the Supreme Court and Beyond": marketing, publicity, and resource guide,<unitdate> 1996</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">12-13</container>
+ <unittitle>Fact Sheets,<unitdate> 1968-95, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">1</container>
+ <unittitle><title render="italic">International Inventory of Information on Induced Abortion</title>, by Emily Campbell Moore-Cavar,<unitdate> 1973</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Methods</unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">2</container>
+ <unittitle>General,<unitdate> 1967-73, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">3</container>
+ <unittitle>Feminist self-help abortion, <unitdate>n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Pamphlets and position papers</unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">4-5</container>
+ <unittitle>(Pre <title render="italic">Roe v. Wade</title>)<unitdate> 1964-72</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">6</container>
+ <unittitle><unitdate>1973-99, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">7</container>
+ <unittitle>Personal testimonies,<unitdate> 1974, 1978</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">8</container>
+ <unittitle>Psychiatric implications,<unitdate> 1966, 1972</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">9</container>
+ <unittitle>Religious opinions,<unitdate> 1970-82, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">10</container>
+ <unittitle>Women of color,<unitdate> 1993, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ </c01>
+ <c01 level="series" id="list-ser2">
+ <did>
+ <unittitle>SERIES II. LAW AND LEGISLATION</unittitle>
+ </did>
+ <c02>
+ <did>
+ <container type="box">2</container>
+ <container type="folder">11-12</container>
+ <unittitle>General,<unitdate> 1969-79, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">1</container>
+ <unittitle><title render="italic">Constitutional Aspects of the Right to Limit Childbearing: A Report of the U.S. Commission on Civil Rights</title>,<unitdate> 1975</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">2</container>
+ <unittitle>H<title render="italic">earings Before the Subcommittee on Constitutional Amendments of the Committee on the Judiciary , United States Senate: Abortion Part 1</title>; S.J. Res. 119 and S.J. Res. 130,<unitdate> 1974</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">3-4</container>
+ <unittitle><title render="italic">Massachusetts v. Brunelle</title>: briefs,<unitdate> 1971</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">5</container>
+ <unittitle>Supreme Court oral arguments (on cassette) and transcripts,<unitdate> 1973, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ </c01>
+ <c01 level="series" id="list-ser3">
+ <did>
+ <unittitle>SERIES III. ORGANIZATIONS</unittitle>
+ </did>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">6</container>
+ <unittitle>Abortion Access Project: Increasing Access to Abortion Services organizing kit,<unitdate> 1996</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">7</container>
+ <unittitle>Abortion Law Reform Association, London,<unitdate> 1979</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">8</container>
+ <unittitle>Abortion Rights Coalition, Philadelphia,<unitdate> 1974</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">9</container>
+ <unittitle>A.R.M. (Abortion Rights Movement of Women's Liberation), Washington, DC,<unitdate> 1979, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">10</container>
+ <unittitle>Association for the Study of Abortion,<unitdate> 1966-76, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">11</container>
+ <unittitle>Boston Women's Abortion Coalition,<unitdate> 1971-73, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">12</container>
+ <unittitle>Catholics for a Free Choice,<unitdate> 1984-87, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">13</container>
+ <unittitle>Commission of Population Growth and the American Future,<unitdate> 1972</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">3</container>
+ <container type="folder">14</container>
+ <unittitle>Committee for Abortion Rights and Against Sterilization Abuse (CARASA),<unitdate> 1979</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">1</container>
+ <unittitle>Concerned Citizens for Choice on Abortion (CCCA),<unitdate> 1981</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">2</container>
+ <unittitle>Feminist Organization for Communication, Action and Service (FOCAS),<unitdate> 1971, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">3</container>
+ <unittitle>Gay Women for Abortion Law Repeal, Cambridge, MA, <unitdate>n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">4</container>
+ <unittitle>Massachusetts Organization to Repeal Abortion Laws (MORAL),<unitdate> 1970-73, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <unittitle>National Abortion Rights Action League/National Association for the Repeal of Abortion Laws (NARAL)</unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">5-6</container>
+ <unittitle>General,<unitdate> 1971-80, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">7-10</container>
+ <unittitle>Newsletter,<unitdate> 1976-82</unitdate></unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">11</container>
+ <unittitle>National Network of Abortion Funds and miscellaneous local funds,<unitdate> 1995, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">12</container>
+ <unittitle>National Organization for Women (NOW),<unitdate> 1969-98, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">13</container>
+ <unittitle>New Yorkers for Abortion Law Repeal,<unitdate> 1969</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">14</container>
+ <unittitle>Religious Coalition for Abortion Rights (RCAR)/Religious Coalition for Reproductive Choice,<unitdate> 1978-96, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">15</container>
+ <unittitle>Society for Humane Abortion, Inc.,<unitdate> 1964-73, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">16</container>
+ <unittitle>Western Massachusetts Coalition for Reproductive Freedom, <unitdate>n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">17-18</container>
+ <unittitle>Women's National Abortion Action Campaign/Coalition (WONAAC),<unitdate> 1971-</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">19</container>
+ <unittitle>Zero Population Growth: newsletter, <title render="italic">National Reporter</title>, Abortion issue, <unitdate>Aug 1970</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">4</container>
+ <container type="folder">20</container>
+ <unittitle>Miscellaneous,<unitdate> 1993-97, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ </c01>
+ <c01 level="series" id="list-ser4">
+ <did>
+ <unittitle>SERIES IV. COUNTRIES</unittitle>
+ </did>
+ <c02>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">1-2</container>
+ <unittitle>"Capacity Building for Advocacy on Expanding Abortion Policy and Access: Sharing National Experiences Between Countries from Diverse Regions," Phase 1: first international meeting of NGOs organized by The Women's Health Project, Johannesburg, South Africa, (aka The Johannesburg Initiative): information packet for participants, <unitdate>circa 1999</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">3</container>
+ <unittitle>Clippings,<unitdate> 1970-79</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">4</container>
+ <unittitle>Sweden,<unitdate> 1964, 1972</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>United States</unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">5</container>
+ <unittitle>General,<unitdate> 1977-79, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">6</container>
+ <unittitle>A-Z,<unitdate> 1974-79, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">7</container>
+ <unittitle>California,<unitdate> 1967-79, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">8</container>
+ <unittitle>Connecticut,<unitdate> 1979, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">9</container>
+ <unittitle>Massachusetts,<unitdate> 1970-77, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">10</container>
+ <unittitle>Minnesota,<unitdate> 1978</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">11</container>
+ <unittitle>New York,<unitdate> 1970-78, n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">5</container>
+ <unittitle>Clippings</unittitle>
+ </did>
+ <c04>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">12</container>
+ <unittitle>General,<unitdate> 1970-72, n.d.</unitdate></unittitle>
+ </did>
+ </c04>
+ <c04>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">13</container>
+ <unittitle>Massachusetts,<unitdate> 1970-72, n.d.</unitdate></unittitle>
+ </did>
+ </c04>
+ <c04>
+ <did>
+ <container type="box">5</container>
+ <container type="folder">14</container>
+ <unittitle>New York,<unitdate> 1970-72, n.d.</unitdate></unittitle>
+ </did>
+ </c04>
+ </c03>
+ </c02>
+ </c01>
+ <c01 level="series" id="list-ser5">
+ <did>
+ <unittitle>SERIES V. OPPOSITION</unittitle>
+ </did>
+ <c02>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">1</container>
+ <unittitle>General,<unitdate> 1971-96, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">6</container>
+ <container type="folder">2</container>
+ <unittitle>Black Americans for Life,<unitdate> 1994-95, n.d.</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Books</unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle>Alcorn, Randy. <title render="italic">Pro Life Answers to Pro Choice Arguments</title>,<unitdate> 1992</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle>Brennan, William. <title render="italic">The Abortion Holocaust: Today's Final Solution</title>,<unitdate> 1983</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle>Crutcher, Mark, Lime 5: <title render="italic">Exploited by Choice</title>,<unitdate> 1996</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle>Sweet, Gail Grenier, ed., <title render="italic">Pro-Life Feminism</title>,<unitdate> 1985</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle>Wilkie, Dr. and Mrs. J.C. <title render="italic">Abortion Questions and Answers</title>,<unitdate> 1991</unitdate></unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Videotapes--VCR</unittitle>
+ </did>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle><title render="italic">A Doctor Explains the Abortion Procedure</title>, Dr. Noreen Johnson,<unitdate> 1994</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle><title render="italic">Meet the Abortion Providers</title>, Pro-Life Action League,<unitdate> 1989</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle><title render="italic">Project Truth</title>, Project Truth, Inc., <unitdate>n.d.</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle><title render="italic">The Right Choice</title>, Roman Archdiocese of Los Angeles, CA,<unitdate> 1993</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle><title render="italic">The Silent Scream</title>, American Portrait Films International,<unitdate> 1984</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <container type="box">6</container>
+ <unittitle><title render="italic">A Window to the Womb</title>, Sound Wave Images,<unitdate> 1991</unitdate></unittitle>
+ </did>
+ </c03>
+ </c02>
+ </c01>
+ <c01 level="series" id="list-serOS">
+ <did>
+ <unittitle>OVERSIZE MATERIALS</unittitle>
+ </did>
+ <c02>
+ <did>
+ <container type="box">7</container>
+ <container type="folder">1</container>
+ <unittitle>SERIES I. GENERAL: bumper stickers; sash from Pro-Choice Rally on the Mall, <unitdate>5 Apr 1992</unitdate>; "Herstory of Abortion" by Colleen Wilson from unidentified publication,<unitdate> circa 1970</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">7</container>
+ <container type="folder">2</container>
+ <unittitle>SERIES III. ORGANIZATIONS: Basic Quality of Live Issues, NARAL-Americans for Democratic Action Voting Chart for U.S. Senate, circa 1975; WONAAC Newsletter, <unitdate>Mar 1972, 1 Apr 1972, 29 Jun 1972</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="box">7</container>
+ <container type="folder">3</container>
+ <unittitle>SERIES V. OPPOSITION: bumper stickers</unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <container type="map-case">Flat File</container>
+ <unittitle>Posters, "Keep Abortion Legal" National Organization for Women, <unitdate>circa 1998</unitdate>; "The World's Abortion Laws 2005," Center for Reproductive Rights, <unitdate>2005</unitdate></unittitle>
+ </did>
+ </c02>
+ </c01>
+</dsc>
+
+
+
+   </archdesc>
+</ead>

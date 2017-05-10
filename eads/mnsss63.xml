@@ -1,0 +1,705 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss63.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss63</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Livingston-Fulton Family Papers, 1874-1939
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Burd Schlessinger.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-06</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss63 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Livingston-Fulton Family Papers, 1874-1939
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 147
+      </num>
+         <author encodinganalog="245$c">Burd Schlessinger
+      </author>
+         <date>1997
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <famname encodinganalog="100 3" source="lcnaf">Livingston family</famname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Livingston-Fulton Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1874-1939</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1920-1939</unitdate>
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 147</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">6 boxes</extent>
+            <extent encodinganalog="300$a">(2.4 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Collection consists primarily of the papers of Edith Livingston Crary Smith (1874-1938), author and poet.  They document family matters and commentary on political and moral issues of the day.  Material includes transcripts and other material pertaining to Smith's writings; also diaries and correspondence with her daughter, Katharine Smith Stevens and husband, Alpheus Dutton Smith.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p>Edith Livingston Crary Roberts Smith was born in Poughkeepsie, New York on March 24, 1874 to Rev. Robert Fulton Crary and Agnes Boyd Van Kleeck.  She attended Lyndon Hall in Poughkeepsie and subsequently taught there before marrying Charles Henry Van Braam Roberts on June 3, 1896.  They had four children:  Charles Van Braam Roberts (died in infancy), Edith "Toots" Livingston Roberts, Katharine "Watty" Bruce Roberts, and Richard "Wops" Brook Roberts.  Mary van Kleeck, whose papers are also housed in the Sophia Smith Collection, was Smith's first cousin.</p>
+         <p>Smith's talent as a writer was apparent early on, and she published her first poem in 1892.  According to her granddaughter,  Smith began writing in earnest in 1902 or 1903 in order to leave an unhappy marriage and support her three surviving children.  Although she regained some measure of financial security when she married Alpheus Dutton Smith circa 1903 (he legally adopted her children), she continued to write for twenty-five years, until poor health curtailed her ability to do so in the last decade of her life.   She primarily wrote poetry, "pot boiler" short stories, and household advice columns for such publications as American Home Monthly, Good Housekeeping, Harper's Bazaar, House Beautiful, Ladies' Home Journal, Munsey's Magazine, The North American Review and Women's Home Companion.</p>
+         <p>In addition to freelance writing, Smith also worked for a time under Dr. Richard Cabot in the social services department of the Massachusetts General Hospital.  Her experience there led her to write a series of related articles, most notably "Unmarried Mothers: One Big Job for the Feminist Movement," published in Harper's in 1913.</p>
+         <p>Edith Livingston Smith died on October 24, 1938 en route from Florida to New York on board the S.S. Shawnee.  She was buried at sea.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The papers consist mainly of correspondence and material pertaining to Edith Livingston Crary Smith's writings. From 1920 to 1938, she wrote every day to her daughter, Katharine "Watty"  Smith Stevens.  The letters refer to family matters and personal musings, as well as to Smith's writing process and both her own and Watty's efforts to market their work.  In addition, Alpheus Dutton Smith wrote almost daily when he and Smith were apart.  His letters include commentary on the political and moral issues of the day, as well as discussion of personal and domestic concerns.  The typescripts of Smith's writings reveal much about how she edited and revised her work, and about the writing process in general.  Much of the material is annotated and in many cases includes several different versions of the same piece.  Smith used her given name for serious work and the following pseudonyms for material which she considered to be less serious: Louise Chamberlayne, Daphne Deane, Stella Knight, Mrs. Livingston, Marjorie March, Wanda Moore, Marion Oakes, A. Singer, and Livingston Smith.</p>
+         <p>Also included in the papers is material supplied by Smith's granddaughter, Barbara Stevens Weeks,  who provided extensive information about the family, particularly regarding the correspondents and the people referred to in the letters.  She also researched Smith's published writings, furnishing virtually all bibliographic information.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into four series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Diaries</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Writings</ref>
+            </item>
+            <item>
+               <ref target="list-serOV">Oversize Materials</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to unpublished materials created by Livingston-Fulton family members in the papers. Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
+           </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Livingston-Fulton Family Papers, Sophia Smith Collection, Northampton, Massachusetts</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Barbara Stevens Weeks donated the Edith Livingston Smith Papers to the Sophia Smith Collection in 1979, adding to them in 1995.</p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Burd Schlessinger, 1997.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Smith, Edith Livingston Crary, 1874-1938</persname>
+         <subject encodinganalog="650" source="lcsh">Mothers and daughters--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women authors, American--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women poets, American--20th century--Sources</subject>
+         <persname encodinganalog="600" source="lcnaf">Cabot, Hugh, 1872-1945</persname>
+         <persname encodinganalog="600" source="lcnaf">Cabot, Richard C. (Richard Clarke), 1868-1939</persname>
+	<famname encodinganalog="600" source="lcnaf">Fulton Family</famname> 
+	<famname encodinganalog="600" source="lcnaf">Livingston Family</famname> 
+
+	<famname encodinganalog="700" source="lcnaf">Fulton Family</famname> 
+      </controlaccess>
+      <!-- Begin series descriptions -->
+
+<dsc type="analyticover">
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1874-1939)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>0.1 linear in.</extent>
+               </physdesc>
+            </did>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES II. DIARIES <unitdate>(1919-36)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>5 linear in.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>14 diaries with daily entries.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES III. CORRESPONDENCE <unitdate>(1885-1938)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>10 linear in.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Letters, hand-written and typed.   Some hand-written letters have typescripts. Donor's notes are located at the beginning of the series.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES IV. WRITINGS <unitdate>(1892-29)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.1 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Published writings cut from magazines, typescripts, booklet, scrapbook.  Writings are arranged alphabetically by title.  The donor's notes list the writings alphabetically, and also provide citations for published works.  These are filed at the beginning of the Writings series, as well as before each sub-series.</p>
+            </scopecontent>
+ </c01>
+</dsc>
+
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1874-1939)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Chronology, obituary, newspaper clippings<unitdate> 1874-1938, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Genealogy<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Photographs<unitdate> 1883-1939, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. DIARIES <unitdate>(1919-36)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4-8</container>
+                  <unittitle>
+                     <unitdate>1919-36</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. CORRESPONDENCE <unitdate>(1885-1938)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">9</container>
+                  <unittitle>Notes on correspondence, compiled by donor<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">10</container>
+                  <unittitle>To Santa Claus<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>To and from family</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">11-12</container>
+                     <unittitle>To Alice Crary Sutcliffe<unitdate> 1885-1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>To Katharine "Watty" Smith Stevens</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">13-26</container>
+                        <unittitle>
+                           <unitdate>1913, 1920-31</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">27-40</container>
+                        <unittitle>
+                           <unitdate>1932-38</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">41-46</container>
+                     <unittitle>From Alpheus Dutton Smith<unitdate> 1912-33, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">47</container>
+                     <unittitle>To and from other family members<unitdate> 1926-38, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>From friends and associates</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">48</container>
+                     <unittitle>From Dr. Hugh Cabot<unitdate> 1933-38</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">49</container>
+                     <unittitle>From Dr. Richard Cabot<unitdate> 1923, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Third party</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">50</container>
+                     <unittitle>Alpheus Dutton Smith to Katharine "Watty" Smith Stevens<unitdate> 1923-38</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">51</container>
+                     <unittitle>Carol Hahn to Katharine "Watty" Smith Stevens<unitdate> 1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">52</container>
+                  <unittitle>Unidentified<unitdate> 1916, 1920</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. WRITINGS <unitdate>(1892-29)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">53</container>
+                  <unittitle>List of published and unpublished works, compiled by donor<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Published works</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">54</container>
+                     <unittitle>Notes on books and short stories, compiled by donor<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Books</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>A Garden of Yesterday</title>,                       <unitdate>1921</unitdate>
+                        </unittitle>
+                     </did>
+                     <note>
+                        <p>
+                           <ref target="list-short">[See also "Short stories"]</ref>
+                        </p>
+                     </note>
+                     <c05>
+                        <did>
+                           <container type="box">4</container>
+                           <container type="folder">55</container>
+                           <unittitle>Photocopy of book<unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">4</container>
+                           <container type="folder">56</container>
+                           <unittitle>Typescript<unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Short stories</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">57</container>
+                        <unittitle>List compiled by donor<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="list-short">
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">58</container>
+                        <unittitle>"A Garden of Yesterday"<unitdate> 1912</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">59-97</container>
+                        <unittitle>Typescripts and published stories cut from magazines<unitdate> 1905-20</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Household advice articles</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">98</container>
+                        <unittitle>Notes compiled by donor<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">99</container>
+                        <unittitle>Artist's proofs and published articles cut from magazines<unitdate> 1902-06, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">100</container>
+                        <unittitle>"The Woman's Exchange"<unitdate> 1906-09</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Social work articles</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">101</container>
+                        <unittitle>"Unmarried Mothers: One Big Job for the Feminist Movement"<unitdate> 1913</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">102</container>
+                        <unittitle>Typescripts and published articles cut from magazines<unitdate> 1913, 1920, 1923, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Poetry</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">103</container>
+                        <unittitle>List compiled by donor<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">104</container>
+                        <unittitle>Notes and lists pertaining to poetry, by ELS<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">105</container>
+                        <unittitle>Booklet, <title>Current Mother Goose: Timely Rhymes for Helpful Tots</title><unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">106</container>
+                        <unittitle>Published poems cut from magazines<unitdate> 1892, 1902-21, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">107-110</container>
+                        <unittitle>Typescripts, A-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">111-115</container>
+                        <unittitle>Typescripts, G-Y, untitled<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">116</container>
+                        <unittitle>Musical scores<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">117</container>
+                        <unittitle>Scrapbook, published poems cut from magazines, newspaper clippings<unitdate> 1892-96, 1904-07, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">118</container>
+                        <unittitle>Account book for published works<unitdate> 1901-11</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <unittitle>Poems by others, cut from magazines<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Unpublished works</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">119</container>
+                     <unittitle>List of unpublished works, compiled by donor<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Books</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>According to Ma</title>,                       <unitdate>1910</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">120</container>
+                           <unittitle>Correspondence<unitdate> 1910-22</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">121</container>
+                           <unittitle>Typescript, clean copy<unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <container type="folder">122</container>
+                           <unittitle>Typescript, working copy<unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">123</container>
+                        <unittitle>Untitled manuscript<unitdate>ca. 1910</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">124-125</container>
+                     <unittitle>Short stories: typescripts, B-U, unidentified fragments<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Household advice articles</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">126</container>
+                        <unittitle>List of household advice articles, compiled by donor<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">127-128</container>
+                        <unittitle>Typescripts, A-V<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+            <note>
+               <p>[Located in Oversize Box 7]</p>
+            </note>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Published short stories and household advice articles cut from magazines<unitdate> 1902-09</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,1945 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss41.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss41</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Elmina R. Lucke Papers, 1897-1987
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Dorothy Green, Susan Boone.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-05</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss41 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Elmina R. Lucke Papers, 1897-1987
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 192
+      </num>
+         <author encodinganalog="245$c">Dorothy Green, Susan Boone
+      </author>
+         <date>1986, 1987
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Lucke, Elmina Rose</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Elmina Rose Lucke Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1897-1987</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 192</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">5 boxes</extent>
+            <extent encodinganalog="300$a">(4.5 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Professor of social work and social studies, founder and director of the Dehli School of Social Work, consultant for social work education, and YWCA official. The Elmina Lucke papers focus on her work abroad as educator, administrator, and consultant for social work.  Materials include correspondence with former students and associates in Egypt, India, and Pakistan; photographs of her travels; speeches; writings, including an unpublished memoir; and a transcript and tapes of an oral history.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist-chron">
+         <head>Biographical Note</head>
+
+         <chronlist>
+            <chronitem>
+               <date>1889</date>
+               <event>Born on December 6 in Carleton, Michigan</event>
+            </chronitem>
+            <chronitem>
+               <date>1896</date>
+               <event>Attended one-room school in Carleton.</event>
+            </chronitem>
+            <chronitem>
+               <date>1908</date>
+               <event>Graduated from high school in Toledo, Ohio.</event>
+            </chronitem>
+            <chronitem>
+               <date>1912-1913</date>
+               <event>Helped establish and taught in Carleton's first high school.</event>
+            </chronitem>
+            <chronitem>
+               <date>1912</date>
+               <event>Graduated from Oberlin College, Phi Beta Kappa.</event>
+            </chronitem>
+            <chronitem>
+               <date>1913-1914</date>
+               <event>Studied at the University of Berlin, returning home because of outbreak of war.</event>
+            </chronitem>
+            <chronitem>
+               <date>1914-1917</date>
+               <event>Taught history at Scott High School in Toledo.</event>
+            </chronitem>
+            <chronitem>
+               <date>1917-1919</date>
+               <eventgrp>
+                  <event>Worked for the U.S. Children's Bureau in Gary, Indiana, directing social services; studied social service at the University of Chicago.</event>
+                  <event>Employed by the U.S. Bureau of Labor Statistics to conduct surveys in Oklahoma and Kansas.</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1919-1923</date>
+               <event>Founded and directed the International Institute in Detroit, established by the Y.W.C.A. for recent immigrants.</event>
+            </chronitem>
+            <chronitem>
+               <date>1923-1926</date>
+               <event>Taught history and served on committee on curriculum reorganization for Toledo high schools.</event>
+            </chronitem>
+            <chronitem>
+               <date>1926-1927</date>
+               <event>Enrolled in International Law and Relations doctoral program at Columbia University as one of first two women to enter this program; received M.A.</event>
+            </chronitem>
+            <chronitem>
+               <date>1927-1946</date>
+               <event>Taught social studies at Lincoln School, Teacher's College, Columbia University, and was an associate in research.</event>
+            </chronitem>
+            <chronitem>
+               <date>1930-1931</date>
+               <event>Traveled around the world studying social science teaching with a grant from the American Historical Association.</event>
+            </chronitem>
+            <chronitem>
+               <date>1937-1969</date>
+               <event>Served on the National Board of the American Council of Nationalities Service.</event>
+            </chronitem>
+            <chronitem>
+               <date>1946-1949</date>
+               <event>Founded and directed the Delhi School of Social Work under the auspices of the Y.W.C.A. in India.</event>
+            </chronitem>
+            <chronitem>
+               <date>1950-1951</date>
+               <eventgrp>
+                  <event>Awarded Fulbright Scholarship to Cairo, where she served as consultant in social work training to the Cairo School of Social Work and as advisor to the U.S. Point IV program.</event>
+                  <event>Worked as consultant for the American Council of Voluntary Agencies for Foreign Service.</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1952-1955</date>
+               <event>Appointed chairman of the United Nations Technical Assistance Program to Pakistan advising on social work education.</event>
+            </chronitem>
+            <chronitem>
+               <date>1955</date>
+               <event>Appointed to Board of Trustees, New Lincoln School.</event>
+            </chronitem>
+            <chronitem>
+               <date>1956</date>
+               <eventgrp>
+                  <event>Received Doctor of Humane Letters degree from Oberlin College.</event>
+                  <event>	Appointed to Advisory Board, Adelphi School of Social Work.</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1959</date>
+               <event>Appointed as its representative to the United Nations by the International Federation of University Women.</event>
+            </chronitem>
+            <chronitem>
+               <date>1960</date>
+               <event>Served on Alumni Board of Oberlin College.</event>
+            </chronitem>
+            <chronitem>
+               <date>1964-1965</date>
+               <event>Served as delegate, Tonga Conference, Pan-Pacific and Southeast Asia Women's Association (PPSEAWA), and U.N. consultant, Australian Council of Women.</event>
+            </chronitem>
+            <chronitem>
+               <date>1965</date>
+               <event>Appointed as its representative to the United Nations by the PPSEAWA; presented proposals relating to women's issues for the PPSEAWA at the U.N. Conference on Women in Teheran.</event>
+            </chronitem>
+            <chronitem>
+               <date>1975</date>
+               <event>Member, Virginia Gildersleeve International Fund for University Women, Inc</event>
+            </chronitem>
+            <chronitem>
+               <date>1981</date>
+               <event>Named, "Citizen of the Day," September 16, in Sarasota, Florida.</event>
+            </chronitem>
+            <chronitem>
+               <date>1983</date>
+               <event>Received Gwendolyn S. Cherry Award from AAUW Miami Branch for contributions in the field of women's rights.</event>
+            </chronitem>
+            <chronitem>
+               <date>1985</date>
+               <event>Publication of Unforgettable Memories, A Collection of Letters in India.</event>
+            </chronitem>
+            <chronitem>
+               <date>1986</date>
+               <event>Nominated for the Michigan Women's Hall of Fame.</event>
+            </chronitem>
+            <chronitem>
+               <date>1987</date>
+               <event>Died on October 3l in Sarasota, Florida</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2697.jpg" altrender="right">
+<daodesc><p>Elimina Lucke with Social Work students, n.d.</p></daodesc></dao><p>The papers are concentrated in the period after World War II.  There are some items, mainly from the 1930s, relating to her family, teaching, and research.  With the exception of family letters and photographs, the papers document her professional work and are not personal in nature.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into five series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Professional Activities</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Writings and Speeches</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Biographical Materials and Memorabilia</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Photographs</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection without any additional restrictions.
+            </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to unpublished works of Elmina Lucke. Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
+           </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Elmina Lucke Papers, Sophia Smith Collection, Smith College, Northampton, MA</p>
+         </prefercite>
+	<altformavail id="admin-altform">
+		<head>Additional Formats</head>
+		<p>Selections from the Elmina Lucke Papers can be viewed in the Web exhibit	<extref href="http://www.smith.edu/libraries/libs/ssc/ywca-os/ywca-home.html">"An Ever-Widening Circle of Friendship":  YWCA Overseas Secretaries from China to Liberia</extref>.</p>
+	</altformavail>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The papers are a gift from Elmina Lucke.  The first installment was received in February 1986 and additional materials have been received since then.  After Ms. Lucke decided to place her papers in the Sophia Smith Collection, the Schlesinger Library transferred the portion of her memoir that had been on deposit there.  Donations of correspondence and photographs have been received from Ross Lucke, Marilyn Brooks, and Marjorie Creelman.</p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Dorothy Green.  Revised by Susan Boone, 1987.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <corpname encodinganalog="610" source="lcnaf">Graduate School of Social Work. University of Dehli--History--Sources</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Pan-Pacific and Southeast Asia Women's Association--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Social service--Developing countries--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social work education--Egypt--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social work education--India--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social work education--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social workers--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social workers--India--History--Sources</subject>
+         <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association of the U.S.A.--History</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Associations--India--History</corpname>
+         <persname encodinganalog="600" source="lcnaf">Lucke, Elmina Rose</persname>
+         <geogname encodinganalog="651" source="lcsh">India--Social conditions--20th century--Sources</geogname>
+         <subject encodinganalog="650" source="lcsh">Social sciences--Study and teaching (Higher)--United States</subject>
+         <geogname encodinganalog="651" source="lcsh">South Asia--Social conditions--20th century--Sources</geogname>
+      </controlaccess>
+      <!-- Begin series descriptions -->
+
+<dsc type="analyticover">
+  <c01 level="series">
+            <did>
+               <unittitle>Series I. CORRESPONDENCE</unittitle>
+            </did>
+            <scopecontent>
+               <p>This series consists of two sections, General and Family. Other letters are filed according to subject in other series.</p>
+               <p>General correspondence is arranged in alphabetical order.  A large number of letters from former students in Egypt, India, and Pakistan provide a view of social work in these countries.  Other correspondents whose letters are of special interest are Madhav Gore, principal of the Delhi School of Social Work from 1953 to 1962, who has corresponded with Miss Lucke for more than thirty years about the school's development and about social work in India; Talitha Gerlach, employee of the Y.W.C.A. and the China Welfare Institute in Shanghai, who has written to Miss Lucke since the end of World War II; and Ruth Rickover, wife of a U.S. naval officer stationed in China, whose letters describe events at the time of the Japanese invasion of China in 1938.</p>
+               <p>There are copies of letters by Elmina Lucke to the Gore family and to former students at the end of this section.</p>
+               <p>Family correspondence consists of letters from Miss Lucke written while traveling abroad.  They contain detailed descriptions of places she visited and people she met and are also expressive of her closeness to her family.  There are also letters from various family members.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series II. PROFESSIONAL ACTIVITIES</unittitle>
+            </did>
+            <scopecontent>
+               <p>This series consists of ten sections which document Elmina Lucke's long career as an educator, researcher, administrator, and consultant. These materials are concentrated on her work abroad from 1930 to 1968.  There is no documentation of her earliest work in high school teaching, for the Children's Bureau, and as founder and director of the International Institute of Detroit, but Miss Lucke recalls some of those experiences in her oral history.</p>
+               <p>The Investigation of the Social Studies in the Schools section contains papers from a trip Miss Lucke took in l930-3l with a grant from the American Historical Association which had undertaken this investigation in l929.  There is correspondence, reports about educational systems in some of the countries she visited, printed materials, and miscellaneous papers.  Reminiscences about this trip may be found in <ref target="list-ser3">Series III</ref>.</p>
+               <p>The Lincoln School section contains a variety of materials about Miss Lucke's twenty-year association with the school.  Documents include correspondence, research notes, clippings, publications, a bibliography, and two drafts of social studies curricula for high schools.  Letters of her former Lincoln students, including David Rockefeller, are in <ref target="list-ser1">Series I</ref>.</p>
+               <p>The Delhi School of Social Work section contains correspondence, reports, publications, and a variety of printed materials produced by the school, established under the auspices of the Y.W.C.A. in 1946.  There are documents and published accounts about her work as the founder and director of the school.  There are papers and correspondence from Miss Lucke's trips to Assam and Burma pertaining to social work education in those countries.  There are publications, reports, and correspondence received by Miss Lucke after she left the school.</p>
+               <p>The Cairo School of Social Work section contains correspondence, notes and texts for three lectures, reports, planning documents, and other papers relating to Miss Lucke's work as a consultant on social work education in Egypt as a Fulbright fellow.</p>
+               <p>The American Council of Voluntary Agencies for Foreign Service section consists of two reports relating to Miss Lucke's tenure as director of a committee studying the distribution of voluntary foreign aid in the years from 1946 to 1952.</p>
+               <p>The United Nations Technical Assistance Program, Pakistan section contains Elmina Lucke's published report about this program, correspondence, research notes and interviews, a report by Julia Henderson, materials relating to the first training course for social workers, and miscellaneous papers and printed materials.</p>
+               <p>The University of Michigan, Community Development Seminar section contains a report summarizing discussions and class lists for seminars taught by Elmina Lucke during the summers of 1958 and 1962.</p>
+               <p>The International Federation of University Women and the Pan-Pacific and Southeast Asia Women's Association sections contain reports, correspondence, proceedings, and other papers documenting Elmina Lucke's work as representative of these organizations to the United Nations.</p>
+               <p>The Other Professional Associations and Activities section consists of correspondence and printed materials from various organizations.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series III. WRITINGS AND SPEECHES</unittitle>
+            </did>
+            <scopecontent>
+               <p>This series consists of separate sections of unpublished and published work.  The Unpublished section contains her memoir, "Remembering at Eighty-Eight, Letters I Should have Written."  These reminiscences begin with an around-the-world trip in 1930 and describe Miss Lucke's impressions and work abroad through her last trip in 1969.  It was published shortly before her death in l987.  There are also some texts and notes for speeches in this section.  A few writings and speeches are filed in <ref target="list-ser2">Series II</ref>.  The Published section contains the book, <title>Unforgettable Memories</title>, published in India in 1985, which is a portion of her memoir.  There are also copies of a number of articles written by her.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series IV. BIOGRAPHICAL MATERIALS AND MEMORABILIA</unittitle>
+            </did>
+            <scopecontent>
+               <p>This series consists of two sections.  The Biographical Materials section contains chronologies highlighting Elmina Lucke's career, numerous clippings about her from 1931 to 1987, and documents concerning several honors she received.  The Memorabilia section includes mementos from the 1930-31 trip and a book about the trip by her traveling companion.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series V. PHOTOGRAPHS</unittitle>
+            </did>
+            <scopecontent>
+               <p>This series contains photographs of Elmina Lucke, her friends, and family.  There are also photographs from her travels, mainly in India and the Far East.  Among the oldest items in this collection are copies of pictures from a family album, dating probably from 1897.</p>
+            </scopecontent>
+ </c01>
+</dsc>
+
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I. CORRESPONDENCE</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>General</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">1</container>
+                     <unittitle>A-Al,<unitdate> 1959-86</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">2</container>
+                     <unittitle>An-Aw,<unitdate> 1949-77, 1986</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3</container>
+                     <unittitle>Bai-Bau,<unitdate> 1950-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>Be-Bl,<unitdate> 1950-51, 1974, 1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>Br,<unitdate> 1950-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>Ca-Ch,<unitdate> 1931-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>Cl-Cr,<unitdate> 1957-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8</container>
+                     <unittitle>Creelman, Marjorie B.,<unitdate> 1945, 1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">9</container>
+                     <unittitle>D,<unitdate> 1946-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">10</container>
+                     <unittitle>E,<unitdate> 1931, 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>F,<unitdate> 1963-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>G,<unitdate> 1949-81</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">13</container>
+                     <unittitle>Gerlach, Talitha,<unitdate> 1947-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">14-17</container>
+                     <unittitle>Gore, Madhav,<unitdate> 1950-78, l986 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">18</container>
+                     <unittitle>Gore, Phyllis,<unitdate> 1956-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">19</container>
+                     <unittitle>Gore, Vikas and Nirmala,<unitdate> 1965-80</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">20</container>
+                     <unittitle>Gwyer, Maurice,<unitdate> 1950-52</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">21</container>
+                     <unittitle>H,<unitdate> 1925-87</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">22</container>
+                     <unittitle>Harvey, Constance H.,<unitdate> 1930, 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">23</container>
+                     <unittitle>Hyslop, Beatrice,<unitdate> 1955-56, 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">24</container>
+                     <unittitle>I, J,<unitdate> 1924, 1955-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">26-27</container>
+                     <unittitle>Khan, Kaniz S.,<unitdate> 1954-87, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">28</container>
+                     <unittitle>Khan, Raiana Lia Ali,<unitdate> 1962-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">29</container>
+                     <unittitle>Khan, Mustafa Ali,<unitdate> 1956-82</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">30</container>
+                     <unittitle>L,<unitdate> 1949-87, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">31</container>
+                     <unittitle>Lincoln School Class of 1938 reunions,<unitdate> 1978-79, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">32</container>
+                     <unittitle>Mac-Mayer,<unitdate> 1950-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">33</container>
+                     <unittitle>Me,<unitdate> 1949-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">34</container>
+                     <unittitle>Mi-Mu,<unitdate> 1949-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">35</container>
+                     <unittitle>Moses, Dorothy,<unitdate> 1951-80</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">36</container>
+                     <unittitle>N,<unitdate> 1951-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">37</container>
+                     <unittitle>Omer, Salima,<unitdate> 1957, 1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">38</container>
+                     <unittitle>Pa,<unitdate> 1929-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">39</container>
+                     <unittitle>Pe-Pu,<unitdate> 1934-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">40</container>
+                     <unittitle>Q,<unitdate> 1959-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">41</container>
+                     <unittitle>R,<unitdate> 1931-86</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">42</container>
+                     <unittitle>Rickover, Ruth and George,<unitdate> 1935-38</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">43</container>
+                     <unittitle>Rockefeller, David,<unitdate> 1932-45</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">44</container>
+                     <unittitle>Sa-Se,<unitdate> 1949-86</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">45</container>
+                     <unittitle>Sh-Si,<unitdate> 1949-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">46</container>
+                     <unittitle>Sm,<unitdate> 1966-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">47</container>
+                     <unittitle>St-Sw,<unitdate> 1932-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">48</container>
+                     <unittitle>Stanford, Peter,<unitdate> 1944-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">49</container>
+                     <unittitle>T,<unitdate> 1954-81</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">50</container>
+                     <unittitle>Thorson, Maxine,<unitdate> 1974-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">51</container>
+                     <unittitle>Toll, Anna-Ma,<unitdate> 1956-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">52</container>
+                     <unittitle>U-V,<unitdate> 1949-86</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">53</container>
+                     <unittitle>Valadian, Margaret,<unitdate> 1972-86</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">54</container>
+                     <unittitle>W,<unitdate> 1933, 1949, 1956-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">55</container>
+                     <unittitle>Wiser, Charlotte and Bill,<unitdate> 1956-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">56</container>
+                     <unittitle>Youngblood, Eileen,<unitdate> 1955-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">57</container>
+                     <unittitle>Zaki, S.M.,<unitdate> 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">58-59</container>
+                     <unittitle>Lucke, Elmina R. (to various correspondents),<unitdate> 1899, 1959-84, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">60-63</container>
+                     <unittitle>Christmas cards, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">64-69</container>
+                     <unittitle>Unidentified,<unitdate> 1931-85, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Family (from Elmina R. Lucke)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">69a-71</container>
+                     <unittitle>Europe, <unitdate>19l3, l925-30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">72</container>
+                     <unittitle>Russia,<unitdate> 1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">73</container>
+                     <unittitle>Middle East,<unitdate> 1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">74</container>
+                     <unittitle>India,<unitdate> 1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">75-76</container>
+                     <unittitle>Southeast Asia,<unitdate> 1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">77</container>
+                     <unittitle>China,<unitdate> 1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">78-79</container>
+                     <unittitle>Japan,<unitdate> 1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">80</container>
+                     <unittitle>Mexico,<unitdate> 1935</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">81</container>
+                     <unittitle>Europe,<unitdate> 1939</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">82</container>
+                     <unittitle>Egypt,<unitdate> 1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">83</container>
+                     <unittitle>India, Burma,<unitdate> 1946-47</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">84</container>
+                     <unittitle>Miscellaneous,<unitdate> 1931, 1939, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Family (to Elmina R. Lucke)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">85</container>
+                     <unittitle>Brooks,<unitdate> 1954, 1969-75, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">86</container>
+                     <unittitle>Nickerson,<unitdate> 1966-71, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">87</container>
+                     <unittitle>Others,<unitdate> 1949, 1975-76, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II. PROFESSIONAL ACTIVITIES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Investigation of the Social Studies in the Schools</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">1</container>
+                     <unittitle>All-India Women's Conference, Lahore: printed materials,<unitdate> 1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">2</container>
+                     <unittitle>Correspondence and itinerary,<unitdate> 1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">3</container>
+                     <unittitle>Educational systems abroad: notes,<unitdate> 1930-31</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">4</container>
+                     <unittitle>"Instruction in History in the Workers' Faculties of the U.S.S.R.": typescript, notes, charts,<unitdate> 1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">5</container>
+                     <unittitle>"Java": typescript,<unitdate> 1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">6</container>
+                     <unittitle>"Teaching of the Social Sciences. Report on India": typescript and holograph copy,<unitdate> 1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">7</container>
+                     <unittitle>Miscellaneous papers and printed materials,<unitdate> 1930, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lincoln School</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">8</container>
+                     <unittitle>"Asiatic Studies for Senior High Schools" c<unitdate>. 1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">9</container>
+                     <unittitle>
+                        <title>Bibliography for Teachers of Social Studies and Foreign Languages in Senior High Schools</title>,<unitdate> 1934 Jul</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">10</container>
+                     <unittitle>Correspondence and address list,<unitdate> 1934, 1947-49</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">11</container>
+                     <unittitle>Printed matter re: field study,<unitdate> 1938-40</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">12</container>
+                     <unittitle>Research notes,<unitdate> 1940, 1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">13</container>
+                     <unittitle>"The World from Senior High School Windows--and Doors",<unitdate> 1940s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">14</container>
+                     <unittitle>Miscellaneous printed materials, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Delhi School of Social Work</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">15</container>
+                     <unittitle>Application and evaluation forms, examinations, and miscellaneous papers,<unitdate> 1947, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">16</container>
+                     <unittitle>Articles about the school,<unitdate> 1949, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">17</container>
+                     <unittitle>Book lists,<unitdate> 1946, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">18-23</container>
+                        <unittitle>General,<unitdate> 1945-80</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Topical</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">24</container>
+                           <unittitle>Assam, including itineraries and reports,<unitdate> 1948</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">25</container>
+                           <unittitle>Burma,<unitdate> 1948-50</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">26</container>
+                           <unittitle>Delhi School of Social Work Society,<unitdate> 1976-82</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">27</container>
+                           <unittitle>Letters of introduction,<unitdate> 1946-47, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">28</container>
+                           <unittitle>Y.W.C.A. of India (Ivy Khan),<unitdate> 1965-79</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">29</container>
+                     <unittitle>Fund raising sources: annotated lists,<unitdate> 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">30</container>
+                     <unittitle>Moses, Dorothy, "Village Life and Social Work," <title>The Survey</title>,<unitdate> 1952 May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">31</container>
+                     <unittitle>National Y.W.C.A. of India, Burma, and Ceylon: meeting agenda, list of council members,<unitdate> 1947, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">32</container>
+                     <unittitle>Publications: bulletins, annual reports, brochures, pamphlets,<unitdate> 1948-57</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">33</container>
+                     <unittitle>Publicity: printed materials, interview, correspondence, press releases,<unitdate> 1949-51, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">34</container>
+                     <unittitle>Reports by Dorothy Moses, Edward Lindeman, and others,<unitdate> 1947-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">35</container>
+                     <unittitle>Reports by Elmina R.Lucke,<unitdate> 1947-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">36</container>
+                     <unittitle>"Social Service Training Project, India: preparations, interviews in the U.S.": notebook contents,<unitdate> 1946-47</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">37</container>
+                     <unittitle>Syllabi and prospectuses,<unitdate> 1946-62, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">38</container>
+                     <unittitle>Miscellaneous notes, printed materials, clipping,<unitdate> 1947-64</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cairo School of Social Work</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">39</container>
+                     <unittitle>Background notes for lectures,<unitdate> 1950-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">40</container>
+                     <unittitle>Correspondence,<unitdate> 1950-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">41</container>
+                     <unittitle>Form letters from Elmina R. Lucke,<unitdate> 1950-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">42</container>
+                     <unittitle>Fulbright award: correspondence, printed materials,<unitdate> 1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">43</container>
+                     <unittitle>Reports and planning documents,<unitdate> 1950-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">44</container>
+                     <unittitle>Staff questionnaire: form, report, tabulations,<unitdate> 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">45</container>
+                     <unittitle>"Three Lectures on Community Organization": text, correspondence, clipping, press release,<unitdate> 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">46</container>
+                     <unittitle>Printed materials and appointment book,<unitdate> 1950, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>American Council of Volunteer Agencies for Foreign Service</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">1</container>
+                     <unittitle>
+                        <title>The Role of Voluntary Agencies in Technical Assistance</title>, and an incomplete report, pages <unitdate>20-37, 1953, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">2</container>
+                     <unittitle>Correspondence and printed materials,<unitdate> 1978-80</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>United Nations Technical Assistance Program, Pakistan</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">3</container>
+                     <unittitle>"First Training Course for Social Workers": lists of students and teachers, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">4-6</container>
+                     <unittitle>General correspondence,<unitdate> 1952-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">7</container>
+                     <unittitle>Henderson, Julia: reports and correspondence,<unitdate> 1953-60</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">8-10</container>
+                     <unittitle>Lucke, Elmina R.: reports, research notes, and interviews,<unitdate> 1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">11-12</container>
+                     <unittitle>Miscellaneous papers and printed materials,<unitdate> 1953-54, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">13</container>
+                     <unittitle>Pakistan Association of Social Workers: correspondence and printed materials,<unitdate> 1955-62</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">14</container>
+                     <unittitle>
+                        <title>Social Welfare Project, United Nations Technical Assistance Programme</title>: published text, correspondence, draft,<unitdate> 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>University of Michigan, Community Development Seminar</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">15</container>
+                     <unittitle>Class lists, book list,<unitdate> 1958-62</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">16</container>
+                     <unittitle>"Community Development in Newly Developing Countries": report,<unitdate> 1958 Aug</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>International Federation of University Women</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">17-18</container>
+                     <unittitle>U.N. Economic and Social Council: reports,<unitdate> 1959-61</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">19</container>
+                     <unittitle>Miscellaneous,<unitdate> 1939, 1961,1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pan-Pacific and Southeast Asia Women's Association</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Conference agenda proposal and by-laws, c.                    <unitdate>1961</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">20</container>
+                        <unittitle>Eleventh Conference, Hawaii,<unitdate> 1968</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">21</container>
+                        <unittitle>"Problems Arising from the Growing Population of the World": proceedings,<unitdate> 1968 Aug 12-23</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">22</container>
+                        <unittitle>Reports and correspondence,<unitdate> 1967-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">23-24</container>
+                     <unittitle>General correspondence,<unitdate> 1954, 1961-66</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tenth Conference, Tonga,                    <unitdate>1964</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">25</container>
+                        <unittitle>Correspondence,<unitdate> 1964, 1968</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">26</container>
+                        <unittitle>Notes of Elmina R. Lucke,<unitdate> 1959-64, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">27</container>
+                        <unittitle>Printed materials, clippings,<unitdate> 1962-64, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">28</container>
+                        <unittitle>"The Role of Women in Preserving the Cultural Heritage of Mankind": proceedings,<unitdate> 1964 Aug 15-27</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">29</container>
+                        <unittitle>Speech by Elmina R. Lucke,<unitdate> 1964</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>U.N. Committee reports</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">30</container>
+                        <unittitle>Commission for Social Development,<unitdate> 1968</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">31</container>
+                        <unittitle>Commission on the Status of Women,<unitdate> 1964-65</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">32</container>
+                        <unittitle>UNESCO,<unitdate> 1969-73</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Other Professional Associations and Activities</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">33</container>
+                     <unittitle>Scott High School, fiftieth anniversary: printed materials, program,<unitdate> 1962-63</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">34</container>
+                     <unittitle>Virginia Gildersleeve International Fund for University Women: correspondence, membership lists, minutes, brochure,<unitdate> 1975-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">35</container>
+                     <unittitle>World Assembly of Youth, Singapore: invitations and programs,<unitdate> 1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">36-39</container>
+                     <unittitle>Miscellaneous correspondence and printed material,<unitdate> 1950-84, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III. WRITINGS AND SPEECHES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Published Writings and Speeches</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">40</container>
+                     <unittitle>All-Asian Women's Conference, First Session, Lahore,<unitdate> 1931 Jan 19-25</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">41</container>
+                     <unittitle>"An American Social Worker Abroad" Amerika, no. 51: article in Russian and an English translation, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">42</container>
+                     <unittitle>"A Second School of Social Work for Asia," <title>The Woman's Press</title>,<unitdate> 1949 Jan</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">43</container>
+                     <unittitle>"Author of Indian Liberty," review of The Life of Mahatma Gandhi, The Survey: copy and draft,<unitdate> 1950 Sep</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">44</container>
+                     <unittitle>"Extending Social Services: Women Set New Goals for the New India," R<title>oshni, Journal of the All India Women's Conference</title>,<unitdate> 1948 Dec</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">45</container>
+                     <unittitle>"Have You Seen 'The River,'" <title>Progressive Education</title>,<unitdate> 1939 Mar</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">46</container>
+                     <unittitle>"New Theories in Practice," <title>The New Era</title>,<unitdate> 1930 Apr</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">47</container>
+                     <unittitle>"New Vocational Horizons for our Seniors," <title>The Link</title>,<unitdate> 1941 Feb</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">48</container>
+                     <unittitle>
+                        <title>Unforgettable Memories: A Collection of Letters</title>, Delhi,<unitdate> 1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">49</container>
+                     <unittitle>"Who Shall be Trained in Social Work," Provincial Conference for Social Work, Madras,<unitdate> 1948 Jul</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Unpublished Writings and Speeches</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">50</container>
+                     <unittitle>"An International Institute for Detroit," Convention of International Institutes, Detroit,<unitdate> 1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">51</container>
+                     <unittitle>"Memorial for Josephine Stanton",<unitdate> 1981 Nov</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">52-57</container>
+                     <unittitle>"Remembering at Eighty-Eight, Letters I Should Have Written", <unitdate>post-1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">58-59</container>
+                     <unittitle>Miscellaneous notes for talks,<unitdate> 1941-64, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV. BIOGRAPHICAL MATERIALS AND MEMORABILIA</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Biographical Materials</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">0</container>
+                     <unittitle>Oral history conducted by Jacqueline Van Voris: transcript and tapes, <unitdate>July 11 to 13, 1986</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">1</container>
+                     <unittitle>Biographical data,<unitdate> 1959-87, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">2</container>
+                     <unittitle>Lucke family: printed materials,<unitdate> 1952-60, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">3</container>
+                     <unittitle>
+                        <title>Harbor Light</title>, Plymouth Harbor, Sarasota: newsletter,<unitdate> 1970-82</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Honors</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">4</container>
+                        <unittitle>American Association of University Women,<unitdate> 1981-86</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">5</container>
+                        <unittitle>Oberlin College, Doctor of Humane Letters,<unitdate> 1955-56</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">6</container>
+                        <unittitle>Other,<unitdate> 1917-86</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">7</container>
+                     <unittitle>"Bootstraps, Bullets and Brooms," proposed article about Elmina R. Lucke by Tracy Millard: draft, correspondence,<unitdate> 1950-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">8-9</container>
+                     <unittitle>Newspaper clippings about Elmina R. Lucke,<unitdate> 1931-86</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">10-13</container>
+                     <unittitle>Book donations and gifts: correspondence, lists,<unitdate> 1969-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Memorabilia</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">14</container>
+                     <unittitle>German language study, Berlin: notebooks,<unitdate> 1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">15-17</container>
+                     <unittitle>Invitations,<unitdate> 1930-75, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">18-19</container>
+                     <unittitle>Mementoes of trip: note, map, printed material, miscellaneous items,<unitdate> 1930-31</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">20</container>
+                     <unittitle>Passports,<unitdate> 1925-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">21</container>
+                     <unittitle>
+                        <title>Gentle on My Mind</title> by Louise Gates Eddy: book and clippings,<unitdate> 1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">22</container>
+                     <unittitle>Miscellaneous,<unitdate> 1926-81, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>Series V. PHOTOGRAPHS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">23</container>
+                  <unittitle>Around-the-world trip,<unitdate> 1930-31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">24</container>
+                  <unittitle>Elmina R. Lucke,<unitdate> 1912?-1986</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">25</container>
+                  <unittitle>Family,<unitdate> 1897?-1986, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">26</container>
+                  <unittitle>Friends,<unitdate> 1920s, 1948-84</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">27</container>
+                  <unittitle>India,<unitdate> 1947-85</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">28</container>
+                  <unittitle>Miscellaneous, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">29</container>
+                  <unittitle>PPSEAWA Seventh Annual Conference,<unitdate> 1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">30</container>
+                  <unittitle>University of Michigan,<unitdate> 1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Albums</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">1</container>
+                     <unittitle>Burma and India, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>India,<unitdate> 1946-49</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

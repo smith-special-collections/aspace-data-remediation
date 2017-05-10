@@ -1,0 +1,1441 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss174.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss174</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Religion Collection, 1734-1997 (bulk 1800-1950)
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Laura Cutter.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-07-11</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss174 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Religion Collection, 1734-1997 (bulk 1800-1950)
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 4488</num>
+         <author encodinganalog="245$c">Laura Cutter</author>
+         <date>Revised 2002</date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main-overview">
+         <head>Collection Overview</head>
+         <unittitle label="Title:" encodinganalog="245$a">Religion Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1734-1997</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1800-1950</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 448</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">10 boxes</extent>
+            <extent encodinganalog="300$a">(7.25 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">This collection is comprised of bibliographies, articles, pamphlets, biographies, newspaper clippings and tracts all pertaining to women's roles within religion and the church. Included are two volumes of The Woman's Bible (1897); a tract entitled "Account of Abigail Hutchinson: a young woman hopefully converted at Northampton, Mass (1734);" pamphlets and articles on the education and training of missionaries and  historical sketches of missionary societies; matriarchal religions and  founders of independent and separatist church movements; and documentation on women's organizations and caucuses from various religious sects. </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6312.jpg" altrender="right">
+<daodesc><p>Cover of pamphlet on the "Account <lb />of Abigail Hutchinson, a young woman <lb />hopefully converted at Northampton, <lb />Mass," by Jonathan Edwards, 1734</p></daodesc></dao>
+         <p> The collection is comprised of bibliographies, articles, pamphlets, biographies, newspaper clippings, and tracts all pertaining to women's roles within religion and the church. Dating from 1734 to 1979, the bulk of the materials are dated after 1800. Included are two volumes of The Woman's Bible (1897); a tract entitled "Account of Abigail Hutchinson: a young woman hopefully converted at Northampton, Mass" (1734); pamphlets, articles and other materials on the education and training of missionaries and historical sketches of missionary societies, matriarchal religions, founders of independent and separatist church movements, and women's organizations and caucuses from various religious sects. There are also biographical files on individual women religious thinkers and leaders and an oral history of Patricia Page (Smith College, class of 1944), done for the Episcopal Women's History Project (1997).  </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into six series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I.  General </ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II.  Individuals </ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III.  Clergy </ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV.  Organizations </ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V.  Missionary Work </ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI.  Sects </ref>
+            </item>
+            <item>
+               <ref target="list-serOV">Oversize materials</ref>
+            </item>
+            <item>
+               <ref target="list-serBKS">Books on Shelf</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Materials in this collection may be protected by copyright. It is the responsibility of the researcher to identify and satisfy all copyright holders. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Religion Collection, Sophia Smith Collection, Smith College, Northampton, MA</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions are expected. </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Materials in this subject collection were either purchased or given to the Sophia Smith Collection by various donors. One donor to this collection, Patricia Page, was Smith College Class of 1944.  </p>
+            </acqinfo>
+            <processinfo id="admin-process">
+               <p>Processed in 2002 by Laura Cutter, intern. Recent additions may not be reflected in the finding aid. </p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj-subheads">
+         <head>Search Terms</head>
+         
+         <subject encodinganalog="650" source="lcsh">England--Church history--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Feminist spirituality</subject>
+         <subject encodinganalog="650" source="lcsh">Missionaries-- History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Spouses of clergy-- History--Sources</subject>
+         <geogname encodinganalog="651" source="lcsh">United States--Church history--Sources</geogname>
+         <corpname encodinganalog="610" source="lcsh">Women--Religion--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Women clergy--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women in Christianity--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women in church work--Catholic Church</subject>
+         <subject encodinganalog="650" source="lcsh">Women missionaries--History--Sources</subject>
+	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
+      </controlaccess>
+       <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. GENERAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Contents</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Bibliographies<unitdate> 1971-80, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Women in the Bible: articles, pamphlets, notes, and miscellaneous<unitdate> 1922-80, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>
+                     <title render="italic">The Woman's Bible</title>, 2 volumes: Vol. I, <title render="italic">The Pentateuch</title><unitdate> 1897</unitdate>; Vol. II, <title render="italic">Judges, Kings, Prophets and Apostles</title><unitdate>1898</unitdate>; article<unitdate>1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Women in the Church: articles<unitdate> 1914-71, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6-7</container>
+                  <unittitle>Women in the Church, pamphlets and booklets [one in French]<unitdate> 1734, 1868, 1903-71, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Matriarchal Religions: Pesek-Marous, Eduard. <title render="italic">Salvatore, Bull of Salvation</title> (Tau Press, California:<unitdate> 1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Research Papers</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">9</container>
+                     <unittitle>Susan Milson, "Women and the Medieval Church"<unitdate> 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">10</container>
+                     <unittitle>Nancy Schwartz. "Women as Leaders and Founders of Independent and Separatist Church Movements in Sub-Saharan Africa"<unitdate> 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Periodicals</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">11</container>
+                     <unittitle>
+                        <title render="italic">Commonweal</title><unitdate>May 15, 1970; Dec. 24, 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">12</container>
+                     <unittitle>
+                        <title render="italic">Daughters of Sarah</title><unitdate>Nov. 1974, Jan. 1975, Mar. 1977, May 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">13</container>
+                     <unittitle>
+                        <title render="italic">Inward Light</title><unitdate>Summer/Fall, 1964; Spring, 1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">14</container>
+                     <unittitle>
+                        <title render="italic">Kairos, an independent quarterly of liberal religion</title><unitdate>Spring 1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">15</container>
+                     <unittitle>
+                        <title render="italic">Post American</title><unitdate>August/September, 1974 </unitdate>[Evangelical Feminism]</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">16</container>
+                     <unittitle>
+                        <title render="italic">Women's Caucus-Religious Studies Newsletter</title><unitdate>March 1973, Fall 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">17</container>
+                     <unittitle>
+                        <title render="italic">The Student World</title>, Third Quarter<unitdate> 1936</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. INDIVIDUALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">18</container>
+                  <unittitle>Collected biographies<unitdate> 1921, 1974, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <title render="italic">Praise Book</title> (songs)<unitdate> 1877</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">19</container>
+                  <unittitle>Antoinette Brown Blackwell: photographs and article<unitdate> 1914, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">20</container>
+                  <unittitle>Olympia Brown: pamphlets, articles, autobiography, letters<unitdate> 1915-63</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">21</container>
+                  <unittitle>Mary Daly: 3 articles written by Daly<unitdate> 1971-72</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">22</container>
+                  <unittitle>Mary Dyer: articles<unitdate> 1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">23</container>
+                  <unittitle>Mary Baker Eddy: articles<unitdate> 1910-70, n.d.</unitdate>
+                  </unittitle>
+		  <note><p>	
+		  <ref target="list-serOV">[see also OVERSIZE MATERIAL]</ref></p></note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">24</container>
+                  <unittitle>Julia A.J. Foote: autobiography<unitdate> 1879</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">25</container>
+                  <unittitle>Elizabeth Fry: articles, photographs, and letters<unitdate> 1925, 1936, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">26</container>
+                  <unittitle>Barbara Heck: pamphlets and articles<unitdate> 1927-33, n.d.</unitdate> 
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">26</container>
+                  <unittitle>Joan of Arc </unittitle>
+		<note><p>[see <ref target="list-serBKS">Books on shelf</ref>]</p>
+                  	</note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">27</container>
+                  <unittitle>Ruth Anna Lindley: biography<unitdate> 1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">28</container>
+                  <unittitle>Aimee Semple McPherson: biography and articles<unitdate> 1926-33, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">28a</container>
+                  <unittitle>Madalyn Murray O'Hair: pamphlets <unitdate>1966, 1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Patricia Page    [See next box] </unittitle>
+               </did>
+            </c02> 
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">29</container>
+                  <unittitle>Mary Rotch: biography<unitdate> 1956</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Agnes Maude Royden</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">30</container>
+                     <unittitle>Pamphlets, articles, letter written by Royden<unitdate> 1915-43, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">31</container>
+                     <unittitle>Articles about Royden<unitdate> 1922-64, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">32</container>
+                  <unittitle>Elizabeth Ann Seton: biography and article<unitdate> 1921, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">33</container>
+                  <unittitle>Joanna Southcott: article<unitdate> 1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">34</container>
+                  <unittitle>Augusta E. Stetson: letters<unitdate> 1904, 1914, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3a</container>
+                  <container type="folder">34a</container>
+                  <unittitle>Patricia Page: oral history transcript and audiocassette tapes (4)<unitdate>1997</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. CLERGY</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3b</container>
+                  <container type="folder">35</container>
+                  <unittitle>Pamphlets<unitdate> 1892-63, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3b</container>
+                  <container type="folder">36</container>
+                  <unittitle>Articles<unitdate> 1891-38</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3b</container>
+                  <container type="folder">37</container>
+                  <unittitle>International Association of Women Ministers: pamphlet and poster<unitdate> 1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3b</container>
+                  <container type="folder">38</container>
+                  <unittitle>International Association of Women Preachers: constitution and letter<unitdate> 1919, 1924</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3b</container>
+                  <container type="folder">39</container>
+                  <unittitle>Society for the Equal Ministry of Men and Women in the Church: pamphlets<unitdate> 1929-47, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3b</container>
+                  <container type="folder">40</container>
+                  <unittitle>Minister's wives: articles<unitdate> 1923-37, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. ORGANIZATIONS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">40a</container>
+                  <unittitle>Campus Ministry Women: newsletters<unitdate>April 1974-May 1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">41</container>
+                  <unittitle>Center for Women and Religion: pamphlets and letter<unitdate> 1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">41a</container>
+                  <unittitle>Ecumenical Women's Center: Personnel handbook and newsletters<unitdate> 1974-82</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">42</container>
+                  <unittitle>Ethical Culture Society (Clara Babcock Bisbee): article and pamphlet<unitdate> 1892, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">43</container>
+                  <unittitle>Evangelical Women's Caucus: pamphlet and letter<unitdate> 1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">44</container>
+                  <unittitle>Federal Council of the Churches of Christ in America: questionnaires, pamphlets, reports, and newsletter<unitdate> 1925-49</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">45</container>
+                  <unittitle>Interracial Conference of Church Women (Federal Council of Churches): articles and pamphlets<unitdate> 1926-29, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">46</container>
+                  <unittitle>Massachusetts Council of Churches. Task Force on Women: press release, article, and newsletter<unitdate> 1974, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">47</container>
+                  <unittitle>Miscellaneous: articles and pamphlets<unitdate> 1864, 1922-38, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">48</container>
+                  <unittitle>National Council of Churches. United Church Women: booklets, study guide,and articles<unitdate> 1959, 1970, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">49</container>
+                  <unittitle>National Organization for Women: Task Force on Women and Religion: reports, mission statement<unitdate> 1973, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">49a</container>
+                  <unittitle>Philadelphia Task Force on Women in Religion: newsletters<unitdate>March/April 1973-March/April 1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">49b</container>
+                  <unittitle>The Woman's Church (New York City): announcement<unitdate> 1879</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">50</container>
+                  <unittitle>Women's Centennial Congress. Commission on Ethical and Religious Values: preparatory material<unitdate> 1940</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">50a</container>
+                  <unittitle>Women's Center for Theologizing: reports, programs, resources, retreats, and training materials<unitdate> 1974-1976, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">50b</container>
+                  <unittitle>Women's Ordination Conference: letter and donation information<unitdate> 1994</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">51</container>
+                  <unittitle>World Council of Churches: pamphlets, booklets, reports, lectures, letter, and bibliography<unitdate> 1947-64</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>SERIES V. MISSIONARY WORK</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Missionaries</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">52</container>
+                     <unittitle>Articles and pamphlets<unitdate> 1900-31, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">53</container>
+                     <unittitle>Education and training: booklets<unitdate> 1913-44, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Missionaries in Asia</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">54</container>
+                        <unittitle>General: letters and articles<unitdate> 1929-40</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <unittitle>Kiangsi <unitdate>1919</unitdate> &amp; Foochow <unitdate>1913</unitdate> Women's conferences</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <unittitle>Montgomery, Helen Barrett. <title render="italic">Western Women in Eastern Lands</title> (New York: MacMillan Company<unitdate> 1911</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">55</container>
+                     <unittitle>Miscellaneous biography: articles and pamphlets<unitdate> 1917-30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">56</container>
+                     <unittitle>Loanza Goulding Benton (1822-99): biography, diary (1847-51), recollections, article, photographs, and drawings (all in one typed compellation)<unitdate> 1847-1869, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">57</container>
+                     <unittitle>Seraphina Haynes Everett (1823-55): diary (typed copy)<unitdate>March 3, 1845- April 17, 1845</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">57a</container>
+                     <unittitle>Frances Cousens Gage: biography<unitdate> 1918</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">58</container>
+                     <unittitle>Florence Hooper (1789-1826): booklet, material by Hooper, bibliography<unitdate>1957, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">59</container>
+                     <unittitle>Ann Hasseltine Judson (1819-1903): letter<unitdate>1826</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">60</container>
+                     <unittitle>Rebecca Toy Lore (1793-1812): diary<unitdate>September 17, 1847-December 6, 1847</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">61</container>
+                     <unittitle>Harriet Atwood Newell (1874-1939): book<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">62</container>
+                     <unittitle>Genevieve Davis Olds: remembrance and photograph<unitdate> 1939, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">63</container>
+                     <unittitle>Rhoda Orme (1842-1933): reports<unitdate>1954, 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">64</container>
+                     <unittitle>Clara Gray Schauffler (1982-1955): biography<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">65</container>
+                     <unittitle>Ruth Isabel Seabury: biography, Part 2 of 2<unitdate>1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Missionary societies</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">66</container>
+                     <unittitle>Birdsnest Foundation: booklet and pamphlets<unitdate> 1930-37, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">67</container>
+                     <unittitle>Board of Foreign Missions of the Presbyterian Church: pamphlets, articles, and letter<unitdate> 1900-52</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">68</container>
+                     <unittitle>Council of Women for Home Missions: articles<unitdate> 1923-31</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">69</container>
+                     <unittitle>East London Institute for Home and Foreign Missions: book<unitdate> 1887</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">70</container>
+                     <unittitle>Federation of Woman's Boards of Foreign Missions of North America: reports and minutes<unitdate> 1926-28</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">70a</container>
+                     <unittitle>Female Cent Institution (Aux. to the New Hampshire Missionary Society): report<unitdate> 1888</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">71</container>
+                     <unittitle>Female Missionary Society for the Poor of the City of New York: report<unitdate> 1817</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">72</container>
+                     <unittitle>Foreign Missions Conference, Committee on Women's Work: report and minutes<unitdate> 1939</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">73</container>
+                     <unittitle>International Missionary Council: article and booklets<unitdate> 1927-28, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">74</container>
+                     <unittitle>The King's Daughters Settlement: report, article, and periodical<unitdate> 1896-1928</unitdate>
+                     </unittitle>
+                  </did> 
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">74a</container>
+                     <unittitle>Presbyterian Women's Home Missions: reports, financial information, and drafts of resolutions<unitdate> 1877-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">75</container>
+                     <unittitle>Trinity Church Association and Trinity Mission House: booklet<unitdate> 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">76</container>
+                     <unittitle>United Study of Missions: booklets<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">77</container>
+                     <unittitle>Women's Board of Missions: pamphlets, letter, booklets, article, and reports<unitdate> 1882-1925, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">78</container>
+                     <unittitle>Women's Board of Missions for the Pacific Islands: reports<unitdate> 1874-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">79</container>
+                     <unittitle>Women's Foreign Missionary Society: articles<unitdate> 1871-1931, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">80</container>
+                     <unittitle>Woman's Home Missionary Society: reports and articles<unitdate> 1893-1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6a</container>
+                     <container type="folder">81</container>
+                     <unittitle>Women's Presbyterian Board of Missions of the North West: booklet and periodicals<unitdate> 1882-1911</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6a</container>
+                     <container type="folder">82</container>
+                     <unittitle>Women's Baptist Missionary Society, Women's American Baptist Home Mission Society, and American Baptist Foreign Mission Society: booklets and article<unitdate> 1881-1927, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6a</container>
+                     <unittitle>L.H. Daggett. <title render="italic">Historical Sketches of Women's Missionary Societies in America and England</title>, Boston<unitdate> 1883</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>SERIES VI. SECTS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Anglican</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">83</container>
+                     <unittitle>General: booklets and articles<unitdate> 1908-43, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">84</container>
+                     <unittitle>Anglican Group for the Ordination of Women: booklets, reports<unitdate> 1930-39, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">85</container>
+                     <unittitle>Clergy: booklets and articles<unitdate> 1917-58, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">86</container>
+                     <unittitle>Deaconesses: booklets and articles<unitdate> 1912-48, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">87</container>
+                     <unittitle>League of the Church Militant: pamphlets<unitdate> 1919-28, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">88</container>
+                  <unittitle>Baptist: articles<unitdate> 1923-32, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Catholic</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">89</container>
+                     <unittitle>General: biographies (one in German), pamphlets, and articles<unitdate> 1912-45, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">90</container>
+                     <unittitle>National Council of Catholic Women: booklets and articles<unitdate> 1921-52, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">91</container>
+                     <unittitle>Sisterhoods: articles and biographies<unitdate> 1922-69, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">92</container>
+                     <unittitle>Women's Ordination Conference: pamphlets and booklet of programs<unitdate> 1979-82, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">93</container>
+                  <unittitle>Church of Scotland: articles and booklets<unitdate> 1912-47, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">94</container>
+                  <unittitle>Congregational: articles and pamphlets<unitdate> 1929-50, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">95</container>
+                  <unittitle>Doukhobors: articles<unitdate> 1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">96</container>
+                  <unittitle>Islam: booklets and articles<unitdate> 1881-1933, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">97</container>
+                  <unittitle>Judaism: books, articles, and periodicals<unitdate> 1924-84, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">98</container>
+                  <unittitle>Lutheran: articles<unitdate> 1925-28, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Methodist</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">99</container>
+                     <unittitle>General: articles and programs<unitdate> 1920-74, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">100</container>
+                     <unittitle>Clergy: articles<unitdate> 1922-33</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">101</container>
+                     <unittitle>Deaconesses: booklets and articles<unitdate> 1922-63, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">101a</container>
+                     <unittitle>United Methodist Women's Caucus: newsletter (<title render="italic">The Yellow Ribbon</title>)<unitdate>March 1973-Fall 1977, 1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">102</container>
+                  <unittitle>Mormon: booklets, article, and letter<unitdate> 1884-1979, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Presbyterian</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">103</container>
+                     <unittitle>General: articles<unitdate> 1921-28</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">104</container>
+                     <unittitle>Clergy: articles<unitdate> 1925-58</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Protestant Episcopal</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">105</container>
+                     <unittitle>General: booklets, articles<unitdate> 1919-74, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">106</container>
+                     <unittitle>Sisterhood: book, booklets, and periodicals<unitdate> 1879-1963, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">107</container>
+                  <unittitle>Reformed Church of America, clergy: article<unitdate> 1927</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">108</container>
+                  <unittitle>Salvation Army: articles and photograph<unitdate> 1929-33</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">109</container>
+                  <unittitle>Seventh Day Adventists: booklet<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Society of Friends</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">110</container>
+                     <unittitle>General: articles and booklets<unitdate> 1929-59, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">111</container>
+                     <unittitle>ARSC Women's Newsletter<unitdate>February-December 1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">112</container>
+                     <unittitle>Symposium on American Quaker Women (Guilford College, March, 1979): bibliographies, informational material, various Quaker women, statistics, essay, and articles<unitdate>1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">113</container>
+                  <unittitle>Unitarian: articles and booklets<unitdate> 1922, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">114</container>
+                  <unittitle>Universalists: articles<unitdate> 1923, 1930</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Unitarian/ Universalist</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">115</container>
+                     <unittitle>Clergy: book<unitdate> 1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>U.U. Women's Federation</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">116</container>
+                        <unittitle>
+                           <title render="italic">The Bridge</title> (Periodical)<unitdate>March 1970-February 1971, Nov/Dec 1971</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">117</container>
+                        <unittitle>
+                           <title render="italic">Speak Out</title> (Periodical)<unitdate>May 1971, Sept 1974, Dec 1974, Mar 1975, Nov 1975, Mar 1976</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">118</container>
+                  <unittitle>Wicca: report<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+	 <c01 level="series" id="list-serOV">
+	     <did>
+	 	<unittitle>OVERSIZED MATERIAL</unittitle>
+	     </did>
+	 	<c02>
+	         <did>
+	 	  <container type="box">10</container>
+	 	  <unittitle>Scrapbook of historical data re: Christian Science to its founder, Mary Baker Eddy<unitdate>1935</unitdate></unittitle>
+	         </did>
+	 	</c02>
+ 		<c02>
+ 	<did>
+ 		<container type="box">10</container>
+ 		<unittitle><title render="italic">Faith and Feminism</title>, Hellen Lakelly Hunt, <unitdate> 2004</unitdate></unittitle>
+ 		</did>
+ 		</c02>
+	 </c01>
+
+         <c01 level="series" id="list-serBKS">
+            <did>
+               <unittitle>BOOKS ON SHELF</unittitle>
+            </did>
+	<c02>
+		<did>
+			<unittitle>Booth, Evangeline and Grace L. Hill. <title render="italic">The War Romance of the Salvation Army</title> 
+				<unitdate>1919</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<unittitle>Crook, Margaret Brackenbury. <title render="italic">Women and Religion</title> 
+				<unitdate>1964</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<unittitle>Driscoll, Annette.  <title render="italic">Literary Convert Women</title>
+				<unitdate>1928</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<unittitle>Howland, Susannah R. <title render="italic"> Early Quakerism </title>
+				<unitdate>1885</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<unittitle>Lollis, Lorraine.  <title render="italic">The Shape of Adam's Rib</title> 
+				<unitdate>1970</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<unittitle>Rankin, Mary.  <title render="italic">Daughter of Affliction</title> 
+				<unitdate>1871</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<unittitle>Royden, A. Maude.  <title render="italic">Blessed Joan of Arc</title>
+				<unitdate>1918</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+
+	<c02>
+		<did>
+			<unittitle>Sergio, Lisa.  <title render="italic">Jesus and Woman:  An exciting discovery of what he offered her</title>
+				<unitdate>1975</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<unittitle>Spencer, J. A., ed.  <title render="italic">The Women of Early Christianity</title>
+				<unitdate>1851</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+
+			<c02>
+				<did>
+					<unittitle>Van Lennep, Mary E.  <title render="italic">Memoir of Mrs. Mary E. Van Lennep</title> (missionary in Turkey)<unitdate>1848</unitdate>  
+			</unittitle>
+		</did>
+	</c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
+		
+

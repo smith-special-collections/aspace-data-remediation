@@ -1,0 +1,339 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca20.xml//EN" countrycode="us" mainagencycode="manosca">manosca20</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Marian Sage Seewoster Papers, 1927-1986
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Kate Baker.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+<date>2003-06-03</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca20 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives</publisher>
+<titleproper>Marian Sage Seewoster Papers, 1927-1986
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 80. Class of 1929.</num>
+<author>Kate Baker
+</author>
+<date>2001
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Seewoster, Marian Sage, 1907-1999. </persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Marian Sage Seewoster Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1927-1986</unitdate>
+<unitdate encodinganalog="245$g" type="bulk">1927-1928</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 80. Class of 1929.</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">1 box</extent>
+<extent encodinganalog="300$a">(.5 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Smith graduate.  Contains correspondence from junior year abroad and postcards.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p>Marian Sage Seewoster was born Marian Strong Sage on December 11, 1907 in Wilkes-Barre, Pennsylvania.  The daughter of Herbert Strong Sage and Katherine Corkery, Marian attended the Wilkes-Barre Institute before beginning her studies at Smith College.  Marian graduated with the class of 1929 after spending her junior year abroad in Paris, France at the University of Paris.  She did graduate work at Washington University in St. Louis, MO.
+</p>
+<p>In St. Louis, Marian taught French at the Mary Institute, now the Mary Institute and St. Louis Country Day School, for 36 years, taught English to foreign students at the International Institute, and was active in community organizations that promoted French culture.  These included the Alliance Francaise, Societe Francaise, and the American Association of the Teachers of French.  She married Charles C. Seewoster and had a son, Charles Sage Seewoster in (1951?)  Charles, Sr. died in 1972.  Marian died on July 30, 1999 in St. Louis, MO at the age of 91.
+</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>While attending her Junior Year in Paris she sent numerous letters home to her parents in Wilkes-Barre.  This is a collection of those letters - kept and numbered by her parents as they were received - along with an incomplete set of transcriptions and miscellaneous correspondence received by Marian later in her life.
+</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into two series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Correspondence </ref>
+</item>
+<item>
+<ref target="list-ser2">II. Transcripts</ref>
+</item>
+</list>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict id="admin-access">
+			<p>The records are open for research according to the regulations of the Smith College Archives without any additional restrictions.</p>
+		</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the Marian Sage Seewoster must be requested from the Smith College Archives. Marian Sage Seewoster's papers were donated to the Smith College Archives and the copyright ownership was transferred to the same.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Marian Sage Seewoster Papers, Box #, Smith College Archives.</p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+			<p>The Marion Sage Seewoster Papers were donated over a period of time to the Smith College Archives from a variety of sources.</p> 
+		</acqinfo>
+<processinfo id="admin-process">
+<p>Processed by Kate Baker.</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Seewoster, Marian Sage, 1907-1999.</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Students.</corpname>
+<subject encodinganalog="650" source="lcsh">Foreign study--France--Paris.</subject>
+</controlaccess>
+<descgrp type="add" id="addinfo">
+<head>Additional Information</head>
+<relatedmaterial id="add-related">
+<head>Related Material</head>
+<list><item>80. Class of 1929 Records</item></list>
+</relatedmaterial>
+</descgrp>
+<dsc type="combined" id="contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I: Correspondence <unitdate>(1927-1928, 1947-1986)</unitdate>
+</unittitle>
+</did>
+<scopecontent>
+<p>The first series, Correspondence (1927-1928, 1947-1986), contains Marian's correspondence to her parents during her Junior Year Abroad in Paris from August 1927 through April 1928.  In her letters, Marian describes her studies, travels, and friends - much as any college student would.  She wrote to her parents about her impressions of France and the French people she met, about her friends from Smith, and about the new friends and boyfriends she made in Paris.  Marian describes in excited detail many of the operas, dances, and teas she attended.  She chronicles her travels throughout Europe - her day trips in France and Switzerland, and her Spring Break trip around northern Italy.
+</p>
+<p>A letter received by Marian from her aunt, Cornelia B. Sage Quinton, is also included.  This is the only piece of received correspondence from Marian's JYA year included in the collection and is especially interesting because it congratulates Marian on her acceptance to the Sorbonne, something Marian doesn't mention in her letters home.  Following the JYA correspondence are four folders containing postcards that Marian received later in her life.
+</p>
+</scopecontent>
+<c02>
+<did>
+<unittitle>From MSS</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>JYA Correspondence
+<unitdate>1927, Aug 19-Sep 19</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>JYA Correspondence
+<unitdate>1927, Sep 25-Oct 6</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>JYA Correspondence
+<unitdate>1927, Oct 9-27</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>JYA Correspondence
+<unitdate>1927, Nov 3-13</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>JYA Correspondence
+<unitdate>1927, Nov 16-n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>JYA Correspondence
+<unitdate>1927, Dec 4-26</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>JYA Correspondence
+<unitdate>1927, Dec 30 - 1928, Jan 15</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>JYA Correspondence
+<unitdate>1928, Jan 20-Feb 10</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>JYA Correspondence
+<unitdate>1928, Feb 12-Mar 8</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>JYA Correspondence
+<unitdate>1928, Mar 12-Apr 6</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>JYA Correspondence
+<unitdate>1928, Apr 13-17</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>To MSS</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">12</container>
+<unittitle>From Cornelia B. Sage Quinton
+<unitdate>1927, Mar 11</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">13-15</container>
+<unittitle>Postcards from various people
+<unitdate>1947-86, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II: Transcripts of JYA Correspondence</unittitle>
+</did>
+<scopecontent>
+<p>The second series, Transcripts, is composed of four folders containing transcripts of a majority of Marian's letters.  These transcripts span the dates from 19 August 1927 to 7 May 1928.  Those labeled "Transcripts by MSS" were transcribed by Marian Sage Seewoster.  The transcriber of the others is Ms.Candace O'Connor, the donor of the papers.
+</p>
+</scopecontent>
+<c02>
+<did>
+<unittitle>Transcripts by Unknown Author</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">16</container>
+<unittitle>Transcripts
+<unitdate>1927, Aug 19-Sep 19</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Transcripts by MSS</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">17</container>
+<unittitle>Transcripts
+<unitdate>1928, Nov 27-Jan 15</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">18</container>
+<unittitle>Transcripts
+<unitdate>1928, Jan 30-Mar 12</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">19</container>
+<unittitle>Transcripts
+<unitdate>1928, Mar 25-May 7</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

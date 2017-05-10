@@ -1,0 +1,481 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss93.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss93</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Health Collection, 1818-1990s (bulk 1860s-1980s)
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss93 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Health Collection, 1818-1990s (bulk 1860s-1980s)
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 394
+      </num>
+         <date>Revised 2002
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <unittitle label="Title:" encodinganalog="245$a">Health Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1818-1990s </unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1860s-1980s</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 394</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">5 boxes; 11 books</extent>
+            <extent encodinganalog="300$a">(3.75 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Documents the evolution of medical and scientific thinking and practice relating to women's health. Topics include abortion, birth control, childbirth, eugenics, female genital mutilation, lactation, infant mortality, marriage instruction, mental hygiene, motherhood, nutrition, obstetrics, sexuality, sterilization, and AIDS.  Types of materials include printed material, research materials, reports, and surveys.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> This subject collection documents the evolution of medical and scientific thinking and practice relating to women's health from 1818-1990s. There are small amounts of material on such topics as abortion, birth control, childbirth, eugenics, female genital mutilation, lactation, infant mortality, marriage instruction, mental hygiene, motherhood, nutrition, obstetrics, sexuality, sterilization, and AIDS.  Types of materials include articles, books, advertisements, clippings, research materials, reports, surveys, pamphlets, and newsletters from a wide range of authors ranging from misogynist to feminist.</p>
+      </scopecontent>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection. </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Material in this collection may be protected by copyright. It is the responsibility of the researcher to identify and satisfy all copyright holders. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Health Collection, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions to collection are expected.
+        </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Materials in this subject collection were either purchased or given to the Sophia Smith Collection by various donors.  </p>
+            </acqinfo>
+            <processinfo id="admin-process">
+               <p>Finding aid revised in 2002 by Katie Kowinski, intern. Introductory text by Kate Weigand. Portions of collection are unprocessed (noted in contents list). </p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <corpname encodinganalog="610" source="lcnaf">National Women's Health Network (U.S.)</corpname>
+         <subject encodinganalog="650" source="lcsh">Abortion--History</subject>
+         <subject encodinganalog="650" source="lcsh">AIDS (Disease) in women</subject>
+         <subject encodinganalog="650" source="lcsh">Birth control--History--20th century</subject>
+         <subject encodinganalog="650" source="lcsh">Breast feeding--History</subject>
+         <subject encodinganalog="650" source="lcsh">Childbirth--History</subject>
+	<subject encodinganalog="650" source="lcsh">Child care--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Eugenics--History</subject>
+         <subject encodinganalog="650" source="lcsh">Female circumcision--Developing countries</subject>
+         <subject encodinganalog="650" source="lcsh">Infants--Mortality--History</subject>
+         <subject encodinganalog="650" source="lcnaf">Marriage--History</subject>
+         <subject encodinganalog="650" source="lcsh">Nutrition--Women--History</subject>
+         <subject encodinganalog="650" source="lcsh">Obstetrics--History</subject>
+         <subject encodinganalog="650" source="lcsh">Sterilization (birth control)--History</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Health and hygiene--History</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Mental health--History</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Sexual behavior--History</subject>
+         <subject encodinganalog="650" source="lcsh">Women's health services--History</subject>
+	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
+      </controlaccess>
+       <dsc type="in-depth" id="list-contlist">
+         <c01>
+            <did>
+               <unittitle>GENERAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Articles, printed material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Bibliography</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2a</container>
+                  <unittitle>Care of infants and children: pamphlets,<unitdate> 1926-28, n.d.</unitdate></unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Childbirth</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clinics</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>General</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>Easter Women's Center, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>Feminist Women's Health Centers</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>Women's Community Health Center, Cambridge (MA)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8</container>
+                     <unittitle>Vermont Women's Health Center, Burlington (VT); Women's Health Counseling Service, Springfield (MA); Women's Health Care Collective, Florence (MA); New Hampshire Feminist Health Center; Somerville (MA) Women's Health Center</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Clitoridectomy: articles,<unitdate> 1818-1923, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Health Care system: articles, printed material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10a</container>
+                  <unittitle>Hormone therapy: correspondence,<unitdate> 1960</unitdate></unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10b</container>
+                  <unittitle>Maternity clothes: pamphlets,<unitdate> 1921-28, n.d.</unitdate></unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10b</container>
+                  <unittitle>Menstruation: Kotex flyer and "Marjorie May's Twelfth Birthday" pamphlet<unitdate>1944 and 1931</unitdate></unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Organizations</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>Coalition for the Medical Rights of Women</unittitle>
+                  </did>
+                  <note>
+                     <p>[See also Periodicals: <title render="italic">Second Opinion</title>]</p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>National Institute of Mental Health: Women's World</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">13</container>
+                     <unittitle>National Woman's Health Network</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">14</container>
+                     <unittitle>Women's Health Forum</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">15</container>
+                  <unittitle>Pregnancy: pamphlets<unitdate> 1926, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1a</container>
+                  <container type="folder">1</container>
+                  <unittitle><title render="italic">Our Bodies Ourselves</title>, ed. Boston Women's Health Collection 1st ed. (1970) and second printing (1971) <unitdate>1970-71</unitdate></unittitle>
+<note><p>[see also books on shelf for later edition]</p></note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1a</container>
+                  <container type="folder">2</container>
+                  <unittitle>Surveys, research</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1a</container>
+                  <container type="folder">3</container>
+                  <unittitle>Women's Health Day: proceedings,<unitdate> 1980, 1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1a</container>
+                  <container type="folder">4</container>
+                  <unittitle>Campaign for Women's Health <unitdate>(1991)</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1a</container>
+                  <container type="folder">5</container>
+                  <unittitle>March for Women's Lives, <unitdate> 2004</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>WOMEN AND AIDS [UNPROCESSED]</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Conference papers, published articles, reports (1-319) with index, 2 books, buttons, pamphlets, and stickers, <unitdate>circa 1980s-90s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Conference papers, published articles, and reports (Western Massachusetts focus), <unitdate>circa 1980s-90s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Conference papers, published articles, and reports (some New Jersey material),<unitdate> 1980s-90s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+             <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>"Chart C: Overcoming weaknesses of women," Olympian System of exercises<unitdate>1919</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+             <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Feminist Women's Health Center (Los Angeles): miscellaneous printed materials<unitdate> 1971-72</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+             <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>"The Feminist Women's Health Center Report," Los Angeles Feminist Women's Health Center, undated issue and volume 1, number 2<unitdate>n.d., 1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+             <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle><title render="italic">WomenWise the New Hampshire Feminist Health Center Quarterly</title><unitdate>1978-79</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+ <c01>
+ <did>
+ <unittitle>BOOKS ON SHELF</unittitle>
+ </did>
+ <c02>
+ <did>
+ <unittitle>Baker, Dorothy, <title render="italic">All About the Yeast Beast</title><unitdate> 1985</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Bissell, Mary Taylor, MD, <title render="italic">Physical Development and Exercise for Women</title><unitdate> 1891</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Blackwell, Antoinette Brown, <title render="italic">Sexes Throughout Nature</title><unitdate> 1875</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Boston Women's Health Collective</unittitle>
+ </did>
+ <c03>
+ <did>
+ <unittitle><title render="italic">Our Bodies, Ourselves</title> (2 editions)<unitdate> 1973, 1976</unitdate></unittitle>
+ </did>
+ </c03>
+ <c03>
+ <did>
+ <unittitle><title render="italic">The New Our Bodies Ourselves</title><unitdate> 1984</unitdate></unittitle>
+ </did>
+ </c03>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Cooke, Cynthia W., M.D. and Susan Dworkin, <title render="italic">The Ms. Guide to a Woman's Healt</title>h<unitdate> 1979</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Duffey, Mrs. E.D., <title render="italic">What Women Should Know</title><unitdate> 1884</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Ehrenreich, Barbara and Deirdre English, <title render="italic">Complaints and Disorders: The Sexual Politics of Sickness</title><unitdate> 1973</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Haynes, Jim and Palse-Green, <title render="italic">Jeanne, Hello I Love You</title> <unitdate>1974</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Hosken, Fran, <title render="italic">Female Sexual Mutilations: The Facts and Proposals for Action. An Action Guide.</title> (Lexington, MA. Women's International Network News)<unitdate> 1980</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Hosken, Fran. <title render="italic">The Hosken Report, Genital and Sexual Mutilation of Female</title>s, (Second enlarged edition. Lexington, MA. Women's International Network News, and Fourth edition)<unitdate>1979 and 1993</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Lane, William, <title render="italic">Safer Motherhood</title> <unitdate>circa 1934</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Lowry, E.B. Dr., <title render="italic">Confidences: Tales from a Young Girl Concerning Herself</title> <unitdate>1919</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>MacKeith, Nancy, ed., <title render="italic">The New Women's Health Handbook</title>. (London, Virago,<unitdate> 1978</unitdate></unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Napheys, George H., <title render="italic">The Physical Life of Woman: Advice to the Maiden, Wife, and Mother</title><unitdate> 1871 </unitdate>(pages missing; 2 copies)</unittitle>
+ </did>
+ </c02>
+ <c02>
+ <did>
+ <unittitle>Pancoast, S., et al., <title render="italic">Beautiful Womanhood Guide to Mental and Physical Development</title><unitdate>1905</unitdate></unittitle>
+ </did>
+ </c02>
+ </c01>
+      </dsc>
+   </archdesc>
+</ead>

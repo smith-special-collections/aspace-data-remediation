@@ -1,0 +1,808 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss112.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss112</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">The Sturgis-Tappan Family Papers, 1812-1982</titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Burd Schlessinger.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss112 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">The Sturgis-Tappan Family Papers, 1812-1982
+
+
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 186
+
+      </num>
+         <author encodinganalog="245$c">Burd Schlessinger
+
+      </author>
+         <date>Revised 2002
+
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <famname encodinganalog="100 3" source="lcnaf">Sturgis-Tappan Family</famname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Sturgis-Tappan Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1812-1982</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 186</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">4 boxes</extent>
+            <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Authors and Poets.  Approximately two thirds of material is correspondence and the rest is writings and drawings.  Includes pencil drawings and watercolors, drafts of poems, and one published volume.  Some biographical material.
+
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5081.jpg" altrender="right">
+<daodesc>
+<p>Caroline Sturgis-Tappan at about age 40</p></daodesc></dao>
+
+         <p> William Sturgis was born 25 February 1782, the son of William Sturgis and Hannah Mills.  He was a prominent Boston merchant and co-founder of Bryant and Sturgis, and made his fortune in the China Trade.  He married Elizabeth Marston Davis and they had six children, among them two daughters, Ellen (1812-1848) and Caroline (1819-1888).  Caroline Sturgis married William Aspinwall Tappan, son of Lewis Tappan, a noted abolitionist, and Susanna Aspinwall; they had two children, Ellen Sturgis Tappan and Mary Aspinwall Tappan. Caroline Sturgis Tappan and her sister, Ellen Sturgis Hooper, were minor Transcendentalist poets whose work was occasionally published in the Dial.  They counted among their acquaintances William Ellery Channing, Ralph Waldo Emerson, Nathaniel Hawthorne, Henry James, and Henry David Thoreau.  The sisters, especially Caroline, were also friendly with Margaret Fuller and regularly attended her celebrated "conversations," begun in 1839.</p>
+         <p> The Tappans lived in Boston and summered in the Berkshire Mountains of Western Massachusetts.  In 1936, Mary Aspinwall Tappan and her niece, Rosamond Sturgis Dixey Brooks (Caroline Sturgis Tappan's granddaughter), gave the family's summer estate, Tanglewood, to the Boston Symphony Orchestra.</p>
+
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The Sturgis-Tappan Papers consist of 1.25 linear feet dating from 1812 to 1983, approximately two thirds of which is correspondence and the rest of which is writings and drawings.  Types of material include correspondence, pencil drawings and watercolors, drafts of poems, and one published volume.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into three series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical Material</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Writings and Drawings</ref>
+            </item>
+            <item>
+               <ref target="list-serOV">Oversize Materials</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection. Original letters by Ralph Waldo Emerson are in a secure location in the Sophia Smith Collection; photocopies for normal use are in the Sturgis-Tappan Family Papers, although researchers may request special permission to examine the originals.</p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to the papers of Sturgis-Tappan family members. Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
+           </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Sturgis-Tappan Family Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Daphne Brooks Prout donated the Sturgis-Tappan Family Papers to the Sophia Smith Collection in 1983 and 1985. </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Reprocessed by Burd Schlessinger, 2002.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Channing, William Ellery, 1780-1842--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Emerson, Ralph Waldo, 1803-1882--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Fuller, Margaret, 1810-1850</persname>
+         <persname encodinganalog="600" source="lcnaf">Hawthorne, Nathaniel, 1804-1864--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Hawthorne, Sophia Peabody, 1809-1871--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Hooper, Ellen Sturgis, 1812-1848</persname>
+         <persname encodinganalog="600" source="lcnaf">Tappan, Mary Aspinwall, 1851-</persname>
+         <persname encodinganalog="600" source="lcnaf">Tappan, Caroline Sturgis, 1819-1888</persname>
+         <persname encodinganalog="600" source="lcnaf">James, William--Correspondence</persname>
+         <famname encodinganalog="600" source="lcnaf">Tappan family</famname>
+         <famname encodinganalog="600" source="lcnaf">Sturgis family</famname>
+         <corpname encodinganalog="610" source="lcnaf">Tanglewood Music Center--History</corpname>
+         <subject encodinganalog="650" source="lcsh">Authors, American--19th century</subject>
+         <geogname encodinganalog="651" source="lcsh">Europe--Description and travel--Sources</geogname>
+         <subject encodinganalog="650" source="lcsh">Family--United States--19th century--History--Sources</subject>
+         <geogname encodinganalog="651" source="lcsh">New England--Intellectual life--19th century</geogname>
+         <subject encodinganalog="650" source="lcsh">Women poets, American--19th century</subject>
+         <subject encodinganalog="650" source="lcsh">Transcendentalists (New England)</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Caroline Sturgis Tappan's collection of travel photographs is located in the Smith College Art Museum, and material pertaining to Tanglewood may be found in the Boston Symphony Orchestra Archives
+
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <!-- Begin series descriptions -->
+<dsc type="analyticover">
+    <c01 level="series">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1836-1982)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.25 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series consists of  information about members of the Sturgis-Tappan Family (primarily photocopied excerpts from various reference books and anthologies); a photograph of Caroline Sturgis Tappan and a published catalog about her Grand Tour of Europe; and correspondence pertaining to the transfer of Tanglewood to the Boston Symphony Orchestra.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1812-1913)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.75 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series is the largest in the collection and is organized into three subseries: letters to and from Caroline Sturgis Tappan, letters to and from her daughter, Mary Aspinwall Tappan, and third party correspondence. The correspondence is extensive among family members across three generations.  Also included are letters to and from Lydia Maria Child, William Ellery Channing, Ralph Waldo Emerson, Sophia Hawthorne, and William James.  (The Emerson correspondence is significant, while that of the others here listed is limited to one or two letters.)</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES III. WRITINGS AND DRAWINGS <unitdate>(1849-59)</unitdate>
+               </unittitle>
+               <physdesc>.25 linear ft.</physdesc>
+            </did>
+            <scopecontent>
+               <p>This series contains primarily pencil drawings and watercolor sketches by Caroline Sturgis Tappan, as well as drafts of poems attributed to Tappan and to her sister, Ellen Sturgis Hooper.  There is also correspondence pertaining to ownership of plates for <title>Rainbows for Children</title> (1848), a book by Lydia Maria Child.</p>
+            </scopecontent>
+ </c01>
+
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1836-1982)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Family history</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">1</container>
+                     <unittitle>Photocopies of pages from various books,<unitdate> 1914, 1973, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">2</container>
+                     <unittitle>
+                        <title>The American Transcendentalists: Their Prose and Poetry</title>
+                        <unitdate>(1957) </unitdate>and <title>The Transcendentalists: An Anthology</title>
+                        <unitdate>(1950)</unitdate> by Perry Miller: photocopies of excerpts, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3</container>
+                     <unittitle>Notes taken on the Tappan family by George McCandlish: photocopies, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>
+                        <title>Caroline Sturgis Tappan and the Grand Tour</title> by George Dimock (2 copies),<unitdate> 1982 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>Account of Lewis Henry Tappan's first two years (brother of William Aspinwall Tappan), by his father, Lewis Tappan, <unitdate>circa 1823</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-serOV">[See Oversize Materials]</ref>
+                     </p>
+                  </note>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Caroline Sturgis Tappan: photograph, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Tanglewood: correspondence,<unitdate> 1836-56, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1812-1913)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Caroline Sturgis Tappan</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Family</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">8</container>
+                        <unittitle>Bigelow, William S., <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">9-11</container>
+                        <unittitle>Dixey, Ellen Sturgis Tappan,<unitdate> 1875-87</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">12</container>
+                        <unittitle>Dixey, Richard Cowell,<unitdate> 1875-85</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">13</container>
+                        <unittitle>Goodwin, Ezra,<unitdate> 1828</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">14-15</container>
+                        <unittitle>Hooper, Anne Sturgis,<unitdate> 1855-59, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">16</container>
+                        <unittitle>Hooper, Edward W.,<unitdate> 1861</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">17</container>
+                        <unittitle>Sturgis, Susan,<unitdate> 1849, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">18</container>
+                        <unittitle>Sturgis, William,<unitdate> 1848-50</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">19</container>
+                        <unittitle>Tappan, Lewis (combined letter from Caroline Sturgis Tappan and Ellen Sturgis Tappan (Dixey) [father-in-law/grandfather, respectively],<unitdate> 1861 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">20</container>
+                        <unittitle>Tappan, Mary Aspinwall,<unitdate> 1887, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">21</container>
+                        <unittitle>Unidentified relative,<unitdate> 1849</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Friends and acquaintances</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">22</container>
+                        <unittitle>Channing, William Ellery, n.d</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">23</container>
+                        <unittitle>Child, Lydia Maria,<unitdate> 1847</unitdate>
+                        </unittitle>
+                     </did>
+                     <note>
+                        <p>
+                           <ref target="list-serOV">[See also Oversize Materials]</ref>
+                        </p>
+                     </note>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">24-35</container>
+                        <unittitle>Emerson, Ralph Waldo (includes some photocopies),<unitdate> 1838-72, n.d. </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">36</container>
+                        <unittitle>Hawthorne, Sophia,<unitdate> 1842</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">37</container>
+                        <unittitle>James, William,<unitdate> 1882</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">38</container>
+                        <unittitle>White, Ellen, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">39</container>
+                        <unittitle>Unidentified fragments, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mary Aspinwall Tappan</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Family</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">1</container>
+                        <unittitle>General,<unitdate> 1887, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">2</container>
+                        <unittitle>Bigelow, William S<unitdate>. 1888, 1913, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">3</container>
+                        <unittitle>Brooks, Gorham,<unitdate> 1913</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">4-5</container>
+                        <unittitle>Dixey, Arthur Sturgis,<unitdate> 1890-1905, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                     <note>
+                        <p>
+                           <ref target="list-serOV">[See also Oversize Materials]</ref>
+                        </p>
+                     </note>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">6-7</container>
+                        <unittitle>Dixey, Ellen Sturgis Tappan,<unitdate> 1879-1910</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">8</container>
+                        <unittitle>Dixey, Rosamond Sturgis,<unitdate> 1908-24</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">9</container>
+                        <unittitle>Tappan, William Aspinwall,<unitdate> 1886-1904, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Friends and acquaintances</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">10</container>
+                        <unittitle>James, William,<unitdate> 1901, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">11</container>
+                        <unittitle>Miscellaneous,<unitdate> 1905-32</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Other family members</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">12</container>
+                     <unittitle>Bigelow, William S. to family, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">13</container>
+                     <unittitle>Davis, John to William W. Sturgis,<unitdate> 1816</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">14</container>
+                     <unittitle>Dixey, Ellen Sturgis Tappan to various recipients,<unitdate> 1851-95</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">15</container>
+                     <unittitle>Dixey, Richard W. to wife, Rebecca Dixey,<unitdate> 1859</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">16</container>
+                     <unittitle>Hooper, Anne Sturgis to various recipients,<unitdate> 1851, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">17</container>
+                     <unittitle>Hooper, Ellen Sturgis to William Swain,<unitdate> 1844</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">18</container>
+                     <unittitle>Sturgis, Ellen M. to Ellen Goodwin,<unitdate> 1815-25</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">19</container>
+                     <unittitle>Sturgis, Susan to William Swain,<unitdate> 1846</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">20</container>
+                     <unittitle>Sturgis, William to various recipients,<unitdate> 1812-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">21</container>
+                     <unittitle>Sturgis, William W. to various recipients,<unitdate> 1822</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">22</container>
+                     <unittitle>Tappan, Susan A. to "Mrs. Colonel Aspinwall" (sister),<unitdate> 1821</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">23</container>
+                     <unittitle>Tappan, William Aspinwall to various recipients,<unitdate> 1855-1903, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Third party</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Emerson, Ralph Waldo</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">24</container>
+                        <unittitle>Forbes, Margaret, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">25</container>
+                        <unittitle>Peabody, Elizabeth Palmer, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">26</container>
+                        <unittitle>Tappan, William Aspinwall (photocopies),<unitdate> 1845, n.d. </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">27</container>
+                     <unittitle>Payne, Eloisa, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. WRITINGS AND DRAWINGS <unitdate>(1849-59)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Drawings: Tappan, Caroline Sturgis</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">1-2</container>
+                     <unittitle>Pencil sketches,<unitdate> 1846-57, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Pencil sketches and watercolor paintings: album, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-box4">[Located in Box 4]</ref>
+                     </p>
+                  </note>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Poetry</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">3</container>
+                     <unittitle>Tappan, Caroline Sturgis: handwritten booklet of poetry with pressed flowers, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">4</container>
+                     <unittitle>Tappan, Caroline Sturgis and Ellen Sturgis Hooper (?): miscellaneous poems,<unitdate> 1836, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-serOV">[See also Oversize Materials]</ref>
+                     </p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">5</container>
+                     <unittitle>"G.W.": "Nebulae," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">6</container>
+                     <unittitle>Unidentified author: handwritten book of poems, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">7</container>
+                  <unittitle>Correspondence pertaining to <title>Rainbows for Children</title> by Lydia Maria Child,<unitdate> 1849-59</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">8</container>
+                  <unittitle>Published etchings by various artists of sites in Great Britain, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="list-box4">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Album of pencil sketches and watercolor paintings by Caroline Sturgis Tappan, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="map-case">Flat file</container>
+                  <unittitle>Letter to Mary Aspinwall Tappan from Arthur Sturgis Dixey, <unitdate>29 Nov 1894 (?)</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

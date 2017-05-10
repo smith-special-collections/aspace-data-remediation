@@ -1,0 +1,515 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca82.xml//EN" countrycode="us" mainagencycode="manosca">manosca82</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Department of Botany Records, 1892-1966
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Christina Lehman.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+<date>2003-06-04</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca82 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Department of Botany Records, 1892-1966
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 52
+</num>
+<author>Christina Lehman
+</author>
+<date>Revised 2002
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<corpname encodinganalog="110" source="lcnaf">Smith College. Dept. of Botany.</corpname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Department of Botany Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1892-1966</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 52</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">5 boxes</extent>
+<extent encodinganalog="300$a">(2.5 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Records include the department's course offerings, history, events, finances and faculty.  Types of materials include typescripts, annual reports, press releases, syllabi, photographs, financial ledgers, published papers, journals, correspondence, and meeting minutes (restricted).
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Historical Note</head>
+<p> Botany was offered at Smith College from the beginning of the institution in 1875, but the science was not established as a separate and independent department until 1890.  Among the scientific courses of study, botany considered "particularly fitted" to a woman's nature. Originally botany was among the required courses for first-year students, but was later changed to an elective.  The lack of a prerequisite made the course available to all students, but science majors were required to take it.  The basic text for introductory classes was most likely Gray's Manual of Botany.  As the department grew, courses on topics such as plant physiology, morphology, geography, taxonomy, pathology, anatomy, field and forest botany, ecology, planting design, gardening, landscape architecture were introduced. Horticulture was first offered in 1900.</p>
+<p> The first professor hired to teach Botany was Rev. H. G. Jessup.  Bessie Capen, one of the first women to graduate from MIT, taught the subject from 1876-1879.  She later opened her own school, the Capen School.  A new scientific building, Lilly Hall, was opened in 1886 to provide much-needed space, laboratories and equipment.  The biological sciences occupied the second floor, which included a botanical workroom, collection area, and specimen and apparatus room.  At the time, the new building attracted quite a bit of attention as one of the first science buildings exclusively for women.</p>
+<p> Dr. William Francis Ganong was appointed as Professor of Botany and Director of the Botanic Garden in 1894.  He also held the position of chairman of the department until his retirement in 1932.  As an internationally known botanist, he had authored several books, including The Teaching Botanist, A Laboratory Manual for Plant Physiology, The Living Plant, and A Textbook of Botany for Colleges.  Under Ganong' administration the department reached its peak in student enrollment, size of staff, number of courses.  There was a notable improvement in the range and quality of equipment, and the department gained a positive academic reputation.  Enrollment in the introductory elective class rose to a peak of 182 in 1926, then declined.</p>
+<p> The development of the Smith College campus has been closely tied to the Botany Department.  The campus itself was used by the Botany Department as a laboratory and classroom for the study of both woody and exotic plants as the landscape plan developed.  The college hired the Brookline firm of Olmsted, Olmsted and Eliot to develop a comprehensive landscape scheme. Frederick Law Olmsted, best remembered for designing Central Park in New York City and the Boston park system created a plan in 1893 included curving drives and walkways, open spaces with specimen trees, and vistas over Paradise Pond through wooded groves.  In 1893-94 a small greenhouse, the beginning of Lyman Plant House, was constructed to provide more opportunities for botanical study.  Construction on the greenhouse continued through 1914 as rooms and workspace was added. </p>
+<p> By the late 1890s the sciences had outgrown the room available in Lilly Hall.  Plans were made to construct a new building to house the Zoology and Botany departments.  This structure, Burton Hall, was finished in 1914, and Botany Department resided in the right wing, the nearest to the Botanic Garden.</p>
+<p> The Biology, Botany, Microbiology, and Zoology Departments were re-organized in 1966-67 and joined together under the title of Department of Biological Sciences.  Now as throughout the history of Botany at Smith, students study plant theory in class, and then are able to apply and practice this knowledge in the Lyman Plant House.  Horticulture remains perhaps the most popular class that developed out of the Botany Department.  Students' experimentations result in the annual bulb show in the spring and the chrysanthemum show in the fall, continuing the tradition first started under the department.</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p> The Botany Department records, 1892-1966, contain materials describing the department's course offerings, history, events, finances and faculty.  Types of materials include typescripts, press releases, syllabi, photographs, financial ledgers, published papers, journals, correspondence, and meeting minutes (restricted).  Annual reports from 1896 to 1919 provide an excellent overview of the department's activities.  Course content is also well described in the syllabi.</p>
+</scopecontent>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>Department 'meeting minutes' are restricted.
+</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Smith College owns copyright to any published material relating to college events and activities. Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright. Single photocopies may be made for research purposes. Permission to publish material from the documents must be requested from the Smith College Archives.
+   When requesting material at the Smith College Archives, see the printed finding aid for specific instructions on completing the call slip.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Smith College Dept. of Botany Records, Box #, Smith College Archives.</p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>The Botany Department Records were donated over a period of time from a variety of sources.  </p>
+</acqinfo>
+<processinfo id="admin-process">
+<p>Processed by Christina Lehman</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<corpname encodinganalog="610" source="lcsh">Smith College. Dept. of Botany.</corpname>
+<corpname encodinganalog="610" source="lcsh">Smith College--History--Sources.</corpname>
+<subject encodinganalog="650" source="lcsh">Botany--Study and teaching (Higher)--Massachusetts--Northampton.</subject>
+<persname encodinganalog="700" source="lcnaf">Olmsted, Frederick Law, 1822-1903.</persname>
+<persname encodinganalog="700" source="lcnaf">Ganong, William Francis, 1864-1941.</persname>
+</controlaccess>
+<descgrp type="add" id="addinfo">
+<head>Additional Information</head>
+<relatedmaterial id="add-related">
+<head>Related Material</head>
+<p>52.Sci  Biological Sciences Department
+  42. Faculty Biographical Files
+  College Circulars, Bulletins, Catalogue
+</p>
+</relatedmaterial>
+</descgrp>
+<dsc type="in-depth" id="contlist">
+<c01>
+<did>
+<container type="box">1240</container>
+<container type="folder">1</container>
+<unittitle>General</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1240</container>
+<container type="folder">2</container>
+<unittitle>History
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1240</container>
+<container type="folder">3</container>
+<unittitle>Historical statistics
+<unitdate>1950-62</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1240</container>
+<container type="folder">4</container>
+<unittitle>Olmstead's plant lists for campus
+<unitdate>1892-94</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1241</container>
+<container type="folder">1</container>
+<unittitle>William Ganong journal
+<unitdate>1894-1907</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1241</container>
+<container type="folder">2-9</container>
+<unittitle>Annual reports
+<unitdate>1896-1919</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1241</container>
+<container type="folder">10-11</container>
+<unittitle>List of seeds collected
+<unitdate>1895-1913</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">1</container>
+<unittitle>Account books
+<unitdate>1894-1932</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">2-3</container>
+<unittitle>Correspondence
+<unitdate>1922-1958, 1961-1966</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">4</container>
+<unittitle>Courses - BOT 11, lab outline
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">5</container>
+<unittitle>Courses - BOT 11, lab outline
+<unitdate>1936-37</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">6</container>
+<unittitle>Courses - BOT 11, lab outline
+<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">7</container>
+<unittitle>Courses - BOT 11, lab outline
+<unitdate>1940-41</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">8</container>
+<unittitle>Courses - BOT 12-26, 41, 46
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">9</container>
+<unittitle>Courses - BOT 23
+<unitdate>1932-46</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">10</container>
+<unittitle>Courses - BOT 23b, lab outline
+<unitdate>1936-37</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1242</container>
+<container type="folder">11</container>
+<unittitle>Courses - BOT 23a &amp; 23b, lab outline
+<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">1</container>
+<unittitle>Courses - BOT 31
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">2</container>
+<unittitle>Courses - BOT 32
+<unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">3</container>
+<unittitle>Courses - BOT 33
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">4</container>
+<unittitle>Courses - BOT 34
+<unitdate>1939, 1944</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">5</container>
+<unittitle>Courses - BOT 35
+<unitdate>1925, 1939</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">6</container>
+<unittitle>Courses - BOT 36
+<unitdate>1957</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">7</container>
+<unittitle>Courses - BOT 37
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">8</container>
+<unittitle>Courses - BOT 38
+<unitdate>1924-25, 1937</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">9</container>
+<unittitle>Courses - BOT 39
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">10</container>
+<unittitle>Courses - Ecology
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">11</container>
+<unittitle>Courses - Home Gardening
+<unitdate>1933-34</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">12</container>
+<unittitle>Exhibits
+<unitdate>1936-40</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">13</container>
+<unittitle>Field Trip
+<unitdate>1929,1937, 1939</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">14</container>
+<unittitle>Genetics Experiment Station
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">15</container>
+<unittitle>Graduate study flyer
+<unitdate>1958-68</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">16</container>
+<unittitle>Miscellaneous
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">17</container>
+<unittitle>Photographs - Classes
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">18</container>
+<unittitle>Photographs - Faculty
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">19</container>
+<unittitle>
+<title>Contributions from the Department of Botany</title> #1-60 (new series; incomplete)
+<unitdate>1938-54</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">20</container>
+<unittitle>
+<title>Contributions from the Department of Botany</title> (new series) - list
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">21</container>
+<unittitle>
+<title>Contributions from the Department of Botany</title> (new series) - Numbers missing from bound volume
+<unitdate>1943-54</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1243</container>
+<container type="folder">22</container>
+<unittitle>
+<title>Contributions from the Department of Botany</title> #61-75 (incomplete)
+<unitdate>1955-66</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1244</container>
+<container type="folder">1</container>
+<unittitle>Department agendas, notes
+<unitdate>1946-50</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1244</container>
+<container type="folder">2-3</container>
+<unittitle>Department minutes
+<unitdate>1928-1945</unitdate>
+</unittitle>
+</did>
+</c01>
+</dsc>
+</archdesc>
+</ead>

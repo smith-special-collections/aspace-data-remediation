@@ -1,0 +1,602 @@
+<ead>
+   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr13.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr13</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Ruth Mortimer Frankenstein Collection, 1824-1993
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Hannah M. Stott-Bumsted.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Mortimer Rare Book Room, William Allan Neilson Library, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c"> 2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Eric Steven Cartier.
+        <date>2003-09-15</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>manoscmr13 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Smith College<lb/>William Allan Neilson Library<lb/>Mortimer Rare Book Room
+        
+         </publisher>
+         <titleproper encodinganalog="245$a">Ruth Mortimer Frankenstein Collection, 1824-1993
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>Manuscript Number<lb/>
+      12
+      </num>
+         <author encodinganalog="245$c">Compiled by<lb/>
+      Hannah M. Stott-Bumsted
+      </author>
+         <date>October 1994
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Mortimer, Ruth, 1931-1994</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Ruth Mortimer Frankenstein Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1824-1993</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 12</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">4 boxes</extent>
+            <extent encodinganalog="300$a">(1 linear ft.)</extent>
+         </physdesc>
+          <repository label="Location:">
+            <corpname>Mortimer Rare Book Room</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Librarian, teacher, and curator of rare books at Smith College who was instrumental in obtaining the Sylvia Plath Collection and the Frances Hooper Collection of Virginia Woolf. The rare book collection was named in her honor in 1994.  Contains 23 items, including audio and video cassettes, sale catalogs, craft books, ephemera, and computer software relating to Mary Shelley's "Frankenstein."
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p>RUTH MORTIMER, 1931-1994</p>
+         <p>Ruth Mortimer began her career with rare books while an undergraduate at Smith College, working as an assistant in the Rare Book Room until her graduation summa cum laude in 1953.  She went on to obtain a masters degree in Library Science from Columbia University.  From 1957 to 1975 she worked at the Houghton Library at Harvard University, producing two remarkable catalogues of their sixteenth-century French and Italian books.  <title>French Sixteenth-Century Books</title>, the first catalogue, was chosen by the American Institute of Graphic Arts as one of the Fifty Books of the Year for 1964.</p>
+         <p>In 1975 she returned to Smith College, where she served as curator of rare books until her death in January 1994.  While curator, she was instrumental in obtaining the Sylvia Plath Collection and the Frances Hooper Collection of Virginia Woolf.  She also taught a course in the art department on the history of books and printing, which utilized the Rare Book Room's holdings.  The rare book collection was named in her honor in 1994.  Ruth Mortimer was also fascinated with the publishing history of <title>Frankenstein</title> and collected subsequent editions, secondary material, videos, audiocassettes, and ephemera for fifteen years.</p>
+         <p>MARY SHELLEY, 1797-1851</p>
+         <p>Shelley was born Mary Wollstonecraft Godwin on 30 August 1797, the daughter of Mary Wollstonecraft, author of <title>A Vindication of the Rights of Women</title>, the classic manifesto of sexual equality, and William Godwin, radical political philosopher and author of <title>Enquiry Concerning Political Justice</title>.  She published her first book at the age of eleven, <title>Mounseer Nongtongpaw</title>, a rhyming children's story, under the imprint of the Juvenile Library, her stepmother's publishing house.  She was first to meet Percy Bysshe Shelley in 1812, and eloped with him to the continent in July 1814, although they would not be married until after the suicide of his first wife in December 1816.  Their first child was born prematurely and died in March 1815.</p>
+         <p>In 1816 the couple moved to Bishopsgate, where their second child was born in January 1816.  Shortly thereafter the family travelled to Geneva to meet Lord Byron.  It was during this house party that Byron made the suggestion that each guest write a ghost story.  Mary Shelley began a short story which she expanded into the novel <title>Frankenstein</title>.  The novel was finished in 1817, and while she was waiting for it to be published, she finished a work entitled <title>History of a Six Weeks' Tour</title>.  The <title>History</title> was published in November, two months after the birth of her third child.  <title>Frankenstein</title> was an immediate success following its publication on 1 January 1818, and the title pages of all her subsequent works read "by the author of Frankenstein."  In September 1818 and June 1819, both her children died.  Shelley continued to write, producing an unfinished novella, <title>Matilda</title>, a historical novel, <title>Valperga</title>, and blank verse adaptations of Ovid's <title>Prosperine</title> and <title>Midas</title>.  She also gave birth to a fourth child, the only one to reach adulthood, Percy Florence Shelley.</p>
+         <p>In June 1822, Shelley suffered a miscarriage, and on 8 July 1822, Percy Shelley drowned while sailing in the Gulf of Spezia.  Forced to agree not to publish any of Percy Shelley's work during her father-in-law's lifetime, she continued to write periodical essays in <title>The Liberal</title> and novels, <title>The Last Man</title> (1826) and <title>Perkin Warbeck</title> (1830).  In 1831, <title>Frankenstein</title> appeared in a best-selling single volume version.  In 1834, she was commissioned to write biographical sketches for Rev. Lardner's <title>Cabinet Cyclopedia</title>.  She continued to write sketches for subsequent volumes until 1839, and also published another novel, <title>Faulkner</title> in 1837.  Her father-in-law's prohibition lifted, she then began to edit a four-volume edition of the complete works of her husband, despite declining health.  Her last work was published in 1844, an account of a tour of the continent made with her son and his college friends, <title>Rambles in Germany and Italy</title>.  Mary Wollstonecraft Shelley died in London on 1 February 1851 at the age of 53.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Ruth Mortimer Frankenstein Collection contains 23 items, including audio and video cassettes, sale catalogs, craft books, ephemera, and computer software.  The collection spans the years 1824-1993, with the majority of items dating from 1979-1993.  The material was collected by Ruth Mortimer and was presented to the Mortimer Rare Book Room, in her memory, by John Lancaster in 1994.  Mortimer also collected 52 editions of <title>Frankenstein</title>, in 60 volumes, and 43 secondary source titles in 48 volumes.  These materials were presented to the Mortimer Rare Book Room at the same time as this collection, and are cataloged separately.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into six series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Cassettes, Audio and Visual, 1979-1993</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Catalogs</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Craft Books, 1978-1983</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Ephemera, 1824-1993</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Software, 1992-1993</ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI. Oversize, 1824-1979</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <p>The Ruth Mortimer Frankenstein Collection is the physical property of the Mortimer Rare Book Room, Smith College.  Literary rights, including copyright, belong to the authors of the works or their legal representatives.
+          </p>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Ruth Mortimer Frankenstein Collection, Mortimer Rare Book Room, Smith College.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The material was collected by Ruth Mortimer and was presented to the Mortimer Rare Book Room, in her memory, by John Lancaster in 1994.
+          </p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+        
+         <persname encodinganalog="600" source="lcnaf">Shelley, Mary Wollstonecraft, 1797-1851 Frankenstein.</persname>
+         <persname encodinganalog="600" source="lcnaf">Mortimer, Ruth.</persname>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Mortimer also collected 52 editions of Frankenstein, in 60 volumes, and 43 secondary source titles in 48 volumes.  These materials were presented to the Mortimer Rare Book Room at the same time as this collection, and are cataloged separately.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+            
+<!-- Begin series descriptions -->
+<dsc type="analyticover">
+<c01 level="series">
+            <did>
+               <unittitle>Series I. Cassettes, audio and visual,
+                <unitdate>1979-1993</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series I. contains six audio cassettes and one video cassette.</p>
+            </scopecontent>
+  </c01>
+<c01 level="series">
+            <did>
+               <unittitle>Series II. Catalogs,
+             <unitdate>1982</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series II. consists of one sale catalog including a description of a first edition of Shelley's <title>Frankenstein</title>.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series III. Craft books,
+                <unitdate>1978-1983</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series III. contains two craft books with instructions on how to draw Frankenstein and how to make a Frankenstein mask.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series IV. Ephemera,
+                <unitdate>1824-1993</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series IV. contains printed ephemera with material such as a printing advertisement, a cartoon from the <title>New York Times</title>, a catalog for novelty Halloween items, movie posters, documents and a prospectus from a company publishing an edition of <title>Frankenstein</title>, a flipbook, a mobile, a plate from a book showing the Arctic area where <title>Frankenstein</title> is set, a playbill, a program, and a pop up card.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">19</container>
+                  <unittitle>Prospectus.   Frankenstein Associates
+                   <unitdate>18 Jan 1993</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Describes the limited partnership which published Barry Moser's illustrated edition of <title>Frankenstein</title>.</p>
+               </scopecontent>
+               <note>
+                  <p>Privately published.</p>
+               </note>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series VI. Oversize,
+                <unitdate>1824-1979</unitdate>
+               </unittitle>
+            </did>
+            <arrangement>
+               <p>Arranged in the same order as material in Series IV.</p>
+            </arrangement>
+            <scopecontent>
+               <p>The oversize material contains papers from Series IV.</p>
+            </scopecontent>
+  </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I. Cassettes, audio and visual,
+                <unitdate>1979-1993</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>
+                     <title>Frankenstein</title>.  Performed by James Mason.   New York:  Caedmon
+                   <unitdate>c1979</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 audio cassette in publisher's case.</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>"Abridged."</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>
+                     <title>Frankenstein</title>.  Performed by James Mason.   New York:  Caedmon
+                   <unitdate>c1989</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 audio cassette in publisher's case.</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>"Abridged."</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>
+                     <title>Frankenstein</title>.  Read by Derek Young, John Franklyn, Pamela Mant, Peter O'Connell, Glynis Casson.  Ocean, N.J.:  Musical Heritage Society
+                   <unitdate>c1991</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 audio cassette.</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>"Abridged."</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Julie Harris reads Mary Shelley's <title>Frankenstein, or The Modern Prometheus</title>. Albuquerque, N.M.:  Newman
+                   <unitdate>c1985</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>2 audio cassettes in publisher's case.</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>"Abridged."</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>
+                     <title>The original Frankenstein</title>.  San Francisco:  The Mind's Eye
+                   <unitdate>[n.d.]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>2 audio cassettes.</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>[Abridged.]</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>"Frankenstein 6/13/93."</unittitle>
+                  <physdesc>
+                     <extent>1 video cassette.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II. Catalogs,
+             <unitdate>1982</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">7</container>
+                  <unittitle>Christie, Manson and Woods International Inc.  English and American literature: the collection of Dr. Gerald E. Slater, Deephaven, Minnesota
+                   <unitdate>February 12, 1982</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>2 copies.</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Includes a reproduction of frontispiece and description of first edition of <title>Frankenstein</title>.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III. Craft books,
+                <unitdate>1978-1983</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">8</container>
+                  <unittitle>Grater, Michael.  <title>Cut and make Monster Masks in full color</title>.  Dover Publications, New York:
+                   <unitdate>1978</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Mask #9: Frankenstein's monster in two sections.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">9</container>
+                  <unittitle>Ames, Lee J.  <title>Draw 50 monsters....</title>  Doubleday, New York:
+                   <unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Instructions on how to draw Bride of Frankenstein and Frankenstein's monster.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV. Ephemera,
+                <unitdate>1824-1993</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">10</container>
+                  <unittitle>Advertisement.  The Pinwheel Menu of Line Conversions.  Schaedler Quinzel, Inc.  New York:
+                   <unitdate>1989</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>The monster's head (from the movie) is used as a sample for a variety of line screen treatments.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">11</container>
+                  <unittitle>Cartoon.  Meyerowitz, Rick.  <title>New York Times</title>
+                     <unitdate>1 Aug 1993</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>Section 4, page 1.</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Cartoon depicts President Bill Clinton as Frankenstein and Senator Bob Dole as Igor, who is placing former President George Bush's head onto the monster's body.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">12</container>
+                  <unittitle>Catalog.  Oriental Trading Company, Inc., Omaha, N.E.:
+                   <unitdate>1993</unitdate>
+                  </unittitle>
+               </did>
+         	<note><p>Various representations of the Frankenstein monster can be found on pages 1, 5-9, 11-13, 20, 23, 25, 27, 34, 37.</p>
+         	</note>
+               <scopecontent>
+                  <p>Catalog is for Halloween and holiday novelty items.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">13</container>
+                  <unittitle>Color photocopy.  Two Italian movie posters: <title>Frankenstein contro L'uomo Lupo</title> [Trans. Frankenstein against the Wolf Man] and <title>Il figlio di Frankenstein</title> [Trans. Son of Frankenstein].</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">14</container>
+                  <unittitle>Execution Documents.  Frankenstein Associates
+                   <unitdate>March 1993.</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>Privately printed.</p>
+               </note>
+               <scopecontent>
+                  <p>Paperwork to join limited partnership which published Barry Moser's illustrated edition of Frankenstein.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">15</container>
+                  <unittitle>Flipbook.  <title>Kidnapped by Frankenstein</title>.
+                   <unitdate>[n.p., n.d.]</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Scenes from the movie.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mobile.  Omscan: New York
+                   <unitdate>1979</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>
+                     48" jointed Frank the Monster. [<ref target="list-422">See also Box 4, Folder 22]</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Plate.  From book published by John Murray,  London:
+                   <unitdate>Jan 1824</unitdate>
+                  </unittitle>                 
+               </did>
+                  <note><p>Depicts Arctic area where the frame of Frankenstein is set. [<ref target="list-423">See also Box 4, Folder 23</ref>]
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">16</container>
+                  <unittitle>Playbill.  Gialanella, Victor.  <title>Frankenstein: a new play</title>.  For opening night,
+                   <unitdate>4 Jan 1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">17</container>
+                  <unittitle>Pop-up card.  PopShots 3-D Cards.  Thrilling Birthday.  Popshots Inc.
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Birthday card depicting various monsters in pop-up form. Frankenstein's monster is at the back of the card holding a birthday cake.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">18</container>
+                  <unittitle>Program.  <title>Frankenstein: playing with fire</title>.  The Guthrie Theater production at the Fine Arts Center, University of Massachusetts at Amherst
+                   <unitdate>Feb. 23, 1988</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>2 copies.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">19</container>
+                  <unittitle>Prospectus.   Frankenstein Associates
+                   <unitdate>18 Jan 1993</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>Series V. Software,
+                <unitdate>1992-1993</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series V. contains two computer discs with printouts of the material on the disc, the text of Mary Shelley's <title>Frankenstein</title>.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">20</container>
+                  <unittitle>
+                     <title>Frankenstein</title>.  [N.l.]: Spectrum Press
+                   <unitdate>c1992</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>One computer disk (3.5"; formatted for MS-DOS, 760 K).</extent>
+                  </physdesc>
+               </did>
+		<note><p>With a print-out of the text, formatted in PageMaker and printed in Adobe Caslon type.</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">21</container>
+                  <unittitle>
+                     <title>Frankenstein; or, the Modern Prometheus</title>.  Champaign, Ill.: Project Gutenberg
+                   <unitdate>1993</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>One computer disk (3.5"; formatted for MS-DOS, 1.4M).</extent>
+                  </physdesc>
+               </did>
+		<note><p>Two versions, with a print-out of each.  [Version does not include the "Preface".]</p>
+		</note>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>Series VI. Oversize,
+                <unitdate>1824-1979</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>EPHEMERA</unittitle>
+               </did>
+               <c03 id="list-422">
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">22</container>
+                     <unittitle>Mobile.  Omscan: New York
+                      <unitdate>1979</unitdate>
+                     </unittitle>
+                  </did>
+		<note><p>48" jointed Frank the Monster.</p>
+		</note>
+               </c03>
+               <c03 id="list-423">
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">23</container>
+                     <unittitle>Plate.  From book published by John Murray,  London:
+                      <unitdate>Jan 1824</unitdate>
+                     </unittitle>
+                  </did>
+                 <note><p> Depicts Arctic area where the frame of Frankenstein is set.</p>
+                    	</note>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

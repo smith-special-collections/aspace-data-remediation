@@ -1,0 +1,2466 @@
+<ead>
+   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr11.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr11</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Elizabeth P. Richardson Papers, 1865-1998
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Rachel Dwyer.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Mortimer Rare Book Room, William Allan Neilson Library, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c"> 2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Eric Steven Cartier.
+        <date>2003-09-15</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>manoscmr11 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Smith College<lb/>William Allan Neilson Library<lb/>Mortimer Rare Book Room
+        
+         </publisher>
+         <titleproper encodinganalog="245$a">Elizabeth P. Richardson Papers, 1865-1998
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>Manuscript Number<lb/>
+      7
+      </num>
+         <author encodinganalog="245$c">Compiled by<lb/>
+      Rachel Dwyer
+      </author>
+         <date>June 2003
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Richardson, Elizabeth P., 1922-1998</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Elizabeth P. Richardson Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1865-1998</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 7</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">50 boxes</extent>
+            <extent encodinganalog="300$a">(15 linear ft.)</extent>
+         </physdesc>
+          <repository label="Location:">
+            <corpname>Mortimer Rare Book Room</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Editor and serious collector of the work of the Bloomsbury Group, Virginia Woolf, and other associated with her. Includes correspondence, a collection of scrapbooks containing articles and images related to Virginia Woolf and the Bloomsbury Group, reading notes, drafts of essays, notes and galley proofs for Richardson's A Bloomsbury Iconography, and artwork.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p>Elizabeth Power Richardson was born on August 28, 1922 in Newton, Massachusetts. She attended Smith College, graduating in 1943.  Elizabeth Power Richardson was the supervising editor at McGraw Hill College Division, specializing in the physical sciences.  She continued to work as a freelance editor after she married American Foreign Service officer W. Garland Richardson in 1949.</p>
+         <p>Richardson's interest in Virginia Woolf began at the age of twelve, when she first heard <title>Flush</title> read out loud. She began collecting articles for her Virginia Woolf scrapbooks in the early 1940s, with the idea of creating a book that would track the fluctuation in Woolf's reputation.  Although this project was abandoned, Richardson's interest in Woolf continued as she accompanied her husband abroad to countries such as Suriname and Japan. Unfortunately, her first library of early editions of Virginia Woolf was dropped into Yokohama Harbor by mistake en route from Monrovia, Liberia, to Tokyo. But Mrs. Richardson continued to collect, expanding her collection to include members of the Bloomsbury Group and others associated with Virginia Woolf. Over the years her "working collection" grew to include nearly two thousand volumes along with numerous scrapbooks of ephemera.  Richardson was inspired by Roger Fry's statement that "the really useful collector [is one] who by merely bringing objects together, classifying them, interpreting their interrelationships creates new values altogether."1</p>
+         <p>While living in Suriname, Mrs. Richardson began creating illustration lists for the books in her collection and continued to do so after her return to the United States.  Indexing photographic reproductions of the Bloomsbury Group became a passion, which eventually resulted in Mrs. Richardson's meticulously researched publication <title>A Bloomsbury Iconography</title> (Winchester: St. Paul's Bibliographies, 1989).  Soon after her bibliography was published, she moved from her home in Geneva, New York, to Northampton, Massachusetts.  In 1985, Elizabeth Richardson presented to Smith College a photograph album compiled by Leslie Stephen in 1895.  Mrs. Richardson's children presented their mother's Bloomsbury Iconography Collection to the Mortimer Rare Book Room after her death in 1998.</p>
+         <p>1 Richardson, Elizabeth P. <title>A Bloomsbury Iconography</title>. Preface. St Paul's Bibliographies, 1989.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Elizabeth P. Richardson Papers consist of 15 linear feet of material, dating from 1865 to 1998.  Types of materials include correspondence, a collection of scrapbooks containing articles and images related to Virginia Woolf and the Bloomsbury Group, reading notes, drafts of essays, notes and galley proofs for Richardson's <title>A Bloomsbury Iconography</title> , and artwork.  This collection was assembled by Elizabeth Power Richardson and donated to Smith College in 1998. Original correspondence from Elizabeth Richardson was donated by Panthea Reid and J. Howard Woolmer.  Tony Bradshaw donated letters written to Barbara Strachey. The papers are arranged in six series.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into six series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Correspondence of Elizabeth P. Richardson, 1961-1998</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Scrapbooks, 1905-1998</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Personal Papers, 1963-199?</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Subject Files, 1865-1997</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. A Bloomsbury Iconography, 1979-199?</ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI. Oversize</ref>
+            </item>
+         </list>
+      </arrangement>
+      <arrangement id="scope-arr">
+         <head>Arrangement of the Collection</head>
+         <p>The papers are arranged in six series.
+      </p>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <p>The Elizabeth P. Richardson Papers are the physical property of the Mortimer Rare Book Room, Smith College.  Literary rights, including copyright, belong to the authors of works or their legal representatives.
+          </p>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Elizabeth P. Richardson Papers, Mortimer Rare Book Room, Smith College.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>This collection was assembled by Elizabeth Power Richardson and donated to Smith College in 1998. Original correspondence from Elizabeth Richardson was donated by Panthea Reid and J. Howard Woolmer.  Tony Bradshaw donated letters written to Barbara Strachey.
+          </p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+        
+         <persname encodinganalog="600" source="lcnaf">Richardson, Elizabeth P.</persname>
+         <persname encodinganalog="600" source="lcnaf">Woolf, Virginia, 1882-1941.</persname>
+         <subject encodinganalog="650" source="lcsh">Bloomsbury group.</subject>
+         <subject encodinganalog="650" source="lcsh">Novelists, English--20th century.</subject>
+         <subject encodinganalog="650" source="lcsh">Women novelists, English--20th century.</subject>
+         <persname encodinganalog="700" source="lcnaf">Bell, Quentin.</persname>
+         <persname encodinganalog="700" source="lcnaf">Bell, Anne Olivier.</persname>
+         <persname encodinganalog="700" source="lcnaf">Bicknell, John W., 1913-</persname>
+         <persname encodinganalog="700" source="lcnaf">Boyd, Elizabeth French, 1905-</persname>
+         <persname encodinganalog="700" source="lcnaf">Kirkpatrick, B. J. (Brownlee Jean)</persname>
+         <persname encodinganalog="700" source="lcnaf">Reid, Panthea.</persname>
+         <persname encodinganalog="700" source="lcnaf">Rosenbaum, S. P. (Stanford Patrick), 1929-</persname>
+         <persname encodinganalog="700" source="lcnaf">Spotts, Frederic.</persname>
+         <persname encodinganalog="700" source="lcnaf">Strachey, Barbara, 1912-</persname>
+         <persname encodinganalog="700" source="lcnaf">Woolmer, J. Howard.</persname>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>In 1985, Elizabeth Richardson presented to Smith College a photograph album compiled by Leslie Stephen in 1895.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      
+<!-- Begin series descriptions -->
+<dsc type="analyticover">
+  <c01 level="series">
+            <did>
+               <unittitle>Series I.  Correspondence of Elizabeth P. Richardson,
+                <unitdate>1961-1998</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <arrangement>
+               <p>Arranged alphabetically by correspondent.</p>
+            </arrangement>
+            <scopecontent>
+               <p>This series includes correspondence relating to Richardson's book <title>A Bloomsbury Iconography</title>.  Correspondents include museums, libraries, publishers, and Woolf scholars and authors, such as Joanne Trautmann Banks, John Bicknell, Elizabeth French Boyd, Angelica Garnett, Diane Gillespie, B. J. Kirkpatrick, Panthea Reid, S. P. Rosenbaum, Richard Shone, and Barbara Strachey.  Particularly extensive is Richardson's correspondence with Quentin and Anne Olivier Bell, Leonard Woolf scholar Frederic Spotts, and J. Howard Woolmer, bookseller and author of <title>A Checklist of the Hogarth Press, 1917-1938</title>.  A folder of permission letters for <title>A Bloomsbury Iconography</title> (Box 4, folder 128) completes the series.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series II. Scrapbooks,
+                <unitdate>1905-1998</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>7.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <arrangement>
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <scopecontent>
+               <p>This series consists of thirty-two scrapbooks compiled by Elizabeth P. Richardson.  The scrapbooks include clippings and photocopies of articles and reviews of works by and about Virginia Woolf (Boxes 5-9, 30), articles about the Bloomsbury Group (Box 10), and articles about peripherary figures, such as Julia Margaret Cameron (Box 29).  Also included are photocopies of dust jackets, photocopies of obituaries, indexes Richardson created for books related to Bloomsbury, and ephemera.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series III. Personal Papers,
+                <unitdate>1963-1998</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <arrangement>
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <scopecontent>
+               <p>This series consists of seven reading notebooks, loose notes on photographs of the Bloomsbury Group, and drafts of Richardson's writings, excluding <title>A Bloomsbury Iconography</title>.  Also included is the Ribblesdale Lear Scrapbook, in which Elizabeth P. Richardson presents her research on the copy of Edward Lear's <title>Book of Nonsense</title> owned by Thomas Lister, fourth Baron Ribblesdale (Mortimer Rare Book Room 825 L47b 1889). The Ribblesdale family used this book as a guest book, encouraging family and friends, such as John Singer Sargent, to color the illustrations (Box 36).  Two audio recordings are also included in this series: one in which Richardson reads <title>Moments of Being</title> by Virginia Woolf and another entitled "A taste of green olives" (Box 38) in which Richardson discusses her Bloomsbury collection and her interest in Virginia Woolf.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series IV. Subject Files,
+                <unitdate>1865-1997</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.25 linear feet</extent>
+               </physdesc>
+            </did>
+            <arrangement>
+               <p>Arranged alphabetically.</p>
+            </arrangement>
+            <scopecontent>
+               <p>This series consists of nineteen items, including photocopies of novels, articles, and essays related to the Bloomsbury Group.  Also included is a video recording of a performance of <title>A Room of One's Own</title> by Eileen Atkins (Box 41, Folder 166) and a T-shirt featuring a caricature of Woolf.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series V. <title>A Bloomsbury Iconography</title>,
+                <unitdate>[1979]-[1991]</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>2 linear feet (10 items)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series consists of working papers for Elizabeth P. Richardson's <title>A Bloomsbury Iconography</title>.  The series includes a fragment of an early draft composed in 1979 (Box 42, Folder 167), two later drafts, and corrected galley proofs.  Also included are illustrative material, including original sketches by Sarah Black for Appendix A (Box 44, Folder 180), and a typescript of <title>A Bloomsbury Iconography</title> (Boxes 46-47).</p>
+            </scopecontent>
+  </c01>
+<c01 level="series">
+            <did>
+               <unittitle>Series VI. Artwork,
+                <unitdate>1923-1996</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.5 linear feet ( 4 items)</extent>
+               </physdesc>
+            </did>
+            <arrangement>
+               <p>Arranged alphabetically by artist.</p>
+            </arrangement>
+  </c01>
+<c01 level="series">
+            <did>
+               <unittitle>Series VII. Oversize</unittitle>
+               <physdesc>
+                  <extent>.75 linear feet (16 items)</extent>
+               </physdesc>
+            </did>
+  </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I.  Correspondence of Elizabeth P. Richardson,
+                <unitdate>1961-1998</unitdate>
+               </unittitle>
+            </did>
+            <note>
+               <p>Asterisks denote significant correspondence.</p>
+            </note>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Alex Reid and Lefévre Ltd.
+                   <unitdate>1984 Dec 26-1985 Jun 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Allen Memorial Art Museum
+                   <unitdate>1989 Aug 7-Aug 25</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Annan, Noel Gilroy
+                   <unitdate>1984 Jul 2-1984 Jul 18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Art Institute of Chicago
+                   <unitdate>1984 Sep 14-Oct 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Ashmolean Museum
+                   <unitdate>1990 Jan 19-Feb 14</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Bachardy, Don
+                   <unitdate>1984 Dec 28-1989 Jul 8</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>*Banks, Joanne Trautmann
+                   <unitdate>1985 Nov 22-1996 Jul 24</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>BBC Hulton Picture Library
+                   <unitdate>1983 Aug 18-1984 Apr 25</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Bedford, Sue
+                   <unitdate>1997 Sep 22-1997 Oct 4</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>*Bell, Quentin and Anne Olivier
+                   <unitdate>1976 Jul 19-1997 Feb 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="list-bergcollection">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Berg Collection
+                   <unitdate>1982 Nov 20</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Bethe, Rose Ewald
+                   <unitdate>1979 Dec 15</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>*Bicknell, John W.
+                   <unitdate>1983 Nov 19-1998 Apr 14</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Black, Sarah</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-smithcollege">See: Smith College</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>Bloomsbury Workshop
+                   <unitdate>1988 Mar 10-[1997]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">15</container>
+                  <unittitle>Blunt, Wilifred
+                   <unitdate>1976 Nov 2-Nov 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">16</container>
+                  <unittitle>*Boyd, Elizabeth French
+                   <unitdate>1976 Apr 13-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">17</container>
+                  <unittitle>British Institute of Professional Photography
+                   <unitdate>1985-1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">18</container>
+                  <unittitle>Cadmus, Paul
+                   <unitdate>1984 Dec 23-Dec 27</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">19</container>
+                  <unittitle>Carrington, Noel
+                   <unitdate>1987 Dec 10-1998 Apr 13</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">20</container>
+                  <unittitle>Cecil, Lord David
+                   <unitdate>1984 Mar 4-1984 Mar 14</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">21</container>
+                  <unittitle>*Charleston Trust
+                   <unitdate>1984 Jun 16-[1992] Jan 11</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">22</container>
+                  <unittitle>*Chatto &amp; Windus
+                   <unitdate>1979 Aug 13-1988 Jan 23</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">23</container>
+                  <unittitle>Clements, Keith
+                   <unitdate>1984 Jul 20-1985 Apr 18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">24</container>
+                  <unittitle>*Condé Nast Publications, Inc.
+                   <unitdate>1983 Mar 12-1987 Jul 18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">25</container>
+                  <unittitle>Contemporary Art Society (London)
+                   <unitdate>1985 Feb 22-1985 Mar 12</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">26</container>
+                  <unittitle>Darroch, Sandra Jobson
+                   <unitdate>1976 Feb 2-1988 Nov 30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">27</container>
+                  <unittitle>Delaney, Paul
+                   <unitdate>1987 Oct 10-1987 Dec 30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">28</container>
+                  <unittitle>Diamand, Pamela
+                   <unitdate>1976 Sep 11-Jun 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">29</container>
+                  <unittitle>Emery, Jane
+                   <unitdate>1991 Nov 13-Dec 11</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">30</container>
+                  <unittitle>Florence, Barbara Moench
+                   <unitdate>[1984 Dec 14]-1985 Dec 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">31</container>
+                  <unittitle>Ford, M. A.
+                   <unitdate>[1976 Jan ?]-1976 Mar 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">32</container>
+                  <unittitle>Freedman, Abby
+                   <unitdate>1994 Apr 19- 1994 May 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">33</container>
+                  <unittitle>Gallery Edward Harvane
+                   <unitdate>1976 Mar 17-1976 Mar 29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">34</container>
+                  <unittitle>*Garnett, Angelica
+                   <unitdate>1976 Aug 14-1988 Jan 2</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">35</container>
+                  <unittitle>Garnett, Henrietta
+                   <unitdate>1988 Jan 23-1988 Jun 24</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">36</container>
+                  <unittitle>Gertler, Luke
+                   <unitdate>1988 Apr 22-1988 May 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">37</container>
+                  <unittitle>*Gillespie, Diane F.
+                   <unitdate>1987 Apr 8-1989 Jul 24</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">38</container>
+                  <unittitle>Glendinning, Victoria
+                   <unitdate>1983 Dec 4-1989 Apr 24</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">39</container>
+                  <unittitle>Halls, Michael A.
+                   <unitdate>1987 Oct 12-1987 Dec 14</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">40</container>
+                  <unittitle>*Harry Ransom Humanities Research Center
+                   <unitdate>1975 Sep 24-1985 Apr 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">41</container>
+                  <unittitle>Hart-Davis, Rupert
+                   <unitdate>1987 Nov 23-1987 Dec 7</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">42</container>
+                  <unittitle>Harvard University Library
+                   <unitdate>1981 Aug 31-1985 Dec 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">43</container>
+                  <unittitle>Haverford College Library
+                   <unitdate>1984 Sep 27-Oct 2</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">44</container>
+                  <unittitle>Heffers Booksellers
+                   <unitdate>1985 Mar 18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">46</container>
+                  <unittitle>Heilbrun, Caroline G.
+                   <unitdate>1985 Nov 3-1989 Aug 5</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">46</container>
+                  <unittitle>Herley, David
+                   <unitdate>1979 Jul 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">47</container>
+                  <unittitle>Hershkowitz, Robert
+                   <unitdate>1985 Mar 19-1985 Mar 31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">48</container>
+                  <unittitle>Hill, Brian
+                   <unitdate>1989 Jun 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">49</container>
+                  <unittitle>Hirschl &amp; Adler Galleries
+                   <unitdate>1989 Jun 10-1989 Jun 15</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">50</container>
+                  <unittitle>House of El Dieff, Inc.
+                   <unitdate>1982 Nov 18- 1982 Dec 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">51</container>
+                  <unittitle>Hussey, Mark
+                   <unitdate>1996 Jul 22- 1996 Jul 30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">52</container>
+                  <unittitle>Hutchinson, Lord Jeremy
+                   <unitdate>1985 June 7-1985 Jun 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">53</container>
+                  <unittitle>International Museum of Photography at George Eastman House
+                   <unitdate>1985 Sep 22, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">54</container>
+                  <unittitle>J. Paul Getty Museum
+                   <unitdate>1987 Mar 24-1987 Apr 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">55</container>
+                  <unittitle>Kennedy, Richard
+                   <unitdate>1987 Dec 18-1988 Feb 2</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">56</container>
+                  <unittitle>Keynes, Milo
+                   <unitdate>1984 Oct 12-1986 Apr 13</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">57</container>
+                  <unittitle>*Kirkpatrick, B.J.
+                   <unitdate>1961 Feb 6-1993 Mar 23</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">58</container>
+                  <unittitle>Kirstein, Lincoln
+                   <unitdate>1984 Sep 24</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">59</container>
+                  <unittitle>Laing, Donald A.
+                   <unitdate>1983 Oct 16-1983 Dec 12</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">60</container>
+                  <unittitle>Lilly Library
+                   <unitdate>1983 Jan 8-1983 Jan 10</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">61</container>
+                  <unittitle>Lee, Hermione
+                   <unitdate>1996 Nov 5-1996 Jun 12</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">62</container>
+                  <unittitle>Lehmann, John
+                   <unitdate>1977 Jan 6- 1977 Jan 15</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">63</container>
+                  <unittitle>Lewis, R.W.B.
+                   <unitdate>1976 Jul 14-1984 Oct 11</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">64</container>
+                  <unittitle>Mandel, Ann S.
+                   <unitdate>1985 Apr 15-1989 Aug 21</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">65</container>
+                  <unittitle>Mansell Collection
+                   <unitdate>1987 Jul 9-1987 Jul 14</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">66</container>
+                  <unittitle>McNellie, Andrew
+                   <unitdate>1993 Mar 23-1993 Apr 12</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">67</container>
+                  <unittitle>Meisel, Perry
+                   <unitdate>1985 Dec 16-1985 Dec 19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">68</container>
+                  <unittitle>Metropolitan Museum of Art
+                   <unitdate>1989 Jun 5-1989 Jun 16</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">69</container>
+                  <unittitle>Moggridge, D. E.
+                   <unitdate>1984 Oct 20-1984 Dec 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">70</container>
+                  <unittitle>Moore, Timothy
+                   <unitdate>1988 Jul 10-1988 Jul 18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">71</container>
+                  <unittitle>Morris Gallery
+                   <unitdate>1984 Sept 12-1985 Jan 12</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mortimer, Ruth</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-smithcollege">See: Smith College</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">72</container>
+                  <unittitle>Museum of Fine Arts, Boston
+                   <unitdate>1977 Jul 8-1978 Sep 30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">73</container>
+                  <unittitle>*National Portrait Gallery (Great Britain)
+                   <unitdate>1983 Feb 21-1997 Nov 7</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">74</container>
+                  <unittitle>National Trust for Places of Historic Interest
+                   <unitdate>1984 Oct 11-1986 Jan 7</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>New York Public Library</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-bergcollection">See: Berg Collection.</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">75</container>
+                  <unittitle>The New York Times Book Review
+                   <unitdate>1976 Jan 10</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">76</container>
+                  <unittitle>Nicolson, Nigel
+                   <unitdate>1979 Jun 22-1988 Aug 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">77</container>
+                  <unittitle>Norton, Lucy
+                   <unitdate>[1976 Sep] 2-1976 Oct 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Paige, Phyllis C.</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-smithcollege">See: Smith College</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">78</container>
+                  <unittitle>Partridge, Frances
+                   <unitdate>1984 Dec 26-1985 Oct 29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">79</container>
+                  <unittitle>Perlin, Bernard
+                   <unitdate>1984 Dec 28-1985 Jan 8</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">80</container>
+                  <unittitle>Peters, Jean
+                   <unitdate>1984 Mar 5-1984 Apr 12</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">81</container>
+                  <unittitle>Photo Researchers, Inc.
+                   <unitdate>1985 Jan 11-1985 Jan 18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">82</container>
+                  <unittitle>Pierpoint Morgan Library
+                   <unitdate>[1981 Jun 11]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">83</container>
+                  <unittitle>Pugh, Patricia
+                   <unitdate>1987 Jul 17-1987 Oct 26</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">84</container>
+                  <unittitle>Quick Jonathan R.
+                   <unitdate>1987 Sep 12-1987 Sep 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">85</container>
+                  <unittitle>Reed, Christopher
+                   <unitdate>[1987] Aug 8-1996 Jul 24</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">86</container>
+                  <unittitle>Regan, Tom
+                   <unitdate>1988 Jun 14-1988 Jul 4</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">87</container>
+                  <unittitle>*Reid, Panthea (from and to)
+                   <unitdate>1994 Jul 30-1997 Jan 26</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">88</container>
+                  <unittitle>Ritchie, Trekkie
+                   <unitdate>1989 Aug 22-1992 May 3</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">89</container>
+                  <unittitle>Roche, Paul
+                   <unitdate>1989 Oct 30-1989 Nov 28</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">90</container>
+                  <unittitle>*Rosenbaum, S. P.
+                   <unitdate>1976 Jul 13-1994 May 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">91</container>
+                  <unittitle>Royal Pavillion Art Gallery, and Museum
+                   <unitdate>1990 Jan 19-1990 Mar 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">92</container>
+                  <unittitle>Russell, John
+                   <unitdate>1984 Oct 12-1984 Oct 28</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">93</container>
+                  <unittitle>Rylands, George
+                   <unitdate>1984 Aug 14-1984 Aug 25</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Scott, Alison</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-smithcollege">See: Smith College</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">94</container>
+                  <unittitle>*Shone, Richard
+                   <unitdate>1981 Jun 3-1994 Mar 8</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">95</container>
+                  <unittitle>Smith, Warren Hunting
+                   <unitdate>1984 May 7-1985 Jan 10</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="list-smithcollege">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">96-97</container>
+                  <unittitle>*Smith College
+                   <unitdate>1982 Sep 3-1989 Oct 9</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">98</container>
+                  <unittitle>Sotheby &amp; Co.
+                   <unitdate>1983 May 18-1985 Jan 23</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">99</container>
+                  <unittitle>Southampton Art Gallery
+                   <unitdate>1989 Jul 20-1989 Sep 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">100-01</container>
+                  <unittitle>*Spotts, Frederic
+             <unitdate>1986 Nov 15-1997 Jan 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">102</container>
+                  <unittitle>Stansky, Peter
+                   <unitdate>[1985] Sep 30-[1985 Oct]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">103</container>
+                  <unittitle>Stone, Wilfred Healey
+                   <unitdate>1976 Oct 17-1976 Nov 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">104</container>
+                  <unittitle>*Strachey, Barbara (from and to)
+                   <unitdate>1980 Nov 10-1989 Jun 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">105</container>
+                  <unittitle>Strachey, Simonette
+                   <unitdate>1985 Dec 17-1986 Jan 23</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">106</container>
+                  <unittitle>St. Paul's Bibliographies
+                   <unitdate>1987 Oct 26-1990 May 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">107</container>
+                  <unittitle>Taylor, Roger
+                   <unitdate>1987 Aug 4-1987 Aug 8</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">108</container>
+                  <unittitle>Temple University
+                   <unitdate>1989 Apr 26</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">109</container>
+                  <unittitle>Turnbaugh, Douglas Blair
+                   <unitdate>[1988]-1989 Aug 2</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">110</container>
+                  <unittitle>University of Leeds
+                   <unitdate>1989 May 25-1989 Sep 2</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">111</container>
+                  <unittitle>University of California
+                   <unitdate>1984 Jun 1-1984 Jun 13</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">112</container>
+                  <unittitle>University of Hull
+                   <unitdate>1990 Jan 19-1990 Feb 19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">113</container>
+                  <unittitle>University of Reading
+                   <unitdate>1985 Jan 1-1989 Sep 15</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">114</container>
+                  <unittitle>University of Sussex
+                   <unitdate>1984 May 13-1997 Oct 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">115</container>
+                  <unittitle>Vassar College Art Gallery
+                   <unitdate>1985 Jan 12-1985 Mar 19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">116</container>
+                  <unittitle>Vaughan, Janet
+                   <unitdate>1985 Dec 16-1985 Dec 31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">117</container>
+                  <unittitle>Victoria and Albert Museum
+                   <unitdate>1983 Apr 12-1985 Feb 25</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">118</container>
+                  <unittitle>Victoria University (Toronto) Library
+                   <unitdate>1984 Oct 20-1984 Nov 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">119</container>
+                  <unittitle>Vinogradoff, Julian
+                   <unitdate>1976 Dec 30-[1983 Aug 15]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">120</container>
+                  <unittitle>Whaley, Charles E.
+                   <unitdate>1984 Jun 25-1984 Jul 20</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">121</container>
+                  <unittitle>Willis, J. H.
+                   <unitdate>1984 Oct 8-1984 Nov 7</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">122</container>
+                  <unittitle>Wolf, Ina
+                   <unitdate>1981 Mar 22-1987 Dec 21</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">123</container>
+                  <unittitle>Wolf, Sylvia
+                   <unitdate>1996 Dec 20-1996 Dec 27</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">124-6</container>
+                  <unittitle>*Woolmer, J. Howard (from and to)
+                   <unitdate>1976 Sep 12-1998 Apr 28</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">127</container>
+                  <unittitle>Unidentified
+                   <unitdate>1976 Mar 15-[1996 Jul]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="list-4128">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">128</container>
+                  <unittitle>Permission letters requesting use of quotations in <title>A Bloomsbury Iconography</title>
+                     <unitdate>1985 Jan 13- 1989 Jan 19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II. Scrapbooks,
+                <unitdate>1905-1998</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">5-9</container>
+                  <unittitle>(scrapbook 1.1- scrapbook 1.5)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Articles and reviews of works by and about Virginia Woolf.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>(scrapbook 2)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged alphabetically by subject.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Background articles and extracts about the Bloomsbury Group.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11-12</container>
+                  <unittitle>(scrapbook 3.1- scrapbook 3.2)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged alphabetically by sitter or artist.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Reproductions of Bloomsbury-related photographs and artwork.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>(scrapbook 4)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Catalogues of Vanessa Bell's exhibitions.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>(scrapbook 5)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Catalogues of Duncan Grant's exhibitions.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">15-18</container>
+                  <unittitle>(scrapbook 6.1- scrapbook 6.4)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Miscellaneous exhibition catalogues, 1912-1987. Catalogues of exhibitions and auctions, as well as newspaper articles about openings.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">19</container>
+                  <unittitle>(scrapbook 7)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged alphabetically by publication or author.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Extracts from reviews containing reproductions of Bloomsbury images.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">20</container>
+                  <unittitle>(scrapbook 8)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged alphabetically by author, sitter, or artist.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Dust jackets, letters, and lists of illustrations in books.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">21-28</container>
+                  <unittitle>(scrapbook 9.1-9.8)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Bloomsbury 1919-1998. Includes reviews of books and movies about Bloomsbury, obituaries, sales announcements, cartoons, and exhibition reviews.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>(scrapbook 10)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Articles about Julia Margaret Cameron.  Extra notebook contains photocopies from <title>Victorian Pictures of Famous Men and Fair Women</title>.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">30</container>
+                  <unittitle>(scrapbook 11)</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Notes and comments by Elizabeth P. Richardson about her collection.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">31</container>
+                  <unittitle>(scrapbook 13)</unittitle>
+               </did>
+               <arrangement>
+                  <p>Arranged alphabetically by author.</p>
+               </arrangement>
+               <scopecontent>
+                  <p>Indexes prepared by Elizabeth P. Richardson of Bloomsbury-related books.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">32</container>
+                  <unittitle>(scrapbook 14)</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Ephemera. Includes programs, fliers, and brochures for Bloomsbury related sites and events.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III. Personal Papers,
+                <unitdate>1963-1998</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">129</container>
+                  <unittitle>Reading Notebook 1. Reading notes on Virginia Woolf's life and works
+                   <unitdate>1963-1965</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>91 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">130</container>
+                  <unittitle>Reading Notebook 2. Reading notes on Bloomsbury-related images
+                   <unitdate>1983-1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>59 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">131</container>
+                  <unittitle>Reading Notebook 3. Reading notes on Virginia Woolf and Bloomsbury-related material
+                   <unitdate>1984-1986</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>61 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">132</container>
+                  <unittitle>Reading Notebook 4.  Reading notes on Virginia Woolf's essays and Bloomsbury-related books
+                   <unitdate>1987-1996</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>75 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">133</container>
+                  <unittitle>Notebook A.  Contains drafts and notes on the Iconography, as well as the addresses of people knowledgeable about Bloomsbury.</unittitle>
+                  <physdesc>
+                     <extent>45 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">134</container>
+                  <unittitle>Notebook B. Contains notes on Bloomsbury-related books, mostly concerning photographs
+                   <unitdate>[?1983]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">134</container>
+                  <unittitle>Notes and sketches of photographs of Lydia Lopokova.</unittitle>
+                  <physdesc>
+                     <extent>11 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">136</container>
+                  <unittitle>Notes on the dating and identifying of the Beresford photographs of Virginia Woolf.</unittitle>
+                  <physdesc>
+                     <extent>9 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">137</container>
+                  <unittitle>Stationery featuring reproduction of a photograph of Virginia Woolf by Beresford.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">138</container>
+                  <unittitle>"Bloomsbury Squares" cartoon. photocopy
+                   <unitdate>1980 Dec 8</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 page.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">139</container>
+                  <unittitle>Reproductions of photographs in the Leslie Stephen album, with captions by Elizabeth P. Richardson
+                   <unitdate>[?1985]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pattle family trees
+                   <unitdate>1985</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-trees">See: Oversize</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Map of Sussex, England</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-sussex">See: Oversize</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">140</container>
+                  <unittitle>
+                     <title>Masterworks of American Painting and Sculpture</title>: typescript, corrected by EPR
+                   <unitdate>[1998]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">141</container>
+                  <unittitle>Drafts of essays for Smith College class taught by Professor Doug Patey typescript, corrected
+                   <unitdate>1993 Feb 23-Mar 11</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes: <title>The Urkheim Mile And Other Blessings of a Hands-Off Technology</title> and <title>Some Uses and Abuses of the En Dash</title>.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">142</container>
+                  <unittitle>Drafts for a review of <title>Leonard Woolf: A Bibliography</title> by Leila Luedeking and Michael Edmonds: typescript, corrected
+                   <unitdate>[1993]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">143</container>
+                  <unittitle>Budget of Elizabeth P. Richardson for 1992 and 1993.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">144</container>
+                  <unittitle>Map of Elizabeth P. Richardson's library.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">145</container>
+                  <unittitle>Notebook on the Ribblesdale Lear, a copy of Edward Lear's <title>Book of Nonsense</title> owned by Thomas Lister, 4th Baron Ribblesdale. Research on guests of the family who colored and signed it.
+                   <unitdate>n.y. Mar 24</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>166 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">146</container>
+                  <unittitle>Notes on Edward Lear cartoons from the Ribblesdale Lear</unittitle>
+                  <physdesc>
+                     <extent>65 pages (notecards).</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">147</container>
+                  <unittitle>Notes on the Ribbldale Lear Scrapbook: typescript, corrected.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <unittitle>The Ribblesdale Lear Scrapbook
+                   <unitdate>1993</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">37</container>
+                  <unittitle>Audio recording of Elizabeth P. Richardson reading Virginia Woolf's <title>Moments of Being</title>.</unittitle>
+                  <physdesc>
+                     <extent>8 audiocassettes.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-38147">
+               <did>
+                  <container type="box">38</container>
+                  <unittitle>"<title>A taste for green olives</title>." Elizabeth P. Richardson discusses her Bloomsbury collection.  On reverse, Richardson reads <title>Julia Margaret Cameron</title> by Virginia Woolf.</unittitle>
+                  <physdesc>
+                     <extent>audiocassette. 3 copies.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV. Subject Files,
+                <unitdate>1865-1997</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>"Architectural Review."
+                   <unitdate>May 1930</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>pages 287-300. photocopy.</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-arch">See: Oversize</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">39</container>
+                  <container type="folder">148</container>
+                  <unittitle>Bicknell,  John W. "Leslie Stephen: Victorian Man of Letters" lecture at Drew University.  Introduced by Noel Annan.
+                   <unitdate>1996</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>Audio recording, 2 copies.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">39</container>
+                  <container type="folder">149</container>
+                  <unittitle>Byre, John. "Faulty Connections." A review of <title>Julian Symonds: A bibliography</title> by John J. Walsdorf with Bonnie J. Allen. <title>Times Literary Supplement</title>
+                     <unitdate>1997 Apr 11</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>page 33.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">39</container>
+                  <container type="folder">150</container>
+                  <unittitle>Cannan, Gilbert. <title>Pugs and Peacocks</title>. London : Hutchinson &amp; Co.</unittitle>
+                  <physdesc>
+                     <extent>312 pages. photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">39</container>
+                  <container type="folder">151</container>
+                  <unittitle>Charleston Trust. Sale catalogue for an auction to benefit the Charleston Trust.</unittitle>
+                  <physdesc>
+                     <extent>photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">39</container>
+                  <container type="folder">152</container>
+                  <unittitle>Cragg, Steven. T-shirt featuring a caricature of Virginia Woolf. Chapel Hill, North Carolina: Largely Literary Designs
+                   <unitdate>1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">39</container>
+                  <container type="folder">153</container>
+                  <unittitle>Ellenberger, Nancy W. "The Souls and London "Society" at the End of the Nineteenth Century." <title>Victorian Studies</title>
+                     <unitdate>Winter 1982</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>pages 133-168. photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">39</container>
+                  <container type="folder">154</container>
+                  <unittitle>Hafley, James. <title>The Glass Roof: Virginia Woolf as Novelist</title>. Berkeley and Los Angeles: University of California Press
+                   <unitdate>1954</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>195 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">40</container>
+                  <container type="folder">155</container>
+                  <unittitle>Higgens, Diana. <title>Grace at Charleston: Memories and Recipes</title>. Lockholt &amp; Company Limited. With foreword by Quentin Bell.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">40</container>
+                  <container type="folder">156</container>
+                  <unittitle>Mozley, Anita Ventura, <title>Mrs. Cameron's Photographs from the Life</title>. Stanford University Museum of Art
+                   <unitdate>1974</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>74 pages. photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">40</container>
+                  <container type="folder">157</container>
+                  <unittitle>Nicolson, Nigel. <title>Sissinghurst Castle: An Illustrated Guide</title>. Bedford: The Sidney Press Limited
+                   <unitdate>1966</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>13 pages. photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">40</container>
+                  <container type="folder">158</container>
+                  <unittitle>Reed, Chris. Checklist of illustrations of Bloomsbury art
+                   <unitdate>1986</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>22 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">40</container>
+                  <container type="folder">159</container>
+                  <unittitle>Ross, Robert. <title>Masques &amp; Phases</title>. London : Arthur L. Humphreys
+                   <unitdate>1909</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>315 pages.  Photocopy, with Richardson's index.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">40</container>
+                  <container type="folder">160</container>
+                  <unittitle>Shone, Richard. <title>Monk's House: A Catalogue of Pictures</title>
+                     <unitdate>1985</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>24 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">161</container>
+                  <unittitle>Southeby's Belgravia. <title>Early Photographic Images and Related Material</title>. catalogue for auction held 1975 26 Jun</unittitle>
+                  <physdesc>
+                     <extent>75 pages. photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">162</container>
+                  <unittitle>Stansky, Peter, <title>On Or About December 1910: Early Bloomsbury and Its Intime World</title>." Introduction." Cambridge: Harvard University Press
+                   <unitdate>1996</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">163</container>
+                  <unittitle>Stephen, Leslie. <title>The "Times" on the American War</title>. London: William Ridgeway
+                   <unitdate>1865</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>108 pages. photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">164</container>
+                  <unittitle>Strachey, Marjorie. <title>The Counterfeits</title>. London: Longmans, Green and Co.
+                   <unitdate>1927</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>275 pages. photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Woolf, Virginia. "Julia Margaret Cameron" <title>Victorian Pictures of Famous Men and Fair Women</title>. Read by Elizabeth Power Richardson.</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-38147">See: Box 38, folder 147</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">165</container>
+                  <unittitle>Woolf, Virginia. <title>Kew Gardens</title> and woodcuts from <title>Monday or Tuesday</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent>28 pages. photocopy.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Woolf, Virginia. <title>Mrs. Dalloway</title> and <title>To the Lighthouse</title> selections read by Celia Johnson. Record. New York: Caedmon Publishers
+                   <unitdate>1959</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-dalloway">See: Oversize</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">166</container>
+                  <unittitle>Woolf, Virginia. <title>A Room of One's Own</title>. Film performed by Eileen Atkins. videocassette.  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>Series V. <title>A Bloomsbury Iconography</title>,
+                <unitdate>[1979]-[1991]</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">42</container>
+                  <container type="folder">167</container>
+                  <unittitle>Early Draft, typescript, corrected
+                   <unitdate>[1979 Aug 4]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>5 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">42-3</container>
+                  <container type="folder">168-73</container>
+                  <unittitle>Draft A in 6 notebooks, typescript, corrected
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">43</container>
+                  <container type="folder">174</container>
+                  <unittitle>Draft fragments, typescript, corrected
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">175</container>
+                  <unittitle>Draft B, typescript, corrected
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">44</container>
+                  <container type="folder">176-79</container>
+                  <unittitle>Galley proofs, corrected
+                   <unitdate>1988 Oct.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Galley proofs, corrected, with printer's annotations. Stamped "Jan 23 1989."</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-yar">See: Oversize</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02 id="list-45180">
+               <did>
+                  <container type="box">45</container>
+                  <container type="folder">180</container>
+                  <unittitle>Original sketches by Sarah Black for "Appendix A: The Cameron Photographs of Julia Stephen" in <title>A Bloomsbury Iconography</title>.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">45</container>
+                  <container type="folder">181</container>
+                  <unittitle>Illustrative material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Permission letters.</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-4128">See: Box 4, Folder 128</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">45</container>
+                  <container type="folder">182</container>
+                  <unittitle>Advertisements and Reviews
+                   <unitdate>1989 May-1990 May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">45</container>
+                  <container type="folder">183</container>
+                  <unittitle>Notes on <title>Paper Darts: The Illustrated Letters</title> edited by Frances Spalding, typescript
+                   <unitdate>[1991]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>2 pages.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46-47</container>
+                  <unittitle>(scrapbook 12A and 12S)</unittitle>
+               </did>
+               <scopecontent>
+                  <p>
+                     <title>A Bloomsbury Iconography</title>.  Updated by the author after publication, typescript, [1991]</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>Series VI. Artwork,
+                <unitdate>1923-1996</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Black, Sarah. Original sketches for "Appendix A: The Cameron Photographs of Julia Stephen" in <title>A Bloomsbury Iconography</title>.</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-45180">See: Box 45, Folder 180</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fry, Roger.</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-fry">See: Oversize</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">48</container>
+                  <container type="folder">184</container>
+                  <unittitle>Grant, Duncan. <title>Duncan Grant at Charleston</title>, 19 photographic slides.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kennedy, Richard.</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-kennedy">See: Oversize</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">48</container>
+                  <container type="folder">185</container>
+                  <unittitle>Starr, Martha H. and Elizabeth W. Hill. <title>Virginia Woolf Calendar Diary 1982</title>. New York and London: Harcourt Brace Jovanovich, Inc.
+                      <unitdate>1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">48</container>
+                  <container type="folder">186</container>
+                  <unittitle>Starr, Martha H. and Elizabeth W. Hill. <title>Virginia Woolf Calendar Diary 1983</title>. New York and London: Harcourt Brace Jovanovich, Inc.
+                      <unitdate>1982</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>2 copies.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser7">
+            <did>
+               <unittitle>Series VII. Oversize</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>PERSONAL PAPERS</unittitle>
+               </did>
+               <c03 id="list-trees">
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">187</container>
+                     <unittitle>Pattle family trees
+                      <unitdate>1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="list-sussex">
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">188</container>
+                     <unittitle>Map of Sussex, England.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>SUBJECT FILES</unittitle>
+               </did>
+               <c03 id="list-arch">
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">189</container>
+                     <unittitle>Architectural Review,
+                      <unitdate>May 1930</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>pages 287-300. photocopy.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="list-dalloway">
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">190</container>
+                     <unittitle>Woolf, Virginia. <title>Mrs. Dalloway</title> and <title>To the Lighthouse</title> selections read by Celia Johnson. Record. New York: Caedmon Publishers
+                      <unitdate>1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>A BLOOMSBURY ICONOGRAPHY</title>
+                  </unittitle>
+               </did>
+               <c03 id="list-yar">
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">200</container>
+                     <unittitle>Galley proofs, corrected, with printer's annotations. Stamped "Jan 23 1989."</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>ARTWORK</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">201</container>
+                     <unittitle>
+                        <title>The Charleston Calendar 1990 Bloomsbury Portraits by Lettice Ramsey</title>.</unittitle>
+                     <physdesc>
+                        <extent>2 copies.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">202</container>
+                     <unittitle>
+                        <title>The Charleston Calendar 1991 Virginia Woolf</title>.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">203</container>
+                     <unittitle>
+                        <title>The Charleston Calendar 1992 A Bloomsbury Garden</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">204</container>
+                     <unittitle>
+                        <title>The Charleston Calendar 1996 Duncan Grant and Vanessa Bell: Book Jackets</title>.</unittitle>
+                     <physdesc>
+                        <extent>3 copies</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">49</container>
+                     <container type="folder">205</container>
+                     <unittitle>
+                        <title>Charleston Revisited: A new view of Bloomsbury in the country</title>. Poster for an exhibition at the Francis Kyle Gallery
+                      <unitdate>1993</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>framed</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="list-fry">
+                  <did>
+                     <container type="box">50</container>
+                     <container type="folder">206</container>
+                     <unittitle>Fry, Roger. <title>Outside Avila</title>: lithograph
+                      <unitdate>1923</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>framed</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50</container>
+                     <container type="folder">207</container>
+                     <unittitle>Fry, Roger. <title>Still Life</title>
+                        <unitdate>1918</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <physfacet>Reproduction on linen, framed. Linen Union.</physfacet>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="list-kennedy">
+                  <did>
+                     <container type="box">50</container>
+                     <container type="folder">208</container>
+                     <unittitle>Kennedy, Richard. <title>Virginia Woolf</title>: lithograph
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>framed. Signed.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50</container>
+                     <container type="folder">209</container>
+                     <unittitle>Kennedy, Richard. <title>Virginia Woolf Setting Type</title>: ink and graphite drawing
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>Framed.</extent>
+                     </physdesc>
+                  </did>
+                  <scopecontent>
+                     <p>Illustration for Kennedy's <title>A Boy at the Hogarth Press</title> (London 1972).</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

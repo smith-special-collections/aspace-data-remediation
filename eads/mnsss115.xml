@@ -1,0 +1,687 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss115.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss115</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Temperance Collection, 1832-1987</titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss115 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Temperance Collection, 1832-1987
+
+
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 440
+
+      </num>
+         <date>1998
+
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <unittitle label="Title:" encodinganalog="245$a">Temperance Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1832-1987 </unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 440</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">5 boxes</extent>
+            <extent encodinganalog="300$a">(2.5 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Collection encompasses a broad social movement in which American women played a prominent role.  Materials include information on the Women's Christian Temperance Union; photographs; biographies and autobiographies; postcards; songbooks; and stamps.  Also included are publications from various organizations.
+
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The Temperance Collection encompasses a broad social movement in which American women played a prominent role from the early decades of the nineteenth century into the twentieth century.  They participated in a variety of organizational settings on the local, state, national and international level.  While the Women's Christian Temperance Union (WCTU) is generally regarded to be the leading temperance organization from its beginnings in 1873, other local and national groups were active at different points in the Prohibition movement.  That diversity is evident in this collection.</p>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6178.jpg" altrender="right">
+<daodesc><p>Temperance postcard, April 1906</p></daodesc></dao> 
+         <p> While the bulk of the material comes from the late-nineteenth and early twentieth century, the Temperance Collection also contains material from as early as 1835.  There is also a significant amount of material from the post-Volstead Act (the Eighteenth Amendment) period, reflecting the fight to ward off the immediate challenges to national prohibition once it became law in 1920.  This struggle, much like the earlier temperance crusade, was carried out and led by women.</p>
+         <p> Numerous secondary works address the American temperance movement and the critical role played by women in that movement.  See, for example, Ruth Bordin, Woman and Temperance: The Quest for Power and Liberty, 1873-1900  (Rutgers University Press, 1990) and Janet Zollinger Giele, Two Paths to Women's Equality: Temperance, Suffrage, and the Origins of Modern Feminism (Twayne, 1995).</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into four series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Organizations</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Biographical Material and Photographs</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Memorabilia</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Oversize Material</ref>
+            </item>
+            <item>
+               <ref target="list-serBKS">Books on Shelf</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection. </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Material in this collection may be protected by copyright. It is the responsibility of the researcher to identify and satisfy all copyright holders. 
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Temperance Collection, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions to collection are expected. Recent additions may not be reflected in the finding aid.
+                </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Materials in this subject collection were either purchased or given to the Sophia Smith Collection by various donors. The collection nearly doubled in size with a significant purchase of material in 1998. Periodic additions are expected.</p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Livermore, Mary Ashton Rice, 1820-1905</persname>
+         <persname encodinganalog="600" source="lcnaf">Willard, Frances Elizabeth, 1839-1898</persname>
+         <corpname encodinganalog="610" source="lcnaf">Anti-saloon League of America--History--Sources</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Woman's Christian Temperance Union--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Prohibition--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Temperance-History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Temperance--United States--Societies, etc.--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women social reformers--United States--History--Sources</subject>
+      </controlaccess>
+      <!-- Begin series descriptions -->
+<dsc type="analyticover">
+    <c01 level="series">
+            <did>
+               <unittitle>SERIES I. ORGANIZATIONS <unitdate>(1835-1933, n.d.)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.5 linear ft</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Series is divided into two subseries:  Woman's Christian Temperance Union (WCTU) and Other organizations such as the Anti-Saloon League and the Loyal Temperance Legion.  Within the WCTU subseries can be found convention programs; addresses; local and state meeting minutes and correspondence; and a significant assortment of pamphlets.  Temperance activities within the state of Maine are especially well documented.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES II. BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS <unitdate>(1880s-1980s, n.d.)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.5 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Series contains published biographical articles, autobiographical writings, and photographs of leaders of the American and international women's temperance movements, in particular the life and career of Frances Willard.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES III. MEMORABILIA <unitdate>(1916-40, n.d.)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.25 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Series consists of an impressive array of temperance-related postcards, most from the early part of the 20th century.  Also included are songbooks and stamps from 1939 commemorating the 100th anniversary of Frances Willard's birth.</p>
+            </scopecontent>
+ </c01>
+
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES IV. OVERSIZE MATERIAL <unitdate>(1894-1918)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.25 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Series has a few oversize publications from national and state temperance organizations, mostly WCTU.  There are additional oversize materials in the flat files.</p>
+            </scopecontent>
+ </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. ORGANIZATIONS <unitdate>(1835-1933, n.d.)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Woman's Christian Temperance Union (WCTU)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Annual Conventions</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">1</container>
+                        <unittitle>World's: programs, <unitdate>1906, 1920</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>National</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">1</container>
+                           <container type="folder">2-3</container>
+                           <unittitle>Programs, <unitdate>1878-79, 1901-19</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">1</container>
+                           <container type="folder">4</container>
+                           <unittitle>Annual presidential address, <unitdate>1889-1915</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>State</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">1</container>
+                           <container type="folder">5</container>
+                           <unittitle>New York and Connecticut WCTU Annual Conventions, <unitdate>1901, 1933, 1941</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">1</container>
+                           <container type="folder">6</container>
+                           <unittitle>Maine WCTU Annual Conventions, <unitdate>1893-1916</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Local</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">1</container>
+                           <container type="folder">7</container>
+                           <unittitle>Melrose, Mass., WCTU programs, <unitdate>1886-90</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pamphlets, publications, and speeches</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">8</container>
+                        <unittitle>International, <unitdate>1892-1969, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">9-10</container>
+                        <unittitle>National, <unitdate>1889-1916, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">1</container>
+                        <unittitle>State, <unitdate>1904-34, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">2</container>
+                        <unittitle>
+                           <title>The Army Canteen</title>, <unitdate>1905</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">3</container>
+                        <unittitle>
+                           <title>The Temperance Education Quarterly</title>, <unitdate>1910</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">4</container>
+                        <unittitle>
+                           <title>To the Rescue of the Temple</title>, <unitdate>1898</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">5</container>
+                        <unittitle>Speech by Mrs. A. B. Satterlee, Lock Haven, PA, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">6</container>
+                        <unittitle>General, international, national, <unitdate>1920, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">7</container>
+                        <unittitle>Mary A. Livermore to Mrs. Burr, Melrose, MA, <unitdate>1885-98</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Minutes, by-laws, and history</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">8</container>
+                        <unittitle>Western Washington WCTU: minutes, <unitdate>1884-93</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">9</container>
+                        <unittitle>Mrs. John W. Gearhart, <title>The Beginnings of the WCTU of Western Washington</title>, 1883-87 <unitdate>(1955)</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Other organizations</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">10</container>
+                     <unittitle>Anti-Saloon League, <unitdate>1920-30, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">11</container>
+                     <unittitle>Loyal Temperance Legion, <unitdate>1906-07, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">12</container>
+                     <unittitle>Ladies American Home Education Society and Temperance Union: Annals, <unitdate>1852-71</unitdate> (with gaps)
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">1</container>
+                     <unittitle>Massachusetts Woman's Committee for Law Enforcement, <unitdate>1926-30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">2</container>
+                     <unittitle>National Temperance Society, <unitdate>1895-1902, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">3</container>
+                     <unittitle>Sisterhood of Temperance Ladies in North America, Portland, Maine, <unitdate>n.d. (circa 1850s)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">4</container>
+                     <unittitle>
+                        <title>The Temperance Offering</title>, <unitdate>1853</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">5</container>
+                     <unittitle>Temperance Working Man's Club (London): letter, <unitdate>1884</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">6</container>
+                     <unittitle>Women's National Committee for Law Enforcement, <unitdate>1922-29, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">7</container>
+                     <unittitle>Women's Organization for National Prohibition, <unitdate>1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">8</container>
+                     <unittitle>Various state organizations, <unitdate>1851-1930, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">9</container>
+                     <unittitle>Yearbooks, <unitdate>1909, 1912</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">10-12</container>
+                     <unittitle>Miscellaneous, <unitdate>1869-1938, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">13</container>
+                        <unittitle>
+                           <unitdate>1910, 1926</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">14</container>
+                        <unittitle>Petitions, <unitdate>1835, 1918</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS <unitdate>(1880s-1980s, n.d.)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">1</container>
+                  <unittitle><title render="italic">Thumb Nail Sketches of White Ribbon Women</title>, edited by Clara C. Chapin <unitdate>1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">2</container>
+                  <unittitle>Gordon, Anna Adams: <title render="italic">Anna Adams Gordon: A Story of Her Life</title>, <unitdate>circa 1929</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">3</container>
+                  <unittitle>Lady Henry Somerset: <title render="italic">Lady Henry Somerset</title>, by Helen Hood, <unitdate>circa 1899</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">4-5</container>
+                  <unittitle>Livermore, Mary A.: Articles by and about, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">6</container>
+                  <unittitle>Perkins, Sarah: <title render="italic">Pioneer Work: Seventy Years of Temperance Work</title> (Ohio) <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">7</container>
+                  <unittitle>Stevens, Lillian M.N.: Photograph, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Willard, Frances E.</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">8</container>
+                     <unittitle>General <unitdate>1889-1977, n.d.</unitdate></unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">9</container>
+                     <unittitle>Writings: <title render="italic">How to Win</title> and <title render="italic">How I Learned to Ride the Bicycle</title>
+                        <unitdate>1886 and 1895</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">10</container>
+                     <unittitle>Photographs and slides, <unitdate>1880s, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+		</c02>
+               <c02>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">11</container>
+                     <unittitle>Miscellaneous clippings, <unitdate>1950s-1980s, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. MEMORABILIA <unitdate>(1916-40, n.d.)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">12</container>
+                  <unittitle>Songbooks, <unitdate>1916-28, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">13</container>
+                  <unittitle>Postcards, pledge cards, and medallion, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">14</container>
+                  <unittitle>Stamps, <unitdate>1939-1940, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. OVERSIZE MATERIAL <unitdate>(1894-1918)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Newspapers and posters, <unitdate>1892-1918</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="list-flatfile">
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Posters: "The Kaiser's Ally in America"; Scientific Temperance Instruction, Maine Ratification Campaign (2), <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-serBKS">
+            <did>
+               <unittitle>BOOKS ON SHELF</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Mary A. Livermore, <title>The Story of My Life</title>
+                     <unitdate>(1899)</unitdate>
+                  </unittitle>
+			<note><p>[MISSING 8/2015]</p></note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clara C. Chapin, ed., <title>Thumbnail Sketches of White Ribbon Women</title>
+                     <unitdate>(1895)</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

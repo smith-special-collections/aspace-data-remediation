@@ -1,0 +1,1778 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss82.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss82</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Biography Collection, 1771-1995 (bulk 1920s-70s)
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss82 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Biography Collection, 1771-1995 (bulk 1920s-70s)
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 393
+      </num>
+         <date>Revised 2002
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <unittitle label="Title:" encodinganalog="245$a">Biography Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1771-1995 </unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1920-1970</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 393</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">17 boxes; 10 volumes</extent>
+            <extent encodinganalog="300$a">(6.25 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">This collection consists of biographical material on both famous and lesser-known women and men.  For the most part, there is only a small amount of material on each individual.  Materials typically include published and unpublished biographical sketches, books, correspondence, diaries, genealogies, photographs, and published and unpublished writings.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+ <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1431.jpg" altrender="right">
+<daodesc><p>Portrait of Kitty Merion, 1911</p></daodesc></dao>
+         <p> This collection consists of biographical material related to both well-known and unknown women and men whose lives spanned the years from 1771-1970s. Notable individuals represented include Mary McLeod Bethune, Bernard Baruch, Lizzie Borden, Eleanor Butler and Sarah Ponsonby (The Ladies of Llangollen), Tennessee Claflin Cook, Grace Coolidge, Angela Davis, Mary Daly, Hannah Dustin, Dorothy Gish, Julia Ward Howe, Anne Hutchinson, Mother Jones, Helen Keller, Florynce Kennedy, Joan Little, Eleanor Roosevelt, Alice Roosevelt Longworth, Florence Luscomb, Rosa Luxemburg, Marie Antoinette, Margaret Mead, Pauli Murray, Anna Lord Strauss, Rose Pastor Stokes, Annie Sullivan Macy, and Victoria Woodhull.</p>
+         <p> For the most part, there is only a small amount of material on each individual. Files are organized alphabetically by name.  Materials typically include published and unpublished biographical sketches, books, correspondence, diaries, genealogies, newspaper clippings, photographs, and published and unpublished writings.  The files of individuals such as Lizzie Borden and Angela Davis also include legal documents.  Davis' file (the largest in the collection) also contains memoranda, postcards, political buttons, leaflets, petitions, newsletters, trial bulletins, press releases, and political cartoons which document the movement organized to agitate for a fair trial and freedom for Davis and other political prisoners.</p>
+         <p>Some lesser-known individuals include interesting and significant material as well, such as Ferdinanda Wesselhoeft's personal letters in German detailing daily life in the United States during the period 1842-1886; the letters and journals of Anna Green Winslow and Mary Hutchinson Parmele dating from the 1770s and 1780s; and correspondence to Ethel Clyde from such famous individuals as Pearl Buck, Albert Einstein, Helen Keller, Pauli Murray, Norman Thomas, Mary van Kleeck, Margaret Sanger, and A.J. Muste.  Finally the collection contains a small number of collected biographies including those that document the lives of women associated with Princeton University, White House brides, "women who wanted to be men," and living daughters of presidents.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organizedas follows:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">SERIES I.  INDIVIDUALS</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">SERIES II. COLLECTED BIOGRAPHIES AND BIBLIOGRAPHIES</ref>
+            </item>
+            <item>
+               <ref target="list-serOV">OVERSIZE MATERIALS</ref>
+            </item>
+            <item>
+               <ref target="list-serBKS">BOOKS ON SHELF</ref>
+            </item>
+         </list>
+      </arrangement>
+      <arrangement id="scope-arr">
+         <head>Arrangement of the Collection</head>
+         <p>Files arranged alphabetically by name.
+      </p>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Material in this collection may be protected by copyright. It is the responsibility of the researcher to identify and satisfy all copyright holders. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Biography Collection, Sophia Smith Collection, Smith College, Northampton, MA</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions to collection are expected. </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Materials in this subject collection were either purchased or given to the Sophia Smith Collection by various donors. </p>
+            </acqinfo>
+            <processinfo id="admin-process">
+               <p>Finding aid revised in 2002 by Jessica Lawson, intern. Introductory text by Kate Weigand. Recent additions may not be reflected in the finding aid. </p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+
+         
+         <persname encodinganalog="600" source="lcnaf">Bethune, Mary McLeod, 1875-1955</persname>
+         <persname encodinganalog="600" source="lcnaf">Baruch, Bernard M. (Bernard Mannes), 1870-1965</persname>
+         <persname encodinganalog="600" source="lcnaf">Borden, Lizzie, 1860-1927</persname>
+         <persname encodinganalog="600" source="lcnaf">Butler, Eleanor, Lady, 1738 or 9-1829</persname>
+         <persname encodinganalog="600" source="lcnaf">Ponsonby, Sarah, 1754 or 5-1831</persname>
+         <persname encodinganalog="600" source="lcnaf">Coolidge, Grace Goodhue, 1879-1957</persname>
+         <persname encodinganalog="600" source="lcnaf">Davis, Angela Yvonne, 1944-</persname>
+         <persname encodinganalog="600" source="lcnaf">Daly, Mary, 1928-</persname>
+         <persname encodinganalog="600" source="lcnaf">Duston, Hannah Emerson, b. 1657</persname>
+         <persname encodinganalog="600" source="lcnaf">Gish, Dorothy</persname>
+	 <persname encodinganalog="600" source="lcnaf">Flexner, Eleanor, 1908- </persname> 
+         <persname encodinganalog="600" source="lcnaf">Howe, Julia Ward, 1819-1910</persname>
+         <persname encodinganalog="600" source="lcnaf">Hutchinson, Anne Marbury, 1591-1643</persname>
+         <persname encodinganalog="600" source="lcnaf">Jones, Mother, 1843?-1930</persname>
+         <persname encodinganalog="600" source="lcnaf">Keller, Helen, 1880-1968</persname>
+         <persname encodinganalog="600" source="lcnaf">Kennedy, Florynce, 1916-</persname>
+         <persname encodinganalog="600" source="lcnaf">Little, Joan</persname>
+         <persname encodinganalog="600" source="lcnaf">Longworth, Alice Roosevelt, 1884-1980</persname>
+         <persname encodinganalog="600" source="lcnaf">Luscomb, Florence, 1887-</persname>
+         <persname encodinganalog="600" source="lcnaf">Luxemburg, Rosa, 1871-1919</persname>
+         <persname encodinganalog="600" source="lcnaf">Marie Antoinette, Queen, consort of Louis XVI, King of France, 1755-1793</persname>
+         <persname encodinganalog="600" source="lcnaf">Mead, Margaret, 1901-1978</persname>
+         <persname encodinganalog="600" source="lcnaf">Murray, Pauli, 1910-</persname>
+         <persname encodinganalog="600" source="lcnaf">Roosevelt, Eleanor, 1884-1962</persname>
+         <persname encodinganalog="600" source="lcnaf">Strauss, Anna Lord, 1899-1979</persname>
+         <persname encodinganalog="600" source="lcnaf">Stokes, Rose Pastor, 1879-1933</persname>
+         <persname encodinganalog="600" source="lcnaf">Sullivan, Annie, 1866-1936</persname>
+         <persname encodinganalog="600" source="lcnaf">Woodhull, Victoria C. (Victoria Claflin), 1838-1927</persname>
+         <persname encodinganalog="600" source="lcnaf">Buck, Pearl S. (Pearl Sydenstricker), 1892-1973</persname>
+	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
+      </controlaccess>
+       <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Note that many of these individuals are also represented in other collections in the Sophia Smith Collection.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. INDIVIDUALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Adams, Hannah
+                  </unittitle>
+              <note><p><ref target="list-serBKS">[see Books on Shelf]</ref></p></note>
+		</did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Adams, Mary (Newbury): letter to Theo Tilton, <unitdate>1869</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Andrews, Nellie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2a</container>
+                  <unittitle>Anthony, Susan B.</unittitle>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Ayers, Agnes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Baczek, Genevieve</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Bailey, Anne</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Barakat, Layyah</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Baruch, Bernard M.: letter to F. B. Sampson</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Bary, H. Valeska</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Bedinger, Caroline L.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Bellaway, Madge</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Belmont, Margaret Andrews</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Berenson, Mary (Smith) Costelloe</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>Bethune, Mary McLeod</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>Bettons, Louise</unittitle>
+              <note><p><ref target="list-serBKS">[see also Books on Shelf]</ref></p></note>
+		</did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">1</container>
+                  <unittitle>Bingham, Millicent Todd</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">2</container>
+                  <unittitle>Bissell, Emily</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">3</container>
+                  <unittitle>Bordon, Lizzie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">4</container>
+                  <unittitle>Borgese, Elizabeth Mann</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">5</container>
+                  <unittitle>Breamer, Sylvia</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">6</container>
+                  <unittitle>Brent, Evelyn</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">7</container>
+                  <unittitle>Brent, Margaret</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">8</container>
+                  <unittitle>Brian, Mary</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">9</container>
+                  <unittitle>Bronson, Betty</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1A</container>
+                  <container type="folder">10</container>
+                  <unittitle>Butler, Lady Eleanor (and Sarah Ponsonby) "Ladies of Llangollen"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1</container>
+                  <unittitle>Cannon, Annie Wells</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">2</container>
+                  <unittitle>Carroll, Anna Ella  </unittitle>
+              <note><p><ref target="list-serBKS">[see Books on Shelf]</ref></p></note>
+		</did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">3</container>
+                  <unittitle>Carter, Mary</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4</container>
+                  <unittitle>Chace, Elizabeth Buffum</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">5</container>
+                  <unittitle>Chaplin, Charlie</unittitle>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <unittitle>Clarke, Bertha M. [See next box]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">6</container>
+                  <unittitle>Clark, Olive Cleaveland</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clyde, Ethel [See separate box]</unittitle>
+               </did>
+            </c02>
+
+  
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">7</container>
+                  <unittitle>Coburn, Helen Galvin Smith: diary from Europe, <unitdate>1870</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">8</container>
+                  <unittitle>Commander, Lydia Kingsmill</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">9</container>
+                  <unittitle>Cook, Tennessee Claflin, Lady, <unitdate>1845-1923</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">10</container>
+                  <unittitle>Coolidge, Grace G. to M. G. Smith</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">11</container>
+                  <unittitle>Corey, Esther</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">12</container>
+                  <unittitle>Cotton, Sallie Southall</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">13</container>
+                  <unittitle>Crane, Caroline Bartlett</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2A</container>
+                  <container type="folder">1</container>
+                  <unittitle>Clarke, Bertha M.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clyde, Ethel</unittitle>
+              <note><p><ref target="list-serBKS">[see also Books on Shelf]</ref></p></note>
+		</did>
+               <c03>
+                  <did>
+                     <container type="box">2B</container>
+                     <container type="folder">1</container>
+                     <unittitle>Biographical Information</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2B</container>
+                     <container type="folder">2</container>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2B</container>
+                     <container type="folder">3</container>
+                     <unittitle>Birth Control</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2B</container>
+                     <container type="folder">4</container>
+                     <unittitle>Organizations</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Davis, Angela</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2C</container>
+                     <container type="folder">1</container>
+                     <unittitle>Articles, <unitdate>1969-70</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2C</container>
+                     <container type="folder">2</container>
+                     <unittitle>Miscellaneous printed material <unitdate>1970-71, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2C</container>
+                     <container type="folder">3</container>
+                     <unittitle>National Committee to Free Angela Davis; Frameup, <unitdate>1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2C</container>
+                     <container type="folder">4</container>
+                     <unittitle>National United Committee to Free Angela Davis: Statements, newsletters, printed material, <unitdate>1970-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2C</container>
+                     <container type="folder">5</container>
+                     <unittitle>New York Committee to Free Angela Davis, <unitdate>1970-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2C</container>
+                     <container type="folder">6</container>
+                     <unittitle>Pamphlets</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2C</container>
+                     <container type="folder">7</container>
+                     <unittitle>Political cartoons</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2D</container>
+                     <container type="folder">1-8</container>
+                     <unittitle>Clippings, <unitdate>1969-76, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">1</container>
+                  <unittitle>Daly, Mary</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">2</container>
+                  <unittitle>Daniel, Bebe</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">3</container>
+                  <unittitle>D'Arusmont, Francess Wright</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">4</container>
+                  <unittitle>Daw, Majorie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">5</container>
+                  <unittitle>Deland, Margaret</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">6</container>
+                  <unittitle>Deloria, Ella C.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">7</container>
+                  <unittitle>Dickey, Sarah A.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">8</container>
+                  <unittitle>Dietrich, Irene E.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">9</container>
+                  <unittitle>Denton, Elizabeth H. Foote</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">10</container>
+                  <unittitle>Drysdale, Robert and Bessie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">11</container>
+                  <unittitle>Dustan, Hannah</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">12</container>
+                  <unittitle>Ferguson, Miriam ("Ma")</unittitle>
+               </did>
+            </c02>
+	    <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">12aa</container>
+                  <unittitle>Fitzgerald, Zelda and Scottie</unittitle>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">12a</container>
+                  <unittitle>Flexner, Eleanor</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">13</container>
+                  <unittitle>Fox, Ruth May</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">14</container>
+                  <unittitle>Fransisco, Ethel B.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">1</container>
+                  <unittitle>Garfield, Eleanor Borton</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">2</container>
+                  <unittitle>Garfield, Lucretia Rudolph</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">3</container>
+                  <unittitle>Gaylord, Katherine</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">4</container>
+                  <unittitle>George, Zelma Watson</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">5</container>
+                  <unittitle>Gish, Dorothy</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">6</container>
+                  <unittitle>Grant, Fidelia</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">7</container>
+                  <unittitle>Green, Ann Jeanette</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">8</container>
+                  <unittitle>Greenbie, Marjoire Barstow</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">9</container>
+                  <unittitle>Griffin, Coriane</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">10</container>
+                  <unittitle>Gundrada de Warenne</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">11</container>
+                  <unittitle>Harding, Florence Kling, <unitdate>1860-1925</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">12</container>
+                  <unittitle>Harris, Erna P.: Journalist, political activist, <unitdate>1986-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">13</container>
+                  <unittitle>Holmes, Julia Archibald</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">14</container>
+                  <unittitle>Hooker, Isabella Beecher</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">15</container>
+                  <unittitle>Howe, Julia Ward</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">16</container>
+                  <unittitle>Hutchinson, Anne</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">17</container>
+                  <unittitle>Hyman, Libbie Henrietta</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">18</container>
+                  <unittitle>Ingersoll, Marion Crary</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">19</container>
+                  <unittitle>Inglis, Agnes Anne</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">20</container>
+                  <unittitle>Jarvis, Anna Bailey</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">21</container>
+                  <unittitle>Jekyll, Gertrude</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">22</container>
+                  <unittitle>Jones, Mary Harris</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">23</container>
+                  <unittitle>Karsten, Eleannor Daggett</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">24</container>
+                  <unittitle>Kasson, Maria</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">25</container>
+                  <unittitle>Kato, Shidzue</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">26</container>
+                  <unittitle>Kaufman, Shirley</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">27</container>
+                  <unittitle>Kayden, Sandra</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">28</container>
+                  <unittitle>Keller, Helen</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">1</container>
+                  <unittitle>Kennedy, Florynce</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">2</container>
+                  <unittitle>Knowlton, Charles</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">3</container>
+                  <unittitle>La Marr, Barbara</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">4</container>
+                  <unittitle>Laughlin, Gail</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">5</container>
+                  <unittitle>Lee, Lela</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">6</container>
+                  <unittitle>Leiser, Clara</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">7</container>
+                  <unittitle>Little, Joan</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">8</container>
+                  <unittitle>Livermore, Mary Ashton Rice</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">9</container>
+                  <unittitle>Longworth, Alice (Roosevelt)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">10</container>
+                  <unittitle>Lord-Heinstein, Lucile</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lowell, Josephine Shaw</unittitle>
+              <note><p><ref target="list-serBKS">[see Books on Shelf]</ref></p></note>
+		</did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">11</container>
+                  <unittitle>Lumbard, Elizabeth T.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">12</container>
+                  <unittitle>Luscomb, Florence H.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">13</container>
+                  <unittitle>Luxemburg, Rosa</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">14</container>
+                  <unittitle>Lyon, Ben</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">15</container>
+                  <unittitle>McAvoy, May</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">16</container>
+                  <unittitle>Marie Antoinette, Queen Consort of Louis XVI</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">17</container>
+                  <unittitle>Marion, Kitty</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">18</container>
+                  <unittitle>Mead, Lucia Ames</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">19</container>
+                  <unittitle>Mead, Margaret</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">20</container>
+                  <unittitle>Mills, Harriet May</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">21</container>
+                  <unittitle>Milton, Mary Powell</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">22</container>
+                  <unittitle>Morgan, Agnes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">23</container>
+                  <unittitle>Montagu, Elizabeth</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">24</container>
+                  <unittitle>Moore, Sarah: poem and lock of hair, <unitdate>1841</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">25</container>
+                  <unittitle>Murray, Mae</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">26</container>
+                  <unittitle>Murray, Pauli</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4A</container>
+                  <container type="folder">27</container>
+                  <unittitle>Myers, Carmel</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">1</container>
+                  <unittitle>Nation, Carry Amelia (Moore)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Nickerson, Edith Child</unittitle>
+		<note><p><ref target="list-serBKS">[See Books on Shelf]</ref></p></note>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">2</container>
+                  <unittitle>Norrie, Margaret</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">3</container>
+                  <unittitle>Parmele, Mary Hutchinson: Journal (unpublished), <unitdate>1782-84 </unitdate> [see also note in finding aid file]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Patten, Ruth</unittitle>
+              <note><p><ref target="list-serBKS">[see Books on Shelf]</ref></p></note>
+		</did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">4</container>
+                  <unittitle>Pickford, Mary</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">5</container>
+                  <unittitle>Pinkham, Lydia Estes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">6</container>
+                  <unittitle>Pollard, Marie Antoinette</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Posner, Henriette</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">7</container>
+                     <unittitle>Correspondence from her, <unitdate>1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">8</container>
+                     <unittitle>Correspondence to her from John Haynes Holmes <unitdate>1933-56</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">9</container>
+                     <unittitle>Correspondence to her from Orlo Price, <unitdate>1933</unitdate>; David Phys Williams, <unitdate>1953-54</unitdate>; and Barbara Young, <unitdate>1933</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">10</container>
+                  <unittitle>Prevost, Marie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">11</container>
+                  <unittitle>Pringle, Aileen</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">12</container>
+                  <unittitle>Pringle, Julia</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">13</container>
+                  <unittitle>Ralston, Esther</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rama Rau, Dhanvanthi [see separate box]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">14</container>
+                  <unittitle>Rhoudda, Viscountess</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ripley, Mrs. (Samuel)</unittitle>
+		<note><p><ref target="list-serBKS">[See Books on Shelf]</ref></p></note>
+               </did>
+            </c02>
+
+
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">15</container>
+                  <unittitle>Robinson, Helen Josephy</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">16</container>
+                  <unittitle>Roland, Ruth</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">17</container>
+                  <unittitle>Roosevelt, Edith Kermit</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Roosevelt, Eleanor [see separate box]</unittitle>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">5A</container>
+                  <unittitle>Rama Rau, Dhanvanthi: An Inheritance (manuscript)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5b</container>
+
+                  <unittitle>Roosevelt, Eleanor: correspondence, reports, articles, books, pamphlets, <unitdate>1924-73</unitdate>	[unprocessed --see separate list]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Russell, E.S.</unittitle>
+		<note><p><ref target="list-serBKS">[See Books on Shelf]</ref></p></note>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">1</container>
+                  <unittitle>Salmon, Lucy Maynard</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">2</container>
+                  <unittitle>Sanville, Florence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">3</container>
+                  <unittitle>Sayre, Ruth Buxton</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">4</container>
+                  <unittitle>Scattergood, Margaret</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">5</container>
+                  <unittitle>Scranton, Katherine M. Smith</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">6</container>
+                  <unittitle>Skeffington, Hanna Sheehy</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">7</container>
+                  <unittitle>Silkwood, Karen</unittitle>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <unittitle>Slocum, Frances</unittitle>
+		<note><p><ref target="list-serBKS">[See Books on Shelf]</ref></p></note>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">8</container>
+                  <unittitle>Smith, Amy Grinnell</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">9</container>
+                  <unittitle>Smith, Lydia A.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">10</container>
+                  <unittitle>Smith, Mary Byers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">11</container>
+                  <unittitle>Strauss, Anna Lord</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">12</container>
+                  <unittitle>Stokes, Rose Pastor</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">13</container>
+                  <unittitle>Sullivan, (Macy) Anne</unittitle>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <unittitle>Sumter, Natalie</unittitle>
+		<note><p><ref target="list-serBKS">[See Books on Shelf]</ref></p></note>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">14</container>
+                  <unittitle>Swanson, Gloria</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">15</container>
+                  <unittitle>Sweet, Blanche</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">1</container>
+                  <unittitle>Talmadye, Constance</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tappan, Sarah</unittitle>
+		<note><p><ref target="list-serBKS">[See Books on Shelf]</ref></p></note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">2</container>
+                  <unittitle>Thoburn, Isabella</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">3</container>
+                  <unittitle>Thompson, Betty</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">4</container>
+                  <unittitle>Vickery, Alice</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">5</container>
+                  <unittitle>Votey, Constance</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">6</container>
+                  <unittitle>Warren, Cornelia</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">7</container>
+                  <unittitle>Webster, Elizabeth H.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">8</container>
+                  <unittitle>Wesselhoeft, Ferdinanda Emilie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">9</container>
+                  <unittitle>Whitton Collection</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">10</container>
+                  <unittitle>Willard, Harriet Jane</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">11</container>
+                  <unittitle>Williams, Fannie Barrier</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">12</container>
+                  <unittitle>Willmarth, Mary Howes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">13</container>
+                  <unittitle>Wills, Frances</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">14</container>
+                  <unittitle>Wilson, Elizabeth Millar</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">15</container>
+                  <unittitle>Wilson, Lois</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">16</container>
+                  <unittitle>Winslow, Anna Green</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">17</container>
+                  <unittitle>Windsor, Wallis Warfield</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Woodhull, Victoria Clafin</unittitle>
+		<note><p><ref target="list-serBKS">[See also Books on Shelf]</ref></p></note>
+               </did>
+              <c03>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">18</container>
+                  <unittitle>General</unittitle>
+		</did>
+              </c03>
+              <c03>
+               <did>
+                  <container type="box">7</container>
+                  <container type="folder">18b</container>
+                  <unittitle>"Humanitarian Money: The Unsolved Riddle," by Victoria Woodhull, 1892</unittitle>
+               </did>
+              </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Yaggy, Laura Reed</unittitle>
+		<note><p><ref target="list-serOV">[See 
+Oversize material]</ref></p></note>
+               </did>
+            </c02>
+
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. COLLECTED BIOGRAPHIES AND BIBLIOGRAPHIES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">1</container>
+                  <unittitle>Collected biographies</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">2</container>
+                  <unittitle>Collected biographies: clippings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">3</container>
+                  <unittitle>Living daughters of U.S. Presidents, <unitdate>1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <container type="folder">4</container>
+                  <unittitle>Bibliographies</unittitle>
+               </did>
+            </c02>
+         </c01>
+
+
+         <c01 level="series" id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Yaggy, Laura Reed: photocopies of biographical sketch, photographs, correspondence and clippings (spiral bound), <unitdate>circa 1901-84</unitdate></unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Victoria Woodhull: <title render="italic">Champion of Humanity</title>, <unitdate>May 2 and 16, 1874</unitdate></unittitle>
+               </did>
+            </c02>
+
+         </c01>
+
+         <c01 level="series" id="list-serBKS">
+            <did>
+               <unittitle>BOOKS ON SHELF</unittitle>
+               <note>
+                  <p>[Note: additional published biographies are in the Browsing collection in SSC/CA Reading Room and the Staff Library-listed in card catalog]</p>
+               </note>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>A Memoir of Miss Hannah Adams, Hannah Adams</title>, <unitdate>1832</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Mrs. Louise E. Bettons</title>, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>A Military Genius: Life of Anna Ella Carrol</title>, Sarah Ellen Blackwell, <unitdate>1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>A Review of Pierce's Administration</title>, Anna Ella Carroll, <unitdate>1856</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>The Union of the States</title>, Anna Ella Carroll, <unitdate>1856</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Horse Sense</title>, Ethel Clyde (2 copies), <unitdate>1969 </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>What About You?</title>, Theodore Schroeder, edited with introduction by Ethel Clyde, <unitdate>1951</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Rachel Dumont; A Brave Little Maid Revolution</title>, Mary Westbrook, <unitdate>1884</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>The Philanthropic Work of Josephine Shaw Lowell</title>, William R. Stewart, <unitdate>1911</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Once Upon a Time and To-day</title>, Mand Nathan, <unitdate>1933</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Grace and Remembrance: My Grandmother Edith Child Nickerson</title>, Nancy Child Perry, <unitdate>1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Memoirs of Mrs. Ruth Patten</title>, William Patten, <unitdate>1834</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Mrs. Samuel Ripley</title>, R.W. Emerson, <unitdate>1877</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Seasons of a Woman's Life</title>, Alice S. Rossi, <unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>The Ever-Widening Circle</title>, E.S. Russell, <unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Frances Slocum of Miami Lodge</title>, Joseph Allen Minturn, <unitdate>1928</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>The Transatlantic Smiths</title>, Robert Allerton Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Fifteen Letters of Nathalie Sumter</title>, introduction and notations by Mary Virginia Saunders White, <unitdate>1942</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Memoirs of Mrs. Sarah Tappan</title>, <unitdate>1834</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Love and Money: Grandmothers' Strategies with Spouses and Bosses</title>, edited by Terisa E. Turner (Umass Amherst Women's Studies Dept.), <unitdate>1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>The Queens of American Society</title>, Mrs. Ellet, <unitdate>1887</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>American Lady of the Manor, Bredon's Norton: The Later Life of Victoria Woodhull Martin, 1901-1927</title>, Owen Stinchcombe, <unitdate>2000</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>The Human Body the Temple of God: or, The Philosophy of Sociology</title>, by Victoria Claflin Woodhull (Mrs. John Biddulph Martin) and Tennessee C. Claflin (Lady Cook), <unitdate>1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

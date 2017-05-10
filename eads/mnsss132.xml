@@ -1,0 +1,577 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss132.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss132</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Ruth Lois Hill Papers, 1952-1979
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-07-01</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss132 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Ruth Lois Hill Papers, 1952-1979
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 234
+      </num>
+         <date>1990
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Hill, Ruth Lois, 1906-</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Ruth Lois Hill Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1952-1979</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1952-1959</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 234</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">2 boxes</extent>
+            <extent encodinganalog="300$a">(1 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">YWCA overseas secretary and YWCA executive. The major portion of the collection focuses on Hill's service with the Young Women's Christian Association (YWCA) in Liberia, including detailed letters to her family; correspondence with YWCA officials; reports on her activities in Liberia; plus printed material, memorabilia, postcards and photographs documenting Liberia and YWCA activities there.</abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist-chron">
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date>1906</date>
+               <event>Born August 22, Norfolk, Massachusetts</event>
+            </chronitem>
+            <chronitem>
+               <date>1925-29</date>
+               <event>Boston University, Bachelor of Arts in Social Science, active in student YWCA</event>
+            </chronitem>
+            <chronitem>
+               <date>1929</date>
+               <event>YWCA summer training school for rural secretaries</event>
+            </chronitem>
+            <chronitem>
+               <date>1929-34</date>
+               <event>YWCA Secretary, Johnstown, Pennsylvania, worked in towns and cities in the area as Business Girls Traveler's Aide</event>
+            </chronitem>
+            <chronitem>
+               <date>1934-37</date>
+               <event>YWCA Group Work Secretary, Brockton, Massachusetts</event>
+            </chronitem>
+            <chronitem>
+               <date>1937-41</date>
+               <event>YWCA General Secretary, Billings, Montana</event>
+            </chronitem>
+            <chronitem>
+               <date>1941-42</date>
+               <event>Administrator, Mission Center Branch YWCA, San Francisco, California</event>
+            </chronitem>
+            <chronitem>
+               <date>1945-71</date>
+               <event>National Board YWCA staff</event>
+            </chronitem>
+            <chronitem>
+               <date>1945-52</date>
+               <event>Community Division Staff, Advisory Secretary to small associations in Washington, Oregon, Idaho, Montana, and Wyoming</event>
+            </chronitem>
+            <chronitem>
+               <date>1952-59</date>
+               <event>International Division Staff as Advisory Secretary to the YWCA of the Republic of Liberia</event>
+            </chronitem>
+            <chronitem>
+               <date>1959-63</date>
+               <event>Eastern Region Staff, New England area, based in New York City</event>
+            </chronitem>
+            <chronitem>
+               <date>1963-65</date>
+               <event>Correlator, Southern Region, for nine southern states, based in Atlanta, Georgia</event>
+            </chronitem>
+            <chronitem>
+               <date>1965-71</date>
+               <event>Associate Executive Director, Program  National Headquarters, New York City</event>
+            </chronitem>
+            <chronitem>
+               <date>1971</date>
+               <event>Retired</event>
+            </chronitem> 
+	<chronitem>
+               <date>2005</date>
+               <event>Ruth Hill died</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2684.jpg" altrender="right">
+<daodesc><p>Liberia YWCA staff members: Ruth Hill, <lb />Nancy Martins, and Bea Blanche, Monrovia, 1952</p></daodesc></dao>
+         <p>The Ruth Lois Hill Papers consist of one linear foot of
+    correspondence, reports, memorabilia, printed material, and
+    photographs. The inclusive dates are 1952 to 1979, but the
+    major portion of the material dates from her service with the
+    YWCA in Liberia from 1952 to 1959.</p>
+         <p>The PERSONAL material consists primarily of letters that Hill wrote home to her mother and her sister, Daisy, from Liberia, 1952-59.
+    These are substantive, personal letters describing in detail
+    her life in Liberia and her work with the YWCA. In addition
+    there is a small quantity of incoming letters from friends,
+    1959-65.</p>
+         <p>The PROFESSIONAL series consists of YWCA material
+    contained in three sections: correspondence, reports, and
+    activities. The correspondence consists of letters from I.
+    Beatrice Branch, office secretary, 1954-59; Nancy Randall
+    Martin, Matron, 1959-65; and Clara Davis Brown, National
+    Secretary of the National Board, 1952-65. Also in this
+    section is correspondence with the National Board, 1952-65,
+    which includes Hill's reports to them on her activities in
+    Liberia. The second section consists of reports to the
+    National Board of Directors by the president of the YWCA of
+    Liberia primarily between 1952 and 1962. There are four
+    significant activities included in the third section.
+    Specifically these consist of programs and correspondence
+    related to the United Christian Fellowship Conference,
+    1953-58, including a Study of the Christian Response in
+    Liberia which was part of the Conference in 1957; programs
+    and correspondence from women's rallies held between 1954 and
+    1962; Y-Teen activities in 1956; and correspondence about
+    "Fancy Fairs" sponsored between 1959 and 1962. In addition
+    there are programs and correspondence on the farewell party
+    given for Hill before she left Liberia in 1959 and some
+    miscellaneous program material.</p>
+         <p>The SUBJECTS series contains printed material and
+    postcards saved by Ruth Hill that give a sense of Liberian
+    life in the 1950's.</p>
+         <p>There are 72 photographs in the PHOTOGRAPHS series. There
+    are eight personal photos of Hill and friends. The remainder
+    consists of YWCA staff and activities.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into five series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Personal</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Professional</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Subjects</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Photographs</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to the papers of Ruth Lois Hill. Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
+           </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Ruth Lois Hill Papers, Sophia Smith Collection, SmithCollege, Northampton, Mass.</p>
+         </prefercite>
+	<altformavail id="admin-altform">
+		<head>Additional Formats</head>
+		<p>Selections from the Ruth Lois Hill Papers can be viewed in the Web exhibit	<extref href="http://www.smith.edu/libraries/libs/ssc/ywca-os/ywca-home.html">"An Ever-Widening Circle of Friendship":  YWCA Overseas Secretaries from China to Liberia</extref>.</p>
+	</altformavail>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Ruth Lois Hill donated this collection to the Sophia Smith Collection in 1989.
+          </p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Hill, Ruth
+                        Lois, 1906-</persname>
+         <corpname encodinganalog="610" source="lcnaf">Young Women's
+                        Christian Associations--Liberia--History Young Women's
+                        Christian Association of the U.S.A.--History</corpname>
+         <subject encodinganalog="650" source="lcsh">
+                        Education--Liberia--History--Sources</subject>
+         <geogname encodinganalog="651" source="lcsh">
+                        Liberia--Description and travel--Sources</geogname>
+      </controlaccess>
+      <dsc type="in-depth" id="contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. PERSONAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">1-2</container>
+                     <unittitle>Outgoing to family from Liberia,
+              <unitdate>1952-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3</container>
+                     <unittitle>Incoming from friends,
+              <unitdate>1959-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>
+              Clippings, articles, citations
+              <unitdate>1954-59</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>
+                        <ref target="list-serOV">[See also Oversize Materials]</ref>
+                     </p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. PROFESSIONAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>I. Beatrice Branch,
+              <unitdate>1954-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>Nancy Randall Martin
+              <unitdate>1959-65</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="list-ser4">[See also SERIES IV. PHOTOGRAPHS]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>Clara Davies Brown,
+              <unitdate>1960-62</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8-10</container>
+                     <unittitle>National Board,
+              <unitdate>1952-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Reports of the President of the YWCA of
+            Liberia,
+            <unitdate>1952-62, 1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Activities</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>
+                United Christian Fellowship Conference, Study of Christian Response in Liberia: programs, reports, correspondence ,
+                <unitdate>1953-58</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="list-ser4">[See also SERIES IV. PHOTOGRAPHS]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">13</container>
+                     <unittitle>
+                Women's rallies: programs, correspondence
+                <unitdate>1954-62</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="list-ser4">[See also SERIES IV. PHOTOGRAPHS]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">14</container>
+                     <unittitle>
+                Y-Teens: notes, correspondence, publicity,
+                <unitdate>1956</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="list-ser4">[See also SERIES IV. PHOTOGRAPHS]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">15</container>
+                     <unittitle>Farewell reception for Ruth Hill:
+              programs, correspondence,
+              <unitdate>1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">16</container>
+                     <unittitle>Fancy Fair: correspondence,
+              <unitdate>1959-62</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">17</container>
+                     <unittitle>Miscellaneous activities: printed
+              material,
+              <unitdate>1957-58, 1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. SUBJECTS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">18</container>
+                  <unittitle>Literacy in Liberia: printed material,
+            <unitdate>1953-56</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">19</container>
+                  <unittitle>William V.S. Tubman: printed material,
+            <unitdate>1955-56</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">20</container>
+                  <unittitle>Liberia: printed material, unused postcards,
+            <unitdate>1952-56</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. PHOTOGRAPHS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Personal</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">21</container>
+                     <unittitle>Ruth Lois Hill (4),
+              <unitdate>1953-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">22</container>
+                     <unittitle>Friends (4),
+              <unitdate>1950-60</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Professional</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">23</container>
+                     <unittitle>Staff, Board of Directors, and
+              miscellaneous activities (10),
+              <unitdate>1949-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">24</container>
+                     <unittitle>Christmas party (14),
+              <unitdate>1952-53,</unitdate>
+              n.d</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">25</container>
+                     <unittitle>United Christian Fellowship Conference
+              (5),
+              <unitdate>1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">26</container>
+                     <unittitle>Women's Rallies (8),
+              <unitdate>1954-56</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">27</container>
+                     <unittitle>Y-Teens (3),
+              <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">28</container>
+                  <unittitle>YWCA/YMCA activities (19),
+            <unitdate>1950s</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">29</container>
+                     <unittitle>Miscellaneous (5),
+              <unitdate>1950s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Citation: Knight Official of the
+          Liberian Humane Order of African Redemption
+          <unitdate>June, 1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

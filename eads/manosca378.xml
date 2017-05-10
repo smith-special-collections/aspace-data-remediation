@@ -1,0 +1,184 @@
+<ead>
+ <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca378.xml//EN" countrycode="us" mainagencycode="manosca">manosca378</eadid>
+	<filedesc>
+	  <titlestmt>
+		<titleproper encodinganalog="245$a">Florence Louise Barrows Papers, 1907 - 2006</titleproper>
+		<subtitle>Finding Aid</subtitle>
+		<author encodinganalog="245$c">Finding aid prepared by Madison White.</author>
+		 
+	  </titlestmt>
+	  <publicationstmt>
+		<publisher encodinganalog="260$b">Smith College Archives</publisher>
+		<address>
+		  <addressline>Northampton, MA</addressline>
+		  <addressline></addressline>
+		</address>
+		<date encodinganalog="260$c" normal="2014">2014</date>
+	  </publicationstmt>
+	</filedesc>
+	<profiledesc>
+	  <creation encodinganalog="500">Finding aid encoded in NoteTab Pro. Encoded by Elizabeth Carron. 
+		<date normal="2014-12-02">2014-12-02</date>
+	  </creation>
+	  <langusage>Finding aid written in
+		<language encodinganalog="546" langcode="eng" scriptcode="latn">English</language>
+	  </langusage>
+	</profiledesc>
+  </eadheader>
+
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did id="main">
+	<head>Collection Overview</head>
+	<origination label="Creator:">
+		<persname source="lcnaf" encodinganalog="100 1">Barrows, Florence Louise</persname>
+	</origination>
+	<unittitle label="Title:" encodinganalog="245$a">Florence Louise Barrows Papers</unittitle>
+	<unitdate type="inclusive" label="Dates:">1888 - 1980</unitdate>
+	<unitdate type="bulk" encodinganalog="245$g">1907 - 2006</unitdate>
+	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+	
+	<physdesc label="Quantity:">
+		<extent encodinganalog="300$a">2 boxes</extent>
+		<extent encodinganalog="300$a">(.75  linear ft.)</extent>
+	</physdesc>
+	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<repository label="Location:">
+		<corpname>Smith College Archives</corpname>
+		<address>
+		  <addressline>Northampton, MA</addressline>
+		  <addressline></addressline>
+		</address>
+	</repository>
+	<abstract encodinganalog="520$a" label="Abstract:">
+		Contains photograph albums, a memorabilia book, photographs, newspaper clippings, questionnaires, published articles, and correspondence related to the student and professional life of Florence Louise Barrows, Class of 1911.
+	</abstract>
+    </did>
+
+
+<!-- Enter collection level metadata -->
+    <bioghist id="bioghist">
+	<head>Biographical Note</head>
+	<p>Florence Louise Barrows was born in Providence in 1888 to Ella Corbin and Arthur Barrows, a high school teacher. She spent most of her childhood with her maternal grandparents in Union, Connecticut. After graduating from Stafford Springs High School, she entered Smith College, graduating in 1911. Barrows worked as a high school teacher in New Jersey and Connecticut before joining the Connecticut College for Women's Botany department. Between 1919-1932, she collaborated on several projects including the development of the college's famous Arboretum.  She earned her Master of Botany at the Connecticut Agricultural College in 1927 before completing her PhD at Columbia University in plant genetics. Barrows went on to work for various labs doing work in genetics, including the Carnegie Institute in Cold Springs Harbor, Long Island, the Boyce Thompson Institute, and Wheaton College.  In 1953, Barrows joined Smith College as a research associate in genetics. During her career, she published several articles, including Cellulose Membranes from Various Parts of the Plant Kingdom (1939), Propagation of Lycopodium (1935-1936), and Seed Production by Trailing Arbutus (1941). After retiring from Smith is 1956, she returned to Union, Connecticut. She died in 1980 at the age of 92.</p>
+    </bioghist>
+
+    <scopecontent id="scope">
+	<head>Scope and Contents of the Collection</head>
+	<p>The collection contains material related both to Florence Louise Barrows's time as a student including a memorabilia book and photo albums documenting student life at Smith between 1907-1911. Her professional life is documented through correspondence, photographs of her colleagues, a questionnaire from the Smith College News Office, and some of her written work.  The collection also includes a detailed genealogical history of the Barrows family, created by Robert Welt.</p>
+    </scopecontent>
+    <arrangement id="scope-arr">
+	<p>The collection is arranged according to genre and organized into five (5) folders.
+
+</p>
+    </arrangement>
+
+<!-- End collection level metadata -->
+
+
+<!-- Enter administrative information -->
+    <accessrestrict encodinganalog="506" id="admin-access">
+	<p>The records are open for research according to the regulations of the Smith College Archives without any additional restrictions. </p>
+    </accessrestrict>
+    <userestrict encodinganalog="540" id="admin-use">
+	<p>Single photocopies may be made for research purposes.  Permission to publish material from the documents must be requested from the Smith College Archives. Smith College owns copyright to any published material relating to college events and activities. Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright. </p>
+    </userestrict>
+    <prefercite id="admin-cite">
+	<p>Please use the following format when citing materials from this collection:</p>
+	<p>Florence Louise Barrows Papers, Box #669-670, Smith College Archives</p>
+    </prefercite>
+    <acqinfo id="admin-acqinfo">
+	<p>The Florence Louise Barrows papers were donated to the College Archives.</p> 
+    </acqinfo>
+    <processinfo id="admin-process">
+	<p>Processed by Madison White, Class of 2016 and Elizabeth Carron, Archivist</p> 
+    </processinfo>
+
+<!-- End administrative information -->
+
+
+<!-- Enter controlled access terms -->
+    <controlaccess id="subj">
+	<genreform encodinganalog="655" source="aat">genealogies (histories)</genreform> 
+	<genreform encodinganalog="655" source="aat">photograph album</genreform> 
+	<persname encodinganalog="600" source="lcnaf">Barrow, Florence Louise, 1888 - 1980.</persname> 
+	<corpname encodinganalog="610" source="lcsh">Connecticut College for Women--Faculty.</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Connecticut College. Arboretum.</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Smith College-Students-History-Sources</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Smith College-Faculty-Botany.</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Smith College. Class of 1911.</corpname> 
+	<subject encodinganalog="650" source="lcsh">Women in higher education.</subject>
+	<subject encodinganalog="650" source="lcsh">Women in science</subject>
+
+	    </controlaccess>
+<!-- end controlled access terms -->
+
+
+<!-- Enter additional information -->
+    <relatedmaterial id="add-related">
+	<p>Researchers can find additional materials about Florence Barrows at the Linda Lear Center for Special Collections and Archives at Connecticut College. Researchers are encouraged to review the 
+	<extref href="http://collections.conncoll.edu/rg51_arbo/arbo_fa.html">Guide to the Arboretum at Connecticut College Records, 1930-2014</extref> as well as access the online 
+	<extref href="http://digitalcommons.conncoll.edu/arbbulletins/">Arboretum Bulletins</extref>.  </p>
+    </relatedmaterial>
+
+<!-- End additional information -->
+
+
+<!-- Enter Series descriptions -->
+
+<!-- End Series descriptions -->
+
+<!-- Insert container list here:-->
+<dsc type="in-depth" id="list-contlist">
+   <c01>
+      <did>
+         <container type="box">1</container>
+         <container type="folder">1</container>
+         <unittitle>Research Associate Genetics Experiment Station
+            <unitdate>1953 - 1956</unitdate>
+         </unittitle>
+      </did>
+   </c01>
+   <c01>
+      <did>
+         <container type="box">1</container>
+         <container type="folder">2</container>
+         <unittitle>Albums
+            <unitdate>1911</unitdate>
+         </unittitle>
+      </did>
+   </c01>
+   <c01>
+      <did>
+         <container type="box">1</container>
+         <container type="folder">3</container>
+         <unittitle>Publications
+            <unitdate>1938 - 1941</unitdate>
+         </unittitle>
+      </did>
+   </c01>
+   <c01>
+      <did>
+         <container type="box">1</container>
+         <container type="folder">4</container>
+         <unittitle>Genealogical Research
+            <unitdate>1988 - 2006</unitdate>
+         </unittitle>
+      </did>
+   </c01>
+   <c01>
+      <did>
+         <container type="box">1</container>
+         <container type="folder">5</container>
+         <unittitle>Memorabilia Book
+            <unitdate>1907 - 1911</unitdate>
+         </unittitle>
+      </did>
+   </c01>
+</dsc>
+
+<!-- End container list -->
+
+  </archdesc>
+</ead>
+
+

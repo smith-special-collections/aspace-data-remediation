@@ -1,0 +1,976 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss144.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss144</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Carrie Chapman Catt Papers, 1880-1958
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Burd Schlessinger.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-07-01</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss144 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Carrie Chapman Catt Papers, 1880-1958
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 31
+      </num>
+         <author encodinganalog="245$c">Burd Schlessinger
+      </author>
+         <date>2001
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Catt, Carrie Chapman, 1859-1947</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Carrie Chapman Catt Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1880-1958</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 31</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">4 boxes</extent>
+            <extent encodinganalog="300$a">(1.75 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Suffragist, president, National American Women Suffrage Association, and pacifist. Papers relate primarily to Catt's public life, primarily her work as president of both the National American Woman Suffrage Association and the International Woman Suffrage Alliance. There is a significant amount of material pertaining to her peace activities. There is also a rich collection of photographs, including many of the Women's Land Army, created in Great Britain during World War II to aid in the war effort.</abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc885.jpg" altrender="right">
+<daodesc><p>"One of longshore girls driving an auto truck."<lb />
+            Photo by Underwood and Underwood, 1917</p></daodesc></dao>
+         <p>Carrie Lane Chapman Catt was born on January 9, 1859 in
+    Ripon, Wisconsin, the second of three children of Lucius Lane
+    and Maria Clinton. When Carrie was seven years old the family
+    moved to Charles City, Iowa, where she spent the rest of her
+    childhood. She taught at a country school until she saved
+    enough money to pay for college, and entered Iowa State
+    College in 1877. In 1880, following her graduation, she
+    studied law before becoming principal of the high school in
+    Mason City, Iowa. She later became the first female
+    superintendent of the district.</p>
+         <p>In 1885, Catt married Leo Chapman, editor-owner of the
+    Mason City Republican, which she helped him manage. Following
+    his death in 1886, she was employed in the newspaper business
+    in San Francisco, where she became increasingly aware of the
+    inequalities facing women in the business and industrial
+    arenas. Leaving San Francisco less than a year later, she
+    returned to Iowa where she began lecturing on the status of
+    women in the United States. Catt was convinced that women's
+    inequality was based on their lack of political power, and
+    she focused her efforts on women's suffrage. She joined the
+    Iowa Woman Suffrage Association and was elected State
+    Organizer in 1887. In 1890 she was invited to address the
+    convention of the National American Woman Suffrage
+    Association (NAWSA) in Washington, D.C., where she met
+    important suffrage activists, among them Susan B. Anthony,
+    Elizabeth Cady Stanton and Julia Ward Howe. Following the
+    convention, she married George W. Catt, a successful
+    hydraulic engineer. When Susan B. Anthony retired as
+    president of NAWSA in 1900, she named Catt her successor.
+    Catt used her position to forge new alliances with women
+    across the world, calling an international suffrage
+    conference in 1902. The conference was attended by
+    representatives from nine countries and led to the founding
+    of the International Woman Suffrage Alliance. By the time
+    Catt retired as president of NAWSA twenty-one years later,
+    forty countries had branches of the International Woman
+    Suffrage Alliance and twenty of these had enfranchised women
+    fully.</p>
+         <p>After 1904, when she was forced to step down from the
+    NAWSA presidency because of her husband's poor health, Catt
+    turned her attention to achieving suffrage in New York State,
+    which she felt was critical to passage of a federal suffrage
+    amendment. Due largely to her efforts, which included
+    consolidating disparate city groups into the Woman Suffrage
+    Party (1910), and organizing and chairing the Empire State
+    Campaign (1913-14), in 1917 the New York State Legislature
+    finally passed a referendum granting women the right to
+    vote.</p>
+         <p>From this point, the struggle for national women's
+    suffrage became more intense and Catt was an increasingly
+    charismatic symbol of the movement. During World War One she
+    was asked to take on the presidency of NAWSA once again, in
+    part to facilitate keeping the idea of women's suffrage in
+    the forefront of American politics. As a member of the
+    Woman's Division of the Council for National Defense, she was
+    able to push Congress to submit the Nineteenth Amendment in
+    June of 1919, and on August 26, 1920, the federal amendment
+    granting women's suffrage was signed into law. After suffrage
+    was won, Catt founded the National League of Women Voters to
+    help newly-enfranchised women navigate the election
+    process.</p>
+         <p>Throughout the rest of her life, Catt worked tirelessly
+    for pacifism, disarmament, and the peaceful settlement of
+    international disputes, most notably by attempting to create
+    a common international program of peace. In 1925, she invited
+    international women's organizations to work together to form
+    a disarmament program at the First Conference on the Cause
+    and Cure of War in Washington, D.C. At this conference, a
+    permanent Committee on the Cause and Cure of War was formed,
+    comprised of the chief officers of the member organizations.
+    Catt served as chairman until 1933, when she retired. The
+    committee specialized in "marathon round tables" for the
+    study of international conflicts.</p>
+         <p>In addition to being a prolific writer of editorials,
+    speeches and pamphlets on the women's movement, she
+    collaborated with Nettie Rogers Shuler in writing Woman
+    Suffrage and Politics (1923) and on her own wrote a book, Why
+    Wars Must Cease (1935).</p>
+         <p>Catt was given honorary doctorates from the University of
+    Wyoming, Iowa State College, Smith College, and Moravian
+    College for Women. In 1936, during her fiftieth anniversary
+    celebration as a suffragist and pacifist, she was escorted to
+    the White House by the presidents of several national women's
+    organizations where President and Mrs. Roosevelt received
+    her.</p>
+         <p>In 1940, Catt organized the last event of her career, the
+    Woman's Centennial Conference in New York, which celebrated
+    the first one hundred years of the feminist movement in the
+    United States. Carrie Chapman Catt died at home in New
+    Rochelle, New York on March 9, 1947 at age 88. </p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Carrie Chapman Catt Papers date from 1880 to 1958 and
+    consist of 1.75 linear feet of material relating primarily to
+    her public life. Types of material include correspondence,
+    speeches, pamphlets, photographs, reports, journal and
+    newspaper articles, and political cartoons. The bulk of the
+    papers surround Catt's work as president of both the National
+    American Woman Suffrage Association and the International
+    Woman Suffrage Alliance. There is also a significant amount
+    of material pertaining to her peace activities, including the
+    National Committee on the Cause and Cure of War. Major topics
+    include federal- and state-level suffrage for women, the
+    peaceful settlement of international disputes, and building
+    an international network promoting women's equality. The
+    collection is compelling as a record of the lengthy struggle
+    for women's suffrage in the United States, and the powerful
+    network of women's organizations that sprang out of that
+    struggle. Catt published many short pamphlets describing her
+    vision of feminism and women's suffrage that may be of
+    particular interest to scholars. The papers also contain a
+    rich collection of photographs, including many of the Women's
+    Land Army, created in Great Britain during World War II to
+    aid in the war effort. Most women lived at home and were
+    transported each day to farms, where they hoed, weeded,
+    thinned, and harvested crops of all kinds; many supervised
+    youth platoons, especially teachers out of school for the
+    summer. A few worked year round, especially on poultry and
+    dairy farms, while others worked in canneries or were leaders
+    for recruiting other women.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into four series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical Material</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Writings</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Subject Files</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner of this collection is unknown, though it is likely that the unpublished writings of Carrie Chapman Catt are in public domain. The Library of Congress, which holds the bulk of the Catt Papers states that "copyright in the unpublished writings of Carrie Chapman Catt in these and in other collections of papers in the custody of the Library of Congress has been dedicated to the public." Copyright to works by others in this collection may be owned by their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. 
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Carrie Chapman Catt Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The majority of the Carrie Chapman Catt Papers were donated in 1947 by her friend and biographer, Mary Grey Peck.  Additional donations were later received from Ruhe V. Linn, Catt's niece, in 1969; Louisa K. Fast, in 1963; and the American Jewish Historical Society, in 1977.
+          </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Reprocessed by Burd Schlessinger, 2002.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Anthony, Susan
+                        B. (Susan Brownell), 1820-1906</persname>
+         <persname encodinganalog="600" source="lcnaf">Catt, Carrie
+                        Chapman, 1859-1947</persname>
+         <persname encodinganalog="600" source="lcnaf">Wilson,
+                        Woodrow, 1856-1924--Correspondence</persname>
+         <corpname encodinganalog="610" source="lcnaf">International
+                        Woman Suffrage Alliance</corpname>
+         <corpname encodinganalog="610" source="lcnaf">National
+                        American Woman Suffrage
+                        Association--History--Sources</corpname>
+         <corpname encodinganalog="610" source="lcnaf">National
+                        Committee on the Cause and Cure of War (U.S.)</corpname>
+         <subject encodinganalog="650" source="lcsh">Peace
+                        movements--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women and
+                        peace--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">
+                        Women--Suffrage--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">
+                        Women--Suffrage--New York (State)--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women's Land Army
+                        (Great Britain)--Photographs</subject>
+         <subject encodinganalog="650" source="lcsh">Women's
+                        rights--History--20th century--Sources</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>The bulk of Catt's papers are in the Library of Congress. There is related material in the <extref href="mnsss124_main.html">Josephine Schain Papers</extref> in the Sophia Smith Collection at Smith College; the Rare Books and Manuscripts Department of the New York Public Library; the Woman's Rights Collection in the
+        Schlesinger Library at Harvard University; the Bryn Mawr College Library; the Northwestern University Library; the National Woman Suffrage Collection at the Library of Congress; and the Susan B. Anthony House in Rochester, New York. The New York Public Library has an incomplete set of stenographic reports on the annual meetings of the Conference on the Cause and Cure of War, 1925-33.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <!-- Begin series descriptions -->
+<dsc type="analyticover">
+    <c01 level="series">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1880-1958)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.75 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series includes several biographical sketches as
+          well as clippings about Catt's political activities,
+          including women's suffrage and pacifism; her obituaries;
+          information regarding the Carrie Chapman Catt memorial
+          fund; and personal photographs.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE  <unitdate>(1892-1947)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Correspondence comprises roughly a quarter of the
+          collection. Of particular interest to scholars may be
+          Catt's involvement in political machinations surrounding
+          the naming of a new police chief in Washington, D.C in
+          1919. In addition, there is correspondence with state
+          senators and representatives regarding support for a
+          federal amendment granting women's suffrage; with
+          President Woodrow Wilson; with colleagues within the
+          National American Woman Suffrage Association; and
+          regarding her peace activism. This series offers insight
+          into the skilled political organization that was
+          required, and achieved in large measure by Catt, in order
+          for the women's suffrage movement to be successful.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES III. WRITINGS <unitdate>(1902-44)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Catt's writings are extensive and include pamphlets,
+          articles, brochures and speeches written on behalf of the
+          National American Woman Suffrage Movement, the National
+          League of Women Voters, the International Alliance of
+          Women for Suffrage and Equal Citizenship, and the
+          National Committee on the Cause and Cure of War. Also
+          included are speeches promoting the adoption of a federal
+          women's suffrage amendment; memoranda regarding charges
+          that Catt had "communist sympathies"; and the Carrie
+          Chapman Catt Citizenship Course, a year-long segment
+          appearing in The Woman Citizen, designed to educate women
+          voters.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES IV. SUBJECT FILES <unitdate>(1914-34)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>These files are comprised of a collection of
+          photographs documenting the Women's Land Army, a
+          collection of suffrage cartoons, and miscellaneous
+          writings and reports on subjects and activities
+          pertaining to women's suffrage. The photographs are
+          arranged in two folders with copies appearing first and
+          originals in the second folder. Similarly, the cartoons
+          are arranged in five folders; dated copies appear first,
+          followed by dated originals. Undated copies are arranged
+          in alphabetical order by title or by first word of text.
+          Writings include the Report of the Eighth Conference for
+          the International Woman Suffrage Alliance; miscellaneous
+          writings on women's suffrage, including an article
+          appearing in The Woman Citizen; and a program of the
+          Women's Centennial Congress.</p>
+            </scopecontent>
+  </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1880-1958)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Biographical sketch: articles and clippings,
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Obituaries,
+            <unitdate>1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clippings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3</container>
+                     <unittitle>"King business,"
+              <unitdate>1918</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>Peace activism,
+              <unitdate>1918-45, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>Women's suffrage,
+              <unitdate>1915-34, n.d.</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="list-serOV">[see also Oversize materials]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Memorials,
+            <unitdate>1941-58, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Memorial Fund,
+            <unitdate>1948-58, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Personal photographs</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8</container>
+                     <unittitle>Photocopies and duplicates,
+              <unitdate>1890-1938, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">9</container>
+                     <unittitle>Originals,
+              <unitdate>1880-1938, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Book: Carrie Chapman Catt by Mary Grey Peck,
+            <unitdate>1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>Bookplate,
+              <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>Menu,
+              <unitdate>1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>Clippings and poster,
+              <unitdate>1923, 1939, n.d.</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="list-serOV">[see also Oversize materials]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE  <unitdate>(1892-1947)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Outgoing</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">1</container>
+                     <unittitle>A-Z,
+              <unitdate>1892-1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">2</container>
+                     <unittitle>Brown, Gertrude F.,
+              <unitdate>1916-46, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">3</container>
+                     <unittitle>Fast, Louise K.,
+              <unitdate>1934-43</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">4</container>
+                     <unittitle>National American Woman Suffrage
+              Association,
+              <unitdate>1920-47</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">5</container>
+                     <unittitle>Park, Maud Wood,
+              <unitdate>1918-44</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">6</container>
+                     <unittitle>Wilson, Woodrow and Cabinet members,
+              <unitdate>1919-20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">7</container>
+                     <unittitle>Shuler, Marjorie,
+              <unitdate>1918-20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">8</container>
+                     <unittitle>U.S. Delegates to U.N. Conference,
+              <unitdate>1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">9</container>
+                     <unittitle>U.S. Senators and Representatives,
+              <unitdate>1918-20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Incoming</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">10</container>
+                     <unittitle>A-Z,
+              <unitdate>1918-47, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">11</container>
+                     <unittitle>Park, Maud Wood,
+              <unitdate>1918</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">12</container>
+                     <unittitle>Reilly, Caroline,
+              <unitdate>1919</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">13</container>
+                     <unittitle>Shuler, Marjorie,
+              <unitdate>1918-19, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">14</container>
+                     <unittitle>White, Ruth,
+              <unitdate>1918, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">15</container>
+                     <unittitle>Wilson, Woodrow,
+              <unitdate>1917-20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">16</container>
+                     <unittitle>U.S. Senators and Representatives,
+              <unitdate>1918-19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">17</container>
+                     <unittitle>Willard, Mabel,
+              <unitdate>1918-19, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">18</container>
+                  <unittitle>Telegrams to and from Catt,
+            <unitdate>1918-20</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">19</container>
+                  <unittitle>Miscellaneous,
+            <unitdate>1918-41</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. WRITINGS <unitdate>(1902-44)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Book: Woman Suffrage and Politics, by Carrie
+            Chapman Catt and Nettie Rogers Shuler,
+            <unitdate>1926</unitdate>
+                  </unittitle>
+                  <note>
+                     <p> [See Box 1]</p>
+                  </note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">1-2</container>
+                  <unittitle>Pamphlets and articles: NAWSA and others,
+            <unitdate>1908-43, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Speeches</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>General,
+              <unitdate>1921-44, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">5-6</container>
+                     <unittitle>"The Cause and Cure of War,"
+              <unitdate>1921-39, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">7</container>
+                     <unittitle>Federal Amendment for Women's Suffrage,
+              <unitdate>1904-19, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">8</container>
+                     <unittitle>League of Women Voters,
+              <unitdate>1920-30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">9</container>
+                     <unittitle>NAWSA,
+              <unitdate>1902-19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">10</container>
+                     <unittitle>International Woman Suffrage Alliance,
+              <unitdate>1908-23</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">11</container>
+                  <unittitle>Confidential memos re: charges of communist
+            sympathies,
+            <unitdate>1924</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">12-19</container>
+                  <unittitle>Carrie Chapman Catt Citizenship Course, The
+            Woman Citizen,
+            <unitdate>3 Apr 1920-23 Apr 1921</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. SUBJECT FILES <unitdate>(1914-34)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Suffrage</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Cartoons</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Photocopies</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">4</container>
+                           <container type="folder">1</container>
+                           <unittitle>
+                              <unitdate>1914-1920</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">4</container>
+                           <container type="folder">2</container>
+                           <unittitle>Undated, A-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Originals</unittitle>
+                        <note>
+                           <p>Please use photocopies.</p>
+                        </note>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">4</container>
+                           <container type="folder">3</container>
+                           <unittitle>
+                              <unitdate>1914-1920</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">4</container>
+                           <container type="folder">4-5</container>
+                           <unittitle>Undated A-Z, untitled</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">6</container>
+                     <unittitle>International Woman Suffrage Alliance:
+              Report of Eighth Congress,
+              <unitdate>1920</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">7</container>
+                     <unittitle>Miscellaneous notes,
+              <unitdate>1917-18, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Women's Land Army: photographs</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">8</container>
+                     <unittitle>Photocopies,
+              <unitdate>1917-18, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">9-9a</container>
+                     <unittitle>Originals,
+              <unitdate>1917-18, n.d.</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>[Please use photocopies]</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">10</container>
+                  <unittitle>Women's Centennial Congress: program,
+            mission, and clippings,
+            <unitdate>1940</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Poster: Omaha League of Women Voters,
+              <unitdate>4 Dec 1923</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Clipping: New York Herald Tribune,
+              <unitdate>15 Jan 1929</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Article: New York Times Magazine,
+              <unitdate> 7 Jun 1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

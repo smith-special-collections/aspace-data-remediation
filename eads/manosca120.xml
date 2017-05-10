@@ -1,0 +1,7458 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca120.xml//EN" countrycode="us" mainagencycode="manosca">manosca120</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>William Allan Neilson Personal Papers, 1852-1946
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Maida Goodwin.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>© 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Eric Cartier.
+<date>2003-06-18</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca120 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>William Allan Neilson Personal Papers, 1852-1946
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 32</num>
+<author>Maida Goodwin
+</author>
+<date>April 1986
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>© 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="collection">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Neilson, William Allan, 1869-1946. </persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">William Allan Neilson Personal Papers</unittitle>
+<unitdate encodinganalog="245$f" type="inclusive">1852-1946</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 32 </unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">47 boxes</extent>
+<extent encodinganalog="300$a">(25 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">The Neilson Personal Papers include extensive family material. His letters to his brother and sisters are particularly valuable. Other letters present Neilson's view of life at Bryn Mawr College under M. Carey Thomas, his experiences tutoring Helen Keller at Radcliffe College, and his first impressions of Smith College. The also collection reflects his strong interest in liberal politics.  Also included are writings of Elisabeth Muser Neilson and the Muser, Neilson and Allan family papers. Material relating to Margaret Farrard Thorp's 1956 biography, <title>Neilson of Smith</title> is included in the collection.  Other materials includes correspondence, manuscripts, press releases, lecture notes, texts of speeches, and photographs. </abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English</language> and 
+<language langcode="ger">German</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist-chron">
+<head>Biographical Note</head>
+<chronlist>
+<chronitem>
+<date>1869</date>
+<event>Born in Doune, Perthshire, Scotland, March 28</event>
+</chronitem>
+<chronitem>
+<date>1882-1886</date>
+<event>Attended Montrose Academy</event>
+</chronitem>
+<chronitem>
+<date>1886-1891</date>
+<event>Studied at the University of Edinburgh, received M.A.</event>
+</chronitem>
+<chronitem>
+<date>1891</date>
+<event>Immigrated with family to Canada</event>
+</chronitem>
+<chronitem>
+<date>1891-1895</date>
+<event>Resident English Master, Upper Canada College, Toronto</event>
+</chronitem>
+<chronitem>
+<date>1895-1898</date>
+<event>Graduate work in English, Harvard University, M.A. (1897), Ph.D. (1898)</event>
+</chronitem>
+<chronitem>
+<date>1898-1901</date>
+<event>Associate Professor of English Literature, Bryn Mawr College</event>
+</chronitem>
+<chronitem>
+<date>1901-1904</date>
+<event>Instructor of English, Harvard University</event>
+</chronitem>
+<chronitem>
+<date>1904-1906</date>
+<event>Professor of English, Columbia University</event>
+</chronitem>
+<chronitem>
+<date>1905</date>
+<event>Became American citizen</event>
+</chronitem>
+<chronitem>
+<date>1906-1917</date>
+<event>Professor of English, Harvard University</event>
+</chronitem>
+<chronitem>
+<date>1906</date>
+<event>Married Elisabeth Muser in Offenburg, Germany, June 25</event>
+</chronitem>
+<chronitem>
+<date>1914-1915</date>
+<event>Exchange Professor, University of Paris</event>
+</chronitem>
+<chronitem>
+<date>1917-1939</date>
+<event>President of Smith College</event>
+</chronitem>
+<chronitem>
+<date>1920-1946</date>
+<eventgrp>
+<event>Trustee, Carnegie Foundation for the Advancement of Education</event>
+<event>Served intermittently on the College Entrance Examination Board</event>
+</eventgrp>
+</chronitem>
+<chronitem>
+<date>1921</date>
+<event>Initiated Special Honors program at Smith College</event>
+</chronitem>
+<chronitem>
+<date>1924</date>
+<event>President, Modern Language Association</event>
+</chronitem>
+<chronitem>
+<date>1924-1945</date>
+<event>Editorial Board of G.C. Merriam and Company</event>
+</chronitem>
+<chronitem>
+<date>1925</date>
+<event>Started Junior Year Abroad program at Smith College</event>
+</chronitem>
+<chronitem>
+<date>1926-1946</date>
+<event>Advisory Council, the Open Road, Inc.</event>
+</chronitem>
+<chronitem>
+<date>1930-1946</date>
+<event>Board of Directors, National Association for the Advancement of Colored People</event>
+</chronitem>
+<chronitem>
+<date>1940-1941</date>
+<event>Board of Directors, National Refugee Service</event>
+</chronitem>
+<chronitem>
+<date>1940-1945</date>
+<event>Chair, Executive Committee, Commission to Study the Organization of Peace</event>
+</chronitem>
+<chronitem>
+<date>1941</date>
+<event>Presided over the International Student Service Summer Student Leadership Institute at Campobello, New Brunswick</event>
+</chronitem>
+<chronitem>
+<date>1942</date>
+<event>Board of Overseers, Harvard University</event>
+</chronitem>
+<chronitem>
+<date>1943</date>
+<event>Chair, </event>
+</chronitem>
+<chronitem>
+<date>1946</date>
+<event>Died in Northampton, Massachusetts, February 13</event>
+</chronitem>
+</chronlist>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>The William Allan Neilson Papers consist of 25 linear feet of correspondence, newspaper clippings, manuscripts, press releases, lecture notes, texts of speeches, photographs, and miscellaneous papers which document Neilson's life and career. While these papers contain material dating from Neilson's years at Smith College (1917-1939), his official correspondence as president of the college is stored separately in the College Archives' holdings of records of the Office of the President.</p>
+<p>The papers document Neilson's personal life with extensive family material. His letters to his brother and sisters are particularly valuable. Among other things these letters present Neilson's view of life at Bryn Mawr College under M. Carey Thomas, his strong opinions on world politics, his experiences tutoring Helen Keller at Radcliffe College, and his first impressions of Smith College. This series of letters is especially strong for the years between Neilson's arrival at Harvard University for graduate study in 1895 and his marriage in 1905. In addition to the Neilson family correspondence there is extensive correspondence between the Neilson and Muser families plus diaries and writings of Elisabeth Muser Neilson, her parents, and her sister. Much of the Muser family material is in German.</p>
+<p>Other personal material such as photographs, correspondence, class notes, and student essays document Neilson's youth and education. His love of his native Scotland and his study of its language and literature are clearly in evidence in his University of Edinburgh essays.</p>
+<p>Correspondence and miscellaneous papers, 1917-1946, document such day-to-day concerns as finances, family health, the running of the household, and travel arrangements.</p>
+<p>Neilson's career as professor and scholar of English and Scottish literature is represented by class notes and correspondence with students and colleagues which date primarily from his years at Harvard and Radcliffe. Smith College material includes a few notes for courses Neilson taught in the English department but consists primarily of documentation of the events and celebrations of his presidency such as his appointment, inauguration, tenth and twentieth anniversaries, and retirement. Other material documents Neilson's affiliation with scholarly organizations such as the Modern Language Association, the Scottish Text Society, and the Shakespeare Association of America. There are also texts and notes for speeches on Shakespeare and Burns. Neilson's scholarly publications are represented by a number of articles, an unfinished manuscript for a book on allegory, and proofs for a 1942 edition of Shakespeare's plays and poems. Correspondence and news clippings document other writing and editorial projects in different stages of the work. Two such projects of particular interest are the 'five foot shelf' series of Harvard Classics, which Neilson edited with Charles W. Eliot, and the second edition of Webster's New International Dictionary, for which Neilson was editor-in-chief.</p>
+<p>In addition to his work as professor, administrator, and scholar, Neilson was much in demand for committee work. As a respected educator and administrator, his advice and support was continually sought by educational institutions and organizations. Correspondence documents Neilson's work as a member of various committees for Harvard University, his suggestions on the planning of the campus and curriculum of Bennington College, and his advice and endorsements for the New School for Social Research and a variety of organizations promoting adult education such as the Affiliated Schools for Workers, the Eliot Foundation for Adult Education, and the Committee on University Extension in the Connecticut Valley.</p>
+<p>Neilson was also well-known for his vigorous support of liberal causes of the day. His political activities are reflected in his involvement with a large number of organizations most of which worked for civil liberties, peace, aid to refugees, or improved foreign relations. This work is documented by correspondence with such organizations as the American Civil Liberties Union, the Foreign Policy Association, the American Society for Cultural Relations with Russia, the National Refugee Service, various League of Nations organizations, and the Commission to Study the Organization of Peace.</p>
+<p>All of Neilson's interests and concerns are in evidence in his speeches and writings. Texts contained in the papers are a rich source for the study of life at Smith College, and trends in education and politics during Neilson's term as president of Smith (1917-1939). News clippings document the quite considerable attention paid to his views.</p>
+<p>Neilson was a renowned speaker who seldom prepared a text, preferring to talk from cursory notes made shortly before the speech was to be delivered. Because of this process the texts contained in the papers are almost exclusively transcriptions. Some of them were edited for publication, others remain more or less as they were delivered. The papers also contain some of Neilson's handwritten notes for speeches.</p>
+<p>Correspondence, citations, and news clippings document Neilson's many awards and honors and a group of biographical articles gives an overview of Neilson's life and work. The papers also contain notes, typescripts, and correspondence for Margaret Farrand Thorp's 1956 biography Nelson of Smith.</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into six series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Biographical Material</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Photographs and Portraits</ref>
+</item>
+<item>
+<ref target="list-ser3">III. Academic Life</ref>
+</item>
+<item>
+<ref target="list-ser4">IV. Other Activities</ref>
+</item>
+<item>
+<ref target="list-ser5">V. Speeches</ref>
+</item>
+<item>
+<ref target="list-ser6">VI. Writings</ref>
+</item>
+</list>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The William Allan Neilson Papers are open for research according to the regulations of the Smith College Archives without any additional restrictions.
+</p>
+</accessrestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>William Allan Neilson Personal Papers, Box #, Smith College Archives. </p>
+</prefercite>
+<altformavail id="altform" type="digital" encodinganalog="530">
+<head>Additional Formats</head>
+<p>Images from this collection are also available online as part of the <extref href="http://clio.fivecolleges.edu/smith/pres-neilson/">Five College Archives Digital Access Project</extref>.</p>
+</altformavail>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>Most of the material which makes up the William Allan Neilson Personal Papers was located and gathered between 1951 and 1956 by Margaret Farrand Thorp when she was researching and writing her 1956 biography Neilson of Smith. Reminiscences and materials were solicited from family, friends, colleagues, and students. Other materials were discovered in various storerooms on campus. There is little specific information about when or how but most of this material eventually found its way to the College Archives.
+</p>
+</acqinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Neilson, William Allan, 1869-1946.</persname>
+<persname encodinganalog="600" source="lcnaf">Neilson, Elisabeth Muser, 1882-1968.</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Presidents.</corpname>
+<corpname encodinganalog="610" source="lcsh">Harvard University--Faculty.</corpname>
+<corpname encodinganalog="610" source="lcsh">Radcliffe College--Faculty.</corpname>
+<persname encodinganalog="700" source="lcnaf">Neilson, Elisabeth Muser, 1882-1968.</persname>
+<persname encodinganalog="700" source="lcnaf">Thorp, Margaret Farrand, 1891-</persname>
+<corpname encodinganalog="710" source="lcnaf">Smith College. Office of President.</corpname>
+</controlaccess>
+<descgrp type="add" id="addinfo">
+<head>Additional Information</head>
+<relatedmaterial id="add-related">
+<head>Related Material</head>
+<p>His official correspondence as president of Smith College is stored separately in the College Archives' holdings of records of the Office of the President.
+</p>
+</relatedmaterial>
+<bibliography>
+<head>Bibliography</head>
+<p>Selected Bibliography:</p>
+<list>
+<item>The Origins and Sources of the Court of Love (1899)</item>
+<item>The Essentials of Poetry (1912)</item>
+<item>The Facts about Shakespeare (1913)</item>
+<item>Robert Burns: How to Know Him (1917)</item>
+</list>
+<p>Editorial Projects:</p>
+<list>
+<item>Harvard Classics "Five Foot Shelf" (1909-1910)</item>
+<item>Cambridge Shakespeare (1906, revised 1942)</item>
+<item>Webster's New International Dictionary, 2nd Ed. (1934)</item>
+</list>
+<p>For a more complete biographical sketch see the <title render="italic">Dictionary of American Biography Supplement 1946-1950</title>.</p>
+</bibliography>
+</descgrp>
+<dsc type="combined" id="list-contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I.  BIOGRAPHICAL MATERIAL <unitdate>1852-1982</unitdate>
+</unittitle>
+<physdesc>
+<extent>8 linear ft.</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>This series is divided into four sections: 'General;' 'Education;' 'Family;' and 'Writings About Neilson.'</p>
+<p>'General' consists of correspondence, news clippings, award certificates and citations, memorabilia, and miscellaneous notes pertaining to Neilson's life, career, and death. The material in this section is arranged by subject with the oversize material in a separate sequence.</p>
+<p>'Education' consists of essays, notes, and miscellaneous papers primarily from his years at the University of Edinburgh and at Harvard University. There are two notebooks and an article which pre-date Neilson's college days. This material is arranged chronologically with the oversize material in a separate sequence.</p>
+<p>'Family' consists primarily of correspondence with some writings and diaries. Both the Neilson and Muser families are well represented. The material is arranged by family and then alphabetically by individual with oversize material in a separate sequence.</p>
+<p>'Writings About Neilson' contains biographical articles and volumes arranged in two sequences alphabetically by title.</p>
+</scopecontent>
+<c02>
+<did>
+<unittitle>General</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>Newspaper clippings
+<unitdate>1873-1982</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>Biographical sketches
+<unitdate>1917-1941, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>Chronology
+<unitdate>1869-1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Genealogy
+<unitdate>1927-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Awards</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>Miscellaneous; news clippings, awards, programs
+<unitdate>1913-1941, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>Honorary degrees, miscellaneous: citations, news clippings, correspondence, awards
+<unitdate>1918-1940</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Edinburgh, University of: award, correspondence, news clippings, press release, citation
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>Foreign Policy Association: award, news clippings
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>France, Legion of Honor: correspondence, news clippings, press releases, program
+<unitdate>1935</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>Harvard University: correspondence, news clippings
+<unitdate>1935</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>Kenyon College: citation, correspondence, news clippings
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">12</container>
+<unittitle>McGill University: citation, correspondence, news clippings
+<unitdate>1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">13</container>
+<unittitle>Mt. Holyoke College: citation, correspondence, news clippings, honorary degree
+<unitdate>1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">14</container>
+<unittitle>National Institute of Immigrant Welfare: speech by James G. MacDonald
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">15</container>
+<unittitle>Oberlin College: citation, correspondence, news clippings, honorary degree, photographs
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">16</container>
+<unittitle>Princeton University: correspondence
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">17</container>
+<unittitle>Probus Club: award, correspondence, news clippings
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">18</container>
+<unittitle>Smith College anniversary, tributes and honorary degree: citation, news clippings
+<unitdate>1927, 1937, 1942</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">19</container>
+<unittitle>Spain, Order of Alfonso VII: award, citation, news clippings, press releases, photograph
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">20</container>
+<unittitle>Yale University: citation, correspondence
+<unitdate>1927</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">21</container>
+<unittitle>Correspondence, miscellaneous
+<unitdate>1907-1941, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Death</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">22</container>
+<unittitle>Burial certificate, correspondence
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">23</container>
+<unittitle>Memorial service: news clippings, notes
+<unitdate>1946 February 16</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">24</container>
+<unittitle>Obituaries: press releases
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">25</container>
+<unittitle>Obituaries: news clippings
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">26</container>
+<unittitle>Tributes
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">27-37</container>
+<unittitle>Finances: bills, correspondence
+<unitdate>1918-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">38</container>
+<unittitle>Health: correspondence, charts
+<unitdate>1929-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Houses</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">39</container>
+<unittitle>Cambridge, 34 Kirkland Street: correspondence
+<unitdate>1917-1921</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">40-41</container>
+<unittitle>Maine: correspondence
+<unitdate>1919-1928</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">42</container>
+<unittitle>Retirement: correspondence
+<unitdate>1939, June-July</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Household</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">43</container>
+<unittitle>General and miscellaneous: correspondence
+<unitdate>1919-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">44</container>
+<unittitle>Cecile de Saint-Paul: correspondence
+<unitdate>1919-1921</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">45</container>
+<unittitle>Elfriede Schneller: correspondence
+<unitdate>1925-1935</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">46</container>
+<unittitle>Irmgard Zoeppritz: correspondence
+<unitdate>1924-1934</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">47-51</container>
+<unittitle>Insurance: certificates, correspondence, pamphlets
+<unitdate>1890-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Miscellany</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">52</container>
+<unittitle>Article on J.M. Barrie not written by WAN
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">53</container>
+<unittitle>Clippings, notes, and poems from "Commonplace Book"
+<unitdate>circa. 1900</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">54</container>
+<unittitle>Offenburg notes
+<unitdate>1914</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">55-58</container>
+<unittitle>Purchases: bills, correspondence, receipts
+<unitdate>1918-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">59-60</container>
+<unittitle>Travel arrangements: correspondence, passenger lists
+<unitdate>1894, 1921-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">61</container>
+<unittitle>Travel arrangements: passports
+<unitdate>1915-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Education</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">62</container>
+<unittitle>Montrose Academy: "The Athletic Sports" (article for school magazine)
+<unitdate>1886</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">63</container>
+<unittitle>Notes on Greek literature
+<unitdate>1884</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">64</container>
+<unittitle>Notes on Greek poetry
+<unitdate>1886</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>University of Edinburgh</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">65</container>
+<unittitle>Miscellaneous
+<unitdate>1886-1891</unitdate>
+</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-box13">[See also Box 13]</ref>
+</p>
+</note>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">66</container>
+<unittitle>Certificates and diploma
+<unitdate>1886-1891</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">67</container>
+<unittitle>Letter of recommendation
+<unitdate>1890-1891</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">68</container>
+<unittitle>Essay, "The Basis of Private Property"
+<unitdate>1889</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">69</container>
+<unittitle>Essay, "The Comparison of Ancient and Modern Ethics, Taking as the Test the Cardinal Virtues of the Ancient Philosophy and the Catergorical Imperative of the Modern"
+<unitdate>1891</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">70</container>
+<unittitle>Essay, "Conscience"
+<unitdate>1889-1890</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">71</container>
+<unittitle>Essay, "Free Will"
+<unitdate>1889-1890</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">72</container>
+<unittitle>Essay, "Nationality in Literature" (competition essay)
+<unitdate>1890</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">73</container>
+<unittitle>Essay, "On the Consistency and Inconsistency of the 4th Book of Locke's 'Essay' with the Other 3 Books&amp;#8230;"
+<unitdate>1890-1891</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">74</container>
+<unittitle>Essay, "The Place of Synthesis in Philosophy"
+<unitdate>1889-1890</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">75</container>
+<unittitle>Essay, "A Saturday Evening in Edinburgh"
+<unitdate>1889</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">76</container>
+<unittitle>Essay, "Scottish Place Names and Their Origin"
+<unitdate>1888</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">77</container>
+<unittitle>Essay, "Sense Perception and the Various Explanations of It"
+<unitdate>1889</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">78</container>
+<unittitle>Essay, "Shakespeare's Ariel"
+<unitdate>1890</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">79</container>
+<unittitle>Essay, "The Study of Mind as Means of Culture"
+<unitdate>1888</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<unittitle>Class notes</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-box14">[See Box 14]</ref>
+</p>
+</note>
+</c03>
+<c03>
+<did>
+<unittitle>Harvard University</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">80</container>
+<unittitle>Miscellaneous: correspondence, grades, scholarship notification
+<unitdate>1895-98</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">81</container>
+<unittitle>Notes on Keats and Spenser
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">82</container>
+<unittitle>Essay, "Character Drawing in Waverly Novels"
+<unitdate>1896</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">83</container>
+<unittitle>Essay, "Poets' Theories of Poetry"
+<unitdate>1896-1897</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">84</container>
+<unittitle>Essay, "Report on an Investigation into the Attitude of the People of Scotland towards the Church&amp;#8230;"
+<unitdate>1894?</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">84</container>
+<unittitle>Notebook, "19th century prose," Mr. Gates
+<unitdate>1895-1896</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Family</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">85</container>
+<unittitle>Miscellaneous
+<unitdate>1859-1891</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">86</container>
+<unittitle>Allan, William (uncle): correspondence, memorial tributes
+<unitdate>1872-1873, 1928, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">87</container>
+<unittitle>Allan, Mary (cousin): correspondence
+<unitdate>1921-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">88</container>
+<unittitle>Burgess, David and Jim (cousin and nephew): correspondence
+<unitdate>1926-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">89</container>
+<unittitle>Burgess, J. (uncle): correspondence to Doune Sabbath School from Calcutta
+<unitdate>1856</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">90-91</container>
+<unittitle>Neilson, Allan von Poetz (son): correspondence, news clippings
+<unitdate>1921-1925</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">92</container>
+<unittitle>Neilson, Caroline Louise (daughter): correspondence, news clippings
+<unitdate>1925-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">93</container>
+<unittitle>Neilson, David (father): miscellaneous papers
+<unitdate>1851-1870, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">94-96</container>
+<unittitle>Neilson, David (father): correspondence
+<unitdate>1850-1881, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">97</container>
+<unittitle>Neilson, David (father): essays by students
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">98</container>
+<unittitle>Neilson, David (father): school address and songs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">99-100</container>
+<unittitle>Neilson, Elizabeth (sister): correspondence
+<unitdate>1897-1917, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">101</container>
+<unittitle>Neilson, Jean Armor (sister): miscellaneous
+<unitdate>1905-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">102-107</container>
+<unittitle>Neilson, Jean Armor (sister): correspondence from WAN
+<unitdate>1897-1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">108</container>
+<unittitle>Neilson, Margaret (daughter): correspondence, news clippings, early memories
+<unitdate>1931-1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">109</container>
+<unittitle>Neilson, Mary Allan (mother): correspondence
+<unitdate>1856-1868, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">110</container>
+<unittitle>Neilson, Mary Allan (mother): correspondence with David Neilson (father)
+<unitdate>1859-1873, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">111</container>
+<unittitle>Neilson, Mary Allan (mother): correspondence from WAN and Robert Neilson (brother)
+<unitdate>1885, 1897, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">112</container>
+<unittitle>Robert Neilson (brother): miscellaneous
+<unitdate>1902-34, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">113</container>
+<unittitle>Robert Neilson (brother): correspondence from David Neilson (father)
+<unitdate>1876</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">114-120</container>
+<unittitle>Robert Neilson (brother): correspondence from WAN
+<unitdate>1893-1905 June</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">121-132</container>
+<unittitle>Robert Neilson (brother): correspondence from WAN and Elisabeth Muser Neilson
+<unitdate>1905 July-1933, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Elisabeth Muser Neilson (wife)</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">133-34</container>
+<unittitle>Correspondence, miscellaneous
+<unitdate>1899-1967, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">135-38</container>
+<unittitle>Correspondence from Else Gerner
+<unitdate>1899-1907, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">139-42</container>
+<unittitle>Correspondence with Emil Gott
+<unitdate>1900-1908, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">143-47</container>
+<unittitle>Correspondence from Manding Harlacher (her cousin)
+<unitdate>1899-1928, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">148-49</container>
+<unittitle>Correspondence from Max Harrer
+<unitdate>1903-1906</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">150-51</container>
+<unittitle>Correspondence with Margarete Muser (her sister)
+<unitdate>1899-1909, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">152</container>
+<unittitle>Correspondence to WAN
+<unitdate>1904-1905</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">153-56</container>
+<unittitle>Correspondence with Amalie von Poetz (her aunt)
+<unitdate>1900-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">157</container>
+<unittitle>Correspondence from Mina von Poetz (her cousin)
+<unitdate>1920-1926, n. d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">7</container>
+<container type="folder">158-179</container>
+<unittitle>Correspondence with Lina and Oskar Muser (her parents)
+<unitdate>1899-1915</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">180-197</container>
+<unittitle>Correspondence with Lina and Oskar Muser (her parents)
+<unitdate>1916-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">198-201</container>
+<unittitle>Correspondence with Lina Kuser (her mother)
+<unitdate>1938-1941, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<unittitle>School notebooks
+<unitdate>1895-1899</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<unittitle>Postcard album
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<unittitle>News clipping scrapbook
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">202</container>
+<unittitle>Miscellaneous
+<unitdate>1900, 1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">203</container>
+<unittitle>News clippings
+<unitdate>1939-1968</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">204</container>
+<unittitle>Miscellaneous writings
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">205</container>
+<unittitle>Children's play-</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">206</container>
+<unittitle>"Space and Time in Rainer Maria Rilke's Poetry"
+<unitdate>1947</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">207</container>
+<unittitle>Essay, "Space and Time in Rainer Maria Rilke's Poetry": correspondence
+<unitdate>1947-1950</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">208</container>
+<unittitle>Essay, "The Metaphysical Implications of Rilke's <title>Book of Hours</title>" (early version of article above)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">209</container>
+<unittitle>Essay, "Raum und Zeit in Rilke's Dichtung" (German version)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">210</container>
+<unittitle>Poems
+<unitdate>1921?</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Lina Huser (mother-in-law)</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">211</container>
+<unittitle>Miscellaneous correspondence
+<unitdate>1908-1941</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">212-13</container>
+<unittitle>Correspondence to her family
+<unitdate>1876-1909, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">214-15</container>
+<unittitle>Correspondence from Emil Gott
+<unitdate>1899-1903, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">216</container>
+<unittitle>Correspondence with Margarete Muser (her daughter)
+<unitdate>1901-1909, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">217</container>
+<unittitle>Correspondence with Amalie von Poetz (her sister)
+<unitdate>1877-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">218</container>
+<unittitle>Poems
+<unitdate>1900-1901</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Lina and Oskar Muser (parents-in-law)</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">219</container>
+<unittitle>Miscellaneous
+<unitdate>1885-1891,1915-1937, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">220</container>
+<unittitle>Correspondence to Allan, Caroline, and Margaret Neilson
+<unitdate>1915-1941</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">221</container>
+<unittitle>Correspondence with WAN and Elizabeth Muser Neilson
+<unitdate>1907-1934</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">222</container>
+<unittitle>Correspondence from Helene Tafel
+<unitdate>1899-1903</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">223-24</container>
+<unittitle>Miscellaneous correspondence
+<unitdate>1878-1905, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">225</container>
+<unittitle>Oskar Muser; account of the last few days of his life by ?
+<unitdate>1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">226</container>
+<unittitle>Lina and Margarete Muser: correspondence to WAN
+<unitdate>1908-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">227</container>
+<unittitle>Margarete Muser: miscellaneous correspondence
+<unitdate>1904-1914, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">228</container>
+<unittitle>Margarete Muser: correspondence with Else Gerner
+<unitdate>1901-1910, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Writings About Neilson</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">229</container>
+<unittitle>"Neilson of Smith" by Hubert Herring, <title>Harper's Magazine</title>
+<unitdate>1938 June</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">230</container>
+<unittitle>
+<title>Neilson of Smith</title> by Hubert Herring (bound version)
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">231</container>
+<unittitle>"Neilson of Smith" by Marjorie Hope Nicolson, <title>The American Scholar</title>
+<unitdate>1946 Autumn</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">232</container>
+<unittitle>"Neilson of Smith" by Marjorie Hope Nicolson: typescript and earlier versions
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">233-49</container>
+<unittitle>
+<title>Neilson of Smith</title> by Margaret Farrand Thorp: correspondence (A-Z)
+<unitdate>1946-1957</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">250</container>
+<unittitle>
+<title>Neilson of Smith</title> by Margaret Farrand Thorp: reviews
+<unitdate>1956</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<unittitle>
+<title>Neilson of Smith</title> by Margaret Farrand Thorp: typescript</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-box12">[See Box 12]</ref>
+</p>
+</note>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">251</container>
+<unittitle>"President Neilson of Smith" by Elizabeth Cutter Morrow, <title>Atlantic Monthly</title>
+<unitdate>1946 November</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">252</container>
+<unittitle>"President Neilson of Smith College" by John S. Tatlook, <title>The Nation</title>
+<unitdate>1928 January 4</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">253</container>
+<unittitle>"Successful Educators, William Allan Neilson," <title>American Education</title>
+<unitdate>1925 June</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">254</container>
+<unittitle>"William Allan Neilson" by Cynthia Walsh (Ivy Day Oration), Hampshire Bookshop
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">255</container>
+<unittitle>
+<title>William Allan Neilson: Blueprint for Biography</title>, various authors, Hampshire Bookshop
+<unitdate>1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">256</container>
+<unittitle>"William Allan Neilson: Liberal Educator," <title>Focus</title>
+<unitdate>1939 March</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">256a</container>
+<unittitle>"Word Study: William Allan Neilson," by Margaret Farrand Thorp
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03 id="list-box12">
+<did>
+<container type="box">12</container>
+<unittitle>
+<title>Neilson of Smith</title> by Margaret Farrand Thorp: typescript
+<unitdate>1955-1956</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Oversize</unittitle>
+</did>
+<c03>
+<did>
+<unittitle>Medals</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">13</container>
+<unittitle>Harvard
+<unitdate>1906</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<unittitle>Wyon, London
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<unittitle>Spain
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<unittitle>Cigar Case
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<unittitle>Harvard Advocate
+<unitdate>1866?</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04 id="list-box13">
+<did>
+<container type="box">13</container>
+<unittitle>Angus Club, Edinburgh
+<unitdate>1885-1886</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<unittitle>Harvard Lampoon
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<unittitle>University of Paris
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<unittitle>Montrose Academy Dux, English Department
+<unitdate>1885-1886</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03 id="list-box14">
+<did>
+<container type="box">14</container>
+<unittitle>University of Edinburgh class notes
+<unitdate>1886-1891</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Family</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Muser: diary of Elisabeth Muser Neilson's grandmother
+<unitdate>1888-1891</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Margarete Muser: story, "Zu Weinachten"
+<unitdate>1900</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Margarete Muser: journal excerpts in Elisabeth Muser's handwriting(2 volumes)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Lina Muser: diary
+<unitdate>1939-1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Oskar Muser: war experiences
+<unitdate>1870-1871</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Oskar Muper: news clippings
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>David Neilson: diary
+<unitdate>1884</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Oskar Muser: "Lebeaserinerungen"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Writings About Neilson - Volumes</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>
+<title>William Allan Neilson: Blueprint for Biography</title> (Northampton: Hampshire Bookshop, <unitdate>1947</unitdate>)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Herring, Hubert, <title>Neilson of Smith</title> (Brattleboro: Stephen Daye Press, <unitdate>1939</unitdate>)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Thorp, Margaret Farrand, <title>Neilson of Smith</title> (New York: Oxford University Press, <unitdate>1956</unitdate>)</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Family - Volumes</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Neilson, Elisabeth Muser, <title>The House I Knew</title> (Boston: Houghton Mifflin Co., <unitdate>1941</unitdate>)</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>General - Volumes, Miscellaneous</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Burns, Robert. <title>The Ring and the Book</title>, Vol. II and III (from WAN library)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Scott, Sir Walter, <title>Bacon's Essays</title> (from WAN library)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>
+<title>The Inauguration of President Neilson</title> (Northampton: Smith College, <unitdate>1917</unitdate>)</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II. PHOTOGRAPHS AND PORTRAITS <unitdate>1883-1948</unitdate>
+</unittitle>
+<physdesc>
+<extent>1 linear ft.</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>Photographs consists primarily of black and white photographs of William Allan Neilson. There are also photographs of Neilson's family, Elisabeth Muser Neilson and her family, and of Scotland. There is a small amount of correspondence with photographers and a 19th-century Neilson family photograph album.</p>
+<p>Portraits consists of photographic reproductions of oil, charcoal, and silhouette portraits plus correspondence about the portraits arranged by the name of the artist.</p>
+</scopecontent>
+<c02>
+<did>
+<unittitle>Photographs</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">257</container>
+<unittitle>List of oversize photographs</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">258</container>
+<unittitle>Photographers: correspondence, miscellaneous
+<unitdate>1932-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">259-84</container>
+<unittitle>William Allan Neilson
+<unitdate>1883-1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">285</container>
+<unittitle>Parents and siblings
+<unitdate>1892-1899, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">286</container>
+<unittitle>Children and grandchildren
+<unitdate>1920-1944, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">287</container>
+<unittitle>Elisabeth Muser Neilson
+<unitdate>1906, 1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">288</container>
+<unittitle>Muser family
+<unitdate>1906-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">289</container>
+<unittitle>Miscellaneous
+<unitdate>1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">290</container>
+<unittitle>Scotland, countryside
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">291</container>
+<unittitle>Scotland, Doune and Montrose
+<unitdate>1891, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Portraits</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">292</container>
+<unittitle>Correspondence
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">293</container>
+<unittitle>Folisbee, John
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">294</container>
+<unittitle>Goodnow, C.S.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">295</container>
+<unittitle>Hopkinson, Charles Sidney
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">296</container>
+<unittitle>James, Alexander P.
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">297</container>
+<unittitle>Watson, Elizabeth V. Taylor
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">298</container>
+<unittitle>Silhouette: Alfred Vance Churchill
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">299</container>
+<unittitle>Sketches: miscellaneous
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">299</container>
+<unittitle>Photograph album: Neilson relatives, unidentified
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">299</container>
+<unittitle>Photograph panorama: dedication of Burns statue, Detroit
+<unitdate>1921 July 23</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III. ACADEMIC LIFE <unitdate>1898-1941</unitdate>
+</unittitle>
+<physdesc>
+<extent>3.5 linear ft.</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>This series consists of correspondence, lecture notes, news clippings, and press releases pertaining to Neilson's life as a college professor and administrator. The material  is arranged by the name of the institution. Oversize material is in a separate sequence.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">18</container>
+<container type="folder">300</container>
+<unittitle>Bryn Mawr College: miscellaneous
+<unitdate>1898-1901</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">18</container>
+<container type="folder">301</container>
+<unittitle>Columbia University: miscellaneous
+<unitdate>1904-1906</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">18</container>
+<container type="folder">302</container>
+<unittitle>Sorbonne: correspondence
+<unitdate>1914-1915</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">18</container>
+<container type="folder">303</container>
+<unittitle>Sorbonne: lecture notes
+<unitdate>1914 December</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Harvard University and Radcliffe College</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">304</container>
+<unittitle>Miscellaneous
+<unitdate>1901-1904, 1906-1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">305</container>
+<unittitle>Clubs: correspondence, membership certificates
+<unitdate>1911-1916</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Correspondence</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">306</container>
+<unittitle>A-D
+<unitdate>1901-1904, 1906-1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">307</container>
+<unittitle>Dodd, Isabel F.
+<unitdate>1902, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">308</container>
+<unittitle>E-K
+<unitdate>1901-1904, 1906-1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">309</container>
+<unittitle>Fabyan, George
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">310</container>
+<unittitle>Fyock, Alice
+<unitdate>1900</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">311</container>
+<unittitle>Jennings Alice
+<unitdate>1902-1903</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">312</container>
+<unittitle>Kittredge, George Lyman
+<unitdate>1906-1916</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">313</container>
+<unittitle>L-P
+<unitdate>1901-1904, 1906-1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">314</container>
+<unittitle>Lowell, A. Lawrence
+<unitdate>1914-1915</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">315</container>
+<unittitle>R-Z
+<unitdate>1901-1904, 1906-1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">18</container>
+<container type="folder">316</container>
+<unittitle>Robinson, Edwin Arlington
+<unitdate>1902-1917</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">317</container>
+<unittitle>Miscellaneous
+<unitdate>1901-1917, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">318-23</container>
+<unittitle>Lecture notes, English 8
+<unitdate>1900-1901</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">324-25</container>
+<unittitle>Lecture notes, English 8
+<unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">326</container>
+<unittitle>Lecture notes, English 8a
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">327</container>
+<unittitle>Lecture notes, English 8b
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">328</container>
+<unittitle>Lecture notes, English 11
+<unitdate>1902</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">329</container>
+<unittitle>Lecture notes, English 24
+<unitdate>1916-1917?</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">330</container>
+<unittitle>Lecture notes, English 28
+<unitdate>1912</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">331</container>
+<unittitle>Lecture notes, English 28
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">332-3</container>
+<unittitle>Lecture notes, English 32
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">324-39</container>
+<unittitle>Lecture notes, English 32
+<unitdate>1901-1902</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">340-43</container>
+<unittitle>Lecture notes, English 40
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">344</container>
+<unittitle>Lecture notes, English 41
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">345</container>
+<unittitle>Lecture notes, English 42
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">346</container>
+<unittitle>Lecture notes, English 49
+<unitdate>1906</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Smith College</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">347</container>
+<unittitle>Miscellaneous: press releases, writings, bookplates
+<unitdate>1917-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">348</container>
+<unittitle>Anniversary (10th): correspondence
+<unitdate>1927</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">349</container>
+<unittitle>Anniversary (10th): news clippings
+<unitdate>1927</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">350</container>
+<unittitle>Anniversary (20th): miscellaneous
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">351</container>
+<unittitle>Anniversary (20th): news clippings
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">352-61</container>
+<unittitle>Appointment: congratulatory correspondence
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">362-63</container>
+<unittitle>Appointment: general correspondence
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">364</container>
+<unittitle>Birthday celebrations
+<unitdate>1924-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">365</container>
+<unittitle>Chronology</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Inauguration</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">20</container>
+<container type="folder">366</container>
+<unittitle>Address by Charles W. Eliot
+<unitdate>1918 June 13</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">20</container>
+<container type="folder">367</container>
+<unittitle>Address by WAN
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">20</container>
+<container type="folder">368</container>
+<unittitle>Booklet
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">20</container>
+<container type="folder">369</container>
+<unittitle>Correspondence
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">20</container>
+<container type="folder">370</container>
+<unittitle>Guest list
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">20</container>
+<container type="folder">371</container>
+<unittitle>Invitations and program
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">20</container>
+<container type="folder">372</container>
+<unittitle>News clippings
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">20</container>
+<container type="folder">373</container>
+<unittitle>Plans
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">21</container>
+<container type="folder">374-5</container>
+<unittitle>Lecture notes, English 19
+<unitdate>1920-1926</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">21</container>
+<container type="folder">376</container>
+<unittitle>Miscellaneous clippings
+<unitdate>1917-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Retirement</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">21</container>
+<container type="folder">377-81</container>
+<unittitle>Correspondence A-Z
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">21</container>
+<container type="folder">382</container>
+<unittitle>"A Dictionary of Appreciation of WAN"
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">21</container>
+<container type="folder">383</container>
+<unittitle>Tributes by Foreign Policy Association members
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">21</container>
+<container type="folder">384</container>
+<unittitle>News clippings
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">21</container>
+<container type="folder">385</container>
+<unittitle>Tributes, miscellaneous
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Oversize</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">22</container>
+<unittitle>Columbia University: Class Roll Book
+<unitdate>1905-1906</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">22</container>
+<unittitle>Smith College: retirement gift - silver box
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">22</container>
+<unittitle>Miscellaneous notes on books
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">22</container>
+<container type="folder">386</container>
+<unittitle>Miscellaneous notes on Shakespeare
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser4">
+<did>
+<unittitle>Series IV. OTHER ACTIVITIES <unitdate>1891-1946</unitdate>
+</unittitle>
+<physdesc>
+<extent>4.5 linear ft.</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>This series documents Neilson's professional and volunteer activities outside of his primary employment. The series has two sections: 'Organizations' and 'Subjects'. Unless otherwise noted the folders contain only correspondence.</p>
+<p>The first section, 'Organizations,' is arranged alphabetically by the name of the organization.</p>
+<p>Material has been filed in the second section, 'Subjects,' where Neilson was involved with a number of organizations or causes with a similar focus.</p>
+</scopecontent>
+<c02>
+<did>
+<unittitle>Organizations</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">387</container>
+<unittitle>A
+<unitdate>1921-1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">388</container>
+<unittitle>Affiliated Schools for Workers
+<unitdate>1925-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">389</container>
+<unittitle>American Arbitration Crusade
+<unitdate>1925-1928</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">390</container>
+<unittitle>American Association for Old Age Security
+<unitdate>1929-1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">391</container>
+<unittitle>American Civil Liberties Union
+<unitdate>1922-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">392</container>
+<unittitle>American Civil Liberties Union: case of Elizabeth Gurley Flynn
+<unitdate>1933-1941</unitdate>
+</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-flynn">[See also Box 33]</ref>
+</p>
+</note>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">393</container>
+<unittitle>American Civil Liberties Union: Committee on Academic Freedom
+<unitdate>1932-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">394</container>
+<unittitle>American Civil Liberties Union: correspondence
+<unitdate>1939-1941</unitdate>
+</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-corr">[See also Box 33]</ref>
+</p>
+</note>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">395</container>
+<unittitle>American Civil Liberties Union: "National Defense"
+<unitdate>1939-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">396</container>
+<unittitle>American Civil Liberties Union: "Labor"
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-corr">[See also Box 33]</ref>
+</p>
+</note>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">397</container>
+<unittitle>American Committee to Protect the Foreign Born
+<unitdate>1939-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">398</container>
+<unittitle>American Defenders of Freedom
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">399</container>
+<unittitle>American Dialect Society
+<unitdate>1921-1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">400</container>
+<unittitle>The American Foundation
+<unitdate>1929-1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">401</container>
+<unittitle>American Friends Service Committee
+<unitdate>1921-1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">402</container>
+<unittitle>American Otological Society
+<unitdate>1931-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">403</container>
+<unittitle>Amherst Memorial Fellowship Committee
+<unitdate>1921-1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">404</container>
+<unittitle>Amherst Regional Planning Board
+<unitdate>1928-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">405</container>
+<unittitle>B
+<unitdate>1903-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">406</container>
+<unittitle>Bacon Archaeological Research
+<unitdate>1927-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">407</container>
+<unittitle>Beaver County Day School
+<unitdate>1935-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">408-11</container>
+<unittitle>Bennington College
+<unitdate>1922-1938, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">412</container>
+<unittitle>Brearly School
+<unitdate>1924-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">413</container>
+<unittitle>James Bryce Fellowship
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">414</container>
+<unittitle>C
+<unitdate>1920-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">415</container>
+<unittitle>Carnegie Foundation
+<unitdate>1928-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">416</container>
+<unittitle>Committee of 100 on Ireland
+<unitdate>1920-1921</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">417</container>
+<unittitle>Committee on Cultural Relations with Latin America
+<unitdate>1928-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">418</container>
+<unittitle>Committee to Defend America by Aiding the Allies
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">419</container>
+<unittitle>Council on Foreign Relations
+<unitdate>1921-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">420</container>
+<unittitle>Cummington School (Playhouse-in-the-Hills)
+<unitdate>1919-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">421</container>
+<unittitle>D
+<unitdate>1933-1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">422</container>
+<unittitle>Daughters of the American Revolution
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">423</container>
+<unittitle>Deerfield Academy
+<unitdate>1932-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">424</container>
+<unittitle>Democratic Party
+<unitdate>1920-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">425</container>
+<unittitle>Denison House
+<unitdate>1924-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">426</container>
+<unittitle>E
+<unitdate>1923-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">427</container>
+<unittitle>English Speaking Union of the United States
+<unitdate>1920-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">428</container>
+<unittitle>F
+<unitdate>1925-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">429</container>
+<unittitle>Facsimile Text Society
+<unitdate>1934-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">430</container>
+<unittitle>Folger Shakespeare Memorial Fund
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">431-33</container>
+<unittitle>Foreign Policy Association
+<unitdate>1921-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">434</container>
+<unittitle>G
+<unitdate>1921-1936, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">435</container>
+<unittitle>H
+<unitdate>1929-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">436</container>
+<unittitle>Harvard Liberal Club
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">437-39</container>
+<unittitle>Harvard University
+<unitdate>1915-1944, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">440</container>
+<unittitle>Harvard University, Committee on Dormitory Requirements and Relations of the Graduate Schools
+<unitdate>1922-1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">441-43</container>
+<unittitle>Harvard University, Committee to Visit the English Department
+<unitdate>1920-1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">444</container>
+<unittitle>Hebrew University
+<unitdate>1925-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">445</container>
+<unittitle>Highlander Folk School
+<unitdate>1934-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">446</container>
+<unittitle>Hofstra College
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">447</container>
+<unittitle>Human Welfare Group
+<unitdate>1929-1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">448</container>
+<unittitle>I
+<unitdate>1922-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">449</container>
+<unittitle>International Free Trade League
+<unitdate>1918-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">450</container>
+<unittitle>International Study Center for Democratic Reconstruction
+<unitdate>1943?</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">451</container>
+<unittitle>International YMCA College
+<unitdate>1924-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">452</container>
+<unittitle>J
+<unitdate>1924-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">453</container>
+<unittitle>K
+<unitdate>1920-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">454</container>
+<unittitle>Kraus Defense Committee
+<unitdate>1934-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">455</container>
+<unittitle>L
+<unitdate>1920-1939 n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">456</container>
+<unittitle>League of Women Voters
+<unitdate>1922-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">457</container>
+<unittitle>Life Extension Institute
+<unitdate>1920-1922</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">458</container>
+<unittitle>M
+<unitdate>1921-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">459</container>
+<unittitle>Massachusetts Civic League
+<unitdate>1929-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">460</container>
+<unittitle>Massachusetts Conference of Social Work
+<unitdate>1917-1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">461</container>
+<unittitle>Massachusetts Council for the Abolition of the Death Penalty
+<unitdate>1927-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">462</container>
+<unittitle>Medieval Academy of America
+<unitdate>1940, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">463</container>
+<unittitle>Milwaukee-Downer College
+<unitdate>1921-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">464-65</container>
+<unittitle>Modern Language Association
+<unitdate>1918-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">466-67</container>
+<unittitle>Modern Language Association, Permanent Fund
+<unitdate>1916-1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">468</container>
+<unittitle>N
+<unitdate>1920-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">469</container>
+<unittitle>National Committee for Independent Courts
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">470-72</container>
+<unittitle>National Committee of the U.S. to Restore the Louvain Library
+<unitdate>1922-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">473</container>
+<unittitle>National Economic League
+<unitdate>1921-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">474</container>
+<unittitle>National Recovery Administration
+<unitdate>1931-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">475-76</container>
+<unittitle>National Research Council
+<unitdate>1919-1928</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">477</container>
+<unittitle>New England Medical Center
+<unitdate>1929-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">478-81</container>
+<unittitle>New School for Social Research
+<unitdate>1918-1942, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">482</container>
+<unittitle>O
+<unitdate>1923-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<container type="folder">483-85</container>
+<unittitle>The Open Road
+<unitdate>1926-1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">486</container>
+<unittitle>P-Q
+<unitdate>1925-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">487</container>
+<unittitle>Plymouth Tercentenary Committee
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">488</container>
+<unittitle>Poetry Society of America
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">489</container>
+<unittitle>R
+<unitdate>1920-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">490</container>
+<unittitle>Roosevelt Memorial Association
+<unitdate>1934-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">491</container>
+<unittitle>S
+<unitdate>1918-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">492</container>
+<unittitle>School of Parents' Education, Jerusalem
+<unitdate>1925-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">493</container>
+<unittitle>Shady Hill Country Day School
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">494</container>
+<unittitle>Society for Ethical Culture
+<unitdate>1922-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">495</container>
+<unittitle>T-U
+<unitdate>1921-1929</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">496</container>
+<unittitle>Thomas Davidson Society
+<unitdate>1917-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">497</container>
+<unittitle>Trustees of Public Reservations
+<unitdate>1925-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">498</container>
+<unittitle>U
+<unitdate>1891-1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">499</container>
+<unittitle>W-Z
+<unitdate>1921-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">500</container>
+<unittitle>Western Massachusetts Regional Planning Association
+<unitdate>1931-1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">501</container>
+<unittitle>Williams College
+<unitdate>1921-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">502</container>
+<unittitle>Woodrow Wilson Foundation
+<unitdate>1921-1922</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">503</container>
+<unittitle>Worcester Academy
+<unitdate>1925-1926</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Subjects</unittitle>
+</did>
+<c03>
+<did>
+<unittitle>Adult Education</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">504</container>
+<unittitle>Miscellaneous
+<unitdate>1928-1938, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">505-09</container>
+<unittitle>American Association for Adult Education
+<unitdate>1927-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">510</container>
+<unittitle>Committee on University Extension in the Connecticut Valley
+<unitdate>1917-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">511</container>
+<unittitle>Eliot Foundation for Adult Education
+<unitdate>1933-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">512</container>
+<unittitle>Holyoke Workers' Classes
+<unitdate>1928, 1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">513</container>
+<unittitle>National University Extension Association
+<unitdate>1918-1935</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">514</container>
+<unittitle>Springfield Adult Education Forum
+<unitdate>1934-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">515</container>
+<unittitle>Albania
+<unitdate>1924-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">516</container>
+<unittitle>Armenia
+<unitdate>1921-1925</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">517</container>
+<unittitle>Asia
+<unitdate>1928-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">518</container>
+<unittitle>Birth Control
+<unitdate>1928-1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">519</container>
+<unittitle>Children: miscellaneous
+<unitdate>1925-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">520</container>
+<unittitle>Children: Child Study Association
+<unitdate>1928-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">521</container>
+<unittitle>Children: Child Welfare League
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">522</container>
+<unittitle>Children: Society for the Prevention of Cruelty to Children
+<unitdate>1921-1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">523</container>
+<unittitle>China
+<unitdate>1938-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Clubs</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">524</container>
+<unittitle>Miscellaneous
+<unitdate>1920-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">525</container>
+<unittitle>Burns Club
+<unitdate>1919-1937</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">526</container>
+<unittitle>Harvard Clubs
+<unitdate>1918-1928</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">527</container>
+<unittitle>Tavern Club
+<unitdate>1921-1936</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">528</container>
+<unittitle>Town Hall Club
+<unitdate>1932-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">529</container>
+<unittitle>Consumer: miscellaneous
+<unitdate>1918, 1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">530</container>
+<unittitle>Consumer: Consumer's-League of Massachusetts
+<unitdate>1924-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">531-32</container>
+<unittitle>Consumer: National Consumers' League
+<unitdate>1922-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">533</container>
+<unittitle>Coolidge
+<unitdate>1920-1929</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">534</container>
+<unittitle>Czechoslovakia
+<unitdate>1919-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">535</container>
+<unittitle>Democracy: correspondence and news clippings
+<unitdate>1939-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Educational</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">536</container>
+<unittitle>Miscellaneous
+<unitdate>1918-1937</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">537</container>
+<unittitle>Moro Educational Foundation
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">538</container>
+<unittitle>National Council of Teachers of English
+<unitdate>1922-1930</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">539</container>
+<unittitle>New England Association of Teachers of English
+<unitdate>1922-1930</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">540</container>
+<unittitle>Progressive Education Association
+<unitdate>1925-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">541</container>
+<unittitle>Eugenics
+<unitdate>1920-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">542</container>
+<unittitle>Germany: miscellaneous
+<unitdate>1924-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">543</container>
+<unittitle>Germany: Carl Schurz Memorial Foundation
+<unitdate>1932-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">544</container>
+<unittitle>Industrial
+<unitdate>1921-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">545</container>
+<unittitle>International Cooperation
+<unitdate>1926-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">546</container>
+<unittitle>Italy
+<unitdate>1928-1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">547</container>
+<unittitle>Labor: miscellaneous
+<unitdate>1925-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">548-50</container>
+<unittitle>Labor: Community Labor Board
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>League of Nations</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">551</container>
+<unittitle>Miscellaneous: correspondence, news clippings
+<unitdate>1918-1940, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">552</container>
+<unittitle>League of Free Nations
+<unitdate>1918-1930</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">553</container>
+<unittitle>League of Nations Association
+<unitdate>1920-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">554</container>
+<unittitle>League of Nations Non-Partisan Association
+<unitdate>1921-1935</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">555</container>
+<unittitle>Model League of Nations Assembly
+<unitdate>1928-1936</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">556</container>
+<unittitle>Pro-League Independents
+<unitdate>1920-1922</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Mental Hygiene</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">557</container>
+<unittitle>Massachusetts Society for Mental Hygiene
+<unitdate>1919-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">558</container>
+<unittitle>National Committee for Mental Hygiene
+<unitdate>1920-1935</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">559</container>
+<unittitle>Militarism in Education
+<unitdate>1925-1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">560</container>
+<unittitle>Miscellaneous, unidentified
+<unitdate>1920-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">561</container>
+<unittitle>Near East
+<unitdate>1923-1936, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Northampton</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">562</container>
+<unittitle>Miscellaneous
+<unitdate>1919-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">563-564</container>
+<unittitle>Academy of Music
+<unitdate>1917-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">565</container>
+<unittitle>Better Housing Campaign
+<unitdate>1934-1935</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">566</container>
+<unittitle>Chamber of Commerce
+<unitdate>1920-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">567</container>
+<unittitle>Cooley Dickinson Hospital
+<unitdate>1917-1926</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">568</container>
+<unittitle>Northampton Hotel Company
+<unitdate>1922-1936</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">28</container>
+<container type="folder">569-70</container>
+<unittitle>People's Institute
+<unitdate>1914-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Peace</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">571</container>
+<unittitle>Miscellaneous
+<unitdate>1919-1942, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">572</container>
+<unittitle>Carnegie Endowment for International Peace
+<unitdate>1928-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">573-83</container>
+<unittitle>Commission to Study the Organization of Peace
+<unitdate>1939-1940</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">584</container>
+<unittitle>Commission to Study the Organization of Peace
+<unitdate>1941-1945</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">585</container>
+<unittitle>Commission to Study the Organization of Peace: news clippings and miscellaneous
+<unitdate>1939-1945</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">586</container>
+<unittitle>National Committee on the Cause &amp; Cure of War
+<unitdate>1930-1940</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">587</container>
+<unittitle>National Council for the Prevention of War
+<unitdate>1931-1934</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">588</container>
+<unittitle>Women's International League for Peace &amp; Freedom
+<unitdate>1922-1935</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Periodicals</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">589</container>
+<unittitle>Miscellaneous
+<unitdate>1920-1940</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">590</container>
+<unittitle>
+<title>Atlantic Monthly</title>
+<unitdate>1924-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">591</container>
+<unittitle>
+<title>Collier's Weekly</title>
+<unitdate>1916-1919</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">592</container>
+<unittitle>
+<title>The Delineator</title>
+<unitdate>1921-1933</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">593</container>
+<unittitle>
+<title>The Forum</title>
+<unitdate>1924-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">594</container>
+<unittitle>
+<title>The Nation</title>
+<unitdate>1919-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">595</container>
+<unittitle>
+<title>The New Republic</title>
+<unitdate>1921-1925</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">596</container>
+<unittitle>New York, miscellaneous
+<unitdate>1920-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">597</container>
+<unittitle>
+<title>Saturday Review</title>
+<unitdate>1925-1936</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Political Activities</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">598</container>
+<unittitle>Miscellaneous; correspondence, news clippings
+<unitdate>1913-1940, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">599</container>
+<unittitle>Fascism, Nazism
+<unitdate>1933-1940</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">600-01</container>
+<unittitle>Sacco and Vanzetti case
+<unitdate>1924-1936, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">30</container>
+<container type="folder">602</container>
+<unittitle>Public Affairs
+<unitdate>1935-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Publishers</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">603-04</container>
+<unittitle>Miscellaneous A-Z
+<unitdate>1919-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">605</container>
+<unittitle>Bobbs-Merrill Company
+<unitdate>1922-1928</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">606-15</container>
+<unittitle>P. F. Collier &amp; Son
+<unitdate>1916-1944</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">616</container>
+<unittitle>Dictionary of American Biography
+<unitdate>1927-1928</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">617</container>
+<unittitle>Doubleday
+<unitdate>1927-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">618</container>
+<unittitle>Harbor Press
+<unitdate>1929-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">619</container>
+<unittitle>Harcourt, Brace &amp; Company
+<unitdate>1920-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">620</container>
+<unittitle>Houghton, Mifflin Company
+<unitdate>1904-1930</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">30</container>
+<container type="folder">621</container>
+<unittitle>Alfred A Knopf, Inc.
+<unitdate>1925-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">622-24</container>
+<unittitle>G.C. Merriam &amp; Company: correspondence
+<unitdate>1937-1940</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">625</container>
+<unittitle>G.C. Merriam &amp; Company, Synonymy: "Antonyms"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">626</container>
+<unittitle>G.C. Merriam &amp; Company, Synonymy: "The Historical Development&amp;#8230;"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">627</container>
+<unittitle>G.C. Merriam &amp; Company, Synonymy: "The Treatment of Synonyms and Antonyms"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">628-30</container>
+<unittitle>G.C. Merriam &amp; Company, Synonymy: carbons, pp. 66-219
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">631-35</container>
+<unittitle>G.C. Merriam &amp; Company, Synonymy: minutes
+<unitdate>1937-45</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">636</container>
+<unittitle>W.W. Norton Company
+<unitdate>1929-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">637</container>
+<unittitle>Scott, Foresman &amp; Company
+<unitdate>1909-1931</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">638</container>
+<unittitle>Charles Scribner's Sons
+<unitdate>1925-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">639</container>
+<unittitle>Stanford University Press
+<unitdate>1935-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">640</container>
+<unittitle>Viking Press
+<unitdate>1935</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Race Relations</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">641</container>
+<unittitle>Miscellaneous
+<unitdate>1930-1931</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">642</container>
+<unittitle>Committee of 100 Dedicated to the Creation of an America of Justice and Equality for Our Negro Fellow Citizens
+<unitdate>1944-1945</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">643</container>
+<unittitle>Harmon Awards for Distinguished Achievement among Negroes
+<unitdate>1928-1931</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">644</container>
+<unittitle>National Association for the Advancement of Colored People
+<unitdate>1922-1944</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Refugee</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">645</container>
+<unittitle>Miscellaneous: correspondence, news clippings
+<unitdate>1920-1945, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">646</container>
+<unittitle>National Institute of Immigrant Welfare
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">647</container>
+<unittitle>National Refugee Service
+<unitdate>1940-1941</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Religious</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">648</container>
+<unittitle>Miscellaneous
+<unitdate>1925-1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">31</container>
+<container type="folder">649</container>
+<unittitle>National Conference of Jews and Christians
+<unitdate>1931-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Russia</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">32</container>
+<container type="folder">650</container>
+<unittitle>Miscellaneous
+<unitdate>1926-1937, n.d,</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">32</container>
+<container type="folder">651</container>
+<unittitle>Independent Committee for the Recognition of Soviet Russia by the United States
+<unitdate>1933-1935</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">32</container>
+<container type="folder">652-53</container>
+<unittitle>American Russian Institute
+<unitdate>1930-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">32</container>
+<container type="folder">654-55</container>
+<unittitle>American Society for Cultural Relations with Russia
+<unitdate>1927-1929</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Scots</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">32</container>
+<container type="folder">656</container>
+<unittitle>Miscellaneous: correspondence, news clipping
+<unitdate>1930-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">32</container>
+<container type="folder">657</container>
+<unittitle>Scots' Charitable Society
+<unitdate>1917-1927</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">32</container>
+<container type="folder">658</container>
+<unittitle>Scottish National Dictionary Association
+<unitdate>1927-1934</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">32</container>
+<container type="folder">659</container>
+<unittitle>Scottish Text Society
+<unitdate>1903-1934</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">660</container>
+<unittitle>Shakespeare: miscellaneous</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">661</container>
+<unittitle>Shakespeare: Shakespeare Association of America
+<unitdate>1923-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">662</container>
+<unittitle>Social hygiene
+<unitdate>1920-1928</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">663</container>
+<unittitle>Social sciences: miscellaneous
+<unitdate>1918-1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">664</container>
+<unittitle>Social sciences: Social Science Commission
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">665</container>
+<unittitle>Social work
+<unitdate>1922-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">666</container>
+<unittitle>Spain, miscellaneous: correspondence, news clippings
+<unitdate>1921-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">667</container>
+<unittitle>Spain: Non-Partisan Committee for the Relief of Spain's Children
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">668</container>
+<unittitle>Springfield: miscellaneous
+<unitdate>1928-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">669</container>
+<unittitle>Springfield: Springfield College
+<unitdate>1936-1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">670</container>
+<unittitle>Unemployment
+<unitdate>1927-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<container type="folder">671</container>
+<unittitle>World Court
+<unitdate>1921-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02 id="list-corr">
+<did>
+<unittitle>Oversize</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">33</container>
+<container type="folder">672</container>
+<unittitle>American Civil Liberties Union, Committee on Academic Freedom: ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03 id="list-flynn">
+<did>
+<container type="box">33</container>
+<container type="folder">673</container>
+<unittitle>American Civil Liberties Union: correspondence and publications Elizabeth Gurley Flynn case
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">33</container>
+<container type="folder">674</container>
+<unittitle>American Civil Liberties Union: miscellaneous
+<unitdate>1940-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser5">
+<did>
+<unittitle>Series V.  SPEECHES <unitdate>1901-1944</unitdate>
+</unittitle>
+<physdesc>
+<extent>2.5 linear ft.</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>This series is divided into five sections: 'Texts-by title;' 'Texts-by date;' 'Texts-by occasion;' 'Notes;' and 'Miscellany.'</p>
+<p>The texts have been divided into three categories depending on the information available about the speech. Each text that has a title has been filed alphabetically. Other texts have been filed chronologically (where possible) or by occasion. Unless otherwise noted the texts are in typed or printed form.</p>
+<p>'Notes' have also been filed by available information. They are all in Neilson's hand.</p>
+<p>'Miscellany' is primarily news clippings and correspondence about Neilson's speeches but also contains a list of the topics of Neilson's Smith College Chapel talks from 1934 to 1936.</p>
+</scopecontent>
+<c02>
+<did>
+<unittitle>Texts - by title</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">675</container>
+<unittitle>"After Victory," chapel
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">676</container>
+<unittitle>"The American Scholar Today," American Association for the Advancement of Science
+<unitdate>1936 January 1</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">677</container>
+<unittitle>"America's Dilemma," Rally Day
+<unitdate>1941 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">678</container>
+<unittitle>"And Ye Shall Hallow the 50th Year," chapel
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">679</container>
+<unittitle>"The Arts In the Colleges," radio broadcast
+<unitdate>1935 May 17</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">680</container>
+<unittitle>"As Shakespeare Says"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">681</container>
+<unittitle>"Current Criticism of Higher Education," Chicago Smith Club
+<unitdate>1936 November 6</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">682</container>
+<unittitle>"Distinguishing Characteristics of American Education," Alumnae College
+<unitdate>1936 June</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">683</container>
+<unittitle>"Education and Politics," Aydelotte Lecture, Swarthmore College
+<unitdate>1940 October 13</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">684</container>
+<unittitle>"Ends and Means in Education," Felix Adler Lecture, Society for Ethical Culture
+<unitdate>1940 May 12</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">685</container>
+<unittitle>"From the Point of View of a Professor Turned President," Modern Language Association
+<unitdate>1924, December 29</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">686</container>
+<unittitle>"The Function of the University," Northwestern University: ms
+<unitdate>1943 April 8</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">687</container>
+<unittitle>"The Function of the University": published version
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">688</container>
+<unittitle>"George Washington Cable"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">689</container>
+<unittitle>"Germany Today," Alumnae College
+<unitdate>1934 June 23</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">690</container>
+<unittitle>"Guarding the Line," chapel
+<unitdate>1942 February 9</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">691</container>
+<unittitle>"The Heart of the Midlothian," NBC University of the Air
+<unitdate>1944 November 25</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">692</container>
+<unittitle>"The Inauguration of Dr. Marian E. Park as President of Bryn Mawr College"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">693</container>
+<unittitle>"Inter Arma Veritas," Phi Beta Kappa
+<unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">694</container>
+<unittitle>"The League and Future International Relations"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">695</container>
+<unittitle>"Looking Backward and Forward"
+<unitdate>1935 May 6</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">696</container>
+<unittitle>"The Meaning of Americanism," DAR Springfield
+<unitdate>1920 December 16</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">697</container>
+<unittitle>"The Meaning of Liberalism," Why Club
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">698</container>
+<unittitle>"National Training of Women"
+<unitdate>1943 November</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">699</container>
+<unittitle>"Nazi Germany as a Threat to Our Liberties," Duke University Commencement
+<unitdate>1940 June 3</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">700</container>
+<unittitle>"Our Fundamental Political Ideas in Light of Recent Events," Alumnae Council
+<unitdate>1937 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">701</container>
+<unittitle>"The Paradox of the Colleges"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">702</container>
+<unittitle>"The Poetry of Liberalism," Alumnae College
+<unitdate>1939 June 16</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">703</container>
+<unittitle>"President Eliot's Educational Ideas"
+<unitdate>1934 March 21</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">703a</container>
+<unittitle>"President Neilson Proposes," Brearly School 50th Anniversary
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">704</container>
+<unittitle>"President Pendleton As An Educator"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">705</container>
+<unittitle>"The Progress of Peace"
+<unitdate>1930 January</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">706</container>
+<unittitle>"Public Affairs and the Private Conscience," vespers
+<unitdate>1938 September 25</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">707</container>
+<unittitle>"The Relation of the Women's Colleges to American Education," Seven College Conference
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">708</container>
+<unittitle>"Rights and Duties," chapel
+<unitdate>1937 October 19</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">709</container>
+<unittitle>"The Scholar and the Pedant," Vassar Inauguration
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">710</container>
+<unittitle>"Shall We Join the Ladies?" Seven College Conference
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">711</container>
+<unittitle>"A Tradition Worth Cherishing," Alumnae Assembly
+<unitdate>1942 June 6</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">712</container>
+<unittitle>"To the Alumnae of the Mary A. Burnham School"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">713</container>
+<unittitle>"Les Universites et L'Etat," Sorbonne
+<unitdate>1915</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">714</container>
+<unittitle>"The University in Exile," New School for Social Research
+<unitdate>1933 October 13</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">715</container>
+<unittitle>"Which Girl Should Go to College?" radio broadcast
+<unitdate>1929 October 10</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<container type="folder">716</container>
+<unittitle>"The World Crisis in Education," New York Smith Club
+<unitdate>1934 March 10</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Texts - by date</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">35</container>
+<container type="folder">717-742</container>
+<unittitle>Miscellaneous
+<unitdate>1907-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">36</container>
+<container type="folder">743-63</container>
+<unittitle>Miscellaneous
+<unitdate>1936-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Texts - by occasion</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">36</container>
+<container type="folder">764-65</container>
+<unittitle>Miscellaneous
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">36</container>
+<container type="folder">765a</container>
+<unittitle>President Seelye's Funeral Service
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">36</container>
+<container type="folder">766</container>
+<unittitle>Smith Baccalaureate
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">36</container>
+<container type="folder">767-74</container>
+<unittitle>Smith Chapel
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Notes</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">775-77</container>
+<unittitle>Chronological
+<unitdate>1901-1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">778-79</container>
+<unittitle>Miscellaneous
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">780</container>
+<unittitle>Baccalaureate
+<unitdate>1918-1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">781-83</container>
+<unittitle>Vespers
+<unitdate>1917-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">784</container>
+<unittitle>Vespers
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">785</container>
+<unittitle>Shakespeare
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Miscellany</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">786</container>
+<unittitle>Smith Chapel topics list
+<unitdate>1934-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">787-95</container>
+<unittitle>News clippings
+<unitdate>1916-1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">38</container>
+<container type="folder">796-802</container>
+<unittitle>News clippings
+<unitdate>1936-1943, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">39</container>
+<container type="folder">803-827</container>
+<unittitle>Correspondence
+<unitdate>1916-1940, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser6">
+<did>
+<unittitle>Series VI.  WRITINGS <unitdate>1894-1946</unitdate>
+</unittitle>
+<physdesc>
+<extent>5.5 linear ft.</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>This series has two sections: 'Texts and Notes' and 'Correspondence and News Clippings.'</p>
+<p>'Texts and Notes' is made up of manuscript, typescript, and published versions of articles and books by William Allan Neilson. They are filed by the title of the work. Reviews written by Neilson are filed at the end of the section.</p>
+<p>'Correspondence and News Clippings' contains correspondence with editors, collaborators, publishers, and fans plus press releases, new clippings, and reviews. They are filed by the title of the work. Also included is correspondence from publishers of periodicals soliciting manuscripts. These are filed together under 'periodicals.'</p>
+</scopecontent>
+<c02>
+<did>
+<unittitle>Texts and notes</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">828</container>
+<unittitle>Bibliography</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">829</container>
+<unittitle>"The Accomplishment of President Comstock," <title>Radcliffe Quarterly</title>
+<unitdate>1943 August</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">830</container>
+<unittitle>"The Administrative View of Organized Alumni," <title>Manual of Alumni Work</title>
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">831</container>
+<unittitle>"Admissions, the Depression, &amp; Scholarships," <title>Smith Alumnae Quarterly</title>
+<unitdate>1931 November</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">832</container>
+<unittitle>The Alumnae Fund and Salaries, <title>Smith Alumnae Quarterly</title>
+<unitdate>1927 May</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">833-36</container>
+<unittitle>
+<title>Allegory</title> (unpublished): miscellaneous notes
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">837-41</container>
+<unittitle>
+<title>Allegory</title> (unpublished): typescript
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">842</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Allegory": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">843</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Faerie Queen": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">844</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Shepheard's Calendar": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">845</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Bunyan": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">846</container>
+<unittitle>
+<title>Allegory</title> (unpublished) "Addison: Tatler no. 97": ms., incomplete
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">847</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Pastoral Allegory": ms., incomplete
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">848</container>
+<unittitle>
+<title>Allegory</title> (unpublished), Chapter I "The Nature of <title>Allegory</title>": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">849</container>
+<unittitle>
+<title>Allegory</title> (unpublished), Chapter II "Origins": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">850</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Pier's Plowman": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">851</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "John Gower": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">852</container>
+<unittitle>
+<title>Allegory</title> (unpublished) "Chaucer": notes and draft
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">853</container>
+<unittitle>
+<title>Allegory</title> (unpublished) "The Legend of Good Women": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">854</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Lydgate": outline
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">855</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Reason and Sensibility": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">856</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Temple of Glass": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">857</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Assembly of the Gods": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">858</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Assembly of Ladies": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">859</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Scottish School": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">860</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Robert Henryson": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">861</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Beauty and the Prisoner": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">862</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "William Dunbar": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">863</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Gavin Douglas" and "Stephen Hawes": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">864</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Court of Love": ms. and notes
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">865</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Moralities": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">866</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "The Allegorical Testament": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">867</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Keats": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">868</container>
+<unittitle>
+<title>Allegory</title> (unpublished), "Tennyson": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">869</container>
+<unittitle>
+<title>Allegory</title> (unpublished): miscellaneous
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">870</container>
+<unittitle>"The American Scholar Today" (Hampshire Bookshop)
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">871</container>
+<unittitle>"America's Dilemma," Defense Pamphlet No. 1
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">872</container>
+<unittitle>"The Apparel and the Man," <title>Atlantic Monthly</title>
+<unitdate>1903 May</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">873</container>
+<unittitle>"Are American Colleges Wasteful?" <title>Scribner's Magazine</title>
+<unitdate>1932 June</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">874</container>
+<unittitle>"Burns In English," <title>Anniversary Papers by Colleagues and Pupils of George Lyman Kittredge</title>
+<unitdate>1913</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">875</container>
+<unittitle>Burns, Robert: miscellaneous articles and fragments
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">876</container>
+<unittitle>"Challenge to Our Colleges," <title>New York Times Magazine</title>
+<unitdate>1942 June 7</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">877</container>
+<unittitle>"Character Drawing in the Waverly Novels," <title>Harvard Monthly</title>
+<unitdate>1896 November</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">878-79</container>
+<unittitle>
+<title>The City of Man</title>, "A Declaration of World Democracy"
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">880</container>
+<unittitle>
+<title>The City of Man</title>: first memorandum
+<unitdate>1939 May</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">881</container>
+<unittitle>
+<title>The City of Man</title>: note
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">882</container>
+<unittitle>
+<title>The City of Man</title>: proposa1
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">883</container>
+<unittitle>"College Finances of the Increase of Fees," <title>Smith Alumnae Quarterly</title>
+<unitdate>1926 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">884</container>
+<unittitle>
+<title>Collier's Encyclopedia</title>: preface by WAN: ms. and typescript
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">885</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>: miscellaneous
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">886</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>: biographical sketch
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">887</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "All's Well That Ends Well": introduction
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">888</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "The Comedy of Errors": introduction and proofs
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">889</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Coriolanus": proofs
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">890</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Cymbeline": introduction
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">891</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Henry IV, part 1": introduction and notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">892</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Henry IV, part 2": introduction and notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">893</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Henry V": notes and proofs
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">894</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Henry VI, parts 1, 2 and 3": notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">895</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Henry VIII": notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">896-97</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "King Lear": notes and proofs
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">898</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "The Life and Death of King John": introduction and notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">899</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Love's Labour's Lost": introduction
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">900</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Measure for Measure": introduction
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">901</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "The Merry Wives of Windsor": introduction
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">902</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "A Midsummer-Night's Dream": introduction and proofs
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">903</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Richard II": introduction
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">904</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Richard III": notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">905</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Romeo and Juliet": notes and proofs
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">906</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "The Tempest": introduction
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">907</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Timon of Athens": notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">908</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>, "Troilus and Cressida": introduction
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">909-10</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>: notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">911-12</container>
+<unittitle>
+<title>The Complete Plays and Poems of William Shakespeare</title>: notes
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">913</container>
+<unittitle>"The Curse of Memory," <title>The English Journal</title>
+<unitdate>1917 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">914</container>
+<unittitle>"Education Can Be No Better Than the Teachers," <title>Survey Graphic</title>
+<unitdate>1939 October</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">915</container>
+<unittitle>
+<title>The Education of the Modern Girl</title>: Introductory Note by WAN
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">916</container>
+<unittitle>"Charles William Eliot," <title>Encyclopedia of the Social Services</title>, Vol. 5
+<unitdate>1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">917</container>
+<unittitle>Charles William Eliot: miscellaneous articles and fragments
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">918</container>
+<unittitle>"The Elizabethan Drama," <title>Harvard Lectures</title>
+<unitdate>1913</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">919</container>
+<unittitle>"English," in <title>Paths to Success</title>, compiled by H.G. Black
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">920</container>
+<unittitle>"Faculty and Alumni": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">921</container>
+<unittitle>"Fundamental Problems," <title>Princeton Alumni Weekly</title>
+<unitdate>1939 January 13</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">922</container>
+<unittitle>"Horace Howard Furness"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">923</container>
+<unittitle>"The Future of the Humanities," <title>Harper's Magazine</title>: ms.
+<unitdate>1943 March</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">924</container>
+<unittitle>"Guarding the Line," Defense Pamphlet No. 4 (Hampshire Bookshop)
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">925</container>
+<unittitle>
+<title>Harvard Classics</title>: index and miscellaneous
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">926</container>
+<unittitle>
+<title>Harvard Classics</title>: "Shelf of Fiction," biographical notes
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">927</container>
+<unittitle>"Henry Drummond - A Memory": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">928</container>
+<unittitle>
+<title>History of English Literature</title>: "A Manual for Teachers" with A. H. Thorndike
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">929</container>
+<unittitle>
+<title>The Junior Classics</title>: introduction
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">930</container>
+<unittitle>"Junior Year In France": ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">931</container>
+<unittitle>"The Juniors Abroad," <title>Smith Alumnae Quarterly</title>
+<unitdate>1937 May</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">932</container>
+<unittitle>"The Liberal Arts as Vocational Training"
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">933</container>
+<unittitle>"The Life of the Teacher of Composition," <title>New England Association of Teachers of English</title>
+<unitdate>1912</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">934</container>
+<unittitle>
+<title>Merriam-Webster Dictionary of Biography</title>: articles on Burns and Shakespeare
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">935</container>
+<unittitle>"Minorities in Our Midst," <title>Survey Graphic</title>
+<unitdate>1939 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">936</container>
+<unittitle>Miscellaneous manuscripts
+<unitdate>1925, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">937</container>
+<unittitle>"Narrative Writing in Medieval Times," <title>The Reader</title>
+<unitdate>1906 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">938</container>
+<unittitle>
+<title>Normal Youth and Its Everyday Problems</title> by Douglas A. Thom: introduction by WAN
+<unitdate>1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">939</container>
+<unittitle>"A Note on Graduate Projects," <title>Smith Alumnae Quarterly</title>
+<unitdate>1929 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">940</container>
+<unittitle>"A Note on Scholarships." <title>Smith Alumnae Quarterly</title>
+<unitdate>1927 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">941</container>
+<unittitle>"Nova Solyma," <title>Modern Philology</title>
+<unitdate>1904 April</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">942</container>
+<unittitle>"On Milton's Conception of Poetry" <title>Studies in the History of Culture</title>
+<unitdate>1942 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">943</container>
+<unittitle>Original of 'The Complaynt of Scotlande'," <title>Journal of Germanic Philology</title>
+<unitdate>1897</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">944</container>
+<unittitle>"Overcrowding in Women's Colleges," <title>The Nation</title>: ms.
+<unitdate>1925 May 13</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">945</container>
+<unittitle>"The Question of the Women's Colleges" with the presidents of the seven women's colleges
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">946</container>
+<unittitle>"Phi Beta Kappa's Women President," <title>The Key Reporter</title>
+<unitdate>1940 Autumn</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">947</container>
+<unittitle>"Political Silhouettes"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">948</container>
+<unittitle>"The Preaching Scot," <title>Harvard Monthly</title>
+<unitdate>1902? May</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">949</container>
+<unittitle>"The Process of Reading" <title>Journal of Adult Education</title>
+<unitdate>1938 June</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">950</container>
+<unittitle>"The Process of Peace": ms.
+<unitdate>1930 January 24</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">951</container>
+<unittitle>"The Purgatory of Cruel Beauties": reprint
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">952</container>
+<unittitle>Report of the President, Smith College
+<unitdate>1925-1926</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">42</container>
+<container type="folder">953</container>
+<unittitle>"The Responsibility of the Parent," Reader's Digest
+<unitdate>1935</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">954</container>
+<unittitle>
+<title>Roads to Knowledge</title>: introduction
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">955</container>
+<unittitle>
+<title>Roads to Knowledge</title>: miscellaneous
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">956</container>
+<unittitle>"Robert Louis Stevenson" The Week
+<unitdate>1894 December 21</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">957</container>
+<unittitle>"The Scots of America"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">958</container>
+<unittitle>"Laurenus Clark Seelye," <title>Dictionary of American Biography</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">959</container>
+<unittitle>Laurenus Clark Seelye by Harriet Seelye Rhees: Preface by WAN
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">960</container>
+<unittitle>"Shakespeare and Plagiarism" <title>Sunday Magazine</title>
+<unitdate>1906 April 22</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">961</container>
+<unittitle>"Shakespeare in Recent Years" <title>Sewanee Review</title>
+<unitdate>1908 January</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">962</container>
+<unittitle>"Shall We Join the Ladies?" <title>School and Society</title>
+<unitdate>1929 April 13</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">963</container>
+<unittitle>"Should Women Be Educated Like Men?" <title>Forum</title>
+<unitdate>1929 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">964-66</container>
+<unittitle>
+<title>Smith College: the First 50 Years</title> by Harry Norman Gardiner: ms. chapters I, III, and IV
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">967-80</container>
+<unittitle>
+<title>Smith College: the First 75 Years</title> by Harry Norman Gardiner and WAN: text, chapters II-VIII
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<container type="folder">981-85</container>
+<unittitle>
+<title>Smith College: the First 75 Years</title> by Harry Norman Gardiner and WAN: notes
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">44</container>
+<unittitle>
+<title>Smith College: the First 75 Years</title> by Harry Norman Gardiner and WAN: unfinished typescript
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">986</container>
+<unittitle>"Status of Faculties in University Government"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">987</container>
+<unittitle>"The Study of English," <title>Why Study?</title>: ms.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">988</container>
+<unittitle>
+<title>Syllabus in the Humanities</title>, introduction by WAN (Eliot Foundation of Adult Education)
+<unitdate>1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">989</container>
+<unittitle>"Teaching Shakespeare in the Schools"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">990</container>
+<unittitle>"The Theory of Censorship," <title>Atlantic Monthly</title>
+<unitdate>1930 January</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">991</container>
+<unittitle>"Ashley Horace Thorndike," <title>Dictionary of American Biography</title>
+<unitdate>1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">992</container>
+<unittitle>"Town and Gown Today," <title>Journal of Adult Education</title>
+<unitdate>1931 April</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">993</container>
+<unittitle>"The Training School of Psychiatric Social Work at Smith College," <title>Mental Hygiene</title>
+<unitdate>1918 October</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">994</container>
+<unittitle>"Undergraduate Study in Europe," <title>New York Herald Tribune</title>
+<unitdate>1931 August 16</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">995</container>
+<unittitle>"The Universities and Adult Education"
+<unitdate>1930 March</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">996</container>
+<unittitle>"Upper Canada College," <title>The Canadian Magazine</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">997</container>
+<unittitle>"What is the Job of Our Colleges? For Personality Development," <title>New York Times Magazine</title>
+<unitdate>1937 March 7</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">998</container>
+<unittitle>"What Price Tenure?" <title>Associated Harvard Clubs</title>
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">999</container>
+<unittitle>"What the College Has a Right to Expect of the Schools of English," <title>The School Review</title>
+<unitdate>1908 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1000</container>
+<unittitle>"Why More Buildings?" <title>Smith Alumnae Quarterly</title>
+<unitdate>1931 November</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1001</container>
+<unittitle>"William James As Lecturer and Writer," <title>Harvard Illustrated Magazine</title>
+<unitdate>1907 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1002</container>
+<unittitle>"The Women's Colleges Reply," <title>Atlantic Monthly</title>
+<unitdate>1929 February</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1003</container>
+<unittitle>
+<title>Years of Building</title> by Caroline A. Yale: introduction by WAN
+<unitdate>1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1004-08</container>
+<unittitle>Reviews by WAN A-Z
+<unitdate>1895-1944, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Correspondence and News Clippings</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1009</container>
+<unittitle>
+<title>Allegory</title>: correspondence
+<unitdate>1921-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1010</container>
+<unittitle>
+<title>Broadcast Speech--NBC's Handbook for Announcers &amp; Speakers</title>: news clippings
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1011</container>
+<unittitle>
+<title>Burns, How to Know Him</title>: correspondence
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1012</container>
+<unittitle>
+<title>The Cambridge Shakespeare</title>: correspondence
+<unitdate>1902-1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1013</container>
+<unittitle>
+<title>Chief British Poets of the 14th and 15th Centuries</title> (1916): correspondence
+<unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1014</container>
+<unittitle>
+<title>Chief Elizabethan Dramatists Excluding Shakespeare</title> (1911):correspondence
+<unitdate>1911</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1015</container>
+<unittitle>
+<title>The Collier Classics</title>: correspondence, general
+<unitdate>1916-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1016</container>
+<unittitle>
+<title>The Collier Classics: American Patriots &amp; Statesmen</title>: correspondence
+<unitdate>1916-1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1017</container>
+<unittitle>
+<title>The Collier Classics: National Defense Library</title>: correspondence
+<unitdate>1916-1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1018-20</container>
+<unittitle>
+<title>Collier's Encyclopaedia</title>: correspondence
+<unitdate>1920-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1021-23</container>
+<unittitle>
+<title>Collier's Encyclopaedia</title>: National Year Book: correspondence
+<unitdate>1934-1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1024</container>
+<unittitle>
+<title>The Complete Plays &amp; Poems of William Shakespeare</title> (1942) with Charles J. Hill: correspondence
+<unitdate>1937-1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1025-28</container>
+<unittitle>
+<title>Charles William Eliot, the Man and His Beliefs</title>: correspondence
+<unitdate>1916-1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">45</container>
+<container type="folder">1029</container>
+<unittitle>
+<title>Charles William Eliot, the Man and His Beliefs</title>: news clippings
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1030</container>
+<unittitle>"Charles William Eliot," <title>Encyclopaedia of: the Social Sciences</title>: correspondence
+<unitdate>1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1031</container>
+<unittitle>
+<title>English &amp; Scottish Popular Ballads</title> (1909): correspondence
+<unitdate>1905-1907</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1032-33</container>
+<unittitle>
+<title>Essentials of Poetry</title> (1912): correspondence
+<unitdate>1912-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1034</container>
+<unittitle>
+<title>Essentials of Poetry</title>: reviews
+<unitdate>1912</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1035</container>
+<unittitle>
+<title>The Facts about Shakespeare</title>: correspondence
+<unitdate>1922-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1036-40</container>
+<unittitle>
+<title>The Harvard Classics</title>: correspondence with P.F. Collier's
+<unitdate>1909-1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1041-42</container>
+<unittitle>
+<title>The Harvard Classics</title>: correspondence with Charles W. Eliot
+<unitdate>1909-1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1043</container>
+<unittitle>
+<title>The Harvard Classics</title>: correspondence, miscellaneous
+<unitdate>1922-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1044-47</container>
+<unittitle>
+<title>History of English Literature</title>: correspondence
+<unitdate>1918-1931</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1048</container>
+<unittitle>
+<title>Intellectual Honesty and Other Addresses</title> (1940): news clippings
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1049-51</container>
+<unittitle>
+<title>The Junior Classics</title> (1912): correspondence
+<unitdate>1913-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1052</container>
+<unittitle>"Manual of Alumni Work": news clippings and press releases
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1053</container>
+<unittitle>
+<title>Merriam-Webster Dictionary of Biography</title>: minutes
+<unitdate>1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1054</container>
+<unittitle>Miscellaneous
+<unitdate>1903-1937, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1055</container>
+<unittitle>
+<title>The Origins &amp; Sources of the Court of Love</title> (1899): correspondence
+<unitdate>1900-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Periodicals</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">46</container>
+<container type="folder">1056</container>
+<unittitle>Miscellaneous
+<unitdate>1903-1942</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">46</container>
+<container type="folder">1057</container>
+<unittitle>
+<title>The Atlantic Monthly</title>: correspondence
+<unitdate>1924-1938</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">46</container>
+<container type="folder">1058</container>
+<unittitle>
+<title>Fashions of the Hour</title>: correspondence
+<unitdate>1929-1930</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">46</container>
+<container type="folder">1059</container>
+<unittitle>
+<title>Journal of Higher Education</title>: correspondence
+<unitdate>1930-1937</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">46</container>
+<container type="folder">1060</container>
+<unittitle>
+<title>The Nation</title>: correspondence
+<unitdate>1922-1930</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">46</container>
+<container type="folder">1061</container>
+<unittitle>
+<title>The New York Times</title>: correspondence
+<unitdate>1931-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">46</container>
+<container type="folder">1062</container>
+<unittitle>
+<title>Saturday Review of Literature</title>: correspondence
+<unitdate>1924-1942</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">46</container>
+<container type="folder">1063</container>
+<unittitle>
+<title>Survey Graphic</title>: correspondence
+<unitdate>1937-1939</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1064</container>
+<unittitle>
+<title>Roads to Knowledge</title> (1937): news clippings
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">46</container>
+<container type="folder">1065-70</container>
+<unittitle>
+<title>Roads to Knowledge</title> (1937): correspondence
+<unitdate>1928-1937</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1071-72</container>
+<unittitle>Royalty statements: Houghton, Mifflin Co.
+<unitdate>1917-1932</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1073</container>
+<unittitle>Royalty statements: MacMillan Co.
+<unitdate>1921-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1074</container>
+<unittitle>
+<title>The Scottish Psalter</title> (1927), Introduction by WAN: correspondence
+<unitdate>1926-1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1075</container>
+<unittitle>
+<title>Selections from Chaucer</title> (1921): correspondence
+<unitdate>1921-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1076-78</container>
+<unittitle>
+<title>Shakespeare's Works, Lake English Classics</title>: correspondence
+<unitdate>1900-1923</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1079</container>
+<unittitle>
+<title>Shakespeare's Works, Lake English Classics</title>: statement of sales
+<unitdate>1915-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1080</container>
+<unittitle>"Should Women Be Educated Like Men?": correspondence
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1081</container>
+<unittitle>
+<title>Tudor Shakespeare</title> (1911-1913): correspondence
+<unitdate>1919-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1082</container>
+<unittitle>
+<title>Types of English Literature</title> (1907-?): correspondence and miscellaneous
+<unitdate>1904-1909, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1083</container>
+<unittitle>
+<title>Webster's New International Dictionary, Second Edition</title> (1934): advertisement, pamphlets
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1084-88</container>
+<unittitle>
+<title>Webster's New International Dictionary, Second Edition</title> (1934): correspondence
+<unitdate>1924-45</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">47</container>
+<container type="folder">1089</container>
+<unittitle>
+<title>Webster's New International Dictionary, Second Edition</title> (1934):): news clippings - dinner to announce publication
+<unitdate>1934 June</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Volumes by WAN</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>Burns, How to Know Him</title>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>The Chief Elizabethan Dramatists Excluding Shakespeare</title>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>The City of Man: A Declaration of World Democracy</title>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>Essentials of Poetry</title>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>The Function of Higher Education</title> with Carl Frederick White</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>A History of English Literature</title> with Ashley Horace Thorndike</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>Intellectual Honesty and Other Addresses</title>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>Roads to Knowledge</title>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>Selections from Chaucer</title> with Howard Rollin Patch</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>Years of Building</title> by Caroline A. Yale, Introduction by WAN</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">47</container>
+<unittitle>
+<title>Index to the Harvard Classics</title>
+</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

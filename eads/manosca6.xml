@@ -1,0 +1,4681 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca6.xml//EN" countrycode="us" mainagencycode="manosca">manosca6</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Honorary Degree Files, 1910-[ongoing]
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Katrina Cokeng.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+<date>2003-06-03</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca6 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Honorary Degree Files, 1910-[ongoing]
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 12
+</num>
+<author>Katrina Cokeng
+</author>
+<date>2000
+</date>
+
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Smith College.</persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Honorary Degree Files</unittitle><unitdate encodinganalog="245$f" type="inclusive">1910-[ongoing]</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 12</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">8 boxes</extent>
+<extent encodinganalog="300$a">(3 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Contains press releases, newspaper clippings, photographs, correspondence, as well as biographical information on those awarded the honorary degree, and information about the particular Commencement when the degree was awarded.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>The Honorary Degree files, 1910-present, located in the Smith College Archives, contain press releases, newspaper clippings, photographs, and correspondence concerning the process of awarding the honorary degree at Smith, as well as biographical information on those awarded the honorary degree, and information about the particular Commencement when the degree was awarded.  These files were maintained by the Office of Public Relations, as well as the Office of the Board of Trustees and transferred over a period of years.</p>
+<p>This collection is organized into five series:</p>
+<list>
+<item>
+<ref target="list-ser1">I: Chronological Files</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Individual Files</ref>
+</item>
+<item>
+<ref target="list-ser3">III. Board of Trustees - Committee on Honorary Degrees  </ref>
+</item>
+</list>
+
+</scopecontent>
+
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the 12. Honorary Degree Files must be requested from the Smith College Archives.  Official Smith correspondence and documents are copyrighted by the Smith College Archives.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Honorary Degree Files, Box #, Smith College Archives.</p>
+</prefercite>
+<accruals encodinganalog="584" id="admin-accruals">
+<head>Additions to the Collection</head>
+<p>Additions to these records arrive in the College Archives on a regular basis.  Please contact the College Archives for the most up-to-date information.
+</p>
+</accruals>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<processinfo id="admin-process">
+<p>Processed by Katrina Cokeng.</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<corpname encodinganalog="610" source="lcsh">Smith College--Degrees.</corpname>
+<subject encodinganalog="650" source="lcsh">Degrees, Academic--Massachusetts--Northampton.</subject>
+<corpname encodinganalog="710" source="lcnaf">Smith College. Board of Trustees. Committee on Honorary Degrees.</corpname>
+</controlaccess>
+<dsc type="in-depth" id="list-contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I.  Chronological Files - General information</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1910-11</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1913-14</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1920-21</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1924-25</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1925-26</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1926-27</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1927-28</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1928-29</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1929-30</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1930-31</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1931-32</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1932-33</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1933-34</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1935-36</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1936-37</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1937-38</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1940-41</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1942-43</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1943-44</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1944-45</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1945-46</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1946-47</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1947-48</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1948-49</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1950-51</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1951-52</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1952-53</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1953-54</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1954-55</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1955-56</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1956-57</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1957-58</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1958-59</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1959-60</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1960-61</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1961-62</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1962-63</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1963-64</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1964-65</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1965-66</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1966-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1967-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1968-69</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1969-70</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1970-71</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1971-72</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1972-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1973-74</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1974-75</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1975-76</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1976-77</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1978-79</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1980-81</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1982-83</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1983-84</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1985-86</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1987-88</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1990-91</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1991-92</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">79</container>
+<unittitle>
+<unitdate>1994-</unitdate>
+</unittitle>
+</did>
+</c02>
+
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II. Alphabetical Files - Honorary Degree Recipients</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Abbott, Berenice - DFA
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Addams, Jane - LLD
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Allen, Hope Emily - LHD
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Anderson, Marian - MUSD
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Angelou, Maya - LittD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Anderson, Mary - LLD
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Arendt, Hannah - LLD
+<unitdate>1966</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Atwood, Margaret - LittD
+<unitdate>1982</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Barranechea, Ana Maria - LittD
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Barrow, Dame Ruth Nita - LLD
+<unitdate>1991</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Baumgartner, Leona - ScD
+<unitdate>1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Beard, Mary R. - LLD
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Begtrup, Bodil - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Bequignon-Lagarde, Charlotte - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Berendsen, Mildred Jeanmarie - LHD
+<unitdate>1991</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Bishop, Elizabeth - LittD
+<unitdate>1968</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Blanding, Sarah Gibson - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Boardman, Mabel Thorpe - LLD
+<unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Boggs, Jean Sutherland - LLD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Boulanger, Nadia - DFA
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Blanchard, Elizabeth - AM
+<unitdate>1888</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Bree, Germaine - LittD
+<unitdate>1960</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Bunting, Mary I. - LLD
+<unitdate>1960</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Burbridge, Eleanor Margaret Peachey - ScD
+<unitdate>1963</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Caldwell, Sarah - DFA
+<unitdate>1974</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cam, Helen Maud - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Carmirelli, Pina - MusD
+<unitdate>1982</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Carson, Rachel - LittD
+<unitdate>1953</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cather, Willa Sibert - LHD
+<unitdate>1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Chan, Palay '65
+<unitdate>1979</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Chisholm, Shirley - LLD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Clapp, Margaret - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cleary, Catherine Blanchard - LLD
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Conte, Silvio O. - LLD
+<unitdate>1991</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cook, Constance Eberhardt - LLD
+<unitdate>1971</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Coolidge, Elizabeth Sprague - AM
+<unitdate>1927</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Coolidge, Grace Goodhue - LLD
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cooney, Joan Ganz - LLD
+<unitdate>1986</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cori, Gerty T. - ScD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cornell, Catherine - LHD
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cowles, Louise Frances - AM
+<unitdate>1893</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Cromwell, Otelia - LLD
+<unitdate>1950</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">80</container>
+<unittitle>Cromwell, Otelia - LLD: Correspondence
+<unitdate>1940-50</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Crosby, Elizabeth Caroline - ScD
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Crowdy, Dame Rachel Eleanor - LLD
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Curie, Marie Sklodowska - ScD
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<unittitle>Curie, Marie Sklodowska - ScD: Photos</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>D'Alverny, Marie Therese - LittD
+<unitdate>1977</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Dean, Vera Micheles - LLD
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">80</container>
+<unittitle>Del Mundo, Fe - ScD
+<unitdate>1970</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>De Mille, Agnes George - LHD
+<unitdate>1954</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>De Valois, Dame Ninette - DFA
+<unitdate>1957</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Donhoff, Marion Grafin - LHD
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Draper, Ruth - LHD
+<unitdate>1947</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Dresselhaus, Mildred - ScD
+<unitdate>1980</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Drinker, Sophie - MusD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Edelman, Marian Wright - LLD
+<unitdate>1969</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Edwards, Amelia Blanford - LLD
+<unitdate>1886</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Eliot, Martha May - ScD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Farrand, Beatrix Codwalader Jones
+<unitdate>1936</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Feng, Yen-Tsai - LHD
+<unitdate>1982</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Fermin-Gomes, Mercedes - LLD
+<unitdate>1970</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Fichandler, Zelda - DFA
+<unitdate>1977</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Fieser, Mary Peters - ScD
+<unitdate>1969</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Fisher, Dorothy Canfield - LHD
+<unitdate>1954</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Fiske, Minnie Maddern - AM
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Flanner, Janet - LittD
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Frankenthaler, Helen - DFA
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Gaposchkin, Cecilia Payne - ScD
+<unitdate>1951</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Gilbreth, Lillian Moller - ScD
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Gildersleeve, Virginia Crocheron - LHD
+<unitdate>1936</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Giovanni, Nikki - LittD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Gleason, Catherine Crozier - MusD
+<unitdate>1965</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Gleditsch, Ellen - ScD
+<unitdate>1914</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Gordimer, Nadine - LittD
+<unitdate>1985</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Graham, Katherine - LLD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Graham, Martha - DFA
+<unitdate>1969</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Fell, Honor Bridget - ScD
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Granville, Evelyn Boyd - ScD
+<unitdate>1989</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Grasso, Ella Tambussi - LLD
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Griffiths, Martha Wright - LLD
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Grosman, Tatyana - DFA
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hagen, Uta - DFA
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hall, Helen - LHD
+<unitdate>1969</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hamilton, Alice - ScD
+<unitdate>1927</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hamilton, Gordon - LHD
+<unitdate>1953</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hanks, Nancy - LHD
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hardwick, Elizabeth - LittD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Harris, Julie - AM
+<unitdate>1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Harris, Patricia Roberts - LLD
+<unitdate>1974</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Harris, Rosemary - DFA
+<unitdate>1968</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Harrison, Anna - ScD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hartridge, Emelyn Battersby - LHD 
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hayes, Helen - LHD
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Height, Dorothy Irene - LittD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hellman, Lillian - LittD
+<unitdate>1974</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Henderson, Julia Juanita - LLD
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hewitt, Helen Margaret - LittD
+<unitdate>1968</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Himmelfarb, Gertrude - LittD
+<unitdate>1977</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hirsch, Katrina de 
+<unitdate>1984</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hobby, Oveta Culp - LLD
+<unitdate>1954</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hoffleit, E. Dorrit - ScD
+<unitdate>1984</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<unittitle>Hoffleit, E. Dorrit - ScD: Clippings, awards, etc.</unittitle>
+</did></c03>
+<c03>
+<did>
+<unittitle>Hoffleit, E. Dorrit - ScD: Publications</unittitle>
+</did></c03>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hoffman, Malvina - LHD
+<unitdate>1951</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Holtzman, Elizabeth - LLD
+<unitdate>1982</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hopper, Grace Murray - LLD
+<unitdate>1984</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Homer, Louise - AM
+<unitdate>1931</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Horner, Matina Souretis - LLD
+<unitdate>1979</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hortsmann, Dorothy Millicent - ScD
+<unitdate>1961</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Howe, Julia Ward - LLD
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Hufstedler, Shirley Mount - LLD
+<unitdate>1982</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">81</container>
+<unittitle>Huxstable, Ada Louise - LHD
+<unitdate>1968</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Inhelder, Barbel - ScD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Jodai, Tano - LLD
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Johnson, Laura - LLD
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Jones, Sir Robert - ScD
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Jordan, Sara Murray - ScD
+<unitdate>1935</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Kael, Pauline - LittD
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Kaur, Rajkumari Amrit - LLD
+<unitdate>1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Kennan, Elizabeth Topham - LLD
+<unitdate>1984</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Kirkbride, Mary - ScD
+<unitdate>1932</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Kohler, Charlotte - LittD
+<unitdate>1971</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Kramrisch, Stella - LHD
+<unitdate>1982</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Krokodilou, Koralia Afroditi - AM
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Kubler-Ross, Elizabeth - ScD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Lathrop, Julia Clifford - LLD
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>LeGallienne, Eva - LHD
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Lewis, Elma - DFA
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>MacCaffrey, Isabel Gamble - LHD
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>MacKenzie, Jean Kenyon - AM
+<unitdate>1927</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Maeztu, Maria de - LLD
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Mahoney, Margaret - LLD
+<unitdate>1985</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Marti Kainen, Anne Helen - ScD
+<unitdate>1969</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Mayer, Maria Goeppert - ScD
+<unitdate>1961</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Maz, Veronica - LHD
+<unitdate>1980</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>McAfee, Mildred Helen - LLD
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>McBride, Katharine Elizabeth - LLD
+<unitdate>1947</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>McClintock, Barbara - ScD
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>McCormick, Anne O'Hare - LLD
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>McGinley, Phyllis - LittD
+<unitdate>1964</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>McIntosh, Millicent Carey - LLD
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>McKinley, William - LLD
+<unitdate>1899</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Mead, Elizabeth Storrs - LHD
+<unitdate>1900</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Meir, Gold - LLD
+<unitdate>1960</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Meitner, Lise - ScD
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Mentschikoff, Soia - LLD
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Mitford, Jessica - LittD
+<unitdate>1974</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Mongan, Elizabeth - LHD
+<unitdate>1985</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Morawetz, Cathleen Synge - ScD
+<unitdate>1982</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Morini, Erica - MusD
+<unitdate>1955</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Morrison, Toni  - LHD
+<unitdate>1991</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Motley, Constance Baker - LHD
+<unitdate>1965</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Musgrowe, Thea - MusD
+<unitdate>1979</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Neilson, Nellie - LHD
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Nevelson, Louise - DFA
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Newcomer, Mabel - LLD
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Norton, Eleanor Holmes - LLD
+<unitdate>1983</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>O'Connor, Flannery - LittD
+<unitdate>1963</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Ogata, Sadako - LLD
+<unitdate>1980</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">82</container>
+<unittitle>Origigo, Iris - LittD
+<unitdate>1964</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Pantaleoni, Helenka - LittD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Park, Marion Edwards - LLD
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Patrick, Mary Mills - LLD
+<unitdate>1914</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Pate, Martha Lucas - LHD
+<unitdate>1971</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Pendleton, Ellen Fitz - LLD
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Peterson, Esther Eggertsen - LLD
+<unitdate>1963</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Phillips, Marjorie - DFA
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Porada, Edith - LittD
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Porter, Katharine Anne - LittD
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Porter, Sylvia Field - LLD
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Pound, Louise - LHD
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Putnam, Bertha Haven - LLD
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Ray, Dixie Lee - ScD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Reading, Dowager Marchioness of - LLD
+<unitdate>1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Reid, Helen Rogers - LLD
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Rich, Adrienne - LittD
+<unitdate>1979</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Richmond, Mary Ellen - AM
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Richter, Gisela - LHD
+<unitdate>1935</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Rincon, Maria Elena - LHD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Robbins, Caroline - LLD
+<unitdate>1971</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Robinson, Julia Bowman - ScD
+<unitdate>1979</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Roche, Josephine - LLD
+<unitdate>1932</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Roosevelt, Eleanor - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Sanger, Margaret - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Schain, Josephine - LLD
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Scharrer, Berta - ScD
+<unitdate>1980</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Sills, Beverly - LHD
+<unitdate>1985</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Simkhovitch, Mary Kingsbury - LLD
+<unitdate>1951</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Skard, Ase Gruda - LHD
+<unitdate>1983</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Smith, Margaret Chase - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Smith, Olive Watkins - ScD
+<unitdate>1951</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Speer, Emma Bailey - AM
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Stevens, Rise - DFA
+<unitdate>1970</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Stevenson, George Stanley - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Storrow, Helen Osborne - AM
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Stratton, Dorothy Constance - LLD
+<unitdate>1952</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Stringfellow, Ethel Grey - LHD
+<unitdate>1960</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Suzman, Helen - LLD
+<unitdate>1977</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Switzer, Mary Elizabeth - LLD
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Talichief, Maria - DFA
+<unitdate>1981</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Taylor, James Monroe - LLD
+<unitdate>1913</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Thompson, Helen Elizabeth - LHD
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Tuchman, Barbara - LittD
+<unitdate>1974</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Ullmann, Liv - DFA
+<unitdate>1980</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Underhill, Eliza Parker - AM
+<unitdate>1892</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Undset, Sigrid - LittD
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Usilton, Lida Josephine - ScD
+<unitdate>1953</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Van Doren, Irita - LittD
+<unitdate>1955</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Vermuele, Emily Dickinson - LittD
+<unitdate>1972</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wald, Lillian D. - LHD
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Walsh, Julia Montgomery - LHD
+<unitdate>1982</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wanamaker, Pearl Anderson - LHD
+<unitdate>1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Ward, Barbara - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Webster, Margaret - LHD
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wedel, Cynthia Clark - LHD
+<unitdate>1972</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wedgwood, Cicely Veronica - LLD
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wexler, Jaqueline Grennan - LLD
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Whitton, Charlotte Elizabeth - LLD
+<unitdate>1955</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wilhelmina, Princess of the Netherlands - LLD
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wilkinson, Elizabeth M. - LLD
+<unitdate>1966</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Williams, Cicely Delphine - ScD
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wilson, Margaret Bush - LLD
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wolff, Helen - LHD
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wooley, Mary Emma - LLD
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wright, Mary Clabaugh - LLD
+<unitdate>1968</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Wu, Yi-Fang - LLD
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83</container>
+<unittitle>Yourcenar, Marguerite - LittD
+<unitdate>1961</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">83.1</container>
+<unittitle>Citations for Recipients A-Z
+<unitdate></unitdate>
+
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III. Board of Trustee - Committee on Honorary Degrees</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Abbott, Berenice
+<unitdate>1972-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Allen, Hope Emily 
+<unitdate>1945-46</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Anderson, Mary
+<unitdate>1940-41</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Atwater, Helen Woodard
+<unitdate>1942-43</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Beals, Rose Fairbanks
+<unitdate>1933-34</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Beard, Mary (Mrs.)
+<unitdate>1947-48</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Anderson, Marian
+<unitdate>1943-44</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Arendt, Hannah
+<unitdate>1966</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Arnstein, Margaret
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Barranechea, Ana Maria
+<unitdate>1977-78</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Baumgartner, Leona
+<unitdate>1954-56</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Beard, Mary (Miss)
+<unitdate>1944-45</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Begley, Bodil
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Bell, Kathleen
+<unitdate>1958-59</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Bishop, Elizabeth
+<unitdate>1967-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Blanding, Sarah Gibson
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Blanshard, Frances
+<unitdate>1945-46</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Boggs, Jean
+<unitdate>1974</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Boulanger, Nadia
+<unitdate>1893-94</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Boyden, Helen Childs 
+<unitdate>1933-34</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Bradbrook, Muriel Clara
+<unitdate>1964-65</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Branch, Anna Hempstead
+<unitdate>1933-34</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Bree, Germaine
+<unitdate>1960</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Brown, Adelaide
+<unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Bunce, Elizabeth
+<unitdate>1970-71</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Bunting, Mary I.
+<unitdate>1959-60</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Burbridge, E. Margaret
+<unitdate>1963</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Caldwell, Sarah
+<unitdate>1967-74</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Calkins, Mary Whiton
+<unitdate>1910-11</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Cam, Helen
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Carson, Rachel
+<unitdate>1952-53</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Carus-Wilson, Eleanora
+<unitdate>1967-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Chandler, Gloria
+<unitdate>1966-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Chase, Mary Ellen
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Chilton, Constance
+<unitdate>1950-51</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Clapp, Margaret
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Cleary, Catherine Blanchard
+<unitdate>1972-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Coe, Hazel Winans
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Cook, Constance
+<unitdate>1971</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Coolidge, Elizabeth Sprague
+<unitdate>1926-27</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Coolidge, Grace
+<unitdate>1928-29</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Core, Gerty T.
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Cornell, Katharine
+<unitdate>1936-37</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Crane, Jocelyn
+<unitdate>1946-47</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Crawford, Cheryl
+<unitdate>1961-62</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Crosby, Elizabeth C.
+<unitdate>1964-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Crowdy, Rachel
+<unitdate>1925-26</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Crozier, Catharine
+<unitdate>1964-65</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Curie, Madame Marie
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Dean, Vera Micheles
+<unitdate>1943-44</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>DeForest, Charlotte B.
+<unitdate>1920-21</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Del Mundo, Fe
+<unitdate>1968-70</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>De Malkiel, Maria Rosa Lida
+<unitdate>1954-55</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>De Mille, Agnes
+<unitdate>1953-54</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Der Nersessian, Sirarpie
+<unitdate>1956-57</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>De Valois, Ninette
+<unitdate>1900-01</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Dodd, Marion E.
+<unitdate>1935-36</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Donhoff, Marion Grafin
+<unitdate>1961-62</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Draper, Ruth
+<unitdate>1946-47</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Drinker, Sophie
+<unitdate>1948-49</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Duckett, Eleanor Shipley
+<unitdate>1948-49</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Dunn, Esther Cloudman
+<unitdate>1955-56</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Edelman, Marian Wright
+<unitdate>1966-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Eliot, Martha
+<unitdate>1948-49</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Engel, Katharine Asher
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Farrand, Beatrix
+<unitdate>1935-36</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Fay, Marion Spencer
+<unitdate>1963-64</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Fell, Honor B.
+<unitdate>1961-62</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Fermin-Gomez, Mercedes
+<unitdate>1969-70</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Fielding, Marian Ropes
+<unitdate>1964-65</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Fieser, Mary Peters
+<unitdate>1969</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Fisher, Dorothy Canfield
+<unitdate>1954</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Fiske, Minnie Maddern
+<unitdate>1925-26</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Flanner, Janet
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Foley, Edna Lois
+<unitdate>1928-29</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Fosdick, Florence
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Frankenthaler, Helen
+<unitdate>1972-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Gilbreth, Lillian
+<unitdate>1944-45</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Gildersleeve, Virginia
+<unitdate>1935-36</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Goldring, Winifred
+<unitdate>1956-57</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Graham, Martha
+<unitdate>1967-69</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Grosman, Tatyana
+<unitdate>1972-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hall, Helen
+<unitdate>1967-69</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hamilton, Gordon
+<unitdate>1951-52</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Harris, Julie
+<unitdate>1955-56</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Harris, Patricia Roberts
+<unitdate>1971-72</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Harris, Rosemary
+<unitdate>1967-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Harrison, Anna
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hartridge, Emelyn B.
+<unitdate>1927-28</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Harvey, Constance Ray
+<unitdate>1951-52</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hay, Elizabeth Dexter
+<unitdate>1967-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hayes, Helen
+<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hellman, Lillian
+<unitdate>1967-74</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Henderson, Julia Juanita
+<unitdate>1966-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hewitt, Helen Margaret
+<unitdate>1966-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hill, Edith N.
+<unitdate>1927-28</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hill, Justina
+<unitdate>1940-41</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hines, Marion
+<unitdate>1942-43</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hobby, Oveta Culp
+<unitdate>1954</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hoffman, Malvina
+<unitdate>1938-51</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Holland, Louise Adams
+<unitdate>1964-65</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hollis, Florence
+<unitdate>1966-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Homer, Louise
+<unitdate>1930-31</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Horstmann, Dorothy
+<unitdate>1961</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Howe, Julia Ward
+<unitdate>1910-11</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Humphreys, Eleanor Mary
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Hunt, Harriet Larned
+<unitdate>1948-49</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Huxtable, Ada Louise
+<unitdate>1967-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Inhelder, Barbel
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Jackson, Elizabeth Skiller
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Jodai, Tano
+<unitdate>1961-62</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Jordan, Sara Murray
+<unitdate>1934-35</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Joseph, Mother Mary
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Kael, Pauline
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Kane, Amanda (Bryan)
+<unitdate>1954-55</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Kaur, Rajkumari Amrit
+<unitdate>1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Kelly, Florence
+<unitdate>1950-60</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Kenyon, Dorothy
+<unitdate>1947-48</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Kirkbride, Mary B.
+<unitdate>1931-32</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Kimball, Everett
+<unitdate>1946-47</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Kohler, Charlotte
+<unitdate>1968-71</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Krokodilou, Koralia Afroditi
+<unitdate>1947-48</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Lagarde, Charlotte
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Lamont, Florence (Corliss)
+<unitdate>1951-52</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Lathrop, Julia
+<unitdate>1920-21</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Leet, Dorothy F.
+<unitdate>1953-54</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Lord, Mary (Pillsbury)
+<unitdate>1943-53</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Mackenzie, Jean Kenyon
+<unitdate>1926-27</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Maeztu, Maria de
+<unitdate>1918-19</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Marshall, Dorothy Nepper
+<unitdate>1971-72</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Martikainen, A. Helen
+<unitdate>1962-69</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Marsh, Margaret Mitchell
+<unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Mayer, Maria Goeppert
+<unitdate>1960-61</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>McAfee, Helen
+<unitdate>1934-35</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>McBee, Mary Vardrine
+<unitdate>1935-36</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>McBride, Katherine
+<unitdate>1946-47</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>McClintock, Barbara
+<unitdate>1957-58</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>McClay, Ellen (Zinsser)
+<unitdate>1952-53</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>McCormick, Anne O'Hare
+<unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>McGinley, Phyllis
+<unitdate>1961-64</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>McIntosh, Millicent Carey
+<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Meir, Golda
+<unitdate>1959-60</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Meitner, Lise
+<unitdate>1945-46</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Mellon, Gwendolyn (Grant)
+<unitdate>1958-59</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Metschikoff, Soia
+<unitdate>1966-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Miller, Dorothy C.
+<unitdate>1951-59</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Mistral, Gabriela
+<unitdate>1947-48</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Mitford, Jessica
+<unitdate>1973-74</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Mongan, Agnes
+<unitdate>1940-41</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Moore, Marianne Craig
+<unitdate>1954-55</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Morini, Erica
+<unitdate>1954-55</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Morley, Grace McCann
+<unitdate>1956-57</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Morton, Frances Hulett
+<unitdate>1956-57</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Motley, Constance Baker
+<unitdate>1972-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Musgrave, Thea
+<unitdate>1977-78</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Neilson, Nellie
+<unitdate>1937-38</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Nevelson, Louise
+<unitdate>1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Newcomer, Mabel
+<unitdate>1944-45</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>O'Connor, Flannery
+<unitdate>1962-63</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Oettinger, Katharine Brownell
+<unitdate>1956-57</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Olmsted, Mildred (Scott)
+<unitdate>1973-74</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">84</container>
+<unittitle>Origo, Iris
+<unitdate>1963-64</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Parsons, Mary Prescott
+<unitdate>1957-58</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Pate, Martha Lucas
+<unitdate>1949, 1971</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Payne-Gaposchkin, Cecilia
+<unitdate>1951</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Pendleton, Ellen
+<unitdate>1924-25</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Petermann, Mary Locke
+<unitdate>1966</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Peterson, Esther
+<unitdate>1962-63</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Phillips, Marjorie
+<unitdate>1972-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Porada, Edith
+<unitdate>1966-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Porter, Katharine Anne
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Pound, Louise
+<unitdate>1927-28</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Pratt, Harriet Barnes
+<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Puffer, Ruth Rice
+<unitdate>1967-70</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Putnam, Bertha
+<unitdate>1944-45</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Raskin, Judith
+<unitdate>1962-63</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Reid, Helen
+<unitdate>1947-48</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Richards, Ellen Henrietta
+<unitdate>1910-11</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Richter, Gisela Maria
+<unitdate>1934-35</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Rincon, Maria Elena
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Robbins, Caroline
+<unitdate>1970-71</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Robinson, Julia
+<unitdate>1978-79</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Robinson, Mary C.
+<unitdate>1924-25</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Roche, Josephine
+<unitdate>1931-32</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Roosevelt, Eleanor
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Salas, Irma
+<unitdate>1963-64</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Schain, Josephine
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Schinz, Albert
+<unitdate>1927-28</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Scudder, Vida Dutton
+<unitdate>1921-22</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Shirk, Mary Kimberly
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Simkhovitch, Mary K.
+<unitdate>1950-51</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Skard, Ase Grude
+<unitdate>1980</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Smith, Margaret Chase
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Smith, Olive Watkins
+<unitdate>1948-51</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Soule, Theodate (Haines)
+<unitdate>1962-63</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Stevens, Rise
+<unitdate>1968-69</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Stevenson, Eleanor "Bumpy"
+<unitdate>1945-46</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Storrow, Helen Osborn
+<unitdate>1933-34</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Stratton, Dorothy C.
+<unitdate>1952</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Stringfellow, Ethel
+<unitdate>1960</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Sutherland, Lucy
+<unitdate>1964</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Suzman, Helen
+<unitdate>1977</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Switzer, Mary Elizabeth
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Taeuber, Irene
+<unitdate>1959-60</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Taylor, Lily Ross
+<unitdate>1960-61</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Tead, Clara Murphy
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Thomas, Caroline Bedell
+<unitdate>1954-55</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Townsend, Gertrude
+<unitdate>1946-47</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Tuchman, Barbara
+<unitdate>1973-74</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Undset, Sigrid
+<unitdate>1942-43</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Usilton, Lida
+<unitdate>1953</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Van Doren, Irita
+<unitdate>1955-62</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">85</container>
+<unittitle>Vermuele, Emily Dickinson (Townsend)
+<unitdate>1971-72</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wanamaker, Pearl A.
+<unitdate>1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Ward, Barbara
+<unitdate>1948-49</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Washington, Bennetta Bullock
+<unitdate>1969-70</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Watters, Hyla
+<unitdate>1949-50</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Webster, Margaret
+<unitdate>1944-45</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wedel, Cynthia Clark
+<unitdate>1971-72</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wedgwood, C. Veronica
+<unitdate>1954-61</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wells, Marguerite
+<unitdate>1933-34</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>White, Helen
+<unitdate>1946-47</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Whiting, Anna (Young)
+<unitdate>1964</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Whitton, Charlotte
+<unitdate>1954-55</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wilhemina, Princess of the Netherlands
+<unitdate>1948-49</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wilkinson, Elizabeth M.
+<unitdate>1966</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Willard, Charlotte R.
+<unitdate>1921-22</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Williams, Cicely D.
+<unitdate>1975-76</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wilson, Mira B.
+<unitdate>1937-38</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wolff, Dorothy
+<unitdate>1949-63</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wood, Edith Elmer
+<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Worcester, Jane
+<unitdate>1966-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wright, Mary Clabaugh
+<unitdate>1966-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wu, Chien-Shiung
+<unitdate>1959</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Wu, Yi-Fang
+<unitdate>1942-43</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Yourcenar, Marguerite
+<unitdate>1961</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">86</container>
+<unittitle>Zetzel, Elizabeth Rosenberg
+<unitdate>1967-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Board of Trustees Honorary Degree Nominees
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Colson, Elizabeth
+<unitdate>1966</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Fonteyn, Margot
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Freud, Anna
+<unitdate>1954</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Hepworth, Barbara
+<unitdate>1966</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Hess, Myra
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Lehman, Lotte
+<unitdate>1961</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Lessing, Doris May
+<unitdate>1975</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Lunt, Alfred
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>MacIvor, Lauren
+<unitdate>1960-62</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Perham, Margery
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Price, Leontyne
+<unitdate>1959-67</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Renaud, Madeleine
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Taussig, Helen
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>Wooton, Barbara
+<unitdate>1965</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Wooton, Barbara
+<unitdate>1965</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Convocation - Honorary Degrees
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1940-41</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1942-43</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1943-44</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1945-46</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1946-47</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1947-48</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1948-49</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1950-51</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1952-53</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1953-54</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1954-55</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1957-58</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1958-59</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1960-61</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1961-62</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1962-63</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1964-65</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1965-66</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1966-67</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1970-71</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1971-72</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1972-73</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">86</container>
+<unittitle>
+<unitdate>1978-79</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+
+</dsc>
+</archdesc>
+</ead>

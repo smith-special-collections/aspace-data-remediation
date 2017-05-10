@@ -1,0 +1,856 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca85.xml//EN" countrycode="us" mainagencycode="manosca">manosca85</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Smith College International Summer Institute Records, 1996-1998
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Karen Eberhart.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+<date>2003-06-09</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca85 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Smith College International Summer Institute Records, 1996-1998
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 34
+</num>
+<author>Karen Eberhart
+</author>
+<date>2000
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<corpname encodinganalog="110" source="lcnaf">Smith College. International Summer Institute. </corpname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Smith College International Summer Institute Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1996-1998</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 34</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">5 boxes</extent>
+<extent encodinganalog="300$a">(1.5 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">The program offered high school girls, foreign nationals or U.S. citizens living abroad, an opportunity to spend one month at Smith pursuing their academic interests.  Records contain primarily correspondence, evaluation forms, course descriptions, student work, photographs, and general information about the Institute.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Historical Note</head>
+<p> The Smith College International Summer Institute was proposed in 1996.  The program offered high school girls, who were foreign nationals or U.S. citizens living abroad, an opportunity to spend one month at Smith pursuing their academic interests.  The program was divided into two blocks of two weeks each in which the students would study computer science, English, psychology and economics while also working on individual research projects.  The Institute operated successfully during the summer of 1997 with 13 students from 11 different countries.  The program for the summer of 1998 was cancelled in late May.</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p> The International Summer Institute files, which consist of 1.5 linear feet, contain primarily correspondence, publicity, photos and general information about the Institute.  Of particular note are the evaluation forms regarding the quality of the program, course descriptions and examples of some of the research projects completed by participants in 1997.</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into three series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Program Information</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Restricted Information </ref>
+</item>
+<item>
+<ref target="list-ser3">III. Student Files RESTRICTED</ref>
+</item>
+</list>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The majority of the records are open for research without restriction subject to the regulations of the College Archives.  Budget materials are closed for 25 years from the date of creation and information about student participants and staff is closed for 75 years from the date of creation.
+</p>
+</accessrestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Smith College International Summer Institute, Box #, Smith College Archives.</p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>The records of the Smith College International Summer Institute were delivered to the College Archives by the director of the program, Kathleen Lyu Ryan, in August, 1999.
+   Accession #:  99A-98
+</p>
+</acqinfo>
+<processinfo id="admin-process">
+<p>Processed by Karen Eberhart</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<corpname encodinganalog="610" source="lcsh">Smith College. International Summer Institute.</corpname>
+<subject encodinganalog="650" source="lcsh">Summer schools--Massachusetts--Northampton.</subject>
+<subject encodinganalog="650" source="lcsh">Women--Education--Massachusetts--Northampton.</subject>
+</controlaccess>
+<dsc type="combined" id="contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I.  Program Information</unittitle>
+</did>
+<scopecontent>
+<p>This series is unrestricted information about the Institute and its activities.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>Agendas
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>Annual Report
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>Brochures
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Calendar and Room Assignments
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>Contacts
+<unitdate>1996-97</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>Correspondence
+<unitdate>1997-99</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Courses
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>Evaluations
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>Fall Reunion
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>Forms/Originals
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>General Information
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">1</container>
+<unittitle>Grant Proposals
+<unitdate>1996</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">2</container>
+<unittitle>Host Dinners
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">3</container>
+<unittitle>Inquiries
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">4</container>
+<unittitle>Inquiries
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">5</container>
+<unittitle>Job Descriptions and Blank Applications
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">6</container>
+<unittitle>Kathleen Ryan's Lists of Things to Do
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">7</container>
+<unittitle>Liberty High School
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">8</container>
+<unittitle>Notebook
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">9</container>
+<unittitle>Notebook
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">10</container>
+<unittitle>Other Programs Information
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">11</container>
+<unittitle>Participant Information
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">12</container>
+<unittitle>Photos
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">1</container>
+<unittitle>Preparation for Participants
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">2</container>
+<unittitle>Programs
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">3</container>
+<unittitle>Proposals and Reports
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">4</container>
+<unittitle>Publicity/Publications
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">5</container>
+<unittitle>Publicity
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">6</container>
+<unittitle>Publicity for 1998
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">7</container>
+<unittitle>Student Handbook
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">8</container>
+<unittitle>Student Packet Sample
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">9</container>
+<unittitle>Student Work
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">10</container>
+<unittitle>Training for Residential Directors and Interns
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">11</container>
+<unittitle>Video and Picture Release
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">12</container>
+<unittitle>Young Women's Leadership School of East Harlem
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II.  Restricted Information</unittitle>
+</did>
+<scopecontent>
+<p>This series contains files that are closed due to their confidential nature.  The budget and billing materials are restricted for 25 years from the date of creation while the materials on students and staff are restricted for 75 years from the date of creation.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">1</container>
+<unittitle>Applicants
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">2</container>
+<unittitle>Bills
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">3</container>
+<unittitle>Budget
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">4</container>
+<unittitle>Financial Aid
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">5</container>
+<unittitle>Interns and Residential Directors
+<unitdate>1997-98</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">6</container>
+<unittitle>Professor Contracts
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">7</container>
+<unittitle>Student and Intern Profiles
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III.  Student Files  RESTRICTED</unittitle>
+</did>
+<scopecontent>
+<p>This series contains the files of the students who were accepted into the program for 1997 and 1998 and are restricted for 75 years from the date of creation. </p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">8</container>
+<unittitle>Adenika, Remi - Nigeria
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">9</container>
+<unittitle>Chang, Dana - Taiwan
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">10</container>
+<unittitle>Chatzikonstantinou, Eleni - Greece
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">11</container>
+<unittitle>Chatzidimitriou, Stavroula (Julia) - Greece
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">12</container>
+<unittitle>Hatzichrstou, Styliani - Greece
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">13</container>
+<unittitle>Kerr, Kathleen - New Zealand
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">14</container>
+<unittitle>Khan, Farah - Bangladesh
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">15</container>
+<unittitle>Materassi, Luisa - Italy
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">1</container>
+<unittitle>Nedialkova, Teodora (Titi) - Bulgaria
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">2</container>
+<unittitle>Rykovanova, Ekaterina - Russia
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">3</container>
+<unittitle>Sawara, Naoko - Japan
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">4</container>
+<unittitle>Tallberg, Linda - Finland
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">5</container>
+<unittitle>Taran, Alexandra - Hong Kong
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">6</container>
+<unittitle>Batalska, Tatiana - Bulgaria [did not attend]
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">7</container>
+<unittitle>Carol, Yu Wing Ka - Hong Kong  [did not attend]
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">8</container>
+<unittitle>Georgieva, Gergana D. - Bulgaria [did not attend]
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">9</container>
+<unittitle>Khor, Fenny - Malaysia [did not attend]
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">10</container>
+<unittitle>Kung, Cee - China [did not attend]
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">11</container>
+<unittitle>Malik, Zainab - Taiwan [did not attend]
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">12</container>
+<unittitle>Weisfelt, Romy - Australia [did not attend]
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">13</container>
+<unittitle>Yusuf, Mehreen - Bangladesh [did not attend]
+<unitdate>1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">14</container>
+<unittitle>Al Bakree, Basma - Saudi Arabia
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">15</container>
+<unittitle>Alemu, Hlina - Ethiopia
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">16</container>
+<unittitle>Arabadjiyska, Aneta - Bulgaria
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">17</container>
+<unittitle>Bwalya, Chileshe - Zambia
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">18</container>
+<unittitle>Chien, Liang-Ru (Laura) - Taiwan
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">19</container>
+<unittitle>Fynn, Rosy - Ghana
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">20</container>
+<unittitle>Grashkin, Alexandra - Bulgaria
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">21</container>
+<unittitle>Jaskot, Katarzyna - Poland
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">22</container>
+<unittitle>Khan, Maria Moin - Pakistan
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">23</container>
+<unittitle>Koeva, Martina - Bulgaria
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">24</container>
+<unittitle>Kurdi, Ghazal - Saudi Arabia
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">25</container>
+<unittitle>Pinarbasi, Bahar - Turkey
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">26</container>
+<unittitle>Tsutsui, Kimiko - Japan
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">27</container>
+<unittitle>Zaman, Jawziya - Pakistan
+<unitdate>1998</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

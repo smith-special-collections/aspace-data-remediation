@@ -1,0 +1,1523 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss94.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss94</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Isabel Howland Papers, 1888-1903
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss94 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Isabel Howland Papers, 1888-1903
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 78
+      </num>
+         <date>Revised 2002
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Howland, Isabel, 1859-1942</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">
+Isabel Howland Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1888-1903</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 78</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">2 boxes</extent>
+            <extent encodinganalog="300$a">(.75 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Suffragist and social Reformer.  Papers consist of correspondence plus other materials related to her position as corresponding secretary of the Association for the Advancement of Women and of the New York State Woman Suffrage Association.  Subjects include women's suffrage, women's rights, and other reform movements such as temperance and anti-slavery.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6232.jpg" altrender="right">
+<daodesc><p>Isabel Howland, undated</p></daodesc></dao> 
+         <p> Isabel Howland was born to a Quaker family in Sherwood, New York in 1859.  She earned a B.A. from Cornell University in 1881.  The niece of suffragist, abolitionist and educator Emily Howland, Isabel was involved in similar causes.  She was corresponding secretary of the Association for the Advancement of Women in the 1880s and involved in the New York State Woman Suffrage Association.  From 1884 to 1885, she accompanied her aunt Emily Howland on  European travels.  She lived in Paris for much of the 1930s to care for her invalid brother, Herbert.  She died in 1942.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The Isabel Howland Papers date from 1888 to 1903 and consist mainly of correspondence plus other materials related to her position as corresponding secretary of the Association for the Advancement of Women and of the New York State Woman Suffrage Association.  Subjects include women's suffrage, women's rights, and other reform movements such as temperance and the battle for the abolition of slavery.  Notable correspondents include Susan B. Anthony, Alida Avery, Alice Stone Blackwell, Carrie Chapman Catt, William Lloyd Garrison, Adele Hutchinson, Anna Howard Shaw, Elizabeth Cady Stanton, Lucy Stone, Booker T. Washington, Frances E. Willard, and Julia Ward Howe.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into two series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical Information</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection. </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner of this collection is unknown. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Isabel Howland Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Isabel Howland Papers were obtained by purchase. </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Finding aid revised in 2002 by Brook Hopkins, intern. </p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Anthony, Susan B. (Susan Brownell), 1820-1906--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Blackwell, Alice Stone, 1857-1950--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Catt, Carrie Chapman, 1859-1947--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Garrison, William Lloyd, 1805-1879--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Howe, Julia Ward, 1819-1910--Correspondence</persname>
+         <famname encodinganalog="600" source="lcnaf">Howland, Emily, 1827-1929</famname>
+         <persname encodinganalog="600" source="lcnaf">Howland, Isabel</persname>
+         <persname encodinganalog="600" source="lcnaf">Shaw, Anna Howard, 1847-1919--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Stanton, Elizabeth Cady, 1815-1902--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Stone, Lucy, 1818-1893--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Washington, Booker T., 1856-1915--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Willard, Frances Elizabeth, 1839-1898--Correspondence</persname>
+         <corpname encodinganalog="610" source="lcnaf">Association for the Advancement of Women--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Antislavery movements--United States--History--Sources</subject>
+         <corpname encodinganalog="610" source="lcnaf">New York State Woman Suffrage Association--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Abolitionists--United States--History--19th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Suffragists--United States--Correspondence</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Suffrage--United States--History--19th century--Sources</subject>
+      </controlaccess>
+      <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Memorabilia,<unitdate> 1888-98, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Photographs, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Microfilm reel guide to Emily Howland Papers at Cornell University</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE (to Isabel Howland unless otherwise noted)</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Anthony, Lucy and Mary,<unitdate> 1897-98</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Anthony, Susan B.,<unitdate> 1892-1903</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Aikens, Amanda L.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Anagnos, Michael,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Avery, Alida C.,<unitdate> 1888-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Avery, Susan Look (also to M. Jacobs),<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Babcock, Elnora M.,<unitdate> 1897</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Bagg, Mary E.,<unitdate> 1889-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Barnes, Catherine Weed,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Barrows, Isabel C.,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>Bates, Octavia W.,<unitdate> 1891-94</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>Benson, Louise,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">15</container>
+                  <unittitle>Blackwell, Alice Stone,<unitdate> 1890-97</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">16</container>
+                  <unittitle>Blackwell, Antoinette Brown,<unitdate> 1889-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">17</container>
+                  <unittitle>Blackwell, Henry B.,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">18</container>
+                  <unittitle>Blackwell, Sarah Ellen,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">19</container>
+                  <unittitle>Boole, Ella A. to Mrs. L.G. Robinson,<unitdate> 1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">20</container>
+                  <unittitle>Booth, Mary A.,<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">21</container>
+                  <unittitle>Bouland, Clara,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">22</container>
+                  <unittitle>Bowser, Anna C. (also to M. Jacobs),<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">23</container>
+                  <unittitle>Bray, Maria H. to Miss Peckham,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">24</container>
+                  <unittitle>Brown, Charlotte Emerson,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">25</container>
+                  <unittitle>Campbell, Helen,<unitdate> 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">26</container>
+                  <unittitle>Cardwill, Mary E.,<unitdate> 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">27</container>
+                  <unittitle>Carmichael, Margaret,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">28</container>
+                  <unittitle>Catt, Carrie Chapman to Emily Howland (aunt of Isabel),<unitdate> 1895-96, 1901-03, 1911</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">29</container>
+                  <unittitle>Catt, Carrie Chapman to Mrs. Hannah L. Howland,<unitdate> 1896, 1901</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">30</container>
+                  <unittitle>Catt, Carrie Chapman,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">31</container>
+                  <unittitle>Chapin, A.J.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">32</container>
+                  <unittitle>Cheney, Ednah Dow (also to M. Jacobs),<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">33</container>
+                  <unittitle>Clapp, Romelia L.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">34</container>
+                  <unittitle>Cobb, Mary E.R.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">35</container>
+                  <unittitle>Colby, Clara B. (includes photograph),<unitdate> 1892-99</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">36</container>
+                  <unittitle>Comstock, Anne,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">37</container>
+                  <unittitle>Conway, Clara (also to Julia Ward Howe),<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">38</container>
+                  <unittitle>Croly, Jane Cunningham to Julia W. Howe,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">39</container>
+                  <unittitle>Curtis, Elizabeth Burrill,<unitdate> 1894, 1898</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">40</container>
+                  <unittitle>Dickenson, M.L.,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">41</container>
+                  <unittitle>Dietrick, Ellen B.,<unitdate> 1891, 1894</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">42</container>
+                  <unittitle>Dodge, Grace H.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">43</container>
+                  <unittitle>Donlevy, Alice,<unitdate> 1887-88</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">44</container>
+                  <unittitle>Easby, Gertrude K.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">45</container>
+                  <unittitle>Eastman, Annis Ford,<unitdate> 1897-98</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">46</container>
+                  <unittitle>Eastman, Mary E.,<unitdate> 1889-92</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">47</container>
+                  <unittitle>Eddy, Sarah,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">48</container>
+                  <unittitle>Edwards, Louise,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">49</container>
+                  <unittitle>Elliott, Maud Howe, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">50</container>
+                  <unittitle>Erol, Helen G.,<unitdate> 1894</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">51</container>
+                  <unittitle>Fairchild, S.,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">52</container>
+                  <unittitle>Fleming, Jennie to Mrs. Hamilton,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">53</container>
+                  <unittitle>Fletcher, Alice C.,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">54</container>
+                  <unittitle>Franklin, C. Ladd,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">55</container>
+                  <unittitle>French, Annie D.,<unitdate> 1888-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">56</container>
+                  <unittitle>Frisbee, E.S.,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">57</container>
+                  <unittitle>Gage, Matilda Joslyn,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">58</container>
+                  <unittitle>Galt, Eleanor, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">59</container>
+                  <unittitle>Gannett, M.T. Lewis,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">60</container>
+                  <unittitle>Garrison, Francis J.,<unitdate>1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">61</container>
+                  <unittitle>Garrison, William Lloyd (II),<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">62</container>
+                  <unittitle>Gleason, Rachael,<unitdate> 1897</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">63</container>
+                  <unittitle>Greenleaf, Jean Brooks, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">64</container>
+                  <unittitle>Gregg, David,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">65</container>
+                  <unittitle>Grew, Mary,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">66</container>
+                  <unittitle>Grubbs, S.J.,<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">67</container>
+                  <unittitle>Hale, Edward Everett,<unitdate> 1891, 1897</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">68</container>
+                  <unittitle>Hale, Lucretia P.,<unitdate> 1885</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">69</container>
+                  <unittitle>Hallowell, Sarah C.F.,<unitdate> 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">70</container>
+                  <unittitle>Hamilton, Henrietta,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">71</container>
+                  <unittitle>Hazard, Rebecca,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">72</container>
+                  <unittitle>Hoffman, Sophia C.,<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">73-74</container>
+                  <unittitle>Howe, Julia Ward,<unitdate> 1888-94, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">75</container>
+                  <unittitle>Howell, Mary Seymour,<unitdate> 1892, 1897-98</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">76</container>
+                  <unittitle>Howland, Herbert,<unitdate> 1920</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">77</container>
+                  <unittitle>Hufford, Lois G. to A.B. Blackwell, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">78</container>
+                  <unittitle>Hultin, Ida C. to M. Jacobs,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">79</container>
+                  <unittitle>Huntington, Anna S., <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">80</container>
+                  <unittitle>Hutchinson, Adele S.,<unitdate>1891-92</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">81</container>
+                  <unittitle>Irving, Carrie E.S.,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">82</container>
+                  <unittitle>Jenkins, Helen,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">83</container>
+                  <unittitle>Kennard, Caroline A.,<unitdate>1889-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">84</container>
+                  <unittitle>Kirk, Eleanor,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1</container>
+                  <unittitle>Landen, Jean M.,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">2</container>
+                  <unittitle>Lapham, Ella C.,<unitdate> 1888-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">3</container>
+                  <unittitle>Lawler, Fanny,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4</container>
+                  <unittitle>Lazenby, William R.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">5</container>
+                  <unittitle>Leonard, Georgia L.,<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">6</container>
+                  <unittitle>Love, Alfred H.,<unitdate> 1889, 1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">7</container>
+                  <unittitle>Lowell, Josephine Shaw,<unitdate> 1889, 1899</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">8</container>
+                  <unittitle>Lozier, Jennie,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">9</container>
+                  <unittitle>McCowen, Dr. Jennie,<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">10</container>
+                  <unittitle>McGillvray, Alice,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">11</container>
+                  <unittitle>Mark, Nellie V.,<unitdate> 1890-91, 1894</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">12</container>
+                  <unittitle>Merrell, Ina B.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">13</container>
+                  <unittitle>Meyer, Annie Nathan,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">14</container>
+                  <unittitle>Miller, Olive,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">15</container>
+                  <unittitle>Mills, Charles De B.,<unitdate> 1889, 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">16</container>
+                  <unittitle>Mills, Harriet <unitdate>May, 1920</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">17</container>
+                  <unittitle>Mitchell, Ellen,<unitdate> 1891-92</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">18</container>
+                  <unittitle>Mittermair, Dr. Wolfgang,<unitdate> 1898</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">19</container>
+                  <unittitle>Moore, Sarah Wool,<unitdate> 1889-92</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">20</container>
+                  <unittitle>Mowry, Martha H. (also to M. Jacobs),<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">21</container>
+                  <unittitle>Newton, Mary A.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">22</container>
+                  <unittitle>Noble, Lydia,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">23</container>
+                  <unittitle>Parker, Frank Stuart,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">24</container>
+                  <unittitle>Parks, Isabella W.,<unitdate> 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">25</container>
+                  <unittitle>Peck, Annie S.,<unitdate> 1892, 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">26</container>
+                  <unittitle>Peckham, Mary C. (also to Mrs. Hazard),<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">27</container>
+                  <unittitle>Perry, Belle S.,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">28</container>
+                  <unittitle>Phelps, Minnie L. to Mrs. Peckham,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">29</container>
+                  <unittitle>Pierce, Charlotte L.,<unitdate> 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">30</container>
+                  <unittitle>Pillsbury, Parker to Miss Putnam,<unitdate> 1896</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">31</container>
+                  <unittitle>Rich, Ellen W.,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">32</container>
+                  <unittitle>Ripley, Mary A.,<unitdate> 1889-92</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">33</container>
+                  <unittitle>Rockwell, Kate W.,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">34</container>
+                  <unittitle>Roe, J.E., <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">35</container>
+                  <unittitle>Rogers, Mary F.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">36</container>
+                  <unittitle>Rogers, <unitdate>May, 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">37</container>
+                  <unittitle>Sargent, Ellen W.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">38</container>
+                  <unittitle>Sayles, Lita B., <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">39</container>
+                  <unittitle>Sayles, Lita B.,<unitdate> 1888-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">40</container>
+                  <unittitle>Shurman, J.G.,<unitdate> 1892-93</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">41</container>
+                  <unittitle>Searing (?), A.,<unitdate> 1894, 1898</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">42</container>
+                  <unittitle>Searls, W.,<unitdate> 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">43</container>
+                  <unittitle>Severance, Caroline,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">44</container>
+                  <unittitle>Sewall, May Wright,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">45</container>
+                  <unittitle>Shaw, Anna Howard to Emily Howland,<unitdate> 1903-10, 1916</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">46</container>
+                  <unittitle>Shaw, Dr. Anna Howard,<unitdate> 1899, 1909</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">47</container>
+                  <unittitle>Shield, Helen S.,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">48</container>
+                  <unittitle>Skinner, M.P.,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">49</container>
+                  <unittitle>Slocum, Jane M.,<unitdate> 1899</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">50</container>
+                  <unittitle>Smiley, Louise M.,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">51</container>
+                  <unittitle>Smith, Hannah W.<unitdate>. 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">52</container>
+                  <unittitle>Smith, Lucy W<unitdate>.1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">53</container>
+                  <unittitle>Snow, B.B.,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">54</container>
+                  <unittitle>Soper, Grace,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">55</container>
+                  <unittitle>Spear, C.S. Brown to M. Jacobs,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">56</container>
+                  <unittitle>Stebbins, Catherine,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">57</container>
+                  <unittitle>Stevenson, T.E. to M.C. Peckham, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">58</container>
+                  <unittitle>Stone, Lucy,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">59</container>
+                  <unittitle>Stowe, Emily to M. Jacobs,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">60</container>
+                  <unittitle>Sunderland, Eliza,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">61</container>
+                  <unittitle>Talbot, Marion,<unitdate> 1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">62</container>
+                  <unittitle>Tappan, Eva <unitdate>March, 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">63</container>
+                  <unittitle>Thomas, Elizabeth,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">64</container>
+                  <unittitle>Thomas, Martha Carey,<unitdate> 1885, 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">65</container>
+                  <unittitle>Thorne, Elizabeth F. to Margaret Grierson about E.H. and I.H.,<unitdate> 1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">66</container>
+                  <unittitle>Tifft, E. Amelia,<unitdate> 1890, 1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">67</container>
+                  <unittitle>Tifft, Elizabeth Lord,<unitdate> 1891, 1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">68</container>
+                  <unittitle>Townsend, Harriet A.,<unitdate> 1890-94</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">69</container>
+                  <unittitle>Unidentified,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">70</container>
+                  <unittitle>Walters, Albertine S. to A.A.W.,<unitdate> 1887</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">71</container>
+                  <unittitle>Wanamaker, John,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">72</container>
+                  <unittitle>Warner, Helen G.,<unitdate> 1898</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">73</container>
+                  <unittitle>Washington, Booker T.,<unitdate> 1897</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">74</container>
+                  <unittitle>Wells, Kate Gannett,<unitdate> 1888-91, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">75</container>
+                  <unittitle>Wendell, Caroline R.,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">76</container>
+                  <unittitle>Wentworth, S.E.,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">77</container>
+                  <unittitle>Wetherald, Ethelyn,<unitdate> 1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">78</container>
+                  <unittitle>Whiting, Lilian,<unitdate> 1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">79</container>
+                  <unittitle>Wilcox, B.M.,<unitdate> 1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">80</container>
+                  <unittitle>Wilde, Catherine,<unitdate> 1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">81</container>
+                  <unittitle>Willard, Frances E.,<unitdate> 1887-88, 1896</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">82</container>
+                  <unittitle>Williams, Charlotte to M.C. Peckham,<unitdate> 1889</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">83</container>
+                  <unittitle>Wing, Mary E.,<unitdate> 1888-89</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">84</container>
+                  <unittitle>Ward, Frances Fisher,<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">85</container>
+                  <unittitle>Wolcott, H.L.T.,<unitdate> 1890-91</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">86</container>
+                  <unittitle>Woods, Kate T.,<unitdate> 1889-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

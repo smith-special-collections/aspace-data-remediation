@@ -1,0 +1,863 @@
+<ead>
+   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr9.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr9</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Holliday Bookshop Collection, 1921-1979
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Lynne M. Fors.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Mortimer Rare Book Room, William Allan Neilson Library, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c"> 2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Eric Steven Cartier.
+        <date>2003-09-15</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>manoscmr9 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Smith College<lb/>William Allan Neilson Library<lb/>Mortimer Rare Book Room
+        
+         </publisher>
+         <titleproper encodinganalog="245$a">Holliday Bookshop Collection, 1921-1979
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>Manuscript Number<lb/>
+      10
+      </num>
+         <author encodinganalog="245$c">Compiled by<lb/>
+      Lynne M. Fors
+      </author>
+         <date>August 1995
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <corpname encodinganalog="110" source="lcnaf">Holliday Bookshop</corpname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Holliday Bookshop Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1921-1979</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 10</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">1 box</extent>
+            <extent encodinganalog="300$a">(0.5 linear ft.)</extent>
+         </physdesc>
+          <repository label="Location:">
+            <corpname>Mortimer Rare Book Room</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Husband and wife co-owners of a bookshop in New York City that initially specialized in importing English books, as well as offering unusual and rare books, especially first editions of contemporary authors and private press books. Contains book catalogues, correspondence, writings, publicity, and photographs.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Historical Note</head>
+         <p>Terence Holliday, an avid reader, worked at Brentano's in 1919, in order to learn "something about the book business."  In 1920, Terence and his wife Elsa (Smith class of 1911) opened their bookshop on 10 West 47th Street in New York City.  The bookshop began to slowly grow, despite the Holliday's choice to ignore the advice of Frank Crowningshield of <title>Vanity Fair</title>, to "have a couple of attractive young ladies serve tea in the shop every afternoon." Initially, the bookshop specialized in importing English books, as well as offering unusual and rare books, especially first editions of contemporary authors and private press books.  Later, the Hollidays promoted the works of younger British and American poets and novelists, such as W. H. Auden, Thornton Wilder, Virginia Woolf, Aldous Huxley, Katherine Mansfield, William Faulkner, and T. S. Eliot.</p>
+         <p>In 1925, the bookshop moved to 49 West 49th Street.  This location was a propitious one, since there were specialty bookshops in the area.  Rather than competing for customers, the bookshops cooperated, making referrals and placing orders for each other.  Unfortunately, some of the larger publishers in competition with the Holliday were not nearly as gracious.  The import of English editions was made difficult by the existing copyright laws, and the invention of "limited editions" from the larger houses also threatened business.</p>
+         <p>The Hollidays weathered the Depression, with Terence lecturing occasionally and writing articles to make ends meet.  However, by 1950, the difficulties of running the bookshop began to wear on Terence, and the Hollidays began to look for a buyer for their shop.  A run of bad luck ensued, including two destructive fires of suspicious origin.</p>
+         <p>In 1951, the Hollidays sold their bookstore to Robert T. Vanderbilt, and retired in Milford, Connecticut.  Terence Holliday died in 1969 at the age of 84.  Elsa Detmold Holliday died in 1991 at the age of 100.   After 31 years of existence, the Holliday bookshop had become more than a bookshop; it had become an "Institution."</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The archive of the Holliday Bookshop contains book catalogues, correspondence, writings, publicity, and photographs, dating from 1921 to 1979.  The archive was donated to the Mortimer Rare Book Room in 1994 by John Detmold, in memory of his aunt, Elsa Detmold Holliday, class of 1911. The collection is divided up into five series, in 52 folders.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into five series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Book Catalogues, 1921-1937</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence, 1921-1973</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Publicity, 1924-1979</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Writings, 1929-1930</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Photographs</ref>
+            </item>
+         </list>
+      </arrangement>
+      <arrangement id="scope-arr">
+         <head>Arrangement of the Collection</head>
+         <p>The collection is divided up into five series, in 52 folders.
+      </p>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <p>The Holliday Bookshop Collection is the physical property of the Mortimer Rare Book Room, Smith College.  Literary rights, including copyright, belong to the authors of the works or their legal representatives.
+          </p>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Holliday Bookshop Collection, Mortimer Rare Book Room, Smith College.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The archive was donated to the Mortimer Rare Book Room in 1994 by John Detmold, in memory of his aunt, Elsa Detmold Holliday, class of 1911.
+          </p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+        
+         <persname encodinganalog="600" source="lcnaf">Holliday, Terrance.</persname>
+         <persname encodinganalog="600" source="lcnaf">Holliday, Elsa Detmold.</persname>
+         <corpname encodinganalog="610" source="lcsh">Holliday Bookshop.</corpname>
+         <subject encodinganalog="650" source="lcsh">Bookstores--New York (State)--New York.</subject>
+         <persname encodinganalog="700" source="lcnaf">Holliday, Terrance.</persname>
+         <persname encodinganalog="700" source="lcnaf">Holliday, Elsa Detmold.</persname>
+      </controlaccess>
+            
+<!-- Begin series descriptions -->
+<dsc type="analyticover">
+<c01 level="series">
+            <did>
+               <unittitle>Series I. Book Catalogues,
+                <unitdate>1921-1937</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series I. consists of book catalogues written and distributed monthly by the Hollidays (folders 1-8).  These catalogues were the source of the majority of their business, as well as being valuable references for collectors and librarians.</p>
+            </scopecontent>
+  </c01>
+<c01 level="series">
+            <did>
+               <unittitle>Series II. Correspondence,
+                <unitdate>1921-1973</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series II. contains the Bookshop correspondence, including cards and letters from Archibald MacLeish, Louisa Brooke Jones, and Mrs. Theodore Roosevelt (folders 8-34).</p>
+            </scopecontent>
+  </c01>
+<c01 level="series">
+            <did>
+               <unittitle>Series III. Publicity,
+                <unitdate>1924-1979</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series III. consists of publicity surrounding the bookshop, including an advertisement which ran in the first issue of the <title>New Yorker</title>, information on the sale of the shop, and various reviews and articles written about the bookshop (folders 35-45).</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series IV.  Writings,
+                <unitdate>1929-1930</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Series IV. consists of writings by Elsa and Terence Holliday, including a history of the bookshop, and an article on bookselling for <title>Encyclopedia Britannica</title> (folders 46-49).</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series V.  Photographs</unittitle>
+            </did>
+            <scopecontent>
+               <p>Series V. contains photographs of the Hollidays, and their close friends Irving and Ellen Berlin (folders 50-52).</p>
+            </scopecontent>
+  </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I. Book Catalogues,
+                <unitdate>1921-1937</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="folder">1</container>
+                  <unittitle>Books to Read and Re-read
+                   <unitdate>1921</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>[1 item]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">2</container>
+                  <unittitle>Catalog of Modern and Contemporary Books
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>[1 item]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">3</container>
+                  <unittitle>Holliday Books for Christmas
+                   <unitdate>1930-1950</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>[20 items]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">4</container>
+                  <unittitle>The Holliday Book Shop. Current Books, No. 8-10
+                   <unitdate>1924</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>[3 items]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">5</container>
+                  <unittitle>The Holliday Book Shop. New &amp; Forthcoming Books, No. 11-20
+                   <unitdate>1925-1929</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>[9 items]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">6</container>
+                  <unittitle>The Holliday Book Shop.  New &amp; Forthcoming Books, No. 21-23
+                   <unitdate>1929-1931</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>[3 items]</extent>.  </physdesc>
+               </did>
+		<note><p>No. 23 annotated in pencil on the back cover.</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">7</container>
+                  <unittitle>100 Good Books
+                   <unitdate>[1937]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>[1 item]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">8</container>
+                  <unittitle>Ten Favorite Books
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>[1 item]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II. Correspondence,
+                <unitdate>1921-1973</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="folder">9</container>
+                  <unittitle>Bogan, Louise.  ALS
+                   <unitdate>1943 Aug 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">10</container>
+                  <unittitle>Brandt &amp; Brandt.  TLS
+                   <unitdate>1952 Mar 18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">10</container>
+                  <unittitle>Brandt &amp; Brandt.  TLS
+                   <unitdate>1952 Mar 31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">10</container>
+                  <unittitle>From Elsa Holliday.  TL
+                   <unitdate>1952 Apr 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">10</container>
+                  <unittitle>Brandt &amp; Brandt.  TLS
+                   <unitdate>1952 Apr 3</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">10</container>
+                  <unittitle>From Elsa Holliday.  TL
+                   <unitdate>1952 May 14</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">10</container>
+                  <unittitle>Brandt &amp; Brandt.  TLS
+                   <unitdate>1952 May 20</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">11</container>
+                  <unittitle>Carter, John and Ernestine.  Card and envelope
+                   <unitdate>1940 Dec 27</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">12</container>
+                  <unittitle>Curtiss, Mina.  TLS
+                   <unitdate>1951 Aug 4</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">13</container>
+                  <unittitle>Doubleday, Page and Co.  TLS
+                   <unitdate>1924 Feb 24</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">13</container>
+                  <unittitle>From Holliday Book Shop.  TL
+                   <unitdate>1924 Feb 25</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">13</container>
+                  <unittitle>Doubleday, Page and Co.  TLS
+                   <unitdate>1924 Feb 27</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">14</container>
+                  <unittitle>Encyclopedia Britannica.  TLS
+                   <unitdate>1928 Sep 14</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">14</container>
+                  <unittitle>Encyclopedia Britannica.  TLS
+                   <unitdate>1928 Sep 20</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">14</container>
+                  <unittitle>From Terence Holliday.  TLS
+                   <unitdate>1928 Sep 27</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">15</container>
+                  <unittitle>Fletcher, Frank Irving.  TLS
+                   <unitdate>1923 Jul 20</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">16</container>
+                  <unittitle>Gregg, Eleanor and Alan.  ALS
+                   <unitdate>1951 Oct 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">17</container>
+                  <unittitle>Harpers' Bazaar.  TLS
+                   <unitdate>1938 Jul 19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">18</container>
+                  <unittitle>Holliday, Terence and Elsa.  ACS
+                   <unitdate>1921</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>2 copies</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">19</container>
+                  <unittitle>Holliday Book Shop.  TL
+                   <unitdate>1924 Dec 4</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">20</container>
+                  <unittitle>Jones, Louisa Brooke.  ACS
+                   <unitdate>1943 Aug 12</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">20</container>
+                  <unittitle>Jones, Louisa Brooke.  ALS
+                   <unitdate>1951 Jul 26</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">21</container>
+                  <unittitle>MacLeish, Archibald.  TLS
+                   <unitdate>1943 Aug 9</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">22</container>
+                  <unittitle>Marshall, Lenore G.  ALS
+                   <unitdate>1943 Aug 10</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">23</container>
+                  <unittitle>McFee, William.  ALS and envelope
+                   <unitdate>1922 Nov 27</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>New Yorker</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="folder">24</container>
+                     <unittitle>Advertising Dept.  TLS
+                      <unitdate>1925 Mar 16</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="folder">24</container>
+                     <unittitle>Advertising Dept.  TLS
+                      <unitdate>1925 Mar 16</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="folder">24</container>
+                     <unittitle>Editorial Offices.  TLS
+                      <unitdate>1975 Mar 11</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>3 copies</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">25</container>
+                  <unittitle>Peirce, Albert E.  Care of Mrs. C. M. Thomas.  2 bills and ACS sent from Terence Holliday
+                   <unitdate>1930 Jun 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">26</container>
+                  <unittitle>Random House.  ACS
+                   <unitdate>1938 Jun 29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">27</container>
+                  <unittitle>Roosevelt, Mrs. Theodore.  ACS
+                   <unitdate>n.y. Aug 31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">28</container>
+                  <unittitle>Shawn, William.  Draft letter by Elsa Holliday
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">29</container>
+                  <unittitle>Simon and Schuster.  TLS
+                   <unitdate>1942 Apr 29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">29</container>
+                  <unittitle>Simon and Schuster.  TLS
+                   <unitdate>1942 May 8</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">29</container>
+                  <unittitle>Simon and Schuster.  TLS
+                   <unitdate>1942 Jul 7</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">30</container>
+                  <unittitle>Smith College Library.  TLS
+                   <unitdate>1962 Jul 31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">31</container>
+                  <unittitle>Smith College Museum of Art.  TLS
+                   <unitdate>1973 May 30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">32</container>
+                  <unittitle>Sze, Marimai.  ALS
+                   <unitdate>1943 Aug 8</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">32</container>
+                  <unittitle>Sze, Marimai.  ALS
+                   <unitdate>1952 Jun 2</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">33</container>
+                  <unittitle>Whistler, Laurence.  ALS
+                   <unitdate>1952 Sep 19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+
+            <c02>
+               <did>
+                  <container type="folder">33a</container>
+                  <unittitle>Wilson, Edmund. ALS and transcript.
+                   <unitdate>1951 Jul 29 </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">34</container>
+                  <unittitle>Unidentified [first initial V]
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III. Publicity,
+                <unitdate>1924-1979</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="folder">35</container>
+                  <unittitle>Advertisement for special edition of book entitled <title>The Squire's Home-made Wines</title>
+                     <unitdate>1924 Feb.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">36</container>
+                  <unittitle>Article describing popularity of recent books from England at the Holliday Bookshop
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">37</container>
+                  <unittitle>Article describing lecture given by Mrs. Terence Holliday at the American Association of University Women
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">38</container>
+                  <unittitle>Bulletin of The New York Library Club.  Includes speech made by Terence Holliday, "Not Everyone Reads Best Sellers" at the January Meeting
+                   <unitdate>1930 Jan 30</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>SEE ALSO: "Writings" for typescript version of speech, found loose inside bulletin which differs from version in bulletin.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">39</container>
+                  <unittitle>Cartoon of the Holliday Book Shop.  Caption reads "The Holiday Book Shop at 49 East 49th Street,"
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">40</container>
+                  <unittitle>"Holliday Bookshop sold to British Book Centre."  Article from <title>Publisher's Weekly</title> in the "Retailing" section
+                   <unitdate>1961 Apr 3</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">41</container>
+                  <unittitle>"A Magazine in Transition is the Talk of the Town."  Article from <title>New York Times</title> on William Shawn and the <title>New Yorker</title>
+                     <unitdate>1979 May 27</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">42</container>
+                  <unittitle>
+                     <title>New Yorker</title>.  Reproduction of first issue, with advertisement for Holliday Book Shop on pg. 26
+                   <unitdate>1925 Feb 21</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">43</container>
+                  <unittitle>Review of <title>The Squire's Home-made Wines</title>
+                     <unitdate>1924 Feb</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">44</container>
+                  <unittitle>Tallis, Thomas.  Printed copy of inscription on tomb
+                   <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">45</container>
+                  <unittitle>"Terence Holliday to Address Literary Department."  Article from <title>The Villager</title>
+                     <unitdate>1931 Dec 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV.  Writings,
+                <unitdate>1929-1930</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>HOLLIDAY, ELSA</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="folder">46</container>
+                     <unittitle>"Holiday [sic] in Name Only."   Mimeographed manuscript, annotated in pen.
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>39 pages</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="folder">46</container>
+                     <unittitle>"Holiday [sic] in Name Only."  Typescript manuscript, annotated in pencil.
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>39 pages</extent>
+                     </physdesc>
+                  </did>
+                  <note>
+                     <p>Both copies are ascribed to both Elsa and Terence, but were written solely by Elsa.</p>
+                  </note>
+                  <note>
+                     <p>SEE ALSO: "Correspondence,"  Brandt and Brandt, regarding publication of the manuscript.</p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="folder">47</container>
+                     <unittitle>"The Literary Scene in New York in the 20's, 30's &amp; 40's."  Typescript draft of talk given by Elsa Holliday at meeting of American Association of University Women
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>HOLLIDAY, TERENCE</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="folder">48</container>
+                     <unittitle>"Bookselling in the United States."  Typescript draft.  For inclusion in the <title>Encyclopedia Brittanica</title>
+                        <unitdate>1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="folder">49</container>
+                     <unittitle>["Not Everyone Reads Best Sellers"].  Typescript version of talk given at The New York Library Club.
+                      <unitdate>1930 Jan 30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="folder">49</container>
+                     <unittitle>"Not Everyone Reads Best Sellers."  <title>Publishers's Weekly</title>
+                        <unitdate>1929 Jul 27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>"Not Everyone Reads Best Sellers."  Reprinted by The Holliday Book Shop from <title>Publishers' Weekly</title>.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>Series V.  Photographs</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="folder">50</container>
+                  <unittitle>3 black and white photographs of Terence and Elsa Holliday.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">51</container>
+                  <unittitle>Ellen and Irving Berlin and 3 daughters.  Photograph mounted on Christmas card.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">52</container>
+                  <unittitle>3 color transparencies and one color photograph depicting Terence Holliday and a model at The Holliday Book Shop.</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

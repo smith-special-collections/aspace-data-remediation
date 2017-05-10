@@ -1,0 +1,556 @@
+<ead>
+   <eadheader audience="internal" id="head" findaidstatus="unverified-full-draft" langencoding="iso639-2b">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss177.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss177</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Settlements Collection, 1883-1972
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Jennifer Smar and Kate Weigand.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2004 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2004-04-20</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss177 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Settlements Collection, 1883-1972
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 430
+      </num>
+         <author encodinganalog="245$c">Jennifer Smar and Kate Weigand
+      </author>
+         <date>Revised 2003
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2004  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC21">
+      <did id="main">
+         <head>Collection Overview</head>
+         <unittitle encodinganalog="245$a" label="Title:">Settlements Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1883-1972</unitdate>
+         
+         <unitid encodinganalog="099" repositorycode="mnsss" label="Collection Number:" countrycode="us">MS 430</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">4 boxes; 6 volumes</extent>
+            <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract encodinganalog="520$a" label="Abstract:">The Settlements Collection documents the social settlement movement and its contributions to poor and working-class urban communities from the 1880s through the first half of the 20th century.  Documentation primarily relates to the College Settlement Association (later called the Intercollegiate Community Service Association), and the individual settlements affiliated with it: the College Settlement of Philadelphia, Denison House in Boston, the Smith Alumnae Chapter, and the Rivington Street Settlement in New York City.  Types of material include articles, correspondence, clippings, historical writings, pamphlets, annual reports, minutes, newsletters, and photographs.</abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6313.jpg" altrender="right">
+<daodesc><p>Cover of pamphlet on Denison <lb />House settlement, undated</p></daodesc></dao>
+         <p> The Settlements Collection contains manuscript and printed material that primarily relate to the College Settlement Association, which later became the Intercollegiate Community Service Association, and the individual settlements affiliated with it, primarily the College Settlement of Philadelphia, Denison House in Boston, the Smith Alumnae Chapter, and the Rivington Street Settlement in New York City.   The bulk of the material dates from the 1880s, when the settlement movement first emerged in the U.S., to the 1960s when, after the appearance of federal anti-poverty programs, many settlements closed their doors permanently.</p>
+         <p> The nineteenth century material in this collection includes both published and unpublished sources, such as articles, correspondence, newspaper clippings,  promotional pamphlets, histories, and reports that document the emergence and evolution of the settlement movement in the 1880s and 1890s.  It also illustrates both settlement founders' efforts to legitimize their work, and their increasingly successful endeavors to draw educated young women into the field of settlement work.</p>
+         <p> The twentieth century material is more varied and includes articles, commemorative booklets, correspondence, fundraising appeals, minutes, newsletters, pamphlets, photographs, programs, and an unpublished thesis. These items document the thorough institutionalization of settlements in U.S. society between 1900 and the 1930s, the crucial contributions they made to poor and working-class communities, and the gradual decline that most settlements faced in the post-World War II period.  The collection includes bound volumes of the annual reports of the College Settlement Association (1890-1913), as well as books and newsletters published by the CSA.</p>
+      </scopecontent>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Permission is required to cite the papers or for quotations beyond "fair use."
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Settlements Collection, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions are expected.
+        </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Materials in this "artificial" subject collection were either purchased or given to the Sophia Smith Collection by various donors.  Some items may have been removed from other collections.
+          </p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <corpname encodinganalog="610" source="lcnaf">College Settlement Association--History--Sources</corpname>
+         <corpname encodinganalog="610" source="lcnaf">College Settlement Association. Smith Alumnae Chapter</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Intercollegiate Community Service Association--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Poor women--United States--History--20th century</subject>
+         <subject encodinganalog="650" source="lcsh">Social settlements--Pennsylvania--Philadelphia--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social settlements--Massachusetts--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social settlements--New York (State)--New York--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social settlements--United States--History-Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Working class women--United States--History--Sources</subject>
+      </controlaccess>
+      <dsc type="in-depth" id="list-contlist">
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">1</container>
+               <unittitle>Contents</unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">2</container>
+               <unittitle>General: <title>Bibliography of College, University and Social Settlements</title>, and <title>History of the Settlement Movement</title>,<unitdate> 1893-1927</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>College settlements</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>General: clippings and pamphlets,<unitdate> 1899-1928</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Andover House Association (Boston): report,<unitdate> 1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>College Settlement Association</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>"Cultural Hybrid in the Slums: the College Woman and the Settlement House,<unitdate> 1889-1894</unitdate>," by John P. Rousmaniere, <title>American Quarterly</title>, <unitdate>1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>Pamphlets, theater scripts, and clipping,<unitdate> 1898-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>Lists of subscribers,<unitdate> 1896-1906</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8</container>
+                     <unittitle>
+                        <title>Quarterly</title>,<unitdate> 1915-1917</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith Alumnae Chapter</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">9</container>
+                        <unittitle>Correspondence,<unitdate> 1915-1928</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">10</container>
+                        <unittitle>Pamphlets, annual reports, and notebook,<unitdate> 1909-1927</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>Intercollegiate Community Service Association (formerly College Settlement Association): annual reports,<unitdate> 1917-1926</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>[see also box 2 and volumes on shelf]</p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>
+                        <title>College Settlement News</title> (New York),<unitdate> 1915-1916</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>College Settlement of Philadelphia</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">13</container>
+                     <unittitle>Anna Freeman Davies: book and publications,<unitdate> 1943-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">14</container>
+                     <unittitle>General: annual reports, correspondence, photographs, and pamphlets,<unitdate> 1904-1995</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>[see also volumes on shelf]</p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">15</container>
+                     <unittitle>Photographs, newsletters, annual reports, clippings, and correspondence,<unitdate> 1942-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1-7</container>
+                  <unittitle>College Settlement Association: annual reports,<unitdate> 1890-1913</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>[see also box 1 and volumes on shelf]</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Dennison House (Boston)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">1</container>
+                     <unittitle>General: correspondence, directory, pamphlets, annual reports, and clippings,<unitdate> 1903-1938</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">2</container>
+                     <unittitle>Annual reports,<unitdate> 1900, 1903, 1907-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">3</container>
+                     <unittitle>Italian Department: reports and pamphlets,<unitdate> 1906-1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>George Washington Cable,<unitdate> 1904</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>Margaret Deland,<unitdate> 1898-1899</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>T.W. Higginson,<unitdate> 1847-1879</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>Julia Ward Howe, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>Henry Irving,<unitdate> 1899</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>Julia C. Lathrop,<unitdate> 1912</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>Richard G. Moulton,<unitdate> 1904</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>Katherine A. Sanborn, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>Isobel Strong, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">4</container>
+                        <unittitle>Kate Douglas Wiggin-Riggs,<unitdate> 1910</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>95 Rivington St. (NYC)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">5</container>
+                     <unittitle>
+                        <title>The first year at the College Settlement</title> by Jane E. Robbins,<unitdate> 1912</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">6</container>
+                     <unittitle>Pamphlets, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">7</container>
+                     <unittitle>Annual reports,<unitdate> 1890, 1899-1900, 1901/1902, 1913/1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">4</container>
+               <container type="folder">1</container>
+               <unittitle>Industrial settlements (Hartley House, NY): pamphlet, <unitdate>circa 1897</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">4</container>
+               <container type="folder">2</container>
+               <unittitle>Music settlements (Third St. Music School): annual reports, pamphlet, and manuscript,<unitdate> 1959-1965</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Social settlements</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">3</container>
+                  <unittitle>General: pamphlet, articles, and thesis manuscript,<unitdate> 1892-1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">4</container>
+                  <unittitle>Dorothea Dix House (Boston): pamphlets,<unitdate> 1898-1901</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">5</container>
+                  <unittitle>Greenwich House (NYC): annual report (1921), clippings, and pamphlet (re: Mary Simkhovitch),<unitdate> 1921-1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">6</container>
+                  <unittitle>Henry St. Settlement (NYC): pamphlet,<unitdate> 1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">7</container>
+                  <unittitle>Hull House (Chicago): article (<title>Smith College Monthly</title>),<unitdate> 1894</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">8</container>
+                  <unittitle>
+                     <title>Social Settlements and the Labor Question</title>: pamphlet, <unitdate>circa 1897</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Volumes on shelf</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>College Settlements Association: annual reports</unittitle>
+               </did>
+               <note>
+                  <p>[duplicates - see also box 2]</p>
+               </note>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate>1890-1899 </unitdate>(volumes 1-10)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate>1900-1906 </unitdate>(volumes 11-17)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate>1896-1897, 1900-1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>College Settlement News and News of the College Settlement of Philadelphia</title>,<unitdate> 1895-1921</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Reports of the College Settlement of Philadelphia</title>,<unitdate> 1895-1920</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>St. Mary Street Settlement: <title>Library and Settlement</title>,<unitdate> 1886-1895</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

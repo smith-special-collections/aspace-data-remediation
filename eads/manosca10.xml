@@ -1,0 +1,1951 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca10.xml//EN" countrycode="us" mainagencycode="manosca">manosca10</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Herbert John Davis Personal Papers, 1893-1973
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Tamara Weiner.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor></titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+<date>2003-06-03</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca10 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Herbert John Davis Personal Papers, 1893-1973
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 32</num>
+<author>Tamara Weiner
+</author>
+<date>1999
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Davis, Herbert John, 1893-1967. </persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Herbert John Davis Personal Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1893-1973</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 32</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">6 boxes</extent>
+<extent encodinganalog="300$a">(2.5 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Fourth president of Smith College, Professor of English, and world renowned expert on Jonathan Swift.  Contains material primarily related to his personal life including correspondence, speeches, publications, photographs, newspaper articles, and memorabilia.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p>Herbert John Davis was born on May 24, 1893 in Northamptonshire, England, where he received his elementary and secondary education.  He later attended Oxford University (St. John's College) from which he graduated in 1914.  He then served in France and Belgium during WWI and in 1919 he returned to Oxford to earn his A.M.  In 1922, Davis married Gertrude Lucas of Opladen, Rheinland, Germany but she died tragically just six years later.  In 1930, Davis married Gladys Wookey of Toronto and the couple had two daughters, Charlotte Elisabeth Ann and Jane.</p>
+<p>In 1920, Davis acquired a position at the University of Leeds where he taught for two years.  He then moved to the University of Toronto where he remained for sixteen years.  Davis was hired as an Associate Professor of English, and later promoted to a full Professor.  He also served as Chair of the English department.  In 1938, Davis accepted a position as Chair of the English department at Cornell University.</p>
+<p>In 1939, Davis succeeded William Allan Neilson as president of Smith College and he assumed this role for the 1940-1941 school year.  Davis served as the fourth president of Smith College until 1949 when he returned to Oxford as a reader in textual criticism.  Davis retired from Oxford in 1960.</p>
+<p>During his academic career, Davis made several notable contributions.  Following his passion for poetry and prose, Davis became a world renowned expert on Jonathan Swift and wrote several books on his work including <title render="italic">Swift's View of Poetry</title> (1931) and <title render="italic">Stella, a Gentlewoman of the Eighteenth Century</title> (1942).  The latter is an account of the friendship that existed between Swift and Esther Johnson.  Davis also edited the fourteen volume work, <title render="italic">The Prose Works of Jonathan Swift</title> (1939-68).  Davis' distinguished literary contributions were well recognized and he received several honorary degrees including a Doctorate of Laws from Amherst College in 1940.</p>
+<p>In addition to his enthusiasm for the English language, Davis was also extremely socially conscious and particularly concerned with WWII raging overseas. Perhaps his most memorable act of charity was providing a home to five British refugee children for several years during the war.  Many of his colleagues and friends followed his lead and opened their doors to children in need.  Davis died on March 28, 1967.</p>
+<chronlist>
+<chronitem>
+<date>1893</date>
+<event>Born on May 24, at Long Buckby, Northamponshire, England.  Son of Carter and Martha Ann (Sheldon) Davis.</event>
+</chronitem>
+<chronitem>
+<date>1905</date>
+<event>Educated at Northampton Grammar School.</event>
+</chronitem>
+<chronitem>
+<date>1911</date>
+<event>St. John's College, Oxford.</event>
+</chronitem>
+<chronitem>
+<date>1912</date>
+<event>Pass Moderations (Classics)</event>
+</chronitem>
+<chronitem>
+<date>1914</date>
+<event>B.A.; Honour School of English Language and Literature.</event>
+</chronitem>
+<chronitem>
+<date>1915</date>
+<event>Reading for Anglican Orders, Wells Theological College.</event>
+</chronitem>
+<chronitem>
+<date>1916-1919</date>
+<event>War Service--gunner, R.G.A.; subaltern with 301 Siege Battery, France and Belgium; acting-adjutant, 4th Brigade, R.G.A., Army of Occupation.</event>
+</chronitem>
+<chronitem>
+<date>1919</date>
+<event>M.A., Oxford.</event>
+</chronitem>
+<chronitem>
+<date>1920</date>
+<event>Lecturer in English, University of Leeds.</event>
+</chronitem>
+<chronitem>
+<date>1922</date>
+<event>Associate Professor English, University College, Toronto.  Married Gertrude Lucas of Opladen, Rheinland, Germany.</event>
+</chronitem>
+<chronitem>
+<date>1924-1925</date>
+<event>Guest Professor in the University of Cologne, Germany.</event>
+</chronitem>
+<chronitem>
+<date>1925-1935</date>
+<event>Professor of English, University College, Toronto.  Elected Chairman of the Department of English, University of Toronto.</event>
+</chronitem>
+<chronitem>
+<date>1928</date>
+<event>Gertrude Lucas Davis died.</event>
+</chronitem>
+<chronitem>
+<date>1930</date>
+<event>Married Gladys Wookey of Toronto.  Children--Charlotte Elisabeth Ann Davis (Falconer) and Jane Davis (Knowles).</event>
+</chronitem>
+<chronitem>
+<date>1937</date>
+<eventgrp>
+<event>Appointed Professor of English at Cornell University; granted leave of absence for one year in England.</event>
+<event>Frederic Ives Carpenter Visiting Professor at the University of Chicago, summer quarter.</event>
+</eventgrp>
+</chronitem>
+<chronitem>
+<date>1938</date>
+<event>Chairman of the Department of English, Cornell University.</event>
+</chronitem>
+<chronitem>
+<date>1939</date>
+<event>Appointed Goldwin Smith Professor of English Literature at Cornell University.</event>
+</chronitem>
+<chronitem>
+<date>1940</date>
+<event>Accepts position as fourth President of Smith College; L.L.D. from Amherst College.</event>
+</chronitem>
+<chronitem>
+<date>1949</date>
+<event>Leaves Smith College; Returns to Oxford to teach English.</event>
+</chronitem>
+<chronitem>
+<date>1960</date>
+<event>Retires from Oxford.</event>
+</chronitem>
+<chronitem>
+<date>1967</date>
+<event>March 28, 1967--Died.</event>
+</chronitem>
+</chronlist>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>The Herbert John Davis Personal Papers are primarily related to his personal life.  Types of material include correspondence; speeches; publications; photographs; newspaper articles; and memorabilia. Although the chronological focus of the collection is Davis' presidential years, the records pertain to life outside his presidential duties.</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into five series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Biographical Material</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Correspondence</ref>
+</item>
+<item>
+<ref target="list-ser3">III. Inauguration</ref>
+</item>
+<item>
+<ref target="list-ser4">IV. Photographs</ref>
+</item>
+<item>
+<ref target="list-ser5">V. Publications and Speeches</ref>
+</item>
+</list>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The papers are open for research according to the regulations of the Smith College Archives without any additional restrictions.
+</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the documents must be requested from the Smith College Archives.  Smith College owns copyright to any published material relating to college events and activities.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Herbert John Davis Personal Papers, Box #, Smith College Archives. </p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>These papers were transferred to the College Archives from the Office of the President after President Davis left the College in 1949.
+</p>
+</acqinfo>
+<processinfo id="admin-process">
+<p>Processed by Tamara Weiner.</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Davis, Herbert John, 1893-1967.</persname>
+<persname encodinganalog="600" source="lcnaf">Swift, Jonathan, 1667-1745.</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Presidents.</corpname>
+</controlaccess>
+<dsc type="combined" id="contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I. Biographical Material, <unitdate>(1893-1973)</unitdate>
+</unittitle>
+<physdesc>
+<extent>2.5 linear inches</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>This series provides an overview of Herbert John Davis' career and personal life and is arranged alphabetically.  Newspaper clippings and magazine articles, dating from 1939 to 1973, document Davis' many achievements, focusing on education, awards, and travel as well as his work with the European Recovery Program.
+</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>Association of Begatees of Clergymen
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>Awards
+<unitdate>1940-1947, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>Data
+<unitdate>1893-1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Degrees
+<unitdate>1940-1949, 1957</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>European Recovery Program
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>Luncheons, etc.
+<unitdate>1947</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Miscellaneous
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>Newsclippings and Publications
+<unitdate>Oct 1944-Dec 1946</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>Obituaries
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>Resignation
+<unitdate>1948, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>Resignation - Surprise Party
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">12</container>
+<unittitle>Trips Abroad
+<unitdate>1946-1948</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II. Correspondence, <unitdate>(1940-1950)</unitdate>
+</unittitle>
+<physdesc>
+<extent>5 linear inches</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>This series documents Davis' personal correspondence during his time as president of Smith College.  This series is arranged by subject and includes correspondence regarding, among other things, Davis' interest in the author Jonathan Swift.
+</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">13</container>
+<unittitle>American Academy of Arts and Sciences
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">14</container>
+<unittitle>The Atheneum Pall Mall
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">15</container>
+<unittitle>Birch Wathen School
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">16</container>
+<unittitle>British Consulate, 1942
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">17</container>
+<unittitle>British Refugee Children
+<unitdate>1940-1942</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">18</container>
+<unittitle>Sponsors-Davis, Herbert J.
+<unitdate>1940-1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">19</container>
+<unittitle>Sponsors, A-L
+<unitdate>1940-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">20</container>
+<unittitle>Sponsors, M-Z
+<unitdate>1940-1943</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">21</container>
+<unittitle>Connely, Willard
+<unitdate>Jul 1940-Mar 1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">22</container>
+<unittitle>Davis, Gertrude, Fellowship
+<unitdate>1947-1950</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">23</container>
+<unittitle>Finn, John
+<unitdate>1949-1950</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">24</container>
+<unittitle>Grolier Club
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">25</container>
+<unittitle>Homberg
+<unitdate>May 1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">26</container>
+<unittitle>Invitations
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">27</container>
+<unittitle>Johnson
+<unitdate>Oct 1949-Jan 1950</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">28</container>
+<unittitle>Kinnevan, J.W.
+<unitdate>1942-1943</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">29</container>
+<unittitle>Miscellaneous
+<unitdate>1942-1950</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">30</container>
+<unittitle>Mongan
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">31</container>
+<unittitle>New Modern Language Association
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">32</container>
+<unittitle>Oxford, England
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">33</container>
+<unittitle>Pons
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">34</container>
+<unittitle>Power, Eugene
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">35</container>
+<unittitle>Randall
+<unitdate>1949-1950</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>		Resignation</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">1</container>
+<unittitle>Responses, A-L
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">2</container>
+<unittitle>Responses, M-Z
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">3</container>
+<unittitle>Smith, Anne Nichol
+<unitdate>1943-1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">4</container>
+<unittitle>Smith, David Nichol
+<unitdate>1940, 1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">5</container>
+<unittitle>Schroder, August
+<unitdate>1948-1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">6</container>
+<unittitle>Schott, Carl
+<unitdate>1948-1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">7</container>
+<unittitle>Spect, Betty
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>		Swift, Jonathan</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">8</container>
+<unittitle>
+<unitdate>1939-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">9</container>
+<unittitle>
+<unitdate>July 1, 1940-July 1, 1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">10</container>
+<unittitle>
+<unitdate>July 1, 1942-July 1, 1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">11</container>
+<unittitle>
+<unitdate>July 1, 1944-July 1, 1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">12</container>
+<unittitle>
+<unitdate>July 1, 1945-July 1, 1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">13</container>
+<unittitle>
+<unitdate>July 1, 1946-July 1, 1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">14</container>
+<unittitle>
+<unitdate>July 1, 1947-July 1, 1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">15</container>
+<unittitle>
+<unitdate>July 1, 1948-July 1, 1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">16</container>
+<unittitle>Index to Vol. XI</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">17</container>
+<unittitle>"War and Post War"
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">18</container>
+<unittitle>Wooley, David
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">19</container>
+<unittitle>Yale University
+<unitdate>1944-1949</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III. Inauguration, <unitdate>(1939-1940)</unitdate>
+</unittitle>
+<physdesc>
+<extent>2.5 linear inches</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>This series documents Davis' presidential appointment in 1939 as well as his inauguration in 1940.  Included in this series are congratulatory letters from colleagues and friends as well as newspaper clippings and publications.
+</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">20</container>
+<unittitle>Appointment and Pre-Inaugural Visit
+<unitdate>1939-1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">21</container>
+<unittitle>Committee of Inauguration
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">22</container>
+<unittitle>Congratulations
+<unitdate>Nov 1939-Jul 1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">1</container>
+<unittitle>Congratulations, Alumnae and Smith College Clubs
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">2</container>
+<unittitle>Exercises
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">3</container>
+<unittitle>Luncheon and Broadcast
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>		Newsclippings and Publications</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">4</container>
+<unittitle>Appointment
+<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">5</container>
+<unittitle>Inauguration
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser4">
+<did>
+<unittitle>Series IV. Photographs, <unitdate>(1939-1964)</unitdate>
+</unittitle>
+<physdesc>
+<extent>2.5 linear inches</extent>
+</physdesc>
+</did>
+<scopecontent>
+<p>The bulk of this series documents Davis' presidency at Smith College and is arranged chornologically.  Included in this series are inaugural photographs, formal portraits, candid shots, and the weddings of daughters, Charlotte Elisabeth Ann Davis (Falconer) and Jane Davis (Knowles).
+</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">6</container>
+<unittitle>
+<unitdate>1939-1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">7</container>
+<unittitle>Inauguration
+<unitdate>Oct 1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">8</container>
+<unittitle>
+<unitdate>1940-1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">9</container>
+<unittitle>British Children
+<unitdate>1940-1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">10</container>
+<unittitle>President and Mrs. Davis
+<unitdate>1940-1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">11</container>
+<unittitle>
+<unitdate>1942-1943</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">12</container>
+<unittitle>
+<unitdate>1945-1946</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">13</container>
+<unittitle>
+<unitdate>1947-1948</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">14</container>
+<unittitle>
+<unitdate>1948-1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">15</container>
+<unittitle>Formal
+<unitdate>1940-1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">16</container>
+<unittitle>Miscellaneous
+<unitdate>1940-1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">17</container>
+<unittitle>The weddings of Charlotte Elizabeth Ann Davis (Falconer)and Jane Davis (Knowles)
+<unitdate>1957-1964</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser5">
+<did>
+<unittitle>Series V. Publications and Speeches, <unitdate>(1940-1964)</unitdate>
+</unittitle>
+<physdesc>
+<extent>1.5 linear feet</extent>
+</physdesc>
+</did>
+<arrangement>
+<p>Arranged by subject.</p>
+</arrangement>
+<scopecontent>
+<p>This series is comprised of speeches and publications written during Davis' presidency at Smith College and the years following.  Included are speeches given at area colleges and organizations and his published work on the poetry of Jonathan Swift.
+</p>
+</scopecontent>
+<c02>
+<did>
+<unittitle>Publications</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">1</container>
+<unittitle>Untitled
+<unitdate>1941-49</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">2</container>
+<unittitle>American Association of University Professors
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">3</container>
+<unittitle>Article for Professor Lowenstein
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">4</container>
+<unittitle>Burden of Knowledge
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">5</container>
+<unittitle>Challenge to the Intellect
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">6</container>
+<unittitle>Charles Montagu Doughty
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">7</container>
+<unittitle>Foreign Literatures and Our Youth
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">8</container>
+<unittitle>Freshman Handbook
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">9</container>
+<unittitle>Inaugural Speeches
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">10</container>
+<unittitle>The Manuscripts of Swift's "directions to servants"
+<unitdate>1954</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">11</container>
+<unittitle>No Time for Poetry
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">12</container>
+<unittitle>The Poetry of Jonathan Swift
+<unitdate>1939-1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">13</container>
+<unittitle>Princeton University
+<unitdate>1944-1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">14</container>
+<unittitle>Princeton University-Awards
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">15</container>
+<unittitle>Recent Studies of Swift and Johnson
+<unitdate>1959</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">16</container>
+<unittitle>Reviews
+<unitdate>1942-1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">17</container>
+<unittitle>Satire of Jonathan Swift
+<unitdate>1939-1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">18</container>
+<unittitle>Smith Alumnae Quarterly
+<unitdate>1944, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">19</container>
+<unittitle>Smith College Museum of Art
+<unitdate>1959</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">20</container>
+<unittitle>Stella
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">1</container>
+<unittitle>WAVES
+<unitdate>1942-1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">2</container>
+<unittitle>Wilson, Frank Percy
+<unitdate>1963</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>		Speeches</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">3</container>
+<unittitle>Advice to Daughters
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">4</container>
+<unittitle>Alumnae Association
+<unitdate>14 Jun 1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">5</container>
+<unittitle>Alumnae College
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">6</container>
+<unittitle>Alumnae Council
+<unitdate>1941-1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">7</container>
+<unittitle>American College Publicity Association
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">8</container>
+<unittitle>American Russian Institute Dinner
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">9</container>
+<unittitle>Amherst College
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">10</container>
+<unittitle>Ann Arbor
+<unitdate>3 Oct 1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">11</container>
+<unittitle>Armistice Day
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">12</container>
+<unittitle>Assembly
+<unitdate>1939-1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">13</container>
+<unittitle>Assembly
+<unitdate>10 Dec 1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">14</container>
+<unittitle>Augustan Art of Conversation
+<unitdate>1957</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">15</container>
+<unittitle>Baccalaureate
+<unitdate>1941-1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">16</container>
+<unittitle>Bates College
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">17</container>
+<unittitle>Boston
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">18</container>
+<unittitle>Brown University
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">19</container>
+<unittitle>Chapel Talks
+<unitdate>Sep 1940-Jan 1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">20</container>
+<unittitle>Chapel Talks
+<unitdate>Sep 1943-Jun 1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">21</container>
+<unittitle>Christmas Celebration
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">22</container>
+<unittitle>Commencement, Smith College
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">23</container>
+<unittitle>Commencement, Smith College
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">24</container>
+<unittitle>Commencement, Smith College
+<unitdate>1950</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">25</container>
+<unittitle>Conference on Academic Freedom
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">26</container>
+<unittitle>Conference on Academic Freedom
+<unitdate>1949-1950</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">27</container>
+<unittitle>Conference on Education about the Soviet Union
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">28</container>
+<unittitle>Connecticut College
+<unitdate>1941-1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">29</container>
+<unittitle>Cooley Dickenson Hospital
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">30</container>
+<unittitle>Criticism of Writer's Manifesto in Horizon
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">31</container>
+<unittitle>Democracy
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">32</container>
+<unittitle>Education at Smith College, New York
+<unitdate>1947, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">33</container>
+<unittitle>Eighteenth Century Conference
+<unitdate>1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">34</container>
+<unittitle>England
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">35</container>
+<unittitle>Ethel Walker School
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">36</container>
+<unittitle>Faculty Meetings
+<unitdate>1940-1947, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">37</container>
+<unittitle>Freedom in Education
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">38</container>
+<unittitle>Gaucher College
+<unitdate>1949-1956</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">39</container>
+<unittitle>Grolier Club Dinner
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">1</container>
+<unittitle>Humanities and a Liberal Arts Education
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">2</container>
+<unittitle>Inaugural
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">3</container>
+<unittitle>Jefferson Day
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">4</container>
+<unittitle>Kent Place School
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">5</container>
+<unittitle>Kiwanis
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">6</container>
+<unittitle>Limits of General Education
+<unitdate>1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">7</container>
+<unittitle>Literature, Teaching of
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">8</container>
+<unittitle>Massachusetts State College
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">9</container>
+<unittitle>Mt. Holyoke College
+<unitdate>1941-1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">10</container>
+<unittitle>New Concepts in Education for Women
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">11</container>
+<unittitle>New York Dinner
+<unitdate>30 Apr 1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">12</container>
+<unittitle>New York, Executive Committee
+<unitdate>10 Apr 1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">13</container>
+<unittitle>New York Luncheon
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">14</container>
+<unittitle>New York Smith College Club
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">15</container>
+<unittitle>Northampton Chamber of Commerce
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">16</container>
+<unittitle>Northampton Grammar School
+<unitdate>1952</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">17</container>
+<unittitle>Northampton Historical Society
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">18</container>
+<unittitle>Northfield School for Girls
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">19</container>
+<unittitle>Phi Beta Kappa
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">20</container>
+<unittitle>Poland
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">21</container>
+<unittitle>Pompeian Conference
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">22</container>
+<unittitle>Pontypool Girls' School
+<unitdate>1951</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">23</container>
+<unittitle>Princeton University
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">24</container>
+<unittitle>Queen's University
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">25</container>
+<unittitle>Radio Broadcasts
+<unitdate>1942, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Rally Day</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-wash">See: Washington's Birthday Introductions</ref>
+</p>
+</note>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">26</container>
+<unittitle>Rhodes House
+<unitdate>1954</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">27</container>
+<unittitle>Scholarships
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">28</container>
+<unittitle>Scripps College
+<unitdate>1964</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">29</container>
+<unittitle>Senior Day
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">30</container>
+<unittitle>Smith Clubs
+<unitdate>1941-1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">31</container>
+<unittitle>Summer Session
+<unitdate>1943, 1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">32</container>
+<unittitle>Sweet Briar College
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">33</container>
+<unittitle>Toronto University-Alexander Lectures
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">34</container>
+<unittitle>Trustee-Faculty Dinner
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">35</container>
+<unittitle>Trustee's Meetings
+<unitdate>1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">36</container>
+<unittitle>Unidentified
+<unitdate>1940, 1948, 1949, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">37</container>
+<unittitle>V-E Day Plan
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">38</container>
+<unittitle>Vespers
+<unitdate>1940-1948</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03 id="list-wash">
+<did>
+<container type="box">6</container>
+<container type="folder">39</container>
+<unittitle>Washington's Birthday Introductions
+<unitdate>1941-1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">40</container>
+<unittitle>WAVES
+<unitdate>1942, 1944</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">41</container>
+<unittitle>Wells College
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">42</container>
+<unittitle>Wheaton College
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">43</container>
+<unittitle>Williamsburg-175th Anniversary
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">44</container>
+<unittitle>Williston Academy
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">45</container>
+<unittitle>Wilson College
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">46</container>
+<unittitle>Yale University Lecture
+<unitdate>1942, 1944</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

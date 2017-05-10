@@ -1,0 +1,3696 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss142.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss142</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Helen Gurley Brown Papers, 1938-2012
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Amanda Izzo.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-07-01</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss142 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Helen Gurley Brown Papers, 1938-2001
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 22
+      </num>
+         <author encodinganalog="245$c">Amanda Izzo
+      </author>
+         <date>2001
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Brown, Helen Gurley</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Helen Gurley Brown Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1938-2001 [ongoing]</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1961-1990</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 22</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">47 boxes</extent>
+            <extent encodinganalog="300$a">(22.5 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Editor of <title>Cosmopolitan</title> magazine, advertising copywriter, journalist, and author. The bulk of the material provides a comprehensive picture of Brown's intertwined personal and professional lives. Materials include speeches and scripts; writings; audiovisual material; and memorabilia, as well as records from <title>Cosmopolitan</title>. A large selection of photographs include images of celebrity friends. There is extensive correspondence from celebrities, publishers, fans, and others. Correspondents include Edward Koch, Letty Cottin Pogrebin, and Barbara Walters.</abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3108.jpg" altrender="right">
+<daodesc><p>Helen Gurley Brown at a book signing, 1963</p></daodesc></dao>
+<p>         Author and magazine editor Helen Gurley Brown was born in Green Forest, Arkansas on 18 February 1922 to Ira and Cleo (Sisco) Gurley, both schoolteachers. Though the family was poor, Cleo quit teaching to rear her two daughters. In Helen's early childhood, the Gurleys moved to Little Rock when Ira was elected to the state legislature. He was killed in an elevator accident when Helen was ten. Cleo struggled to support her children in depression-era Arkansas, first moving back with family in the Ozark region, and then taking Helen and her older sister Mary to Los Angeles in the late 1930s. In Los Angeles, Mary contracted polio, which strained the Gurley's already grim financial condition. Despite hardship, Helen excelled socially and academically. She was active in leadership positions in several high school clubs and graduated class valedictorian.</p>
+
+<p>	Helen Gurley spent a year at the Texas State College for Women and then returned to Los Angeles to put herself through Woodbury Business College. Cleo and Mary moved back to Arkansas but remained dependent on Helen's financial support, a situation which continued for the remainder of their lives. Helen graduated from Woodbury with a business degree in 1941 and took on a succession of secretarial jobs. The seventeenth job, at the advertising agency Foote, Cone, and Belding, was pivotal to Helen's future success.</p>
+
+<p>	Helen Gurley worked as executive secretary to Don Belding. During this time, she won a <title render="italic">Glamour</title> magazine contest for "Girls of Taste" that awarded her a vacation and a wardrobe. She had an active dating life, including a romance with prizefighter Jack Dempsey. Gurley's hard work captured the attention of her boss, and at the suggestion of his wife, Don Belding experimented, allowing Helen to write advertising copy. She succeeded at the task, and moved from secretarial work to copywriting. She wrote ads for several accounts, won prizes for her copy, and by the late 1950s had become the best-paid female copywriter on the West Coast. </p>
+
+<p>	In 1959, at the age of 37, Helen found a marriage partner in David Brown, a magazine and book editor who would become a film executive at the Twentieth Century Fox Studios, and later an independent producer. He was also an uncredited partner behind many of Helen's projects. After she found her advertising career stagnating at Foote, Cone, and Belding and then the Kenyon and Eckhardt Agency, it was David who encouraged her to write a book about her life as a single woman. The result, <title render="italic">Sex and the Single Girl</title> (1962), captured a <title render="italic">zeitgeist</title> of the early 1960s.</p>
+ 
+
+<p>	Bernard Geis Associates, a maverick publishing house, found great success with Brown's book, a guide to living single "in superlative style." It later published the wildly successful potboilers of Jacqueline Susann. <title render="italic">Sex and the Single Girl</title>, an advice manual that exhorted women to remain single and find fulfillment in an occupation and non-marital relationships with men, sparked national controversy and remained on the best-seller lists for months. Helen Gurley Brown made frequent personal, television, and radio appearances to promote the book. Rights to the title were sold to Warner Brothers at the highest price then ever paid for a non-fiction title. The film, <title render="italic">Sex and the Single Girl</title> (1964), starred Natalie Wood (as Helen Gurley Brown) and Tony Curtis.</p>
+
+<p>	Following the success of <title render="italic">Sex and the Single Girl</title>, David Brown and Bernard Geis Associates marketed Helen in a variety of enterprises. She wrote a syndicated newspaper advice column, recorded phonograph albums and radio spots, and wrote prodigiously. Her next book, <title render="italic">Sex and the Office</title> (1964), a racier advice manual and expose of a sex-filled world of secretaries, sold disappointingly in comparison to <title render="italic">Sex and the Single Girl</title>.</p>
+
+<p>	The Browns submitted proposals for a variety of works to keep up the momentum of Helen's popularity following <title render="italic">Sex and the Single Girl</title>: plays, television shows, other books, and magazines. Their proposal for a magazine for single women ("Femme") drew the interest of the Hearst magazine corporation. Though they did not want to start a new magazine for Brown, they made a trial agreement for her to try her format at their failing general interest magazine, <title render="italic">Cosmopolitan</title>. Brown officially became editor of <title render="italic">Cosmopolitan</title> in July 1965, and she brought dramatic changes to the first issue.</p>
+
+<p>	Brown converted the conservative <title render="italic">Cosmopolitan</title> to a female counterpart of Hugh Hefner's iconic <title render="italic">Playboy</title> magazine. She featured sexy cover models, controversial subject matter, and a hip sensibility that garnered a large audience quickly. While editing <title render="italic">Cosmopolitan</title>, Helen Gurley Brown authored <title render="italic">The Single Girl's Cookbook</title> (1969) and <title render="italic">Sex and the New Single Girl</title> (1971), continued to be a guest on many TV shows, and became one of Hearst's biggest success stories. Meanwhile, David Brown, along with partner Richard Zanuck, produced many successful films, including <title render="italic">The Sting, Jaws, Cocoon, Deep Impact,</title> and <title render="italic">Chocolat</title>.</p> 
+
+<p>	In 1983 Helen wrote the best-seller <title render="italic">Having it All</title>, an advice manual and memoir in the style of <title render="italic">Sex and the Single Girl</title>. In the 1980s, she also had television stints as a regular on <title render="italic">Good Morning America</title>, a short-lived syndicated show <title render="italic">A View from Cosmo</title>, and was a guest on talk shows. She continued to edit the highly successful <title render="italic">Cosmopolitan</title>, which had by the 1980s grown to 300 pages, of which a hundred were highly lucrative advertisements. She oversaw expansion of the <title render="italic">Cosmopolitan</title> franchise into numerous international editions. In 1993 she wrote <title render="italic">The Late Show</title>, an advice manual and memoir about growing older. She published a writing guide, <title render="italic">The Writer's Rules</title>, in 1999, and in 2000 wrote her definitive memoir, <title render="italic">I'm Wild Again</title>.</p> 
+
+<p>	Brown's career was often marked by controversy. <title render="italic">Sex and the Single Girl</title>, a celebration of independent womanhood published a year before Betty Friedan's <title render="italic">The Feminine Mystique</title>, sparked much dispute about women's place in pre-women's movement popular culture. In a literary world that had only recently seen the lessening of stringent restrictions on the portrayal of sex, Brown's emphasis on sex drew much opposition from conservative critics. However, by the late 1960s, she and her vision of adamantly man-crazy womanhood drew opposition from non-conservatives as well. The incipient women's movement targeted Brown's limited vision of liberation. Feminists criticized the sex-object "Cosmo Girl" and envisioned a mass media that reflected a greater range of possibilities for women than the pink collar, man-obsessed vision of <title render="italic">Cosmopolitan</title>. Brown's idiosyncratic notions of liberation and sexual freedom raised controversy in later years as well. In the 1990s, her dismissal of sexual harassment as a significant workplace problem and her indifference to the risk of AIDS for heterosexual women drew great wrath again from feminists. Brown nonetheless identified herself and her magazine as unfailingly feminist. She worked on behalf of the National Abortion Rights Action League in support of abortion rights and supported other feminist organizations and causes. </p>
+
+<p>While Brown was frequently the target of criticism, in the last years of her life she also accumulated accolades. Her work at <title render="italic">Cosmopolitan</title> was recognized through her election to the Publishing Hall of Fame and a Henry Johnson Fisher Award. She was declared a New York City landmark, being a familiar presence on New York City busses heading from her Central Park West apartment to the <title render="italic">Cosmopolitan</title> office. Her admirers and friends included gossip columnist Liz Smith, television journalist Barbara Walters, mogul Malcolm Forbes, and New York Mayor Ed Koch.</p>
+
+<p>In 1997 Brown gave up her editorship of <title render="italic">Cosmopolitan</title> to become editor-in-chief of international editions of the magazine. Far from a retiree, she remained a workaholic in her new job, enjoyed travel with David, who continued to produce hit films until his death in 2010, and still voiced "outrageous" opinions that made her a frequent presence in newspapers and magazines.   In early 2012  she  established the David and Helen Gurley Brown Institute for Media Innovation, donating $30 million dollars to collaborating institutions, Columbia University Graduate School of Journalism and Stanford School of Engineering.  Helen Gurley Brown died in a Manhattan hospital on 13 August 2012.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>	The Helen Gurley Brown Papers consist of  22.5 linear feet of material and date from 1938 to 2001. The bulk of the papers were produced in the 1960s and provide a comprehensive picture of Brown's exceptionally intertwined personal and professional lives. Types of material include personal and professional correspondence, published and unpublished writings, personal records and memorabilia, printed materials, photographs, biographical materials, an audiotaped interview, videotapes, phonograph albums, scrapbooks, and posters.</p>
+         <p>	Some material pertaining primarily to David Brown can be found in SERIES I. BIOGRAPHICAL MATERIALS and SERIES IV. WRITINGS. Since he collaborated with Helen on many of her projects, his work is interspersed throughout her papers. Helen Gurley Brown has been a pivotal figure in the magazine world in the second half of the twentieth century, and her papers give an insider's look into the Hearst organization, one of the most powerful media organizations of this century, and the publishing industry in general. The papers also address topics well beyond the world of magazines. Her work as an advertising copywriter at a time when women were not expected to work outside of the home certainly deserves consideration, and her call for "liberation" of the single woman was among the first. Brown's rags to riches career was unusual at a time when most women still did not work outside the home. Her experience of moving from pink-collar clerical worker to wealthy doyenne of the mass media was unique. She helped shape the popular culture of the 1960s and beyond. Sex and the Single Girl ushered in a spate of "Sex and the..." imitators but also launched a cultural dialogue on the question of the unmarried, sexually active, employed woman. The look of Cosmopolitan, which was conveyed on the signature covers photographed by Francesco Scavullo and the racy cover blurbs, defined young women's magazines for much of the second half of the twentieth century. As her career progressed, Brown associated with rich and influential people, who are well-represented in her collection. Additionally, the strong responses, both positive and negative, elicited by Brown's work give a sense of changing and conflicting public opinion on questions of sex, gender, and the media.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into six series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. BIOGRAPHICAL MATERIALS</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. CORRESPONDENCE</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. SPEECHES AND APPEARANCES</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. WRITINGS</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. <title render="italic">COSMOPOLITAN</title>
+               </ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI. OVERSIZE MATERIALS</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection with the following exceptions: new, unprocessed accessions and a small amount of correspondence are closed.</p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Helen Gurley Brown's estate retains copyright ownership of her papers. Permission must be obtained to publish reproductions or quotations beyond "fair use."  Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish must also be obtained from the Sophia Smith Collection as owners of the physical property. </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Helen Gurley Brown Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+	<altformavail id="admin-altform">
+		<head>Additional Formats</head>
+              	<p>Selections of audiotapes from this collection have been digitized and are available to <extref href="https://media.smith.edu/departments/ssc/brown-hg/hgbrown_playlist.html">view online</extref> (on Smith campus only).</p>
+	</altformavail>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Helen Gurley Brown donated her papers to the Sophia Smith Collection beginning in 1972.
+          </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Amanda Izzo, 2001.</p>
+               <p>Recent additions to this collection are unprocessed and are not reflected in the finding aid.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <corpname encodinganalog="610" source="lcnaf">Bernard Geis Associates (New York, N.Y.)</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Cosmopolitan (New York, N.Y.: 1952)--History</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Hearst Corporation</corpname>
+         <subject encodinganalog="650" source="lcsh"> Advertising--United States--History--20th century</subject>
+         <subject encodinganalog="650" source="lcsh">Celebrities--New York (State)--New York</subject>
+         <subject encodinganalog="650" source="lcsh">Journalism--United States--History--20th century--Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Periodicals--Publishing--United States--History--20th century--Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Sex in mass media--United States--History--20th century</subject>
+	<subject encodinganalog="650" source="lcsh">Secretaries--United States--History--Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Single women--Sexual behavior--History</subject>
+	<subject encodinganalog="650" source="lcsh">Women--Life skills guides</subject>
+	<subject encodinganalog="650" source="lcsh">Women executives--United States</subject>
+	<subject encodinganalog="650" source="lcsh">Women in advertising--United States--History- 20th century</subject>
+	<subject encodinganalog="650" source="lcsh">Women in mass media--United States--History--20th century</subject>
+	<subject encodinganalog="650" source="lcsh">Women in the professions--United States--History--20th century</subject>
+	<subject encodinganalog="650" source="lcsh">Women editors--United States</subject>
+         <geogname encodinganalog="651" source="lcsh">New York (N.Y.)--Social life and customs--20th century--Sources</geogname>
+      </controlaccess>
+      <!-- Begin series descriptions -->
+<dsc type="analyticover">
+    <c01 level="series">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1938-2000)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>2.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series includes material that documents Helen Gurley Brown's personal life and professional accomplishments. There are clippings, appointment books, travel itineraries, awards, and photographs. There is also a file of material from and about <title render="bold">David Brown</title>. The many <title render="bold">Clippings</title> give a comprehensive picture of the heavy press coverage Brown has received throughout her career. They stretch from her schoolgirl days in Little Rock to the present. The <title render="bold">Education</title> material primarily covers Brown's involvement later in life with her alma mater Woodbury College. This series contains miscellaneous <title render="bold">Financial and legal material</title>, including a 1946 income tax return; <title render="bold">Awards</title>; and a <title render="bold">Videotape</title> profile of Brown aired on CNN. The <title render="bold">Memorabilia</title> is especially engaging, containing writings and ephemera from her years in Little Rock and those pre-dating <title render="italic">Sex and the Single Girl</title>. The Papers contain a large selection of <title render="bold">Photographs</title>, some shot by celebrity photographers, and many with celebrity friends. </p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1939, 1950-2001)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>4 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>	Brown was always a prodigious correspondent. Her correspondence is organized into several subseries. The <title render="bold">Individuals</title> subseries is arranged alphabetically by name and includes friends, frequent correspondents, and correspondence more personal than businesslike. Accordingly correspondence can be found here that is related to her work at <title render="italic">Cosmopolitan</title>, her writings, speeches and appearances, or other topics located elsewhere in her papers. Correspondence with celebrities is filed in <title render="bold">Individuals</title>.</p>  
+
+<p>	The next subseries is <title render="bold">Thank you and congratulatory notes</title>, mostly from her staff at <title render="italic">Cosmopolitan</title> magazine, but also from her household staff and employers at Hearst. This correspondence is mainly of a quotidian nature, but illustrates how Brown, by many accounts a demanding person, earned the respect of her staff and employers.</p>  
+
+<p>	<title render="bold">Public response and fan mail</title> includes letters from readers of Brown's writings and viewers of her appearances. Some letters are simple requests for autographs, while others provide detailed and moving accounts of how Brown's plan for success helped these generally working-class women find degrees of fulfillment. The extent to which these women embraced <title render="italic">Cosmopolitan</title>'s message is in sharp contrast to the criticism leveled at the magazine by many conservatives and feminists.</p>  
+
+<p>	Correspondence by <title render="bold">Subject</title> includes letters generated by Brown's philanthropic work, critiques of magazines other than <title render="italic">Cosmopolitan</title> and other Hearst properties, letters from libraries and museums interested in Brown's work, love letters from the 1950s, and correspondence with friends from Little Rock. The bulk of the <title render="bold">Subject</title> correspondence involves Editor's perquisites/gifts. These letters reveal Brown's personal interest in clothes and cosmetics. Noted for her thrift, she often used her clout as an editor of a women's magazine to obtain these items wholesale. Manufacturers and designers, eager to have their products highlighted in <title render="italic">Cosmopolitan</title>, and others because they were friends, obliged. These letters give no indication that the products were intended for the pages of <title render="italic">Cosmopolitan</title>; such correspondence can be found in SERIES V. <title render="italic">COSMOPOLITAN</title>. As best as can be determined, the letters here pertain to gifts and perquisites that were for Brown's personal use.</p>
+
+<p>	<title render="bold">General</title> correspondence contains letters of a quotidian nature, regarding home repairs and so forth.</p>
+
+<p>	This series contains most of Brown's correspondence, but there is additional correspondence in other series. For example, correspondence generated by the planning and execution of speeches and appearances, with publishers and media figures interested in Helen's writings, and tied explicitly to her work at <title render="italic">Cosmopolitan</title> can be found in the relevant series. Correspondence connected to specific projects has been kept with the project whenever possible. An exception to this rule is celebrity correspondence, which has been filed in SERIES II. CORRESPONDENCE-<title render="bold">Individuals</title> even though it may relate to a specific project. Determining whether or not correspondence should be categorized as professional or personal was one of the biggest challenges of this collection, since Brown's work and personal life were enmeshed. Many of the people with whom she maintained friendships were figures in the media. In general, the correspondence included in SERIES V. <title render="italic">COSMOPOLITAN</title> is explicitly related to the production of the magazine. Nonetheless, many of the correspondents in SERIES II. CORRESPONDENCE are at least tangentially related to <title render="italic">Cosmopolitan</title>.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+           <did>
+               <unittitle>SERIES III. SPEECHES AND
+          APPEARANCES <unitdate>(1962-2001), </unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.75 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>
+	Material in this series pertains to Brown's presentations in person, or on television or radio. There are correspondence; speech texts; and notes from her personal appearances, including the text of a debate in which she participated at Oxford University. Her television and radio work generated scripts; schedules; and correspondence, including public response mail from an appearance on the news program <title render="italic">Dateline</title>. Pilot shows starring Brown, one in the 1960s called <title render="italic">Outrageous Opinions</title> and another in the 1980s called <title render="italic">What Should I Do?</title>, generated material as well. Television proposals that never came to fruition are filed in SERIES IV. WRITINGS. In the early 1960s, Brown recorded a radio show that was syndicated in Canada. This series contains the complete scripts of these recordings. 
+</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES IV. WRITINGS <unitdate>(1940, 1956-2000), </unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>9 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>	Besides editing <title render="italic">Cosmopolitan</title>, Helen Gurley Brown occupied herself primarily as a writer. Before she wrote the best-selling <title render="italic">Sex and the Single Girl</title>, she wrote ad copy, of which a small amount can be found here, and unpublished vignettes and poems. The emphasis on themes of sexuality and independent womanhood is greater in these early unpublished writings than her later published works.</p> 
+
+<p>	Brown's collection boasts impressive documentation of her published writing efforts. It contains drafts; manuscripts; newspaper clippings; and published copies of <title render="italic">Sex and the Single Girl, Sex and the Office, Outrageous Opinions, Having It All, The Late Show,</title> and <title render="italic">I'm Wild Again</title>. Researchers interested in her first two books should consult correspondence (filed in this series) with her publisher Bernard Geis Associates, which includes letters from Bernard Geis and Letty Cottin Pogrebin, and the Lucy Kroll Agency. This correspondence gives an excellent sense of the circumstances that surrounded Brown's sudden rise to fame and the successful efforts of Helen and David Brown to capitalize upon that fame. The correspondence also elucidates the changing world of the media and publishing in the 1960s as well as relatively new strategies of marketing controversial and sexually explicit material. Clippings record the public response to such efforts.</p>
+
+<p>	There are published and draft versions of Brown's magazine and newspaper articles in this series. Material related to a syndicated advice column for single women that ran between the time <title render="italic">Sex and the Single Girl</title> was published and the point at which Brown took over <title render="italic">Cosmopolitan</title> is of special interest. The series also contains the scripts and LP albums Brown recorded, one an album of advice, the other a recording of a speech. Short pieces that Brown wrote for other people's books and articles and her declines of such requests are found here.</p>
+
+<p>	The unpublished material reveals the breadth of Brown's ideas. Several proposals for unrealized television programs, plays, and articles concern themes that Brown repeated in her published work, but take a more radical approach to them. Fragments of an incomplete autobiography; an autobiographical theatrical piece, which includes an audio-taped interview; and fictional short stories and poems are included among the unpublished works.</p>
+
+<p>	The series also contains letters to the editor, notes, and some writings by David Brown.</p>
+            </scopecontent>
+  </c01>
+
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES V. <title>COSMOPOLITAN</title>
+                  <unitdate>(1965-2000)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>4.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>	Helen Gurley Brown's "child" for more than four decades was <title render="italic">Cosmopolitan</title> magazine. She changed a failing general interest magazine into a phenomenon-not only a best-selling magazine, but a cultural icon.</p>
+
+<p>	This series comprehensively traces Brown's <title render="italic">Cosmopolitan</title> career from its beginnings to her final job evaluating <title render="italic">Cosmopolitan</title>'s international editions. Of special note is the proposal circulated by David and Helen Brown for a new magazine, "Femme," that would become <title render="italic">Cosmopolitan</title>'s new format.</p> 
+
+<p>	Throughout her tenure, a primary component of Brown's job was the courting of advertisers. Texts of the speeches and presentations she gave to advertisers and international editorial staff, as well as acceptance speeches for awards given to <title render="italic">Cosmopolitan</title> can be found in the subseries <title render="bold">Advertising and publicity</title>. This subseries includes advertisements for the magazine, including many written by Brown; promotional materials from the Hearst Corporation; and a large amount of newspaper clippings documenting coverage of <title render="italic">Cosmopolitan</title> in the press.</p>
+
+<p>	<title render="bold">Correspondence</title> (the years 1988-89 are especially well documented) illuminates the day-to-day operations of Brown's editorial work, as letters flowed between Brown and writers, <title render="italic">Cosmopolitan</title> staffers, advertisers, and Hearst executives regarding specific issues of the magazine as well as ongoing concerns. Frequent correspondents among the staff and Hearst executives are filed by individual. Researchers interested in the advertising content of the magazine may wish to consult the letters of Stan Perkins and Seth Hoyt. </p>
+
+<p>	The <title render="bold">Editorial</title> subseries provides an in-depth look at the magazine production process. Rules for writing and art format, which Brown enforced strictly, are compiled from the 1970s to the 90s. There are files of article ideas and editing memos, and a sample folder that represents the transformation of an article from its submitted state to the published version. Some notes on Brown's ideas for the magazine have been included, as is information on production and circulation. This subseries also contains the results of reader and staff surveys. Within the <title render="bold">Editorial</title> material is a section on special features. Material regarding the famous Burt Reynolds centerfold and other special issues of the magazine, such as anniversary issues and the last issue edited by Helen Gurley Brown, are filed here. Another special feature was the failed television pilot <title render="italic">A View from Cosmo</title> starring Brown. A "Best of" set of articles has Brown's favorite article among pieces from such regular <title render="italic">Cosmopolitan</title> writers as Erica Jong, Judith Krantz, and Gail Sheehy; a collection of some of Brown's long-running editorial, "Step into My Parlor;" and drafts and a copy of the only article Brown wrote for the magazine.</p>
+
+<p>	A small subseries concerns <title render="italic">Cosmopolitan</title> <title render="bold">Events</title> and includes material from a lunch given by Brown for other women's magazine editors to raise awareness for the National Abortion Rights Action League and a party thrown by the Hearst organization to celebrate Brown's twenty-fifth anniversary as Editor.</p>
+
+<p>	A set of <title render="italic">Cosmopolitan</title> magazines from 1953-79 is housed in the Sophia Smith Collection's Periodicals Collection.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES VI. OVERSIZE MATERIALS <unitdate>(1965-96)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.75 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>These items have been culled from other series for preservation purposes. The series features large photographs and artwork of Brown; an honorary degree; birthday cards and tributes; writings; publicity from her books and <title render="italic">Cosmopolitan</title>; material from <title render="italic">Cosmopolitan</title>; and scrapbooks from <title render="italic">Sex and the Office</title>, a television show proposal, a <title render="italic">Cosmopolitan</title> speech, and her Cosmopolitan twenty-fifth anniversary party.</p>
+            </scopecontent>
+  </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1938-2000)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>General,
+            <unitdate>1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clippings</unittitle>
+                  <note>
+                     <p>
+                        <ref target="list-ser4">[see also SERIES IV. WRITINGS</ref>
+              and
+              <ref target="list-ser5">SERIES V. <title>COSMOPOLITAN</title>]</ref>
+                     </p>
+                  </note>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">2</container>
+                     <unittitle>Print interviews of Brown: correspondence,
+              <unitdate>1963-2000, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3</container>
+                     <unittitle>Books and papers,
+              <unitdate>1991, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>Family and early life, circa <unitdate>1935-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>"Beaux"</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>Helen and David Brown</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>David Brown</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8</container>
+                     <unittitle>Parties and charity events</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">9</container>
+                     <unittitle>Awards and tributes to Brown</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">10</container>
+                     <unittitle>Speeches and appearances</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>Apartment and office</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>General</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">1</container>
+                     <unittitle>General, continued</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">2</container>
+                     <unittitle>Photos of Brown, no text</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>Brown quotes within articles not about
+              her, box quotes, etc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">5</container>
+                     <unittitle>Interviews and panels</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">6</container>
+                     <unittitle>Foreign language</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Appointment and address books</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">1-4</container>
+                     <unittitle>
+                        <unitdate>1965-70</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">1-2</container>
+                     <unittitle>
+                        <unitdate>1971-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">3</container>
+                  <unittitle>Education (includes correspondence and
+            printed material from Wayne Miller and Woodbury
+            University),
+            <unitdate>1984-2001</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">4</container>
+                  <unittitle>Foote, Cone, and Belding job evaluation,
+            <unitdate>1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Financial and legal materials</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">5</container>
+                     <unittitle>Correspondence,
+              <unitdate>1964-89</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">6</container>
+                     <unittitle>Statements, stubs, miscellany, tax return,
+              and Sex and the Single Girl royalty statements,
+              <unitdate>1946, 1963-69, 1980-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">7</container>
+                     <unittitle>Clothes: drawings, measurements, and
+              expenditures,
+              <unitdate>1966-71, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">8</container>
+                  <unittitle>Travel itineraries, general,
+            <unitdate>1966-69, n.d.</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>
+                        <ref target="list-ser4">[See also SERIES IV. WRITINGS</ref>
+              and
+              <ref target="list-ser5">SERIES V. <title>COSMOPOLITAN</title>]</ref>
+                     </p>
+                  </note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Awards</unittitle>
+                  <note>
+                     <p>
+                        <ref target="list-ser5">[See also SERIES V. <title>COSMOPOLITAN</title>]</ref>
+                     </p>
+                  </note>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">9</container>
+                     <unittitle>Correspondence,
+              <unitdate>1971-98</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">10-11</container>
+                     <unittitle>Publicity, invitations, and printed
+              material,
+              <unitdate>1971-97</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">12</container>
+                     <unittitle>Cosmetic Executive Women's Achiever,
+              <unitdate>1991</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">13</container>
+                     <unittitle>USO Woman of the Year,
+              <unitdate>1991</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">14-15</container>
+                  <unittitle>Memorabilia: personal stationary, handmade
+            cards, wedding invitation, and four leaf clover, circa <unitdate>1938-39, 1951-52, 1959, 1985,
+            n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">1</container>
+                  <unittitle>David Brown: printed material, notes, and
+            testimonial by Helen Brown,
+            <unitdate>1966, 1972, 1979, 1992, 1995, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="photographs">
+               <did>
+                  <unittitle>Photographs</unittitle>
+                  <note>
+                     <p>
+                        <ref target="list-ser6">[See also SERIES VI. OVERSIZE
+              MATERIALS]</ref>
+                     </p>
+                  </note>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">2-3</container>
+                     <unittitle>Brown alone, circa
+              <unitdate>1930s-99</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">4</container>
+                     <unittitle>Family (includes photos of Helen and David
+              Brown, and mother and sister alone), circa
+              <unitdate>1940s-90s</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>[For shots of Helen and David Brown with others, see Helen Brown in groups]
+                </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="group_photos">
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">5-9</container>
+                     <unittitle>Helen Brown in groups, circa <unitdate>1940s-mid-90s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5a</container>
+                     <container type="folder">1-2</container>
+                     <unittitle>Promotional shots of book covers and
+              clippings,
+              <unitdate>1962-82</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="photos-25th_anniversary">
+                  <did>
+                     <container type="box">5a</container>
+                     <container type="folder">3</container>
+                     <unittitle>Twenty-fifth anniversary party,
+              <unitdate>1990</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5a</container>
+                     <container type="folder">4</container>
+                     <unittitle>Henry Johnson Fisher Award,
+              <unitdate>1996</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5a</container>
+                     <container type="folder">5</container>
+                     <unittitle>Brown on Tonight Show, Merv Griffin, Good
+              Morning America, David Brenner,
+              <unitdate>1967-early 1990s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5a</container>
+                     <container type="folder">6</container>
+                     <unittitle>Not Helen or David Brown, circa <unitdate> 1950s-70s, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5a</container>
+                     <container type="folder">7</container>
+                     <unittitle>Unidentified, circa
+              <unitdate>1930s?</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">1</container>
+                  <unittitle>Videotape: Helen Gurley Brown: A Profile,
+            CNN,
+            <unitdate>1998</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1939, 1950-2001)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Family</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">2</container>
+                     <unittitle>Alford, Mary Gurley</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>Brown, David: with Helen Brown and third
+              party, includes John Dos Passos, Charles Bluhdorn,
+              John Lindsay, Sammy Cahn, A.M. Rosenthal, Felix
+              Rohatyn, Liz Smith, and Earl Wilson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">5</container>
+                     <unittitle>Bryan, Cleo</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Individuals</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">6</container>
+                     <unittitle>A: Floyd Abrams; Michael Abrums; Bella
+              Abzug; Mr. and Mrs. Ed Acker; Mona Ackerman; Cindy
+              Adams;Charles Addams; Jerome Agel; Roger Ailes; Shana
+              Alexander; Woody Allen; Bruce Altman; Carlos Amador;
+              Totty Ames; Cleveland Amory; Judi Anderson; Paul
+              Anderson; Julie Andrews; Walter Annenberg; Myra,
+              John, and Malcolm Appleton; GigiArledge; Lucie Arnaz;
+              Sharon Arnold; Dr. Bob Arnot; Bea Arthur; Joseph
+              Assante; Sherrell Aston and Muffie Potter; Robert
+              Atkins; and Louis Auchincloss</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">7</container>
+                     <unittitle>Ba-Be: Judy Bachrach; F. Lee Bailey;
+              Glenda and Steve Bailey; Marilyn Cantor Baker;
+              Russell Baker; Letitia Baldridge; Larry Baldwin and
+              John Clerc Scott; Lucy Ball; Lawrence Barnett; Bruce
+              Barone; Mary Ellen Berlin Barrett; Warren Beatty;
+              Geoffrey Beene; Charlotte Beers; Don and Alice
+              Belding; Tony Bennett; Polly Bergen; Irving Berlin;
+              H. Jerome Berns; and Robert Bernstein</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">8</container>
+                     <unittitle>Bi-Bl: Jim Bickford; Bennett Bidwell;
+              Elizabeth Jessup Bilheimer; Stephen and Alexandra
+              Mayes Birnbaum; Joey Bishop; Joanne Black; Ruth
+              Blackstone; Harry Blake; Leslie Blanchard; and
+              Charles Bluhdorn</unittitle>
+                  </did>
+               </c03>
+               <c03 id="correspondence_bo-bu">
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">9</container>
+                     <unittitle>Bo-Bu: William Bolger; Erma Bombeck; Ray
+              Bradbury; Patricia Salter Bradshaw; James Brady;
+              Jacqueline Brandwynne; Bill Brangham; David Brenner;
+              Marie Brenner; David Brinkley; Tom Brokaw; Bob Brown
+              (love letters from 1940s) ; Ned Brown; Sam Brown;
+              Tina Brown; Tony Brown; Robert Brownson; Robert
+              Bruce; Karen Bruno; Art Buchwald; William F. Buckley,
+              Jr.; Howard Buffett; Carol Burnett; Barbara Bush; and
+              Red Buttons</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">1</container>
+                     <unittitle>Ca-Ci: Herb Caen; William and Grace Cahan;
+              Sammy and Tita Cahn; Sue Cameron; Rosemary Campbell;
+              Pat Carbine; Pamela Carmichael; Liz Carpenter; Johnny
+              Carson; Amy Carter; Jimmy and Rosalyn Carter; Linda
+              and Arthur Carter; Jill Cassidy; Ray Cave; Dick
+              Cavett; Anne Chamberlain; Chris Chase; Eileen
+              (Elizabeth) and Robert Chen; Henry Christensen, III;
+              Herman Citron; Richard Civita; Roberto Civita; and
+              Victor Civita,</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">2</container>
+                     <unittitle>Cl-Cu: Jill Clayburgh,; Eleanor Clift;
+              Hillary and Bill Clinton; Rosemary Clooney; Glenn
+              Close; Richard Clurman; Alexander and Hilary Cohen;
+              Bea Cohen; Claudia Cohen; Eugene Cohen; Sherry Suib
+              Cohen; Lady Georgina Coleridge; Glenn Collins; Jackie
+              Collins; Judy Collins; Nancy Collins; Pat Collins;
+              Steve Conn; Heather Connolly; Shirley Conran; Barbara
+              Cook; Joan Ganz Cooney; Amy Levin Cooper; Paul
+              Cooper; Bill Cosby; Chris Costello; Jacqui Cotsen;
+              Katie Couric; Warren Cowan; William Craig, III; Liz
+              Crain; Joan Crawford; Walter and Betsy Cronkite;
+              Delores Cunningham; Mary Cunningham; Ruth Curnutt;
+              Charlotte Curtis; Tony Curtis; and Charlie and
+              Christopher Cusack</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">3</container>
+                     <unittitle>Da-Di: Kitty D'Alessio; Maxine Daley; Kay
+              Daly; Vic Damone; Faith Daniels; Mary Ann Danner;
+              Leonard Dare; Saul David; John Davidson; Joanne
+              Davis; Jill Davison; Richard Dawson; Fred De Cordova;
+              Jean Deems; John DeGroot; Oscar de la Renta; Lois Ann
+              Demko; Ronie Dente; Countess Ailene de Romanones;
+              Peter Diamandis; Barbara Lee and Carl
+              Diamonstein-Spielvogel; Joan Didion [Dunne]; Barry
+              Diller; Phyllis Diller; and Edward
+              DiPrete</unittitle>
+                  </did>
+               </c03>
+               <c03 id="correspondence_do-dy">
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">4</container>
+                     <unittitle>Do-Dy: Robert Dolce; Elizabeth Dole; Phil
+              Donahue; Sam Donaldson; Carrie Donovan; Michael
+              Douglas; Maureen Dowd; Edward Reynolds Downe; Hugh
+              Downs; Judi Ellin Drogin; Michael Drury; Peter
+              Duchin; Robin Chandler (Mrs. Angier Biddle) Duke;
+              Georgia Dullea; Faye Dunaway; Dominick Dunne;
+              Clarissa and George Dyer; and Oscar
+              Dystel</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">5</container>
+                     <unittitle>E: John Eastman; Merry Echo; Owen Edwards;
+              Athenal Ehlert; Lawrence Eisenberg; Lee Eisenberg;
+              Dwight Eisenhower; Julie Eisenhower; Susan
+              Eisenhower; Linda Ellerbee [?]; Dick Ellescas; Inga
+              Elliot; Linda Louise Berlin Emmet; Arthur Emil;
+              Sandra Forsyth Enos; Nora Ephron; Ahmet Ertegun;
+              Charles Evans; Joni Evans <ref target="list-ser4">[see also SERIES IV.
+              WRITINGS-Books-Having It All and The Late Show]</ref>;
+              Peter Evans; Robert Evans; and Judith
+              Exner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">6</container>
+                     <unittitle>F: Ted Factor; Lady Mary Fairfax; Lisa
+              Fallon; Musi Farner; Mia Farrow; Judy Feiffer;
+              Michael Feinstein; Fred Feldmesser; Clay Felker;
+              Lessie Ferguson; Sarah Ferguson; Temple Fielding;
+              Freddie Fields; Naomi Findlay; William Fine; Pamela
+              Fiori; Karen Fisher; Ron Fletcher; John Florida; Jane
+              Fonda; Christopher (Kip) Forbes; Malcolm Forbes, Sr.;
+              Malcolm (Steve) Forbes, Jr.; Robert Forbes; Timothy
+              Forbes; Betty and Gerald Ford; Charlotte Ford; Gerry
+              Ford; Reed Foster; Dale Miller Frehse; Betty Friedan;
+              Steve Friedman; Thomas Friedman; Edna Leah Frosch;
+              David and Carina Frost; Lewis Burke Frumkes; Bonnie
+              Hurowitz Fuller; Allen Funt; and Betty
+              Furness</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">7</container>
+                     <unittitle>Ga-Go: Marilyn Galanoy; Ernest Gann; Nancy
+              Tuck Gardiner; William Donald Garson; Bruce Gelb;
+              Phyllis George; Richard Gere; Freddie Gershon; J.
+              Paul Getty; Charles Gibson; Kathie Lee Gifford;
+              Genevieve Gilles; Marcia Ann Gillespie; Elga Gimbel;
+              Rudolph Giuliani; Leslie Glass; Selma Goksel; Harry
+              Golden; Ralph Golco; Leonard Goldenson; Barbara
+              Goldsmith; Mark Goodson; Milton and Maura Gordon;
+              Stephen Gordon; and Robert Gould</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">8</container>
+                     <unittitle>Gr-Gu: Katharine Graham; Cary Grant;
+              Ernestine Gravely; Barry Gray; Adolph and Phyllis
+              Green; George Green; Judy Green; Leslie Greenberg;
+              Gael Greene; Vartan Gregorian; Richard Grenier; Joel
+              and Jo Wilder Grey; Merv Griffin; Helen, Ann, and
+              Steno Grimes; Henry Anatole and Louise Grunwald;
+              Audrey Gruss; Lois and Lee Guber; Jacqueline Guber;
+              Bob Guccione, Jr.; Kathy Keeton Guccione; Maria
+              Guesk; C.Z. Guest; Bobby Guillory [?]; Bryant Gumbel;
+              and Lynn Guzey</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">9</container>
+                     <unittitle>Ha-Hef: Adrienne Hall; Halston; Marvin
+              Hamlisch; Armand Hammer; Alvin Hampel; Jane Hanson;
+              William Harbach; Jean Harris; Barbara [Grizzuti]
+              Harrison; Kitty Carlisle Hart ; Jan Hartley; David
+              Hartman; David Hasselhoff; Goldie Hawn; Naura Hayden;
+              Evangeline Hayes; Fred Hayman; Patty Hearst;
+              Randolph, Catherine, and Veronique Hearst; Austine
+              and William R. Hearst, Jr.; Pamela Hedley; Elaine
+              Heffner; Richard Heffner; Christie Hefner; and Hugh
+              Hefner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">1</container>
+                     <unittitle>Hep-Hu: Katharine Hepburn; Lenore Hershey;
+              Annemarie Herzog; Donald and Marilyn Hewitt; George
+              Roy Hill; Sandy Hill; Gail and John Hilson; Mildred
+              Hilson; Arthur Hirsch; Shere Hite; Bunny Hoest; James
+              Hoge; Lou Honderich; Benjamin Hooks; Bunny (Mrs.
+              Mickey) Hooten; Bob Hope; David Horner; Barbara
+              Howar; Ron Howard; David and Helga Howie; Arianna
+              Huffington; Robert Humphreys; Lawrence Hughes; and
+              William Hunt</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">2</container>
+                     <unittitle>I-J: Lee Iacocca; Amy Irving; Molly Ivins;
+              Jody Jacobs; Rona Jaffe; Morton and Linda Janklow;
+              Jacob Javits; Peter Jennings; Ward and Julie Jenssen;
+              Aleta Jessup; Ruth (Gerry) Jones; Erica Jong; Vernon
+              Jordan; Irene Josephy; Raul Julia; and Ann and Arnold
+              Jurdem</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">3</container>
+                     <unittitle>Ka-Kn: Helene Kalmanson; Norma Kamali;
+              Harold Kaminsky; Beverly Kanes [?]; Bernice Kanner;
+              Joanne Kaplan; Donna Karan; David Karp; Phyllis
+              Kasha; Masako Katahira; Jeffrey Katzenberg; Elaine
+              Kaufman; Julie Kaufman; Danny Kaye; Dena Kaye; Karen
+              Kayser; Mimi Kazon; Diane Keaton; Bill Keavy; Sally
+              Kellerman; Kitty Kelley; Leo Kelmenson; Edward
+              Kennedy; Jeanne Kennedy; John Kennedy, Jr.; Walter
+              and Jean Kerr; William Kerr; Herb Kerry; Alan King;
+              Larry King; Philip and Jean Kingsley; Henry and Nancy
+              Kissinger; Vera Klawitter; Calvin Klein; Ed Klein;
+              Virginia Kleinrock; Georgette Klinger; Kathryn
+              Klinger; John and Patricia Kluge; and John
+              Knowles</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Koch, Edward</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">4</container>
+                        <unittitle>General</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">5</container>
+                        <unittitle>Chinese statue
+                correspondence</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">6</container>
+                     <unittitle>Koo-Ku: C. Everett Koop; Ted Koppel;
+              Michael Korda  <ref target="list-ser4">[see also SERIES IV.
+              WRITINGS-Books-Having It All]</ref>; Lester Korn; Lynne
+              Kortenhaus; Jerzy Kosinski; Edward Kosner; Elizabeth
+              Kramer; Judith and Steve Krantz; Henry and Carolyne
+              Kravis; Robert Kreis; Florence Kriendler; Peter
+              Kriendler; Joan Kron; Charla Krupp; and Helen
+              Kushnick</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">7</container>
+                     <unittitle>La: Harriet La Barre; Alan Ladd, Jr.; Joey
+              Lagani; Alan Lakein; Jack LaLanne; Louise Lammlen;
+              Ann Landers; George Lang; Polly Langbort; Kelly
+              Lange; Angela Lansbury; Sherry Lansing; Mary Louise
+              Lau; Estee Lauder; Evelyn and Leonard Lauder; Ralph
+              Lauren; Arthur Laurents; Jerome Lawrence; Mary Wells
+              Lawrence; and Irving Lazar</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">8</container>
+                     <unittitle>Le-Li: Frances Lear; Norman Lear; John
+              Ledes; Ernest and Jackie Lehman; Joe Lebworth; Warner
+              Leroy; Bernard Leser; Jerry Levin [?]; Ray Levin;
+              Ellen Levine; Ruth Levine; Suzanne Levine; Simone and
+              William Levitt; Caroline and Alain Levy; Ed Lewis;
+              Berna Linden; Carol Lindley; John Lindsay; and Brian
+              Linehan</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">9</container>
+                     <unittitle>Lo-Ly: includes Kai-Yin Lo; Jo Loesser;
+              Anita Loos; Shirley Lord; Mari Loshin; Dorothy
+              Loudon; Iris Love; Clare Booth Luce; Mary Luke; Joan
+              Lunden; Carol Lynley and Paul Pourchot; and William
+              Lyons</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">10</container>
+                     <unittitle>Mac-Man: Blair MacArthur; Jean MacArthur;
+              Austin Mace; Shirley MacLaine; Bill Maher; David and
+              Hillie Mahoney; Norman and Norris Mailer; Lee Majors;
+              Pyrrha Malouf; Louis Malle; Nathan Mandelbaum; and
+              Bill Manville</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">11</container>
+                     <unittitle>Map-Me: Fred and Grace Mapstone; Jamsheed
+              and Arnaz Marker; Judy Markey; James Marlas; Alice
+              Mason; Kenneth Mason; Frank Massi; Robert Massie;
+              Virginia Johnson Masters; Carol Matthews; Christopher
+              Maurer; Herbert and Louise Mayes; Barry McCaffrey;
+              Carole Holmes McCarthy; Ruth McCarthy; Sandra
+              McCracken; Marian McDonald; Mary Byrn McDonnell;
+              Cynthia McFadden; Ali McGraw; Phyllis Jean McGuire;
+              Rod McKuen; Ed McMahon; Margaret Mead; Aileen Mehle;
+              Sue Mengers; Lewis Meyer; and Chris
+              Meyers</unittitle>
+                  </did>
+               </c03>
+               <c03 id="correspondence_mi-my">
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">1</container>
+                     <unittitle>Mi-My: Pat Miller; Yvette Mimieux; Grace
+              Mirabella; Mary Tyler Moore; Jessica Morris;
+              Georgette and Robert Mosbacher; Pat Mosbacher; Daniel
+              Moynihan; Martin Mull; Moira Mumma; Anna and Rupert
+              Murdoch; Betty Tabb Hurst and Joseph Murry; and Bess
+              Myerson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">2</container>
+                     <unittitle>N: George Nagamatsu; Madeline Nagel;
+              Theodore Nathan; Donald Newhouse; S.I. Newhouse; Paul
+              Newman; Phyllis Newman; Edward and Judy Ney; Carl
+              Nichols; Mike Nichols; Sharon Nichols; William
+              Niebla; Richard and Pat Nixon; Deborah Norville; and
+              Novella</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">3</container>
+                     <unittitle>O: Conan O'Brien; Katherine Claire
+              O'Brien; Sandra Day O'Connor; Jacqueline Onassis;
+              Ryan O'Neal; Grace O'Reilly; Norman Orentreich; Dee
+              Osborne; Robert Osterman; John O'Toole; and Deniz and
+              Vedat Oztarhan</unittitle>
+                  </did>
+               </c03>
+               <c03 id="correspondence_p">
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">4</container>
+                     <unittitle>P: Sarvenaz Pahlavi; Alan Pakula;
+              Alexander Papamarkou; Hurley Papcock; George Pataki;
+              Cynthia Patson; Jane Pauley; Barbara Pearlman; Greg
+              and Veronique Peck; Jack Peninger; Mitzi Perdue;
+              Ronald and Claudia Perelman; Anthony Perkins; H. Ross
+              Perot; Bill Peters; Elizabeth Peters; Ray Petersen;
+              Peter Peterson; Guy and Lucille Peyrelonge; Carol
+              Pfeffer; J.J. Philbin; Regis and Joy Philbin; Ivo
+              Pitanguy; George Plimpton; Letty Cottin Pogrebin [see
+              also SERIES IV. WRITINGS-Books-Publisher and agent,
+              <unitdate>1960s-</unitdate>
+              Bernard Geis Associates]; Beverly Poitier; Patrizia
+              Pontremoli; Frank Price; Hal Prince; Leonard Probst;
+              Emilio Pucci; St. Clair Pugh; and Mario
+              Puzo</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">5</container>
+                     <unittitle>Ra-Re: Glady Rachmil; Al Rachoi; Lee
+              Radziwill; John Raitt; Heather Randall; Tony Randall;
+              Joe Raposo; Dan Rather; Sylvia Rayner; Nancy and
+              Ronald Reagan; Helen Reddy; Robert Redford; Rob
+              Reiner; Ann Reinking; Janet Reno; James Reston; David
+              Reuben; Charles Revson; Martin, Eleanor, and Eugenia
+              Revson; and John E. Reynolds</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">6</container>
+                     <unittitle>Ri-Roo: Abraham Ribicoff; Yvonne Rich;
+              Dusty Rice; Michael Ritchie; Geraldo Rivera; Joan
+              Rivers [Rosenberg ]; Mrs. Charles Robb; Cokie
+              Roberts; Oral Roberts; Shelley Roberts; Jill
+              Robinson; Blanchette Rockefeller; Nelson Rockefeller;
+              Henry Rogers; Kenny Rogers; Peter Rogers; Willie Mae
+              Rogers; Felix and Elizabeth Rohatyn; Betty Rollin;
+              Jeanette (Thompson) Roman; and Andrew
+              Rooney</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">7</container>
+                     <unittitle>Ros-Ru: Maxine Rose; Isadore Rosenfeld;
+              Paul Rosenfield; Abe Rosenthal; Diana Ross; Eileen
+              Quinn Ross; Herbert Ross; Steven Ross; Harriet Rosso;
+              James Roth, Jr.; Roy Rowan; Teresa Rowton; Steve
+              Rubell; and Ann Rubenstein</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">8</container>
+                     <unittitle>Sa: Catherine Sabino; Mualla Sabit; Morley
+              and Jane Safer; William Safire; Harrison and
+              Charlotte Salisbury; William and Virginia Salomon;
+              Jean Salvadore; Alfreda Sanchez; Cristina Saralegui;
+              Anna and Robert Sarnoff; Jerry Saviola; Diane Sawyer;
+              and Leslie Sawyer</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">9</container>
+                     <unittitle>Sc-Sh: Arnold Scaasi; Francesco Scavullo;
+              William Schallert; Dorothy Schiff; Irwin Schloss;
+              Hilda Schneider; Joan Schnitzer; Ian Schrager; Pat
+              Schroeder; Jonathan Schwartz; Stephen Schwarzman;
+              Dennis Scioli; Joseph Scognamillo; Deb Scott; John
+              Clerc Scott [see Larry Baldwin]; Bob Scribner;
+              William Seawell; George Segal; Peggy Seigel;
+              Katharine Seitz; Irene Mayer Selznick; Andrew
+              Shahinian; Gene Shalit; Robert Shanks; Selma Shapiro;
+              Laura Sharp; Veronica Sheehan; Gail Sheehy; Sidney
+              Sheldon; and Dinah Shore</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">10</container>
+                     <unittitle>Si-Sk: Ann and Herbert Siegel; Stanley
+              Siegel; Jack Siegrist; Pat Signorelli; Isobel Silden;
+              Fred Sill; Beverly Sills [Greenough]; Fred Silverman;
+              Ruth Simmons; Dawn Simon; Neil Simon; Norma Simon;
+              Norton Simon; Frank Sinatra; Nancy Sinatra [Lambert];
+              and Florence Skelly</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">1</container>
+                     <unittitle>Sl-Smith, L: includes Barbara Jo Slate;
+              Zora Sloan; Diana Smith; and Liz Smith [2 letters
+              restricted until 2026 have been removed]</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">2</container>
+                     <unittitle>Smith, R-Sp: Richard Smith; Tommy
+              Smothers; Richard Snyder; Tom Snyder; Kit Solde [?];
+              Paul Solomon; Stephen Sondheim; Shawn Southwick-King;
+              A.J. Spectarsky; Halbert Speer; Cindy Spengler; and
+              Steven Spielberg</unittitle>
+                  </did>
+               </c03>
+               <c03 id="correspondence_st">
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">3</container>
+                     <unittitle>St: Leslie Stahl; Francesca Stanfill; Ray
+              Stark; Danielle Steel; Andrew and Lyn Stein; Jules
+              Stein; Gloria Steinem; Sanford Stele; Virginia Dasso
+              Stephens; Leonard Stern; Gary Stevens; George
+              Stevens, Jr.; Martha Stewart; Faith Stewart-Gordon;
+              Jerry Stiller and Anne Meara; Barbara Stone; Harry
+              Stone; Noreen Stone; Betty Strauss; Helen Strauss;
+              Meryl Streep; Barbra Streisand; David Strousse; Lee
+              Strasberg; Kandy Stroud; Jan Struber; Bobbe Stultz;
+              and Geraldine Stutz</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">4</container>
+                     <unittitle>Su-Sy: Arthur Ochs Sulzberger; David
+              Susskind; H.N. (Swannie) Swanson; and Marilyn
+              Symons</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">5</container>
+                     <unittitle>Ta-Th: Gay and Nan Talese; Linda Talley;
+              Madelon Talley; McDonald Talley; Annette Tapert; Dawn
+              Tarnofsky; Iareas Tavou; Elizabeth Taylor; Margaret
+              Ternes; Patrick Terra; Joe Tex; Margaret Thalken;
+              Theresa Thalken; Margaret Thatcher; Helen Thomas;
+              Marlo Thomas; Edward Thompson; and Strom
+              Thurmond</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">6</container>
+                     <unittitle>Ti-Tu: Grant Tinker; Preston Robert Tisch;
+              Robert Tompkins; Bill Tonelli; Jack Tormey; Lyn
+              Tornabene; Jean-Claude Tramont; Viviana Traverso;
+              Marietta Tree; Dorothy Treloar; George Trescher;
+              Carola Trier; Pauline Trigere; Morita Truman; Donald
+              and Ivana Trump; and Ted Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">7</container>
+                     <unittitle>U-V: Liv Ullman; John Updike; Dolores
+              Urzo; Jack Valenti; Abby Van Buren; Pamela Van Zandt;
+              Gloria Vanderbilt; Patricia Varga; Van Der Veer
+              Varner; Monique van Vooren; Laurel and Pete Vasso; C.
+              Speed and Charlotte Kelly Thompson Veal; Gretchen
+              Verner; Joe Vetrano; Edward Vetter; Frances Vogler;
+              Paul Volcker; Robert von der Lieth; Diane von
+              Furstenberg; and Kurt Vonnegut, and Jill
+              Krementz</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">8</container>
+                     <unittitle>Wa-We: Clint Wade; Jeanette and Paul
+              Wagner; Phyllis Cerf Wagner; Robert Wagner and
+              Natalie Wood; Herbert Walker; Lou Ann Walker; James
+              Coy Wallace; Mike and Mary Wallace; Lew Wasserman;
+              Wendy Wasserstein; Barbara Walters; Sandy Webster;
+              William Weed; Nancy Weil; L. Arnold Weissberger; John
+              Weitz; Raquel Welch; Kathryn Wellde; Linda Wells;
+              Jessamyn West; and Ruth Westheimer</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">9</container>
+                     <unittitle>Wh-Wy: includes Donald Bruce White; Kate
+              White; Michael White; Ruth Whitney; Elie Wiesel;
+              Angela Wilkins; William Williams; Earl Wilson;
+              Phyllis Starr Wilson; Oprah Winfrey; Charles Winston,
+              Jr.; Alex Witchel; Annette Wolfe; Tom Wolfe; Joanne
+              Woodward; Paul Wooland; and Elizabeth
+              Wurtzel</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">10</container>
+                     <unittitle>Y-Z: includes Hunter Yager; Maury Yeston;
+              Tessie and Tito Yulo; Darryl and Virginia Zanuck;
+              Dean Zanuck; Harrison Zanuck; Richard (Dick), Linda,
+              and Lili Zanuck; Robin Zanuck; Bobby Zarem; Merla
+              Zellerbach; Paul Zifferen; Ezra and Cecile Zilkha;
+              Dan Zucchi [?]; and Mort Zuckerman</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">1-5</container>
+                  <unittitle>Thank you and congratulatory notes,
+            <unitdate>1968-2000, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Public response and fan mail</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">1-9</container>
+                     <unittitle>
+                        <unitdate>1973-87</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">1-6</container>
+                     <unittitle>
+                        <unitdate>1988-2001, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">7-9</container>
+                  <unittitle>General,
+            <unitdate>1969-2000, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Subjects</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">10</container>
+                     <unittitle>Early friends,
+              <unitdate>1939, 1973, 1981, 1997</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="correspondence_mi-my">[See also Individuals-Murray, Betty Tabb</ref>
+                and
+                <ref target="correspondence_st">Stephens, Virginia
+                Dasso]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">11</container>
+                     <unittitle>Genealogy,
+              <unitdate>1865, 1929, 1981, 1988-89</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Gifts/editor's perquisites</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">12</container>
+                        <unittitle>
+                           <unitdate>1975-88</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">1</container>
+                        <unittitle>
+                           <unitdate>1989-99</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Libraries and museums</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">2</container>
+                        <unittitle>Miscellaneous,
+                <unitdate>1975, 1989-2000</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">3</container>
+                        <unittitle>Sophia Smith Collection,
+                <unitdate>1978-2000</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">4</container>
+                     <unittitle>Love letters and poem,
+              <unitdate>1950-53</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="correspondence_bo-bu">[See also ndividuals-Bob
+                Brown</ref>
+                and
+                <ref target="correspondence_p">Bill Peters]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">5</container>
+                     <unittitle>Magazine critiques,
+              <unitdate>1971, 1979, 1981, 1987-89</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Philanthropy</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">6</container>
+                        <unittitle>General, (includes Kate Michelman of
+                NARAL),
+                <unitdate>1968-2000</unitdate>
+                        </unittitle>
+                        <note>
+                           <p>
+                              <ref target="correspondence_do-dy">[see also Individuals-Duke, Robin Chandler]</ref>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">7</container>
+                        <unittitle>Re: church van for Mary Alford from
+                Hearst Foundation,
+                <unitdate>1979-80, 1989</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">8</container>
+                     <unittitle>Recommendations,
+              <unitdate>1972-95</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">14</container>
+                  <container type="folder">9</container>
+                  <unittitle>Unidentified,
+            <unitdate>1966-97, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. SPEECHES AND APPEARANCES <unitdate>(1962-2001), </unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">15</container>
+                  <container type="folder">1</container>
+                  <unittitle>Television and speaking contracts,
+            <unitdate>1963-75</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Speeches and personal
+            appearances</unittitle>
+                  <note>
+                     <p>
+                        <ref target="book_tours">[see also SERIES IV. WRITINGS-Book
+              Tours</ref>
+              and
+              <ref target="advertising_and_sales_presentations">
+              SERIES V. <title>COSMOPOLITAN</title>-Advertising and sales
+              presentations]</ref>
+                     </p>
+                  </note>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">2-3</container>
+                     <unittitle>Correspondence,
+              <unitdate>1962-2001, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">4</container>
+                     <unittitle>Programs and publicity,
+              <unitdate>1962, 1979, 1984, 1998</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">5-8</container>
+                     <unittitle>Texts, circa <unitdate>1962-96</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">9</container>
+                     <unittitle>Oxford debate: text, notes, and flyer,
+              <unitdate>1986</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Television and radio appearances</unittitle>
+                  <note>
+                     <p>
+                        <ref target="television_proposals">[see also SERIES IV. WRITINGS-Television proposals</ref>
+              and
+              <ref target="a_view_from_cosmo">SERIES V.
+              <title>COSMOPOLITAN</title>-Special features-A View from Cosmo]</ref>
+                     </p>
+                  </note>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">1-2</container>
+                        <unittitle>
+                           <unitdate>1963-2001, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">3</container>
+                        <unittitle>Response to
+                <unitdate>Sep 1995</unitdate>
+                Dateline appearance</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">4-5</container>
+                     <unittitle>General: scripts, transcripts, schedules,
+              and notes, circa
+              <unitdate> 1960s, 1975-78, 1985-88, 1999,
+              n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Clippings and advertisements</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">6</container>
+                        <unittitle>
+                           <unitdate>1977-78, 1982, 1985</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">7</container>
+                        <unittitle>Re: television show Outrageous Opinions,
+                <unitdate>1967</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Radio spots (syndicated in Canada):
+                scripts</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">16</container>
+                           <container type="folder">8-10</container>
+                           <unittitle>
+                              <unitdate>1963</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">17</container>
+                           <container type="folder">1-5</container>
+                           <unittitle>
+                              <unitdate>1963</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">18</container>
+                           <container type="folder">1-2</container>
+                           <unittitle>
+                              <unitdate>1964</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>What Should I Do? television pilot:
+              correspondence, scripts, and notes,
+              <unitdate>1987-88</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. WRITINGS <unitdate>(1940, 1956-2000), </unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Books</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Publisher and agent,
+              <unitdate>1960s</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04 id="lucy_kroll_agency">
+                     <did>
+                        <container type="box">19</container>
+                        <container type="folder">1-4</container>
+                        <unittitle>Lucy Kroll Agency: correspondence,
+                <unitdate>1962-64, 1993</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="bernard_geis_associates">
+                     <did>
+                        <unittitle>Bernard Geis Associates (includes Helen
+                and David Brown, Bernard Geis, Letty Cottin
+                Pogrebin, and third party
+                correspondence)</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">19</container>
+                           <container type="folder">5-26</container>
+                           <unittitle>Correspondence,
+                  <unitdate>1961-68, 1989-90</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">1</container>
+                           <unittitle>Royalty statements,
+                  <unitdate>1962-65</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="book_tours">
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">2</container>
+                           <unittitle>Book tour itineraries and miscellany,
+                  <unitdate>1962-69</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sex and the Single Girl (includes film
+              version),
+              <unitdate>1962</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">3-4</container>
+                        <unittitle>Correspondence: general and re: film
+                rights and contract,
+                <unitdate>1962-66</unitdate>
+                        </unittitle>
+                        <note>
+                           <p>
+                              <ref target="bernard_geis_associates">[See also Bernard
+                  Geis Associates</ref>
+                  and
+                  <ref target="lucy_kroll_agency">Lucy Kroll
+                  Agency]</ref>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">5-9</container>
+                        <unittitle>Draft fragment, manuscript, and
+                book</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">21</container>
+                        <container type="folder">1</container>
+                        <unittitle>Condensations and
+                serializations</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Promotion</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">21</container>
+                           <container type="folder">2</container>
+                           <unittitle>General,
+                  <unitdate>1962-65</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">21</container>
+                           <container type="folder">3</container>
+                           <unittitle>U.S. talks, programs,
+                  <unitdate>1962-63</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">21</container>
+                           <container type="folder">4</container>
+                           <unittitle>British tour: Telex reports and
+                  clippings,
+                  <unitdate>1964</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">21</container>
+                        <container type="folder">5-7</container>
+                        <unittitle>Clippings: general and
+                reviews</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">22</container>
+                        <container type="folder">1</container>
+                        <unittitle>Film: clippings and promotional
+                material,
+                <unitdate>1963-67</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sex and the Office,
+              <unitdate>1964</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">22</container>
+                        <unittitle>Correspondence</unittitle>
+                        <note>
+                           <p>[See
+                  <ref target="bernard_geis_associates">Bernard
+                  Geis Associates]</ref>
+                           </p>
+                        </note>
+                     </did><!-- <error line="398">[see Bernard Geis Associates]</error> -->
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">22</container>
+                        <container type="folder">2-6</container>
+                        <unittitle>Drafts and fragments</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">22</container>
+                        <container type="folder">7-9</container>
+                        <unittitle>Manuscript (includes original manuscript
+                and rewrites with annotations)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">1-8</container>
+                        <unittitle>Manuscript (continued)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">1-5</container>
+                        <unittitle>Typesetting copy</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">6</container>
+                        <unittitle>Book</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">7</container>
+                        <unittitle>Ads and promotion</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">8-9</container>
+                        <unittitle>Clippings: general and
+                reviews</unittitle>
+                        <note>
+                           <p>[see
+                  <ref target="list-ser6">SERIES VI. OVERSIZE
+                  MATERIALS</ref>
+                  for scrapbook]</p>
+                        </note>
+                     </did><!--<error line="415">[see SERIES VI. OVERSIZE MATERIALS for
+               scrapbook]</error>-->
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Outrageous Opinions,
+              <unitdate>1966</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="newspaper_columns-woman_alone">[See also Newspaper Columns - Woman Alone]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Helen Gurley Brown's Single Girl's
+              Cookbook,
+              <unitdate>1969</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">25</container>
+                        <container type="folder">1</container>
+                        <unittitle>General: notes, press release, and
+                script</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">25</container>
+                        <container type="folder">2</container>
+                        <unittitle>Manuscript fragment</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sex and the New Single Girl,
+              <unitdate>1970</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">25</container>
+                        <container type="folder">3</container>
+                        <unittitle>Correspondence,
+                <unitdate>1969-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">25</container>
+                        <container type="folder">4</container>
+                        <unittitle>Manuscript fragment</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">25</container>
+                        <container type="folder">5</container>
+                        <unittitle>Book</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">25</container>
+                        <container type="folder">6</container>
+                        <unittitle>Excerpts and clippings</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Having It All,
+              <unitdate>1982</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">25</container>
+                        <container type="folder">7</container>
+                        <unittitle>Correspondence,
+                <unitdate>1976-84</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">25</container>
+                        <container type="folder">8-9</container>
+                        <unittitle>Early drafts,
+                <unitdate>1975, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">1-7</container>
+                        <unittitle>Early drafts (continued)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">1-4</container>
+                        <unittitle>Early drafts, manuscript, and
+                book</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Publicity</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">1</container>
+                           <unittitle>Tour schedules,
+                  <unitdate>1982-83</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">2</container>
+                           <unittitle>Publisher's publicity material and
+                  catalogs,
+                  <unitdate>1982-85</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">3</container>
+                           <unittitle>Publicity packet,
+                  <unitdate>1983?</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">4</container>
+                           <unittitle>Best seller lists,
+                  <unitdate>1982-86</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Clippings about</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">28</container>
+                              <container type="folder">5-6</container>
+                              <unittitle>General</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">29</container>
+                              <container type="folder">1</container>
+                              <unittitle>Reviews</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">2</container>
+                           <unittitle>Syndication and excerpts</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">3</container>
+                           <unittitle>Print ads</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>The Late Show,
+              <unitdate>1993</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">29</container>
+                        <container type="folder">4</container>
+                        <unittitle>Correspondence,
+                <unitdate>1986-93</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Manuscript</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">5-9</container>
+                           <unittitle>Sections not used, miscellaneous draft
+                  material, and first draft</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">30</container>
+                           <container type="folder">1-2</container>
+                           <unittitle>First draft (continued)</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">30</container>
+                        <container type="folder">3</container>
+                        <unittitle>Book</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">30</container>
+                        <container type="folder">4-8</container>
+                        <unittitle>Clippings</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">1</container>
+                        <unittitle>General: tour schedule and notes,
+                <unitdate>1993</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <container type="folder">2</container>
+                     <unittitle>Writer's Rules, 1998: clipping and
+              correspondence,
+              <unitdate>1997-98</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <container type="folder">3-8</container>
+                     <unittitle>I'm Wild Again, 2000: correspondence,
+              photo proofs, draft fragment, and
+              manuscript</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <container type="folder">9</container>
+                     <unittitle>General: proposals, correspondence, and
+              promotional material, early
+              <unitdate>1960s, 1984-86, 1996, 2000</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Newspaper columns</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <container type="folder">10</container>
+                     <unittitle>Proposals: typescripts, drafts, and notes,
+              early
+              <unitdate>1960s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="newspaper_columns-woman_alone">
+                  <did>
+                     <unittitle>"Woman Alone" (syndicated column),
+              <unitdate>1963-65</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">11</container>
+                        <unittitle>Correspondence (includes financial
+                material),
+                <unitdate>1962-65</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Typescripts and articles</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">31</container>
+                           <container type="folder">12</container>
+                           <unittitle>
+                              <unitdate>Apr-Sep 1963</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">32</container>
+                           <container type="folder">1-5</container>
+                           <unittitle>
+                              <unitdate>Sep 1963-Apr 1965</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">32</container>
+                        <container type="folder">6</container>
+                        <unittitle>Miscellaneous typescripts and clippings
+                of columns</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">32</container>
+                        <container type="folder">7</container>
+                        <unittitle>Ads and clippings about,
+                <unitdate>1963-65</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">8</container>
+                     <unittitle>Outrageous Opinions (book compiled from
+              column),
+              <unitdate>1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phonograph albums</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">1</container>
+                     <unittitle>Clippings,
+              <unitdate>1962, 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">2</container>
+                     <unittitle>Correspondence (includes royalty
+              statements),
+              <unitdate>1962-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>Lessons in Love,
+              <unitdate>1962:</unitdate>
+              script and cover text, typescripts, drafts, and
+              notes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">5</container>
+                     <unittitle>Helen Gurley Brown at Town Hall (script fragment?), <unitdate>1966:</unitdate> 
+            </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Lessons in Love,
+              <unitdate>1962,</unitdate>
+              and Helen Gurley Brown at Town Hall, 1966: phonograph
+              albums</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Advertising copy</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">1</container>
+                     <unittitle>Correspondence (commentary on other's
+              ads),
+              <unitdate>1971-81, 1991</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">2</container>
+                     <unittitle>Copy, 1959, early
+              <unitdate>1960s, 1994, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <unittitle>Radio spots (syndicated in
+            Canada)</unittitle>
+                  <note>
+                     <p>[see
+              <ref target="list-ser3">SERIES III. SPEECHES AND
+              APPEARANCES]</ref>
+                     </p>
+                  </note>
+               </did><!-- <error line="533">[see SERIES III. SPEECHES AND
+           APPEARANCES]</error> -->
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Television</unittitle>
+                  <note>
+                     <p>
+                        <ref target="list-ser3">[see also SERIES III. SPEECHES AND APPEARANCES</ref> and <ref target="list-ser5">SERIES V.  <title>COSMOPOLITAN</title>]</ref>
+                     </p>
+                  </note>
+               </did>
+               <c03 id="television_proposals">
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">3-5</container>
+                     <unittitle>Proposals: correspondence and drafts,
+              <unitdate>early 1960s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">6</container>
+                     <unittitle>Sitcom script, early
+              <unitdate>1960s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">7-9</container>
+                  <unittitle>Short pieces for other's works (forewords,
+            contributions, school projects, quotes, blurbs, etc.):
+            correspondence, writings, and publications including
+            "Elizabeth Taylor's Passion," Somewhere Apart: My
+            Favorite Place in Arkansas, and Teachers Make a
+            Difference,
+            <unitdate>1976-99</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Autobiography/biography</unittitle>
+                  <note>
+                     <p>
+                        <ref target="plays-helen">[See also Plays-<title render="italic">Helen</title>]</ref>
+                     </p>
+                  </note>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <container type="folder">10</container>
+                     <unittitle>Offers to do biography: correspondence,
+              <unitdate>1980, 1988-89, 1996-2000</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Autobiographical work,
+              unpublished</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">35</container>
+                        <container type="folder">11-18</container>
+                        <unittitle>Drafts,
+                <unitdate>1962-63</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">35</container>
+                        <container type="folder">19</container>
+                        <unittitle>"Memories of My Mother and Early Life in Arkansas"
+                <unitdate>circa late 1990s</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">35</container>
+                        <container type="folder">20</container>
+                        <unittitle>Notes
+                <unitdate>March-April 1953</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">35</container>
+                        <container type="folder">21</container>
+                        <unittitle>Typescript
+                <unitdate>undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">35</container>
+                        <container type="folder">22-23</container>
+                        <unittitle>Short stories and notes,
+                <unitdate>1944-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Plays/theatre</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">36</container>
+                     <container type="folder">1</container>
+                     <unittitle>Correspondence, re: ideas, early
+              <unitdate>1960s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="plays-helen">
+                  <did>
+                     <unittitle>Helen (biographical musical by Brown and Lyn Tornabene),
+              <unitdate>1970-71</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">36</container>
+                        <container type="folder">2-3</container>
+                        <unittitle>Script</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Magazine and newspaper
+            (free-lance)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">36</container>
+                     <container type="folder">4</container>
+                     <unittitle>General (includes Lifeline proposal by
+              Helen and David Brown,
+              <unitdate>1967,</unitdate>
+              and Eye masthead, n.d.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">36</container>
+                     <container type="folder">5-7</container>
+                     <unittitle>Articles, published and submitted:
+              clippings, drafts, correspondence, and publications,
+              <unitdate>1956-2000, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">36</container>
+                     <container type="folder">8</container>
+                     <unittitle>Neue Illustrierte articles: drafts and
+              correspondence,
+              <unitdate>1963-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">36</container>
+                     <container type="folder">9-10</container>
+                     <unittitle>TV Guide article, "How to Outfox New Breed
+              of Macho Men": article and public response mail,
+              <unitdate>1986</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">36</container>
+                     <container type="folder">11</container>
+                     <unittitle>Letters to the editor: clippings and
+              correspondence,
+              <unitdate>1977-80, 1986-89, 1996, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <container type="folder">12</container>
+                  <unittitle>Poems,
+            <unitdate>1940,</unitdate>
+            early 1960s</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <container type="folder">13</container>
+                  <unittitle>Fiction: short stories, notes, and
+            fragments, circa
+            <unitdate>1940s-60</unitdate>
+            s?</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <container type="folder">14</container>
+                  <unittitle>Miscellaneous non-fiction pieces,
+            <unitdate>1963, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <container type="folder">15</container>
+                  <unittitle>Notes and journals [?], circa <unitdate>1965-66, 1974, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <container type="folder">16</container>
+                  <unittitle>Miscellaneous projects (includes calendar
+            and comic strip proposals),
+            <unitdate>1964, 1977, 2000</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <container type="folder">17</container>
+                  <unittitle>David Brown, early
+            <unitdate>1960s, 1975, 1980, 1985, 1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+                 <did>
+                    <unittitle>Audio recordings</unittitle>
+			<note><p>[These tapes have been digitized and are available to 
+			<extref href="https://media.smith.edu/departments/ssc/brown-hg/hgbrown_playlist.html">view online</extref> (Smith campus only)]</p></note>
+                   </did>
+		<c03>
+                 <did>
+                       <container type="box">36a</container>
+                        <unittitle>Series of taped interviews for "Helen" (biographical musical by Brown and Lyn Tornabene  (9 tapes),  <unitdate>1970-71</unitdate></unittitle>
+                     </did>
+		  </c03>    
+	            <c03>
+                     <did>
+                        <container type="box">36a</container>
+                        <unittitle>Speech: "Helen Gurley Brown at Town Hall,"  <unitdate>1966 (?)</unitdate>
+                        </unittitle>
+                     </did>
+		  </c03> 
+                  </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>SERIES V. <title>COSMOPOLITAN</title>
+                  <unitdate>(1965-2000)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Proposals</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">37</container>
+                     <container type="folder">1-2</container>
+                     <unittitle>"Femme": prospectus, drafts, notes, and
+              proposal,
+              <unitdate>1964-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">37</container>
+                     <container type="folder">3</container>
+                     <unittitle>
+                        <title>Cosmopolitan</title>,
+              <unitdate>1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Advertising and publicity</unittitle>
+               </did>
+               <c03 id="advertising_and_sales_presentations">
+                  <did>
+                     <container type="box">37</container>
+                     <container type="folder">4-9</container>
+                     <unittitle>Advertising and sales presentations and
+              award acceptances: speeches and notes (includes Henry
+              Johnson Fisher award speech),
+              <unitdate>1973, 1978-96, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">38</container>
+                     <container type="folder">1</container>
+                     <unittitle>Lunch schedules,
+              <unitdate>1966-70</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">38</container>
+                     <container type="folder">2-3</container>
+                     <unittitle>New York Times advertisements: ads and
+              copy (written by Brown),
+              <unitdate>1978-85, 1988-94</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">38</container>
+                     <container type="folder">4-6</container>
+                     <unittitle>Hearst promotional materials: general and
+              press releases,
+              <unitdate>1965-2000</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Clippings</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">7</container>
+                        <unittitle>General,
+                <unitdate>1967-98, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">8</container>
+                        <unittitle>Appointment as editor,
+                <unitdate>1965</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">9</container>
+                        <unittitle>Early success of magazine,
+                <unitdate>1965-71</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">10</container>
+                        <unittitle>Interviews with HGB re: <title>Cosmopolitan</title>,
+                <unitdate>1965, 1980, 1985, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">11</container>
+                        <unittitle>Circulation and ad campaigns,
+                <unitdate>1970, 1978-93</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">12</container>
+                        <unittitle>Events and appearances,
+                <unitdate>1982-95</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">13</container>
+                        <unittitle>Anniversaries,
+                <unitdate>1985, 1990, 1995</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">14</container>
+                        <unittitle>Specific covers and issues,
+                <unitdate>1972-95, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">15</container>
+                        <unittitle>Excerpts from <title>Cosmopolitan</title> articles,
+                <unitdate>1985-86</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">16</container>
+                        <unittitle>International editions,
+                <unitdate>1971-98</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">17</container>
+                        <unittitle>Brown retirement,
+                <unitdate>1996, 2000</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">18</container>
+                        <unittitle>Medill School of Journalism chair,
+                <unitdate>1985</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">38</container>
+                        <container type="folder">19</container>
+                        <unittitle>Compiled by Hearst,
+                <unitdate>1991, 1996-98</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Individuals</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">1</container>
+                        <unittitle>Bahrenburg, D. Claeys (President of
+                Hearst Magazines),
+                <unitdate>1985-93</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">2</container>
+                        <unittitle>Bennack, Frank (President and Chief
+                Executive of Hearst Magazines),
+                <unitdate>1976-98, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">3</container>
+                        <unittitle>Berlin, Richard (President and Chief
+                Executive of Hearst Magazines),
+                <unitdate>1966-73</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">4</container>
+                        <unittitle>Black, Cathleen (Publisher of Hearst
+                Magazines),
+                <unitdate>1999-2000, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">5</container>
+                        <unittitle>Boisriveaud, Juliette (Editor of
+                <title>Cosmopolitan</title> France),
+                <unitdate>1974-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">6</container>
+                        <unittitle>Carter, John Mack (Editor-in-Chief of
+                Good Housekeeping and President of Hearst
+                Magazines),
+                <unitdate>1975-94</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="correspondence-richard_deems">
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">7</container>
+                        <unittitle>Deems, Richard (President of Hearst
+                Magazines), (includes circulation figures),
+                <unitdate>1964-92, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">8</container>
+                        <unittitle>DuPuy, Frank (Vice President and
+                Publisher of <title>Cosmopolitan</title>),
+                <unitdate>1967-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">9</container>
+                        <unittitle>Hoyt, Seth (West coast advertising
+                agent),
+                <unitdate>1988-96</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">10</container>
+                        <unittitle>McSharry, Diedre (Editor of <title>Cosmopolitan</title>
+                U.K.),
+                <unitdate>1973-2000, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">11</container>
+                        <unittitle>Mansfield, Terry (Managing Director of
+                National Magazine Company Ltd. U.K.),
+                <unitdate>1988, 1999</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">12</container>
+                        <unittitle>Maurer, Gil (President of Hearst
+                Magazines) and Ann,
+                <unitdate>1975-99, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">13</container>
+                        <unittitle>Meade, Walter (Managing Editor of
+                <title>Cosmopolitan</title> ),
+                <unitdate>1974-96, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">14</container>
+                        <unittitle>Miller, John (Executive Vice President
+                of Hearst Corporation) and Bunny,
+                <unitdate>1965-76, 1982, 1988-90, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">15</container>
+                        <unittitle>Miller, Mark and Linda,
+                <unitdate>1982, 1988-89, 1997</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">16</container>
+                        <unittitle>Perkins, Stan (West coast advertising
+                agent),
+                <unitdate>1975-82, 1988-89, 1996</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">17</container>
+                        <unittitle>Porterfield, Lou (Vice President and
+                Publisher of <title>Cosmopolitan</title>),
+                <unitdate>1978-89, 1996</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">18</container>
+                        <unittitle>Letters from Roberta Ashley (Executive
+                Editor of <title>Cosmopolitan</title>), re: quitting smoking,
+                <unitdate>1971-79</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>General</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">39</container>
+                        <container type="folder">19-21</container>
+                        <unittitle>
+                           <unitdate>1966-86</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">40</container>
+                        <container type="folder">1-8</container>
+                        <unittitle>
+                           <unitdate>1987-94</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">1</container>
+                        <unittitle>
+                           <unitdate>1995-2001, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">41</container>
+                     <container type="folder">2</container>
+                     <unittitle>Harvard Lampoon,
+              <unitdate>1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">41</container>
+                     <container type="folder">3</container>
+                     <unittitle>Medill School of Journalism (Hearst
+              endowed professorship in Brown's name) from faculty
+              and students, includes press releases,
+              <unitdate>1987-96</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">41</container>
+                     <container type="folder">4-5</container>
+                     <unittitle>Re: Brown's retirement,
+              <unitdate>1996-97</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Editorial</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>"Cosmo [format] explained"</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">6-7</container>
+                        <unittitle>General, 1965, late
+                <unitdate>1970s, 1988-96, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">8</container>
+                        <unittitle>Art and photography,
+                <unitdate>1967-72, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">41</container>
+                        <container type="folder">9</container>
+                        <unittitle>Editing and writing,
+                <unitdate>1967-71, 1980, 1994-96, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">41</container>
+                     <container type="folder">10</container>
+                     <unittitle>Article ideas, 1970s, mid
+              <unitdate>1980s, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">41</container>
+                     <container type="folder">11</container>
+                     <unittitle>Article inventory,
+              <unitdate>1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">41</container>
+                     <container type="folder">12</container>
+                     <unittitle>Editing process (shows article from first
+              submission to final publication),
+              <unitdate>1984-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <container type="folder">1-5</container>
+                     <unittitle>Editing memos (includes article ideas and
+              manuscript),
+              <unitdate>1969-80, 1988-89, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <container type="folder">6</container>
+                     <unittitle>Covers,
+              <unitdate>1987-91</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <container type="folder">7</container>
+                     <unittitle>Production schedules,
+              <unitdate>1985, 1987, 1997</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <container type="folder">8</container>
+                     <unittitle>Circulation and miscellaneous statistics,
+              <unitdate>1968, 1973, 1986, 1989-96, n.d.</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           <ref target="correspondence-richard_deems">[see also Correspondence: Richard Deems]</ref>
+                        </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <container type="folder">9</container>
+                     <unittitle>Surveys of readers and staff about
+              magazine content (includes Brown's notes),
+              <unitdate>1987, 1989, 1992-93</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <container type="folder">10</container>
+                     <unittitle>Brown's notes,
+              <unitdate>1969-71,</unitdate>
+              late 1990s, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <container type="folder">11</container>
+                     <unittitle>Threatened lawsuit,
+              <unitdate>1983-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Special issues/features</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">1</container>
+                        <unittitle>"Step into My Parlor,"
+                <unitdate>1965, 1970-72, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Getting It," (only <title>Cosmopolitan</title> article
+                Brown wrote): drafts and published article,
+                <unitdate>1994</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">3-5</container>
+                        <unittitle>Centerfold issues: correspondence re:
+                Burt Reynolds and issues of magazine (includes
+                Reynolds and Arnold Schwarzenegger),
+                <unitdate>1972-80</unitdate>
+                        </unittitle>
+                        <note>
+                           <p>[see also Events-Twenty-Fifth
+                  Anniversary and <ref target="list-ser1">SERIES I. BIOGRAPHICAL
+                  MATERIALS-Photographs for John Davidson]</ref>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">6-7</container>
+                        <unittitle>"Power" article: correspondence, quotes,
+                and lists,
+                <unitdate>1981</unitdate>
+                        </unittitle>
+                        <note>
+                           <p>
+                              <ref target="list-ser2">[see also SERIES II.
+                  CORRESPONDENCE-Individuals]</ref>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Television shows</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">43</container>
+                           <container type="folder">8</container>
+                           <unittitle>Correspondence, includes contract,
+                  <unitdate>1981-83, 1988-91, 1998</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="a_view_from_cosmo">
+                        <did>
+                           <container type="box">43</container>
+                           <container type="folder">9</container>
+                           <unittitle>A View from Cosmo: interview notes,
+                  biographies, schedules, and overview with Brown's
+                  notes, circa <unitdate>1983</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">43</container>
+                        <container type="folder">11</container>
+                        <unittitle>Twentieth anniversary,
+                <unitdate>1985</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Elizabeth Taylor interview,
+                <unitdate>1987</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">1</container>
+                           <unittitle>Correspondence</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">2</container>
+                           <unittitle>Cassette tape</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">3</container>
+                           <unittitle>Transcripts</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">4-5</container>
+                           <unittitle>Article and drafts</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">6</container>
+                           <unittitle>Clippings</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">8</container>
+                           <unittitle>Hunk poster,
+                  <unitdate>1991-94</unitdate>
+                  [?]</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">9-10</container>
+                           <unittitle>Last Brown issue: proposed Bill
+                  Clinton article correspondence, article ideas,
+                  plans, and final issue,
+                  <unitdate>1996-97</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">11</container>
+                           <unittitle>Miscellaneous,
+                  <unitdate>1971</unitdate>
+                  [?], 1987</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">44</container>
+                           <container type="folder">12-13</container>
+                           <unittitle>Clipped articles for proposed "best
+                  of" issues (includes Brown's favorite article),
+                  <unitdate>1965-1978</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Events</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">45</container>
+                        <container type="folder">1-3</container>
+                        <unittitle>NARAL lunch for editors of women's
+                magazines: correspondence, lists of
+                invitees/attendees, planning materials, research,
+                and notes from presentation,
+                <unitdate>1986</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Twenty-fifth anniversary party, Jun
+                <unitdate>1990</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">45</container>
+                           <container type="folder">4</container>
+                           <unittitle>Invitations, attendees lists, and
+                  programs</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <unittitle>Correspondence</unittitle>
+                           </did>
+                           <c07>
+                              <did>
+                                 <container type="box">45</container>
+                                 <container type="folder">5</container>
+                                 <unittitle>Attendees: includes James Marlas,
+                      Mark Goodson, Diane von Furstenberg,
+                      Alexandra Mayes Birnbaum, Mort Zuckerman, Art
+                      Buchwald, Joy Philbin, Erica Jong, Mort
+                      Janklow, Peter Jennings, Iris Love, Beverly
+                      Sills, Liz Smith, Tina Brown, Barbara
+                      Walters, John Mack Carter, and Irving
+                      Lazar</unittitle>
+                              </did>
+                           </c07>
+                           <c07>
+                              <did>
+                                 <container type="box">45</container>
+                                 <container type="folder">6</container>
+                                 <unittitle>Declined: includes Bill Blass,
+                      Connie Chung, Barry Diller, Farrah Fawcett,
+                      Hume Cronyn, Angela Lansbury, John Kluge,
+                      Jane Fonda, Liza Minelli, Kitty Carlisle
+                      Hart, Goldie Hawn, Christie Brinkley, Julio
+                      Iglesias, Jimmy Carter, Gloria Vanderbilt,
+                      Mia Farrow, and Joan Lunden</unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">45</container>
+                           <container type="folder">7-8</container>
+                           <unittitle>Memorabilia and clippings</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">45</container>
+                        <container type="folder">9</container>
+                        <unittitle>Visitors to office: correspondence,
+                biographies, and lists,
+                <unitdate>1973, 1979, 1988-94, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">10-12</container>
+                     <unittitle>Early <title>Cosmopolitan</title>s,
+              <unitdate>1887-1894, 1913, n.d.</unitdate>
+              (incomplete)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">13</container>
+                     <unittitle>Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>SERIES VI. OVERSIZE MATERIALS <unitdate>(1965-96)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <unittitle>Awards and tributes (includes honorary LLD
+            from Woodbury University, birthday cards, and gold
+            record from staff),
+            <unitdate>1985-88</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <unittitle>Interview (interview with Liz Smith),
+            <unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <unittitle>Photographs and artwork,
+            <unitdate>1961-96</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <unittitle>Writings (Neue Illustrierte, Sex and the
+            Single Girl and Sex and the Office posters and
+            advertisements, and Having It All publicity), circa <unitdate>1963-64, circa 1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Cosmopolitan</title>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <unittitle>Publicity (includes New York Times
+              advertisements with copy by Brown, Hearst publicity),
+              <unitdate>1978-85, 1988-94</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <unittitle>Circulation statistics,
+              <unitdate>1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <unittitle>"Sample article" proofs,
+              <unitdate>1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <unittitle>Mock re-design,
+              <unitdate>1995</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Scrapbooks</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <unittitle>Sex and the Office,
+              <unitdate>1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <unittitle>Portfolio promoting The Helen Gurley Brown
+              Show, circa <unitdate>1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <unittitle>San Antonio speech,
+              <unitdate>1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <unittitle>
+                        <title>Cosmopolitan</title> 25th anniversary,
+              <unitdate>1990</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">47</container>
+                  <unittitle>"Helen" clipboard</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>
+                     <title>Cosmopolitan</title> publicity and tributes from
+            staff,
+            <unitdate>1985?, 1989-90</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>
+                     <title>Cosmopolitan</title> "hunk" posters, circa <unitdate>1990s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Charcoal drawing of Brown,
+            <unitdate>1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

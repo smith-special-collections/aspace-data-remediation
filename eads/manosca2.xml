@@ -1,0 +1,1811 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+      <eadid publicid="-//us::manosca//TEXT us::manosca::manosca2.xml//EN" countrycode="us" mainagencycode="manosca">manosca2</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Northampton and Local History Collection, 1920-[ongoing]
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author>Finding aid prepared by Elizabeth Kates.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>Smith College Archives</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date>&#x00A9; 2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-16</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>manosca2 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+</eadheader>
+<frontmatter id="front">
+      <titlepage>
+         <publisher>Smith College Archives
+        <lb/>
+            
+         </publisher>
+         <titleproper>Northampton and Local History Collection, 1920-[ongoing]
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+<num>RG 00
+      </num>
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+      <did id="main">
+         <head>Collection Overview</head>
+         <unittitle label="Title:" encodinganalog="245$a">Northampton and Local History Collection</unittitle>
+     <unitdate encodinganalog="245$f" type="inclusive">1820-[ongoing]</unitdate>
+                  <unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 00</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">15 boxes</extent>
+            <extent encodinganalog="300$a">(6.25 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Smith College Archives</corpname>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">History of Northampton and its environs.  Contains correspondence, manuscripts, photographs, and publications.
+      </abstract>
+         <langmaterial label="Language of Material:">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The collection was collected by the Smith College Archives over an extended period and included in the subject files are correspondence, manuscripts, photographs, programs and other primary source materials.  The collection is arranged in alphabetical order by subject. The collection is not complete, and materials are added to it on a regular basis.  For in-depth research pertaining to Northampton and other local history, researchers should contact Historic Northampton, Inc. and the Forbes Library, as they have a greater depth of local history collections.</p> <p>The College Archives also has books relating to Northampton and surrounding towns.</p>
+      </scopecontent>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The records are open for research according to the regulations of the Smith College Archives without any additional restrictions.
+              </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Single photocopies may be made for research purposes.  Permission to publish material from the documents must be requested from the Smith College Archives.  Smith College owns copyright to any published material relating to college events and activities.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.
+              </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Northampton and Local History Collection, Box #, Smith College Archives.</p>
+         </prefercite>
+
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>The Northampton and Local History Collection Records were donated over a period of time to the Smith College Archives from a variety of sources.</p> 
+</acqinfo>
+            <processinfo id="admin-process">
+               <p>Processed by Elizabeth Kates.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <geogname encodinganalog="651" source="lcsh">Northampton (Mass.)--History--Sources.</geogname>
+      </controlaccess>
+      <descgrp id="addinfo">
+<head>Additional Information</head>
+<bibliography id="add-biblio">
+<head>Bibliography</head>
+<p>Books about Northampton in the Smith College Archives</p>
+
+<list>
+<item>Bliss, Arthur Ames. <title render="italic">Theodore Bliss, Publisher and Bookseller: A Study of Character and Life in the Middle Period of the XIX Century.</title> Northampton Historical Society, 1914
+</item>
+<item>Brown, E. Francis. <title render="italic">Joseph Hawley: Colonial Radical.</title> New York: Columbia University Press, 1903
+</item>
+<item>Clarke, Rev. Solomon. <title render="italic">Antiquities, Historicals and Graduates of Northampton.</title> Northampton: Gazette Printing, 1882
+</item>
+<item><title render="italic">Early Northampton.</title> (pub. by the Betty Allen Chapter of the Daughters of the American Revolution) Springfield: F.A. Bassette Co. 1914
+</item>
+<item>Edwards, William H. <title render="italic">Timothy and Rhoda Ogden Edwards of Stockbridge Mass, and their descendants; a genealogy.</title> Cincinatti: The Robert Clarke Co. 1903
+</item>
+<item>Gere, Henry S. <title render="italic">Reminiscences of Old Northampton: sketches of the town as it appeared from 1840-1850.</title> [Northampton], 1902
+</item>
+<item>Hawthorne, Hildegarde. <title render="italic">Rambles in Old College Towns.</title> New York: Dodd, Mead and Co. 1917
+</item>
+<item><title render="italic">Historical Register and General Directory of Northampton.</title> Northampton: Gazette Printing Co. 1875-76
+</item>
+<item>Johnson, Clifton. <title render="italic">Historic Hampshire in the Connecticut Valley; happenings in a charming old New England county from the time of the dinosaurs down to about 1900.</title> Springfield: Milton Bradley, 1932
+</item>
+<item>Knab, Frederick. <title render="italic">1902-1903: Northampton of Today, depicted by pen and camera.</title> Northampton: Picturesque Publishing Company, 1902
+</item>
+<item><title render="italic">The Meadow City's Quarter Millennial Book, a Memorial of the Celebration of the two-hundred and fiftieth anniversary of the Settlement of the town of Northampton, Massachusetts.</title> June 5-7, 1904
+</item>
+<item><title render="italic">The Northampton Book: Chapters from three hundred years in the life of a New England Town, 1654-1954.</title> (pub. by the tercentenary committee) Brattleboro: Alan S. Browne, Inc. 1954 
+</item>
+<item><title render="italic">Northampton, The Meadow City.</title> Northampton: Kneeland and Bryant, 1894
+</item>
+<item><title render="italic">Northampton and the Northampton Institute for Savings, 1842-1942.</title> Northampton: Metcalf Printing and Publishing Co. Inc. 1942
+</item>
+<item>Trumble, James Russell. <title render="italic">History of Northampton, Mass. from its settlement in 1654.</title> Northampton: Press of Gazette Printing, 1902
+</item>
+<item>Well, Daniel White and Ruben Field Wells. <title render="italic">A History of Hatfield, Mass. 1660-1910.</title> Springfield: F.C.H. Gibbons, 1910.
+</item>
+</list>
+</bibliography>
+</descgrp>
+      <dsc type="in-depth" id="contlist">
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Anniversaries
+          <unitdate>1904</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Anniversaries
+          <unitdate>1954</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Arcadia Wildlife Sanctuary
+          <unitdate>1944 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Banks
+          <unitdate>1904 -</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Bart's Ice Cream
+          <unitdate>1986 -</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Charity
+          <unitdate>1998</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Churches - general
+          <unitdate>1882 -</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Baptist Church
+            <unitdate>1902 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Edwards Church
+            <unitdate>1965, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>First Congregational Church
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>St. John's Episcopal Church
+            <unitdate>1895 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>St. Mary's Catholic Church
+            <unitdate>c1895 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Unitarian Society
+            <unitdate>1982, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Cider Mill</unittitle>
+               <note>
+                  <p>
+                     <ref target="mills">See Mills</ref>
+                  </p>
+               </note>
+            </did>
+         </c01>
+         <c01 id="city_hall">
+            <did>
+               <container type="box">1</container>
+               <unittitle>City Hall
+          <unitdate>1888 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Clubs</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Hampshire Choral Society
+            <unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Hampshire County Progressive Club
+            <unitdate>1928 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         <c02>
+            <did>
+               <unittitle>Home Culture Club</unittitle>
+               <note>
+                  <p>
+                     <ref target="orgs_peoples_institute">See
+              Organizations: People's Institute</ref>
+                  </p>
+               </note>
+            </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Monday Afternoon Club
+            <unitdate>1941 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Musical Societies (misc.)
+            <unitdate>1873 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Northampton Choral Club
+            <unitdate>1898 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Northampton Women's Club
+            <unitdate>1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Northampton Social and Literary Club
+            <unitdate>1925 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Round Hill Club
+            <unitdate>1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Travelers' Club
+            <unitdate>1996</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <unittitle>Cooley Dickinson Hospital</unittitle>
+                  <note>
+                     <p>
+                        <ref target="hospitals">See Hospitals</ref>
+                     </p>
+                  </note>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Disasters</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Blizzards
+            <unitdate>1888 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Floods
+            <unitdate>1874</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Floods
+            <unitdate>1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Hurricanes
+            <unitdate>1938</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Film Festivals
+          <unitdate>1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Florence
+          <unitdate>1976 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Florence Sewing Machine Company
+          <unitdate>1864, n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>General</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Clippings
+            <unitdate>1879 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Photographs
+            <unitdate>1882 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Hadley
+          <unitdate>1942 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Haydenville
+          <unitdate>1975 -</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Historical Pageant
+          <unitdate>1911</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Hockanum Ferry
+          <unitdate>1889 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">2</container>
+               <unittitle>Holyoke
+          <unitdate>1906 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="hospitals">
+            <did>
+               <container type="box">2</container>
+               <unittitle>Hospitals</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Cooley Dickinson
+            <unitdate>1906 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>State Hospital
+            <unitdate>1904 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="hotels">
+            <did>
+               <container type="box">2</container>
+               <unittitle>Hotels - General
+          <unitdate>1893 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Hotel Northampton and Wiggins Tavern
+            <unitdate>1940 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Plymouth Inn
+            <unitdate>1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Rose Tree Inn
+            <unitdate>1914 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Round Hill Hotel
+            <unitdate>1874 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3</container>
+               <unittitle>Individuals -- General, A-Z
+          <unitdate>1959, n.d.</unitdate>
+               </unittitle>
+                  <note>
+                     <p>
+                        <ref target="Roberts">See also: Individual: George M. Roberts scrapbook 1878-1881</ref>
+                     </p>
+                  </note>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Burleigh, Charles C.
+            <unitdate>1962-</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Clarke, Christopher
+            <unitdate>1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Coolidge, Grace
+            <unitdate>1989 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Copeland
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Dickinson, Emily
+            <unitdate>1976 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Edwards, Jonathon
+            <unitdate>1937 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Graham, Dr. Sylvester P.
+            <unitdate>1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Kneeland, Harriet J.
+            <unitdate>1902 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Mather, Rev. Eleazer
+            <unitdate>1898</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Nute, May
+            <unitdate>1907</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Parsons Family
+            <unitdate>1929 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Pratt, William F.
+            <unitdate>1996</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Seymour
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Stoddard, Rev. Solomon
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Watson Family
+            <unitdate>1995</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3</container>
+               <unittitle>Leeds
+          <unitdate>1975 -</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Libraries</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Clarke Library</unittitle>
+                  <note>
+                     <p>
+                        <ref target="memorial_hall">See Memorial Hall</ref>
+                     </p>
+                  </note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Forbes Library</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>History
+              <unitdate>1894 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Photographs
+              <unitdate>1896 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3</container>
+               <unittitle>The Manse
+          <unitdate>1922 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3</container>
+               <unittitle>Maps</unittitle>
+               <note>
+                  <p>
+                     <ref target="pubs_maps_and_guides">See Publications: Maps and Guides</ref>
+                  </p>
+               </note>
+            </did>
+         </c01>
+         <c01 id="memorial_hall">
+            <did>
+               <container type="box">3</container>
+               <unittitle>Memorial Hall / Clarke Library
+          <unitdate>n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mills">
+            <did>
+               <container type="box">3</container>
+               <unittitle>Mills
+          <unitdate>1936 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Mount Holyoke</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Photographs
+            <unitdate>c1890 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Prospect House
+            <unitdate>1863 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3</container>
+               <unittitle>Mount Nonotuck
+          <unitdate>1890, n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3</container>
+               <unittitle>Mount Sugarloaf
+          <unitdate>1899</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3</container>
+               <unittitle>Mount Tom
+          <unitdate>1893 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Summit House
+            <unitdate>1898 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">3</container>
+               <unittitle>Ox Bow
+          <unitdate>c1890 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="Roberts">
+            <did>
+               <container type="box">4</container>
+               <unittitle>Individual: George M. Roberts scrapbook
+          <unitdate>1878-1881</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">5</container>
+               <unittitle>Forbes Library</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Reports 1-20
+            <unitdate>1895-1914</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle><title render="italic">Forbes Library, The Half Century</title>
+            <unitdate>1945</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Annual Reports
+            <unitdate>1905; 1950-1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle><title render="italic">A Guide to Fine Arts in the Forbes Library</title>
+            <unitdate>1884-1994</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Account Books
+            <unitdate>1906-1911</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">6</container>
+               <unittitle>Organizations</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Council of Social Agencies
+            <unitdate>1996</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Historic Northampton
+            <unitdate>1940 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Calendar and Newsletter
+              <unitdate>1996 -</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Home Culture Club
+            <unitdate>1887 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Northampton Social and Literary Club
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="orgs_peoples_institute">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>People's Institute - General
+            <unitdate>1909 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Correspondence
+              <unitdate>1927 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Dramatics
+              <unitdate>1923 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Photographs
+              <unitdate>1931 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Individuals
+              <unitdate>1896 -</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Smith College
+              <unitdate>1910 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>James House (Girl's City Club)
+              <unitdate>1928, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>United Way
+            <unitdate>1996, n.d.</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Smith Charities
+              <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">7</container>
+               <unittitle>Parks</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Child's Park
+            <unitdate>1989, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Look Park
+            <unitdate>1942-</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Pulaski Park
+            <unitdate>1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">7</container>
+               <unittitle>Parking, Smith College
+          <unitdate>1998</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">7</container>
+               <unittitle>Pass at Thermopylae
+          <unitdate>1895, n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Publications</unittitle>
+            </did>
+            <c02 id="pubs_maps_and_guides">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Maps and Guides
+            <unitdate>1900, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Maps and Guides (Trolley)
+            <unitdate>1903 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Newspapers
+            <unitdate>1936 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">The Northampton Book</title>
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">Northampton Poets</title>
+            <unitdate>1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">This is Northampton</title>
+            <unitdate>1974-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">River Gods</title>
+            <unitdate>1941</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">Views of Northampton and Smith College</title>
+            <unitdate>1904</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">Drives in Northampton and Vicinity</title>
+            <unitdate>1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">Northampton Picturesque</title>
+            <unitdate>c.1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">Northampton and Smith College</title>
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">College Shopper and Smacker</title>
+            <unitdate>Spring, 1926</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">Northampton, Mass.</title>
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">Western New England</title>
+            <unitdate>Oct. 1911</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle><title render="italic">Northampton</title>
+            <unitdate>c.1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         
+         <c02>
+            <did>
+               <container type="box">8</container>
+               <unittitle><title render="italic">Mount Tom; an All Outdoors
+          Magazine</title></unittitle>
+            </did>
+            <c03>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Volumes 1-7
+            <unitdate>1905-1914</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Volume 10, nos. 1and 2
+            <unitdate>1917</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+         </c02>
+</c01>
+         <c01>
+            <did>
+               <container type="box">9</container>
+               <unittitle>Railroad Stations
+          <unitdate>1886 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="restaurants">
+            <did>
+               <container type="box">9</container>
+               <unittitle>Restaurants
+          <unitdate>1976 - , n.d.</unitdate>
+               </unittitle>
+               <note>
+                  <p>
+                     <ref target="hotels">See also: Hotels</ref>
+                  </p>
+               </note>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Rivers</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Connecticut River
+            <unitdate>1901 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Mill River
+            <unitdate>1897 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">9</container>
+               <unittitle>Salem, Ma.
+          <unitdate>n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">9</container>
+               <unittitle>Sanitary Wagon
+          <unitdate>1890 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Schools</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>General
+            <unitdate>1974 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Mary A. Burnham School
+            <unitdate>1877 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                  <container type="box">9</container>
+                  <unittitle>Photographs
+            <unitdate>1879 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Stoneleigh - Burnham School
+            <unitdate>c1879 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Capen School - general
+            <unitdate>1908 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>Photographs
+              <unitdate>1889 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>Photograph Albums
+              <unitdate>1913 - 1914, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>Yearbooks
+              <unitdate>1898</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Clarke School
+            <unitdate>1913 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Hill School
+            <unitdate>1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Northampton Commercial College
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Northampton High School
+            <unitdate>1996</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Northampton Junior College
+            <unitdate>1946 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Northampton School for Girls
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Round Hill School
+            <unitdate>1891 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Smith Academy
+            <unitdate>1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Smith Vocational School
+            <unitdate>1978</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>Auto-mechanics Course
+              <unitdate>1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Sunnyside
+            <unitdate>1998 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Sheldon House
+            <unitdate>1998</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">10</container>
+               <unittitle>Streets - general
+          <unitdate>c1876 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Barrett Place
+            <unitdate>1997</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>College Lane
+            <unitdate>c1891 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Elm Street
+            <unitdate>1993 -</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>Photographs
+              <unitdate>c1876 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Green Street
+            <unitdate>1893 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Main Street - general
+            <unitdate>1975 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>Engravings
+              <unitdate>1842 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>Photographs
+              <unitdate>1860 - , n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Paradise Road
+            <unitdate>1891 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Prospect Street
+            <unitdate>1887 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Round Hill Road
+            <unitdate>1820 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>West Street
+            <unitdate>1995 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Taste of Northampton</unittitle>
+               <note>
+                  <p>
+                     <ref target="restaurants">See Restaurants</ref>
+                  </p>
+               </note>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">11</container>
+               <unittitle>Titan's Pier
+          <unitdate>1894 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Town Hall</unittitle>
+               <note>
+                  <p>
+                     <ref target="city_hall">See City Hall</ref>
+                  </p>
+               </note>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">11</container>
+               <unittitle>Underground Railroad
+          <unitdate>1974</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">11</container>
+               <unittitle>Water Cure
+          <unitdate>1848 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">11</container>
+               <unittitle>Whately Glen
+          <unitdate>c1892</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">11</container>
+               <unittitle>Williamsburg
+          <unitdate>1963</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">11</container>
+               <unittitle>Winter Festival
+          <unitdate>1975</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">12</container>
+               <unittitle>Theatres, A - Z</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>The Calvin
+            <unitdate>1996</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Circle Players
+            <unitdate>1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>City Hall
+            <unitdate>1888</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>History
+            <unitdate>1891 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Little Theatre
+            <unitdate>1915 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Opera House
+            <unitdate>1881 -</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         <c02>
+            <did>
+               <container type="box">12</container>
+               <unittitle>Players - General
+          <unitdate>1913 - , n.d.</unitdate>
+               </unittitle>
+            </did>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>"The Darling of the Gods"
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>"The Vanguard"
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>"When Beauty Pulled the Strings"
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+         </c02>
+         <c02>
+            <did>
+               <unittitle>Players--Personnel</unittitle>
+            </did>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Bunstelle, Judy
+            <unitdate>[1912 - 1919]</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Burbank, Edith
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Campbell, Stella Patrick
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Mayo, Martha
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Murnane, Allan
+            <unitdate>1915</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Rennie, James
+            <unitdate>1915 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Taylor, Julia
+            <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+         </c02>
+         <c02>
+            <did>
+               <container type="box">12</container>
+               <unittitle>Plaza
+          <unitdate>n.d.</unitdate>
+               </unittitle>
+            </did>
+         </c02>
+         <c02>
+            <did>
+               <container type="box">13</container>
+               <unittitle>Academy of Music</unittitle>
+            </did>
+            <c03>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Deed
+            <unitdate>1892</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>General
+            <unitdate>1990 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Photographs
+            <unitdate>1891 - , n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Productions
+            <unitdate>1891 - 1910</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Productions
+            <unitdate>1911-1920</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+            <c03>
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Productions
+            <unitdate>1921 -</unitdate>
+                  </unittitle>
+               </did>
+            </c03>
+         </c02>
+         </c01>
+      </dsc>
+</archdesc>
+</ead>

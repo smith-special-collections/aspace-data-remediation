@@ -1,0 +1,3392 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss58.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss58</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Bertha C. Reynolds Papers, 1907-1994
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Dorothy Green and Susan Grigg.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-06</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss58 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Bertha C. Reynolds Papers, 1907-1994
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 128
+      </num>
+         <author encodinganalog="245$c">Dorothy Green and Susan Grigg
+      </author>
+         <date>1985
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Reynolds, Bertha Capen, 1885-</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Bertha Capen Reynolds Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1907-1994</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk"> 1925-1979</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 128</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">22 boxes, 2 volumes, microfilm</extent>
+            <extent encodinganalog="300$a">(8.75 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Social worker and professor. Reynolds' professional career is well documented, including her years as associate director of the Smith College School for Social Work; as case supervisor at National Maritime Union; and as a teacher of social work.  She also published numerous texts on the practice of social work.  Material includes correspondence, published and unpublished writings, lectures, oral histories, and memorabilia.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+
+      <bioghist id="bioghist">
+<head>Biographical Note</head>
+
+            <p>by<lb />
+      Rachel A. Levine<lb />
+      Literary Executor
+      </p>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3042.jpg" altrender="right">
+<daodesc><p>Bertha Capen Reynolds, n.d.</p></daodesc></dao>
+<p>It is thanks to the Centennial Committee of a small core of professional colleagues convened by Jack Kamaiko; to Vida S. Grayson, oral historian, Smith College School for Social Work; and to Dorothy Green, research associate, and Susan Grigg, director, Sophia Smith Collection, that Bertha Capen Reynolds and her writings are being resurrected from virtual oblivion.  The centennial programs are to commemorate her birth and her achievements as scholar, teacher, and writer like no other; and to introduce recent generations of students and practitioners, and those to follow, to her rich, thought-provoking, trail? blazing contributions to the social work literature and to the teaching and practice of social work.  It would be logical for these people to ask, as some have, why they had not known about so eminent a person during the course of their education and training.</p>
+
+<p>In historical perspective, reasons tend to become obscured or rationalized; but stripped to raw essence, it is for the reason that for the later period of her productive years a conspiracy of silent ostracism, not unlike a gentlemen's agreement, prevailed among the established leadership in the profession and among the prestigious schools of social work and social agencies; and her writings were omitted from the reading lists of schools of social work.  The consequences were two-fold: the loss to students of original and stimulating learning materials; and the loss to Bertha C. Reynolds of her lifeline to all levels of contacts that she characterized as "nourishing," as well as the loss of the means of earning a livelihood.</p>
+
+<p>Because such a phenomenon had not occurred in the profession before Bertha C. Reynolds's time and has not occurred since, as far as I know, an explanation is in order.  Her writings trace the historical events and the process which brought her to self-liberation from the constraints of time-honored doctrine.</p>
+
+<p>She believed that catastrophes like war, cyclic economic depression, chronic poverty, hunger, and a host of others, and their effects upon the human condition, and on a global scale, are but the symptoms of underlying causes which are rooted in societal values and systems; therefore, the searchlight should be beamed on, and work directed to, the elimination of the causes. Moreover, social work, the profession most intimately knowledgeable about the tolls of such disasters in human misery, and deeply involved in its alleviation, has a role in helping to change value systems in a society which tolerates the degradation of body and spirit of masses of humanity.  These principles were (and still are) in sharp contrast to those held acceptable by individuals and groups in power.  But what "cooked her goose," to quote a phrase, was that she used Marxist ideology as a frame of reference for her beliefs and its science of society as the key to the solution of such widespread socio-economic-political disasters.  And, she dared to present her views in public!  Yet paradoxical as it may seem, her abiding faith in her beloved America, and in its people, and in the profession, to show the way to the changes needed for a better world for all peoples, never wavered.  "This book is dedicated to an unbreakable tie with the interests of humanity" is the dedication in her book, <title render="italic">Social Work and Social Living</title>.</p>
+
+<p>The legacy of the writings of Bertha C. Reynolds to her profession contains searching questions and insightful, incisive answers which are as relevant, if not more so, to today's world as when they were written.  Is this legacy worth her sacrifices of creature comforts and of the acclaim which undoubtedly would have been hers had she made compromises to conformity; will it enlighten and inspire others to creative thinking, and to the courage to speak out for infusion of new ideas, without which a profession remains static?  I asked her several months before her death, what message would she send to young people entering the profession today?  Her response was, "Do not get locked into traditional molds."</p>
+
+<p>Bertha C. Reynolds's writings attest to the wisdom in the Confucian saying, in paraphrase: to understand the present and the future, one must study and know the past.  The inference is that the past is a harbinger of the present and the future, the three being linked in a continuum.  Judgments as to the veracity of this linkage and its manifestations (as her writings indicate) will no doubt vary when examined in the light of the contemporary American and world scene. But beyond doubt is the rare treat which is in store for those who study her writings for the first time.</p>
+
+<p>February 1985</p>
+      </bioghist>
+
+      <bioghist>
+            <head>CHRONOLOGY</head>
+            <p>Bertha C. Reynolds was a pioneer educator and practitioner in the field of social work and an innovative writer on broader social subjects.  These are some principal events in her personal and professional life:</p>
+            <p>
+
+      <chronlist>
+                  <chronitem>
+                     <date>1885</date>
+                     <event>
+    born in Brockton, Massachusetts, on December 11 to Mary (Capen) Reynolds (1853-1947) and Franklin Stewart Reynolds (1853-1887).
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1889</date>
+                     <event>
+    moved to the Capen family farm in Stoughton, Massachusetts, after her father's death.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1897</date>
+                     <event>
+    entered school for the first time after home tutoring by her mother.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1904-08</date>
+                     <event>
+    attended Smith College with support of her aunt, Bessie T. Capen, principal of the Capen (later Burnham) School in Northampton; graduated Phi Beta Kappa.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1909-11</date>
+                     <event>
+    taught in the high school department of Atlanta University; left because of ill health.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1912</date>
+                     <event>
+    had brief psychotherapy with James J. Putnam, M.D.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1912-13</date>
+                     <event>
+    enrolled in the Boston School for Social Workers (later the Simmons College School of Social Work).
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1913-18</date>
+                     <event>
+    employed as caseworker for the Boston Children's Aid Society.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1914</date>
+                     <event>
+    received B.S. degree from Simmons at the end of one year's employment as a social worker.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1918</date>
+                     <eventgrp>
+                        <event>
+    participated in the first course in psychiatric social work at Boston Psychopathic Hospital under Elmer E. Southard and Mary C. Jarrett.
+    </event>
+                        <event>completed the first Smith College summer session for social workers, the Training School for Psychiatric Social Work (which later became the Smith College School for Social Work), established to train workers to rehabilitate shell-shocked soldiers.
+    </event>
+                     </eventgrp>
+                  </chronitem>
+                  <chronitem>
+                     <date>1919</date>
+                     <event>
+    publication of a monograph, <title render="italic">The Selection of Foster Homes for Children</title>, with Mary S. Doran.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1919-23</date>
+                     <event>
+    worked as director of social services at Danvers State Hospital in Massachusetts.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1923-25</date>
+                     <event>
+    worked in new clinics for behavioral training of pre-school children in the Division of Mental Hygiene in Boston.
+     </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1925-35</date>
+                     <event>
+    served as associate director of the Smith College School for Social Work, teaching courses in the summer term and supervising students' field placements during the rest of the year; conducted research and had clinical assignments at the Child Guidance Clinic in Philadelphia and at the Institute for Child Guidance and the Jewish Board of Guardians in New York.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1927-28</date>
+                     <event>
+    began an intensive psychoanalysis with Frankwood E. Williams, M.D.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1930</date>
+                     <event>
+    presented her first major paper, "The Role of the Psychiatric Social Worker in Therapy," at the First International Congress on Mental Hygiene.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1930-67</date>
+                     <event>
+    traveled around the country giving speeches and conducting in-service institutes for social workers.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1931-42</date>
+                     <event>
+    publication of many articles in <title render="italic">The Family</title> on casework and the relationship of social work to society.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1932-33</date>
+                     <eventgrp>
+                        <event>
+    resumed psychoanalysis with Dr. Williams after five-year interval.</event>
+                        <event>was a member of the Milford Conference study group and served as committee secretary.
+    </event>
+                     </eventgrp>
+                  </chronitem>
+                  <chronitem>
+                     <date>1934</date>
+                     <eventgrp>
+                        <event>
+    became a member of the advisory council and an important contributor to <title render="italic">Social Work Today</title>, a journal of the rank-and-file movement made up mainly of public relief workers who advocated unionization of social workers.</event>
+                        <event>publication of <title render="italic">Between Client and Community:  A Study in Responsibility in Social Case Work</title>.
+    </event>
+                     </eventgrp>
+                  </chronitem>
+                  <chronitem>
+                     <date>1935</date>
+                     <event>
+    changed positions at the School for Social Work to become associate director in charge of advanced courses; established and taught the first advanced course, Plan D, for the training of supervisors and teachers of social work.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1937</date>
+                     <event>
+    offered her resignation to Everett Kimball, director of the School for Social Work, due to their disagreement over the direction of the program, her political activities, and the termination of Plan D.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1938</date>
+                     <eventgrp>
+                        <event>
+    left the School for Social Work after teaching the last group in the Plan D program.</event>
+                        <event>publication of "Re-Thinking Social Case Work."
+    </event>
+                     </eventgrp>
+                  </chronitem>
+                  <chronitem>
+                     <date>1939-42</date>
+                     <event>
+    self-employed as a consultant in staff development for social work agencies.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1942</date>
+                     <event>
+    publication of her major work for social work educators, <title render="italic">Learning and Teaching in the Practice of Social Work</title>, describing the contributions of psychology and the social sciences to the problems of practice and teaching in social work.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1943-47</date>
+                     <event>
+    appointed by the United Seamen's Service to the Personal Service Department of the National Maritime Union, where she became case supervisor.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1948-54</date>
+                     <event>
+    taught a seminar at the William Alanson White Institute in New York on the relationship between social work and psychiatry.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1948</date>
+                     <event>
+    retired to the family home in Stoughton, where she studied Marxist works, corresponded with friends and former students, had a small clinical practice, and worked as a volunteer on community projects, for the Methodist Church, and the Stoughton Historical Society.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1951</date>
+                     <event>
+    publication of <title render="italic">Social Work and Social Living</title>, drawing on her National Maritime Union experience.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1963</date>
+                     <event>
+    publication of her autobiography, <title render="italic">An Uncharted Journey</title>.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1964</date>
+                     <event>
+    publication of "The Social Casework of an Uncharted Journey" in <title render="italic">Social Work</title>.
+    </event>
+                  </chronitem>
+                  <chronitem>
+                     <date>1964-76</date>
+                     <eventgrp>
+                        <event>
+    was honored by Boston University; the Adelphi, Columbia, Fordham, Hunter, New York University, and Yeshiva schools of social work; the New York City chapter of the National Association of Social Workers; and the alumni of the Smith College School for Social Work.</event>
+                        <event>was honored by the town of Stoughton for participation in community affairs.
+    </event>
+                     </eventgrp>
+                  </chronitem>
+               </chronlist>
+            </p>
+            <p>Bertha C. Reynolds died at home in Stoughton on October 29, 1978.</p>
+        </bioghist>
+
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Bertha C. Reynolds Papers consist of correspondence, writings, printed materials, memorabilia, and miscellaneous papers.  They are concentrated in the period following Reynolds's appointment as associate director of the Smith College School for Social Work in 1925 and are strongest for her final decades in Stoughton.</p>
+         <p>The most outstanding segment of the papers is Reynolds's correspondence with her friends and former students.  The letters addressed to her are mainly from the 1960s and 1970s, but her own letters include sequences from the 1930s and 1940s (saved by those who received them).  This correspondence is distinguished by its long and thoughtful discussions of professional, political, and religious topics as well as by reports on personal activities.  The political and religious interests also appear in printed material gathered over the years and in unpublished writings.</p>
+         <p>Direct documentation of Reynolds's social work teaching and writing is excellent for some kinds of activities and significant for all others.  Her work as associate director of the Smith College School for Social Work is represented by correspondence with Director Everett Kimball spanning the entire period and by notes for an alumnae seminar.  Many of her lectures and her contributions to institutes, conferences, and seminars are documented by unpublished texts as well as by correspondence and printed materials.  The items related to her published writings consist mainly of correspondence and copies of the publications, but there are also a few manuscripts and typescripts.  Her work at the National Maritime Union is represented by staff minutes and position papers, printed material, and correspondence following the termination of the program; this section provides the best documentation of her approach to clinical practice.  Her independent consultations are documented in such materials as speeches, correspondence, and brochures, but there are no immediate records of this professional work.  Many of these activities are also treated in letters to friends and in autobiographical writings.</p>
+         <p>Other papers document Reynolds's earlier and later years.  Her youth is represented by a diary she compiled retrospectively from family letters, by an unpublished autobiography, and by a few of her undergraduate papers.  Aside from her retrospective writings, there is nothing for the period between her graduation from Smith in 1908 and her return in 1918. Her final years in Stoughton are well documented in correspondence, writings, and printed materials about her work on behalf of the Stoughton Fair Housing and Human Rights Association, the Stoughton Historical Society, and the Methodist Church; in correspondence and printed material concerning the honors that she received in the 1960s and 1970s; and also in the aforementioned correspondence with friends.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized as follows:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. CORRESPONDENCE</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. PROFESSIONAL ACTIVITIES</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. WRITINGS</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. SUBJECT FILES</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. BIOGRAPHICAL MATERIAL, PHOTOGRAPHS, and MEMORABILIA</ref>
+            </item>
+            <item>
+               <ref target="list-serBks">BOOKS ON SHELF</ref>
+            </item>
+            <item>
+               <ref target="list-serMF">MICROFORMS</ref>
+            </item>
+            <item>
+               <ref target="list-serOH">ORAL HISTORIES</ref>
+            </item>
+            <item>
+               <ref target="list-serAdd">ADDITIONS TO COLLECTION</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The Bertha C. Reynolds Papers are open for study and research without any special restrictions.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner of the Bertha C. Reynolds Papers is unknown. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.</p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Bertha Capen Reynolds Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The greater part of the Bertha C. Reynolds Papers was bequeathed to the Sophia Smith Collection, Smith College, by Bertha C. Reynolds in her will written in 1969.  Reynolds transferred some items in 1968; the rest were received after her death, in part through the efforts of Vida S. Grayson, Rachel A. Levine, and Orrin Hansen.  These materials have been augmented by gifts of Reynolds's letters and other papers and photographs from Rachel A. Levine, Jack Kamaiko, Eleanor Flexner and Helen Terry, Charlotte and Ray Koch, Ruth Middleman, Clara Rabinowitz, Constance Kyle Lamb, Rose Noble, Tomannie Walker, Ruth Newman Schwarz, Norma and Wesley Stinson, Vivian Pataki, Ruth Harper, Tessie Berkman (via Devora Schwebel), Fay Goleman, and the Stoughton Historical Society. </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Dorothy Green and Susan Grigg, 1985. Finding aid revised 2007.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+
+         
+         <persname encodinganalog="600" source="lcnaf">Jarrett, Mary C. (Mary Cromwell)</persname>
+         <persname encodinganalog="600" source="lcnaf">Kimball, Everett, 1873-</persname>
+         <persname encodinganalog="600" source="lcnaf">Reynolds, Bertha Capen, 1885-</persname>
+         <persname encodinganalog="600" source="lcnaf">Southard, Elmer Ernest, 1876-1920</persname>
+         <corpname encodinganalog="610" source="lcnaf">William Alanson White Institute</corpname>
+         <subject encodinganalog="650" source="lcsh">Psychiatric social work--United States--History--Sources</subject>
+         <corpname encodinganalog="610" source="lcnaf">Smith College. School for Social Work--Administration--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Social case work--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social work education--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social workers--United States--History--Sources</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Related materials can be found in the Smith College Archives.  Oral histories of social workers conducted by Bertha C. Reynolds are in the Social Work Archive, Sophia Smith Collection. The American Institute of Marxist Studies in New York has Reynolds's bequest of her unpublished writings on Marxist themes.  The Stoughton Historical Society has Reynolds and Capen family papers, photographs, and memorabilia.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <!-- Begin series descriptions -->
+
+<dsc type="analyticover">
+  <c01 level="series">
+            <did>
+               <unittitle>Series I. CORRESPONDENCE <unitdate>(1933-1978)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.0 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series has three sections: Individual Correspondence: Incoming; Individual Correspondence: Outgoing; and Miscellaneous Correspondence. Other letters are filed according to subject in other series.</p>
+               <p>Individual Correspondence consists mainly of letters exchanged between Bertha Reynolds and her friends and former students. All the letters have been arranged according to the name of Reynolds's correspondent.</p>
+               <p>Miscellaneous Correspondence is arranged by subject. The folders on "Religion" include exchanges with Dale White and Wesley Stinson, ministers of the Stoughton Methodist Church.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series II. PROFESSIONAL ACTIVITIES <unitdate>(1919-1975)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.75 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series has six sections: Danvers State Hospital; Smith College School for Social Work; Institute for Child Guidance; National Maritime Union; William Alanson White Institute; and Speeches, Institutes, Seminars.</p>
+               <p>The first section contains case studies used at Danvers State Hospital.</p>
+               <p>Reynolds's work at the Smith College School for Social Work is represented by papers related to a seminar for alumnae, correspondence with Everett Kimball, and two case histories probably used for teaching. Additional documentation of Plan D can be found in the Smith College Archives.</p>
+               <p>Institute for Child Guidance has a very small amount of descriptive material about the organization, and the proposal and notes for the final report of a study by Reynolds about adolescent girls in a Harlem school. Her letter of appointment to the institute is also included in this folder.</p>
+               <p>The papers in the National Maritime Union section consist of minutes of some staff meetings, staff papers on policy matters, and some general descriptive material. A letter in the United Seaman's Service folder (Reynolds being their representative to the NMU) describes her work in detail.</p>
+               <p>The seminar taught by Reynolds at the William Alanson White Institute in New York is described in a bulletin. There is also correspondence about her appointment and work at the institute.</p>
+               <p>Speeches, Institutes, Seminars contains, in chronological order, texts or notes of most of the speeches given by Reynolds and some routine correspondence; there are also programs, reprints, session transcripts or notes, and correspondence for most of the institutes and seminars that Reynolds gave or participated in from 1929 to 1975 and a text that she used in a debate in 1919.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series III. WRITINGS <unitdate>(1918-1975)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>2.25 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series is divided into Correspondence about Publications and Published and Unpublished Works.</p>
+               <p>Correspondence about Publications consists mainly of letters exchanged with the group of friends who organized themselves into the Publication Committee for her autobiography, <title render="italic">An Uncharted Journey</title>. The rest of this section, arranged by title of the work, consists mostly of routine communications with editors and publishers.</p>
+               <p>Unless otherwise noted, Published Works contains only writings in their final printed form.</p>
+               <p>Unpublished Works consists of the "Informal Autobiography," Reynolds's annual greeting in verse, and writings on religion and other personal subjects written mostly in her retirement years.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series IV. SUBJECT FILES <unitdate>(1922-1979)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.0 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series contains materials collected by Bertha Reynolds. The first section, Organizations, consists almost entirely of printed materials of professional associations, unions, and organizations for political and social action. There is a completed form about her history in the Communist party in the folder on that organization. The second section, Miscellaneous, consists mostly of printed materials spanning many of Reynolds's interests plus a transcript of a case history (not by Reynolds) and a typewritten memoir of an unidentified survivor of the Holocaust.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series V. BIOGRAPHICAL MATERIAL, PHOTOGRAPHS, AND MEMORABILIA <unitdate>(1907-1979)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.75 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The first section, Biographical Material, consists of biographical articles, obituaries, and diaries; Smith College undergraduate papers and alumnae materials; correspondence, notes, and printed materials documenting Reynolds's work on behalf of the Stoughton Fair Housing and Human Rights Association, the Stoughton Historical Society, and the First Methodist Church in Stoughton; miscellaneous papers about Reynolds's life in Stoughton; and correspondence and printed materials, including testimonies by leading social workers related to honors and tributes. The second section, Photographs, contains a small number of photographs of Reynolds and others taken from 1925 to 1979. Memorabilia contains a plaque from the Stoughton community, books and papers given by friends, sometimes with inscriptions, and a family history by her brother Frank W. Reynolds.</p>
+            </scopecontent>
+                <note>
+                  <p>[See also <ref target="list-serAdd">Additions to Collection</ref> and <ref target="list-serOH">Oral Histories</ref> at the end of Container List]</p>
+               </note>
+</c01>
+</dsc>
+
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I. CORRESPONDENCE
+          <unitdate>(1933-1978)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Individual Correspondence:
+            Incoming</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">1</container>
+                     <unittitle>A-J,
+              <unitdate>1951, 1971-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">2</container>
+                     <unittitle>M-W,
+              <unitdate>1961-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3</container>
+                     <unittitle>Arrington, Winifred,
+              <unitdate>1969-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>Deschin, Celia,
+              <unitdate>1964-70, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>Eden, Marilyn,
+              <unitdate>1971-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>Engel, Judith,
+              <unitdate>1968-74, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>Flexner, Eleanor, and Helen Terry,
+              <unitdate>1961-73, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8</container>
+                     <unittitle>Glass, Robert,
+              <unitdate>1966-72, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">9</container>
+                     <unittitle>Hayes, Dorothy,
+              <unitdate>1966-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">10</container>
+                     <unittitle>Kamaiko, Jack,
+              <unitdate>1974-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>Koch, Ray and Charlotte ("Chucky"),
+              <unitdate>1962, 1969-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>Levine, Rachel A.,
+              <unitdate>1952-57</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">13</container>
+                     <unittitle>Levine, Rachel A.,
+              <unitdate>1958-61</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">14</container>
+                     <unittitle>Levine, Rachel A.,
+              <unitdate>1962-69, 1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">15</container>
+                     <unittitle>Marsh, Marguerite,
+              <unitdate>1966-70, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">16</container>
+                     <unittitle>Middleman, Ruth,
+              <unitdate>1974-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">17</container>
+                     <unittitle>Reed, Mildred,
+              <unitdate>1957-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">18</container>
+                     <unittitle>Van Kleeck, Mary,
+              <unitdate>1943, 1949, 1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">19</container>
+                     <unittitle>Weed, Verne,
+              <unitdate>1967-74, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Individual Correspondence:
+            Outgoing</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">20</container>
+                     <unittitle>B-W,
+              <unitdate>1961-74</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">21</container>
+                     <unittitle>Berkman, Tessie,
+              <unitdate>1933-39</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">22</container>
+                     <unittitle>Berkman, Tessie,
+              <unitdate>1940-46</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">23</container>
+                     <unittitle>Berkman, Tessie,
+              <unitdate>1950-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">24</container>
+                     <unittitle>Berkman, Tessie,
+              <unitdate>1960-75, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">25</container>
+                     <unittitle>Boggs, James,
+              <unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">26</container>
+                     <unittitle>Flexner, Eleanor, and Helen Terry,
+              <unitdate>1954-57</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">27</container>
+                     <unittitle>Flexner, Eleanor, and Helen Terry,
+              <unitdate>1958-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">28</container>
+                     <unittitle>Flexner, Eleanor, and Helen Terry,
+              <unitdate>1960-61</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">29</container>
+                     <unittitle>Flexner, Eleanor, and Helen Terry,
+              <unitdate>1962-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">30</container>
+                     <unittitle>Goleman, Fay and Judith,
+              <unitdate>1952-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">31</container>
+                     <unittitle>Harper, Ruth,
+              <unitdate>1962-66, 1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">32</container>
+                     <unittitle>Koch, Ray and Charlotte,
+              <unitdate>1955-61</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">33</container>
+                     <unittitle>Koch, Ray and Charlotte,
+              <unitdate>1962-67</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">34</container>
+                     <unittitle>Koch, Ray and Charlotte,
+              <unitdate>1968-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">35</container>
+                     <unittitle>Levine, Rachel A.,
+              <unitdate>1952-55</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">36</container>
+                     <unittitle>Levine, Rachel A.,
+              <unitdate>1956-58</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">37</container>
+                     <unittitle>Levine, Rachel A.,
+              <unitdate>1961-63</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">38</container>
+                     <unittitle>Levine, Rachel A.,
+              <unitdate>1964-69</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">39</container>
+                     <unittitle>Levine, Rachel A.,
+              <unitdate>1971-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">40</container>
+                     <unittitle>Middleman, Ruth,
+              <unitdate>1974, 1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">41</container>
+                     <unittitle>Noble, Rosel,
+              <unitdate>1959-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">42</container>
+                     <unittitle>Pataki, Vivian (includes Pearl Turk, Lois,
+              and Murray Kaufman)
+              <unitdate>1948-73, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">43</container>
+                     <unittitle>Rabinowitz, Clar,
+              <unitdate>1944-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">44</container>
+                     <unittitle>Schwarz, Ruth Newman,
+              <unitdate>1937-56</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">45</container>
+                     <unittitle>Stinson, Norma and Wesley,
+              <unitdate>1961-69</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">46</container>
+                     <unittitle>Readers' comments on An Uncharted Journey,
+
+              <unitdate>1963-64</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">47</container>
+                     <unittitle>Readers' comments on other works by,
+              Bertha C. Reynolds
+              <unitdate>1932-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">48</container>
+                     <unittitle>Congressmen,
+              <unitdate>1966-68</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">49</container>
+                     <unittitle>Religion,
+              <unitdate>1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">50</container>
+                     <unittitle>Religion,
+              <unitdate>1950-68</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">51</container>
+                     <unittitle>Professional subjects,
+              <unitdate>1939, 1951,1968-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">52</container>
+                     <unittitle>Social Work Today, back issues,
+              <unitdate>1959-64, 1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II. PROFESSIONAL ACTIVITIES
+          <unitdate>(1919-1975)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Danvers State Hospital</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">53</container>
+                     <unittitle>Case studies,
+              <unitdate>1922 Jan</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Smith College School for Social
+            Work</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">54</container>
+                     <unittitle>Seminar on case work: notes,
+              <unitdate>1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">55</container>
+                     <unittitle>Everett Kimball: correspondence,
+              <unitdate>1924-36</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">56</container>
+                     <unittitle>Everett Kimball: correspondence,
+              <unitdate>1937-39</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">57</container>
+                     <unittitle>Case histories,
+              <unitdate>1932, 1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Institute for Child Guidance</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">58</container>
+                     <unittitle>Attitude Study: preliminary draft,
+              report,printed materials,
+              <unitdate>1930, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>National Maritime Union</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">59</container>
+                     <unittitle>Staff meetings: minutes,
+              <unitdate>1944-45</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">60</container>
+                     <unittitle>Staff policies and procedures: position
+              papers, notes,
+              <unitdate>1944-46, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">61</container>
+                     <unittitle>Clippings and other printed materials,
+              <unitdate>1943-47, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">62</container>
+                     <unittitle>Pamphlets,
+              <unitdate>1942-45, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">63</container>
+                     <unittitle>United Seamen's Service: correspondence,
+              <unitdate>1947-52, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>William Alanson White Institute</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">64</container>
+                     <unittitle>Seminar: bulletin, correspondence,
+              <unitdate>1949, 1954, 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Speeches, Institutes, Seminars</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">65</container>
+                     <unittitle>First International Conference on Mental
+              Hygiene: correspondence, abstract, printed material,
+              <unitdate>1929-30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">66</container>
+                     <unittitle>First International Conference on Mental
+              Hygiene: proceedings, program,
+              <unitdate>1930,1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">67</container>
+                     <unittitle>Invitations to speak: correspondence,
+              <unitdate>1947-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">68</container>
+                     <unittitle>Speaking dates and institutes: lists made
+              by Bertha C. Reynolds,
+              <unitdate>1933-57</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">69</container>
+                     <unittitle>Consultant in Staff Development: brochure,
+
+              <unitdate>1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">70</container>
+                     <unittitle>Association of Massachusetts State
+              Hospital Social Workers, debate: typescript -,
+              <unitdate>1919 Jul 10</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">70</container>
+                     <unittitle>Institute on Supervision, Cleveland:typed
+              notes,
+              <unitdate>1932 Oct 25-26</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">70</container>
+                     <unittitle>Institute, St. Louis: typed notes,
+              <unitdate>1933 Apr 8-9</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">70</container>
+                     <unittitle>"The Relationship Between Psychiatry and
+              Psychiatric Social Work," American Association of
+              Psychiatric Social,
+              <unitdate>1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">70</container>
+                     <unittitle>Workers, Kansas City: text "Critic's
+              Response," American,
+              <unitdate>1935 Feb 22</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">70</container>
+                     <unittitle>Orthopsychiatric Association: text
+              "Loyalties," the Supervisors Association,of the
+              Emergency Relief Bureau, New York: notes and
+              correspondence,
+              <unitdate>1935 Dec</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">70</container>
+                     <unittitle>Child Welfare Training Supervisors'
+              Institute, Cleveland: transcribed notes,
+              <unitdate>1936 Feb l8-19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">71</container>
+                     <unittitle>"Changing Attitudes in Case Work,"Detroit
+              Regional Conference of Social Work: text,
+              <unitdate>1936 Apr 17-18</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">71</container>
+                     <unittitle>"Mental Hygiene in Social Work,"Frankwood
+              E. Williams memorial meeting, New York: text,
+              <unitdate>1936 Nov 15</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">72</container>
+                     <unittitle>"Inter-relations Between Group Work and
+              Case Work, and What a Course in Case Work can give to
+              Group Workers-in-Training That Will Meet Their Needs
+              in Their Own Field," seminar, Temple University,
+              Philadelphia: outline, reports of planning committee
+              meetings, notes,
+              <unitdate>1936 Nov-1937 Jan</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">72</container>
+                     <unittitle>"Worker-Client Relationships, or
+              Responsibility in Social Case Work," Institute, New
+              England Inter-City Conference of Family Welfare
+              Societies, Cambridge: report of sessions,
+              <unitdate>1937 Feb 26-27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">72</container>
+                     <unittitle>Radio talk, Community Forum, St. Louis:
+              text,
+              <unitdate>1939 Jan 21</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">73</container>
+                     <unittitle>In-Service Training Course, Seminar on
+              Interviewing, Domestic Relations Court, New York:
+              reports of sessions,
+              <unitdate>1939 Nov-Mar</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">73</container>
+                     <unittitle>Institute, State Supervisory Staff, Dept.
+              of Public Welfare, Richmond: letter describing one
+              session,
+              <unitdate>1940 Nov-Jan</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">73</container>
+                     <unittitle>Staff Discussion Group, Medical Social
+              Service Department, Bellevue Hospital, New York:
+              reports of sessions,
+              <unitdate>1940 Feb-Apr</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">73</container>
+                     <unittitle>"Social Breakdown," Psychiatric Social
+              Workers' Round Table, Providence: notes,
+              <unitdate>1940 Feb 7</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">74</container>
+                     <unittitle>"Supervision of Supervisors," Summer
+              Institute, Michigan State College, East Lansing:
+              notes,
+              <unitdate>1940 Jul 15-19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">74</container>
+                     <unittitle>Discussion of paper of Almena Dawley,
+              American Orthopsychiatric Association: text,
+              <unitdate>1939</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">74</container>
+                     <unittitle>"Diagnostic Case Recording,"
+              Institute,Council of Social Agencies, Dayton:
+              summary,
+              <unitdate>1941 Jan 23-24</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">74</container>
+                     <unittitle>"Conversation Overheard This Morning,"
+              Psychiatric Supervisors' Seminar, New York School of
+              Social Work: notes,
+              <unitdate>1941 Mar 19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">74</container>
+                     <unittitle>"Social Work Trying to Practice
+              Democracy," Institute, AASW Chapter, Columbus: text,
+              <unitdate>1941 Apr 24</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">74</container>
+                     <unittitle>"Case Work-Group Work: Relationships and
+              Cooperative Services," seminar: notes,
+              <unitdate>1941 May 19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">74</container>
+                     <unittitle>Institute on Supervision, Louisiana State
+              University, Baton Rouge: outline,
+              <unitdate>1941 Jul 7-11</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">74</container>
+                     <unittitle>"Social Work in the National Emergency,"
+              Conference on Social Work in the National Emergency,
+              Social Service Administration Club, University of
+              Chicago: summary,
+              <unitdate>1941 Aug 15-16</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">75</container>
+                     <unittitle>"Personal Service to Seamen," National
+              Conference of Social Work, Cleveland: text,
+              <unitdate>1944 May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">75</container>
+                     <unittitle>"Health Security in Post War America,"
+              Second Wartime Conference on Labor Health Security,
+              New York: text,
+              <unitdate>1944 Dec 8</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">75</container>
+                     <unittitle>"Recognition of the Right to Assistance
+              and its Effect on Social Work in a Public Assistance
+              Agency," National Conference of Social Work, Buffalo:
+              text, correspondence,
+              <unitdate>1946 May 23</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">75</container>
+                     <unittitle>"Social Psychiatry and Personal Service in
+              a Social Agency-Trade Union Setting," American
+              Orthopsychiatric Association: text, discussion,
+              <unitdate>1947 Feb</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">75</container>
+                     <unittitle>"Our Future in Social Work ... With What
+              Allies?" Local 19 and National Social Service
+              Division, UOPWA: transcript,
+              <unitdate>1948 Feb 14</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">75</container>
+                     <unittitle>"Are Private Agencies Meeting Their
+              Responsibilities?" National Conference of Social
+              Work: announcement,
+              <unitdate>1948 Apr</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">75</container>
+                     <unittitle>"Preparation of Social Workers for Meeting
+              the Emotional Needs of People," South East Regional
+              Conference on Student Education, Nashville School of
+              Social Work, Nashville: text,
+              <unitdate>1948 Jun 9</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">76</container>
+                     <unittitle>"Supervision as a Means of Professional
+              Growth," Institute on Social Welfare University of
+              California, Berkeley: summary,
+              <unitdate>1948 Jul 23-24</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">76</container>
+                     <unittitle>"Responsibility of Social Work to the
+              People It Serves," National Conference of Social
+              Work, Cleveland: announcement,
+              <unitdate>1949 Jun</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">76</container>
+                     <unittitle>Consultations, Menninger Foundation:
+              correspondence, schedule,
+              <unitdate>1950 Jan 30-Feb 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">76</container>
+                     <unittitle>"Differences within Labor and their Effect
+              on the Social Work Field: From the Point of View of
+              the Profession," National Conference of Social Work,
+              Atlantic City: text, announcement, correspondence,
+              <unitdate>1950 Apr</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">76</container>
+                     <unittitle>"The Child's Needs in the Family," panel
+              leader, National Bread and Butter Conference on Child
+              Welfare, Chicago: proceedings, program,
+              <unitdate>1950 Apr 15-16</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">76</container>
+                     <unittitle>"Some Contributions and Challenges of
+              Today," Tennessee State Conference of Social Work:
+              text,
+              <unitdate>1950 May 5</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">77</container>
+                     <unittitle>"Civil Liberties and Peace," discussion,
+              New England Conference of Minute Women for Peace:
+              notes,
+              <unitdate>1950 Jun 24</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">77</container>
+                     <unittitle>"Problems Facing the Social Worker Today,"
+              Philadelphia Chapter, American Association of Group
+              Workers: correspondence, program,
+              <unitdate>1951 Apr 7</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">77</container>
+                     <unittitle>"Social Work and Social Living,"
+              discussion, Los Angeles: announcement,
+              <unitdate>1951 May 10</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">77</container>
+                     <unittitle>"Casework in a Time of Stress" and "Social
+              Workers' Professional Responsibilities,"
+              pre-conference seminars, Oregon State Conference of
+              Social Work, Portland: program,
+              <unitdate>1951 May 23-24</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">77</container>
+                     <unittitle>"Social Work Faces World Conflict," Social
+              Service Volunteers for Peace, New York: text,
+              correspondence, broadside,
+              <unitdate>1952 Jan 30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">77</container>
+                     <unittitle>"Social Work and Social Living," American
+              Association of Group Workers, Detroit: notes,
+              program.
+              <unitdate>1952 Apr 26</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">77</container>
+                     <unittitle>"We Are Responsible," American Association
+              of Social Workers, Connecticut State Conference of
+              Social Work, Hartford: text (part), program,
+              <unitdate>1952 Nov 13</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">78</container>
+                     <unittitle>Seminar on Social Work and Seminar on
+              Social Group Work, courses given at Jefferson School
+              of Social Science, New York: outlines,
+              <unitdate>1953 Mar-May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">78</container>
+                     <unittitle>"Fear in our Culture," Cleveland Council
+              of Arts, Sciences and Professions, National
+              Conference of Social Work, Cleveland: text,
+              broadside.
+              <unitdate>1953 Jun 4</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">78</container>
+                     <unittitle>"From Korean Truce to World Peace,"
+              National Council of the Arts, Sciences and
+              Professions, New York: broadside, outline,
+              <unitdate>1953 Sep 27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">78</container>
+                     <unittitle>"From Mass to Individual; From Isolation
+              to a Social Community," Family Service of Oakland
+              County, Birmingham, Michigan: text, correspondence,
+              <unitdate>1954 Jan 26</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">78</container>
+                     <unittitle>"McCarthyism vs. Social Work," National
+              Council of the Arts, Sciences and Professions, New
+              York: broadside, text (1954 May 5),
+              <unitdate>1954 May 12</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">78</container>
+                     <unittitle>"From Mass to Individual; From Isolation,
+              toward a Social Community," Jefferson School, New
+              York: text,
+              <unitdate>1956 Mar 8</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">79</container>
+                     <unittitle>Comment on "Social Work: A Profession
+              Chasing its Tail," California Conference on Health,
+              Welfare and Recreation, San Jose: clippings, text,
+              correspondence,
+              <unitdate>1957 May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">79</container>
+                     <unittitle>"Is Social Work a Profession Chasing its
+              Tail? (Social Work in the Light of its History),"
+              Family Service Staff, Los Angeles: notes,
+              <unitdate>1957 Jun 5</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">79</container>
+                     <unittitle>"Social Work and the World's Dilemma: What
+              to Do with the Throwaways," institute, Mt. Zion
+              Hospital, San Francisco: outline,
+              <unitdate>1957 Apr 25-26</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">79</container>
+                     <unittitle>Workshop on Staff Supervision, National
+              Association of Social Workers, Los Angeles: schedule
+              and bibliography,
+              <unitdate>1957 Jun 11</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">79</container>
+                     <unittitle>"Mental Health Concepts in the Practice
+              and Teaching of Social Work," the Ruth Kotinsky
+              Memorial Lectures, New York: text, correspondence,
+              announcement,
+              <unitdate>1961 Apr 21</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">80</container>
+                     <unittitle>"The Social Casework of an Uncharted
+              Journey," New York Chapter, Alumnae Association,
+              Smith College School for Social Work, New York (also
+              given to supervisors of Simmons College of Social
+              Work, 1964 Apr 8): text,
+              <unitdate>1963 Oct 24</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">80</container>
+                     <unittitle>"Human Rights," Blue Hill Chapter, Women's
+              International League for Peace and Freedom: text,
+              <unitdate>1963 Dec 9</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">80</container>
+                     <unittitle>"Social Work and the Life of its Time,"
+              Maryland Chapter, National Association of Social
+              Workers, Baltimore: text,
+              <unitdate>1965 Jan 21</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">80</container>
+                     <unittitle>"What Can Science Do for Warmth of
+              Understanding," Social Service, Johns Hopkins
+              Hospital, Baltimore: text,
+              <unitdate>1965 Jan 21</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">80</container>
+                     <unittitle>"Individual Freedom in an Advanced
+              Industrial Society," Brandeis University, Waltham:
+              text,
+              <unitdate>1965 Apr 29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">80</container>
+                     <unittitle>"Learning and Teaching in the Practice of
+              Social Work," Conference of Supervisors and Teachers,
+              Boston University of Social Work: text,
+              <unitdate>1965 May 14</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III. WRITINGS <unitdate>(1918-1975)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Correspondence About
+            Publications</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle><title render="italic">An Uncharted Journey</title></unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">81</container>
+                        <unittitle>Publication Committee,
+                <unitdate>1959</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">82</container>
+                        <unittitle>Publication Committee,
+                <unitdate>1960 Jan-Sep</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">83</container>
+                        <unittitle>Publication Committee,
+                <unitdate>1960 Oct-Nov</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">84</container>
+                        <unittitle>Publication Committee,
+                <unitdate>1961-1962 Jun</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">85</container>
+                        <unittitle>Publication Committee,
+                <unitdate>1962 Jul-1963</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">86</container>
+                        <unittitle>Book contract and correspondence,
+                <unitdate>1962 Jul</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">87</container>
+                     <unittitle>"Advance or Retreat",
+              <unitdate>1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">88</container>
+                     <unittitle>"The American Family and Socialism",
+              <unitdate>1956-57</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">89</container>
+                     <unittitle>"Focus on Peace",
+              <unitdate>1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">90</container>
+                     <unittitle><title render="italic">Learning and Teaching in the Practice of
+              Social Work</title>,
+              <unitdate>1942-43, 1959-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">91</container>
+                     <unittitle>"The Press Lies about Relief",
+              <unitdate>1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">92</container>
+                     <unittitle>"Re-Thinking Social Case Work",
+              <unitdate>1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">93</container>
+                     <unittitle><title render="italic">Social Work and Social Living</title>,
+              <unitdate>1948-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">94</container>
+                     <unittitle><title render="italic">Social Work and Social Living, National
+              Association of Social Workers Classics Series</title>,
+              <unitdate>1974-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">95</container>
+                     <unittitle><title render="italic">Social Work Today</title> (England),
+              <unitdate>1970, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">96</container>
+                     <unittitle>Correspondence about other articles and
+              book reviews,
+              <unitdate>1941-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Published Works</unittitle>
+                  <note>
+                     <p>[see also Books and pamphlets on shelf]
+                </p>
+                  </note>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">97</container>
+                     <unittitle>Lists of writings,
+              <unitdate>ca. 1968, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">98</container>
+                     <unittitle>Articles,
+              <unitdate>1931-37</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">99</container>
+                     <unittitle>Articles,
+              <unitdate>1938-64</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">100</container>
+                     <unittitle>Article, "Is Homemaking a Helping
+              Profession?": typescript,
+              <unitdate>1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">101</container>
+                     <unittitle>Book reviews by Reynolds,
+              <unitdate>1933-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">102</container>
+                     <unittitle>Reviews of Reynolds's books,
+              <unitdate>1935-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">103</container>
+                     <unittitle>Essays in books,
+              <unitdate>1948, 1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">104</container>
+                     <unittitle>Pamphlets and reprints,
+              <unitdate>1919-48</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">105</container>
+                     <unittitle>Published letters,
+              <unitdate>1955, 1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">106</container>
+                     <unittitle>Reports, Danvers State Hospital,
+              <unitdate>1918, 1919</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Books,
+              <unitdate>1934-73</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle><title render="italic">Between Client and Community: A Study in
+                Responsibility: Social Case Work</title> (New York: Oriole
+                Editions, Inc.,
+                <unitdate>1973</unitdate>), first published in Smith College Studies in
+                Social Work 5 (1934): 1-128</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle>________Silver Spring, Md.: NASW
+                Classics Series, National Association of Social
+                Workers, Inc.,
+                <unitdate>1982</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle><title render="italic">Learning and Teaching in the Practice of
+                Social Work </title>(New York: Farrar &amp; Rinehart, Inc.,
+
+                <unitdate>1942</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle>________(New York: Rinehart &amp; Co.,
+                Inc., 1942; 5th printing
+                <unitdate>Mar. 1953</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle>________(New York: Russell &amp;
+                Russell, Inc.,
+                <unitdate>1965</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle>________(Silver Spring, Md.: NASW
+                Classics Series, National Association of Social
+                Workers, Inc.,
+                <unitdate>1985</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle><title render="italic">Social Work and Social Living:
+                Explorations in Philosophy and Practice</title> (New York:
+                Citadel Press,
+                <unitdate>1951</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle>________(Washington, D.C.: NASW Classics
+                Series, National Association of Social Workers,
+                Inc.
+                <unitdate>1975</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle><title render="italic">An Uncharted Journey: Fifty Years of
+                Growth in Social Work </title>(New York: The Citadel Press,
+
+                <unitdate>1963</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle>________(New York: The Citadel Press,
+                <unitdate>1963</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">107</container>
+                        <unittitle>________(Hebron, Conn.: Practitioners
+                Press,
+                <unitdate>1985</unitdate>
+
+                )</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">108</container>
+                        <unittitle><title render="italic">An Uncharted Journey</title>: typescript,
+                <unitdate>1963?</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">109</container>
+                        <unittitle><title render="italic">Social Work and Social Living</title>: typescript
+                ,
+                <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Other Published Works</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">110</container>
+                        <unittitle>Manuscripts and typescripts,
+                <unitdate>1917-65, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">111</container>
+                        <unittitle>"Labor and Social Work": printed source
+                materials,
+                <unitdate>1943-46, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Unpublished Works</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">112</container>
+                     <unittitle>"Informal Autobiography": typescript,
+              <unitdate>[1958]</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">113</container>
+                     <unittitle>Annual verses by Bertha C. Reynolds:
+              scrapbook compiled by Reynolds and Rachel A. Levine
+              containing printed texts with notes by Reynolds,
+              <unitdate>1935-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">114</container>
+                     <unittitle>Annual verses by Bertha C. Reynolds:
+              printed texts,
+              <unitdate>1933-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">115</container>
+                     <unittitle>Religious subjects,
+              <unitdate>1961-67, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">116</container>
+                     <unittitle>Miscellaneous writings,
+              <unitdate>1928, 1947-74</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">117</container>
+                     <unittitle>Miscellaneous writings,
+              <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV. SUBJECT FILES <unitdate>(1922-1979)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Organizations</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">118</container>
+                     <unittitle>American Committee for the Protection of
+              the Foreign Born,
+              <unitdate>1957-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">119</container>
+                     <unittitle>American Institute for Marxist Studies,
+              <unitdate>1967-75, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">120</container>
+                     <unittitle>Avon Institute,
+              <unitdate>1954, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">121</container>
+                     <unittitle>Citizens Committee for Constitutional
+              Liberties,
+              <unitdate>1968-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">122</container>
+                     <unittitle>The Claude Williams Committee,
+              <unitdate>1966-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">123</container>
+                     <unittitle>Communist party,
+              <unitdate>1969-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">124</container>
+                     <unittitle>Gould Farm,
+              <unitdate>1956-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">125</container>
+                     <unittitle>Methodist Federation for Social Action,
+              <unitdate>1937, 1967-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">126</container>
+                     <unittitle>National Association of Social Workers,
+              <unitdate>1963-79, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">127</container>
+                     <unittitle>National Conference of Social Work,
+              <unitdate>1945-46</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">128</container>
+                     <unittitle>National Conference on Social Welfare,
+              <unitdate>1968-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">129</container>
+                     <unittitle>Packard Manse,
+              <unitdate>1965-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">130</container>
+                     <unittitle>Progressive Citizens of America,
+              <unitdate>1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">131</container>
+                     <unittitle>Radical Alliance of Social Service
+              Workers,
+              <unitdate>1974-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">132</container>
+                     <unittitle>Rosenberg, Ethel and Julius, and Morton
+              Sobell,
+              <unitdate>1952-68</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">133</container>
+                     <unittitle>Southern Conference Educational Fund,
+              <unitdate>1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">134</container>
+                     <unittitle>Unions, Personal Service Departments,
+              <unitdate>1947-51, 1968, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">135</container>
+                     <unittitle>United Texas Service Committees,
+              <unitdate>1954-58</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">136</container>
+                     <unittitle>Veterans of the Lincoln Brigade,
+              <unitdate>1964-69</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">137</container>
+                     <unittitle>Africa, Korea, India,
+              <unitdate>1948-70, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">138</container>
+                     <unittitle>China, Cuba, Russia,
+              <unitdate>1954-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">139</container>
+                     <unittitle>Civil liberties,
+              <unitdate>1941-69</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">140</container>
+                     <unittitle>Environmental issues,
+              <unitdate>1942, 1973-77 n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">141</container>
+                     <unittitle>Housing,
+              <unitdate>1964, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">142</container>
+                     <unittitle>Luscomb, Florence,
+              <unitdate>1956-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">143</container>
+                     <unittitle>"Memoir of a Holocaust Survivor",
+              <unitdate>1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">144</container>
+                     <unittitle>Minorities,
+              <unitdate>1947, 1963, 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">145</container>
+                     <unittitle>Peace,
+              <unitdate>1959, 1975, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">146</container>
+                     <unittitle>Religion,
+              <unitdate>1942, 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">147</container>
+                     <unittitle>Vietnam,
+              <unitdate>1968, 1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">148</container>
+                     <unittitle>Vocabulary building,
+              <unitdate>1965, 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">149</container>
+                     <unittitle>Welfare issues,
+              <unitdate>1947-69, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">150</container>
+                     <unittitle>Williams, Frankwood E.,
+              <unitdate>1929, 1936, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">151</container>
+                     <unittitle>Women,
+              <unitdate>1935, 1950-73, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>Series V. BIOGRAPHICAL MATERIAL, PHOTOGRAPHS, AND MEMORABILIA <unitdate>(1907-1979)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Biographical Material</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">152</container>
+                     <unittitle>Articles about Bertha C. Reynolds,
+              <unitdate>1964, 1971-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">153</container>
+                     <unittitle>Biographical dictionaries: completed
+              formform letters,
+              <unitdate>1970, 1975-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">154</container>
+                     <unittitle>Obituaries: articles, clippings,
+              correspondence,
+              <unitdate>1978 Oct-1979 Jan</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">155</container>
+                     <unittitle>"Diary," compiled by Bertha C.
+              Reynolds,from family letters,
+              <unitdate>1894-1924, post-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">156</container>
+                     <unittitle>"Diary," compiled by Bertha C. Reynolds
+              from family letters,
+              <unitdate>1925-1935, post-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">157</container>
+                     <unittitle>"Diary," compiled by Bertha C. Reynolds
+              from family letters,
+              <unitdate>1936-1946, post-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith College</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">158</container>
+                        <unittitle>Undergraduate papers,
+                <unitdate>1907, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">159</container>
+                        <unittitle>Class of 1908: correspondence, notes,
+                transcript,
+                <unitdate>1923, 1933,1965-73</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">160</container>
+                        <unittitle>Training School for Psychiatric Social
+                Work: memorabilia, reprints,
+                <unitdate>1918-19</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">161</container>
+                        <unittitle>School for Social Work, Alumnae
+                Association: correspondence and form letters,
+                <unitdate>1943, 1959-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">162</container>
+                        <unittitle>School for Social Work, Alumni Study
+                Questionnaire: completed form,
+                <unitdate>1978</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">163</container>
+                        <unittitle>School for Social Work: notes and
+                printed material,
+                <unitdate>196?, 1960</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stoughton</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Fair Housing and Human Rights
+                Association</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">13</container>
+                           <container type="folder">164</container>
+                           <unittitle>Correspondence,
+                  <unitdate>1964, 1971-72, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">13</container>
+                           <container type="folder">165</container>
+                           <unittitle>Notes and printed materials for
+                  history course,
+                  <unitdate>1966</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">13</container>
+                           <container type="folder">166</container>
+                           <unittitle>Newsletter,
+                  <unitdate>1955-66</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">13</container>
+                           <container type="folder">167</container>
+                           <unittitle>Questionnaire, printed material,
+                  <unitdate>1963-70, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">168</container>
+                        <unittitle>Clippings and printed materials,
+                <unitdate>1963-73</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">169</container>
+                        <unittitle>Historical Society,
+                <unitdate>1969-77, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Methodist Church</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">13</container>
+                           <container type="folder">170</container>
+                           <unittitle>Correspondence and writings by Bertha
+                  C. Reynolds,
+                  <unitdate>1961-70</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">13</container>
+                           <container type="folder">171</container>
+                           <unittitle>"FISH" and other church activities:
+                  printed materials, clippings,
+                  <unitdate>1955-72, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Personal Papers and Documents</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">172</container>
+                        <unittitle>Contributions and subscriptions:
+                receipts,
+                <unitdate>1957, 1968-75, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">173</container>
+                        <unittitle>Financial notes,
+                <unitdate>1963-77, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">174</container>
+                        <unittitle>Frank W. Reynolds: miscellaneous papers,
+
+                <unitdate>1972-73, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">175</container>
+                        <unittitle>Library of Bertha C. Reynolds: lists of
+                books, professional papers, reprints, and journals
+                received with the papers of Bertha C. Reynolds,
+                <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">176</container>
+                        <unittitle>Memberships in organizations:
+                certificates, letters,
+                <unitdate>1951-66, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">177</container>
+                        <unittitle>Poems by various authors collected by
+                Bertha C. Reynolds,
+                <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">178</container>
+                        <unittitle>Political and community activities: form
+                letter, notes by Bertha C. Reynolds, printed
+                materials,
+                <unitdate>1948-49</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">179</container>
+                        <unittitle>Miscellaneous papers,
+                <unitdate>1948-77, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Honors and Tributes</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">180</container>
+                        <unittitle>Smith College School for Social Work:
+                correspondence, clippings,
+                <unitdate>1962, 1964, 1976</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">181</container>
+                        <unittitle>Smith College School for Social Work,
+                Fiftieth Anniversary: correspondence, citation,
+                printed material,
+                <unitdate>1967-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">182</container>
+                        <unittitle>Boston University: correspondence,
+                citation, printed material,
+                <unitdate>1969</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">183</container>
+                        <unittitle>Other honors: citations, speeches about
+                Bertha C. Reynolds, printed material,
+                <unitdate>1947, 1969-79</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Photographs</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">184</container>
+                     <unittitle>Bertha C. Reynolds,
+              <unitdate>1938-76 n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">185</container>
+                     <unittitle>Friends, others, miscellaneous,
+              <unitdate>1925, 1967, 1972-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Memorabilia</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">186</container>
+                     <unittitle>Professional papers by friends and
+              colleagues,
+              <unitdate>1940-77, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">187</container>
+                     <unittitle>"Sunday in the Park, 1726-1976": plaque,
+              <unitdate>1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">188</container>
+                     <unittitle>Books inscribed to Bertha C. Reynolds,
+              <unitdate>1938-74</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">189</container>
+                     <unittitle><title render="italic">Through the Years to Seventy</title>, by Frank W.
+              Reynolds (copyright by Frank W. Reynolds),
+              <unitdate>1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>Freedom of Information Act documents,
+              <unitdate>1943-56</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+          
+         <c01 level="series" id="list-serBks">
+            <did>
+               <unittitle>BOOKS ON SHELF</unittitle>
+            </did>
+              <c02>
+		<did>
+		 <unittitle>Reynolds, Bertha C., <title render="italic">An Uncharted Journey: Fifty Years of Growth in Social Work </title> <unitdate>(1963)</unitdate>
+			</unittitle>
+		</did>
+	      </c02>
+
+              <c02>
+		<did>
+		 <unittitle>Southard, E.E. and Mary C. Jarrett, <title render="italic">The Kingdom of Evil</title>  <unitdate>(1922)</unitdate>
+			</unittitle>
+		</did>
+	     </c02>
+	</c01>
+
+         <c01 level="series" id="list-serMF">
+            <did>
+               <unittitle>MICROFORMS</unittitle>
+            </did>
+            <c02>
+                  <did>
+                     <container type="box">M48</container>
+                     <unittitle>
+		Microfilm: "Bertha Reynolds - Gentle Radical," by Joan Barnert Goldstein.  PhD dissertation, Yeshiva University, <unitdate>1981</unitdate></unittitle>
+               </did>  
+			<note><p>
+			<ref target="list-serAdd">[see also Additions to Collection - Acc# 06-60]</ref></p></note>
+	    </c02>
+	</c01>
+
+         <c01 level="series" id="list-serOH">
+            <did>
+               <unittitle>ORAL HISTORIES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Oral histories of Bertha C. Reynolds</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>Interview by Phyllis Lowinger, Stoughton, Massachusetts, 1 Dec 1973.  Transcript with postscript by Reynolds, 11 pp.
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>Interview by Vida S. Grayson, Stoughton, Massachusetts, 23 Jan 1976.  Transcript, 42 pp.; 3 audio cassettes.
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>Interview by Jack Kamaiko, Stoughton, Massachusetts, 6 March 1976.  Audio cassette.
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>Interview by Joan L. Goldstein, Stoughton and Brockton, Massachusetts, 5 Dec 1975 - 5 Feb 1977.  5 audio cassettes; transcripts (for 12/5/75 and 2/5/77 only). </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Oral histories about Bertha C. Reynolds</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>Interview by Joan L. Goldstein with Rachel A. Levine, New York, New York, 16 March 1977.  Transcript, 40 pp.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>Interview by Dorothy Green with Eleanor Flexner, 22 Feb 1988.  Transcript, 40 pp.</unittitle>
+                  </did>
+               </c03>
+	    </c02>
+	</c01>
+
+         <c01 level="series" id="list-serAdd">
+            <did>
+               <unittitle>ADDITIONS TO COLLECTION</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Writings by Bertha C. Reynolds and others
+</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Bertha C. Reynolds, "Where Do You Get Your Ethics?"
+              <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Bertha C. Reynolds, "Discussion of Psychoanalysis: Ideological Instrument of Imperialism,"
+              <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>William Schwartz, "Bertha Reynolds as Educator," Catalyst,
+              <unitdate>1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Louise Bandler, "Bertha Capen Reynolds: Social Worker of All Times,"
+              <unitdate>1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Slides</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>91st birthday
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Bertha Capen Reynolds centennial
+              </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                     <container type="box">20</container>
+                  <unittitle>Miscellaneous writings (pamphlets, articles, reprints) by Bertha C. Reynolds and others</unittitle>
+               </did>
+            </c02>
+	    <c02>
+               <did>
+                     <container type="box">20</container>
+                  <unittitle>Class of 1908 Smith College yearbook</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                     <container type="box">21</container>
+                  <unittitle>Accession #06S-60 (received Aug 2006)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Photographs of Reynolds (copies),
+ 			<unitdate> 1976, n.d. </unitdate>
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Correspondence, 
+ 			<unitdate>1948-62</unitdate>
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Tributes and other writings about Reynolds,
+ 			<unitdate> 1969-75, n.d.</unitdate>
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Biographical and autobiographical information, 
+ 			<unitdate>1938-64, n.d.</unitdate>
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Interview with Reynolds: audiocassette, 
+ 			<unitdate>1975</unitdate>
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Speeches, and published writings, 
+ 			<unitdate>1937-61</unitdate>
+              </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Unpublished essays: "Where Do You Get Your Ethics?" (work in progress at the time of BCR's death; might have become a book), 
+ 			<unitdate>1964</unitdate>
+              </unittitle>
+                  </did>
+               </c03>
+		<c03>
+                  <did>
+                     <unittitle>Goldstein, Joan Love              </unittitle>
+                  </did>
+                    <c04>
+                  	<did>
+                    	 <container type="box">21</container>
+                    	 <unittitle>Correspondence re: donation of BCR writings to Institute for Marxist Studies, and to Wurtzweiler School of Social Work, 
+ 			<unitdate>1982, 1994</unitdate>
+              		</unittitle>
+                        </did>
+               		</c04>
+                   <c04>
+                  	<did>
+                     <unittitle>Writings</unittitle>
+                  	</did>
+
+	               <c05>
+                 	 <did>
+                     	   <container type="box">21</container>
+                     		<unittitle>BCR's essays about the relationship between Marxism and religion, 
+ 			<unitdate>(1984?)</unitdate>
+             	 		</unittitle>
+                  	   </did>
+               		</c05>
+	               <c05>
+                 	 <did>
+                     	   <container type="box">21</container>
+                     		<unittitle>Copyright registration for dissertation, "Bertha C. Reynolds: Gentle Radical," 
+ 			<unitdate>1982</unitdate>
+             	 		</unittitle>
+			<note><p>
+			<ref target="list-serMF">[see also Microfilm (M48)]</ref></p></note>
+                  	   </did>
+               		</c05>
+                    </c04>
+               </c03>
+
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>&quot;Socialism and Religion&quot;: article or book chapter by Archibald Robinson, 
+ 			<unitdate>n.d.</unitdate>
+              </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,752 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss152.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss152</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Harriet Bliss Ford Papers, 1899-1953
+       </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss152 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Harriet Bliss Ford Papers, 1899-1953
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 59
+      </num>
+         <date>Revised 2002
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main-overview">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Ford, Harriet Bliss, 1876-1964</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Harriet Bliss Ford Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1899-1953</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 59</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">5 boxes</extent>
+            <extent encodinganalog="300$a">(2 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Civic leader; editor; YWCA executive; Red Cross official; and Trustee, Smith College. The correspondence and subject files of the Ford Papers document her work with Century Magazine and her political and intellectual life during her residence in Northampton, Massachusetts.  Included is material written and published by Ford for the Young Women's Christian Association (YWCA), and manuscripts of her speeches and writings. Notable correspondents include Carrie Chapman Catt; Grace Coolidge; Elizabeth Cutter Morrow; William Allen Neilson; Ada Comstock Notestein; Abby Rockefeller; William Rose Bennet; Helena Gilder; and Eleanor Roosevelt.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6176.jpg" altrender="right">
+<daodesc><p>Christmas card showing Harriet Bliss Ford <lb />in Wilder House living room, 1931-1932</p></daodesc></dao> 
+         <p> Harriet Chalmers Bliss was born in New York City  and earned a B.L. from Smith College in 1899.  She was an editorial assistant at Century Magazine, 1899-1912, and consulting editor of the Woman's Press Board, the Woman's Journal, 1927-29.  She married George Burdett Ford in 1912.  Ford was director of women personal in the American Red Cross Overseas, 1917-1920, and was chair of the Smith College Relief Unit, Pans Office.  Ford was on the National Board of the YWCA from 1920 to 1930, and was vice president chair of the Publicity Organization.  She was a member of the Committee on Cause and Cure of War from 1925 to1930.  At Smith College, she was a publicity chair and trustee, 1923-36, and she was a "Trustee in Residence," 1931-36.  She was on the Board of Directors of the Smith Alumnae Association and the American Association of University Women.  Ford was involved in Northampton, Massachusetts city politics and the National League of Women Voters, 1950s.  She was on the Northampton City Charter Committee, 1949, and the City Council, 1940s-50s.  She wrote articles, poetry and plays, some of which were published, regarding various causes including women's issues and peace.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The papers include biographical materials, correspondence, memorabilia, photographs, writings, and subject files.  The correspondence and subject files relate to her work with Century Magazine and her political and intellectual life during her residence in Northampton, Massachusetts.  Included are plays and pageants written and published by Ford for the Young Women's Christian Association (as well as other YWCA publications), and manuscripts of her speeches and writings.  There is also an unpublished biography of her husband, George B. Ford.  Notable correspondents include Carrie Chapman Catt; Grace Coolidge; Elizabeth Cutter Morrow; William Allen Neilson; Ada Comstock Notestein; Abby Rockefeller; William Rose Bennet; Helena Gilder. and Eleanor Roosevelt.   </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into five series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical Materials</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Writings</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Memorabilia</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Subjects</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection.</p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner of this collection is unknown. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>The Harriet Bliss Ford Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Materials in this collection were given to the Sophia Smith Collection by Harriet Bliss Ford and her niece.  </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Finding aid revised in 2002 by Gayla Spaulding, intern. </p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj-subheads">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Catt, Carrie Chapman, 1859-1947--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Coolidge, Grace Goodhue, 1879-1957--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Ford, Harriet Bliss, 1876-1964</persname>
+         <persname encodinganalog="600" source="lcnaf">H. de K. G. (Helena de Kay Gilder)--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Morrow, Elizabeth, 1873-1955--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Neilson, William Allan, 1869-1946--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Rockefeller, Abby Aldrich--Correspondence</persname>
+         <corpname encodinganalog="610" source="lcnaf">Century Magazine--History</corpname>
+         <corpname encodinganalog="610" source="lcnaf">National Committee on the Cause and Cure of War (U.S.)</corpname>
+         <corpname encodinganalog="610" source="lcnaf">League of Women Voters of Northampton (Mass.)--History</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association of the U.S.A. National Board--History</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Smith College--Administration--History--Sources</corpname>
+         <geogname encodinganalog="651" source="lcsh">Northampton, (Mass.)--History--Sources</geogname>
+         <subject encodinganalog="650" source="lcsh">Women editors--United States--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women and peace--History--20th century--Sources</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>There are additional papers of Harriet Bliss Ford located in the 
+            <extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca361_main.html">Smith College Archives</extref>.</p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Biographical sketch</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Newspaper clippings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3</container>
+                     <unittitle>Business, <unitdate>1913-50</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>Personal, <unitdate>1912</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>European diary, <unitdate>1923</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Letters of congratulation, <unitdate>1912</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Letters of recommendation, <unitdate>1899</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Letters of condolence (on death of George B. Ford), <unitdate>1930-31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Speeches, <unitdate>1936, 1955, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. WRITINGS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Writings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">10</container>
+                     <unittitle>Published, <unitdate>1922-50</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>Unpublished, <unitdate>1950-58, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ford, George B.</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">12</container>
+                        <unittitle>Biography (unpublished manuscript), <unitdate>1931</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">13</container>
+                        <unittitle>Correspondence (re: biography), <unitdate>1931</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. MEMORABILIA</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1-3</container>
+                  <unittitle>Greeting cards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4</container>
+                  <unittitle>Photographs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">5</container>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. CORRESPONDENCE</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">1-2</container>
+                  <unittitle>Allen, Ruth Strickland, <unitdate>1909-23</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">3</container>
+                  <unittitle>Barnard, Eunice Fuller, <unitdate>1935-36</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">4</container>
+                  <unittitle>Barrett, Halsey M., <unitdate>1899</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">5</container>
+                  <unittitle>Benet, William Rose, <unitdate>1912-21</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">6</container>
+                  <unittitle>Brown, "Dot", <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">7</container>
+                  <unittitle>Buel, Clarence Clough, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">8</container>
+                  <unittitle>Cather, Willa Sibert, <unitdate>1909</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">9</container>
+                  <unittitle>Coolidge, Grace, <unitdate>1943, 1945</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">10</container>
+                  <unittitle>Crowinshield, Frank, <unitdate>1912-15</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">11</container>
+                  <unittitle>Dreier, Katherine S. <unitdate>1924-25</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">12</container>
+                  <unittitle>Ellsworth, W.W., <unitdate>1913, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">13</container>
+                  <unittitle>Ford, Eleanor Burdette, <unitdate>1912</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">14</container>
+                  <unittitle>Gilder, Helena, <unitdate>1910-13</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">15</container>
+                  <unittitle>Gilder, Richard Watson, <unitdate>1905-09</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">16</container>
+                  <unittitle>Gilder, Rodman, <unitdate>1909-10</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">17</container>
+                  <unittitle>Herter, Christian, <unitdate>1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">18</container>
+                  <unittitle>Johnson, R.U., <unitdate>1912-37</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">19</container>
+                  <unittitle>Jones, Louis and Mary, <unitdate>1947-49</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">20</container>
+                  <unittitle>Kennedy, John F., <unitdate>1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">21</container>
+                  <unittitle>Lehman, Herbert H., <unitdate>1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">22</container>
+                  <unittitle>Melvin, Mary Armstrong, <unitdate>1935</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">23</container>
+                  <unittitle>Miscellaneous, <unitdate>1909-33</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">24</container>
+                  <unittitle>Morrow, Elizabeth Cutter, <unitdate>1927-31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">25</container>
+                  <unittitle>Neilson, William Allen, <unitdate>1929-31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">26</container>
+                  <unittitle>Newton, E. Swift, <unitdate>1935-36, 1941</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">27</container>
+                  <unittitle>Notestein, Ada Comstock, <unitdate>1930-31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">28</container>
+                  <unittitle>Paine, Albert Bigelow, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">29</container>
+                  <unittitle>Parsons, Edgarton and Alice, <unitdate>1909-29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">30</container>
+                  <unittitle>Pearman, Mabel (Capelle), <unitdate>1912</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">31</container>
+                  <unittitle>Reston, James, <unitdate>1952-53</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">32</container>
+                  <unittitle>Rice, Alice Hegan, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">33</container>
+                  <unittitle>Rockefeller, Abby A., <unitdate>1931, 1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">34</container>
+                  <unittitle>Roosevelt, Eleanor, <unitdate>1924</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">35</container>
+                  <unittitle>Skinner, Belle, <unitdate>1924-31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">36</container>
+                  <unittitle>Slater, Florence W., <unitdate>1916</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">37</container>
+                  <unittitle>Wilson, Claggett, <unitdate>1924</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">38</container>
+                  <unittitle>Unidentified</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>SERIES V. SUBJECTS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Cause and Cure of War</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">1</container>
+                     <unittitle>General</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">2</container>
+                     <unittitle>Newspaper clippings</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">3</container>
+                  <unittitle>League of Nations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">4</container>
+                  <unittitle>Mary A. Burnam School: Commencement, <unitdate>1955</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">5</container>
+                  <unittitle>Railroad report</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">6</container>
+                  <unittitle>Roadside improvement</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">7</container>
+                  <unittitle>World's Fair: NY, <unitdate>1938-39</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>YWCA</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">8</container>
+                     <unittitle>General</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">9</container>
+                     <unittitle>The New Creation (correspondence and information re: festival)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>City of Northampton</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>City charter</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">1</container>
+                        <unittitle>Committee minutes and correspondence</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">2-3</container>
+                        <unittitle>Revision and photocopies</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">4</container>
+                     <unittitle>City Council: unicameral election</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">5</container>
+                     <unittitle>Map of Northampton</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">6</container>
+                     <unittitle>Tercentenary celebration</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">7</container>
+                     <unittitle>Northampton League of Women Voters</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

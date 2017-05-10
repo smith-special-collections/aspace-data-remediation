@@ -1,0 +1,3508 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss10.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss10</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Mina Kirstein Curtiss Papers, 1913-2005
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Burd Schlessinger.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">&#169; 2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-05</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss10 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb/>Smith College
+         </publisher>
+         <titleproper encodinganalog="245$a">Mina Kirstein Curtiss Papers, 1913-2005
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 250
+      </num>
+         <author encodinganalog="245$c">Burd Schlessinger
+      </author>
+         <date>2000
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Curtiss, Mina Kirstein, 1896-</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Mina Kirstein Curtiss Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1913-2005</unitdate>
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 250</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">33 boxes</extent>
+            <extent encodinganalog="300$a">(11 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	</repository>
+         <abstract label="Abstract:" encodinganalog="520$a">English professor, translator, and author. The bulk of the Curtiss papers focus on her writing career including correspondence with publishers and researchers, research material, artwork, and edited typescripts.  Other materials include an oral history, photographs, diaries, and extensive correspondence with many eminent figures from the literary world as well as Smith College associates, friends and family members. Correspondents include Dean Acheson, Jacques Barzun, Jill Ker Conway, Anne Morrow Lindbergh, William Allen Neilson, Orson Welles, and Rebecca West.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1091.jpg" altrender="right">
+<daodesc><p>Mina Curtiss at Chapelbrook, Ashfield, Massachusetts, n.d.
+</p></daodesc></dao>
+         <p>Mina Kirstein Curtiss was born in Boston, Massachusetts on October 13, 1896 to Louis Kirstein, an optician, and Rose Stein.  She had two younger brothers, Lincoln Kirstein, founder and general director of the New York City Ballet, and George Kirstein, publisher of the Liberal Weekly.  The family moved to Rochester, NY in 1901 and remained there until 1912, when they returned to Boston and Louis Kirstein became a partner in Filene's Department Store.  Curtiss was schooled at home by a governess until 1912, when she was sent to Northampton, Massachusetts to attend Miss Capen's School.  She graduated from Smith College in 1918 and went on to earn an MA in English from Columbia University in 1920.</p>
+         <p>Prior to attending Columbia, Curtiss worked as a research clerk for Military Intelligence in Washington, D.C., from 1918 to 1920.  She lived at the headquarters of the National Woman Suffrage Association where she became friends with Anna Howard Shaw and Carrie Chapman Catt.  Curtiss married Henry Tomlinson Curtiss in 1926 only to be devastated by his untimely death a year later, in 1927.  In 1933 she published <title render="italic">The Midst of Life</title>, a book that took the form of a series of letters to her dead husband.   From 1922 to 1934 and again from 1940 to 1942, Curtiss was a beloved and highly regarded professor of English at Smith College, returning in 1976, at the age of 81, as Visiting Professor of English Language and Literature to teach a course on writing biography. From 1935 to 1939, she worked with Orson Welles and John Houseman in researching and writing scripts for the Mercury Theatre of the Air.  In 1942, she created a program for the <title render="italic">Des Moines Register and Tribune</title> radio station, based on soldiers' letters home.  This evolved into a book, Letters Home, edited by Curtiss and published in 1944.  In 1942 Curtiss also joined the Office of War Information and, with Houseman, developed a short wave radio program for the BBC entitled "Answering You," in which celebrities responded to questions submitted by BBC listeners.</p>
+         <p>Rather than return to teaching when World War II ended, Curtiss opted to pursue a career in writing, authoring books, journal articles, and book reviews for national and international audiences.   She was also fluent in French, and translated and edited works by several noted Frenchmen, including Edgar Degas, Philip Halevy, Marcel Proust, and Alexis Leger (also known as Saint-John Perse).  She once said in an interview, "I fall in love with whatever I'm working on," and this passion, combined with a rigorous intellect, made her a tireless, tenacious, and meticulous researcher.  Having read Proust and translated his letters for publication in the United States (<title render="italic">The Letters of Marcel Proust</title>, 1949), Curtiss was inspired to go to Paris to seek out Proust's family and friends still living, and to unearth more of his correspondence.  This research led to publication in 1978 of <title render="italic">Other People's Letters: A Memoir</title> and to an interest in the composer Georges Bizet, which Curtiss pursued with characteristic vigor.</p>
+         <p>Following publication of <title render="italic">Other People's Letters: A Memoir</title> in 1978, Curtiss continued to write.  She submitted several manuscripts for publication ("Winter Letters," a sequel to <title render="italic">Midst of Life</title>; "The Past and I" and "Slices of Life," sequential autobiographies; and "Plato: Archbishop of Moscow," a biographical sketch that evolved from researching <title render="italic">A Forgotten Empress: Anna Ivanovich and Her Era</title>, 1730-1740), and to her disappointment all were rejected.  Despite a severe heart condition that left her bedridden for the last several years of her life, with the help of her secretary Curtiss continued to edit and modify the manuscripts in hopes that they would eventually go to press.</p>
+         <p>In addition to teaching and pursuing a career in writing, Curtiss was generous to causes in which she believed, to the extent that her finances allowed.  In 1964, she donated most of the land that comprised Chapelbrook, her farm in Ashfield, Massachusetts, to the Trustees of Reservations, before selling the house and remaining acreage privately. She also founded the Chapelbrook Foundation the purpose of which was to provide funding to writers over the age of forty, to enable them to complete works in progress that might otherwise have gone unfinished.  Curtiss also donated manuscript material to libraries and repositories, and works of art to museums.</p>
+         <p>In 1984, Smith College alumnae Anne Morrow Lindbergh and her sister, Constance Morrow Morgan, organized a campaign among Curtiss's former students to raise funds for a tribute to her.  The response was overwhelming and led to establishment of the Mina Curtiss Fund, thanks to which a vase of fresh flowers, replaced on a regular basis in perpetuity, graces the Browsing Room in the William Allan Neilson Library at Smith College.  Curtiss herself was an avid gardener and, not long before she died, suggested that the tribute take this form.</p>
+         <p>Mina Kirstein Curtiss died in Connecticut on October 31, 1985.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Mina Kirstein Curtiss Papers consist of 11 linear feet and date from 1913 to 1986.  Types of material include biographical information, including an oral history; personal and professional correspondence; photographs; journals and diaries; financial records; clippings; and typescripts of writings.  The papers are arranged in six series: Biographical Material, Photographs, Correspondence, Teaching, Writings and Subject Files.</p>
+         <p>The bulk of the papers dates from 1933 to 1985 and focuses on Curtiss's writing career. It includes correspondence with publishers and researchers, research material, artwork, royalty statements, and typescripts.  The typescripts are edited in Curtiss's hand and provide insight into her creative and analytical processes.  Correspondence is also extensive and reflects the many friendships Curtiss developed while teaching, and in researching and writing her various books and attempting to see them through to publication.  Many of the correspondents are people of note. The correspondence also well illustrates Curtiss's analytical approach to her topics of research.</p>
+         <p>Although the diaries and journals in this collection are limited in scope, they do reveal something of their author's passionate nature and discerning intellect, as well as some of her struggles and disappointments.</p>
+         <p>The photographs are also of interest, offering a glimpse into Curtiss's childhood and early family life, as well as life at Chapelbrook, the Curtiss home in Ashfield, Massachusetts.</p>
+         <p>The financial records document the acquisition of art and antiques, and the necessity for Curtiss to sell certain pieces later in her life, when she faced financial difficulties.  They are also evidence of Curtiss's generosity in donating books, manuscript material and artwork to appropriate institutions when she was financially secure.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into five series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical Material</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Photographs</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Teaching</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Writings</ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI. Subject Files</ref>
+            </item>
+            <item>
+               <ref target="list-serOV">Oversize Materials; Microfilm; Books</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection. The John Houseman correspondence is photocopies of letters that are part of the John Houseman Papers in the Department of Special Collections, Charles E. Young Research Library, University of California, Los Angeles.  For copies and information about copyright, please contact UCLA.
+                    </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to unpublished works in this collection created by Mina Curtiss with the following exception of Lynne Robbins has retained literary rights to "Slices of Life."  Permission must be obtained to publish reproductions or quotations beyond "fair use."  Copyright to materials authored by others may be owned by those individuals or their heirs or assigns.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.  </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Mina Kirstein Curtiss Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Mina Kirstein Curtiss Papers were donated to the Sophia Smith Collection in 1986 by Kirstein's brothers, Lincoln and George Kirstein.  Sallie Gottfried gave additional material in 1987, as did Lynne Robbins, co-executor of Mina Curtiss' estate, in 1988.  In 1999, former student Delia Marshall donated a series of letters by Curtiss, spanning the years 1976 to 1985.
+              </p>
+            </acqinfo>
+            <processinfo id="admin-process">
+               <p>Processed by Burd Schlessinger, 2000.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+
+         <head>Search Terms</head>
+
+         <persname encodinganalog="600" source="lcnaf">Acheson, Dean, 1893-1971--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Auchincloss, Louis--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Barzun, Jacques, 1907- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Bizet, Georges, 1838-1875</persname>
+         <persname encodinganalog="600" source="lcnaf">Conway, Jill K., 1934- --Correspondence</persname>
+         <famname encodinganalog="600" source="lcnaf">Curtiss family</famname>
+         <persname encodinganalog="600" source="lcnaf">Curtiss, Mina Kirstein, 1896-</persname>
+         <persname encodinganalog="600" source="lcnaf">Degas, Edgar, 1834-1917</persname>
+         <persname encodinganalog="600" source="lcnaf">Frankfurter, Felix, 1882-1965--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Garnett, David, 1892- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Grant, Duncan, 1885-1978--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Halevy, Daniel, 1872-1962--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Houseman, John--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Ivanovich, Anna</persname>
+         <persname encodinganalog="600" source="lcnaf">Kolb, Philip--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Laski, Harold Joseph, 1893-1950--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Levin, Harry, 1912- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Lindbergh, Anne Morrow, 1906- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Linscott, Robert Newton, 1886- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Manet, Edouard, 1832-1833</persname>
+         <persname encodinganalog="600" source="lcnaf">Neilson, William Allan, 1869-1946--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Nicolson, Marjorie Hope, 1894- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Proust, Marcel, 1871-1922</persname>
+         <persname encodinganalog="600" source="lcnaf">Pope-Hennessy, John, Sir, 1834-1891--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Saint-John Perse, 1887-1975</persname>
+         <persname encodinganalog="600" source="lcnaf">Steegmuller, Francis, 1906- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Storm, Hans Otto, 1895-1941--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Untermeyer, Louis, 1885-1977--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Welles, Orson, 1915- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">West, Rebecca, Dame, 1892- --Correspondence</persname>
+         <geogname encodinganalog="651" source="lcsh">Europe--Description and travel--Sources</geogname>
+         <subject encodinganalog="650" source="lcsh">French literature--Translations into English--Sources</subject>
+         <corpname encodinganalog="610" source="lcnaf">Mercury Theater of the Air--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Radio broadcasting--United States--History--20th century--Sources</subject>
+         <corpname encodinganalog="610" source="lcnaf">Smith College--Faculty--History--Sources</corpname>
+         <corpname encodinganalog="610" source="lcnaf">Smith College--Students--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Women authors, American--20th century--Sources</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>There is related material at the following institutions:</p>
+            <p>National Records and Archives Administration (NARA)<lb/> -- recordings of the radio program Answering You</p>
+            <p>New York Public Library, Berg Collection<lb/>
+        -- letters to Mina K. Curtiss from British writers</p>
+            <p>New York Public Library, Dance Collection<lb/>
+        -- Lincoln Kirstein Papers and related documents</p>
+            <p>Pierpont Morgan Library, New York
+        -- French books and manuscripts donated by Mina K. Curtiss, including letters by Edouard Manet</p>
+            <p>
+               <extref href="../../smitharchives/mnsss47_main.html">Smith College Archives</extref>
+               <lb/>
+        -- material generated by Mina K. Curtiss when she was a student and, later, a professor at Smith College
+        -- correspondence between Mina K. Curtiss and William Allan Neilson, and other Smith College colleagues</p>
+            <p>Smith College Mortimer Rare Book Room<lb/>
+        --Records of the Chapelbrook Foundation, a grant agency founded by Mina K. Curtiss 'which gave grants to writers over forty, to help them finish works in progress which they could not otherwise complete.'</p>
+            <p>University of California, Los Angeles<lb/>
+        -- letters to Mina K. Curtiss from John Houseman</p>
+            <p>University of Sussex at Brighton (UK)<lb/>
+        -- correspondence by Harold and Frida Laski</p>
+            <p>Yale University, Beinecke Rare Book and Manuscript Library<lb/>
+        -- letters to Mina K. Curtiss from American writers</p>
+            <p>Yale University, Manuscripts and Archives, Sterling Memorial Library<lb/>
+        -- correspondence, photographs and travel diaries relating to Henry Tomlinson Curtiss</p>
+         </relatedmaterial>
+      </descgrp>
+<!-- End additional information -->
+    <altformavail id="admin-altform">
+	<p>The previous owner of the collection prepared a microfilm edition of biographical clippings and correspondence that replicates approximately two-thirds of the collection. It is available through interlibrary loan and is accessible through an index of events and proper names.</p>
+    </altformavail>
+    <custodhist id="admin-custodhist">
+	<p>The John Houseman correspondence is photocopies of letters that are part of the John Houseman Papers in the Department of Special Collections, Charles E. Young Research Library, University of California, Los Angeles. </p> 
+    </custodhist>
+
+
+<!-- Begin series descriptions type="analyticover" -->
+<dsc type="analyticover">
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL
+               <unitdate>(1918-1986)</unitdate></unittitle>
+               <physdesc>
+                  <extent>3 linear feet.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series provides an overview of Mina Kirstein Curtiss's private life and includes legal documents, an oral history, and photographs.  The series also contains two bound volumes of poetry, some of which is in Curtiss's hand and the rest in another, unidentified hand. There is also correspondence pertaining to the Mina K.Curtiss Fund at Smith College, established in 1984.  The financial information is extensive and includes tax returns; bills of sale, receipts, and appraisals for art and antiques; and records of donations made to various museums and libraries.  Also included is a set of Curtiss's daily appointment calendars, spanning the years 1936 to 1985; the year 1939 is missing.  There are also magazine articles, correspondence, drawings, legal documents, and printed matter relating to various properties Curtiss owned during her life, most of which concern Chapelbrook in Ashfield, Massachusetts.  The Chapelbrook photograph albums are filed in this series because they are germane to to that particular property and because many of the photographs depict life there before Mina Stein Kirstein married Henry Tomlinson Curtiss in 1926.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES II. PHOTOGRAPHS</unittitle>
+            </did>
+            <scopecontent>
+               <p>This series consists of photo albums and single images of Mina Curtiss and her family; there are also several photographs of Henry Tomlinson Curtiss.  Although most of the images are undated and the people in them are unidentified, they well illustrate certain aspects of Curtiss's family life and leisure activities.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES III. CORRESPONDENCE
+               <unitdate>(1913-85)</unitdate></unittitle>
+               <physdesc>
+                  <extent>1.75 linear feet.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series is divided into four subseries: Family, Friends and acquaintances, Legal and financial, and Miscellaneous.  In the Family subseries, letters to "Goosie" and "Pettikins" probably refer to Lincoln and George Kirstein, respectively. The bulk of the series consists of Friends and acquaintances and includes letters from many eminent figures from the literary world.  Letters to family and to Smith College President William Allan Neilson are especially revealing of Curtiss's thoughts and feelings as she grappled with personal problems.  Legal and financial correspondence is comprised of letters between Curtiss and the prominent Boston firms that represented her legal and fiscal interests.  Since Curtiss traveled extensively, whenever practicable on incoming correspondence her whereabouts have been noted in pencil above the greeting. (See also <title render="italic">The Tin Box Collection: Letters of Roger Sessions and His Friends</title>, Sarah Chapin, Ed., 1992).</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES IV. TEACHING
+               <unitdate>(1920-77)</unitdate></unittitle>
+               <physdesc>
+                  <extent>.25 linear feet.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series contains material relating to Mina K. Curtiss's years of teaching English at Smith College, and includes a grade book, lecture notes, and letters from students.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES V. WRITINGS
+               <unitdate>(1917-85)</unitdate></unittitle>
+               <physdesc>
+                  <extent>5.5 linear feet.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series consists of diaries and journals; draft manuscripts and typescripts; research materials; artwork for illustrating Curtiss's books; book reviews, both by Curtiss and by others about her books; journal articles; fan mail, and correspondence with publishers, literary agents, and research associates.  A significant amount of material in this series relates to unpublished works. Some of the artwork filed under "Manet Caricatures: Olympia" was not actually used in the published version of that article, which appeared in the <title render="italic">Massachusetts Review</title> in 1966.  It is unknown whether Curtiss decided against using this material in the "Olympia" article, or if she intended all along to use it in subsequent vignettes or in the proposed book on Manet caricatures.   Since Curtiss filed this artwork with illustrations that were used in the "Olympia" article, it has been retained there.</p>
+               <p>Material pertaining to <title render="italic">The Midst of Life</title> contains an untitled essay that Curtiss had identified as "background material--<title render="italic">Midst of Life</title>;" the essay has therefore been filed with other papers having to do with <title render="italic">The Midst of Life</title>. "Winter Letters," which never reached publication, was the sequel to <title render="italic">The Midst of Life</title>.</p>
+               <p>"Slices of Life" is a sequel to the "Past and I."  Both are autobiographies, neither of which was ever published. The manuscript "Platon: Archbishop of Moscow" was originally part of "Slices of Life," but Curtiss separated it and submitted it for publication, also unsuccessfully, as a separate manuscript; the "Platon" material is therefore filed immediately after the "Slices of Life" typescript.  </p>
+               <p>Much of the correspondence between Curtiss and Liliane Yacoel Ziegel, Curtiss's Parisian research associate, is in French, particularly that pertaining to <title render="italic">Letters of Marcel Proust and Bizet and His World</title>.</p>
+               <p>Correspondence with publishers and literary agents comprises a separate subseries due to its broad and varied content, particularly the letters between Curtiss and Al Hart of the Fox Chase Agency.</p>
+               <p>Research material for <title render="italic">Letters Home</title> consists of typescripts of letters soldiers wrote either to their hometown newspapers or to their families.  Material pertaining to the radio program, "What's YOUR Idea," and to a column in <title render="italic">Cosmopolitan </title>called "Letters Home," both of which evolved from the huge success of <title render="italic">Letters Home</title>, is filed with other documents relating to the book.</p>
+            </scopecontent>
+ </c01>
+
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES VI. SUBJECT FILES
+               <unitdate>(1937-72)</unitdate></unittitle>
+               <physdesc>
+                  <extent>.25 linear feet.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series consists of translations of essays and a bibliography by Saint-John Perse, as well as clippings about him; and clippings about the murder of Elliot Speer, Headmaster of the Mount Hermon School for Boys, which occurred in September 1934.</p>
+            </scopecontent>
+
+ </c01>
+ <c01 level="series">
+    	<did>
+ 	    <unittitle>OVERSIZE MATERIALS</unittitle>
+ 	</did>
+ </c01>
+</dsc>
+<!-- End series descriptions -->
+<!-- Insert container list here --><!-- MOVE series desc to analyticcover -->   
+<dsc type="in-depth" id="list-contlist">
+ 	<c01 level="series" id="list-ser1">
+ 	  <did>
+ 	    <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
+ 	  </did>
+
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Biographical statements, Smith College transcript, and obituaries,<unitdate> 1918, 1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Birth and marriage certificates, passports, employment documents, clippings, and cemetery permits,<unitdate> 1921-83, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Wills,<unitdate> 1979-84, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Bequests,<unitdate> 1986</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mina K. Curtiss Fund at Smith College</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-ser3">[See also SERIES III. CORRESPONDENCE]</ref>
+                  </p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>General correspondence and lists of donors,<unitdate> 1984-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>Vase design, correspondence, receipts, and drawings,<unitdate> 1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>Letters of thanks by Mina K. Curtiss,<unitdate> 1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8</container>
+                     <unittitle>Responses to letters of thanks,<unitdate> 1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Condolences,<unitdate> 1985-86</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Correspondence re: estate of Mina K. Curtiss,<unitdate> 1985-86</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Oral history transcript,<unitdate> 1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Address books, <unitdate>circa 1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>French Legion of Honor award (includes medal),<unitdate> 1960 </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>Partnership agreement, <title>The Nation</title>,<unitdate> 1963-64</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Antiques, art, and furnishings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">15</container>
+                     <unittitle>Correspondence,<unitdate> 1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">16</container>
+                     <unittitle>Receipts and bills of sale,<unitdate> 1954-82, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">17</container>
+                     <unittitle>Appraisals,<unitdate> 1965-1980, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">18</container>
+                     <unittitle>Correspondence about Manet painting,<unitdate> 1974-82</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">19</container>
+                     <unittitle>Photographs and negatives of unidentified paintings, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">20</container>
+                     <unittitle>Notes on library of Mina K. Curtiss, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">21</container>
+                     <unittitle>List of books owned by Mina K. Curtiss (?) (incomplete), <unitdate>n.d. </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1-2</container>
+                  <unittitle>Books of poetry,<unitdate> 1922, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">3</container>
+                  <unittitle>Poems found folded in books of poetry, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Financial records</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">1-5</container>
+                     <unittitle>Tax returns,<unitdate> 1939-43</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">6</container>
+                     <unittitle>Social Security summary,<unitdate> 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">7</container>
+                     <unittitle>List of income sources,<unitdate> 1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">8</container>
+                     <unittitle>Account sheets for household staff,<unitdate> 1982-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Donations and gifts</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">9</container>
+                     <unittitle>Fondation St. John Perse: correspondence,<unitdate> 1975-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">10</container>
+                     <unittitle>Pierpont Morgan Library: correspondence,<unitdate> 1968-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">11-13</container>
+                     <unittitle>New York Public Library: correspondence,<unitdate> 1964-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">14</container>
+                     <unittitle>Sigmund Freud Archives: correspondence,<unitdate> 1962-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith College</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>William Allen Neilson Library</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">3</container>
+                           <container type="folder">15</container>
+                           <unittitle>Correspondence, receipts, and reports,<unitdate> 1974-75</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Museum of Art</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">3</container>
+                           <container type="folder">16</container>
+                           <unittitle>Correspondence, receipts, and reports,<unitdate> 1968-85, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">3</container>
+                           <container type="folder">17</container>
+                           <unittitle>Estate of Mina K. Curtiss: correspondence,<unitdate> 1986</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">3</container>
+                           <container type="folder">18</container>
+                           <unittitle>Rare Book Room: correspondence and inventories,<unitdate> 1975-85</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>College Archives and Sophia Smith Collection</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">3</container>
+                           <container type="folder">19</container>
+                           <unittitle>Margaret Storrs Grierson: correspondence,<unitdate> 1947-64</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">3</container>
+                           <container type="folder">20</container>
+                           <unittitle>College Archives: correspondence and inventories,<unitdate>1983-84</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">3</container>
+                           <container type="folder">21</container>
+                           <unittitle>Sophia Smith Collection: correspondence re: estate of Mina K. Curtiss,<unitdate> 1986</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">3</container>
+                        <container type="folder">22</container>
+                        <unittitle>Other institutions: correspondence and inventories,<unitdate> 1944-83</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Calendars</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">1-16</container>
+                     <unittitle>
+                        <unitdate>1936-38, 1940-52</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">1-19</container>
+                     <unittitle>
+                        <unitdate>1953-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">1-15</container>
+                     <unittitle>
+                        <unitdate>1972-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Residences</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Chapelbrook, Ashfield, Massachusetts</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <unittitle>Photograph albums,<unitdate> 1917-29, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Publications</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">8</container>
+                           <container type="folder">1</container>
+                           <unittitle>
+                              <title>House Beautiful</title>,<unitdate> 1924</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle>
+                              <title>House and Garden</title>,<unitdate> 1925, 1946</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">2</container>
+                        <unittitle>Management plans,<unitdate> 1977, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">3</container>
+                        <unittitle>Correspondence,<unitdate> 1979-85</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">4</container>
+                        <unittitle>Elevation and brochure, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">5</container>
+                        <unittitle>Inventories,<unitdate> 1924, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">6</container>
+                        <unittitle>
+                           <title>A Climber's Guide to Chapel Falls</title>, <unitdate>circa 1979</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">7</container>
+                        <unittitle>Brochures, Trustees of Reservations,<unitdate> 1981, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle>Bethel and Weston, Connecticut houses: descriptive brochure, Certificates of Title, Mortgage Deed, correspondence, photograph, and financial information,<unitdate> 1963-78, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. PHOTOGRAPHS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">1</container>
+                  <unittitle>Mina Curtiss, alone and with family and friends, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">2</container>
+                  <unittitle>Henry T. Curtiss, Smith College, and miscellaneous,<unitdate> 1916-18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Photograph album, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. CORRESPONDENCE</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Family</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">1</container>
+                     <unittitle>Louis Kirstein,<unitdate> 1913-37, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">2-3</container>
+                     <unittitle>Rose Stein Kirstein,<unitdate> 1942-52</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">4</container>
+                     <unittitle>George Kirstein ("Pettikins?") and Lincoln Kirstein ("Goosie?"),<unitdate> 1947-49, 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Friends and acquaintances</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">5</container>
+                     <unittitle>A,<unitdate> 1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">6</container>
+                     <unittitle>Acheson, Dean and Alice,<unitdate> 1928-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">7</container>
+                     <unittitle>Adams, Thomas B.,<unitdate> 1967-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">8</container>
+                     <unittitle>Adams, William H.,<unitdate> 1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">9</container>
+                     <unittitle>Auchincloss, Louis,<unitdate> 1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">10</container>
+                     <unittitle>B,<unitdate> 1930-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">11</container>
+                     <unittitle>Barzun, Jacques,<unitdate> 1951-57</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">12</container>
+                     <unittitle>Bradley, Jenny,<unitdate> 1947-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">13</container>
+                     <unittitle>C,<unitdate> 1978-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">14</container>
+                     <unittitle>Cain, Julien,<unitdate> 1959-61</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">15</container>
+                     <unittitle>Conway, Jill Ker,<unitdate> 1975-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">16</container>
+                     <unittitle>D,<unitdate> 1965, 1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">17</container>
+                     <unittitle>E,<unitdate> 1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">18</container>
+                     <unittitle>Einstein, Albert,<unitdate> 1946-47</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">19</container>
+                     <unittitle>F,<unitdate> 1982-84, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">20</container>
+                     <unittitle>Fardig, Elenor,<unitdate> 1958-69, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">21</container>
+                     <unittitle>Fistere, Isobel,<unitdate> 1978-83, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">22</container>
+                     <unittitle>Frankfurter, Felix,<unitdate> 1943-44, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">23</container>
+                     <unittitle>G,<unitdate> 1967, 1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">24</container>
+                     <unittitle>Garnett, David,<unitdate> 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">25</container>
+                     <unittitle>Gottfried, Sallie,<unitdate> 1982-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">26</container>
+                     <unittitle>Grant, Duncan (photocopies),<unitdate> 1923-25 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">27</container>
+                     <unittitle>Green, Dorothy,<unitdate> 1947-60</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">28</container>
+                     <unittitle>Guerin, Jacques,<unitdate> 1947-49</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">1</container>
+                     <unittitle>H,<unitdate> 1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">2</container>
+                     <unittitle>Halevy, Daniel,<unitdate> 1954-58, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">3</container>
+                     <unittitle>Houseman, John,<unitdate> 1936-54</unitdate>
+                     </unittitle><note><p>[primarily photocopies of correspondence in the John Houseman Papers, Department of Special Collections, Charles E. Young Library, University of California, Los Angeles]</p></note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">4</container>
+                     <unittitle>Johnson, Hugh,<unitdate> 1942-44</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">5</container>
+                     <unittitle>K,<unitdate> 1926, 1976, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">6</container>
+                     <unittitle>Kolb, Philip,<unitdate> 1947-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">7</container>
+                     <unittitle>Krauss, Henry,<unitdate> 1968-69</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">8-10</container>
+                     <unittitle>Laski, Frida,<unitdate> 1919-22</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">11</container>
+                     <unittitle>Laski, Harold,<unitdate> 1922</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">12</container>
+                     <unittitle>L'Engle, Madeleine,<unitdate> 1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">13</container>
+                     <unittitle>Levin, Harry,<unitdate> 1946-59, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">14</container>
+                     <unittitle>Levy, Harriet,<unitdate> 1941</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lindbergh, Anne Morrow and other members of Morrow and Lindbergh families</unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-ser1">[See also SERIES I. BIOGRAPHICAL MATERIAL]</ref>
+                     </p>
+                  </note>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">1-8</container>
+                        <unittitle>Anne Morrow Lindbergh to Mina Curtiss,<unitdate> 1929-85, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">9</container>
+                        <unittitle>Mina Curtiss to Anne Morrow Lindbergh (photocopies),<unitdate> 1940 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">10</container>
+                        <unittitle>Typescript by Anne Morrow Lindbergh and related letter from Mina Curtiss, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">11</container>
+                        <unittitle>Constance Morrow Morgan,<unitdate> 1930-78, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">12</container>
+                        <unittitle>Anne Spencer Lindbergh,<unitdate> 1960</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">13</container>
+                        <unittitle>Reeve Lindbergh Brown,<unitdate> 1983</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Mina Kirstein Curtiss Fund at Smith College</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">13</container>
+                           <container type="folder">14</container>
+                           <unittitle>Executive correspondence,<unitdate> 1984, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">13</container>
+                           <container type="folder">15-18</container>
+                           <unittitle>General correspondence, A-Z,<unitdate> 1984</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">1</container>
+                     <unittitle>Linscott, Robert (?),<unitdate> 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">2</container>
+                     <unittitle>M,<unitdate> 1930-85, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">3</container>
+                     <unittitle>Maloney, Daniel,<unitdate> 1977-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">4</container>
+                     <unittitle>Marshall, Delia,<unitdate> 1977-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">5</container>
+                     <unittitle>Martin-Chauffier, Louis,<unitdate> 1946-48</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">6</container>
+                     <unittitle>de Mornand, Louisa (includes fragments of writings),<unitdate> 1947 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle>Mortimer, Raymond, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">7</container>
+                     <unittitle>Mencken, H.L. (photocopies),<unitdate> 1936 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">8</container>
+                     <unittitle>Nathan, Robert,<unitdate> 1919-22, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">9</container>
+                     <unittitle>Neilson, Elizabeth,<unitdate> 1939, 1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">10</container>
+                     <unittitle>Neilson, William Allan,<unitdate> 1919-45</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">11</container>
+                     <unittitle>Nicolson, Marjorie,<unitdate> 1950-53</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">12</container>
+                     <unittitle>Pope-Hennessey, John,<unitdate> 1962-79</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-fanmail">[See also SERIES V. WRITINGS: Published works: Books: <title>Other People's Letters</title>, fan mail]
+    </ref>
+                     </p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">13</container>
+                     <unittitle>Proust, Suzy Mante,<unitdate> 1947-48</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">1</container>
+                     <unittitle>R,<unitdate> 1942, 1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Russian correspondents</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">2</container>
+                        <unittitle>Drapkina, Lucy,<unitdate> 1969-72, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">3</container>
+                        <unittitle>Others,<unitdate> 1960-70, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">4</container>
+                     <unittitle>S,<unitdate> 1939-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sibilat, Magda,                    <unitdate>1938-52, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">5</container>
+                        <unittitle>Magda Sibilat (written by Pauline Nisbet on behalf of Sibilat, who was gravely ill),<unitdate> 1949-50 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">6</container>
+                     <unittitle>Steegmuller, Francis,<unitdate> 1948-84, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">7</container>
+                     <unittitle>Storm, Hans Otto,<unitdate> 1940-41</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">8</container>
+                        <unittitle>Correspondence about Hans Otto Storm,<unitdate> 1942, 1970-73</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">9</container>
+                     <unittitle>T,<unitdate> 1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">10</container>
+                     <unittitle>Una [?],<unitdate> 1972-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">11</container>
+                     <unittitle>Untermeyer, Louis,<unitdate> 1917-18</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">12</container>
+                     <unittitle>Vecchi, Floriano,<unitdate> 1971, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">13</container>
+                     <unittitle>W,<unitdate> 1976-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">14</container>
+                     <unittitle>Welles, Orson, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">15</container>
+                     <unittitle>West, Rebeccca (includes photocopies and related correspondence),<unitdate> 1924-78 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">16</container>
+                     <unittitle>Wilmerding, Gay,<unitdate> 1978-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">17</container>
+                     <unittitle>Unidentified,<unitdate> 1981-85, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">18-23</container>
+                     <unittitle>Stenographer's notebooks, <unitdate>Jan 1978-Jul 1983</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">1-4</container>
+                        <unittitle>
+                           <unitdate>Aug 1983-Sep 1985</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Legal and financial</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">5</container>
+                     <unittitle>Pullman, Comley, Bradley and Reeves,<unitdate> 1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">6</container>
+                     <unittitle>Ropes, Gray, Best, Coolidge and Rugg,<unitdate> 1952-60</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">7</container>
+                     <unittitle>Ropes and Gray,<unitdate> 1961-74</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">8</container>
+                     <unittitle>Miscellaneous: letter to the editor, <title>The New Yorker</title>,<unitdate> 1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. TEACHING</unittitle>
+            </did>
+
+            <c02>
+               <did>
+                  <unittitle>Smith College</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">9</container>
+                     <unittitle>Grade book, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">10</container>
+                     <unittitle>Teaching notes,<unitdate> 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">11</container>
+                     <unittitle>Correspondence from students,<unitdate> 1920s, 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">12</container>
+                     <unittitle>Clipping, <unitdate>Dec 1929</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>SERIES V. WRITINGS</unittitle>
+            </did>
+
+            <c02>
+               <did>
+                  <unittitle>Diaries</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <container type="folder">1-2</container>
+                     <unittitle>Journals,<unitdate> 1911, 1914, 1918-19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>Journal from trip to Cedar Rapids, Iowa,<unitdate> 1942</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Radio programs</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title>Mercury Theatre of the Air</title>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">18</container>
+                        <container type="folder">1</container>
+                        <unittitle>"War of the Worlds," clippings,<unitdate> 1938</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">18</container>
+                        <container type="folder">2</container>
+                        <unittitle>Unidentified list, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title>Listen, Iowa's Own Newspaper of the Air</title>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">18</container>
+                        <container type="folder">3</container>
+                        <unittitle>Correspondence,<unitdate> 1942</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">18</container>
+                        <container type="folder">4</container>
+                        <unittitle>Character profiles,<unitdate> 1942</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">18</container>
+                        <container type="folder">5</container>
+                        <unittitle>Scripts,<unitdate> 1942-43</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">6</container>
+                     <unittitle>
+                        <title>Answering Australia</title>, scripts:<unitdate> 1943</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title>Answering You</title>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">18</container>
+                        <container type="folder">7</container>
+                        <unittitle>Correspondence and listeners' surveys,<unitdate> 1943</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="list-box18fo8-9">
+                     <did>
+                        <container type="box">18</container>
+                        <container type="folder">8-9</container>
+                        <unittitle>Scripts, #1-#8, 12, <unitdate>1943</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Disc recordings, <unitdate>circa 1942</unitdate>
+                        </unittitle>
+                     </did>
+                     <note>
+                        <p>
+                           <ref target="app1">[See APPENDIX]</ref>
+                        </p>
+                     </note>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Published works</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <container type="folder">1</container>
+                     <unittitle>Lists of published works (incomplete), <unitdate>n.d. </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <container type="folder">2</container>
+                     <unittitle>Statements of earnings from writings,<unitdate> 1965-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Books</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Bizet and His World</title>,                       <unitdate>1958</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">3</container>
+                           <unittitle>Royalty statements,<unitdate> 1961-77</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">4</container>
+                           <unittitle>Reviews,<unitdate> 1958-59, 1978</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">5-6</container>
+                           <unittitle>Research materials: from Genevieve Bizet Straus: correspondence, printed material, clippings, transcribed excerpts, legal documents, and school records, <unitdate>circa 1883-1975</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">7</container>
+                           <unittitle>Records of royalties on works by Georges Bizet,<unitdate> 1939-43</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">8</container>
+                           <unittitle>List of documents about Georges Bizet held by Magda Sibilat, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>A Forgotten Empress:  Anna Ivanovich and Her Era,                       1730-1740</title>, <unitdate>1974</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">9</container>
+                           <unittitle>Correspondence and contract,<unitdate> 1967-74</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">10</container>
+                           <unittitle>Fan mail,<unitdate> 1974</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">11</container>
+                           <unittitle>Royalty statements,<unitdate> 1976-78</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">12</container>
+                           <unittitle>Reviews,<unitdate> 1974-75, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Research materials</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">20</container>
+                              <container type="folder">13</container>
+                              <unittitle>Photographs, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                           <note>
+                              <p>
+                                 <ref target="list-serOV">[See also OVERSIZE MATERIALS]</ref>
+                              </p>
+                           </note>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">20</container>
+                              <container type="folder">14</container>
+                              <unittitle>Catalogs,<unitdate> 1969, n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <unittitle>Plates</unittitle>
+                        </did>
+                        <note>
+                           <p>
+                              <ref target="list-serOV">[See also OVERSIZE MATERIALS]</ref>
+                           </p>
+                        </note>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Letters Home</title>,                       <unitdate>1944</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">21</container>
+                           <container type="folder">1</container>
+                           <unittitle>Correspondence,<unitdate> 1944-72</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Research materials: typescripts of newspaper articles containing information about soldiers serving in World War II,                          <unitdate>1942-43</unitdate>
+                           </unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">21</container>
+                              <container type="folder">2-13</container>
+                              <unittitle>Africa, Asia and Europe: Africa-Trinidad</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">21</container>
+                              <container type="folder">14-18</container>
+                              <unittitle>United States:Alaska- Pennsylvania</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">21</container>
+                              <container type="folder">19</container>
+                              <unittitle>Other,<unitdate> 1942-43, n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">21</container>
+                           <container type="folder">20</container>
+                           <unittitle>Clippings,<unitdate> 1942-43</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">21</container>
+                           <container type="folder">21</container>
+                           <unittitle>Reviews,<unitdate> 1944</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Column in Cosmopolitan, "Letters Home"</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">21</container>
+                              <container type="folder">22</container>
+                              <unittitle>Correspondence, galleys, clippings,<unitdate> 1944</unitdate>
+                              </unittitle>
+                           </did>
+                           <note>
+                              <p>
+                                 <ref target="list-serOV">[See also OVERSIZE MATERIALS]</ref>
+                              </p>
+                           </note>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Radio program: What's Your Idea?</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">21</container>
+                              <container type="folder">23</container>
+                              <unittitle>Correspondence and typescript,<unitdate> 1944</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Letters of Marcel Proust</title>,                       <unitdate>1949</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">22</container>
+                           <container type="folder">1</container>
+                           <unittitle>Correspondence and copyright information,<unitdate> 1947-49, 1977</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">22</container>
+                           <container type="folder">2</container>
+                           <unittitle>Fan mail,<unitdate> 1949-50</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">22</container>
+                           <container type="folder">3</container>
+                           <unittitle>Royalty statements,<unitdate> 1967-78</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">22</container>
+                           <container type="folder">4</container>
+                           <unittitle>Reviews from U.S. publications,<unitdate> 1949-50</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">22</container>
+                           <container type="folder">5</container>
+                           <unittitle>Reviews from British publications,<unitdate> 1950-51</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Research material</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">22</container>
+                              <container type="folder">6</container>
+                              <unittitle>Letters from Proust to Nahamas (photocopies), <unitdate>n.d. </unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">22</container>
+                              <container type="folder">7</container>
+                              <unittitle>Typescript, <title>Proust and the Double 'I' of Two Characters</title> by Andre du Bouchet, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Photographs</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">22</container>
+                              <container type="folder">8</container>
+                              <unittitle>Marcel Proust,<unitdate> 1890-1922</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">22</container>
+                              <container type="folder">9</container>
+                              <unittitle>Marcel Proust with family and friends, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">22</container>
+                              <container type="folder">10</container>
+                              <unittitle>Other people, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">22</container>
+                              <container type="folder">11-12</container>
+                              <unittitle>Copy negatives, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">22</container>
+                           <container type="folder">13</container>
+                           <unittitle>Related material,<unitdate> 1956, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>The Midst of Life</title>,                       <unitdate>1933</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">23</container>
+                           <container type="folder">1</container>
+                           <unittitle>Correspondence,<unitdate> 1933</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">23</container>
+                           <container type="folder">2-5</container>
+                           <unittitle>Fan mail,<unitdate> 1928-53</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">23</container>
+                           <container type="folder">6-7</container>
+                           <unittitle>Typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">23</container>
+                           <container type="folder">8</container>
+                           <unittitle>Serialized version, <title>Atlantic Monthly</title>, <unitdate>Jan-Apr, 1933</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">23</container>
+                           <container type="folder">9</container>
+                           <unittitle>Abridged version, <title>Reader's Digest</title>, <unitdate>Feb 1938</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">23</container>
+                           <container type="folder">10</container>
+                           <unittitle>Translation into French by Andre du Bouchet (incomplete), <unitdate>n.d. </unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">23</container>
+                           <container type="folder">11</container>
+                           <unittitle>Press releases and reviews,<unitdate> 1933</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">23</container>
+                           <container type="folder">12</container>
+                           <unittitle>Typescript, "background material," <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Olive, Cypress and Palm:  An Anthology of Love and Death</title>,                       <unitdate>1930</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">24</container>
+                           <container type="folder">1</container>
+                           <unittitle>Correspondence and royalty statement,<unitdate> 1929-32</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">24</container>
+                           <container type="folder">2</container>
+                           <unittitle>Reviews,<unitdate> 1930</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Other People's Letters: A Memoir</title>, <unitdate>1978</unitdate>
+                        </unittitle>
+                     </did>
+		     <c05>
+                        <did>
+                           <container type="box">24</container>
+                           <unittitle>Copy of reissued book,<unitdate> 2005</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">24</container>
+                           <container type="folder">3</container>
+                           <unittitle>Correspondence and contract,<unitdate> 1977-81</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="list-fanmail">
+                        <did>
+                           <container type="box">24</container>
+                           <container type="folder">4-5</container>
+                           <unittitle>Fan mail,<unitdate> 1978-84</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">24</container>
+                           <container type="folder">6</container>
+                           <unittitle>Royalty statements,<unitdate> 1978-84</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">24</container>
+                           <container type="folder">7</container>
+                           <unittitle>Research materials, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">24</container>
+                           <container type="folder">8-10</container>
+                           <unittitle>Typescript, <unitdate>Jun 1977</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">24</container>
+                           <container type="folder">11-13</container>
+                           <unittitle>Typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">25</container>
+                           <container type="folder">1</container>
+                           <unittitle>Typescript (incomplete), <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">25</container>
+                           <container type="folder">2</container>
+                           <unittitle>Photographs,<unitdate> 1890s, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">25</container>
+                           <container type="folder">3</container>
+                           <unittitle>Pre-publication correspondence and press releases,<unitdate> 1977-78</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">25</container>
+                           <container type="folder">4</container>
+                           <unittitle>Reviews from U.S. publications,<unitdate> 1978</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">25</container>
+                           <container type="folder">5</container>
+                           <unittitle>Reviews from British publications,<unitdate> 1978-79</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Articles</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Apollo</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">26</container>
+                           <container type="folder">1</container>
+                           <unittitle>"Letters of Edouard Manet to His Wife During the Siege of Paris,<unitdate> 1870-71</unitdate>": published version, Jun 1981</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">26</container>
+                              <container type="folder">2-3</container>
+                              <unittitle>Typescripts, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">26</container>
+                              <container type="folder">4</container>
+                              <unittitle>Illustrations, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">26</container>
+                              <container type="folder">5</container>
+                              <unittitle>Correspondence,<unitdate> 1980-81</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">6</container>
+                        <unittitle>
+                           <title>Atlantic Monthly</title>: "Harvard Calm and Henry Adams": published version and correspondence,<unitdate> 1920-21</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Boston Herald</title>: Series of articles on the trial of Francis A. Carroll and Paul Dwyer for the murder of Dr. and Mrs. James Littlefield in South Paris, Maine</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">26</container>
+                           <container type="folder">7</container>
+                           <unittitle>Notes, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">26</container>
+                           <container type="folder">8</container>
+                           <unittitle>Typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">26</container>
+                           <container type="folder">9</container>
+                           <unittitle>Clippings of articles by Mina Curtiss, <unitdate>Aug 1938</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">26</container>
+                           <container type="folder">10-11</container>
+                           <unittitle>Clippings of articles by Arthur Stratton and others,<unitdate>1938-39</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">26</container>
+                           <container type="folder">12</container>
+                           <unittitle>Correspondence,<unitdate> 1974</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+<c04>
+<did>
+<container type="box">26</container>
+<container type="folder">12a</container>
+<unittitle>"A Mother's Career": clipping,<unitdate> 27 Aug 1939</unitdate></unittitle>
+</did>
+</c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">13</container>
+                        <unittitle>
+                           <title>Center</title>: "Roma: Bizet's 'Souvenirs of Italy'": published version, <unitdate>Feb 1955</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">14</container>
+                        <unittitle>
+                           <title>The Cornhill</title>: "Celeste": published version and typescript, <unitdate>Spring 1950, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">15</container>
+                        <unittitle>
+                           <title>German Encyclopedia of Music</title>: "Georges Bizet": typescript, <unitdate>ca. 1966</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">16</container>
+                        <unittitle>
+                           <title>Harper's Bazaar</title>: "Three Women": published version, <unitdate>Apr 1938</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">17</container>
+                        <unittitle>
+                           <title>High Fidelity</title>: "The Ill-Starred Debut of the Girl From Arles": published version, <unitdate>Sep 1958</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>History Today</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">26</container>
+                           <container type="folder">18</container>
+                           <unittitle>Correspondence,<unitdate> 1968-78</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">26</container>
+                           <container type="folder">19</container>
+                           <unittitle>Typescript, "The Empress Anna Ivanova's Ice Palace, <unitdate>Jan 1973</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">20</container>
+                        <unittitle>
+                           <title>The Hound and Horn</title>: "No Boswell": typescript,<unitdate> 1931</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">26</container>
+                        <container type="folder">21</container>
+                        <unittitle>
+                           <title>Mademoiselle</title>: Published version and correspondence,"The World We Wanted," <unitdate>Aug 1945</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Massachusetts Review</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <unittitle>"Chosen?"</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">26</container>
+                              <container type="folder">22</container>
+                              <unittitle>Correspondence,<unitdate> 1978-83</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">26</container>
+                              <container type="folder">23</container>
+                              <unittitle>Published version and typescript, <unitdate>Summer 1983, n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">26</container>
+                              <container type="folder">24</container>
+                              <unittitle>Typescript, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>"Some American Negroes in 19th Century Russia,"</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">26</container>
+                              <container type="folder">25</container>
+                              <unittitle>Published version, <unitdate>Spring 1968</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">26</container>
+                              <container type="folder">26-30</container>
+                              <unittitle>Typescripts, n.d</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>"Manet Caricatures: Olympia,"                          <unitdate>1966</unitdate>
+                           </unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">27</container>
+                              <container type="folder">1</container>
+                              <unittitle>Correspondence,<unitdate> 1959-81</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">27</container>
+                              <container type="folder">2</container>
+                              <unittitle>Published versions,<unitdate> 1966</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">27</container>
+                              <container type="folder">3</container>
+                              <unittitle>Outline for proposed book, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">27</container>
+                              <container type="folder">4</container>
+                              <unittitle>Typescript, <title>L'Exposition d'Edouard Manet</title> by G. Randon (incomplete?), <unitdate>n.d., </unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">27</container>
+                              <container type="folder">5-6</container>
+                              <unittitle>Art work, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Musical Quarterly</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">7</container>
+                           <unittitle>"Unpublished Letters by Georges Bizet": published version,<unitdate>Jul 1950</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">8</container>
+                           <unittitle>"Fromental Halevy": published version, <unitdate>Apr 1953</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">9</container>
+                           <unittitle>"Gounod Before Faust": published version, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>The Nation</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">10</container>
+                           <unittitle>"Cocktails": published version, <unitdate>Jan 1925</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>New York Times, Op-Ed</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">11</container>
+                           <unittitle>"Women's Wasting Lives": published version, correspondence, clippings, <unitdate>May 1978</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">12</container>
+                        <unittitle>
+                           <title>Seven Arts Chronicle</title>: "One of the Little Foxes": published version, correspondence, draft and notes,<unitdate> 1917</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Vogue</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">13</container>
+                           <unittitle>"A Letter at Last": published version, <unitdate>Jan 1945</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <unittitle>"The Midst of Life: The Curious Charm, The Free Satisfactions of Middle Age": published version, <unitdate>Oct 1945</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Book reviews</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">14</container>
+                        <unittitle>
+                           <title>The Atlantic Monthly</title>,<unitdate> 1933</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">15</container>
+                        <unittitle>
+                           <title>The Boston Herald</title>,<unitdate> 1945</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">16</container>
+                        <unittitle>
+                           <title>The Living Age</title>,<unitdate> 1936-37</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">17</container>
+                        <unittitle>
+                           <title>The Nation</title>,<unitdate> 1925-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Washington Post</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">18</container>
+                           <unittitle>Correspondence,<unitdate> 1980-81, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <unittitle>Published versions and typescripts,<unitdate> 1981-82</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Translations by Mina K. Curtiss</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>My Friend Degas</title> by Daniel Halevy,                       <unitdate>1964</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">19</container>
+                           <unittitle>Typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">20</container>
+                           <unittitle>Research material, photographs, and reviews,<unitdate> 1963-66, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">21</container>
+                        <unittitle>"Le Chat" by Jean-Louis Hue: draft, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">27</container>
+                        <container type="folder">22</container>
+                        <unittitle>"Letters to an Amazon," author unknown: draft, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Articles</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">23</container>
+                           <unittitle>
+                              <title>Art News</title>, <title>Le Figaro Litteraire</title>, and <title>Vogue</title>: "Chardin, or the Essence of Things" by Marcel Proust: (published versions in French and English, and typescript),<unitdate> 1964, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">24</container>
+                           <unittitle>
+                              <title>Mademoiselle</title>: "Names and Places" by Marcel Proust:(published version in English), <unitdate>Oct 1956</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">27</container>
+                           <container type="folder">25</container>
+                           <unittitle>
+                              <title>The Nation</title>: "Love" by Tibor Dery: (published versions in French and English), <unitdate>Feb 1967, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>
+                              <title>The Virginia Quarterly</title>: "Letters From China" by Alexis Leger (Saint-John Perse)</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">27</container>
+                              <container type="folder">26</container>
+                              <unittitle>Published version, Autumn<unitdate> 1973</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">27</container>
+                              <container type="folder">27</container>
+                              <unittitle>Correspondence,<unitdate> 1973</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">27</container>
+                              <container type="folder">28</container>
+                              <unittitle>Typescript and fragments,<unitdate> 1973, n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Unpublished works</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">28</container>
+                     <container type="folder">1</container>
+                     <unittitle>M.A. Thesis: "Henry Adams and Failure": typescript, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Books</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>As For Man</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">2</container>
+                           <unittitle>Correspondence,<unitdate> 1934-36</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">3-5</container>
+                           <unittitle>Typescript, <unitdate>circa 1935</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>The Past and I</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">6</container>
+                           <unittitle>Outline, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">7-8</container>
+                           <unittitle>Original typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">9</container>
+                           <unittitle>Master typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">10</container>
+                           <unittitle>Master typescript, carbon, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">11</container>
+                           <unittitle>Master typescript, second carbon (incomplete), <unitdate>n.d. </unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">12</container>
+                           <unittitle>Typescript (incomplete), <unitdate>n.d. </unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">28</container>
+                           <container type="folder">13</container>
+                           <unittitle>Typescript, <unitdate>n.d., </unitdate>edited by George Kirstein (incomplete)</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Slices of Life</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">1</container>
+                           <unittitle>Draft, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">2-3</container>
+                           <unittitle>Typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Research materials</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">29</container>
+                              <container type="folder">4-5</container>
+                              <unittitle>Harriet Lane Levy, correspondence, clipping, and typescripts,<unitdate> 1974, n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Platon</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">6</container>
+                           <unittitle>Original typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">7</container>
+                           <unittitle>Original typescript, carbon, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">8</container>
+                           <unittitle>Revised typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">9</container>
+                           <unittitle>Revised typescript (as orginally included in Slices of Life master typescript),<unitdate> 1985</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">29</container>
+                           <container type="folder">10</container>
+                           <unittitle>Revised typescript (as orginally included in Slices of Life master typescript), photocopy,<unitdate> 1985</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">30</container>
+                           <container type="folder">1</container>
+                           <unittitle>Revised typescript,<unitdate> 1985</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">30</container>
+                           <container type="folder">2-3</container>
+                           <unittitle>Typescript, cut versions, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">30</container>
+                           <container type="folder">4-14</container>
+                           <unittitle>Research notes, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title>Winter Letters</title>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">31</container>
+                           <container type="folder">1</container>
+                           <unittitle>Correspondence,<unitdate> 1979-81</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">31</container>
+                           <container type="folder">2-3</container>
+                           <unittitle>Draft manuscript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">31</container>
+                           <container type="folder">4</container>
+                           <unittitle>Original typescript, <unitdate>n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">31</container>
+                           <container type="folder">5</container>
+                           <unittitle>Master typescript (incomplete?), <unitdate>n.d. </unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous manuscripts and typescripts</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">6</container>
+                        <unittitle>"Alamogordo Before the Bomb," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">7</container>
+                        <unittitle>"Another Day," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">8</container>
+                        <unittitle>"California Episode," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">9</container>
+                        <unittitle>"Campanula Pyramidalis," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">10</container>
+                        <unittitle>"The Desert" and "Desert Spring," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">11</container>
+                        <unittitle>"Exercise in Narcissim," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">12</container>
+                        <unittitle>"The Frontier, Bar," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">13</container>
+                        <unittitle>"Giants and Pygmies," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">14</container>
+                        <unittitle>"Lindbergh: A Personal Portrait," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">15</container>
+                        <unittitle>"Military Intelligence,<unitdate> 1918 </unitdate>Style," n.d.</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">16</container>
+                        <unittitle>"A Monument," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">17</container>
+                        <unittitle>"My [illegible] and Hopes," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">18</container>
+                        <unittitle>"Natives," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">19</container>
+                        <unittitle>"New Mexico," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">20</container>
+                        <unittitle>"Period Piece," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">21</container>
+                        <unittitle>"These Moderns," <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">22</container>
+                        <unittitle>Untitled, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">31</container>
+                        <container type="folder">23</container>
+                        <unittitle>Fragments, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence with publishers and literary agents</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Al Hart (Fox Chase Agency)</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">32</container>
+                        <container type="folder">1</container>
+                        <unittitle>Re: <title>Other People's Letters</title>,<unitdate> 1974-84, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">32</container>
+                        <container type="folder">2</container>
+                        <unittitle>Re: <title>Slices of Life</title>,<unitdate> 1979-85</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">3</container>
+                     <unittitle>Eakins Press, Houghton Mifflin and Random House,<unitdate> 1978-81</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Research</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">4-9</container>
+                     <unittitle>Correspondence with Liliane Yacoel Ziegel,<unitdate> 1947-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">10</container>
+                     <unittitle>Correspondence pertaining to Liliane Yacoel Ziegel,<unitdate> 1984-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">11</container>
+                     <unittitle>Unidentified research material, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Writings by others</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">12</container>
+                     <unittitle>Lincoln Kirstein, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">13</container>
+                     <unittitle>Lewis, Nell Battle, "The Follies of 1918 or How Doth the Busy Bolshevik (An Agitation in Two Spasms)," typescript, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">14</container>
+                     <unittitle>Miscellaneous,<unitdate> 1937-77, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>SERIES VI. SUBJECT FILES</unittitle>
+            </did>
+
+            <c02>
+               <did>
+                  <unittitle>Saint-John Perse (Alexis Leger)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Writings</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">33</container>
+                        <container type="folder">1</container>
+                        <unittitle>"Narrow Are the Vessels,"<unitdate> 1937</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">33</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Seamarks,"<unitdate> 1937</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">33</container>
+                        <container type="folder">3</container>
+                        <unittitle>"A Selection of Works for Understanding World Affairs Since 1914", <unitdate>1943</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">4</container>
+                     <unittitle>Clippings,<unitdate> 1957-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">5</container>
+                     <unittitle>Murder cases: Elliott Speer murder, clippings,<unitdate> 1937</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="map-case">Flat file</container>
+                  <unittitle>
+                     <title>A Forgotten Empress: Anna Ivanovich and Her Era, 1730-1740</title>, photographs, and plates</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat file</container>
+                  <unittitle>
+                     <title>Letters Home</title>, column in <title>Cosmopolitan</title>, "Letters Home," galley </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat file</container>
+                  <unittitle>
+                     <title>Other People's Letters</title>, review from <title>Danbury New Times</title>, <unitdate>23 May 1978, </unitdate>containing photograph of Mina Curtiss</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat file</container>
+                  <unittitle>
+                     <title>Letters of Marcel Proust</title>, fold-out with photographs and letter</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat file</container>
+                  <unittitle>2 photographs of Proton, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat file</container>
+                  <unittitle>Certificate, Chevalier de la Legion d'Honneur <unitdate>24 Feb 1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+      <dsc type="in-depth" id="app1">
+         <head>Appendix</head>
+         <c01>
+            <did>
+               <unittitle>16" Disc Recordings</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Answering Australia</title>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle># 5 (2 identical discs; 1 disc is broken): <unitdate>30 Jan 1943 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>#? (1 disc): <unitdate>26 April 1943 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>Answering You</title>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>Scripts to <title>Answering You</title> #s 4, 5 and possibly #2 are located in Box 17, Folder 8.</p>
+               </note>
+               <note>
+                  <p>Script to <title>Answering You</title> #8 is located in Box 17 Folder 9</p>
+               </note>
+               <c03>
+                  <did>
+                     <unittitle>#2 (1 disc, Part 2; Part 1 is missing): <unitdate>16 Nov 1943 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>#4 (1 broken disc, Part 2; Part 1 is missing): <unitdate>10 Jan 1943 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>#5 (2 discs; Parts 1 &amp; 3): <unitdate>30 Jan 1943 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>#8 (1 disc, Part 2; Part 1 is missing): <unitdate>21 Apr 1943 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>#9 (3 discs, Parts 1-3): <unitdate>3 May 1943 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>#9 (1 disc, Part 2; Part 1 is missing): <unitdate>4 May 1943 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

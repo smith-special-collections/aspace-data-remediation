@@ -1,0 +1,592 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::manosca//TEXT us::manosca::manosca37.xml//EN" countrycode="us" mainagencycode="manosca">manosca37</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Senda Berenson Papers, 1897-1985
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author>Finding aid prepared by manosca.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>Smith College Archives</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date>© 2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-03</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>manosca37 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher>Smith College Archives
+        <lb/>
+            <extptr actuate="onload" show="embed" entityref="manoscalogo"/>
+         </publisher>
+         <titleproper>Senda Berenson Papers, 1897-1985
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>RG 42
+      </num>
+         <list/>
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>© 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="recordgrp">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Berenson, Senda, 1868-1954. </persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Senda Berenson Papers,
+      <unitdate encodinganalog="245$f" type="inclusive">1897-1985</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">(bulk 1897-1915)</unitdate>
+         </unittitle>
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">2 boxes</extent>
+            <extent encodinganalog="300$a">(.75 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Smith College Archives</corpname>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Director of the Gymnasium and Instructor of Physical Culture, introduced the first rules of women's basketball and organized the first women's college basketball game. Contains biographical articles, news-clippings, notebooks, correspondence, lecture notes, photographs, and published writings.
+      </abstract>
+         <langmaterial label="Language of Material:">
+            <language langcode="eng">English</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p>Senda Berenson was born Senda Valvrojenski, March 19, 1868, in Vilna, Lithuania.  Berenson trained at the Boston Normal School of Gymnastics and was hired at Smith in January 1892, one month after the game of basketball had been invented by James Naismith at the International YMCA Training School in nearby Springfield, Mass.  At Smith, Berenson instituted an effective program of Swedish gymnastics, which was supplemented by organized athletic contests in sports such as volleyball, fencing, field hockey and basketball, all intended to build character in her female students.  She believed in strict and careful supervision of all activities and in offering "the most for the most," i.e., including young women of all skill levels in the program rather than devoting her time to a small group of highly skilled students.  This philosophy resulted in a policy at Smith College to favor a strong intramural program over interscholastic athletic competition.  Berenson extended her missionary-like work in popularizing Swedish gymnastics beyond Smith: first with students and faculty at Northampton High School, and later with female patients at the Northampton Lunatic Hospital.</p>
+         <p>Shortly after her appointment at Smith, Berenson read about the new sport of basketball and visited with Naismith to learn more about it. On March 22, 1893, she organized the first women's collegiate basketball game when her Smith freshmen and sophomores played against one another. Influenced by the thinking of her time about women's physical limitations, she soon adapted the rules to avoid the roughness of the men's game.  Berenson's rules were first published in 1899. Two years later, she became editor of A. G. Spalding's first <title render="italic">Women's Basketball Guide</title>, which further spread her version of basketball for women. In 1985 Berenson and Margaret Wade were the first two women elected to the Basketball Hall of Fame.</p>
+         <p>In 1911, after marrying Herbert Vaughan Abbott, a professor of English at Smith, Berenson resigned from her position at the College. She remained as editor of the <title render="italic">Women's Basketball Guide</title> and as chair of the U.S. Women's Basketball Committee for six years.  Her husband died in 1929.  In 1934 she moved to Santa Barbara, Calif. to live with her sister.  Berenson died in February 16, 1954.
+    </p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Senda Berenson Papers cover 1897-1985.  The majority of the materials are from 1897-1915.  The items include biographical articles, news-clippings, notebooks, correspondence, lecture notes, photographs, and published writings.  Notable people with whom Berenson corresponded include L. Clark Seelye and Dorothy Ainsworth, as well as several Smith graduates.  Of special importance are Berenson's lecture notes and speeches, which provide insight into her pioneering work on athletics for women, especially basketball.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into six series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biography</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence, Incoming</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Correspondence, Outgoing</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Lecture Notes</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Photographs</ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI. Writings</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The records are open for research according to the regulations of the Smith College Archives without any additional restrictions.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Single photocopies may be made for research purposes.  Permission to publish material from the Senda Berenson Papers must be requested from the Smith College Archives. Copyright for official Smith correspondence and documents is owned by the Smith College Archives.  Provenance and copyright ownership of personal materials is unknown and researchers are responsible for determining any question of copyright.
+            </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Senda Berenson Papers, Box #, Smith College Archives.</p>
+         </prefercite>
+<descgrp>
+		<head>History of the Collection</head>
+		<acqinfo id="admin-acqinfo">
+			<p>The Senda Berenson Papers were donated over a period of time to the Smith College Archives from a variety of sources.</p> 
+		</acqinfo>
+	</descgrp>
+         <altformavail encodinganalog="530" type="digital" id="admin-altform">
+            <head>Additional Formats</head>
+            <p>Portions of this collection have been digitized and are available on the Web as part of the <extref href="http://clio.fivecolleges.edu/smith/berenson/">Five College Archives Digital Access Project</extref>.
+        </p>
+         </altformavail>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         <persname encodinganalog="600" source="lcnaf">Berenson, Senda, 1868-1954.</persname>
+         <corpname encodinganalog="610" source="lcsh">Smith College--Basketball.</corpname>
+         <corpname encodinganalog="610" source="lcsh">Smith College--Faculty.</corpname>
+         <corpname encodinganalog="610" source="lcsh">Smith College--Sports.</corpname>
+         <subject encodinganalog="650" source="lcsh">Basketball--United States--History--Sources.</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Materials</head>
+            <list>
+               <item>
+               <extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca167_main.html">80. Athletics-Basketball</extref></item>
+               <item>Agnes Stillman (Smith 1971). "Senda Berenson Abbott: Her Life and Contributions to Smith College and to the Physical Education Profession," thesis for Master of Science degree. May 1971</item>
+               <item>Dorothy Sears Ainsworth (Smith 1916). "Pioneer in sports for women: Senda Berenson Abbott, 1868-1954," <title render="italic">Smith Alumnae Quarterly</title>, May 1954, p. 139.</item>
+               <item>Senda Berenson. "Exercise cards," <title render="italic">Smith College Monthly</title>, October 1899, p. 48.</item>
+               <item>Senda Berenson. "Health and Fresh Air," <title render="italic">Smith College Monthly</title>, October 1901, pp. 62-64.</item>
+            </list>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I:  Biography</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">1</container>
+                  <unittitle>General:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Edith Naomi Hill. "Senda Berenson, Director of Physical Education at Smith College 1892-1911," <title>Research Quarterly</title>, <title>Pioneer Women in Physical Education</title>, pp. 658-65
+                  <unitdate>1941, Oct</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Leather-bound notebook of poems and songs
+                  <unitdate>n. d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>News-clippings concerning basketball and theater
+                  <unitdate>1893-1967, n. d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">2</container>
+                  <unittitle>Basketball Hall of Fame:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>News-clipping and program of enshrinement dinner
+                  <unitdate>1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence re-induction
+                  <unitdate>1970-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">3</container>
+                  <unittitle>News-clippings &amp; Physical Training:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Elizabeth Paine.  "Physical Training at Women's Colleges - Smith," <title>The Illustrated Sporting News</title>, pp. 3-4, 17
+                  <unitdate>1904, June 4</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>"College Girl from West Better Athlete than Eastern Sister"
+                  <unitdate>1907, Feb 10</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>"A Pioneer in Swedish Gymnastics in the U.S.A.," <title>Husmodern</title> (with transcript translation)
+                  <unitdate>1922</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">4</container>
+                  <unittitle>Capsule biography for thesis by Agnes Stillman (Smith '71)
+               <unitdate>1971, May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II:  Correspondence, Incoming</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">5</container>
+                  <unittitle>Baldwin, Ruth (Bowles)
+               <unitdate>n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">6</container>
+                  <unittitle>Binyon, Laurence
+               <unitdate>n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">7</container>
+                  <unittitle>Bridges, Robert
+               <unitdate>1900</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">8</container>
+                  <unittitle>Brooks, Phillips
+               <unitdate>n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">9</container>
+                  <unittitle>Burton, Marion LeRoy
+               <unitdate>1911</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">10</container>
+                  <unittitle>Campbello, Salone di
+               <unitdate>n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">10a</container>
+                  <unittitle>Carmen, Bliss
+               <unitdate>n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">11</container>
+                  <unittitle>Gardner, Isabella
+               <unitdate>1911, May 28</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">12</container>
+                  <unittitle>Hill, J. R.
+               <unitdate>1904, Oct 5</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">13</container>
+                  <unittitle>Hitchcock, E.
+               <unitdate>1908, n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">14</container>
+                  <unittitle>Holden, Frances Steele (Smith '19)
+               <unitdate>1934, Jun 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">15</container>
+                  <unittitle>Marks, Josephine Peabody
+               <unitdate>1910, Apr 10</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">16</container>
+                  <unittitle>St. Louis Exposition
+               <unitdate>1904, Dec 3</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">17</container>
+                  <unittitle>Seelye, L. Clark
+               <unitdate>1897-1911</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">18</container>
+                  <unittitle>Thompson, Helen E.
+               <unitdate>1919, Jun 11</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III:  Correspondence, Outgoing</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">19</container>
+                  <unittitle>Ainsworth, Dorothy Sears
+               <unitdate>1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">20</container>
+                  <unittitle>Grierson, Margaret (Storrs) (Smith '22)
+               <unitdate>1947-53</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">21</container>
+                  <unittitle>Miss Mitchell
+               <unitdate>1897, Mar 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">22</container>
+                  <unittitle>Seamans, Dorothy (Smith '14)
+               <unitdate>n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">23</container>
+                  <unittitle>Sleeper, Henry Dike
+               <unitdate>n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">24</container>
+                  <unittitle>Miss Spencer
+               <unitdate>1911, Feb 15</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">25</container>
+                  <unittitle>True, Moses
+               <unitdate>1906, Dec 11</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV:  Lecture Notes</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">26</container>
+                  <unittitle>Basketball rules, posture, self control, and health
+               <unitdate>1905-06, n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>Series V:  Photographs</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">27</container>
+                  <unittitle>Face
+               <unitdate>1897, n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">28</container>
+                  <unittitle>Profile
+               <unitdate>1897, n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">29</container>
+                  <unittitle>Groups
+               <unitdate>1897, n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">30</container>
+                  <unittitle>Dressed in Gym Suit
+               <unitdate>1892-95, n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">679</container>
+                  <container type="folder">31</container>
+                  <unittitle>Standing
+               <unitdate>1897-1950's,n. d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>Series VI:  Writings</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">680</container>
+                  <container type="folder">32</container>
+                  <unittitle>Senda Berenson.  "The Significance of Basketball for Women," <title>Basketball for Women</title>, edited by Senda Berenson, pp. 31-46
+               <unitdate>1903</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">680</container>
+                  <container type="folder">33</container>
+                  <unittitle>
+                     <title>Spalding's Official Basket Ball Guide for Women</title>, edited by Senda Berenson
+               <unitdate>1913</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">680</container>
+                  <container type="folder">34</container>
+                  <unittitle>Speeches:
+               <unitdate>1915, n. d.</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Basketball for Women, notes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Necessity of Sleep, notes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Physical Training, text</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Working Girls, notes</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">680</container>
+                  <container type="folder">35</container>
+                  <unittitle>Speech notes, typed copy</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

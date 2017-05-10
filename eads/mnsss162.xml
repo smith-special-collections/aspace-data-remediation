@@ -1,0 +1,759 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss162.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss162</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Candace Thurber Stevenson Papers, 1916-1965</titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-13</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss162 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Candace Thurber Stevenson Papers, 1916-1965
+
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 155
+      </num>
+         <date>Revised 2002
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main-overview">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Stevenson, Candace Thurber   </persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Candace Thurber Stevenson Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1916-65</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 155</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">7 boxes</extent>
+            <extent encodinganalog="300$a">(2.5 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Poet and teacher. The papers include manuscripts of poems and stories; correspondence; materials related to writers' conferences and workshops; and Stevenson's book, <title>First the Blade</title>. Correspondence with editors, literary agents, readers, colleagues and friends reveal her personal life and career as a poet and writer.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6173.jpg" altrender="right">
+<daodesc><p>Cover design draft for Stevenson's <lb /><title render="italic">First the Blade</title>   ,undated</p></daodesc></dao> 
+         <p> Candace Thurber was born in Brooklyn, NY in 1883.  Her mother supported the family by taking in boarders.  She graduated from the Packard Institute,  received her A.B. from  Smith College in 1904, and her M.A. from Columbia University.  After completing her education she taught English in a private school and  co-owned a children's bookstore in New York City.  In 1912 she married  Thomas Kennedy Stevenson,  They had one daughter, Caroline.  During her adult years Candace Stevenson lived in Missouri, New York City, and Vermont.  Many of her poems appeared on the editorial page of the New York Times.   She submitted many of her stories to magazines but endured much rejection.  She published a collection of her poems, <title render="italic">First the Blade</title>, in 1952.  Stevenson died July 30, 1968.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The papers include biographical notes, manuscripts of poems and stories, correspondence, materials related to writers' conferences and workshops, and Stevenson's book, First the Blade.   Correspondence with editors, literary agents, readers, colleagues and friends reveal her personal life and career as a poet and writer.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into three series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical Materials</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Conferences and Organizations</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III.  Writings</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner of this collection is unknown. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Candace Thurber Stevenson Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Candace Thurber Stevenson's papers were donated to the Sophia Smith Collection by her daughter, Caroline Pullman in 1969.   </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Finding aid revised in 2002 by Gayla Spaulding, intern. </p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj-subheads">
+         <head>Search Terms</head>
+         
+         <subject encodinganalog="650" source="lcsh">Publishers and publishing--United States--History--Sources</subject>
+         <persname encodinganalog="600" source="lcnaf">Stevenson, Candace Thurber</persname>
+         <subject encodinganalog="650" source="lcsh">Poets, American--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women authors, American --20th century--Sources</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Related material can be found in the Smith College Archives.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="contlist">
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">1</container>
+               <unittitle>Contents</unittitle>
+            </did>
+         </c01>
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Biographical sketch by her daughter, Caroline Pullman, <unitdate>1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>Schaffner, John (literary agent) re: <title>Singing Rock</title>, <unitdate>1953-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>with publishers in regard to poetry, <unitdate>1920s-60s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>with publishers in regard to O'Brien's, <title>Best Short Stories</title>, <unitdate>1941</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>with publishers in regard to poetry, <unitdate>1916-43, 1952-54</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Contract and royalty reports for <title>First the Blade</title>, <unitdate>1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CONFERENCES AND ORGANIZATIONS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1</container>
+                  <unittitle>Antioch Writer's Conference, <unitdate>1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">2</container>
+                  <unittitle>Bread Loaf Writer's Conference, <unitdate>1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">3</container>
+                  <unittitle>Women Poets (a New York organization to which she belonged), <unitdate>1956</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4</container>
+                  <unittitle>Smith College class of 1904 in 1944 (includes correspondence from her class members), <unitdate>1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. WRITINGS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Poems</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">1</container>
+                     <unittitle>A-O by title (printed), <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">2-15</container>
+                     <unittitle>A-O (transcripts), <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">1</container>
+                     <unittitle>P-Z (printed), <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">2-8</container>
+                     <unittitle>P-Z (transcripts), <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">9-10</container>
+                     <unittitle>Harold Vinali poetry class, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Articles and drafts</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">1</container>
+                     <unittitle>"Baggage and Excess Baggage," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">2</container>
+                     <unittitle>"Contest Etiquette," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">3</container>
+                     <unittitle>"The County of Westchester," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">4</container>
+                     <unittitle>"Four-year Plan for Wilkie Voters" (includes criticisms), <unitdate>1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">5</container>
+                     <unittitle>"Middle-sized Plan," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">6</container>
+                     <unittitle>"More Reflections on the Lazy Thirties," <unitdate>1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">7</container>
+                     <unittitle>"New Versions of Teaching Posture" (two versions and titles), <unitdate>1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">8</container>
+                     <unittitle>"Portrait of a School Election," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">9</container>
+                     <unittitle>"Two Nuns out of Convents," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">10</container>
+                     <unittitle>"We, the Republicans," <unitdate>1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">11</container>
+                     <unittitle>"Your Money and Your Life" (includes correspondence), <unitdate>1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">12</container>
+                     <unittitle>"Service Entrance" (first draft, includes criticisms), <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">13</container>
+                     <unittitle>"Stuyvesant Court" (novel), <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Short stories</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">14</container>
+                     <unittitle>"Black Magic," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">15</container>
+                     <unittitle>"Board Lore," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">16</container>
+                     <unittitle>"Borderline," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">17</container>
+                     <unittitle>"The Christmas Gift," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">18</container>
+                     <unittitle>"The Crystal Ball," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">19</container>
+                     <unittitle>"Gateway to the Arena," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">20</container>
+                     <unittitle>"Georgette, Debutante," <unitdate>1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">21</container>
+                     <unittitle>"Good Egg, Bad Egg" (includes criticism), <unitdate>1920</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">22</container>
+                     <unittitle>"The Grab Bag," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">23</container>
+                     <unittitle>"A Grasshopper Cambol," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">24</container>
+                     <unittitle>"Green Light" (two versions and titles), <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">25</container>
+                     <unittitle>"Heaven Knows Why," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">26</container>
+                     <unittitle>"Hyena," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">1</container>
+                     <unittitle>"The Invaders" (various versions, includes criticisms), <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">2</container>
+                     <unittitle>"It Was Algernon," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">3</container>
+                     <unittitle>"The Kilmeny Look" (various version, includes criticisms), <unitdate>1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">4</container>
+                     <unittitle>"A Legacy from Aunt Levinia" (various versions with criticisms), <unitdate>1929-46</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">5</container>
+                     <unittitle>"May Day," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">6</container>
+                     <unittitle>"Offshore Wind," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">7</container>
+                     <unittitle>"Out of the Fog," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">8</container>
+                     <unittitle>"The Pewter Teapot," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">9</container>
+                     <unittitle>"The Private Life of Corey Ames," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">10</container>
+                     <unittitle>"Pumpilia's Broom," <unitdate>1951-52</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">11</container>
+                     <unittitle>"The Return," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">12</container>
+                     <unittitle>"Shades of Sherwood," <unitdate>1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">13</container>
+                     <unittitle>"A Sign for Miss Kitty," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">14</container>
+                     <unittitle>"The Singing Rock," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">15</container>
+                     <unittitle>"Spring Again," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">16</container>
+                     <unittitle>"Spring Holiday," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">17</container>
+                     <unittitle>"Sugar Loaf Scannel," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">18</container>
+                     <unittitle>"Top Secret," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">19</container>
+                     <unittitle>"Tranquil Souls," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">20</container>
+                     <unittitle>"Vendetta," <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title>First The Blade</title>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">1</container>
+                     <unittitle>Typescript, <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">2</container>
+                     <unittitle>Proof sheets, <unitdate>1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">3</container>
+                     <unittitle>Book jackets, <unitdate>1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">4</container>
+                     <unittitle>Publicity, <unitdate>1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">5</container>
+                     <unittitle>Financial statements and correspondence with publisher, E.P. Dutton, <unitdate>1952-55</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">6</container>
+                     <unittitle>Correspondence with publishers other than Dutton, <unitdate>1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">7</container>
+                     <unittitle>Permission to reprint already published poems, <unitdate>1949-50</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">8</container>
+                     <unittitle>Reviews of <title>First the Blade</title> and correspondence about reviews, <unitdate>1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">9</container>
+                     <unittitle>Congratulatory notes, <unitdate>1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

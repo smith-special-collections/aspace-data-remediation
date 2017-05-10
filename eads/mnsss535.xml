@@ -1,0 +1,182 @@
+<ead>
+  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
+repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
+relatedencoding="MARC21">
+
+<!-- Enter EAD filename before exporting -->
+  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss535.xml//EN" countrycode="us"
+mainagencycode="mnsss">mnsss535</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Rhonda Copelon Papers, 1971-2006</titleproper>
+        <subtitle>Finding Aid</subtitle>
+     </titlestmt>
+     <publicationstmt>
+        <publisher encodinganalog="260$b">Sophia Smith Collection</publisher>
+        <address>
+          <addressline>Smith College</addressline>
+          <addressline>Northampton, MA</addressline>
+        </address>
+         <date encodinganalog="260$c" normal="2014">2014</date>
+         <p>Sophia Smith Collection. All rights reserved.</p>
+       </publicationstmt>
+     </filedesc>
+     <profiledesc>
+<creation encodinganalog="500">Finding aid exported into EAD from InMagic DB/Textworks 13.0.
+Encoded by Margaret Jessup.
+         <date normal="yyyy-mm-dd">January 27, 2014</date>
+    </creation>
+    <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did id="main">
+       <head>Collection Overview</head>
+<!-- Edit Orig label:
+corpname  encodinganalog="110"
+famname encodinganalog="100 3"
+Del Orig for Subject Colls and OH colls  -->
+        <origination label="Creator:">
+           <persname encodinganalog="100" source="lcnaf">Copelon, Rhonda</persname>
+       </origination>
+       <unittitle label="Title:" encodinganalog="245$a">Rhonda Copelon Papers</unittitle><unitdate
+type="inclusive" label="Dates:">1971-2006</unitdate>
+      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
+repositorycode="mnsss">MS 693</unitid>
+<physdesc label="Quantity:">
+        <extent encodinganalog="300$a">15 boxes</extent>
+        <extent encodinganalog="300$a">(15 linear ft.) </extent>
+</physdesc>
+<!-- Encode additional languages with lang clip -->
+<langmaterial label="Language of Material:" encodinganalog="546">
+     <language langcode="eng">English</language>
+</langmaterial>
+        <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+           <!-- MRJ Edit as needed-->
+           <abstract label="Abstract:" encodinganalog="520$a">
+            Lawyer. Papers include Legal documents and research, correspondence, teaching
+materials, published writings, panel presentations, notes, and audio and video recordings
+documenting Copelon's legal activism and teaching. Major topics include reproductive rights,
+domestic violence, international women's rights, AIDS legislation.  Audio recordings include her
+course lectures for Women and Law, Law and Family, and Constitutional Law.   
+        [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith
+Collection if you would like one sent to you.]
+         </abstract>
+        <!-- OR   [NOTE: There is no contents list for this finding aid.  Contact the Sophia Smith
+Collection for more information about this collection.] -->
+</did>
+
+ <!--  Add paragraph marks to text -->
+<bioghist id="bioghist">
+       <head>Biographical Note</head>
+     <p>Rhonda Copelon was born in New Haven, the daughter of Herman and Katherine Copelon.  She
+graduated from Bryn Mawr College in 1966 and earned her law degree at Yale, graduating in 1970.
+She worked as an attorney with the Center for Constitutional Rights (CCR) for a dozen years,
+particularly regarding cases involving reproductive rights.  She successfully defended the right of
+African American unwed mothers to work as teacher's aides in Mississippi but lost in the challenge
+to the Hyde Amendment which cut Medicaid funding for abortions. After leaving the CCR in 1983, she
+would remain a board member the rest of her life. She was also a founding board member of the
+National Economic and Social Initiative, an Advisory Board member of Human Rights Watch, Women's
+Rights Watch, and Legal Advisor to and founder of Women's Caucus for Gender Justice.  By the early
+1980s, Copelon had come to realize  the importance of establishing international rights as a way of
+protecting women's rights.  She joined the faculty of the CUNY Law School at Queens College when it
+opened in 1983 and  co-founded the International Women's Human Rights Clinic there in 1992.  She
+would lead the fight, assisted by her captivated students, in  establishing rape during war as a
+crime of genocide and torture.  She filed countless amicus briefs in cases heard by the
+International Criminal Tribunals for the former Yugoslavia and Rwanda and published widely on the
+need to treat rape during armed conflicts as a war crime.</p>
+
+<p>After a four year fight against ovarian cancer, Rhonda Copelon died at her home in Manhattan.  As
+her long-time colleague and friend, Peter Weiss, wrote in "The Nation" (5/31/10) after her death,
+Copelon "was the warmest of friends to her large entourage and the steeliest adversary to
+establishmentarians who did not recognize basic human rights.... She accomplished the impossible:
+she made justice look easy."</p>
+</bioghist>
+ <!--  Add paragraph marks to text -->
+<scopecontent id="scope">
+      <head>Scope and Contents of the Collection</head>
+    <p> Papers include Legal documents and research, correspondence, teaching materials, published
+writings, panel presentations, notes, and audio and video recordings documenting Copelon's legal
+activism and teaching. Major topics include reproductive rights, domestic violence, international
+women's rights, AIDS legislation.  Audio recordings include her course lectures for Women and Law,
+Law and Family, and Constitutional Law.</p>
+       <p>[NOTE: The contents list for this collection is not online.  Contact the Sophia Smith
+Collection if you would like one sent to you.]</p>
+        <!-- OR   [NOTE: There is no contents list for this finding aid.  Contact the Sophia Smith
+Collection for more information about this collection.] -->
+</scopecontent>
+  <!-- MRJ: Edit as necessary -->
+
+ <accessrestrict encodinganalog="506" id="admin-access">
+                    <p>The papers are open to research according to the regulations of the Sophia
+Smith Collection with the following caveats:
+	       <list type="simple">
+                         <item>This collection has not been fully processed and therefore may be
+difficult to use.</item>
+                         <item>Access to audiovisual materials may first require production of
+research copies.</item>
+                     </list></p>
+</accessrestrict>
+ <!-- MRJ: Edit CR info as necessary -->
+
+ <userestrict encodinganalog="540" id="admin-use">
+             <p>The Sophia Smith Collection owns copyright to the unpublished works of Rhonda
+Copelon within this collection.  Copyright to materials authored by others may be owned by those
+individuals or their heirs or assigns. Permission must be obtained to publish reproductions or
+quotations beyond "fair use."  It is the responsibility of the researcher to identify and satisfy
+the holders of all copyrights.</p>
+</userestrict>
+<prefercite id="admin-cite">
+        <head>Preferred Citation</head>
+          <p>Please use the following format when citing materials from this collection:</p>
+          <p>Rhonda Copelon Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+</prefercite>
+
+
+<!-- MRJ:  Edit donor info as necessary -->
+<acqinfo id="admin-acqinfo">
+          <p>The papers were donated to the Sophia Smith Collection by Catherine Albisa in 2012.</p>
+</acqinfo>
+<!-- Edit Processing date if necessary- year only -->
+<processinfo id="admin-process">
+           <p>Accessioned by  Kathleen Banks Nutter, July 2012 </p>
+</processinfo>
+<!-- Encode Subject terms -->
+<controlaccess id="subj">
+	<subject encodinganalog="650" source="lcsh">Abortion -- Law and legislation -- United States -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Abused women -- Services for -- United States -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">AIDS (Disease) -- Law and legislation -- United States</subject>
+	<subject encodinganalog="650" source="lcsh">Domestic violence -- United States -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Sex discrimination against women -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Sexual abuse victims --  Law and legislation -- United States</subject>
+	<subject encodinganalog="650" source="lcsh">War crime trials -- Rwanda</subject>
+	<subject encodinganalog="650" source="lcsh">War crime trials -- Yugoslavia</subject>
+	<subject encodinganalog="650" source="lcsh">Yugoslav War, 1991-1995 -- Atrocities</subject>
+	<subject encodinganalog="650" source="lcsh">Rape -- United States -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Violence Against Women</subject>
+	<subject encodinganalog="650" source="lcsh">Women (International law)</subject>
+	<subject encodinganalog="650" source="lcsh">Women lawyers -- United States -- Biography -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Women's rights -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Women -- Crimes against</subject>
+	<subject encodinganalog="650" source="lcsh">Women -- Legal status, laws, etc.</subject>
+	<subject encodinganalog="650" source="lcsh">International criminal courts</subject>
+	<subject encodinganalog="650" source="lcsh">Women's rights -- Algeria</subject>
+	<persname encodinganalog="600" source="lcnaf">Copelon, Rhonda</persname> 
+	<corpname encodinganalog="610" source="lcsh">National Economic and Social Rights Initiative (U.S.)</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Human Rights Watch</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Women's Caucus for Gender Justice</corpname> 
+	<corpname encodinganalog="610" source="lcsh">International Women's Human Rights Clinic</corpname> 
+
+</controlaccess>
+
+</archdesc>
+</ead>
+<!-- END OF FILE -->

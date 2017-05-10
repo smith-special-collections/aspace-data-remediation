@@ -1,0 +1,817 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca47.xml//EN" countrycode="us" mainagencycode="manosca">manosca47</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Mina Kirstein Curtiss Papers, 1915-1978
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by manosca.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+<date>2003-06-03</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca47 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives</publisher>
+<titleproper>Mina Kirstein Curtiss Papers, 1915-1978
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 42</num>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Curtiss, Mina Kirstein, 1896- </persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Mina Kirstein Curtiss Papers</unittitle> <unitdate encodinganalog="245$f" type="inclusive">1915-1978</unitdate>
+<unitdate encodinganalog="245$g" type="bulk">1918-1945</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">3 boxes</extent>
+<extent encodinganalog="300$a">(1.3 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Professor of English, author.  Contains biographical material, correspondence, examinations, lectures, publications, and student papers.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p>Mina Kirstein was born in Boston, Massachusetts in 1896 and spent her childhood growing up in Rochester, New York, with her parents, Louis E Kirstein, a merchant, her mother Rose Stein and brothers Lincoln  and George Kirstein.  In 1912 the family returned to Boston where her father was the director of Filene's department store.  Mina was educated at home and came to Smith College where in 1918 she received a B.A.  In 1920 she was awarded the M.A. from Columbia University.  She returned to Smith College to teach English and remained here until 1934.  Between 1935 and 1938 she worked for the Mercury Theatre of the Air in New York City, with Orson Welles and John Houseman, as a researcher and promoter of the theatre.  She continued to write throughout her career, publishing  a book about her marriage and the early death of her husand Henry Tomlinson Curtiss in 1927 called <title render="italic">The Midst of Life</title>.  She wrote several radio programs in the 1930s,  translated Proust, and wrote a biography of Georges Bizet in the 1940s.  A visit to Russia in 1962 resulted in a biography of the Russian ballerina Anna Ivanovna.  In the 1970s she wrote <title render="italic">Other People's Letters: A Memoir</title> which chronicled her interest in Proust.  She supplemented her craft of writing with  book reviews and editorials for newspapers.  She returned to teach at Smith College in the early 1940s, then again as a visiting lecturer, giving courses in the art of biography.
+</p>
+<p>Mina Kirstein Curtiss was 89 years old when she died in Bridgeport, Connecticut on October 31, 1985 after a long illness.  She lived a long and productive life, as is evidenced by her teaching and publications.
+</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>The papers contain biographical information, correspondence, examinations, lectures, publications and student papers of Mina Kirstein Curtiss, a member of the Class of 1918, and a well-respected professor of English at Smith College.  She was an Associate Professor of English at Smith between 1920-1934, left the College only to return to teach between 1940-1945.  She was a Visiting Professor of English Language and Literature in 1976.  The papers document her career as a beloved teacher of English at Smith College.
+</p>
+</scopecontent>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The collection is open to research according to the regulations of the Smith College Archives.
+</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the documents must be requested from the Smith College Archives.  Smith College owns copyright to any published material relating to college events and activities.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Mina Kirstein Curtiss Papers, Box #, Smith College Archives.</p>
+</prefercite>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Curtiss, Mina Kirstein, 1896-</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Faculty.</corpname>
+<subject encodinganalog="650" source="lcsh">Smith College--Students.</subject>
+<persname encodinganalog="700" source="lcnaf">Chase, Mary Ellen, 1887-1973.</persname>
+<persname encodinganalog="700" source="lcnaf">Comstock, Ada Louise.</persname>
+<persname encodinganalog="700" source="lcnaf">Flanagan, Hallie, 1890-1969.</persname>
+<persname encodinganalog="700" source="lcnaf">Ferber, Edna, 1887-1968.</persname>
+<persname encodinganalog="700" source="lcnaf">Knopf, Alfred A., 1892-1984.</persname>
+<persname encodinganalog="700" source="lcnaf">Nicolson, Marjorie Hope, 1894-</persname>
+<persname encodinganalog="700" source="lcnaf">West, Rebecca, Dame, 1892-</persname>
+</controlaccess>
+<descgrp type="add" id="addinfo">
+<head>Additional Information</head>
+<relatedmaterial id="add-related">
+<head>Related Material</head>
+<list><item>
+<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca210_main.html">80. Class of 1918 Records</extref></item>
+<item>
+<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss10_main.html">Mina Kirstein Curtiss Papers</extref>, Sophia Smith Collection, Smith College.</item></list>
+</relatedmaterial>
+</descgrp>
+<dsc type="in-depth" id="list-contlist">
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">1</container>
+<unittitle>Biographical Information</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">2-3</container>
+<unittitle>Student Papers for English 11a class
+<unitdate>1922 May</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">4</container>
+<unittitle>Faculty Appointment cards
+<unitdate>1920-1921, 1931,1934, 1940-1941</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">5</container>
+<unittitle>Lecture Notes for Biography Course
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">6-7</container>
+<unittitle>Undergraduate Essays
+<unitdate>1917, n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">8</container>
+<unittitle>Undergraduate Examinations
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">9</container>
+<unittitle>Undergraduate Lecture Notes
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">10</container>
+<unittitle>Grades
+<unitdate>1915-1918</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<container type="folder">11</container>
+<unittitle>War Service
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">736</container>
+<unittitle>Correspondence</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">12</container>
+<unittitle>Aaron, Daniel
+<unitdate>1943, 1971</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">13</container>
+<unittitle>Alderman, Edwin A.
+<unitdate>1928-1930</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">14</container>
+<unittitle>Blount, Victoria
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">15</container>
+<unittitle>Bradshaw, Margaret B.
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">16</container>
+<unittitle>Broad, Margaret
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">17</container>
+<unittitle>Chase, Mary Ellen
+<unitdate>1940-1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">18</container>
+<unittitle>Cheever, Louisa
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">19</container>
+<unittitle>Churchill, Vieno (Kajander)
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">20</container>
+<unittitle>Comstock, Ada Louise
+<unitdate>1920, 1932</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">21</container>
+<unittitle>Crouse, Dorothy B.
+<unitdate>1922</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">22</container>
+<unittitle>Davis, Hallie Flanagan
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">23</container>
+<unittitle>Davis, Herbert J.
+<unitdate>1940, 1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">24</container>
+<unittitle>Dunn, Elizabeth Irwin
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">25</container>
+<unittitle>Dunn, Esther Cloudman
+<unitdate>1931, 1940,</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">26</container>
+<unittitle>Dunn, Esther Cloudman
+<unitdate>1943, 1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">27</container>
+<unittitle>Ferber, Edna
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">28</container>
+<unittitle>Fisher, Alfred Y.
+<unitdate>1943-1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">29</container>
+<unittitle>Flanner, Janet
+<unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">736</container>
+<container type="folder">30</container>
+<unittitle>Green, Shirley
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">31</container>
+<unittitle>Harris, Rose Marie
+<unitdate>1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">32</container>
+<unittitle>Heinlein, Virginia
+<unitdate>1918, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">33</container>
+<unittitle>Hill, Charles J.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">34</container>
+<unittitle>Hoyt, Helen
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">35</container>
+<unittitle>Jordan, Mary Augusta
+<unitdate>1918-1930, 1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">36</container>
+<unittitle>Kelly, Donald C.
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">37</container>
+<unittitle>Knopf, Alfred A.
+<unitdate>1936</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">38</container>
+<unittitle>Kuhn, Samuel L.
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">39</container>
+<unittitle>Laurence, Hilda
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">40</container>
+<unittitle>Lewis, Mary Delia
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">41</container>
+<unittitle>Lewis, Nell Battle
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">42</container>
+<unittitle>Lincoln, Eleanor T.
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">43</container>
+<unittitle>Lindgren, Ethel John
+<unitdate>1924, 1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">44</container>
+<unittitle>Linley, Sarah Isabel
+<unitdate>1922-1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">45</container>
+<unittitle>Luch, Emily Lenore
+<unitdate>1953</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">46</container>
+<unittitle>McBride, Mary Margaret
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">47</container>
+<unittitle>McEldowny, Genevieve
+<unitdate>192?</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">48</container>
+<unittitle>McLaughlin, Mignon
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">49</container>
+<unittitle>Malone, Isabel (Gardner)
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">50</container>
+<unittitle>Mehrtens, Ruth Beatrice
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">51</container>
+<unittitle>Mencken, Henry L.
+<unitdate>1936</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">52</container>
+<unittitle>Michael, Virginia Mae
+<unitdate>1942-1943</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">53</container>
+<unittitle>Miller, Marcella
+<unitdate>1923-1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">54</container>
+<unittitle>Neilson, Elizabeth (Muser)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">55</container>
+<unittitle>Nicolson, Marjorie Hope
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">56</container>
+<unittitle>Patch, Howard
+<unitdate>1942</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">57</container>
+<unittitle>Potter, Olive Elizabeth
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">58</container>
+<unittitle>Powell, Frances
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">59</container>
+<unittitle>Rice, Richard Ashley
+<unitdate>1920-1923, 1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">60</container>
+<unittitle>Riggs, Margaret Mary
+<unitdate>1941, 1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">61</container>
+<unittitle>Rubins, Marian
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">62</container>
+<unittitle>Russell, Doris Aurelia
+<unitdate>1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">63</container>
+<unittitle>Smith, Elizabeth (Olmsted)
+<unitdate>1935</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">64</container>
+<unittitle>Spectorsky,  Miriam Lenore
+<unitdate>1922-1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">65</container>
+<unittitle>Stapleton, Katharine Laurence
+<unitdate>1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">66</container>
+<unittitle> Tildsley, Kathleen
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">67</container>
+<unittitle>West, Rebecca
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">68</container>
+<unittitle>Whitman, Sarah
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">69</container>
+<unittitle>Wilder, Charlotte Elizabeth
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">70</container>
+<unittitle>Wright, Polly
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">71</container>
+<unittitle>Yeadon, Henry
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">737</container>
+<container type="folder">72</container>
+<unittitle>Yoerg, Elizabeth Ann
+<unitdate>1941-1942</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">737</container>
+<unittitle>Publications</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">738</container>
+<container type="folder">73</container>
+<unittitle>Bibliography</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">738</container>
+<container type="folder">74</container>
+<unittitle>"Chosen," in <title render="italic">Massachusetts Review</title>
+<unitdate>1983 Summer</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">738</container>
+<container type="folder">75</container>
+<unittitle>
+<title render="italic">Letters Home</title>
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">738</container>
+<container type="folder">76</container>
+<unittitle>
+<title render="italic">The Midst of Life</title>
+<unitdate>1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">738</container>
+<container type="folder">77</container>
+<unittitle>
+<title render="italic">Olive, Cypress and Palm</title>
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

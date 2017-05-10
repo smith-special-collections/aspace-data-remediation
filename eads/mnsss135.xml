@@ -1,0 +1,924 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss135.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss135</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Mary Ritter Beard Papers, 1915-1958
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Amanda Izzo.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-07-01</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss135 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Mary Ritter Beard Papers, 1915-1958
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 13
+      </num>
+         <author encodinganalog="245$c">Amanda Izzo
+      </author>
+         <date>2001
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Beard, Mary Ritter, 1876-1958</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Mary Ritter Beard Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1915 -  1958</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 13</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">2 boxes</extent>
+            <extent encodinganalog="300$a">(2.25 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Historian, archivist, and women's rights activist. The Mary Ritter Beard papers primarily document the organization and dissolution of the World Center for Women's Archives, which Beard founded, as well as the founding of both the Sophia Smith Collection at Smith College and the Schlesinger Library at Radcliffe College, both women's history archives. Materials include correspondence, writings, photographs, and books. Correspondents include Dorothy Brush; Ethel Weed; prominent Japanese activist and Diet member, Shizue Kato; Sophia Smith Collection founder, Margaret Grierson; and Grierson's companion, Marine Leland.</abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p>Mary Ritter Beard was born in Indianapolis on 5 August
+    1876, the third of six children and the elder of two
+    daughters of Narcissa (Lockwood) and Eli Foster Ritter. At
+    sixteen she left home to attend De Pauw University in Asbury,
+    Indiana, where she studied political science, languages, and
+    literature. She graduated in 1897 and taught high school
+    German until 1900 when she married Charles Austin Beard, whom
+    she had met at De Pauw. Mary Beard accompanied her husband to
+    Oxford, and both were active politically as well as
+    academically. Charles helped organize Ruskin Hall, the "free
+    university" aimed at workingmen, and Mary became involved
+    with the British women's suffrage movement. They returned to
+    New York in 1902. Their daughter Miriam was born in 1903. The
+    following year the Beards enrolled at Columbia University,
+    but Mary quit soon after to take care of their child and
+    volunteer for progressive causes.</p>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5096.jpg" altrender="left">
+<daodesc><p>Mary Ritter Beard at her desk, Christmas, 1954</p></daodesc></dao> 
+         <p>Following the birth of her son William in 1907, Mary Beard
+    became an organizer for the National Women's Trade Union
+    League. From 1910 to 1912 she edited the suffragist
+    periodical The Woman Voter, and after that worked with the
+    Wage Earner's League. She was a member of the militant
+    faction of the suffrage movement led by Alice Paul from 1913
+    to 1919, and she worked on several progressive causes. During
+    this period, Charles taught at Columbia University, but he
+    resigned in 1917 in protest of the firing of anti-war
+    faculty. Charles helped establish the New School for Social
+    Research and both Beards helped found the Workers Education
+    Bureau, but by the early 1920, the Beards generally worked
+    outside of academic institutions.</p>
+
+         <p>Following her resignation from the National Woman's Party
+    in 1917, Mary Beard devoted her skills and efforts to writing
+    and lecturing, rather than public political activity. Her
+    first book, Woman's Work in Municipalities (1915) and her
+    second, A Short History of the American Labor Movement
+    (1920), focused on social reform and the working class. With
+    Charles, she co-authored The Rise of American Civilization
+    (1927), a groundbreaking text that integrated political,
+    economic, social, and cultural histories with a progressive
+    vision of America's past and distinctive national character.
+    The two collaborated on several books that would become some
+    of the most enduringly significant American history texts,
+    but by herself, Mary pioneered the field of women's history.
+    She was appalled by the omission of women from the historical
+    record, and she wrote about and promoted the recognition of
+    women's achievements in the present day and the past, in the
+    U.S. and internationally. She authored and edited
+    Understanding Women (1931), America Through Women's Eyes
+    (1933), A Changing Political Economy as It Affects Women
+    (1934), and Women as Force in History (1946), among
+    others.</p>
+         <p>Rather than concentrating on grievances and questions of
+    the subjugation of women, Beard's work promoted women's
+    contributions to the formation of society and brought to
+    light a long-neglected past. To this end in the early 1930s,
+    she collaborated with Hungarian pacifist feminist Rosika
+    Schwimmer to organize the World Center for Women's Archives
+    (WCWA). Beard quoted French historian Fustel de Coulanges for
+    the motto of the WCWA: "No documents, no history," and she
+    envisioned an archive of women's papers and organizational
+    records that would provide a foundation for women's history
+    as an academic field as well as serve as a public good. Beard
+    and Schwimmer raised funds, founded a board of directors, and
+    collected documents from their network of women activists.
+    The WCWA was headquartered in New York but collected on an
+    international level. It was a well-publicized effort, and
+    though the collection specialized in material from the
+    pacifist movement, Beard worked to realize a broader
+    conception for a collection representing the range of women's
+    activities. Factionalism among WCWA supporters, shaky
+    financial support, and an increasingly militaristic
+    atmosphere in the U.S. and abroad forced the dissolution of
+    the WCWA in the early 1940s.</p>
+         <p>This development was very discouraging to Beard, but
+    fortunately, the WCWA generated momentum for developing
+    institutions of women's history. Beard worked closely with
+    Smith College archivist Margaret Grierson to create the
+    Sophia Smith Collection, one of the world's largest women's
+    history manuscript collections, founded in 1942, and she
+    worked with Harvard historians to create the eventual
+    Schlesinger Library at Radcliffe. These two institutions
+    received many of the WCWA documents, as did several smaller
+    collections. Together, they carried on the WCWA mission, at
+    least partly due to Beard's influence.</p>
+         <p>Neither of the Beards avoided controversy in their
+    writings or public stands. Though both were well-respected
+    historians, they increasingly drew criticism for their
+    pacifist and progressive politics in the years surrounding
+    World War II. Charles Beard died in 1948, and Mary Ritter
+    Beard died on 14 August 1958. Both Beards have had enduring
+    reputations as incisive historians, and they are recognized
+    for their pioneering work in social history. Mary Beard
+    especially has been celebrated for her work to promote
+    women's history.</p>
+         <p>Nancy Cott has written about Mary Beard as an activist,
+    historian, and pioneer in the field of women's history in
+    several articles and books, and she edited a volume of
+    Beard's correspondence, A Woman Making History: Mary Beard
+    through Her Letters (1991). Ann Lane's Mary Ritter Beard: A
+    Sourcebook (1977) was edited and re-released in 2000 as
+    Making Women's History: the Essential Mary Beard. Barbara
+    Turoff's biography, Mary Beard as Force in History, was
+    published in 1979.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Mary Ritter Beard Papers are a small but significant
+    collection of Beard's correspondence, writings, and materials
+    from the World Center for Women's Archives (WCWA). Beard
+    destroyed most of her personal papers. Nonetheless, what
+    remains provides fascinating insight into one of the most
+    significant American intellectuals of the twentieth century.
+    Margaret Storrs Grierson, Smith College Archivist,
+    established the Sophia Smith Collection (SSC), one the
+    largest repositories for primary sources in women's history,
+    in consultation with Beard. The documents in this collection
+    pertain primarily to the years surrounding the demise of the
+    WCWA and the founding of the Sophia Smith Collection.</p>
+         <p>A small amount of biographical material includes
+    photographs and clippings. The correspondence spans the
+    mid-1940s to early 1950s. Letters exchanged between Beard,
+    Dorothy [Dick] Brush, and Ethel Weed pertain to a proposed
+    book on Japanese women's history. The project began as a
+    collaboration between Brush and Beard. Beard ultimately
+    authored Woman as Force in Japanese History (1953). Ethel
+    Weed provided research assistance and served as a liaison
+    between Beard and Shidzue Kato, a prominent Japanese activist
+    and Diet member involved in the drafting of the Japanese
+    Constitution following World War II.</p>
+         <p>Correspondence between Beard, Margaret Grierson, and
+    Grierson's companion Marine Leland offers special insight
+    into Beard's personal life. The correspondence details
+    Beard's professional life in the 1940s and 1950s as well. She
+    deposited the materials from the defunct WCWA at Smith,
+    Radcliffe College (at what would become the Schlesinger
+    Library), and elsewhere, and the correspondence documents
+    Beard's efforts to continue the mission of the WCWA. Beard
+    and Grierson collaborated to establish the Sophia Smith
+    Collection and sought each other's advice in their efforts to
+    preserve and promote women's history. There is a microfilmed
+    copy of Beard's outgoing correspondence that includes
+    correspondence in the Beard Papers and other collections of
+    the Sophia Smith Collection. See the <ref target="odd-app">Appendix</ref> at the end of
+    this finding aid for a list of correspondents.</p>
+         <p>The writings of Mary Beard include printed magazine
+    articles and speeches. A typed and printed syllabus and
+    bibliography prepared for the American Association of
+    University Women analyzes the "Changing Political Economy as
+    it Affects Women." There are also typescripts and research
+    materials from various projects undertaken by Beard in the
+    1940s, including notes on women in American history and a
+    study of the representation of women in the Enclyclopedia
+    Britannica. A significant amount of material was generated
+    from the Japanese women's history project. The collection
+    contains third party correspondence concerning research and
+    the manuscript, typescripts of sections of the project, and
+    research materials, including clippings about Shidzue Kato
+    [see also incoming correspondence from Ethel Weed for notes from an
+    interview of Kato]. The Papers contain printed copies of
+    several of Beard's books, including those coauthored with
+    Charles Beard.</p>
+         <p>The last section of material concerns the World Center for
+    Women's Archives. The materials in Beard Papers pertaining to
+    the WCWA consist of correspondence, which includes letters to
+    the general membership regarding the dissolution of the WCWA
+    and letters between Mary Ritter Beard and donors to the
+    archive; a file of general material; and a report from Dora
+    Ettinger about women in Germany that was intended to become a
+    WCWA document.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into four series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical Materials</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Writings</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. World Center for Women's Archives</ref>
+            </item>
+         </list>
+      </arrangement>
+      <odd id="odd-app">
+         <head>Appendix: The Letters of Mary R. Beard, 1934-1955</head>
+         <p>Microfilmed from the holdings of the Sophia Smith Collection, Smith College.</p>
+         <p>FROM THE MARY R. BEARD PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Dorothy Brush, 1946-1956</item>
+            <item>Mary R. Beard to Mrs. Chamberlin, 1940</item>
+            <item>Mary R. Beard to Margaret S. Grierson, 1941-1956</item>
+            <item>Mary R. Beard to Eva B. Hansl, 1947</item>
+            <item>Mary R. Beard to to Alice Lachmund, 1941-1950</item>
+            <item>Mary R. Beard to Marine Leland, 1947-1951</item>
+            <item>Mary R. Beard to Margaret Sanger, n.d.</item>
+            <item>Mary R. Beard to Ethel Weed, 1946-1952</item>
+         </list>
+         <p>FROM THE NANCY COX-McCORMACK CUSHMAN PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Nancy Cox-McCormack Cushman, 1940-1952</item>
+         </list>
+         <p>FROM THE EVA B. HANSL PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Eva B. Hansl, 1941</item>
+         </list>
+         <p>FROM THE FLORENCE ROSE PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Florence Rose, 1937-1939</item>
+         </list>
+         <p>FROM THE MARGARET SANGER PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Mary Compton, 1946</item>
+            <item>Mary R. Beard to Miss Nelson, 1951</item>
+            <item>Mary R. Beard to Margaret Sanger, 1951-1952</item>
+         </list>
+         <p>FROM THE JOSEPHINE SCHAIN PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Dr. Maffett, 1940</item>
+         </list>
+         <p>FROM THE MARGERY STEER PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Margery Steer, 1950-1955</item>
+         </list>
+         <p>FROM THE MARY VAN KLEECK PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Mary van Kleeck, 1935</item>
+         </list>
+         <p>FROM THE RUTH WOODSMALL PAPERS:</p>
+         <list>
+            <item>Mary R. Beard to Mrs. Blaisdell, 1934</item>
+         </list>
+      </odd>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Karen A. Vagts and Arlene Beard hold copyright to the papers of Mary Ritter Beard. Permission must be obtained to publish reproductions or quotations beyond "fair use."  Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.</p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Mary Ritter Beard Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <altformavail encodinganalog="530" id="admin-altform">
+            <head>Additional Formats</head>
+            <p>Portions of Beard's correspondence available on
+        microfilm, including correspondence from other
+        collections (see <ref target="odd-app">Appendix</ref> for list).
+        </p>
+         </altformavail>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Beard Papers were donated to the Sophia Smith Collection in the early 1940s after the dissolution of the World Center of Women's Archives and were collected by Margaret Grierson from her professional and personal association with Mary Beard.
+          </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Reprocessed by Amanda Izzo, 2001.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Beard, Mary Ritter, 1876-1958</persname>
+         <persname encodinganalog="600" source="lcnaf">Beard, Charles Austin, 1874-1948</persname>
+         <persname encodinganalog="600" source="lcnaf">Brush, Dorothy Hamilton--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Grierson, Margaret--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Hansl, Eva B. (Eva vom Bauer) --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Kato, Shizue, 1897-</persname>
+         <corpname encodinganalog="610" source="lcnaf">Sophia Smith Collection--History</corpname>
+         <corpname encodinganalog="610" source="lcnaf">World Center for Women's Archives, Inc. (New York, N.Y.)</corpname>
+         <subject encodinganalog="650" source="lcsh">Libraries--Special collections--Women--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women historians--United States</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Historiography</subject>
+         <subject encodinganalog="650" source="lcsh">Women--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Japan--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women's rights--Japan--History--Sources</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>The Mary Ritter Beard Papers at the Sophia Smith Collection are one of the three primary collections of Beard's papers. DePauw University and the Schlesinger Library also have collections.</p>
+            <p>For additional Beard material, including correspondence from Beard in other manuscript collections, see the Sophia Smith Collection card catalog and the Donor Files of the Sophia Smith Collection (stored in the Smith College Archives).  </p>
+ 		 <p>See also <extref href="http://www.smith.edu/libraries/libs/ssc/pubs/revealing.pdf"><title render="italic">Revealing Women's Life Stories: Papers from the 50th Anniversary Celebration of the Sophia Smith Collection</title></extref> for article on Mary Beard by Nancy F. Cott.</p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Biographical clippings,
+            <unitdate>1933, 1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Letter re: Charles's death,
+            <unitdate>1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Photographs,
+            <unitdate>1946, 1954, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Outgoing</unittitle>
+               </did>
+
+
+               <c03>
+                  <did>
+                     <container type="box">M39</container>
+                     <container type="folder">4-5</container>
+                     <unittitle>Brush, Dorothy,
+              <unitdate>1946-56, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">M39</container>
+                     <container type="folder">6</container>
+                     <unittitle>Chamberlain, Katharine Beecher Stetson,
+              (daughter of Charlotte Perkins Gilman),
+              <unitdate>1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">M39</container>
+                     <container type="folder">7</container>
+                     <unittitle>Hansl, Eva, (includes typescript of
+              American Heritage Women's Activities with suggestions
+              by Beard),
+              <unitdate>1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">M39</container>
+                     <container type="folder">8</container>
+                     <unittitle>Lachmund, Alice,
+              <unitdate>1942-50</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">M39</container>
+                     <container type="folder">9</container>
+                     <unittitle>Leland, Marine,
+              <unitdate>1947-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">M39</container>
+                     <container type="folder">10-13</container>
+                     <unittitle>Grierson, Margaret, (includes letters to
+              Grierson and Marine Leland),
+              <unitdate>1941-56, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">M39</container>
+                     <container type="folder">14</container>
+                     <unittitle>Sanger, Margaret,
+              <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">M39</container>
+                     <container type="folder">15</container>
+                     <unittitle>Weed, Ethel,
+              <unitdate>1946-51</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                <did>
+                     <container type="box">M39</container>
+                     <unittitle>Microfilm: The Letters of Mary R. Beard, 1934-1955. 
+Microfilmed from the holdings of the Sophia Smith Collection, Smith College (housed in microfilm collection), <unitdate>1934-55</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>
+                           [see <ref target="odd-app">Appendix</ref> for complete list]</p>
+                     </note>
+                  </did>
+               </c03>      
+	       
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Incoming</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">1</container>
+                     <unittitle>Belgum, Florence Richter, (includes
+              biographical sketch of Emelie Richter and
+              Niebohrn[?]),
+              <unitdate>1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">2</container>
+                     <unittitle>Bromer, Annie, re: Speaking of Women, an
+              international magazine for peace,
+              <unitdate>1938</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">3</container>
+                     <unittitle>Kato, Shidzue,
+              <unitdate>1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">4</container>
+                     <unittitle>Lachmund, Alice,
+              <unitdate>1939-42</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">5</container>
+                     <unittitle>May, Edith Hooper, re: Speaking of Women,
+              includes speech and magazine foreword,
+              <unitdate>1938</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">6</container>
+                     <unittitle>Wagner, Elin,
+              <unitdate>1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">7</container>
+                     <unittitle>Weed, Ethel (includes notes re: Shidzue
+              Kato and women in Japan),
+              <unitdate>1946-52</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. WRITINGS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">8</container>
+                  <unittitle>Published magazine articles,
+            <unitdate>1930-50</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">9</container>
+                  <unittitle>"A Study of the Encyclopedia Britannica in
+            Relation to Its Treatment of Women": research material
+            and report,
+            <unitdate>1942, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">10</container>
+                  <unittitle>Speeches: transcripts, notes, and
+            advertisement,
+            <unitdate>1933-37, 1947, 1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">11</container>
+                  <unittitle>"What Colleges Teach Young Men or Women":
+            submitted magazine article and correspondence,
+            <unitdate>1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">12</container>
+                  <unittitle>Women in Long History: typescript, cir
+            <unitdate>ca 1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">13</container>
+                  <unittitle>"Changing Political Economy as It Affects
+            Women": syllabus and bibliography for the American
+            Association of University Women, (includes typescript
+            and publication),
+            <unitdate>1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">14</container>
+                  <unittitle>Women as Force in History: publicity, cir
+            <unitdate>ca 1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">15</container>
+                  <unittitle>American women's history typed notes [from
+            Dictionary of American Biography?],
+            <unitdate>1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">16</container>
+                  <unittitle>Notes and research material, (includes
+            "Proposal for the Organization of a Women's Reseach
+            Institute),
+            <unitdate>1936, 1948-49, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Women in Long Japanese History/Force of
+            Women in Japanese History</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <ref target="list-ser2">Correspondence, third party re:
+                Japan material</ref>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">17</container>
+                        <unittitle>Grierson, Margaret to Dorothy Brush,
+                <unitdate>1946</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">18</container>
+                        <unittitle>Rilma, "Robbie" to Florence Rose,
+                <unitdate>1946</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">19</container>
+                        <unittitle>Weed, Ethel to Dorothy Brush,
+                <unitdate>1946, 1950</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">20</container>
+                     <unittitle>Notes by Beard and Dorothy Brush, foreword
+              and chapter, circa
+              <unitdate>1940s, 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Research material</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">21</container>
+                        <unittitle>General: Japanese (English language)
+                newsletters re: Japanese women's history, 1922;
+                Supreme Commander of the Allied Powers Public
+                Opinion Surveys and Publication Analysis,
+                <unitdate>1948-49</unitdate>
+                ; "Japan through Women" pamphlet, 1951; undated
+                documents re: religious history and Chinese women's
+                movement</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">22</container>
+                        <unittitle>Re: Shidzue Kato: history of birth
+                control movement by Kato?, 1947; clippings,
+                <unitdate>1925, 1946-52</unitdate>
+                ; photographs, 1947, n.d.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Books (on shelf)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>America in Midpassage, vol. 1, with
+              Charles A. Beard,
+              <unitdate>1939</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>American Spirit: A Study of the Idea of
+              Civilization in the United States, Vol. IV The Rise
+              of American Civilization,
+              <unitdate>1942</unitdate>
+              (inscribed to Margaret Grierson by Mary and Charles
+              Beard)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>America through Women's Eyes [editor],
+              <unitdate>1933</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>The Beards' Basic History of the United
+              States, with Charles A. Beard,
+              <unitdate>1944,</unitdate>
+              (inscribed to Margaret Grierson by Mary and Charles
+              Beard)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>The Force of Women in Japanese History, 2
+              copies,
+              <unitdate>1953,</unitdate>
+              (one copy inscribed to Grierson, one copy inscribed
+              to Marine Leland)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Laughing Their Way, with Martha Bensley
+              Bruere,
+              <unitdate>1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>On Understanding Women, New York,
+              <unitdate>1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>A Short History of the American Labor
+              Movement,
+              <unitdate>1920</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Woman as Force in History,
+              <unitdate>1946</unitdate>
+              (inscribed to Grierson)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Woman's Work in Municipalities,
+              <unitdate>1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. WORLD CENTER FOR WOMEN'S
+          ARCHIVES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">23</container>
+                     <unittitle>Letters to general membership, (includes
+              list of where some material was ultimately
+              deposited),
+              <unitdate>1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">24</container>
+                     <unittitle>Between Beard and donors, (includes third
+              party correspondence),
+              <unitdate>1938-47</unitdate>
+              (correspondents include Alice Henry, Kate Baker,
+              Wilhelmina Carlstedt, Katherine Gillette Blyley,
+              Charlotte Dobbin, Lillian Cox Athey, Nellie Sashman
+              [?], Jennie Flood Kreger, Dorothy Boulding Ferebee,
+              and Nettie Palmer)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">25</container>
+                  <unittitle>General: clippings, list of materials, and
+            notes (author unknown),
+            <unitdate>1935, 1940, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">26</container>
+                  <unittitle>Dora Ettinger: report "Political Thought and
+            Action of German Women in the Modern Age," letters to
+            Beard, and notes from Beard,
+            <unitdate>1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="map-case">Flat file</container>
+                  <unittitle>"Womanpower in this Election," clipping,
+            Mary and Charles Beard,
+            <unitdate>1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

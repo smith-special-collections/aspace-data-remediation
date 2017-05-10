@@ -1,0 +1,3963 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca103.xml//EN" countrycode="us" mainagencycode="manosca">manosca103</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>International Institute for Girls in Spain Records, 1881-1986
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Maida Goodwin.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+<date>2003-06-13</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca103 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>International Institute for Girls in Spain Records, 1881-1986
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 70
+</num>
+<author>Maida Goodwin
+</author>
+<date>1988
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<corpname encodinganalog="110" source="lcnaf">Instituto Internacional (Madrid, Spain).</corpname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">International Institute for Girls in Spain Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1881-1986</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 70</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">53 boxes</extent>
+<extent encodinganalog="300$a">(24 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">A non-denominational Christian girls school in Spain.  Contains correspondence, memorabilia, minutes, reports, photographs, and publications.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English</language> and
+<language langcode="spa">Spanish</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Historical Note</head>
+<p>The International Institute for Girls in Spain evolved out of a school founded by a Protestant missionary in Santander, Spain, in 1877. The Institute was incorporated in Massachusetts in 1892 as a non-denominational Christian organization "for the purpose of establishing and maintaining an institution for the education of girls in Spain."</p>
+<p>The following is a brief outline of the major events in the history of the IIGS. A published history of the early years of the Institute, Misioneras, feministas, educadoras: Historia del Instituto Internacional by Carmen de Zulueta (Madrid: Editorial Castalia, 1984), is available in the archives reading room. Short histories of the Institute in English and Spanish can be found within the records in Series IV - Historical Materials and Memorabilia, and in Series XI - Publications.</p>
+
+<chronlist><head>Chronology of major events in the history of the IIGS.</head>
+<chronitem>
+<date>1871</date>
+<event>Alice Gordon Gulick and her husband William go to Spain to establish a Protestant mission under the auspices of the American Board of Commissioners for Foreign Missions (ABCFM).  They settle in Santander.</event>
+</chronitem>
+<chronitem>
+<date>1875</date>
+<event>Alice Gordon Gulick organizes a day school to teach reading and writing to sons and daughters of mission church members.</event>
+</chronitem>
+<chronitem>
+<date>1877</date>
+<event>Alice Gordon Gulick founds a boarding school with the aim of training young Spanish women to become teachers in Protestant mission schools. The school consists of 5 pupils. The Women's Board of Missions (WBM) of the ABCFM agrees to support the school and help provide teachers.</event>
+</chronitem>
+<chronitem>
+<date>1881</date>
+<event>The Gulicks move the school to San Sebastian where it is known as the Colegio Norteamericano. Alice Gordon Gulick starts a series of appeals for outside funds to establish a women's college in Spain along the lines of her alma mater, Mt. Holyoke.</event>
+</chronitem>
+<chronitem>
+<date>1888</date>
+<event>Two teachers establish a school library 'to cultivate a taste for books' among the students.</event>
+</chronitem>
+<chronitem>
+<date>1890</date>
+<event>Some students in the school begin training for university level study by preparing to pass the state exam for a secondary degree (bachillerato).</event>
+</chronitem>
+<chronitem> <date>1892</date> <event>To secure legal right to own property and conduct a school, the International Institute for Girls in Spain is incorporated in Massachusetts. </event></chronitem>
+
+<chronitem> <date>1898-1903</date> <event>The International Institute moves across the French border to Biarritz during the Spanish-American War. </event></chronitem>
+
+<chronitem> <date>1902</date> <event>The IIGS Corporation purchases a house in Madrid (at Fortuny 53) to establish the school on a permanent basis where it can collaborate more closely with Spanish educational reformers. </event></chronitem>
+
+<chronitem> <date>1903</date> <event>The Institute moves to Madrid. Alice Gordon Gullck dies on September 24. The International Institute League is formed in the U.S. as an adjunct to the Corporation to continue Mrs. Gulick-'s fund-raising efforts. The Corporation and the WBM divide the school into two departments supported and administered separately. The WBM funds the Normal Department for Spanish Girls which provides the first three years of training and continues the work of the evangelical school. The Corporation provides the last three years of training in the Collegiate Department preparing its students for university-level study. A permanent fund is established for the library which is given its own room. </event></chronitem>
+
+<chronitem> <date>1904</date> <event>Work is begun on a building at Miguel Angel 8 to be known as Alice Gordon Gulick Memorial Hall. The Institute establishes a course to prepare students to study music in a conservatory. The Institute inaugurates a series of lectures by leading intellectuals. </event></chronitem>
+
+<chronitem> <date>1906</date> <event>The two departments are separated into two distinct schools. The evangelical school becomes the Colegio Internacional para Senoritas with Anna F. Webb as director and WBM funding. The university preparatory school is known as the llGS with Bertha C. Bidwell as director and funding from the IIGS Corporation and the International Institute League. William H. Gulick serves as rector for both schools. </event></chronitem>
+
+<chronitem> <date>1910</date> <event>Alice Gordon Gulick Memorial Hall is completed: The Colegio Internacional para Senoritas moves to Barcelona. Susan Huntington is appointed Director of the IIGS. </event></chronitem>
+
+<chronitem> <date>1916</date> <event>The Junta para Ampliacion de Estudios e Investigaciones Cientificas (Board for the Promotion of Historical Research and Scientific Investigation), a group established by the state to promote education, presents the Corporation with a proposal for collaboration. </event></chronitem>
+
+<chronitem> <date>1917</date> <event>As a war measure, the IIGS agrees to collaborate with the Junta as a 3-year experiment.  The two IIGS buildings (Fortuny 53 and Miguel Angel 8) are leased to the Junta for the use of the Residencia de Senoritas (a residence and center for women university students) and the Instituto-Escuela (a co-educational elementary and secondary school founded as an experiment in modern educational methods). The IIGS supplies "a few," American instructors to teach English, physical education, and science. These instructors, paid by the Corporation, are to "continue the American influence," participate in academic policy making, run the library, and provide instruction in areas where it is otherwise unavailable in Spain. The IICS ceases to function as an autonomous entity. </event></chronitem>
+
+<chronitem> <date>1920</date> <event>The University of Madrid agrees to give credit for laboratory work successfully completed at the Institute under the supervision of the American instructors. Labs are set up at the IIGS because the University has no lab space for women. </event></chronitem>
+
+<chronitem> <date>1924</date> <event>As part of the collaboration, the libraries of the Residencia de Senoritas and IIGS are merged. </event></chronitem>
+
+<chronitem> <date>1925</date> <event>The International Institute League (formed 1903) disbands. </event></chronitem>
+
+<chronitem> <date>1927</date> <event>The building at Fortuny 53 is sold to the Junta for the use of the Residencia.  A condition of the sale is that the building be used for the education of women.  Library science courses are established at the Institute. </event></chronitem>
+
+<chronitem> <date>1928</date> <event>The Instituto-Escuela moves to its own building leaving Miguel Angel 8 to the IIGS. Institute staff continues to collaborate with the Residencia teaching classes in English and library science. </event></chronitem>
+
+<chronitem> <date>1930</date> <event>The IIGS agrees to rent space to Smith College's newly established junior year in Spain program. </event></chronitem>
+
+<chronitem> <date>1936-39</date> <event>The IIGS and the Residencia shut down during the Spanish Civil War. </event></chronitem>
+
+<chronitem> <date>1939-44</date> <event>World War II. Miguel Angel 8 is under the care of the U.S. Embassy. The library of the IIGS remains open and the librarians continue to teach English and library science on a small scale. There is no American staff in Madrid. Though Mary Sweeney is the board-appointed Director, Enriqueta Martin acts as the Corporation's representative in Spain. The Corporation uses its funds to subsidize schools in France and Mexico for Spanish refugee children under the auspices of the American Friends Service Committee. </event></chronitem>
+
+<chronitem> <date>1944-50</date> <event>Afraid of losing the building and unwilling to continue to cooperate with the Franco government, the IIGS rents Miguel Angel 8 to the U.S. Embassy for the storage of Embassy documents. The embassy offers to repair the building and provide space elsewhere in Madrid for the re-establishment of IIGS programs. </event></chronitem>
+
+<chronitem> <date>1946</date> <event>The IIGS establishes its Foreign Scholars Program. Under this program the IIGS sponsors or helps to sponsor study in the U.S. and England for some of its most advanced students. </event></chronitem>
+
+<chronitem> <date>1947</date> <event>Americans resume teaching English through the Institute. </event></chronitem>
+
+<chronitem> <date>1950</date> <event>The IIGS moves back into Miguel Angel 8 and agrees to share the building with Colegio-Estudio, a private school established along the lines of the Instituto-Escuela. The IIGS administers its own programs in English and library science, provides English teachers for Colegio-Estudio, sponsors concerts, lectures, English-speaking teas, and exhibits, and rents space to other educational programs. A group of graduates of the library science program forms the Asociacion de Diplomados del Instituto Internacional (alumnae association). The children's library is established as a separate entity in order to serve Colegio-Estuaio's students and subsequently the general community. </event></chronitem>
+
+<chronitem> <date>1950s and 1960s</date> <event>The IIGS explores a variety of programs and activities of its own while renting space to various junior year abroad and graduate study programs from American colleges and universities. </event></chronitem>
+
+<chronitem> <date>1951</date> <event>The Institute establishes extension courses in library science in other cities in Spain. </event></chronitem>
+
+<chronitem> <date>1952</date> <event>The English Program is reorganized into two courses, one concentrating on the study of the English language and American civilization and literature, the other providing training in teaching English as a second language. </event></chronitem>
+
+<chronitem> <date>1967</date> <event>Colegio-Estudio moves to its own building but retains offices in Miguel Angel 8. </event></chronitem>
+
+<chronitem> <date>1968</date> <event>A development plan is prepared and foundation support is sought for an expansion of IIGS programs. The effort is, for the most part, unsuccessful. </event></chronitem>
+
+<chronitem> <date>1971- </date> <event>The Institute begins litigation to reclaim Fortuny 53 which is no longer being used for the education of women (a condition of the sale of the building in 1927). </event></chronitem>
+
+<chronitem> <date>1979</date> <event>Faced with financial and legal problems, the Institute reduces its activities. The library science program is taken over by Spanish universities, the University of Southern California assumes administration of the English Program, and the Psychology program is reduced to a few courses. </event></chronitem>
+
+<chronitem> <date>1980</date> <event>The Corporation votes to cease operations in Madrid as of June 30, 1981. This decision is never carried out. </event></chronitem>
+
+<chronitem> <date>1985</date> <event>The University of Southern California English Program closes. The IIGS votes to re-establish its own English program. The Freshman Year Program is established to prepare Spanish students to transfer to American colleges and universities to study for an undergraduate degree. </event></chronitem>
+
+</chronlist>
+<chronlist>
+<head>Presidents of the Corporation</head>
+<chronitem>
+<date>1892-1897</date>
+<event>John N. Denison</event>
+</chronitem>
+<chronitem>
+<date>1897-1901</date>
+<event>Alice Freeman Palmer</event>
+</chronitem>
+<chronitem>
+<date>1901-1907</date>
+<event>Samuel B. Capen</event>
+</chronitem>
+<chronitem>
+<date>1907-1909</date>
+<event>Daniel Merriman</event>
+</chronitem>
+<chronitem>
+<date>1909-1912</date>
+<event>Charles H. Rutan</event>
+</chronitem>
+<chronitem>
+<date>1913</date>
+<event>Samuel C. Darling (Acting)</event>
+</chronitem>
+<chronitem>
+<date>1913-1928</date>
+<event>Lewis Kennedy Morse</event>
+</chronitem>
+<chronitem>
+<date>1928-1946</date>
+<event>William Allan Neilson</event>
+</chronitem>
+<chronitem>
+<date>1946-1949</date>
+<event>Robert Granville Caldwell</event>
+</chronitem>
+<chronitem>
+<date>1949-1969</date>
+<event>Saville Rogers Davis</event>
+</chronitem>
+<chronitem>
+<date>1965-1969</date>
+<event>Sumner Willard ("Chancellor" sharing position with Saville Davis)</event>
+</chronitem>
+<chronitem>
+<date>1969-1975</date>
+<event>Dorothy Nepper Marshall</event>
+</chronitem>
+<chronitem>
+<date>1975-1982</date>
+<event>Edmund L. King</event>
+</chronitem>
+<chronitem>
+<date>1982-</date>
+<event>Rudolfo Cardona</event>
+</chronitem>
+</chronlist>
+<chronlist>
+<head>Corresponding Secretaries</head>
+<chronitem>
+<date>1910-1913</date>
+<event>Amy Rowland</event>
+</chronitem>
+<chronitem>
+<date>1913-1914</date>
+<event>Fay Howard</event>
+</chronitem>
+<chronitem>
+<date>1914-1916</date>
+<event>Mabel Haywood</event>
+</chronitem>
+<chronitem>
+<date>1916-1917</date>
+<event>?</event>
+</chronitem>
+<chronitem>
+<date>1917-1944</date>
+<event>Susan Huntington Vernon</event>
+</chronitem>
+<chronitem>
+<date>1944-1963</date>
+<event>Mary Stedman Sweeney</event>
+</chronitem>
+<chronitem>
+<date>1964-1968</date>
+<event>duties performed by the Liaison Committee consisting of: Isabel Conant, Phyllis Turnbull, and Charity Willard</event>
+</chronitem>
+<chronitem>
+<date>1968-1980</date>
+<event>Carmen de Zulueta Greenebaum</event>
+</chronitem>
+<chronitem>
+<date>1980-</date>
+<event>Alica Pollin</event>
+</chronitem>
+</chronlist>
+<chronlist>
+<head>Directors</head>
+<chronitem>
+<date>1877-1903</date>
+<event>Alice Gordon Gulick</event>
+</chronitem>
+<chronitem>
+<date>1903-1907</date>
+<event>Elizabeth Gulick</event>
+</chronitem>
+<chronitem>
+<date>1907-1910</date>
+<event>Bertha C. Bidwell</event>
+</chronitem>
+<chronitem>
+<date>1910-1918</date>
+<event>Susan D. Huntington</event>
+</chronitem>
+<chronitem>
+<date>1916-1918</date>
+<event>Anna F. Thompson (Acting)</event>
+</chronitem>
+<chronitem>
+<date>*1918-1919</date>
+<event>Caroline Borden <note>
+<p>* dates for academic year ending in June</p>
+</note>
+</event>
+</chronitem>
+<chronitem>
+<date>1919-1920</date>
+<event>Louisa F. Cheever</event>
+</chronitem>
+<chronitem>
+<date>1920-1922</date>
+<event>Mary Louise Foster</event>
+</chronitem>
+<chronitem>
+<date>1922-1923</date>
+<event>Edith Fahnestock</event>
+</chronitem>
+<chronitem>
+<date>1923-1924</date>
+<event>May Gardner</event>
+</chronitem>
+<chronitem>
+<date>1924-1925</date>
+<event>Alice H. Bushee</event>
+</chronitem>
+<chronitem>
+<date>1925-1927</date>
+<event>Helen Phipps</event>
+</chronitem>
+<chronitem>
+<date>1927-1928</date>
+<event>Louise Sweeney</event>
+</chronitem>
+<chronitem>
+<date>1928-1929</date>
+<event>Mary Sweeney</event>
+</chronitem>
+<chronitem>
+<date>1929-1931</date>
+<event>Louise Sweeney</event>
+</chronitem>
+<chronitem>
+<date>1931-1934</date>
+<event>Mary Sweeney</event>
+</chronitem>
+<chronitem>
+<date>1934-1935</date>
+<event>Louise Sweeney</event>
+</chronitem>
+<chronitem>
+<date>1935-1936</date>
+<event>Nellis McBroom de Roca</event>
+</chronitem>
+<chronitem>
+<date>1939-1949</date>
+<event>Mary Sweeney (Institute activities curtailed by war)</event>
+</chronitem>
+<chronitem>
+<date>1940-1949</date>
+<event>Enriqueta Martin (semi-official representative of Corp.)</event>
+</chronitem>
+<chronitem>
+<date>1949-1950</date>
+<event>Edith Helman</event>
+</chronitem>
+<chronitem>
+<date>1950-1951</date>
+<event>Lois Post</event>
+</chronitem>
+<chronitem>
+<date>1951-1954</date>
+<event>Jean Bratton</event>
+</chronitem>
+<chronitem>
+<date>1954-1955</date>
+<event>Frances Burlingame</event>
+</chronitem>
+<chronitem>
+<date>1955-1958</date>
+<event>Phyllis Turnbull</event>
+</chronitem>
+<chronitem>
+<date>1958-1961</date>
+<event>Joan Connelly</event>
+</chronitem>
+<chronitem>
+<date>1961-1962</date>
+<event>Carol Roehm</event>
+</chronitem>
+<chronitem>
+<date>1962-1963</date>
+<event>Joan Appel</event>
+</chronitem>
+<chronitem>
+<date>1963-1964</date>
+<event>Miriam Holsen</event>
+</chronitem>
+<chronitem>
+<date>1964-1978</date>
+<event>Ilene Avery</event>
+</chronitem>
+<chronitem>
+<date>1978-1979</date>
+<event>Joan Connelly Ullman</event>
+</chronitem>
+<chronitem>
+<date>1979-1980</date>
+<event>Valerie Shaw Herr</event>
+</chronitem>
+<chronitem>
+<date>1980-1982</date>
+<event>Richard Predmore</event>
+</chronitem>
+<chronitem>
+<date>1982-1983</date>
+<event>Edmund B. King</event>
+</chronitem>
+<chronitem>
+<date>1983-1984</date>
+<event>Richard Predmore</event>
+</chronitem>
+<chronitem>
+<date>1984-</date>
+<event>Hugh Harter</event>
+</chronitem>
+</chronlist>
+<chronlist>
+<head>Treasurers</head>
+<chronitem>
+<date>1915-1960</date>
+<event>James S. Allen</event>
+</chronitem>
+<chronitem>
+<date>1960-1973</date>
+<event>Castle ("Bud") Reed</event>
+</chronitem>
+<chronitem>
+<date>1971-1972</date>
+<event>Donald Wilkinson, Jr.  (during illness of Reed)</event>
+</chronitem>
+<chronitem>
+<date>1973-1980</date>
+<event>Demetrio Delgado de Torres</event>
+</chronitem>
+<chronitem>
+<date>1980-1983</date>
+<event>Philip Van Slyck</event>
+</chronitem>
+<chronitem>
+<date>1983-1984</date>
+<event>Edmund L. King</event>
+</chronitem>
+<chronitem>
+<date>1984-</date>
+<event>Paul Saurel</event>
+</chronitem>
+</chronlist>
+<chronlist>
+<head>Clerks</head>
+<chronitem>
+<date>1912-1915</date>
+<event>James S. Allen</event>
+</chronitem>
+<chronitem>
+<date>1915-1919</date>
+<event>Cornelia Warren</event>
+</chronitem>
+<chronitem>
+<date>1919-1923</date>
+<event>Ellor C. Ripley</event>
+</chronitem>
+<chronitem>
+<date>1923-1930</date>
+<event>Edward Gulick</event>
+</chronitem>
+<chronitem>
+<date>1930-1961</date>
+<event>Katherine T. Reed</event>
+</chronitem>
+<chronitem>
+<date>1961-1966</date>
+<event>Marion Ament</event>
+</chronitem>
+<chronitem>
+<date>1966-1971</date>
+<event>Hope Goodale</event>
+</chronitem>
+<chronitem>
+<date>1971-1975</date>
+<event>Teresa Gilman</event>
+</chronitem>
+<chronitem>
+<date>1975-1978</date>
+<event>Erna B. Kelley</event>
+</chronitem>
+<chronitem>
+<date>1979-1982</date>
+<event>Angela Giral</event>
+</chronitem>
+<chronitem>
+<date>1982-</date>
+<event>Ellen Friedman</event>
+</chronitem>
+</chronlist>
+<chronlist>
+<head>Boston Secretary (Executive Secretary Office Secretary)</head>
+<chronitem>
+<date>?</date>
+<event>Elizabeth Brown</event>
+</chronitem>
+<chronitem>
+<date>c. 1922- c. 1939</date>
+<event>Ella D. (Leave) Baker</event>
+</chronitem>
+<chronitem>
+<date>c. 1940- c. 1950</date>
+<event>Nora Sweeney</event>
+</chronitem>
+<chronitem>
+<date>c. 1963</date>
+<event>Constance Mazlich, c. 1963</event>
+</chronitem>
+<chronitem>
+<date>c. 1964</date>
+<event>Lois Randall, c. 1964</event>
+</chronitem>
+<chronitem>
+<date>?</date>
+<event>Isabel O'Brien</event>
+</chronitem>
+</chronlist>
+
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>
+The records of the International Institute for Girls in Spain consist of 24 linear feet of correspondence, memorabilia, minutes, reports, photographs, publications, and other papers (in English and Spanish) relating to the history and activities of the IIGS and its cooperation with other educational organizations in Spain and the U.S. The records are a rich source for the study of educational reform and women's education in Spain, Spanish-U.S. cooperation, and the experience of Protestant missionaries in Catholic Spain.
+</p>
+<p>In the early 1970s the Corporation assigned the task of organizing the bulk of the records to retired IIGS librarian Enriqueta Martin. Left unfinished, Miss Martin's arrangement was disordered when the records were moved in the late 1970s. Her work survives in two forms: an annotated card file (Series VII - Lists) and notes attached to individual items within the records. These notes (in Spanish) describe, comment on, or refute the contents of each item and have been left in place as part of the record.</p>
+<p>The bulk of the material consists of files maintained in this country in the Boston office of the Corporation and by long-time Corresponding Secretary Mary Sweeney. Evidence contained in the records indicates that most of the early records produced and maintained in Spain were lost or destroyed during the Spanish Civil War. However, records kept in this country such as reports and published correspondence by founders Alice Gordon Gulick and William Hooker Gulick, and early directors such as Susan Huntington give insight into the early activities and progress of the school. The work of the Institute is best documented starting in 1950 due to the extensive records kept by Corresponding Secretary Mary Sweeney.</p>
+<p>Surviving records produced and maintained in Spain consist of correspondence files of the director (Series II), library records (Series VI), personnel files (Series IX), photographs (Series X), memorabilia (Series IV), and student papers (Series XIV). These records are most complete for the period between 1950 and the late 1970s.</p>
+<p>The records are divided into fifteen series: Academic Programs; Correspondence; Financial; Historical Materials and Memorabilia; Legal; Library; Lists; Minutes, Agendas, and Calls to Meetings; Personnel; Photographs; Publications; Reports; Speeches; Student Papers; and Affiliated Organizations and Programs.</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into fifteen series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Academic Programs</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Correspondence</ref>
+</item>
+<item>
+<ref target="list-ser3">III. Financial</ref>
+</item>
+<item>
+<ref target="list-ser4">IV. Historical Materials and Memorabilia</ref>
+</item>
+<item>
+<ref target="list-ser5">V. Legal</ref>
+</item>
+<item>
+<ref target="list-ser6">VI. Library</ref>
+</item>
+<item>
+<ref target="list-ser7">VII. Lists</ref>
+</item>
+<item>
+<ref target="list-ser8">VIII. Minutes, Agendas, and Calls to Meetings</ref>
+</item>
+<item>
+<ref target="list-ser9">IX. Personnel</ref>
+</item>
+<item>
+<ref target="list-ser10">X. Photographs</ref>
+</item>
+<item>
+<ref target="list-ser11">XI. Publications</ref>
+</item>
+<item>
+<ref target="list-ser12">XII. Reports</ref>
+</item>
+<item>
+<ref target="list-ser13">XIII. Speeches</ref>
+</item>
+<item>
+<ref target="list-ser14">XIV. Student Papers</ref>
+</item>
+<item>
+<ref target="list-ser15">XV. Affiliated and Related Organizations</ref>
+</item>
+</list>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The records are open for research according to the regulations of the Smith College Archives without any additional restrictions.</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the documents must be requested from the Smith College Archives.  Smith College owns copyright to any published material relating to college events and activities.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>International Institute for Girls in Spain Records, Box#, Smith College Archives.</p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>The International Institute For Girls in Spain Records were a gift to the Smith College Archives from the IIGS Corporation. The records arrived in 3 shipments in 1980, 1984, and 1986.</p>
+</acqinfo>
+<processinfo id="admin-process">
+<p>Processed by Maida Goodwin.</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Gulick, Alice Gordon, 1847-1903.</persname>
+<persname encodinganalog="600" source="lcnaf">Gulick, William H.</persname>
+<corpname encodinganalog="610" source="lcsh">Instituto Internacional (Madrid, Spain).</corpname>
+<subject encodinganalog="650" source="lcsh">Schools--Spain--History--Sources.</subject>
+<subject encodinganalog="650" source="lcsh">Women--Education (Higher)--Spain.</subject>
+<persname encodinganalog="700" source="lcnaf">Gulick, Alice Gordon, 1847-1903.</persname>
+<persname encodinganalog="700" source="lcnaf">Gulick, William H.</persname>
+</controlaccess>
+<descgrp type="add" id="addinfo">
+<head>Additional Information</head>
+<relatedmaterial id="add-related">
+<head>Related Material</head>
+<list>
+<item>32. 
+<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca13_main.html">Office of the President William Allan Neilson Files</extref></item>
+<item>42. 
+<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca40_main.html">Caroline Bourland Papers</extref></item>
+<item>42. Louisa Cheever Papers</item>
+<item>42. 
+<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca100_main.html">Mary Louise Foster Papers</extref></item>
+<item>50. Junior Year Abroad</item>
+<item>70. Maria de Maeztu</item>
+</list>
+</relatedmaterial>
+</descgrp>
+<dsc type="combined" id="contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I. ACADEMIC PROGRAMS</unittitle>
+</did>
+<scopecontent>
+<p>This series consists of circulars, clippings, course
+ work, plans, proposals, syllabuses, class lists, and
+ schedules for programs and proposed programs sponsored or
+ administered by the IIGS. The material dates almost
+ exclusively from 1950 through the late 1970s, when the
+ Institute's major programs were in English, library
+ science, and Psychology. The material is arranged
+ alphabetically by program name.</p>
+<p>Related material can be found in Series XII - Reports,
+ the correspondence of the Director with the Corresponding
+ Secretary in Series II, and in the Minutes of the
+ Corporation and its committees in Series VIII.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">1</container>
+<unittitle>English Program</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>General
+     <unitdate>1953-78, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>Course and program description
+     <unitdate>1972-77, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">3-4</container>
+<unittitle>Exams and course work
+     <unitdate>1961-73, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">5-6</container>
+<unittitle>Plans and schedules
+     <unitdate>1921-22,1961-76, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Teacher training course
+     <unitdate>1968-76, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>General
+     <unitdate>1912, 1967-79</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<unittitle>Library Science Program (Curso de
+   Biblioteconomia)</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>General
+     <unitdate>1952, 1962-79</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>Class lists
+     <unitdate>1957-63,1970-71</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>Syllabuses
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">12-13</container>
+<unittitle>University of Pittsburgh, proposed
+     collaboration
+     <unitdate>1977-78, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">14-16</container>
+<unittitle>Psychology Program (Programa de
+     Psicologia)
+     <unitdate>1966-77, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">17-19</container>
+<unittitle>Teaching English and Spanish as Second
+     Languages (proposed collaboration with George
+     Washington University)
+     <unitdate>l975-77, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">20</container>
+<unittitle>Third Year Program
+     <unitdate>1957-78, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II. CORRESPONDENCE</unittitle>
+</did>
+<scopecontent>
+<p>This series is divided into seven subseries, Boston
+ Secretary, Clerk, Corresponding Secretary, Director,
+ President, Treasurer, and General.</p>
+<p>Boston Secretary consists of the correspondence files
+ of the Corporation's secretary in Boston, Mass. The
+ material is primarily corporation membership
+ record-keeping and is divided into six sections: Clerk,
+ Corresponding Secretary, Director, President, Treasurer,
+ and General. Correspondence with all individuals other
+ than those holding positions in the first five sections
+ is filed in the last section, General.</p>
+<p>Correspondence files of the Clerk of the Corporation
+ appear in the second subseries filed chronologically. The
+ bulk of the material pertains to Corporation activities
+ in the U.S.</p>
+<p>The Corresponding Secretary (now known as "Executive
+ Secretary") is the Corporation's main link with the staff
+ in Spain. The correspondence contains ongoing reporting
+ of the activities of the Institute in Madrid, extensive
+ material on the selection of staff and scholarship
+ students, and on arrangements for IIGS foreign scholars'
+ study in the U.S. The files are divided into seven
+ sections: Boston Secretary, Clerk, Director, Liaison
+ Committee, President, Treasurer, and General. As with the
+ Boston Secretary's files above, the 'General' section
+ consists of correspondence with all individuals not
+ covered in the preceding sections. The Liaison Committee
+ section contains correspondence to members of the
+ committee which assumed the duties of the-Corresponding
+ Secretary for four years after the retirement of Mary
+ Sweeney in January 1964.</p>
+<p>The files in the fourth subseries reflect the
+ Director's duties as head of the educational and service
+ staff at the Institute and as the Corporation's
+ representative in dealings with the Spanish government
+ and the educational community in Madrid. The files also
+ show the Director's participation in the selection of
+ staff and scholarship recipients and her/his
+ responsibility for the maintenance of IIGS
+ building(s).</p>
+<p>The subseries is divided into six sections: Clerk,
+ Corresponding Secretary, President, Representative in
+ Spain, Treasurer, and General. The section
+ "Representative in Spain" contains correspondence with
+ Enriqueta Martin who acted on the Corporation's behalf in
+ Spain during World War II while Institute activities were
+ curtailed. Mary Sweeney was the director appointed by the
+ Corporation during this period but she remained in the
+ U.S. and Enriqueta Martin represented the Institute in a
+ semi-official capacity.</p>
+<p>The fifth and sixth subseries contain the files of the
+ President and the Treasurer of the Corporation each filed
+ chronologically. The President's files contain letters
+ written of behalf of the Corporation and the Treasurer's
+ files are principally about Institute and Corporation
+ finances.</p>
+<p>The seventh subseries, General, is divided into four
+ sections. The first, 'Miscellaneous' consists of
+ correspondence of staff members and Corporators of the
+ IIGS who are not in one of the six major positions in the
+ first five subseries. The second section, 'Ilene Avery',
+ consists of personal correspondence of one of the
+ Institute's directors which reflects her involvement in
+ the educational community in the U.S. and Spain, but is
+ not directly related to Institute business. The third
+ section is the correspondence of 'Enriqueta Martin',
+ long-time librarian of the Institute and director of the
+ Library Science Program. Her correspondence has been
+ separated from the bulk of the general correspondence
+ because of her long service and intense involvement with
+ the Institute. The fourth section is the correspondence
+ of 'Mary Sweeney' from the period immediately following
+ her retirement as Corresponding Secretary on January 1,
+ 1964. This correspondence has been isolated because she
+ continued to perform many of the duties of the
+ Corresponding Secretary while not actually holding the
+ post.</p>
+</scopecontent>
+<arrangement>
+<p>Correspondence in each of these sections is arranged
+ chronologically.</p>
+</arrangement>
+<c02>
+<did>
+<unittitle>Boston Secretary</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">21-31</container>
+<unittitle>Clerk
+     <unitdate>1921-50</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">32-41</container>
+<unittitle>Corresponding Secretary
+     <unitdate>1922-64, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">42-45</container>
+<unittitle>Director
+     <unitdate>1921-45, 1960-65</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">46-55</container>
+<unittitle>President
+     <unitdate>1919-39, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">2</container>
+<container type="folder">56-66</container>
+<unittitle>Treasurer
+     <unitdate>1921-25</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">67-95</container>
+<unittitle>Treasurer
+     <unitdate>1926-50, 1964</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">96-102</container>
+<unittitle>General
+     <unitdate>1921- 22</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">103-126</container>
+<unittitle>General
+     <unitdate>1922- 23</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<container type="folder">127-151</container>
+<unittitle>General
+     <unitdate>1923- 26</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">152-176</container>
+<unittitle>General
+     <unitdate>1926-31</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">177-199</container>
+<unittitle>General
+     <unitdate>1932-65, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">200-214</container>
+<unittitle>Clerk
+     <unitdate>19l0-66, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Corresponding Secretary</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">215</container>
+<unittitle>Boston Secretary
+     <unitdate>1926-33,1963-64</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">216-17</container>
+<unittitle>Clerk
+     <unitdate>1935-75, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">218-223</container>
+<unittitle>Director
+     <unitdate>1940-52</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">224-250</container>
+<unittitle>Director
+     <unitdate>1953-62</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">251-255</container>
+<unittitle>Director
+     <unitdate>1963-80, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">256</container>
+<unittitle>Liaison Committee
+     <unitdate>1963-66</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">257-260</container>
+<unittitle>President
+     <unitdate>1931-73, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">261-265</container>
+<unittitle>Treasurer
+     <unitdate>1939-69, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">266-281</container>
+<unittitle>General
+     <unitdate>1920-Sep 1951</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">282-308</container>
+<unittitle>General
+     <unitdate>1951-54</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">309-333</container>
+<unittitle>General
+     <unitdate>1954-56</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">334-359</container>
+<unittitle>General
+     <unitdate>1956-59</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">14</container>
+<container type="folder">360-384</container>
+<unittitle>General
+     <unitdate>1959-62</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">385-411</container>
+<unittitle>General
+     <unitdate>1962-70</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">412-424</container>
+<unittitle>General
+     <unitdate>1971-80, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Director</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">425</container>
+<unittitle>Clerk
+     <unitdate>1952,1977</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">426-439</container>
+<unittitle>Corresponding Secretary
+     <unitdate>1939-Mar 1955</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">440-471</container>
+<unittitle>Corresponding Secretary
+     <unitdate>Apr 1955-67</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">472-479</container>
+<unittitle>Corresponding Secretary
+     <unitdate>1968-72</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">480</container>
+<unittitle>President
+     <unitdate>1939-73, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">481</container>
+<unittitle>Representative in Spain
+     <unitdate>1939-43, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">482-495</container>
+<unittitle>Treasurer
+     <unitdate>1935-Mar 1975</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">496-498</container>
+<unittitle>Treasurer, Apr
+     <unitdate>1975-80 n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">499-524</container>
+<unittitle>General
+     <unitdate>1898-61</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<container type="folder">525-549</container>
+<unittitle>General
+     <unitdate>1962-Sep 1966</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">21</container>
+<container type="folder">550-576</container>
+<unittitle>General
+     <unitdate>1966-72</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">22</container>
+<container type="folder">577-596</container>
+<unittitle>General
+     <unitdate>1972-86, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">22</container>
+<container type="folder">597-601</container>
+<unittitle>President
+     <unitdate>1912-80, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">22</container>
+<container type="folder">602-606</container>
+<unittitle>Treasurer
+     <unitdate>1911-41</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">607-612</container>
+<unittitle>Treasurer
+     <unitdate>1942-80, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>General</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">613-621</container>
+<unittitle>Miscellaneous
+     <unitdate>1893-1979, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">622-627</container>
+<unittitle>Ilene Avery
+     <unitdate>1964-70, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">628-634</container>
+<unittitle>Enriqueta Martin
+     <unitdate>1925-39, 1950- 71, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">635-651</container>
+<unittitle>Mary Sweeney
+     <unitdate>1963-67, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III. FINANCIAL</unittitle>
+</did>
+<scopecontent>
+<p>The records in this series consist of accounts, budget
+ summaries, annual and other forms of financial reports,
+ and topical files on building, donations, rents,
+ salaries, and tuition. None are complete. Some of the
+ records were maintained in Spain by IIGS staff and others
+ by the Treasurer in the United States and are so
+ identified on the folder title list where possible.</p>
+<p>In addition to covering daily operating expenses and
+ annual budgets, the records also contain some information
+ about policies and the IIGS financial relationship with
+ Estudio.</p>
+<p>Related material may be found in the Treasurer's
+ Correspondence - Series II and in the Minutes - Series
+ VIII.</p>
+</scopecontent>
+<arrangement>
+<p>The records are arranged alphabetically by type and
+ then chronologically within each type.</p>
+</arrangement>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">652</container>
+<unittitle>Accounts, IIGS
+<unitdate>1911</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">653</container>
+<unittitle>Accounts, Spain
+<unitdate>1928-46</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">654</container>
+<unittitle>Accounts, Spain
+<unitdate>1946-51</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">25</container>
+<container type="folder">655-658</container>
+<unittitle>Accounts, Spain, Estudio-IIGS
+<unitdate>1952-68</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">25</container>
+<container type="folder">659</container>
+<unittitle>Accounts, US
+<unitdate>1948-59</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">25</container>
+<container type="folder">660-661</container>
+<unittitle>Accounts, US
+<unitdate>1958-62</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">25</container>
+<container type="folder">662-666</container>
+<unittitle>Accounts, US, Stocks
+<unitdate>1958-74</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">25</container>
+<container type="folder">667-674</container>
+<unittitle>Annual and other Financial Reports
+<unitdate>1910-54</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">675-677</container>
+<unittitle>Annual and other Financial Reports
+<unitdate>1960-81</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">678</container>
+<unittitle>Audits
+<unitdate>1927-31</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">679-680</container>
+<unittitle>Budget, Spain
+<unitdate>1967-72</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">681-682</container>
+<unittitle>Budget Summaries
+<unitdate>1962-66, 1973-80</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">683-684</container>
+<unittitle>Building Costs
+<unitdate>1910-50, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">685-686</container>
+<unittitle>Donations and Gifts
+<unitdate>1897-1937, 1969-71</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">687</container>
+<unittitle>Rents
+<unitdate>1971-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">688</container>
+<unittitle>Salaries
+<unitdate>1965-77</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">26</container>
+<container type="folder">689</container>
+<unittitle>Tuition Rates
+<unitdate>1914-15</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser4">
+<did>
+<unittitle>Series IV. HISTORICAL MATERIALS AND
+ MEMORABILIA</unittitle>
+</did>
+<scopecontent>
+<p>This series is divided into four subseries: General,
+ Biography, Reminiscences, and Memorabilia.</p>
+<p>The General historical materials consist of clippings,
+ pamphlets and manuscripts on the history of the
+ Institute, endorsements of Institute activities, and
+ appeals for funds. Biography contains clippings,
+ tributes, memorabilia, and manuscripts by and about some
+ of the major individuals in the history of the Institute
+ such as founders, benefactors, staff, and alumnae.
+ Reminiscences contains transcripts and notes on
+ interviews with alumnae and staff, a manuscript on the
+ Library Science Program, and a set of responses to a
+ questionnaire sent to alumnae. Memorabilia consists of
+ such items as floor plans, diplomas, report cards, a
+ guestbook, invitations, programs, scrapbooks, and school
+ songs from various periods in the Institute's history
+ reflecting activities in Spain and the U.S.</p>
+</scopecontent>
+<arrangement>
+<p>Within each subseries the material is arranged
+ alphabetically by subject.</p>
+</arrangement>
+<c02>
+<did>
+<unittitle>General</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">690-694</container>
+<unittitle>Clippings, manuscripts, pamphlets
+     <unitdate>1889-l978, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">695</container>
+<unittitle>"An Outline History of the International
+     Institute for Girls in Spain, 1877-1980" by Joan C.
+     Ullman
+     <unitdate>1980</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">696</container>
+<unittitle>Articles and papers by Carmen de Zulueta
+     <unitdate>1975-76, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">697</container>
+<unittitle>Activities, Spain: clippings
+     <unitdate>1888-1979, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">698</container>
+<unittitle>Activities, U.S.: clippings
+     <unitdate>1903-14</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">699</container>
+<unittitle>Appeals
+     <unitdate>1881-1914, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">700</container>
+<unittitle>Endorsements
+     <unitdate>1903</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<container type="folder">701</container>
+<unittitle>Miscellaneous
+     <unitdate>1894-1961, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Biography</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">702</container>
+<unittitle>Catherine Hayden Barbour,
+     tributes,clippings,
+     <unitdate>1901-02, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Alice Gordon Gulick</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">703</container>
+<unittitle>Clippings and tributes
+<unitdate>1894-1372, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">704</container>
+<unittitle>Drafts and bibliography for Notable
+ American Women, article by Mary Sweeney
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">705</container>
+<unittitle>Memorabilia,
+<unitdate>1903, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">706</container>
+<unittitle>William Hooker Gulick: clipping, tribute
+     <unitdate>1906, 1912</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Enriqueta Martin</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">707</container>
+<unittitle>Autobiographical sketch
+<unitdate>1971 Jun</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">708</container>
+<unittitle>"Espana": manuscript
+<unitdate>1972 Apr 5</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">709</container>
+<unittitle>"Excursions con el Sr. Giner,1932-33":
+ journal
+<unitdate>1933 Oct</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">710</container>
+<unittitle>"Recuerdos de Bibliotecas
+ Norteamericanas:"manuscript
+<unitdate>1961 Apr 18</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">711</container>
+<unittitle>Susan H. Vernon: clippings, tributes
+     <unitdate>1910-52, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">712</container>
+<unittitle>Miscellaneous
+     <unitdate>clippings, tributes, 1906-61</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Reminiscences</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">713</container>
+<unittitle>Interviews with alumnae and staff:
+     transcripts and notes
+     <unitdate>1967-75, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">714</container>
+<unittitle>"Memoria del Cursillo de Bibliotecarias"
+     <unitdate>1949</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">715</container>
+<unittitle>Questionnaire to Antiquismas Alumnas del
+     Instituto Internacional
+     <unitdate>1970</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Memorabilia</unittitle>
+</did>
+<c03>
+<did>
+<unittitle>Buildings</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">716</container>
+<unittitle>Floor and garden plans
+<unitdate>1917, 1975</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">27</container>
+<container type="folder">717</container>
+<unittitle>Inventories
+<unitdate>1923, 1955</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">718</container>
+<unittitle>Certificates and diplomas
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">719</container>
+<unittitle>Guest book
+     <unitdate>1913-61</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">720</container>
+<unittitle>Hymns, poems, and songs
+     <unitdate>1896, 1902</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<container type="folder">721-722</container>
+<unittitle>Invitations and programs
+     <unitdate>1883-1910</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">723</container>
+<unittitle>Invitations and programs
+     <unitdate>1913-75, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">724</container>
+<unittitle>Logo
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">725-726</container>
+<unittitle>Miscellaneous
+     <unitdate>1874-1968, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">727-728</container>
+<unittitle>Activities of the Corporation in US:
+     announcements, invitations, and programs
+     <unitdate>1900-39, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<container type="folder">729</container>
+<unittitle>Report cards
+     <unitdate>1889-1910</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">29-30</container>
+<unittitle>Scrapbooks, photo albums, drawings of the
+     Institute
+     <unitdate>1893-1977, n.d</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser5">
+<did>
+<unittitle>Series V. LEGAL</unittitle>
+</did>
+<scopecontent>
+<p>This series consists of major legal documents in the
+ history of the Institute arranged chronologically.
+ Included are agreements and leases with the Spanish
+ government and the US Department of State, material on
+ bequests to the Institute, building sales, changes in
+ by-laws, and personnel complaints.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">730</container>
+<unittitle>Papers of incorporation of IIGS
+<unitdate>1892</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">731</container>
+<unittitle>Homer Lockwood bequest
+<unitdate>1895, 1915-16</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">732</container>
+<unittitle>Florence Sanborn bequest
+<unitdate>1905, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">733</container>
+<unittitle>Power of attorney, Susan Huntington
+<unitdate>1912</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">734</container>
+<unittitle>Agreements between the IIGS and the Junta
+   para Ampliacion de Estudios e Investigaciones
+   Cientficas
+<unitdate>1918-24</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">735</container>
+<unittitle>Sale of Building at Fortuny 53,
+<unitdate>1919-25, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">736</container>
+<unittitle>Leases with Junta para Ampliacion de
+   Estudios e Investigaciones Cientificas
+<unitdate>1919-30</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">737</container>
+<unittitle>Power of attorney, May Gardner
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">738</container>
+<unittitle>Instrument of Purchase and Sale for building
+   at Fortuny 53
+<unitdate>1927</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">739</container>
+<unittitle>Power of attorney, Mary Sweeney
+<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">740</container>
+<unittitle>Contract with Instituto de Espana
+<unitdate>1941</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">741</container>
+<unittitle>Agreement with U.S. Department of State
+<unitdate>c. 1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">742</container>
+<unittitle>Leases with Coleglo-Estudio
+<unitdate>1950-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">743</container>
+<unittitle>Agreement with US Department of State
+<unitdate>c. 1951</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">744</container>
+<unittitle>Application to Ministry of Education for
+   recognition as an educational institution
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">745</container>
+<unittitle>Power of attorney, Dorothy N. Marshall
+<unitdate>1975, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">746</container>
+<unittitle>Brief re firing of Ilene Avery
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">747</container>
+<unittitle>Opinion on complaint brought by librarians
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">748</container>
+<unittitle>Revocation of power of attorney, Ilene Avery
+<unitdate>1978</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">749</container>
+<unittitle>Claim on Fortuny 53
+<unitdate>1978-79, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">750</container>
+<unittitle>By-law changes
+<unitdate>1980</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser6">
+<did>
+<unittitle>Series VI. LIBRARY</unittitle>
+</did>
+<scopecontent>
+<p>This series is made up of acquisitions lists and notes
+ and miscellaneous papers pertaining to the maintenance of
+ the IIGS library.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">751-752</container>
+<unittitle>Acquisitions lists
+<unitdate>1957-78, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">753</container>
+<unittitle>Accession book
+<unitdate>1956-66</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">754-757</container>
+<unittitle>Ultimas Adquisiciones [published list]
+<unitdate>1952-79</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">758</container>
+<unittitle>Rules for the organization of the Library
+   and Children's Library
+<unitdate>1929, 1956</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser7">
+<did>
+<unittitle>Series VII. LISTS</unittitle>
+</did>
+<scopecontent>
+<p>This series is made up of lists of students, staff,
+ and corporators of the Institute filed chronologically
+ and the card file listing of IIGS records made by
+ Enriqueta Martin in the early 1970s.</p>
+</scopecontent>
+<arrangement>
+<p>The card file is arranged according to Martin's file
+ (carpeta) numbers.</p>
+</arrangement>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">759</container>
+<unittitle>Miscellaneous: clippings and notes
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">760</container>
+<unittitle>Alumnae/students
+<unitdate>c.1935-c.1968</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">761</container>
+<unittitle>Committees of the Corporation
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">31</container>
+<container type="folder">762-764</container>
+<unittitle>Directors and Members of the Corporation
+<unitdate>1913, 1936-64</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">32</container>
+<container type="folder">765-768</container>
+<unittitle>Directors and Members of the Corporation
+<unitdate>1965-74, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">32</container>
+<container type="folder">769</container>
+<unittitle>Staff, yearly
+<unitdate>1911-78</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">32</container>
+<container type="folder">770</container>
+<unittitle>Staff, compilation
+<unitdate>1908, c.1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">32</container>
+<container type="folder">771</container>
+<unittitle>Supporters and associates
+<unitdate>1936, c.1967,</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">32</container>
+<container type="folder">772</container>
+<unittitle>Guide to Enriqueta Martin's card files
+<unitdate>c.1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Card files - Membership</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Special donations
+     <unitdate>1915-29</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Mailing list
+     <unitdate>c.1922</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Resigned and deceased
+     <unitdate>c.1914-39</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Advisory Council
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Memorial and Life Members
+     <unitdate>c.1915-30</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Corporators
+     <unitdate>c.1939-65</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Directors and Corporators
+     <unitdate>c.1912-45</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Staff and Active Members
+     <unitdate>c.1945-65</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Card files - Enriqueta Martin</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">34</container>
+<unittitle>Carpeta nos. 1-17
+     <unitdate>c.1973</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">35</container>
+<unittitle>Carpeta nos. 18-59
+     <unitdate>c.1973</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">35</container>
+<unittitle>Curso de 1974-75
+     <unitdate>c.1973</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">35</container>
+<unittitle>Alphabetical index to filing system
+     <unitdate>c.1973</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser8">
+<did>
+<unittitle>Series VIII. MINUTES, AGENDAS, AND CALLS TO
+ MEETINGS</unittitle>
+</did>
+<scopecontent>
+<p>This series consists of incomplete sets of minutes of
+ the major governing groups of the IIGS Corporation in the
+ U.S., some of the Corporation's committees, and some
+ groups of Institute staff.</p>
+</scopecontent>
+<arrangement>
+<p>The material is arranged by committee or group and
+ filed chronologically. Within each group, where such
+ material occurs, agendas and calls to meetings are filed
+ in a separate chronological sequence.</p>
+</arrangement>
+<c02>
+<did>
+<unittitle>Board of Directors and
+   Corporators</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">36</container>
+<container type="folder">773-774</container>
+<unittitle>Agendas and calls to meetings
+     <unitdate>1915-80, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">36</container>
+<container type="folder">775-782</container>
+<unittitle>Minutes
+     <unitdate>1895-1957</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">783-801</container>
+<unittitle>Minutes
+     <unitdate>1958-85, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">802</container>
+<unittitle>Notes on minutes by Enriqueta Martin
+     <unitdate>1912-16</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Executive and Liaison Committees</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">37</container>
+<container type="folder">803-804</container>
+<unittitle>Agendas and calls to meetings
+     <unitdate>1951-65</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">38</container>
+<container type="folder">805-811</container>
+<unittitle>Minutes, 1915-17
+     <unitdate>1950-82</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">812</container>
+<unittitle>Discussion Group on future of IIGS
+<unitdate>1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">813-816</container>
+<unittitle>English Department Teachers: minutes
+<unitdate>1958-67</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">817</container>
+<unittitle>Estudio English Teachers: minutes
+<unitdate>1960-61</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">818</container>
+<unittitle>English Program Committee: minutes
+<unitdate>1963-65</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">819-820</container>
+<unittitle>Junta Asesora [Advisory Group]: minutes
+<unitdate>1969-78</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">821</container>
+<unittitle>Library Staff: minutes
+<unitdate>1947, 1961-78</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">822</container>
+<unittitle>Miscellaneous, committees and groups
+<unitdate>1922-79</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser9">
+<did>
+<unittitle>Series IX. PERSONNEL</unittitle>
+</did>
+<scopecontent>
+<p>This series consists of forms, receipts, and
+ certificates on personnel, plus curriculum vitae for
+ staff, student assistants, and participants in the IIGS
+ Foreign Scholars Program.</p>
+</scopecontent>
+<arrangement>
+<p>The forms, receipts, and certificates are arranged
+ chronologically. The curriculum vitae are arranged
+ alphabetically.</p>
+</arrangement>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">823-824</container>
+<unittitle>General: forms, receipts, certificates
+<unitdate>1946-63, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">38</container>
+<container type="folder">825-826</container>
+<unittitle>Curriculum vitae, A-Z
+<unitdate>1955-65, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser10">
+<did>
+<unittitle>Series X. PHOTOGRAPHS</unittitle>
+</did>
+<scopecontent>
+<p>This series consists of photographs, negatives and
+ slides, each filed separately. The photographs and
+ negatives are divided into six parallel sections by
+ subject: Buildings, Events, Staff, Students, Affiliated
+ Organizations and Programs, and Miscellaneous.</p>
+</scopecontent>
+<arrangement>
+<p>The slides, which appear to have been made to
+ accompany a talk on the history of the Institute (n.d.),
+ are arranged chronologically.</p>
+</arrangement>
+<c02>
+<did>
+<unittitle>Buildings</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">39</container>
+<container type="folder">827</container>
+<unittitle>Fortuny 53 (original in Madrid)
+     <unitdate>1901, 1922</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">39</container>
+<unittitle>Miguel Angel 8 (Alice Gordon Gulick
+     Memorial Hall)</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">39</container>
+<container type="folder">828-829</container>
+<unittitle>Exteriors, general
+<unitdate>1910, 1951-56</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">39</container>
+<container type="folder">830</container>
+<unittitle>Exteriors, garden
+<unitdate>1970-71, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">39</container>
+<container type="folder">831-832</container>
+<unittitle>Interiors, general
+<unitdate>1951-59, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">39</container>
+<container type="folder">833-834</container>
+<unittitle>Interiors, Director's suite
+<unitdate>1958-60, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">39</container>
+<container type="folder">835</container>
+<unittitle>Interiors, hall and staircase
+<unitdate>1915,1951</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">39</container>
+<container type="folder">836-837</container>
+<unittitle>Interiors, library
+<unitdate>1912-70, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">39</container>
+<container type="folder">838</container>
+<unittitle>Interiors, children's library
+<unitdate>1936-69, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Events</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">39</container>
+<container type="folder">839</container>
+<unittitle>Miscellaneous
+     <unitdate>1953-72, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">39</container>
+<container type="folder">840</container>
+<unittitle>Christmas Party
+     <unitdate>1950-62, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">39</container>
+<container type="folder">841-842</container>
+<unittitle>Dramatics
+     <unitdate>1913, 1957-59</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">39</container>
+<container type="folder">843-845</container>
+<unittitle>Graduation
+     <unitdate>1951-63</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">39</container>
+<container type="folder">846-847</container>
+<unittitle>Halloween party
+     <unitdate>1958-63</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">39</container>
+<container type="folder">848</container>
+<unittitle>Party for Dorothy Marshall
+     <unitdate>1971</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">849-851</container>
+<unittitle>Welcoming Party
+     <unitdate>1957-62</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">852-853</container>
+<unittitle>Trips
+     <unitdate>1921-71, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Staff</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">854</container>
+<unittitle>Miscellaneous
+     <unitdate>1915-70, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">855</container>
+<unittitle>Groups
+     <unitdate>1944-66, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">856</container>
+<unittitle>English department
+     <unitdate>1970-72, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">857</container>
+<unittitle>Library
+     <unitdate>1934-72, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">858</container>
+<unittitle>Alice Gordon Gulick, William Booker Gulick
+<unitdate>1871, 1875</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">859</container>
+<unittitle>Enriqueta Martin
+     <unitdate>1924-61, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">860</container>
+<unittitle>Mary Sweeney
+     <unitdate>1932-56, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">861</container>
+<unittitle>Directors and Corporators
+     <unitdate>1930-56, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Students</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">862</container>
+<unittitle>Groups
+     <unitdate>1880-1933, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">863</container>
+<unittitle>Classes, general
+     <unitdate>1914-15, 1969-70, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">864</container>
+<unittitle>Classes, English department
+     <unitdate>1957-61</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">865</container>
+<unittitle>Classes, library science
+     <unitdate>1936-70</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Miscellaneous</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">866</container>
+<unittitle>Alumnae
+     <unitdate>1954, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">867</container>
+<unittitle>Book of photos
+     <unitdate>1951</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">868-869</container>
+<unittitle>General and unidentified
+     <unitdate>1875-1961</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Affiliated Organizations and
+   Programs</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">870</container>
+<unittitle>Antiquas Alumnas del Instituto
+     Internacional
+     <unitdate>1971</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">871</container>
+<unittitle>Asociacion de Diplomados del Instituto
+     Internacional
+     <unitdate>1956-57</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">40</container>
+<container type="folder">872</container>
+<unittitle>Colegio Internacional para Senoritas
+     <unitdate>1915, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Colegio Estudio</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">40</container>
+<container type="folder">873</container>
+<unittitle>Miscellaneous
+<unitdate>1967, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">40</container>
+<container type="folder">874</container>
+<unittitle>Classes
+<unitdate>1950, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">41</container>
+<container type="folder">875-876</container>
+<unittitle>Dramatics
+<unitdate>1950-74</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">41</container>
+<container type="folder">878</container>
+<unittitle>Picture books
+<unitdate>1951</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">879</container>
+<unittitle>Colonia Pax
+     <unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">880</container>
+<unittitle>Instituto Escuela,
+     <unitdate>1924, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">881</container>
+<unittitle>Residencia de Senoritas
+     <unitdate>1919, 1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">882</container>
+<unittitle>Third Year Programs
+     <unitdate>1958-62, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">883</container>
+<unittitle>Slide list</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">41</container>
+<container type="folder">884</container>
+<unittitle>Glass plate negatives (3)</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">41</container>
+<unittitle>Negatives, with prints</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">42</container>
+<unittitle>Buildings</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">43</container>
+<unittitle>Events, Staff</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">44</container>
+<unittitle>Students, Miscellaneous, Affiliated
+     Organizations and Programs</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">45</container>
+<unittitle>Negatives, no prints</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">46</container>
+<unittitle>Slides</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser11">
+<did>
+<unittitle>Series XI. PUBLICATIONS</unittitle>
+</did>
+<scopecontent>
+<p>This series is made up of newsletters, published
+ reports, catalogs, and historical and informational
+ pamphlets published by staff and students of the
+ Institute in Spain or by the Corporation in the U.S. The
+ scrapbooks in Series IV contain issues of publications
+ not available in this series.</p>
+</scopecontent>
+<arrangement>
+<p>The material is arranged in two sections as follows:
+ named series are filed by title, and other items are
+ filed by type of publication.</p>
+</arrangement>
+<c02>
+<did>
+<container type="box">47</container>
+<container type="folder">885-889</container>
+<unittitle>Annual Reports
+<unitdate>1901-22</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">47</container>
+<container type="folder">890-892</container>
+<unittitle>Bulletins
+<unitdate>1903-11, 1968</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">47</container>
+<container type="folder">893</container>
+<unittitle>By-Laws of the Directors
+<unitdate>1908, 1916, 1952</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">47</container>
+<container type="folder">894-896</container>
+<unittitle>English Department Bulletin
+<unitdate>1968-76</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">47</container>
+<container type="folder">897</container>
+<unittitle>E.E.C. Mews
+<unitdate>1959-60</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">47</container>
+<container type="folder">898</container>
+<unittitle>La Generacion del 78, Mar
+<unitdate>1978?</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">47</container>
+<container type="folder">899-903</container>
+<unittitle>Institute News
+<unitdate>1955-62</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">904-905</container>
+<unittitle>Institute News
+<unitdate>1962-64</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">906</container>
+<unittitle>Letter from Spain
+<unitdate>1884-85</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">907</container>
+<unittitle>Newsletter
+<unitdate>1969-71</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">908-910</container>
+<unittitle>Notes and News
+<unitdate>1922-65</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">911</container>
+<unittitle>Report of a Public Meeting of the Officers
+   and Friends of the IIGS
+<unitdate>1903, 1911</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">912</container>
+<unittitle>Yellow, Red, White and Blue
+<unitdate>1915</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">913</container>
+<unittitle>Histories
+<unitdate>1907-1986</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">914</container>
+<unittitle>Reprints
+<unitdate>1910-37</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">915</container>
+<unittitle>Fund-raising pamphlets
+<unitdate>1891-1910</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">916-917</container>
+<unittitle>Informational pamphlets and brochures
+<unitdate>1892-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser12">
+<did>
+<unittitle>Series XII. REPORTS</unittitle>
+</did>
+<scopecontent>
+<p>This series consists of unpublished reports prepared
+ by Institute staff, committees, advisory and affiliated
+ groups, directors, and corporators, filed
+ chronologically. Reports that were clearly designated as
+ intended for meetings of the Board or its committees, or
+ were entered into the minutes, are filed with the minutes
+ (Series VIII). Reports that were published are filed in
+ Series XI - Publications. Similar material can be found
+ throughout the files of the Corresponding Secretary in
+ Series II.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">48</container>
+<container type="folder">918-933</container>
+<unittitle>1881-82 through 1957-58</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">49</container>
+<container type="folder">934-954</container>
+<unittitle>1958-59 through 1965-66</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">50</container>
+<container type="folder">955-978</container>
+<unittitle>1966-67 through 1980, n.d.</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser13">
+<did>
+<unittitle>Series XIII. SPEECHES</unittitle>
+</did>
+<scopecontent>
+<p>This series consists of texts of seven speeches given
+ at Institute or Corporation gatherings.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">979</container>
+<unittitle>"Behind the Headlines from Spain," Saville
+   Davis
+<unitdate>24 Feb 1939</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">980</container>
+<unittitle>Commencement Address
+<unitdate>1896</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">981</container>
+<unittitle>Commencement Address, [Joan Connelly ?]
+<unitdate>3 Jun 1961</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">982</container>
+<unittitle>Commencement Address, Mary Sweeney,
+<unitdate>Jun 1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">983</container>
+<unittitle>Commencement Address, [Joan Appel ?]
+<unitdate>8 Jun 1963</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">984</container>
+<unittitle>Service in Memory of Jean Betty
+   Bratton,Ilene Avery
+<unitdate>23 Oct 1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">985</container>
+<unittitle>"Welcome to all of you. . ."
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser14">
+<did>
+<unittitle>Series XIV. STUDENT PAPERS</unittitle>
+</did>
+<scopecontent>
+<p>This series is made up of papers in Spanish and/or
+ English written by Institute students as part of their
+ course work. They are arranged by title. Paper topics
+ include: the history of the Institute, reports of IIGS
+ activities, women's education, education in Spain,
+ library science, and current events.</p>
+</scopecontent>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">986</container>
+<unittitle>"Alice Gordon Gulick: The Pioneer," Esther
+   Perez de King
+<unitdate>1953</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">987</container>
+<unittitle>"An American Pioneer in Spain"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">988</container>
+<unittitle>"The Arrival at the International
+   Institute," Esther
+<unitdate>Perez de King n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">989</container>
+<unittitle>"The Art Class," Esther Perez de King,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">990</container>
+<unittitle>"Art in General Education," Maria de las
+   Nieves Largacha
+<unitdate>Oct 1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">991</container>
+<unittitle>"A Birthday Greeting," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">992</container>
+<unittitle>"Bodas Reales," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">993</container>
+<unittitle>"The Christmas Play," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">994</container>
+<unittitle>"Classes on Librarianship in the Provinces"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">995</container>
+<unittitle>"Cornwall: Un Estudio Bibliotecario,"
+   Josefina R. Sanjuro Salgado
+<unitdate>1959</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">996</container>
+<unittitle>"Compleavos Feliz," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">997</container>
+<unittitle>"Curso de Verano Para Bibliotecarios en la
+   Ciudad de Birmingham," E. Verdia Maceiros
+<unitdate>1955</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">998</container>
+<unittitle>"Escape," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">999</container>
+<unittitle>"Escuela Superior del Magisterio," Maria
+   Rosa Urabayen
+<unitdate>1914?</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1000</container>
+<unittitle>"Espana," Judith Brinkerhoff
+<unitdate>Jan 1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1001</container>
+<unittitle>"Friends and Neighbors,"Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1002</container>
+<unittitle>"La Funcion de Navidad," Esther Perez de
+   King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1003</container>
+<unittitle>"The Gables," Jose Ausorus
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1004</container>
+<unittitle>Graduation,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1005</container>
+<unittitle>"Guantes Blancos," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1006</container>
+<unittitle>"Habia . . ." Iva Felipe Orejon
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1007</container>
+<unittitle>"Happy Birthday"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1008</container>
+<unittitle>"How She Raised Money for the Institute,"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1009</container>
+<unittitle>"Impressiones y Ensenanzas Obtenidas en el
+   Viaje Realizado a Paris para Estudiar la Organizacion y
+   Funcionamiento de Algunas Bibliotecas - Memoria," Maria
+   Rodriguez Gomez,
+<unitdate>Oct. 7, 1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1010</container>
+<unittitle>"The Institucion Libre de Ensenanza," Esther
+   Perez de King,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1011</container>
+<unittitle>"Llegada al Instituto," Esther Perez de
+   King</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1012</container>
+<unittitle>"Luncheon at the Embassy," Esther Perez de
+   King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1013</container>
+<unittitle>"Luz de Mes Ojos," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1014</container>
+<unittitle>"Memoria," Dolores Corrons Rodriguez
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1015</container>
+<unittitle>"La Mujer en Espana, 186C-1960,"
+<unitdate>n.d</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1016</container>
+<unittitle>"My Scholarship in Cambridge," Maria del
+   Carmen Gil Fernandez
+<unitdate>Nov 1, 1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1017</container>
+<unittitle>"A Night at the Opera," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1018</container>
+<unittitle>"Papa Visits the Institute," Esther Perez de
+   King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1019</container>
+<unittitle>"La Profesora de Frances"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1020</container>
+<unittitle>La Profesora de Gimnasia,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1021</container>
+<unittitle>"La Profesora de Labores,"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1022</container>
+<unittitle>"El Profesor de Musica - Report," Gloria
+   Muniz
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1023</container>
+<unittitle>Report, Gloria Muniz
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1024</container>
+<unittitle>"Royal Wedding" Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1025</container>
+<unittitle>"A Spanish Burro at the English Embassy,"
+   Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1026</container>
+<unittitle>"The Spanish Carnival," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1027</container>
+<unittitle>"The Spanish Faculty," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1028</container>
+<unittitle>"The Story of the Instituto Escuela," Esther
+   Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1029</container>
+<unittitle>"A Trip to E1 Escarral," Esther Perez de
+   King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1030</container>
+<unittitle>The Tumbola,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1031</container>
+<unittitle>"Two Months in London," Marien Rivera
+<unitdate>1955</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1332</container>
+<unittitle>"University of Leicester - Vacation Course,"
+   Maria de las Nieves Largacha
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1033</container>
+<unittitle>"Una Visita al Teatro Real," Esther Perez de
+   King</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1034</container>
+<unittitle>"Voyage to England," Carmen Castilla
+<unitdate>1950</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1035</container>
+<unittitle>"White Gloves," Esther Perez de King
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">51</container>
+<container type="folder">1036</container>
+<unittitle>Wornen's Education Outside the Institute,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser15">
+<did>
+<unittitle>Series XV. AFFILIATED AND RELATED
+ ORGANIZATIONS</unittitle>
+</did>
+<scopecontent>
+<p>This series consists of circulars, clippings,
+ correspondence, memorabilia, minutes, reports, and
+ miscellaneous papers produced by organizations affiliated
+ with but not sponsored by the Institute. Groups
+ represented include alumnae organizations, educational
+ groups with which the IIGS collaborated, and groups that
+ rented space in the IIGS building (s).</p>
+</scopecontent>
+<arrangement>
+<p>The material is arranged by organization name.</p>
+</arrangement>
+<c02>
+<did>
+<container type="box">52</container>
+<container type="folder">1037</container>
+<unittitle>Anitiguas Alumnas del Instituto
+   Internacional: letter, list
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Asociacion de Diplomados del Instituto
+   Internacional</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">52</container>
+<container type="folder">1038</container>
+<unittitle>Correspondence
+     <unitdate>1950-61, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">52</container>
+<container type="folder">1039</container>
+<unittitle>Legal: constitution, regulations
+     <unitdate>1950-56, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">52</container>
+<container type="folder">1040</container>
+<unittitle>Membership lists
+     <unitdate>1956-57, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">52</container>
+<container type="folder">1041</container>
+<unittitle>Minutes
+     <unitdate>1956-57</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">52</container>
+<container type="folder">1042</container>
+<unittitle>Reports
+     <unitdate>1950-63, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">52</container>
+<container type="folder">1043</container>
+<unittitle>Scholarship: announcements
+     <unitdate>1955-64, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">52</container>
+<container type="folder">1044</container>
+<unittitle>Speech on the History of the Asociacion by
+     Josefina Sanchez-Pedreno,
+     <unitdate>13 May 1950</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">52</container>
+<container type="folder">1045</container>
+<unittitle>Programs, announcements, clippings
+     <unitdate>1950-55, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Scrapbooks,
+<unitdate>1948-68</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">53</container>
+<container type="folder">1046</container>
+<unittitle>Ciclo Cultural Politeia
+     <unitdate>1970-76</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">53</container>
+<container type="folder">1047</container>
+<unittitle>Colegio Estudio
+     <unitdate>1954-66, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">53</container>
+<container type="folder">1048</container>
+<unittitle>Colegio Internacional
+     <unitdate>1907-86, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">53</container>
+<container type="folder">1049</container>
+<unittitle>Colonia Pax
+     <unitdate>1939-41</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">53</container>
+<container type="folder">1050</container>
+<unittitle>Instituto-Escuela de secunda ensenanza
+     <unitdate>1923-29, 1978,</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">53</container>
+<container type="folder">1051</container>
+<unittitle>International Institute League
+     <unitdate>1903-23, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">53</container>
+<container type="folder">1052</container>
+<unittitle>Residencia de Senoritas
+     <unitdate>1929-65 n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">53</container>
+<container type="folder">1053</container>
+<unittitle>Third Year programs,
+     <unitdate>1958-78, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

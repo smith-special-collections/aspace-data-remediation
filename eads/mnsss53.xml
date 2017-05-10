@@ -1,0 +1,1399 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss53.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss53</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Marie Munk Papers, 1901-1976
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Burd Schlessinger.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-06</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss53 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Marie Munk Papers, 1901-1976
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 111
+      </num>
+         <author encodinganalog="245$c">Burd Schlessinger
+      </author>
+         <date>2000
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Munk, Marie, 1885-1978</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Marie Munk Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1901-1976</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 111</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">13 boxes</extent>
+            <extent encodinganalog="300$a">(4.5 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Lawyer, judge, and marriage counselor. The Marie Munk papers include correspondence, writings, and memorabilia. The collection documents her work on domestic relations, marriage counseling, juvenile delinquency, and women's rights.  Of special interest are manuscripts, written in both English and German, on the position of women before and after World War I; her experiences as a judge in pre-Hitler Germany; and an oral history conducted at Smith College in 1971.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English</language> and 
+            <language langcode="ger">German</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p>Marie Munk was born in Berlin (then Prussia) on July 4, 1885.  She graduated from Kaiserin Augusta Gymnasium and received her Doctor of Laws degree from Heidelberg University in 1911.  Having passed the two necessary bar exams in 1920 and 1924, Munk began work with the Prussian Ministry of Justice.  In 1925 she became the first woman admitted to practice law in Berlin and was appointed District Court Judge in 1929.  Because she was of Jewish descent, by Nazi law she was dismissed in 1933.  Munk first visited the United States in 1933 at the invitation of the International Federation of Business and Professional Women as a delegate to the International Congress of Women in Chicago.  She returned in 1934, having secured a position at the New York School for Delinquent Girls.  In 1943 Munk was admitted to the Massachusetts Bar.  She went on to work as a marriage counselor for the Court of Common Pleas in Toledo, Ohio, then settled permanently in Cambridge, Massachusetts i</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Marie Munk papers consist 4 linear feet of correspondence, writings, printed material and memorabilia. There is documentation of Munk's early career in articles from the U.S. and Germany, and in personal and business correspondence. Although there are some letters from her brother (1914-1915), most correspondence dates from 1934. Of particular interest are letters from musicologist Sophie Drinker (1952-66). There are numerous publications by Munk, as well as manuscripts in both German and English, including material on domestic relations, marriage and marriage counseling, juvenile delinquency, and women's rights. Of special interest are manuscripts on the position of women before and after World War I, written for the International Federation of Business and Professional Women; Munk's reminiscences of her experiences as a judge in pre-Hitler Germany (1945); and a proposal by Munk to reunify East and West Berlin (1948).</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into five series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical Material</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Writings</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Subjects</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Organizations</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner of this collection is unknown. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Marie Munk Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Marie Munk Papers were originally bequeathed to the Sophia Smith Collection and the Schlesinger Library. It was determined that the entire collection was more appropriate to the Sophia Smith Collection due to the substantial content on Germany, and the Schlesinger Library transferred their portion of the papers to the SSC in 1979. </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Burd Schlessinger, 2000.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Behl, Wofgang, 1918-</persname>
+         <persname encodinganalog="600" source="lcnaf">Drinker, Sophie Hutchinson, 1888-1968</persname>
+         <persname encodinganalog="600" source="lcnaf">Munk, Marie, 1885-1978</persname>
+         <subject encodinganalog="650" source="lcsh">Female juvenile delinquents--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Feminism--Germany--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Immigrants--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Jewish women--Germany--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women judges--Germany--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women lawyers--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">World War, 1914-1918--Germany--Women</subject>
+         <subject encodinganalog="650" source="lcsh">World War, 1914-1918--Germany--Personal narratives</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Germany--Social conditions--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Marriage--United States--History--20th century--Sources</subject>
+      </controlaccess>
+      <!-- Begin series descriptions -->
+
+<dsc type="analyticover">
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1901-1975)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series contains poetry, photographs, scrapbooks, clippings, and official documents.  In addition, there is documentation of Munk's early career in articles from the U. S. and Germany, autobiographical sketches, and an oral history conducted at Smith College in 1971.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1914-1977)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.5 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series is organized into to subseries:  Personal and Business.  The bulk of the material is post-1934, following Munk's arrival in the United States.  It includes six letters from mucsicologist Sophie Drinker (1952, 1965-66).  The only personal correspondence remaining from her life in Germany are World War I letters from her brother, Ernest Munk, to his family (1914-15).</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES III. WRITINGS <unitdate>(1915-1964)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>1.25 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series consists of numerous publications and manuscripts in both German and English.  Topics include domestic relations, marriage and marriage counseling, juvenile delinquency, and women's rights.  There is also a manuscript of an unpublished book, "Elements of Love and Marriage" (1950).  Of special interest are the manuscripts on the position of women during and after World War I (1940), written for the International Federation of Business and Professional Women, her reminiscences of her experiences  as a judge in pre-Hitler Germany (1945), and a proposal for the reunification of Berlin.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES IV. SUBJECTS <unitdate>(1918-1959)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.5 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The series contains printed material and manuscripts pertaining to several subject areas, particularly domestic relations, illegitimacy, juvenile delinquency, psychology, Germany, and Women.  Also of interest is a manuscript by Kate Lindenau about women during World War I and the postwar period.</p>
+            </scopecontent>
+ </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>SERIES V. ORGANIZATIONS <unitdate>(1931-1974)</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.25 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series has in it membership records and printed material related to Munk's organizational affiliations.</p>
+            </scopecontent>
+ </c01>
+</dsc>
+
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1901-1975)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Material relating to the Marie Munk Papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Clippings<unitdate> 1924-27, 1936-56, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Biographical information and publication lists<unitdate> 1911-12, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Oral history by Betty Eberhart<unitdate> 1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Poem's written for her grandfather Wilhelm Munk's birthday and death<unitdate> 1914-29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Munk family poems and plays<unitdate> 1914, 1935, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Memorabilia and unidentified material<unitdate> 1936-76, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Photographs<unitdate> 1934-40, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Official documents</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">9</container>
+                     <unittitle>College and university diplomas<unitdate> 1904-23, 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">10</container>
+                     <unittitle>Certificates<unitdate> 1901-22, 1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>Letters of recommendation<unitdate> 1919-43</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>Papers re: admission to Ohio Bar<unitdate> 1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">13</container>
+                     <unittitle>Will<unitdate> 1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1-2</container>
+                  <unittitle>Photocopies of material from scrapbook<unitdate> 1917-47</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Scrapbook<unitdate> 1933-47</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1914-1977)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Personal</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Outgoing</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">1</container>
+                        <unittitle>A-K<unitdate>circa 1965-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">2</container>
+                        <unittitle>Ackerman, J.<unitdate> 1965-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">3</container>
+                        <unittitle>Arner, Charlotte<unitdate> 1970</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">4</container>
+                        <unittitle>Behl, Lula and Wolfgang<unitdate> 1968-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">5</container>
+                        <unittitle>Braun, Louise<unitdate> 1972-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">6</container>
+                        <unittitle>Drinker, Sophie<unitdate> 1952-66</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">7</container>
+                        <unittitle>Egbers, Marlis and Gerhard<unitdate> 1967-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">8</container>
+                        <unittitle>Engelbrecht, Hertha<unitdate> 1967-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">9</container>
+                        <unittitle>Fields, Sue<unitdate> 1965-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">10</container>
+                        <unittitle>"Friends, Dear"<unitdate> 1945, 1951, 1965-77</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">11</container>
+                        <unittitle>Gans, Helene<unitdate> 1965-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">12</container>
+                        <unittitle>Gerson, Tove<unitdate> 1965-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">13</container>
+                        <unittitle>Glucksman, Elisabeth<unitdate> 1940, 1965-75, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">14</container>
+                        <unittitle>Gottschalk, Julia<unitdate> 1955-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">15</container>
+                        <unittitle>Hahn, Beate<unitdate> 1967-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">16</container>
+                        <unittitle>Haupt, Gerda<unitdate> 1968-77</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">17</container>
+                        <unittitle>Heim, Julia<unitdate> 1909-10, 1966-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">18</container>
+                        <unittitle>von Hentig, Otto<unitdate> 1966-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">19</container>
+                        <unittitle>Howalt, Carola<unitdate> 1964-77</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">20</container>
+                        <unittitle>Kuhn, Craig and Sally<unitdate> 1971-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">21</container>
+                        <unittitle>L-Z<unitdate>circa 1962-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">22</container>
+                        <unittitle>Leonard, Louisa<unitdate> 1965-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">23</container>
+                        <unittitle>Lindenau, Kathelien<unitdate> 1963-77, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">24</container>
+                        <unittitle>Mayer, Erna<unitdate> 1968-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">25</container>
+                        <unittitle>Mombert, Francois and Margot<unitdate> 1966-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">26</container>
+                        <unittitle>Mueller-Munk, Gertrude (sister)<unitdate> 1964-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">27</container>
+                        <unittitle>Mueller-Munk, Peter (nephew)<unitdate> 1961-67</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">28</container>
+                        <unittitle>Mueller-Zemmerick, Ingeburg<unitdate> 1968-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">1</container>
+                        <unittitle>Reynolds, Elizabeth<unitdate> 1970-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">2</container>
+                        <unittitle>Runne, Ursula<unitdate> 1967-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">3</container>
+                        <unittitle>Schoenheintz, Maria<unitdate> 1967-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">4</container>
+                        <unittitle>Theil, Ursel<unitdate> 1971-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">5</container>
+                        <unittitle>Thompson, Lisbet<unitdate> 1955-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">6</container>
+                        <unittitle>Yarke, Gerta<unitdate> 1965-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">7</container>
+                        <unittitle>Unidentified (Doerchen and Ferdinand)<unitdate> 1966-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">8</container>
+                        <unittitle>Unidentified (Doerli)<unitdate> 1965-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">5</container>
+                        <container type="folder">9-10</container>
+                        <unittitle>Unidentified<unitdate>circa 1963-77</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Incoming</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">1</container>
+                        <unittitle>A-G<unitdate>circa 1964-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">2</container>
+                        <unittitle>Ackerman, J.<unitdate> 1962-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">3</container>
+                        <unittitle>Behl, Lula and Wolfgang<unitdate> 1968-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">4</container>
+                        <unittitle>Braun, Louisa<unitdate> 1971-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">5</container>
+                        <unittitle>Charlton, Henrietta<unitdate> 1962-67</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">6</container>
+                        <unittitle>Drinker, Sophie<unitdate> 1952-66</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">7</container>
+                        <unittitle>Egbers, Marlis and Gerhard<unitdate> 1970-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">8</container>
+                        <unittitle>Fields, Sue<unitdate> 1977-75, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">9</container>
+                        <unittitle>Engelbrecht, Hertha<unitdate> 1963-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">10</container>
+                        <unittitle>Gans, Helene<unitdate> 1964-72</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">11</container>
+                        <unittitle>Gerson, Tove<unitdate> 1968-76, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">12</container>
+                        <unittitle>Glucksman, Elisabeth, circa late<unitdate> 1930s-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">13</container>
+                        <unittitle>Gottschalk, Julia<unitdate> 1934-36, circa 1964-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">14</container>
+                        <unittitle>H-L<unitdate>circa 1966-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">15</container>
+                        <unittitle>Hahn, Beate<unitdate> 1967-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">16</container>
+                        <unittitle>Hammerson, Gerlinde<unitdate> 1974-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">17</container>
+                        <unittitle>Haupt, Gerda<unitdate> 1967-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">18</container>
+                        <unittitle>Heim, Julia<unitdate>circa 1964-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">19</container>
+                        <unittitle>von Hentig, Otto<unitdate> 1949-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">20</container>
+                        <unittitle>Howalt, Carola<unitdate> 1964-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">21</container>
+                        <unittitle>Keiser, Hildegard<unitdate> 1968-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">22</container>
+                        <unittitle>Kessel, Erna<unitdate> 1963-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">23</container>
+                        <unittitle>Kuhn, Craig and Sally<unitdate> 1970-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">24</container>
+                        <unittitle>Leonard, Louise<unitdate> 1948, circa 1965-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">6</container>
+                        <container type="folder">25</container>
+                        <unittitle>Lindenau, Kathelein<unitdate>circa 1954-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">1</container>
+                        <unittitle>M-Z<unitdate>circa 1962-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">2</container>
+                        <unittitle>Meyer, Erna<unitdate> 1967-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">3</container>
+                        <unittitle>Mombert, Francois<unitdate>circa 1965-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">4</container>
+                        <unittitle>Mueller-Munk, Gertrude (sister)<unitdate> 1934, 1957-68</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">5</container>
+                        <unittitle>Mueller-Munk, Peter (nephew)<unitdate> 1960-67</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">6</container>
+                        <unittitle>Mueller-Zemmerick, Ingeberg<unitdate> 1963-77</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">7</container>
+                        <unittitle>Munk, Ernst (brother)<unitdate> 1914-15</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">8</container>
+                        <unittitle>Munk, Paula (mother)<unitdate> 1915, 1933-34</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">9</container>
+                        <unittitle>Platt, Eida<unitdate> 1967-71</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">10</container>
+                        <unittitle>Post, Clarissa<unitdate> 1965-71</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">11</container>
+                        <unittitle>Reynolds, Elizabeth<unitdate>circa 1969-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">12</container>
+                        <unittitle>Runne, Ursula<unitdate> 1970-76</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">13</container>
+                        <unittitle>Thompson, Elizabeth<unitdate>circa 1950-71</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">14</container>
+                        <unittitle>Yarke, Greta<unitdate>circa 1950-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">15</container>
+                        <unittitle>Zwicker, Marga<unitdate> 1964-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">16</container>
+                        <unittitle>Unidentified (Doerli)<unitdate>circa 1969-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">7</container>
+                        <container type="folder">17</container>
+                        <unittitle>Unidentified<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Business</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">1</container>
+                     <unittitle>A-D<unitdate>circa 1952-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">2</container>
+                     <unittitle>E-H<unitdate>circa 1965-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">3</container>
+                     <unittitle>I-M<unitdate> 1937, 1965-70</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">4</container>
+                     <unittitle>N-R<unitdate>circa 1968-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">5</container>
+                     <unittitle>S-Z<unitdate>circa 1960-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle>Re: Munk's receipt of restitution from German government<unitdate> 1959-56</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">6</container>
+                     <unittitle>Re: research on institutions for delinquent girls<unitdate> 1933-34</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. WRITINGS <unitdate>(1915-1964)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Printed</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">1</container>
+                     <unittitle>
+                        <title>Recht und Rechtverfolgung in Familienrecht: Eine gemeinverstaendliche darstellung fuer Unterricht und Selbststudium nebst repitorium</title> (Verlag von Otto Liebmann, Berlin)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">2-3</container>
+                     <unittitle>Miscellaneous<unitdate> 1915-54</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">4</container>
+                     <unittitle>Clippings<unitdate> 1924-48</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Notes</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">5-6</container>
+                     <unittitle>Marriage and family<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">7</container>
+                     <unittitle>Miscellaneous<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manuscripts</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">1</container>
+                     <unittitle>"Position of Women During and After the World War," written for the International Federation of Business and Professional Women<unitdate> 1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">2</container>
+                     <unittitle>"Reminiscences of a Pioneer Woman Judge in Pre-Hitler Germany: The Rise and Fall of German Feminism" (written early 1940s, before Munk took the Bar Exam in Washington, DC)<unitdate> 1945 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">3</container>
+                     <unittitle>"Can Patriotism Demand the Violent Overthrow of the Government": correspondence, notes and sources<unitdate> 1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">4-5</container>
+                     <unittitle>"Germany in the Past, America in the Present" <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">6</container>
+                     <unittitle>"The Family in Nazi Germany" <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">7</container>
+                     <unittitle>"Personal Rights and Mutual Obligations of Husband and Wife: chapter from "Law and Procedure of Domestic Relations" <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">8</container>
+                     <unittitle>Miscellaneous<unitdate> 1931-51, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">9</container>
+                     <unittitle>Poetry<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">10</container>
+                     <unittitle>Speeches<unitdate> 1912-64</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>"Elements of Love and Marriage"</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">1</container>
+                        <unittitle>Table of contents and introduction<unitdate> 1950</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">2-6</container>
+                        <unittitle>Parts I-IV (Chapters 1-34)<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">7-8</container>
+                        <unittitle>Fragments, including introduction to a 1952 edition<unitdate> 1952, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">9</container>
+                        <unittitle>Correspondence<unitdate> 1939-57</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">10</container>
+                  <unittitle>Writings by others<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">11</container>
+                  <unittitle>Miscellaneous poems (possibly by Munk)<unitdate> 1937, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. SUBJECTS <unitdate>(1918-1959)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">1</container>
+                  <unittitle>"Proposal for the Reunification of West and East Berlin"<unitdate> 1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">2</container>
+                  <unittitle>Domestic Relations (Chicago Municipal Court)<unitdate> 1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">3</container>
+                  <unittitle>Illegitimacy</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Juvenile Delinquency</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">4</container>
+                     <unittitle>Lancaster School for Girls<unitdate> 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">5</container>
+                     <unittitle>New York State Training School for Girls<unitdate> 1934, 1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">6</container>
+                  <unittitle>Lecture material<unitdate> 1939, 1955</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">7</container>
+                  <unittitle>Marriage<unitdate> 1947, 1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">8</container>
+                  <unittitle>Marriage counseling<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">9</container>
+                  <unittitle>Psychology</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">10</container>
+                  <unittitle>Sweden: women and families<unitdate> 1946-49</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">11</container>
+                  <unittitle>Uniform Divorce Act<unitdate> 1954</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">12</container>
+                  <unittitle>Germany: women (includes manuscript by Kathelein Lindenau about women during World War I and the postwar period)<unitdate> 1925-37</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>SERIES V. ORGANIZATIONS <unitdate>(1931-1974)</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">1</container>
+                  <unittitle>American Association of University Women, American Bar Association, German Federation of Business, and Professional Women and International Federation of Business and Professional Women<unitdate> 1931-74</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">2</container>
+                  <unittitle>International Federation of Women Lawyers<unitdate> 1960-74</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">3</container>
+                  <unittitle>League of Women Voters, Massachusetts Bar Association, National Association of Women Lawyers, National Federation of Business and Professional Women's Clubs<unitdate> 1960-75</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">4</container>
+                  <unittitle>National Conference on Family Relations<unitdate> 1941-47</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

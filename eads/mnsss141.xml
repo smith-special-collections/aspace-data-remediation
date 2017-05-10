@@ -1,0 +1,735 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss141.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss141</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Jane Addams Papers, 1904-1960
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Amanda Izzo.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-07-01</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss141 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Jane Addams Papers, 1904-1960
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 1
+      </num>
+         <author encodinganalog="245$c">Amanda Izzo
+      </author>
+         <date>2001
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Addams, Jane, 1860-1935</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Jane Addams Papers</unittitle>
+         <unitdate encodinganalog="245$f" type="inclusive">1904-1960</unitdate>
+         <unitdate encodinganalog="245$g" type="bulk">1904-1936</unitdate>
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 1</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">2 boxes</extent>
+            <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Founder, Hull House, Chicago; pacifist; labor organizer; settlement house worker; and women's rights advocate. The Addams papers contain primarily published material and duplicates of materials from the Swarthmore Peace Collection. Included are articles, books, memorials, and memorabilia about Addams, as well as writings and speeches by her.  There is a small amount of original correspondence, plus photographs and drawings of Jane Addams and Hull House.</abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc908.jpg" altrender="right">
+<daodesc><p>Jane Addams as a young woman, undated<lb />
+            Studio portrait by Cox, Chicago</p></daodesc></dao>
+         <p>(Laura) Jane Addams was born on 6 September 1860 in
+    Cedarville, Illinois. She was the youngest of five children
+    of John Huy Addams and Sarah Weber Addams. Her father was a
+    prosperous mill owner and a leader in state politics; he
+    served for sixteen years as an Illinois state senator. Her
+    mother died when Addams was only two years old. Her father
+    married Anna H. Haldeman in 1865, which added two
+    stepbrothers to the family. Jane Addams was profoundly
+    influenced by her father. He encouraged her education and
+    ambition; however, when she set her heart on attending Smith
+    College, he refused to send her so far away from home. In
+    1877, she entered Rockford Female Seminary in nearby
+    Rockford, Illinois. In 1881, Addams was the valedictorian of
+    her graduating class. One year later she received a
+    bachelor's degree when the school became the Rockford College
+    for Women.</p>
+         <p>Addams planned to study medicine and become a doctor. In
+    1881, she began her schooling at the Women's Medical College
+    of Pennsylvania. Her father's sudden death and her own ill
+    health forced Addams to abandon her medical studies. In 1882,
+    she had surgery to remedy a congenital spinal defect. Addams,
+    accompanied by her stepmother, traveled in Europe from 1883
+    until 1885. In London's East end she observed urban poverty
+    first hand; this exposure left a lasting impression on
+    Addams. In 1887, Addams returned to Europe with Ellen Gates
+    Starr, a Rockford classmate. On this trip, which included a
+    visit to Toynbee Hall, a settlement house in London's East
+    End, Addams and Starr formulated ideas about establishing a
+    settlement house in the U.S. that would directly address the
+    human consequences of rapid industrialization, immigration,
+    and urban poverty.</p>
+         <p>After their return to the United States in 1899, Addams
+    and Starr leased a dilapidated mansion in one of the poorest
+    immigrant slums of Chicago on the corner of Halstead and Polk
+    streets. Hull House, which was named after the original
+    owner, was the first settlement house in America. Its mission
+    was to "investigate and improve the conditions in the
+    industrial districts of Chicago" and function as a center of
+    civic and social life in a neighborhood that consisted of
+    multiple immigrant groups. It was both an educational and a
+    philanthropic activity. Addams, Starr, and other activists
+    and reformers who resided at Hull House learned first-hand
+    the needs of a diverse urban community. Hull House residents
+    raised money; found volunteers, especially among the growing
+    number of female college students and graduates; helped sick
+    children, displaced families, and the unemployed; taught
+    vocational and educational classes; and offered their support
+    to Chicago's working people. Hull House provided numerous
+    activities and services including: health and child care,
+    clubs for both children and adults, an art gallery, kitchen,
+    gymnasium, music school, theater, library, employment bureau,
+    and a labor museum.</p>
+         <p>Through her work at Hull House, Addams became heavily
+    involved with civic affairs of Chicago and was a leader in
+    the social reform movement. She fought for legislation
+    regarding housing, sanitation, factory inspection, and
+    immigrant rights. She also effectively campaigned for child
+    labor laws and other protective legislation. Addams became
+    strongly allied with the labor movement and allowed union
+    organizing meetings to be held at Hull House. In 1910, she
+    arbitrated a garment strike involving 90,000 workers. That
+    year she also became Vice President of the American Branch of
+    International Association for Labor Legislation. Addams was a
+    feminist and supported the women's suffrage campaign. She
+    served as Vice President of the National American Woman
+    Suffrage Association (1911-14). She was also active in the
+    Progressive Party and especially supported its platform for
+    industrial safety.</p>
+         <p>Hull House brought Jane Addams world-wide celebrity, and
+    she was recognized as a pioneer in the field of social work.
+    However, with the onset of war in Europe in the 1910s, public
+    opinion turned against Addams as she became increasingly
+    active in the pacifist and internationalist movements. In
+    1915, Addams co-founded the Women's Peace Party (WPP). Addams
+    and the WPP established strong networks of peace activists in
+    the U.S. and abroad, and in 1919, the WPP evolved into the
+    Women's International League for Peace and Freedom, a
+    still-thriving organization that "works to achieve through
+    peaceful means world disarmament, full rights for women,
+    racial and economic justice, an end to all forms of violence,
+    and to establish those political, social, and psychological
+    conditions which can assure peace, freedom, and justice for
+    all." Jane Addams served as the first president of WILPF
+    (1919-1929). In 1931, Addams was awarded the Nobel Peace
+    Prize for her pacifist activism. She was the first American
+    woman to receive this honor.</p>
+         <p>Addams wrote prodigiously throughout her life, and the
+    profits from her books were her main source of income. Some
+    of her notable works are Newer Ideals of Peace (1907), Twenty
+    Years at Hull House (1910), The Long Road of Women's Memory
+    (1916), Peace and Bread in Time of War (1922), and The Second
+    Twenty Years at Hull House (1930). She received honorary
+    degrees from numerous colleges and universities including:
+    Wisconsin, Smith, Yale, Tufts, Northwestern, Chicago, and
+    Bryn Mawr. Among her many other achievements and commitments,
+    Jane Addams was a founding member of the NAACP (1909) and the
+    ACLU (1920). She died of cancer in 1935, and she was buried
+    at her childhood home in Cedarville, Illinois.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Jane Addams papers consist of 1.5 linear feet of
+    material. They contain primarily duplicates from the
+    Swarthmore Peace Collection. There is some biographical
+    information including articles (1898-1961), obituaries
+    (1935), memorials (1935-60), and typescripts of radio
+    broadcasts about her (1932-40). Organizational and historical
+    information about the Women's International League for Peace
+    and Freedom is included in the memorials section. There are
+    typescripts of speeches by Addams (1912-33), which provide
+    her perspective on topics including social service, women's
+    issues, and World War I. Many reprints of articles
+    (1898-1935) by Addams also offer insight as to her opinion on
+    a variety of subjects. Some topics addressed in this section
+    are: nationalism, peace, politics, labor, suffrage, women's
+    rights, WWI, and social work.</p>
+         <p>There are some articles and printed material regarding
+    Hull House (1897-1950), and a few photographs and pictures of
+    Addams and Hull House. A small amount of correspondence
+    consists of a few original autographed letters to friends
+    (1903-1934).</p>
+         <p>The Jane Addams Papers are closely related to the <extref href="mnsss64_main.html">Ellen
+        Gates Starr Papers</extref> in the Sophia Smith Collection.
+    Researchers may wish also to consult the Peace and Settlement
+    House Collections for further information about the Women's
+    International League for Peace and Freedom and Hull House, as
+    well as the Schwimmer-Lloyd and Madeleine Zabriskie Doty
+    Papers (re: WILPF) and the Jessie Lloyd O'Connor Papers
+    (O'Connor was a resident/worker at Hull House).</p>
+      </scopecontent>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The Papers are open to research according to the regulations of the Sophia Smith Collection.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner of this collection is unknown. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>The Jane Addams Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <altformavail encodinganalog="530" id="admin-altform">
+            <head>Additional Formats</head>
+            <p>The Swarthmore College Peace Collection is the primary repository for Jane Addams's papers. There is a microfilm version available, of which the Sophia Smith Collection has a portion of the correspondence series.
+        </p>
+         </altformavail>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Jane Addams Papers were given by various donors, mostly unknown. Swarthmore donated a significant amount of duplicates from their Peace Collection in 1951.
+          </p>
+            </acqinfo>
+            <processinfo id="admin-process">
+               <p>Reprocessed by Amanda Izzo, 2001.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Addams, Jane,
+                        1860-1935</persname>
+         <corpname encodinganalog="610" source="lcnaf">Hull House
+                        (Chicago, Ill.)--History--Sources</corpname>
+         <name>Women's International League for Peace and
+                        Freedom--History</name>
+         <subject encodinganalog="650" source="lcsh">Women social
+                        reformers--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social
+                        settlements--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">
+                        Women--Suffrage--United States--History--Sources</subject>
+         <name>Women in labor movement--United
+                        States--History--20th century--Sources</name>
+         <name>Peace movements--History--20th
+                        century--Sources</name>
+         <name>Women and peace--History</name>
+         <geogname encodinganalog="651" source="lcsh">Chicago
+                        (Ill.)--Social conditions--20th century--Sources</geogname>
+         <geogname encodinganalog="651" source="lcsh">
+                        Europe--Description and travel--Sources</geogname>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Related material can be found in the <extref href="mnsss64_main.html">Ellen Gates Starr Papers</extref>, Sophia Smith Collection.</p>
+            <p>Primary collection of Jane Addams Papers at Swarthmore Peace Collection, Swarthmore College.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="contlist">
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">A</container>
+               <unittitle>Contents and National Union Catalog of
+            Manuscripts sheet</unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">1</container>
+               <unittitle>Articles by Jane Addams,
+            <unitdate>1910</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">2</container>
+               <unittitle>Articles about Jane Addams,
+            <unitdate>1906-78</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">3</container>
+               <unittitle>Bibliography</unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">4</container>
+               <unittitle>Biographical fact sheet</unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">5</container>
+               <unittitle>Citations, honors, and prizes,
+            <unitdate>1926-32</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Newspaper clippings</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>About Jane Addams,
+              <unitdate>1898-1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Obituaries,
+              <unitdate>1935</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Book reviews of books by and about Jane
+              Addams</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Zurich Peace Conference (International Conference of Women),
+              <unitdate>1919</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Correspondence</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Bailie, Helen Tufts,
+              <unitdate>1928</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Miss Blake,
+              <unitdate>1930</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Miss Browne,
+              <unitdate>1903</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>Miss Fitts,
+              <unitdate>1904, 1927, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>Mack, Rebecca Robins,
+              <unitdate>1933, 1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Hull House</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">15</container>
+                  <unittitle>Newspaper clippings and
+              articles</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">16</container>
+                  <unittitle>Printed material,
+              <unitdate>1897-1950, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">17</container>
+                  <unittitle>Yearbook,
+              <unitdate>1925, 1929, 1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Memorials</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">18</container>
+                  <unittitle>Memorial service programs and Jane Addams
+              memorial medal by Nancy Cox McCormack,
+              <unitdate>1935</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">19</container>
+                  <unittitle>Jane Addams Centennial,
+              <unitdate>1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">20</container>
+               <unittitle>Photographs and pictures of Jane Addams and
+            Hull House</unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">21</container>
+               <unittitle>Radio broadcast (NBC),
+            <unitdate>1932, 1936, 1940</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <container type="box">1</container>
+               <container type="folder">22</container>
+               <unittitle>Speeches on various topics,
+            <unitdate>1912-33</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>Articles by Jane Addams</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">23</container>
+                  <unittitle>Education,
+              <unitdate>1907, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">24</container>
+                  <unittitle>Immigration,
+              <unitdate>1905-19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">25</container>
+                  <unittitle>Labor, 1898(?)-
+              <unitdate>1935, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">26</container>
+                  <unittitle>League of Nations,
+              <unitdate>1919-20</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">27</container>
+                  <unittitle>Miscellaneous: Gordon Dewey, John Dewey,
+              Egypt, food, Jenkin Lloyd Jones, juvenile
+              delinquency, Julia Lathrop, Mexico, old age, women,
+              <unitdate>1898-1935, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">28</container>
+                  <unittitle>Nationalism,
+              <unitdate>1919-34, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">29</container>
+                  <unittitle>Peace,
+              <unitdate>1913-35, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">30</container>
+                  <unittitle>Playgrounds,
+              <unitdate>1907-12</unitdate>
+              (?)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">31</container>
+                  <unittitle>Politics,
+              <unitdate>1905-24, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">32</container>
+                  <unittitle>Prohibition,
+              <unitdate>1929-35</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">33</container>
+                  <unittitle>Prostitution,
+              <unitdate>1911-28</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">34</container>
+                  <unittitle>Settlements,
+              <unitdate>1892-1919</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">35</container>
+                  <unittitle>Social questions,
+              <unitdate>1908-31, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">36</container>
+                  <unittitle>Social work,
+              <unitdate>1909-33</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">37</container>
+                  <unittitle>Suffrage,
+              <unitdate>1908-13, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">38</container>
+                  <unittitle>Tolstoy,
+              <unitdate>1902-28</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">39</container>
+                  <unittitle>Women's rights,
+              <unitdate>1915-30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">40</container>
+                  <unittitle>World War I,
+              <unitdate>1915-33, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File</container>
+                  <unittitle>Drawings, includes Jane Addams and Hull
+            House, by Gwenyth King Brown,
+            <unitdate>1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01>
+            <did>
+               <unittitle>ON SHELF</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Cathedral of Compassion: Dramatic Outline of
+            the Life of Jane Addams, 1860-1935. Violet Oakley (1955)
+            </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>By Addams</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Jane Addams, A Centennial Reader,
+              <unitdate>1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Twenty Years at Hull House,
+              <unitdate>1910</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>The Long Road of Woman's Memory,
+              <unitdate>1916</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>The Second Twenty Years at Hull House,
+              <unitdate>1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,4468 @@
+<ead>
+   <eadheader audience="internal" id="head" findaidstatus="unverified-full-draft" langencoding="iso639-2b">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss186.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss186</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Women's Rights Collection, 1789-2000 (bulk 1864-1983)
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c"></author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2004 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2004-05-17</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-10-12">2005-10-12</date>
+            <item>mnsss186 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Women's Rights Collection, 1789-2000 (bulk 1864-1983)
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 397
+      </num>
+         <date>Revised 2004
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2004  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+
+   <archdesc level="collection" relatedencoding="MARC21">
+      <did id="main">
+         <head>Collection Overview</head>
+         <unittitle encodinganalog="245$a" label="Title:">Women's Rights Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1789-2000</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1864-1983</unitdate>
+         
+         <unitid encodinganalog="099" repositorycode="mnsss" label="Collection Number:" countrycode="us">MS 397</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">51 boxes, 23 volumes</extent>
+            <extent encodinganalog="300$a">(25.75 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract encodinganalog="520$a" label="Abstract:">
+      This collection contains both printed materials and original sources documenting the broad spectrum of women's rights struggles and movements from the late eighteenth century to the present, primarily in the United States. Materials include biographical writings on individuals who made significant contributions to women's rights; an important concentration of sources on women's rights conferences and conventions; records pertaining to the E.R.A. fight; records of the President's Commission on the Status of Women and state-level Commissions on the Status of Women; and documents and publications of many national and local women's organizations.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1915.jpg" altrender="right">
+<daodesc><p>"Souvenir of Seneca Falls, N.Y.,<lb /> Birthplace of Women's Rights, 1848-1948," <lb />ca. 1948</p></daodesc></dao>
+         <p> The Women's Rights Collection contains a large quantity and variety of material including both published and unpublished sources documenting the broad spectrum of women's rights struggles and movements from the late eighteenth century to the present.  The vast majority of the material relates to women's rights in the United States from 1846 to 1983.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into eight series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I.  GENERAL</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II.  BIOGRAPHICAL MATERIALS</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III.  CONFERENCES</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV.  EQUAL RIGHTS AMENDMENT</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V.  LEGAL STATUS </ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI.  ORGANIZATIONS</ref>
+            </item>
+            <item>
+               <ref target="list-ser7">VII.  COMMISSIONS ON THE STATUS OF WOMEN</ref>
+            </item>
+            <item>
+               <ref target="list-ser8">VIII. COUNTRIES</ref>
+            </item>
+            <item>
+               <ref target="list-serOV">OVERSIZE MATERIALS</ref>
+            </item>
+           <item>
+               <ref target="list-serBks">ITEMS ON SHELF</ref>
+            </item>
+
+
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The collection is open to research according to the regulations of the Sophia Smith Collection.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Permission is required to cite the papers or for quotations beyond "fair use."
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Women's Rights Collection, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions are expected and may not be reflected in this finding aid.
+        </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Materials in this collection were either purchased or given to the Sophia Smith Collection by various donors.  Some items were removed from other collections.
+          </p>
+            </acqinfo>
+		<processinfo id="admin-process">
+			<p>Finding aid revised by Jennifer Smar (intern), 2004. Introductory text by Kate Weigand.</p> 
+		</processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <subject encodinganalog="650" source="lcsh">Equal rights amendments--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Feminists--United States--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Developing countries--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Legal status, laws, etc.--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women--Legal status, laws, etc.--History--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women's rights--Congresses</subject>
+         <subject encodinganalog="650" source="lcsh">Women's rights--History-Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women's rights--International cooperation--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">International Women's Year, 1975</subject>
+         <subject encodinganalog="650" source="lcsh">National Women's Conference (1st: 1977: Houston, Tex.)</subject>
+         <subject encodinganalog="650" source="lcsh">National Women's Political Caucus--History</subject>
+         <geogname encodinganalog="651" source="lcsh">United States. Citizens' Advisory Committee on the Status of Women</geogname>
+         <geogname encodinganalog="651" source="lcsh">United States. President's Commission on the Status of Women</geogname>
+         <subject encodinganalog="650" source="lcsh">Woman's Centennial Congress (1940: New York, N.Y.)</subject>
+         <subject encodinganalog="650" source="lcsh">Woman's Rights Convention (1st: 1848: Seneca Falls, N.Y.)</subject>
+         <subject encodinganalog="650" source="lcsh">World Conference of the United Nations Decade for Women: Equality, Development, and  Peace (1980: Copenhagen, Denmark)</subject>
+         <persname encodinganalog="600" source="lcnaf">Blackwell, Henry Browne, 1825-1909--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Bloomer, Amelia Jenks, 1818-1894 --Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Foster, Abigail Kelley, 1810-1887--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Gilman, Charlotte Perkins, 1860-1935--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Grimke, Angelina Emily, 1805-1879--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Grimke, Sarah Moore, 1792-1873--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Hamilton, Gail, 1833-1896--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Kenyon, Dorothy, 1888-1972--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Mott, Lucretia, 1793-1880--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Paul, Alice, 1885-1977--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Rose, Ernestine L. (Ernestine Louise), 1810-1892--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Stanton, Elizabeth Cady, 1815-1902--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Stone, Lucy, 1818-1893--Biography-Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Terrell, Mary Church, 1863-1954</persname>
+         <persname encodinganalog="600" source="lcnaf">Truth, Sojourner, d. 1883--Biography--Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Wells-Barnett, Ida B., 1862-1931--Biography--Sources</persname>
+	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
+      </controlaccess>
+       <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Related material can be found in the papers or records of some of these individuals and organizations in the SSC.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <!-- Begin series descriptions -->
+<dsc type="analyticover">
+     <c01 level="series">
+             <did>
+               <unittitle>SERIES I. GENERAL</unittitle>
+            </did>
+            <scopecontent>
+               <p>SERIES I. GENERAL includes writings and speeches by and about feminists from pamphlets dated as early as 1814, to analytical articles written in the 1970s by well-known women's historians such as Gerda Lerner and William O'Neill.</p>
+            </scopecontent>
+  </c01>
+   <c01 level="series">
+             <did>
+               <unittitle>SERIES II. BIOGRAPHICAL MATERIALS</unittitle>
+            </did>
+            <scopecontent>
+               <p>SERIES II. BIOGRAPHICAL MATERIALS includes material relating to significant figures who supported and agitated for women's rights, particularly those who made major contributions to the nineteenth century woman's rights movement, but also more recent feminist activists.  Individuals represented include Ida Wells Barnett, Henry Brown Blackwell, Amelia Jenks Bloomer, Abigail Kelley Foster, Charlotte Perkins Gilman, Sarah and Angelina Grimke, Marietta Holley, Dorothy Kenyon, Lucretia Coffin Mott, Alice Paul, Ernestine Rose, Sojourner Truth, Elizabeth Cady Stanton, Lucy Stone, and Mary Church Terrell.  Types of material include articles, memorials, newspaper clippings, pamphlets, and photographs, books, and a small amount of correspondence.</p>
+            </scopecontent>
+  </c01>
+   <c01 level="series">
+             <did>
+               <unittitle>SERIES III. CONFERENCES</unittitle>
+            </did>
+            <scopecontent>
+               <p>SERIES III. CONFERENCES includes an important concentration of published sources documenting women's rights conferences and conventions.  Types of material include, correspondence, minutes, newspaper clippings, photographs, planning material, publicity, published proceedings, reports, resolutions, and memorabilia.  Under the International Women's Year conference (1977), there are audio recordings of speeches and sessions.  Others documented include the Seneca Falls Convention of 1848; the Women's Centennial Congress in New York City, 1940; the Conference on the Role of Women at Smith College in 1947; the Seneca Falls Centennial Convention of 1948; International Women's Year State Conferences held in 1977; International Women's Year Conference in Houston, 1977; and the United Nations Decade for Women World Conference in Copenhagen, 1980.  There are also records pertaining to lesser-known nineteenth century woman's rights local conventions in Akron, Ohio, 1851; West Chester, Pennsylvania, 1852; Cleveland, Ohio, 1854; New York City, 1856; Boston, 1859; the New York Church of the Puritans in 1866; and the American Equal Rights Association Convention in New York in 1867, among others.</p>
+            </scopecontent>
+  </c01>
+   <c01 level="series">
+             <did>
+               <unittitle>SERIES IV. EQUAL RIGHTS AMENDMENT</unittitle>
+            </did>
+            <scopecontent>
+               <p>The long history of struggles related to efforts to pass and ratify the ERA from 1920 to 1983 is well documented in Series IV. EQUAL RIGHTS AMENDMENT with articles, bibliographies, correspondence, legislation, lists, memorabilia, memoranda, newspaper clippings, pamphlets, and publicity contained in the collection.  There are interviews with feminist activists that were conducted for a 1983 project entitled The Fight for E.R.A.: Leaders, Strategies, and Directions, by Jennifer Jackman and Tamar Raphael.  The 28 interviewees include Ruth Adams, Carol Atkins, Kathy Bonk, Pat and Twiss Butler, Susan Catania, Lillian Ciarrochi, Alice Cohan, Mary Jean Collins, Mary Crisp, Diane Cutri, Betsy Dunn, Catherine East, Don Edwards, Vicki Ferguson, Pat Frank, Audrey Ghizzoni, Sheila Greenwald, Mariwyn Heath, Mildred Jeffrey, Beth Leopold, Ann Lewis, Colette Roberts, Reed Gloria Sackman, Eleanor Smeal, Jane Wells-Schooley, Jinx Wingard, and Molly Yard. There are interview notes, and photographs, as well as audio recordings for some, not all, interviews.</p>
+            </scopecontent>
+  </c01>
+   <c01 level="series">
+             <did>
+               <unittitle>SERIES V. LEGAL STATUS</unittitle>
+            </did>
+            <scopecontent>
+               <p>SERIES V. LEGAL STATUS documents changes in women's legal status in individual states and in the United States at-large.</p>
+            </scopecontent>
+  </c01>
+   <c01 level="series">
+             <did>
+               <unittitle>SERIES VI. ORGANIZATIONS</unittitle>
+            </did>
+            <scopecontent>
+               <p>SERIES VI. ORGANIZATIONS contains materials generated by women's political and equal rights groups such as the Equity Network, Human Rights for Women, International Alliance of Women, the National Advisory Committee for Women, the National Women's Education Fund, and the Massachusetts Women's Political Caucus and the National Women's Political Caucus.</p>
+            </scopecontent>
+  </c01>
+   <c01 level="series">
+             <did>
+               <unittitle>SERIES VII. COMMISSIONS ON THE STATUS OF WOMEN</unittitle>
+            </did>
+            <scopecontent>
+               <p>SERIES VII. includes Records generated by the President's Commission on the Status of Women (circa 1960s-70s) and the various state level Commissions on the Status of Women are also a significant part of the collection. Included in this section are published articles, briefs, pamphlets, publicity, reports, meeting agendas, minutes, and correspondence.</p>
+            </scopecontent>
+            <note>
+               <p>[Note: this section is unprocessed and contains many duplicated materials]</p>
+            </note>
+  </c01>
+     <c01 level="series">
+             <did>
+               <unittitle>SERIES VIII. COUNTRIES</unittitle>
+            </did>
+            <scopecontent>
+               <p>SERIES VIII. COUNTRIES includes a small amount of material relating to women's rights in countries outside the United States: Africa, Albania, Asia, Australia, Canada, China, England, France, Germany, Israel, Italy, Japan, Lebanon, Mexico, Norway, Pakistan, Philippines, Portugal, San Marino, Spain, Thailand, Turkey, and Vietnam. International materials can also be found in the files relating to the International Women's Year conferences in Houston, Texas and Copenhagen under CONFERENCES.</p>
+            </scopecontent>
+  </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. GENERAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Pamphlets</unittitle>
+                <note>
+                  <p><ref target="photocop">[see also photocopies on shelf]</ref></p>
+               </note>
+              </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">1</container>
+                     <unittitle>
+                        <unitdate>1846-58</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">2</container>
+                     <unittitle>Women's Rights: tracts 1-6, 1851</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>
+                        <unitdate>1867-1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>
+                        <title render="italic">Women's Rights Pamphlets</title>, Cornell University Collection (microfiche)<unitdate>1814-1912 </unitdate> </unittitle>
+                  <note>
+                     <p>[loose on shelf]</p>
+                  </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>
+                        <title render="italic">The Sisterhood</title>: pamphlet, cir<unitdate>ca 1870</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Speeches</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>George William Curtis: speeches and clippings<unitdate>1867</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>
+                        <title render="italic">Great American Women's Speeches</title>: cassette tapes<unitdate>1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Writings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">7</container>
+                     <unittitle>Savery, Annie, <title render="italic">Rev. T.O. Rice on the Subordination of Women</title>: clippings<unitdate>1871</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">8</container>
+                     <unittitle>Petition to Improve the Condition of Married Women<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>
+                        <title render="italic">A Reply to John Stuart Mill on the Subjection of Women</title> (Philadelphia)<unitdate>1870</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Articles</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Leland, Marine</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">1</container>
+                           <unittitle>Radio talks over CBC: transcripts<unitdate>1955-56</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">2</container>
+                           <unittitle>Speech at Business &amp; Professional Women, Northampton<unitdate>1950</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">3</container>
+                        <unittitle>Lerner, Gerda, <title render="italic">Women's Rights and American Feminism</title><unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">4</container>
+                        <unittitle>Virginia Slims American Women's Opinion Poll<unitdate>1972</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">5</container>
+                        <unittitle>O'Neill, William L., <title render="italic">Feminism as a Radical Ideology</title><unitdate>1968</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">6</container>
+                        <unittitle>Powell, Rose Arnold: writings<unitdate>1933</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">7</container>
+                        <unittitle>Shegda, Paula, <title render="italic">Do Women Advertise Themselves Enough?: The Split in the Feminist Movement</title><unitdate>1869-1890 </unitdate>(1975)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">8</container>
+                        <unittitle>Miscellaneous articles on the status of women<unitdate>1963-65</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+		</c03>
+               <c03>
+                  <did>
+                        <container type="box">2</container>
+                        <container type="folder">8a</container>
+                     <unittitle>Publications: NWHP Gazelle: "Living the Legacy," <unitdate>1998</unitdate>
+                        </unittitle>
+                     </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">9</container>
+                  <unittitle>
+                     <title render="italic">The Women's Charter: What and Why?</title>: articles, correspondence, and press releases<unitdate>1936-38</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">10</container>
+                  <unittitle>Essays from "TABS: Aids for Ending Sexism in Schools<unitdate>Spr 1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>"Side-by-Side" (re-enactments of scenes from women's history)<unitdate>1848-1920 </unitdate>(phonograph record)</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-sidebyside">[see OVERSIZE MATERIALS]</ref>
+                  </p>
+               </note>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. BIOGRAPHICAL MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">1</container>
+                  <unittitle>Barnett, Ida Wells: photograph and clippings<unitdate>1931</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">2</container>
+                  <unittitle>Blackwell, Henry Brown: photographs, pamphlet, and manuscript<unitdate>1910-27</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">3</container>
+                  <unittitle>Bloomer, Amelia Jenks: article and mailing (with mini bloomers attached)<unitdate>1939-48</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">4</container>
+                  <unittitle>Cooley, Winifred Harper: short biographies and article<unitdate>1915-20</unitdate>02</unittitle>
+ 	       </did>
+                <note>
+                  <p>
+                  <ref target="list-serOV">[see also Oversize Materials]</ref></p>
+               </note>
+
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">5</container>
+                  <unittitle>Dodge, Mary Abigail (Gail Hamilton): pamphlets and article, cir<unitdate>ca 1840-96</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">6</container>
+                  <unittitle>Foster, Abigail Kelley: pamphlet and biography<unitdate>1965-84</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">7</container>
+                  <unittitle>Gaston, Lucy Page: article<unitdate>1924</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">8-10</container>
+                  <unittitle>Gilman, Charlotte Perkins: articles, photographs, pamphlets, correspondence, and thesis<unitdate>1905-80</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">11</container>
+                  <unittitle>Grimke, Sarah <unitdate>(1792-1873) </unitdate>and Angelina (1805-1879): pamphlet, 1970</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Holley, Marietta</unittitle>
+                </did>
+              <note>
+                  <p>
+                     <ref target="list-serBks">[see Books on shelf]</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">12</container>
+                  <unittitle>Kenyon, Dorothy: information about ERA<unitdate>1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">13-14</container>
+                  <unittitle>Mott, Lucretia Coffin: speeches, articles, pamphlets, and photographs<unitdate>1849-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">15</container>
+                  <unittitle>Paul, Alice: photographs and articles<unitdate>1917-77</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">16</container>
+                  <unittitle>Robb, Lynda Bird Johnson: clippings<unitdate>1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">17</container>
+                  <unittitle>Rose, Ernestine Louise Potowski: address and clippings<unitdate>1948-49</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">18-19</container>
+                  <unittitle>Sojourner Truth: photographs, pamphlets, <title render="italic">Narrative of Sojourner Truth, a Northern Slave</title>, and biography<unitdate>1850-1983</unitdate></unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">1-5</container>
+                  <unittitle>Stanton, Elizabeth Cady: pamphlets, newsletters, clippings, correspondence, photographs, and speeches<unitdate>1827-1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">6-8</container>
+                  <unittitle>Stone, Lucy: book, photographs, correspondence, and speeches<unitdate>1846-1978</unitdate>
+                  </unittitle>
+              </did>
+               <note>
+                  <p>
+                  <ref target="list-serOV">[see also OVERSIZE MATERIALS]</ref></p>
+               </note> 
+
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">9</container>
+                  <unittitle>Terrell, Mary Church: clippings and program<unitdate>1951-54</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. CONFERENCES</unittitle>
+            </did>
+ 
+            <c02>
+               <did>
+                  <unittitle>"Role of Women," Smith College<unitdate>1947</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Scrapbook</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">1</container>
+                     <unittitle>Miscellaneous items</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Minutes: Volumes I and II</unittitle>
+                    </did>
+                <note>
+                     <p>
+                        <ref target="list-serBks">[see Books on shelf]</ref>
+                     </p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">2-4</container>
+                     <unittitle>General: programs, clippings, SCAN, press releases, and correspondence<unitdate>1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">5-6</container>
+                     <unittitle>Correspondence<unitdate>1946-47</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">7-8</container>
+                     <unittitle>Speeches<unitdate>1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">9</container>
+                     <unittitle>Photographs<unitdate>1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <container type="folder">10</container>
+                     <unittitle>"Woman's Rights and Other 'Reforms' in Seneca Falls," <unitdate>1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+<c02>
+<did>
+<unittitle>World  Conference of the International Women's Year, Mexico City, <unitdate>1975</unitdate></unittitle>
+</did>
+<c03>
+<did>
+ <container type="box">5A</container>
+<container type="folder">1</container>
+<unittitle>General</unittitle><unitdate>1975</unitdate>
+</did>
+</c03>
+<c03>
+<did>
+ <container type="box">5A</container>
+<container type="folder">2</container>
+<unittitle>Agenda items 9 and 10</unittitle><unitdate>1975</unitdate>
+</did>
+</c03>
+<c03>
+<did>
+ <container type="box">5A</container>
+<container type="folder">3</container>
+<unittitle>World Plan of  Action</unittitle><unitdate>1975</unitdate>
+</did>
+</c03>
+<c03>
+<did>
+ <container type="box">5A</container>
+<container type="folder">4</container>
+<unittitle>Background papers</unittitle><unitdate>1975</unitdate>
+</did>
+</c03>
+</c02>
+            <c02>
+               <did>
+                  <unittitle>National Commission on the Observance of International Women's Year 
+		 - State Conferences, <unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">1</container>
+                     <unittitle>Alabama: correspondence, report, program, and clippings<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">2</container>
+                     <unittitle>Alaska: evaluations and report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">3</container>
+                     <unittitle>American Samoa: pamphlet and report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">4</container>
+                     <unittitle>Arizona: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">5</container>
+                     <unittitle>Arkansas: conference information and 'litter and locator bag,' <unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">1</container>
+                     <unittitle>California: pamphlet, final report, and questionnaires<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">2</container>
+                     <unittitle>Colorado: plan of action<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">3</container>
+                     <unittitle>Connecticut: report and clippings<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">4</container>
+                     <unittitle>Delaware: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">5</container>
+                     <unittitle>Florida: binder<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">6</container>
+                     <unittitle>Georgia: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">7</container>
+                     <unittitle>Guam: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">8</container>
+                     <unittitle>Hawaii: pamphlet<unitdate>1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">9</container>
+                     <unittitle>Idaho: recommendations and final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">1</container>
+                     <unittitle>Illinois: book<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">2</container>
+                     <unittitle>Indiana: petition, recommendations, and reports<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">3</container>
+                     <unittitle>Iowa: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">4</container>
+                     <unittitle>Kansas: report, voter information and program<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Kentucky</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <unittitle>"Voices of Kentucky Women": report<unitdate>1977</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <unittitle>Observance of International Women's Year: Appendix<unitdate>1977</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">1</container>
+                     <unittitle>Louisiana: correspondence, recommendations, and book<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">2</container>
+                     <unittitle>Maine: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">3</container>
+                     <unittitle>Maryland: proclamation and pamphlet<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>Massachusetts: <title render="italic">Women at Home in the World</title> (report)<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>Michigan: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">1</container>
+                     <unittitle>Minnesota: report and agenda<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>Mississippi: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">2</container>
+                     <unittitle>Missouri: reports<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">1</container>
+                     <unittitle>Montana: vote results and final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">2</container>
+                     <unittitle>Nevada: pamphlet and final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">3</container>
+                     <unittitle>New Hampshire: plan for action and final reports<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>New Jersey: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <container type="folder">1</container>
+                     <unittitle>New Mexico: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>New York</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Transcripts<unitdate>1977</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">1</container>
+                        <unittitle>Correspondence, ballot questions, and first meeting<unitdate>1974-77</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <unittitle>Report</unittitle>
+                     </did>
+                     <note>
+                        <p>
+                           <ref target="list-serOV">[see Oversize Materials]</ref>
+                        </p>
+                     </note>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">2</container>
+                     <unittitle>North Carolina: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>North Dakota: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">3</container>
+                     <unittitle>Ohio: book<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">1-2</container>
+                     <unittitle>Oklahoma: correspondence, workshop results, and final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">3</container>
+                     <unittitle>Oregon: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle>Pennsylvania: "Womankind," <unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <container type="folder">4</container>
+                     <unittitle>Puerto Rico: documents and final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+		  <note><p>[See also
+		  <ref target="added">Added materials, box 51</ref>]</p></note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle>Rhode Island: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">1</container>
+                     <unittitle>South Carolina: final report and resolutions<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">2</container>
+                     <unittitle>South Dakota: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">3</container>
+                     <unittitle>Tennessee: ballot, pamphlets, photographs, minutes, and recommendations<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <container type="folder">4</container>
+                     <unittitle>Texas: final report and flyer<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">1</container>
+                     <unittitle>Utah: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">2</container>
+                     <unittitle>Vermont: final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">3</container>
+                     <unittitle>Virgin Islands: survey and report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <container type="folder">4</container>
+                     <unittitle>Virginia: final report, conference information, and clippings<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <container type="folder">1</container>
+                     <unittitle>Washington, D.C.: minutes and plan of action<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <container type="folder">2</container>
+                     <unittitle>Washington (state): policy statements and final report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <container type="folder">3</container>
+                     <unittitle>West Virginia: resolutions, report, and recommendations<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <container type="folder">4</container>
+                     <unittitle>Wisconsin: draft of report and supporting material<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <container type="folder">5</container>
+                     <unittitle>Wyoming: report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>IWY National Women's Conference (Houston), November <unitdate>1977</unitdate>
+                  </unittitle>
+                </did>
+              <note>
+                  <p>[see also cassette tapes on shelf]</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">1</container>
+                     <unittitle>
+                        <title render="italic">Daily Breakthrough</title> and bulletins<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>Official Briefing Book</unittitle>
+                   </did>
+                 <note>
+                     <p>
+                        <ref target="list-serBks">[see Books on shelf]</ref>
+                     </p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">2</container>
+                     <unittitle>Memorabilia: calendar, t-shirt, flyer, and song lyrics<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">3</container>
+                     <unittitle>Articles, clippings, speeches: clippings, magazines, script, flyers, and press release<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">4</container>
+                     <unittitle>Clippings and magazine<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">5</container>
+                     <unittitle>Pamphlets, magazine, bulletin, resolutions, and newspaper<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">6</container>
+                     <unittitle>Resolutions and news<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">7</container>
+                     <unittitle>Declaration of American women: cassette tape and slides<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">8</container>
+                     <unittitle>IWY conventions- states: newspaper, manual, pamphlet, and clipping<unitdate>1976-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">9</container>
+                     <unittitle>Exhibit material: letter cut-outs and magazine pages<unitdate>1977</unitdate>
+                     </unittitle>
+                 <note>
+                  <p>
+                  <ref target="list-serOV">[see also Oversize Materials]</ref></p>
+               </note>
+
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <container type="folder">10</container>
+                     <unittitle>"Decade of Achievement": report<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18</container>
+                  <container type="folder">11</container>
+                  <unittitle>Pamphlets<unitdate>1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mary Rothchild
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">18a</container>
+                     <container type="folder">1</container>
+                     <unittitle>Correspondence<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18a</container>
+                     <container type="folder">2</container>
+                     <unittitle>Conference materials<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">3</container>
+                  <unittitle>Newspaper clippings<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">4</container>
+                  <unittitle>Reports<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">5</container>
+                  <unittitle>Laws, executive orders, and resolutions<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">6</container>
+                  <unittitle>Educational Equality<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">7</container>
+                  <unittitle>ERA and Civil Rights<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">8</container>
+                  <unittitle>Gay Rights<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">9</container>
+                  <unittitle>Housing<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">10</container>
+                  <unittitle>Labor<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18a</container>
+                  <container type="folder">11</container>
+                  <unittitle>Memorabilia<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">18a</container>
+                     <container type="folder">12</container>
+                     <unittitle>Pamphlets<unitdate>1977</unitdate></unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18a</container>
+                     <container type="folder">13</container>
+                     <unittitle>Publications<unitdate>1977</unitdate></unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>UN World Conference, Decade for Women, Copenhagen<unitdate>1980</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <container type="folder">1</container>
+                     <unittitle>Index to microfiche</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <container type="folder">2</container>
+                     <unittitle>Microfiche</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Background Press Release; Secretary General's Opening Remarks</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>List of Participants</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Overview of Progress/Obstacles at the National Level</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>World Plan of Action</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Employment review/evaluation</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Health review/evaluation</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Education review/education</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>National machinery review/evaluation</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Descriptive list of National Machineries</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Political Participation, International Co-op and International Peace: review</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Women in Rural Areas: statistical abstract</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Technological Change and Microelectronics for Women Workers</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Information/communication as developed resources; employment effects of science and technology</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>International Seminar -- Women and Media</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Influence/Mass Media/Attitudes toward Societal Roles of Men and Women</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Health Effects/Cultural Practices on Women and Children</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Women's Status/Role in Education and in Economy/Social Areas</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Reviews/Evaluation of Regional/ Global UN Programmes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>UN Conference Recommendations re: Women</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>UN System Agencies re: Decade goals: review</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>ESCAP Regional Preparatory Meeting at New Delhi; Lusaka; Damascus</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Economic Role of Women in ECE Region</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>UN Dept. of International Economic and Social Affairs re: World Plan of Action: review</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Decade for Women Voluntary Fund: Secretary General's report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Dept. Technology Co-op for Development: report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Industrial Development Organization: report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Women, children, and development: UNICEF report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>World Food Programme and Decade for Women</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Ongoing and Future Programs re: Decade for Women: UNITAR report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Measures Taken to Implement UN Decade for Women: ILO report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Integration of Women in Rural Development: FAO report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>School Education for Girls: UNESCO report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Health and Status of Women: WHO report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>"Invisible" Women in Development: World Bank report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Rural Women's Participation in Development: UNDP report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Policies/Programs in the Field of Women/Population/Development: UNFPA report</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Conference of Non-Aligned/Other Developing Countries on Role of Women in Development</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Convention on the Elimination of All Forms of Discrimination against Women</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Preparatory Committee Report (Sessions <unitdate>1-3)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Commission on the Status of Women Report (Sessions <unitdate>27-28)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Effective Mobilization/Integration of Women in Development</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Situation of Women Refugees Worldwide</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Women's Role in Liberation Struggles in Zimbabwe, Namibia, and South Africa</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Assistance Measures for Women in Southern Africa</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Apartheid Effects of Women's Status in South Africa and Namibia</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Lusaka Declaration on Racism/Racial Prejudice</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Apartheid and Women's Employment/Women in Trade Unions</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Women and Apartheid: reports of Montreal and Helsinki Seminars</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Israeli Occupation Effects on Palestinian Women: Assistance Measures to Palestinian Women</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Social/Economic Conditions of Palestinian Women</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>National Reports</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Israel</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Japan</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Canada</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>India</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Poland</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Austria</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Byelorussia</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>USA</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>China (PR)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>New Zealand</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Round-up press release</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Summary</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Contents and abbreviations</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Background; National, International and Regional Levels of Action</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Resolutions and Origins of the Conference</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Organization of Work; General Debate; Report of First Committee</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">19</container>
+                        <unittitle>Reports of Second and Third Committees; adoption of conference report, Corrigendum</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Program of Action: information paper</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Resolutions: information paper</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Women 1980: DESI newsletters <unitdate>(1-8)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Conventions</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <container type="folder">1</container>
+                     <unittitle>Women's Centennial Congress, NYC (1940): clipping, minutes, programs, correspondence, pamphlets, book, and newsletters<unitdate>1939-40</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle>Seneca Falls Convention <unitdate>(1848)</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">2</container>
+                        <unittitle>Report, photograph, honor roll, and pamphlets<unitdate>1848</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Centennial <unitdate>(1948)</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">3</container>
+                           <unittitle>Volume of papers<unitdate>1948</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">4</container>
+                           <unittitle>Clippings and newspaper<unitdate>1948</unitdate>
+                           </unittitle>
+                          </did>
+               <note>
+                  <p>
+                  <ref target="list-serOV">[see also Oversize Materials]</ref></p>
+               </note>
+
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">5</container>
+                           <unittitle>Pageant scripts (English and Spanish) and news reports<unitdate>1940-48</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">6</container>
+                           <unittitle>Seneca Falls Historical Society: pamphlet<unitdate>1972</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">20</container>
+                           <container type="folder">7</container>
+                           <unittitle>Memorabilia: pamphlets, napkin, envelopes, map, and magazines<unitdate>1937-48</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">8</container>
+                        <unittitle>Akron, OH: book<unitdate>1973 </unitdate>(reprint of 1851 proceedings)</unittitle>
+                     </did>
+                  </c03>
+                  <c03>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">9</container>
+                        <unittitle>West Chester, PA: proceedings<unitdate>1852</unitdate>
+                        </unittitle>
+                     </did>
+                  </c03>
+                  <c03>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">10</container>
+                        <unittitle>Cleveland, OH: circular<unitdate>1854</unitdate>
+                        </unittitle>
+                     </did>
+                  </c03>
+                  <c03>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">11</container>
+                        <unittitle>Broadway Tabernacle, NYC: pamphlet<unitdate>1856</unitdate>
+                        </unittitle>
+                     </did>
+                  </c03>
+                  <c03>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">12</container>
+                        <unittitle>Mercantile Hall, Boston: reports<unitdate>1859</unitdate>
+                        </unittitle>
+                     </did>
+                  </c03>
+                  <c03>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">13</container>
+                        <unittitle>Church of the Puritans, NYC: proceedings<unitdate>1866</unitdate>
+                        </unittitle>
+                     </did>
+                  </c03>
+                  <c03>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">14</container>
+                        <unittitle>American Equal Rights Association, NY: proceedings<unitdate>1867</unitdate>
+                        </unittitle>
+                     </did>
+                  </c03>
+                  <c03>
+                     <did>
+                        <container type="box">20</container>
+                        <container type="folder">15</container>
+                        <unittitle>
+National Women's Rights Convention of 1850: Lisa Connolly Cook: M.A. thesis<unitdate>2000</unitdate>
+                        </unittitle>
+                     </did>
+                  </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. EQUAL RIGHTS AMENDMENT</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>General and pre-<unitdate>1970</unitdate>
+                  </unittitle>
+                 </did>
+               <note>
+                  <p>
+                  <ref target="list-serOV">[see also Oversize Materials]</ref></p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <container type="folder">1</container>
+                     <unittitle>Alice Paul: clippings, telegram, correspondence, and photographs<unitdate>1939-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <container type="folder">2-7</container>
+                     <unittitle>Clippings<unitdate>1957-81</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <container type="folder">1-9</container>
+                     <unittitle>Reports, correspondence, and printed materials<unitdate>1898-1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <container type="folder">10</container>
+                     <unittitle>Freedom Train documents (list)<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <container type="folder">11</container>
+                     <unittitle>Anti-ERA: clippings, book, articles, statements, and pamphlets<unitdate>1924-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Post-                <unitdate>1970</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle>
+                        <title render="italic">The Fight for ERA</title> (oral history project)<unitdate>1983</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>[NOTE: audio cassette tapes are closed. * CD use copies of some tapes available in boxes 56-57]</p>
+                  </note>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">1</container>
+                        <unittitle>Accession records, contents list, and memo</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">2</container>
+                        <unittitle>Interview schedule and questions</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">3</container>
+                        <unittitle>Adams, Ruth: interview notes, photographs, and 3 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">4</container>
+                        <unittitle>Atkins, Carol: interview notes, photographs, and 2 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">5</container>
+                        <unittitle>Bonk, Kathy: interview notes, photographs and 2 tapes *</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">6</container>
+                        <unittitle>Butler, Pat and Twiss: interview notes, photographs and 3 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">7</container>
+                        <unittitle>Catania, Susan: interview notes, photographs and 3 tapes *</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">8</container>
+                        <unittitle>Ciarrochi, Lillian: interview notes, photographs and 2 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">9</container>
+                        <unittitle>Cohan, Alice: interview notes and photographs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">10</container>
+                        <unittitle>Collins, Mary Jean: interview notes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">11</container>
+                        <unittitle>Crisp, Mary: interview notes and photographs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">12</container>
+                        <unittitle>Cutri, Diane: interview notes, photographs and 2 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">13</container>
+                        <unittitle>Dunn, Betsy: interview notes, photographs and 3 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">14</container>
+                        <unittitle>East, Catherine: interview notes, photographs and 2 tapes *</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">15</container>
+                        <unittitle>Edwards, Don: interview notes, photographs and 1 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">16</container>
+                        <unittitle>Ferguson, Vicki: interview notes, photographs and 2 tapes *</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">17</container>
+                        <unittitle>Frank, Pat: interview notes and 1 tape</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">18</container>
+                        <unittitle>Ghizzoni, Audrey: interview notes and 2 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">19</container>
+                        <unittitle>Greenwald, Sheila: interview notes, photographs and 1 tape *</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">20</container>
+                        <unittitle>Heath, Mariwyn: interview notes and 2 tapes *</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">21</container>
+                        <unittitle>Jeffrey, Mildred: interview notes and 2 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">22</container>
+                        <unittitle>Leopold, Beth: interview notes and 2 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">23</container>
+                        <container type="folder">23</container>
+                        <unittitle>Lewis, Ann: interview notes, program, photographs, and 1 tape</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">1</container>
+                        <unittitle>Roberts, Colette: interview notes and 2 tapes *</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">2</container>
+                        <unittitle>Sackman, Reed Gloria: interview notes photographs, and 4 tapes *</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">3</container>
+                        <unittitle>Smeal, Eleanor: interview notes and photographs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">4</container>
+                        <unittitle>Wells-Schooley, Jane: interview notes and photographs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">5</container>
+                        <unittitle>Wingard, Jinx: interview notes, photographs and 2 tapes</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">6</container>
+                        <unittitle>Yard, Molly: interview notes and photographs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">24</container>
+                        <container type="folder">7</container>
+                        <unittitle>Yard, Molly and Alice Cohan: interview notes and photographs</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">1</container>
+                     <unittitle>General: articles, paper, and pamphlets<unitdate>1970-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">2</container>
+                     <unittitle>Common Cause: memos and pamphlets<unitdate>1972-74</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <container type="folder">3</container>
+                     <unittitle>Citizens' Advisory Council: pamphlets<unitdate>1970-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">4</container>
+                     <unittitle>ERAmerica: mailings, correspondence, pamphlets, and articles<unitdate>1976-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">5</container>
+                     <unittitle>League of Women Voters: "weather report" and pamphlet, cir<unitdate>ca 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">6</container>
+                     <unittitle>Correspondence and pamphlets<unitdate>1970-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">7</container>
+                     <unittitle>Bibliographies and pamphlets<unitdate>1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">8</container>
+                     <unittitle>NOW: information packet, pamphlets, petition, flyer, and newspaper<unitdate>1971-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">9</container>
+                     <unittitle>Pamphlets and articles<unitdate>1970-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">10</container>
+                     <unittitle>National Federation of Business and Professional Women's Clubs, Inc.: pamphlets and background material, circa late <unitdate>1970s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">11</container>
+                     <unittitle>Women United: pamphlet, memos, and press release<unitdate>1971-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">12</container>
+                     <unittitle>Housewives for ERA: pamphlets and correspondence<unitdate>1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">13</container>
+                     <unittitle>Pamphlets, memos, resolutions, and mailing<unitdate>1970-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">14</container>
+                     <unittitle>Vital Issues - Center for Information on America: pamphlet<unitdate>1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">15</container>
+                     <unittitle>Memorabilia: potholder, pins, matches, postcards, bumper stickers, invitation, and information packet<unitdate>n.d.</unitdate>
+                     </unittitle>
+		     <note>
+		     <p>
+		     <ref target="list-box25a">[See also box 25a]</ref></p>
+		     </note>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">16</container>
+                     <unittitle>Anti-ERA: correspondence, pamphlets, memos, and clippings<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <container type="folder">17</container>
+                     <unittitle>ERA: hearings and congressional records<unitdate>1970-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="list-box25a">
+                  <did>
+                     <container type="box">25a</container>
+                     <unittitle>Memorabilia: mug with ERA inscription<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <container type="folder">1</container>
+                     <unittitle>Committee to ratify the Massachusetts State Equal Rights: clippings, pamphlets, bumper sticker, and reports<unitdate>1975-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <container type="folder">2</container>
+                     <unittitle>Pamphlets, reports, clippings, and newsletters<unitdate>1973-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>SERIES V. LEGAL STATUS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">1</container>
+                  <unittitle>
+                     <title render="italic">Harvard Women's Law Journal</title> (Vol. 1, No. 1)<unitdate>Spring 1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <unittitle>Articles and flyers<unitdate>1970-81</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">2</container>
+                  <unittitle>Clippings<unitdate>1970-79</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">3</container>
+                  <unittitle>Court decisions: legal docket, and clippings<unitdate>1970-77</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">4</container>
+                  <unittitle>Heath, Kathryn G., Legislation and its Implications for Eliminating Sex Bias<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">5</container>
+                  <unittitle>Legislation: clippings, correspondence, and reports<unitdate>1927-78</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">6</container>
+                  <unittitle>Packard Trial: book<unitdate>1869</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">7</container>
+                  <unittitle>Property rights: legislation and article<unitdate>1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">8</container>
+                  <unittitle>Report of the President's Task Force on Women's Rights and Responsibilities<unitdate>1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">9</container>
+                  <unittitle>Social Security: report and statement<unitdate>1946-78</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">10</container>
+                  <unittitle>National Women's Agenda: agenda<unitdate>1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">11</container>
+                  <unittitle>Legal status and treatment of women: questionnaire replies<unitdate>1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">12-13</container>
+                  <unittitle>Women and the Law Conference: workshops, pamphlets, and supporting materials<unitdate>1976-81</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">14</container>
+                  <unittitle>
+                     <title render="italic">Women Law Reporter</title>: newsletters<unitdate>1974-75</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">15</container>
+                  <unittitle>Women's Rights Project (American Civil Liberties Union): correspondence<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <container type="folder">16</container>
+                  <unittitle>Articles, speech, and magazine<unitdate>1971-74</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <container type="folder">1</container>
+                  <unittitle>Pamphlets, magazine, articles, and report<unitdate>1901-81</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <unittitle>
+                     <title render="italic">Rights of Women</title>: workbook of international conventions relating to women's issues and concerns<unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <container type="folder">2</container>
+                  <unittitle>National League of Women Voters: pamphlets, stories, and speeches<unitdate>1924-48</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <container type="folder">3</container>
+                  <unittitle>Universal Declaration of Human Rights - UN Assembly: pamphlets<unitdate>1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <container type="folder">4</container>
+                  <unittitle>Women and the Law: report, cir<unitdate>ca 1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>States</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>General</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">29</container>
+                        <container type="folder">1</container>
+                        <unittitle>Surveys and articles<unitdate>1924-71</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">29</container>
+                        <container type="folder">2</container>
+                        <unittitle>Book, pamphlets, reports, and clippings<unitdate>1908-78</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <container type="folder">3</container>
+                     <unittitle>Connecticut: clippings, newsletters, and newspapers<unitdate>1972-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Massachusetts</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">29</container>
+                        <container type="folder">4</container>
+                        <unittitle>General: pamphlets, clippings, papers, newsletters, and correspondence<unitdate>1967-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">29</container>
+                        <container type="folder">5</container>
+                        <unittitle>CMS: petition and legislation<unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">29</container>
+                        <container type="folder">6</container>
+                        <unittitle>Bills relating to women: pamphlets<unitdate>1971-72</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">29</container>
+                        <container type="folder">7</container>
+                        <unittitle>Commission Against Discrimination: pamphlets<unitdate>1967</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <container type="folder">8</container>
+                     <unittitle>Michigan: report and newsletters<unitdate>1973-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <container type="folder">9</container>
+                     <unittitle>Minnesota: legislation<unitdate>1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>New Jersey: legislation<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <container type="folder">11</container>
+                     <unittitle>Tennessee: clippings<unitdate>1912</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <container type="folder">12</container>
+                  <unittitle>Blueprints for Women Conference: newspaper<unitdate>1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>National Commission on the Observance of IWY: Homemakers Committee reports<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title render="italic">The Legal Status of Homemakers in...</title>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">30</container>
+                     <container type="folder">1-37</container>
+                     <unittitle>
+                        <title render="italic">Alabama - Oregon</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <container type="folder">1-13</container>
+                     <unittitle>
+                        <title render="italic">Pennsylvania - Wyoming</title>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>SERIES VI. ORGANIZATIONS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>National Commission on the Observance of International Women's Year</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">1</container>
+                     <unittitle>Agenda letters<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">2</container>
+                     <unittitle>Miscellaneous: memos, pamphlets, and correspondence<unitdate>1976-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">3-4</container>
+                     <unittitle>Press releases<unitdate>1976-1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">5</container>
+                     <unittitle>Publications<unitdate>1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+<c03>
+<did>
+<container type="box">32</container>
+                     <container type="folder">6</container>
+<unittitle>Report "To Form a More Perfect Union," <unitdate>1976</unitdate></unittitle>
+</did>
+</c03>
+
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">7</container>
+                     <unittitle>Updates<unitdate>1977-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <container type="folder">8-9</container>
+                     <unittitle>Workshop guides, <unitdate>circa 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">1</container>
+                  <unittitle>National Women's rights organizations: fact sheet<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">2</container>
+                  <unittitle>Anti-defamation League of B'nai B'rith: press release<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">3</container>
+                  <unittitle>Equity Network: correspondence and handouts<unitdate>1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">4</container>
+                  <unittitle>Human Rights for Women: handbook, mailings, and court rulings<unitdate>1971-73</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">5</container>
+                  <unittitle>International Alliance of Women: pamphlet<unitdate>1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">6</container>
+                  <unittitle>Maine Women's Political Caucus: correspondence and newsletters<unitdate>1973-74</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Massachusetts Women's Political Caucus</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">7</container>
+                     <unittitle>General: handouts, newsletters, bylaws, correspondence, pin, clippings, and pamphlets<unitdate>1971-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">8</container>
+                     <unittitle>Plenary Session: information<unitdate>1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">9</container>
+                     <unittitle>November Caucus, Boston College: agenda and pamphlet<unitdate>1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">10</container>
+                     <unittitle>Second Plenary Session: agenda<unitdate>1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <container type="folder">11</container>
+                     <unittitle>Clippings<unitdate>1971-72</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">12</container>
+                  <unittitle>National Advisory Committee for Women: clippings<unitdate>1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">13</container>
+                  <unittitle>National Women's Education Fund: poster and correspondence<unitdate>1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">14-15</container>
+                  <unittitle>National Women's Political Caucus: pin, agenda, statements, workshop information, pamphlets, clippings, and articles<unitdate>1971-76</unitdate>
+                  </unittitle>
+	<note><p>[<ref target="list-serBks">see also cassette tapes on shelf</ref>]</p>
+	</note>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">16</container>
+                  <unittitle>North Carolina Women's Political Caucus: clippings<unitdate>1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">17</container>
+                  <unittitle>Oregon Women's Political Caucus: newspaper<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">18</container>
+                  <unittitle>Pennsylvanians for Women's Rights: newsletters<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">19</container>
+                  <unittitle>The Women's Commission in Exile: newsletters<unitdate>1982-83</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">20</container>
+                  <unittitle>Virginia Women's Political Caucus: clippings<unitdate>1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">21</container>
+                  <unittitle>Women USA: correspondence and pamphlets<unitdate>1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">22</container>
+                  <unittitle>Women's Action Alliance: pamphlets, press releases, correspondence, and agenda<unitdate>1976-79</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">23</container>
+                  <unittitle>Women's Coalition for the Third Century: pamphlets, correspondence, articles, and pin<unitdate>1974-76</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">24</container>
+                  <unittitle>Women's Commission in Exile - Massachusetts: pamphlets, annual report, and newsletters<unitdate>1979-81</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">25</container>
+                  <unittitle>Women's Equity Action League: pamphlets, press releases, articles, and memos<unitdate>1971-78</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">26</container>
+                  <unittitle>Women's Lobby, Inc.: correspondence, newsletters, and pamphlets<unitdate>1973-78</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <container type="folder">27</container>
+                  <unittitle>Miscellaneous women's rights organizations: clippings<unitdate>1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser7">
+            <did>
+               <unittitle>SERIES VII. COMMISSIONS ON THE STATUS OF WOMEN</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Publications</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title render="italic">Statement by the President on the Establishment of the President's Commission on the Status of Women</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Home and Community</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title render="italic">American Women</title><unitdate>1963-68</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Private Employment</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Federal Employment</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Protective Labor Legislation</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Social Insurance and Taxes</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Education</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">1</container>
+                  <unittitle>Report request forms<unitdate>1964-65</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">2</container>
+                  <unittitle>Clippings<unitdate>1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">3</container>
+                  <unittitle>Press release<unitdate>1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">34</container>
+                  <container type="folder">4</container>
+                  <unittitle>Correspondence<unitdate>1964</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">35</container>
+                  <container type="folder">1-4</container>
+                  <unittitle>Commission meetings: reports, agendas, press releases, correspondence, pamphlets, and minutes<unitdate>1961-63</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <unittitle>Executive letters: executive letters to members of the commission with press releases, and reports<unitdate>1962-63</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">37</container>
+                  <container type="folder">1</container>
+                  <unittitle>Reports of the Committee on Education<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">38</container>
+                  <container type="folder">1</container>
+                  <unittitle>Report of the Committee on Federal Employment Policies and Practices<unitdate>1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">39</container>
+                  <container type="folder">1</container>
+                  <unittitle>Reports of the Committee on Social Insurance and Taxes: pamphlets<unitdate>1962-63</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">40</container>
+                  <unittitle>Report of the Committee on Political and Social Rights<unitdate>1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">40</container>
+                  <container type="folder">1</container>
+                  <unittitle>Reports and articles<unitdate>1961-63</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">1</container>
+                  <unittitle>Agenda, reports, minutes, and memos<unitdate>1962-63</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">2</container>
+                  <unittitle>Committee on Private Employment: background facts<unitdate>1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">3</container>
+                  <unittitle>Press releases and proposals<unitdate>1962-63</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">41</container>
+                  <container type="folder">4</container>
+                  <unittitle>Committee on Protective Labor Legislation: pamphlets, memos, and reports<unitdate>1962-68</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Citizens' Advisory Council on the Status of Women</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <container type="folder">1-6</container>
+                     <unittitle>
+                        <title render="italic">Women in Women in 1975</title> (6 reports)<unitdate>1970-</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">42</container>
+                  <container type="folder">7</container>
+                  <unittitle>Committee on Home and Community: memos, agendas, reports, and pamphlets<unitdate>1962-72</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous publications</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Women Today: Trends and Issues</title>, by Dr. Caroline F. Ware<unitdate>1962</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">American Women</title> (3 copies)<unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Background Memorandum of the Status of Women</title>, by Dr. Caroline F. Ware<unitdate>1962</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Report on Four Consultations, by the Commission</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Private Employment</title>, by the Commission<unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Social Insurance and Taxes</title>, by the Commission<unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">A Brief in favor of an Equal Rights Amendment</title> (3 copies) presented by National Federation of Business and Professional Women's Clubs<unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Women (in 1972)</title>, by Citizens' Advisory Council, on the Status of Women (2 copies)<unitdate>1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Report on Progress in 1965 on the Status of Women</title>, by Citizens' Advisory Council, on the Status of Women, 1965</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Protective Labor Legislation</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <title render="italic">Report of the Committee on Federal Employment</title> (2 copies)<unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Follow-up reports</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle>Interdepartmental Committee and Citizens' Advisory Council on the Status of Women: Progress Reports<unitdate>1964-66</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic">Report on Four Consultations</title><unitdate>1963</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <unittitle>
+                           <title render="italic">American Women</title><unitdate>1963-68</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <unittitle>
+                           <title render="italic">Report of the Task Force on Family Law and Policy</title><unitdate>1968</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <unittitle>
+                           <title render="italic">Women in 1970 - Women in 1975</title> (6 reports) <unitdate>1970-75</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <unittitle>Press release concerning new appointments<unitdate>1969</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic">Report of the Task Force on Labor Standards</title>,                    <unitdate>1968</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <unittitle>
+                           <title render="italic">Report of the Task Force on Health and Welfare</title><unitdate>1968</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">44</container>
+                        <unittitle>
+                           <title render="italic">Progress and Prospects</title><unitdate>1965</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">44</container>
+                  <unittitle>The President's Task Force on Women's Rights and Responsibilities: press releases, bill, and reports<unitdate>1961-70</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>State Commissions on the Status of Women</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">1</container>
+                     <unittitle>Alabama: bulletin and statement<unitdate>1951-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">2</container>
+                     <unittitle>California: bulletin<unitdate>1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">3</container>
+                     <unittitle>Colorado: summary report<unitdate>1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">4</container>
+                     <unittitle>Connecticut: annual report<unitdate>1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">5</container>
+                     <unittitle>Florida: annual report<unitdate>1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">6</container>
+                     <unittitle>Hawaii: reports, newsletter, and book<unitdate>1966-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">7</container>
+                     <unittitle>Iowa: article<unitdate>1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">8</container>
+                     <unittitle>Kentucky: <title render="italic">Kentucky Women</title><unitdate>1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">9</container>
+                     <unittitle>Maryland: legislation<unitdate>1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">10</container>
+                     <unittitle>Massachusetts: clippings, reports, correspondence, and newsletters<unitdate>1974-75</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">11</container>
+                     <unittitle>Michigan: report<unitdate>1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">12</container>
+                     <unittitle>Minnesota: annual report<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">13</container>
+                     <unittitle>New Jersey: report<unitdate>1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">14</container>
+                     <unittitle>New York: pamphlets<unitdate>1964-77</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">15</container>
+                     <unittitle>North Carolina: report<unitdate>1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">16</container>
+                     <unittitle>Oregon: report<unitdate>1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">17</container>
+                     <unittitle>Pennsylvania: remarks, report, newsletter, and pamphlet<unitdate>1965-73</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">18</container>
+                     <unittitle>Texas: pamphlet<unitdate>1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">19</container>
+                     <unittitle>Utah: report<unitdate>1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">20</container>
+                     <unittitle>Washington: reports<unitdate>1963-78</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <container type="folder">21</container>
+                     <unittitle>Wisconsin: reports and newsletter<unitdate>1965-76</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser8">
+            <did>
+               <unittitle>SERIES VIII. COUNTRIES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">1</container>
+                  <unittitle>General: note cards, clippings, articles, and packets<unitdate>1973-80</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">2</container>
+                  <unittitle>United Nations: clippings, articles, and pamphlets<unitdate>1968-75</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">3</container>
+                  <unittitle>Africa<unitdate>1972-80</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">4</container>
+                  <unittitle>Albania<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">5</container>
+                  <unittitle>Asia<unitdate>1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">6</container>
+                  <unittitle>Australia<unitdate>1962-73</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <unittitle>Canada</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-canada">[see box 47]</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">7</container>
+                  <unittitle>China<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <unittitle>England</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-england">[see box 48]</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <unittitle>France</unittitle>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-france">[see box 48]</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">8</container>
+                  <unittitle>Germany<unitdate>1871-1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">9</container>
+                  <unittitle>Israel/ Jerusalem - Arabs<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">10</container>
+                  <unittitle>Italy<unitdate>1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">11</container>
+                  <unittitle>Japan<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">12</container>
+                  <unittitle>Lebanon<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">13</container>
+                  <unittitle>Mexico<unitdate>1974-80</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">14</container>
+                  <unittitle>Norway<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">15</container>
+                  <unittitle>Pakistan<unitdate>1972-74</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">16</container>
+                  <unittitle>Philippines<unitdate>1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">17</container>
+                  <unittitle>Portugal<unitdate>1973-74</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">18</container>
+                  <unittitle>San Marino<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">19</container>
+                  <unittitle>Spain<unitdate>1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">20</container>
+                  <unittitle>Thailand<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">21</container>
+                  <unittitle>Turkey<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">46</container>
+                  <container type="folder">22</container>
+                  <unittitle>Vietnam<unitdate>1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="list-canada">
+               <did>
+                  <unittitle>Canada</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">1</container>
+                     <unittitle>La Bonne Parole: pamphlets and newspapers<unitdate>1917-58</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">2-3</container>
+                     <unittitle>Canadian Advisory Council on the Status of Women: pamphlets<unitdate>1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">4</container>
+                     <unittitle>Clippings<unitdate>1953-60</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">5</container>
+                     <unittitle>Casgrain, Madame. Pierra F.: clipping, pamphlet, and transcript<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">6</container>
+                     <unittitle>Le Code Civil: articles and pamphlets<unitdate>1943-49</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">7</container>
+                     <unittitle>Legal status of married women: pamphlets, correspondence, and clippings<unitdate>1924-64</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">8</container>
+                     <unittitle>National Action Committee: pamphlets, cir<unitdate>ca 1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">9</container>
+                     <unittitle>Nationality of married women: pamphlet<unitdate>1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <container type="folder">10</container>
+                     <unittitle>Status Anyone?: pamphlet<unitdate>1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="list-england">
+               <did>
+                  <unittitle>England</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">1</container>
+                     <unittitle>General: pamphlets, clippings, and <title render="italic">A Woman's Place</title><unitdate>1850-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">2</container>
+                     <unittitle>Nationality rights: pamphlets<unitdate>1925-46</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">3-5</container>
+                     <unittitle>Pamphlets and books<unitdate>1866-1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">6</container>
+                     <unittitle>Alfred B. Wallace: correspondence<unitdate>1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">7</container>
+                     <unittitle>Wollstonecraft, Mary: pamphlets, correspondence, articles, and engraving, cir<unitdate>ca 1876</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <unittitle>
+                        <title render="italic">Facsimile of a Deed by a Single Lady of land in the Manor of Naudelsleigh, Lancasshire, England</title>(poster)<unitdate>1318</unitdate> </unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-singlelady">[see OVERSIZE MATERIALS]</ref>
+                     </p>
+                  </note>
+               </c03>
+            </c02>
+            <c02 id="list-france">
+               <did>
+                  <unittitle>France</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">8</container>
+                     <unittitle>General: clippings, pamphlets, and book<unitdate>1871-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">9</container>
+                     <unittitle>Early History: books and articles<unitdate>1888-1893</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">10</container>
+                     <unittitle>Condorcet, Marquis de: pamphlets<unitdate>1789</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <container type="folder">11</container>
+                     <unittitle>Gallant, Mavis: "Annals of Justice," <unitdate>1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>	 
+<c01>
+	<did>
+		<unittitle>AUDIOVISUAL MATERIALS
+		</unittitle>
+	</did>
+	<c02>
+		<did>
+			<container type="box">52-55</container>
+			<unittitle><title render="italic">The Fight for ERA</title> (oral history project): original cassette tapes and preservation CDs [<title render="bold">CLOSED</title>]
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<container type="box">52-55</container>
+			<unittitle><title render="italic">The Fight for ERA</title> (oral history project):-in-house use copies (CDs)
+			</unittitle>
+		</did>
+		<c03>
+			<did>
+				<container type="box">56</container>
+				<unittitle>Bonk, Kathy [<title render="italic">digital file copy available</title>]
+				</unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+				<container type="box">56</container>
+				<unittitle>Catania, Susan
+				</unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+				<container type="box">56</container>
+				<unittitle>East, Catherine
+				</unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+				<container type="box">56</container>
+				<unittitle>Ferguson, Vicki
+				</unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+				<container type="box">56</container>
+				<unittitle>Greenwald, Sheila  [<title render="italic">digital file copy available</title>]
+				</unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+				<container type="box">56</container>
+				<unittitle>Heath, Marilyn
+				</unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+				<container type="box">57</container>
+				<unittitle>Roberts, Colette
+				</unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+				<container type="box">57</container>
+				<unittitle>Sackman-Reed Gloria
+				</unittitle>
+			</did>
+		</c03>
+	</c02>
+	<c02>
+		<did>
+			<container type="box">on shelf</container>
+			<unittitle>International Women's Year, National Women's Conference: 48 cassette tapes
+				<unitdate>1977</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+	<c02>
+		<did>
+			<container type="box">on shelf</container>
+			<unittitle>National Women's Political Caucus, keynote speeches, San Jose, California (6 audiocassettes)
+				<unitdate>Sept 9-11, 1997</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+</c01>         
+
+<c01 id="added">
+            <did>
+               <unittitle>ADDED MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">51 (os)</container>
+                  <unittitle>International Women's Year (IWY) conference, Puerto Rico: minutes, agendas, correspondence, resolutions, and program materials<unitdate>1976-78</unitdate></unittitle>
+               </did>
+            </c02>
+         </c01>	
+         <c01 id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">49</container>
+                  <unittitle>New York State Women's Meeting: report<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">50</container>
+                  <unittitle>Winifred Harper Cooley: scrapbook of articles re: women's rights<unitdate>circa 1920s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">51</container>
+                  <unittitle>"Representative Women," Lithograph by L. Grozelier (Lucretia Mott, Harriet Beecher Stowe, Abby Kelley Foster, Lucy Stone, Lydia Maria Child, Antoinette Brown Blackwell, Maria Weston Chapman)<unitdate>1857</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">52-55</container>
+                  <unittitle><title render="italic" encodinganalog="630" source="lcsh">The Fight for ERA</title>(oral history project): original cassette tapes and preservation copies<unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">56-57</container>
+                  <unittitle><title render="italic" encodinganalog="630" source="lcsh">The Fight for ERA</title>(oral history project): CD use copies<unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle>Equal Rights Amendment: editorials and press comments<unitdate>1943-44</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle>Exhibit material (IWY conference, Houston): photographs and printed material<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="list-singlelady">
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle><title render="italic">Fac-simile of a Deed by a Single Lady... </title>(poster), 1318</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle>Poster, "The Time is Now," (for benefit of women candidates)<unitdate>1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle><title render="italic">Proclamation of Women's History Month</title><unitdate>1999 </unitdate>(signed by Bill Clinton)</unittitle>
+               </did>
+            </c02>
+            <c02 id="list-sidebyside">
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle>
+                     <title render="italic">Side-by-Side</title> (phonograph record album): re-enactments of scenes from women's history<unitdate>1848-1920</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle><title render="italic">Seneca Falls Centennial</title> <unitdate>(1948): </unitdate>newspaper, 1948</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle><title render="italic">Stone, Lucy (Blackwell)</title>: clipping from Woman's Journal<unitdate>1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File Dwr 8</container>
+                  <unittitle>Miscellaneous posters
+                  </unittitle>
+               </did>
+		<c03>
+			<did>
+			<container type="map-case">Flat File Dwr 8</container>
+			<unittitle>ERA (2)<unitdate>n.d.</unitdate></unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+			<container type="map-case">Flat File Dwr 8</container>
+			<unittitle>Conference on Women in Beijing (2)<unitdate>1995</unitdate></unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+			<container type="map-case">Flat File Dwr 8</container>
+			<unittitle>Dutch women's rights<unitdate>n.d.</unitdate></unittitle>
+			</did>
+		</c03>
+		<c03>
+			<did>
+			<container type="map-case">Flat File Dwr 8</container>
+			<unittitle>U.S. National Women's Agenda<unitdate>Jun 1975</unitdate></unittitle>
+			</did>
+		</c03>
+            </c02>
+         </c01>
+         <c01 id="list-serBks">
+            <did>
+               <unittitle>ITEMS ON SHELF</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Allen, Angela Z., <title render="italic">50-50 Gender Balance</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Alexander, Shana, <title render="italic">Women's Legal Rights</title><unitdate>1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Blackwell, Alice Stone, <title render="italic">What I Owe to My Father</title><unitdate>1931, 1999</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Davis, Paulina W., <title render="italic">A History of the National Woman's Rights Movement</title><unitdate>1871</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Discrimination Against Women</title> (Parts I and II), Hearings, U.S. House Committee on Education and Labor, Special Subcommittee on Education<unitdate>1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Equal Rights</title>, Hearings, U.S. Senate Committee on the Judiciary<unitdate>1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">The "Equal Rights" Amendment</title>, Hearings, U.S. Senate Committee on the Judiciary, Subcommittee on Constitutional Amendments<unitdate>1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">The Federal Civil Rights Enforement Effort</title>, Report of the U.S. Commission on Civil Rights<unitdate>Nov 1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">First New York State Women's Meeting</title> (volumes I and II): report<unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Women's Rights Pamphlets</title>, Cornell University Collection (microfiche)<unitdate>1814-1912 </unitdate></unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fishman, Nathaniel, <title render="italic">Married Woman's Bill of Rights</title>, intro by Dorothy Kenyon<unitdate>1943</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Holley, Marietta, <title render="italic">Samantha Among the Brethren</title><unitdate>1890</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">IWY National Women's Conference: Official Briefing Book</title><unitdate>1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Keep Your Laws Off My Body</title>, compilation of clippings, hearings, lawsuits<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Report of the Women's Action Program</title>, U.S. Department of Health, Education, and Welfare<unitdate>1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">The Spirit of Houston</title><unitdate>1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Status of Women in Canada</title><unitdate>1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">...To Form a More Perfect Union...</title>, Report of the National Commission on the Observance of International Women's Year<unitdate>1975, 1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Woman's Centennial Congress</title><unitdate>1940</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Woman's Rights Pamphlets</title> (bound volume)<unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle><title render="italic">Women and the Law</title><unitdate>1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="photocop">
+               <did>
+                  <unittitle>Miscellaneous publications (photocopies)</unittitle>
+               </did>
+               <note>
+                  <p>[NOTE: many of these are duplicates of pamphlets and articles located in SERIES I. GENERAL]</p>
+               </note>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">Woman's Rights Almanac</title><unitdate>1858</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">The Rights and Conditions of Women</title> by Samuel J. <unitdate>May, 1846</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">Letters to Dupont De L'Eure on the Political Position of Women</title> by Emma Willard<unitdate>1848</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle>Enfranchisement of Women<unitdate>1851</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">Education of Females</title> by Paulina W. Davis<unitdate>1851</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">Sanctity of Marriage</title> by E. Oakes Smith<unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">Responsibilities of Woman</title> by C.I.H Nichold<unitdate>1851</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">Letter from Mrs. Elizabeth C. Stanton</title><unitdate>1850</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">Women's Rights</title><unitdate>1853</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                        <unittitle><title render="italic">The Elective Franchise</title> by Geo William Curtis<unitdate>1858</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,784 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss84.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss84</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Canadian American Women's Committee Records, 1941-1969
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Burd Schlessinger.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2003-06-12</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss84 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+
+         </publisher>
+         <titleproper encodinganalog="245$a">Canadian American Women's Committee Records, 1941-1969
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 355
+      </num>
+         <author encodinganalog="245$c">Burd Schlessinger
+      </author>
+         <date>Revised 2002
+      </date>
+
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <corpname encodinganalog="110" source="lcnaf">Canadian American Women's Committee</corpname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Canadian-American Women's Committee/Association Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1941-1969 </unitdate>
+
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 355</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">13 boxes</extent>
+            <extent encodinganalog="300$a">(5 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">The Canadian-American Women's Committee was founded as an international organization with the aim of developing appreciation and cooperation between the two countries through increased knowledge.  Records of the American Section and the Connecticut Branch include material on conferences, field study trips, affiliation with the National Council of Women, student exchanges, and administrative records.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Historical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6233.jpg" altrender="right">
+<daodesc><p>Letter to May Hall James, January 5, 1944 <lb /><lb /></p></daodesc></dao>
+         <p> Vera Beggs and Cairine Wilson believed that the practical international cooperation between Canada and the U.S. developed during World War I could not be trusted to extend into the future solely through treaties and joint boards. In 1941, they founded the Canadian-American Women's Committee, an international organization with the aim of developing appreciation and cooperation between the two countries through increased knowledge. The Committee was composed of two sections. The Canadian division had headquarters in Ottawa, while the its American counterpart was based in New York. Each operated separately to suit their activities to the situation of their respective countries, and joint international conferences of Committee leaders were held to determine general policies. In both countries, the Committee worked a great deal with national women's organizations. In addition, it sponsored educational conferences, field study trips for college students and teachers, student exchanges, teacher exchanges, and lecture tours. Though the Canadian Section disbanded in 1966 and the American section disbanded in 1969, the group established permanent student exchanges. </p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The Canadian-American Women's Committee Records consist of 5 linear feet of the records of the American Section and the Connecticut Branch. They contain material on conferences, field study trips (itineraries, student notes, and records regarding class activities), affiliation with the National Council of Women, student exchanges, and administrative records. Types of materials include clippings; publications, such as newsletters and pamphlets for conferences; correspondence; reports; financial records; minutes; and speech texts. Also included is correspondence concerning programs to foster mutual appreciation, cooperation, and communication (such as an art exchange between school-children).</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into four series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Subjects</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. American Section</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Connecticut Branch</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Student Exchanges</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The records are open to research according to the regulations of the Sophia Smith Collection. </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to portions of the Canadian American Women's Committee Records. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
+           </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Canadian American Women's Committee Records, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions to collection are expected.</p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Canadian American Women's Committee Records were donated to the Sophia Smith Collection by May Hall James. </p>
+               <p>Recent additions to this collection are unprocessed and are not reflected in the finding aid.</p>            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Burd Schlessinger. Finding aid revised in 2002 by Christine Jedziniak, intern.</p>
+
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+
+         <subject encodinganalog="650" source="lcsh">Student exchange programs--Canada--History--Sources</subject>
+         <geogname encodinganalog="651" source="lcsh">United States--Relations--Canada</geogname>
+         <subject encodinganalog="650" source="lcsh">Women-International cooperation--History--Sources</subject>
+         <persname encodinganalog="600" source="lcnaf">James, May Hall</persname>
+         <persname encodinganalog="600" source="lcnaf">Beggs, Vera W. (Vera Wadsworth), d. 1968</persname>
+         <corpname encodinganalog="610" source="lcnaf">Canadian-American Women's Committee--History--Sources</corpname>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Additional records of the Connecticut branch of the Canadian American Women's Committee are at the Schlesinger Library, Harvard University.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. SUBJECTS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>AAUW Conference</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Art Exchange</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Bibliography</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Canadian tour, Willimantic</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Chautauqua meeting</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Canadian section</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">6</container>
+                     <unittitle>Addresses of members</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">7</container>
+                     <unittitle>Canadian Institute of Public Affairs</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">8</container>
+                     <unittitle>Letters from Canadians</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">9-10</container>
+                     <unittitle>Cairine R. Wilson: correspondence, photograph</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">11</container>
+                     <unittitle>Newsletters</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">12-13</container>
+                  <unittitle>Conference on Canada,<unitdate> 1964-65</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">14</container>
+                  <unittitle>Conferences, general,<unitdate> 1943-49</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">15-25</container>
+                  <unittitle>Correspondence,<unitdate> 1942-65</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">26</container>
+                  <unittitle>Correspondence, official,<unitdate> 1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">27</container>
+                  <unittitle>Correspondence re: published materials on Canada,<unitdate> 1955-56</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">28</container>
+                  <unittitle>Field Study course to Canada,<unitdate> 1945</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">29</container>
+                  <unittitle>Field Study course to Canada (trans-Canada air tour),<unitdate> 1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">30</container>
+                  <unittitle>Fifteenth anniversary,<unitdate> 1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">31</container>
+                  <unittitle>Financial records</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">32</container>
+                  <unittitle>Hall, May James, photo</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">33</container>
+                  <unittitle>History</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">34</container>
+                  <unittitle>History, original meeting</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">35</container>
+                  <unittitle>League college project</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">36</container>
+                  <unittitle>MacSkimming visit</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">37</container>
+                  <unittitle>Manuscript materials and miscellaneous clippings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">38</container>
+                  <unittitle>Miscellaneous material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">39</container>
+                  <unittitle>Nursery education project</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">40</container>
+                  <unittitle>Project in international hospitality</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">41</container>
+                  <unittitle>Publications</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">42</container>
+                  <unittitle>Small informal group meetings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">43</container>
+                  <unittitle>Survey of teaching about Canada in American Schools</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">44</container>
+                  <unittitle>Teacher exchange program</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">45</container>
+                  <unittitle>Twentieth anniversary</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. AMERICAN SECTION</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">46-54</container>
+                  <unittitle>Chronological files,<unitdate> 1943-1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Subject files</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">55</container>
+                     <unittitle>Activities,<unitdate> 1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">56</container>
+                     <unittitle>Addresses of members</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">57-58</container>
+                     <unittitle>Art teacher grants,<unitdate> 1960, 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">59</container>
+                     <unittitle>By-laws</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">60-61</container>
+                     <unittitle>Correspondence,<unitdate> 1949-50</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">62</container>
+                     <unittitle>Correspondence and reports,<unitdate> 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">63</container>
+                     <unittitle>Education re: Canada</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">64</container>
+                     <unittitle>James, May Hall, first trip to Canada,<unitdate> 1941</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">65</container>
+                     <unittitle>Meetings, major,<unitdate> 1951-59</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">66</container>
+                     <unittitle>Membership lists</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">67</container>
+                     <unittitle>New York group,<unitdate> 1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">68</container>
+                     <unittitle>Newsletters</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">69</container>
+                     <unittitle>Official publications</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">70</container>
+                     <unittitle>Quebec, Montreal Conference,<unitdate> 1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">70a</container>
+                     <unittitle>Sophia Smith Collection</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">71</container>
+                     <unittitle>Transfer of headquarters</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">72</container>
+                     <unittitle>Treasurer's reports,<unitdate> 1949-67</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>National Council of Women in the United States (part of American Section).</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">73</container>
+                     <unittitle>General</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">74</container>
+                     <unittitle>Hospitality Committee</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. CONNECTICUT BRANCH</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">75-78</container>
+                  <unittitle>Chronological files,<unitdate> 1946-1964</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">79</container>
+                  <unittitle>Art grants</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">80</container>
+                  <unittitle>Correspondence, minutes, reports,<unitdate> 1943-44</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">81</container>
+                  <unittitle>Correspondence and reports,<unitdate> 1945-49</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">82</container>
+                  <unittitle>James, May Hall, trip to Canada,<unitdate> 1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">83</container>
+                  <unittitle>Special records</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">84</container>
+                  <unittitle>Study guide on Canada</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">85</container>
+                  <unittitle>Traveling library</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">86</container>
+                  <unittitle>Treasurer's reports,<unitdate> 1944-67</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. STUDENT EXCHANGES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <container type="folder">87-98</container>
+                  <unittitle>Chronological files,<unitdate> 1844-1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Toronto-Smith exchange</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">99-100</container>
+                     <unittitle>Correspondence,<unitdate> 1945-67</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <container type="folder">101</container>
+                     <unittitle>Newsletters, "The Journal" (Smith student experiences),<unitdate> 1953-65</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">102-106</container>
+                  <unittitle>Chronological files,<unitdate> 1960-1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Subject files</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">107</container>
+                     <unittitle>Address list</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">108</container>
+                     <unittitle>Alberta--Central Connecticut,<unitdate> 1945-50</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">109</container>
+                     <unittitle>Alberta--First exchange,<unitdate> 1951-2</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">110</container>
+                     <unittitle>Alberta--TCC exchange,<unitdate> 1953, 1954, 1955, 1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">111</container>
+                     <unittitle>Central Connecticut State College</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">112</container>
+                     <unittitle>Danbury State Teachers College</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">113</container>
+                     <unittitle>Douglas College</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">114</container>
+                     <unittitle>Evaluation</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">115</container>
+                     <unittitle>General</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">116</container>
+                     <unittitle>Saskatchewan--Trenton</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">117</container>
+                     <unittitle>University of Maine</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <container type="folder">118</container>
+                     <unittitle>Willimantic State Teachers College</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

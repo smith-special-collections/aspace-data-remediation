@@ -1,0 +1,922 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca46.xml//EN" countrycode="us" mainagencycode="manosca">manosca46</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Grace Hazard Conkling Papers, 1887-1992
+
+
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by manosca.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+<date>2003-06-03</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca46 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives</publisher>
+<titleproper>Grace Hazard Conkling Papers, 1887-1992</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 42</num>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Conkling, Grace Hazard, 1878-1958. </persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Grace Hazard Conkling Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1887-1992</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">4 boxes</extent>
+<extent encodinganalog="300$a">(1 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Professor of English, poet.  Contains biographical information, correspondence, and publications.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p>Grace Hazard was born on February 7, 1878 in New York to Christopher Grant Hazard and Frances Post Hazard.  Having cultivated a skill and love for music from a young age, Conkling dreamed of devoting her life to music.  After receiving a B.L. from Smith College in 1899, she spent a year teaching at the Graham School in New York before traveling to Europe where she studied music and languages in Germany and France, studying the organ with the illustrious Charles-Marie Widor.  However, in her second year she fell ill from overwork and was forced to abandon the idea of music as a profession. She returned to the United States where she married Roscoe Platt Conkling in 1905 and moved to a remote ranch near Tampico, Mexico.  Conkling cherished the time she spent there and Mexico is referred to in many of her poems.</p>
+
+<p>After the birth of her second child, her husband deserted her and the children, and in 1914 she sued for divorce and accepted a teaching position at Smith College.  It has been said that being a member of the Smith faculty was good for her creative side because Conkling soon became a very accomplished poet and had numerous books published by the time she retired in 1947.</p>
+
+<p>Conkling's poetry and enthusiasm for teaching was recognized both by Smith and others in the academic community.  Her poetry and short stories were published in numerous magazines including the <title render="italic">Yale Review</title>, <title render="italic">Atlantic Monthly</title>, and <title render="italic">Harper's</title>.  She was also a member of the Poetry Society of America, the N.E. Poetry Society, the Author's Club of Boston, and the Women's University Club of New York.  In 1930, Conkling was awarded an honorary MA from Smith College.  She died on November 15, 1958 and was survived by her two daughters and three grandchildren.
+</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>The papers contain biographical information, correspondence, and publications by and about Grace Hazard Conkling.</p>
+</scopecontent>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The papers are open for research according to the regulations of the Smith College Archives without any additional restrictions.
+</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the documents must be requested from the Smith College Archives.  Smith College owns copyright to any published material relating to college events and activities.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Grace Hazard Conkling Papers, Box #, Smith College Archives.</p>
+</prefercite>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Conkling, Grace Hazard, 1878-1958.</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Faculty.</corpname>
+</controlaccess>
+
+<descgrp type="add" id="addinfo">
+<head>Additional Information</head>
+<relatedmaterial id="add-related">
+<head>Related Material</head>
+<list>
+<item>
+<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca191_main.html">80. Class of 1899 Records</extref></item>
+</list>
+</relatedmaterial>
+</descgrp>
+
+
+<dsc type="in-depth" id="list-contlist">
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>General
+<unitdate>1918-1992</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Degrees
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>English Courses
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Speeches and Lectures
+<unitdate>1924-1933</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Roscoe Platt Conkling
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>"Mrs. Conkling's 'Junior' Year Abroad
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Heidelberg University
+<unitdate>1903</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Obituary &amp; Memorial Service
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Poetry Society of America
+<unitdate>1915-1930</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Programs &amp; Invitations
+<unitdate>1903, n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Recommendations
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Retirement
+<unitdate>1946</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Score for Organ-original
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Summer Schools
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">727</container>
+<unittitle>Hilda Conkling (2 files)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">728</container>
+<unittitle>Correspondence</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Abbott, Senda (Berenson)
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Abbott, Jere
+<unitdate>1936, 1948</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Andrews, J.W.
+<unitdate>1905</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Arvin, Newton
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Barnard, Frances Fenton
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Blake, Helen P.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Blodgett, Benjamin
+<unitdate>1899-1915</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Burton, Marion L.
+<unitdate>1914</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Chase, Mary Ellen
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Churchill, Alfred
+<unitdate>1926, 1937</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Clark, Annetta I.
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Conkling, Grace H.
+<unitdate>1905, 1907, 1922, 1951, 1957</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Conkling, Grace H (to Sallie Simons)
+<unitdate>1940, 1955-1958</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Dodd, Marion E.
+<unitdate>1923, 1926, 1928, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Dunn, Esther Cloudman
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Eliot, Ethel Cook
+<unitdate>1945</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Faulkner, Mary Waldron
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Filsinger, Sara Teasdale
+<unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Fischer, Alfred Young
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Ford, Harriet Bliss
+<unitdate>1900-1930</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Frazier, Katharine
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Galt, Clarace Eaton
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Gray, Agnes Kendrick
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Gray, William Dodge
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Hanscom, Elizabeth D.
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Hocking, William
+<unitdate>1903</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Hoyt, Helen
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Loller, Fanny S
+<unitdate>1900-1905, 1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>McAffee, Helen
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>McCallum, George B.
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>MacCracken, Henry N.
+<unitdate>1914</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>MacDowell, M.
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Morrow, Elizabeth Cutter
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Nebel, Charlotte
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Newton, Charoline
+<unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Nicolson, Marjorie
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Patch, Howard Rollin
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Schinz, Albert
+<unitdate>1922</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Peopold, Florence H.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Phelps, Ruth Shepard
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Sleeper, Henry D.
+<unitdate>1905</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Swett, Margery
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Vorenkamp, Alphons
+<unitdate>1932, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Whicher, Harriet F.
+<unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Wilder, Charlotte
+<unitdate>c1932</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Wolfrum, Philipp
+<unitdate>1903</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Wolfrum, Regina
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">728</container>
+<unittitle>Wooley, Mary
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">728.1</container>
+<unittitle>Correspondence Home
+<unitdate>1889-1901</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">729</container>
+<unittitle>Publications</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>General</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>After Sunset</title>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Afternoons of April</title>
+<unitdate>1915</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Autumn Campus</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>A Beethoven Andante</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Connecticut River-Early March</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Corner of Massachusetts-Early Summer</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Faculty Meeting</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>February Concert-Country Town</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Flying Fish: A book of songs and sonnets</title>
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>The Fountain, The Hermit Thrust, To Hilda and her Roses</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Golden Roses</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>His Letter</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Imagination and Children's Reading</title>
+<unitdate>1922, 1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Mallorca: November Hurricane</title>
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Mexico</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Music School Beside a River</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Nightingales of Flanders</title>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Postwar Planning</title>
+<unitdate>1946 Mar</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Retort Courteous</title>
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Rhymed Review</title>
+<unitdate>c1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>BookScorpion</title>-reviews
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Studies in Modern Languages</title>
+<unitdate>1938</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Ship's Log</title>
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>The Tree of Starlings</title>
+<unitdate>1965</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Tree for Music</title>
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Wilderness Songs</title>
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>
+<title>Witch and Other Poems</title>
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>Poems, various
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">729</container>
+<unittitle>Scrapbook of Early Writings
+<unitdate>1887-1905</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

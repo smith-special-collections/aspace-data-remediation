@@ -1,0 +1,2863 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss14.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss14</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Dorothy Smith Dushkin Papers, 1906-1989
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Amy Hague.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-05</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss14 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Dorothy Smith Dushkin Papers, 1906-1989
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 243
+      </num>
+         <author encodinganalog="245$c">Amy Hague
+      </author>
+         <date encodinganalog="260$c">1991
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Dushkin, Dorothy</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Dorothy Dushkin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1906-1989</unitdate>
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 243</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">15 boxes</extent>
+            <extent encodinganalog="300$a">(9 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Composer and co-founder of music schools.  Musical scores and recordings make up a large portion of the collection.  Dushkin's diaries, kept from age 15 to 84, are highly detailed and personal and reflect a dual life as professional composer and family caretaker. Winnetka and Kinhaven music schools are documented by correspondence, writings, and photographs.  Correspondents include Jessie Lloyd O'Connor, Caroline Bedell Thomas, and musician Nadia Boulanger.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4032.jpg" altrender="right">
+<daodesc altrender="left"><p>Dorothy Smith Dushkin, 1919<lb />
+                             Photograph by Koehne (Chicago)</p></daodesc></dao>
+         <p>Dorothy Brewster Smith was born in Chicago in 1903.  She attended public schools in Glencoe and Winnetka, Illinois, and Bradford Academy in Massachusetts.  She was graduated from Smith College with honors in music in 1925.  A year later she went to Paris to study composition with Nadia Boulanger, where she met her future husband, David Dushkin, another Boulanger student.</p>
+         <p>David Dushkin was born in 1898 in a part of Russia that is now part of Poland.  He emigrated to New York City with his family as a young child and grew up helping his father to run a kosher butcher shop.  He spent one year at City College of New York and served in the army medical corps.</p>
+         <p>After returning to the United States from Paris, Dorothy Smith and David Dushkin both taught music in the Chicago area.  They married in 1930.</p>
+         <p>In 1931 the Dushkins founded the School of Musical Arts and Crafts in Winnetka with the intention of using experimental teaching methods to stimulate creativity.  Students made instruments in a shop, played in ensembles, and did ear training through games and puzzles.  The Dushkins built a school/residence in 1934.  During their tenure, the school was renamed the Dushkin School of Music, and finally, the Winnetka School of Music.  After their departure, the school was taken over by the parents and operated as the Music Center of the North Shore.</p>
+         <p>In 1952, the Dushkin family, which by then included four children (Lelah, Nadia, David Alex, and Amanda), moved to Weston, Vermont.  There Dorothy and David began the Kinhaven School of Music, a summer school devoted to chamber, orchestral, and choral music for musically gifted young people.  At Kinhaven, the Dushkins continued to experiment with and adapt the basics of music education, shaping an intensive seven-week musical experience.  In 1962 the school became a non-profit corporation with an elected board of trustees.</p>
+         <p>Dorothy Dushkin composed intermittently throughout her adult life.  Her musical drama, "Poltarnees," was performed at her Smith College commencement.  While teaching and helping to run the music schools in Illinois and Vermont, she composed many works for a wide variety of ensembles, instrumental and vocal, often tailoring her compositions to the needs of young novices.  These works have been performed regularly at Kinhaven and all over the United States.</p>
+         <p>David Dushkin died in 1986.  Dorothy Dushkin moved to Manchester, Vermont, in 1987 and later to Amherst, Massachusetts.  Dorothy Dushkin died on March 3, 1992.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Dorothy Dushkin Papers occupy nine linear feet of shelf space and consist of correspondence; diaries and other writings; scrapbooks; photographs; memorabilia; scores; tape and disc recordings; and miscellaneous papers.  The material documents Dorothy's life from the time she began her diary at age 15.  David Dushkin's papers are primarily related to his post-marriage life.</p>
+         <p>While the bulk of these papers belong to Dorothy Smith Dushkin, a substantial portion were generated by David Dushkin, and especially in Series V, "Professional Activities," their papers are somewhat intertwined, as were their professional lives.  Series I through IV contain largely personal papers, but to the extent that the Dushkins' professional and personal lives overlapped, this distinction is somewhat artificial.  For instance, Dorothy's diaries are a highly personal account of her emotional life in which she writes of her dual identities as composer and family caretaker.  The diaries, kept faithfully from age 15 to 84, are exceptionally introspective and reflect a lifelong tension between these identities.   They reveal a passionate woman coping with, among other things, the worry and strain of many commitments, the untimely death of a daughter from cancer, and the health challenges of aging.  The carefree girl of 1919 becomes a sometimes frustrated woman trying simultaneously to satisfy her creative urges and maintain her many responsibilities.</p>
+         <p>The personal correspondence is indicative of the ways in which music was a large part of each of the Dushkins' lives.  The bulk of the family correspondence consists of letters received by Dorothy and David, though a significant number were written by them.  Of special interest is the correspondence between David and his brother, Alex, and sister, Eva Kassan, living in Israel during the 1960s and 1970s.  These letters and a number of others were apparently selected by Dorothy from "masses of family correspondence [from which she] saved just a random pile to represent extended family."  Correspondence with friends and associates includes many of Dorothy's Smith College friends and professors, notably Jessie Lloyd O'Connor '25, Caroline Bedell Thomas '25, Ross Lee Finney, and Werner Josten.  The most famous Dushkin correspondent was Nadia Boulanger, who wrote 14 letters and notes between 1926 and 1976.  The family memorabilia and photograph collection is extensive, providing especially thorough documentation of the Dushkin children's activities.  The discs, which recorded family events from baby noises to musical performances, are the equivalent of home movies.  The scrapbooks also contain material related to the Dushkins' early teaching careers and activities at the Winnetka school.</p>
+         <p>The bulk of professional papers relate to Dorothy's composing.  She kept much of her correspondence with publishers and a special file of programs, clippings and correspondence related to performances of her work.  This material reflects her unstinting efforts to get her work the attention it deserved, sometimes successfully, but often with discouraging results.  The scores of orchestral, chamber, solo, and other works constitute Dorothy Dushkin's major output as a composer.  Most of the tape recordings are of performances of her work, many of which took place at Kinhaven Music School.  Both Dushkins were interested in recorder manufacture and repertory, but the correspondence reflects David's more active involvement in this aspect of their professional lives.  Dorothy and David participated equally in the founding and running of the two music schools, though it appears from the papers that David's role was more prominent while Dorothy did more work behind-the-scenes.</p>
+         <p>The general correspondence concerns miscellaneous professional activities of both Dushkins, such as their early teaching careers and the wide-ranging musical interests they shared with former colleagues, students, and parents of students.  Throughout the correspondence there is evidence of the influence of the Dushkins' innovative educational theories on many of the people who came in contact with them professionally.  There is also a substantial amount of Dorothy's correspondence negotiating potential performances of her work.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into five series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biography</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Personal Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Diaries and Other Writings</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Memorabilia and Photographs</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Professional Activities</ref>
+            </item>
+         </list>
+      </arrangement>
+      <arrangement id="scope-arr">
+         <head>Arrangement of the Collection</head>
+         <p>Series I is arranged alphabetically.  The personal correspondence (Series II) is alphabetical within the subseries "family" and "friends and associates."  (Professional correspondence is located in Series V., Professional Activities.)  Within series III, the diaries are arranged chronologically.  There are separate folders for Dorothy's other writings and David's poems and miscellaneous writings.  Series IV is divided into the following subseries: miscellaneous memorabilia; scrapbooks; photographs; and discs.  The photographs are arranged according to individual family members, family or other groups, other individuals, and places.  The documentary and audiovisual materials in series V are divided into the following subseries: composing; recorder repertory and manufacture; Winnetka School of Music; Kinhaven Music School; miscellaneous; recordings; and scores.
+      </p>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection.
+              </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The Sophia Smith Collection owns copyright to unpublished works of Dorothy Dushkin. Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
+           </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Dorothy Smith Dushkin Papers, Sophia Smith Collection, Smith College, Northampton, MA</p>
+         </prefercite>
+         <accruals encodinganalog="584" id="admin-accruals">
+            <head>Additions to the Collection</head>
+            <p>Periodic additions to collection are expected.
+        </p>
+         </accruals>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Dorothy Dushkin donated her papers to the Sophia Smith Collection in 1988.  Her daughter, Lelah Dushkin, donated additional papers in 1991.
+              </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Amy Hague, 1991.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <subject encodinganalog="650" source="lcsh">Composers--United States</subject>
+         <subject encodinganalog="650" source="lcsh">Music--Instruction and study--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women musicians--United States--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women composers--United States--Sources</subject>
+         <corpname encodinganalog="610" source="lcnaf">Smith College--Students--History--Sources</corpname>
+         <subject encodinganalog="650" source="lcsh">Music--Manuscripts--United States</subject>
+         <subject encodinganalog="650" source="lcsh">Family--United States--History--20th century--Sources</subject>
+         <persname encodinganalog="600" source="lcnaf">O'Connor, Jessie Lloyd, 1904- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Thomas, Caroline Bedell--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Dushkin, Dorothy</persname>
+         <persname encodinganalog="600" source="lcnaf">Boulanger, Nadia--Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Dushkin, Samuel, 1891- --Correspondence</persname>
+         <persname encodinganalog="600" source="lcnaf">Dushkin, Alexander M. (Alexander Mordecai), 1890-1976-Correspondence</persname>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Related correspondence is located in the Jessie Lloyd O'Connor and Caroline Bedell Thomas Papers.  Other unpublished material can be found in the College Archives files for the class of 1925, and the papers of Dorothy Dushkin's sister, Gertrude Smith, a member of the music department faculty for many years.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I. BIOGRAPHICAL MATERIAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Amanda Dushkin: teacher's evaluation, eulogy, and memorial scholarship
+		<unitdate>  1947-75</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>David Dushkin: obituaries, memorial booklet, and other biographical information
+		<unitdate>  1986, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Dorothy Smith Dushkin: letter of recommendation
+		   <unitdate>  1929</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Lelah, Nadia, and David Alex Dushkin: clippings
+		   <unitdate>  1969, 1980, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4a</container>
+                  <unittitle>Samuel Dushkin: obituary
+		   <unitdate>  1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+	<c02>
+		<did>
+			<container type="box">1</container>
+			<container type="folder">4b</container>
+			<unittitle>Gertrude Parker Smith:  obituary
+				<unitdate>1993</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+
+	<c02>
+		<did>
+			<container type="box">1</container>
+			<container type="folder">4c</container>
+			<unittitle>Gertrude Judd Smith
+				<unitdate> 1899, n.d.</unitdate>
+			</unittitle>
+		</did>
+	</c02>
+
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II. PERSONAL CORRESPONDENCE</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Family</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">5</container>
+                     <unittitle>Alex and Julia Dushkin to Dorothy and David Dushkin
+		   <unitdate>  1958-73, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">6</container>
+                     <unittitle>Amanda Dushkin to parents
+		   <unitdate>  1959-60, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>David Dushkin to family</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">7</container>
+                        <unittitle>Alex and Julia Dushkin
+		   <unitdate>  1962-73</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">8</container>
+                        <unittitle>David Alex and Valerie Dushkin (includes letter to grandson, Peter Dushkin)
+		   <unitdate>  1950-71, n.d. </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">9</container>
+                        <unittitle>Dorothy Smith
+		   <unitdate>  1927-29</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">10</container>
+                        <unittitle>Dorothy Smith Dushkin
+		   <unitdate>  1935-49</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">11</container>
+                        <unittitle>Dorothy Smith Dushkin
+		   <unitdate> n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">12</container>
+                        <unittitle>Lelah Dushkin
+		   <unitdate>  1950-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">13</container>
+                        <unittitle>Nadia (Dushkin) and Carey McIntosh
+		   <unitdate>  1964-70</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">14</container>
+                        <unittitle>Sam and Louise Dushkin
+		   <unitdate>  1964-74</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">15</container>
+                        <unittitle>Eva (Dushkin) and Shalom Kassan
+		   <unitdate>  1958-72</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">16</container>
+                        <unittitle>Gertrude Smith
+		   <unitdate>  1963-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">17</container>
+                        <unittitle>Miscellaneous family
+		   <unitdate>  1968-72</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>David Alex "Vadi" Dushkin to family</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">18</container>
+                        <unittitle>First year at Cambridge School)
+		   <unitdate>  1950-51</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">19</container>
+                        <unittitle>
+                           <unitdate>1958-61, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">19a</container>
+                        <unittitle>Nana
+		   <unitdate>  1948, 1954, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">20</container>
+                     <unittitle>David Alex and Valerie Dushkin to David and Dorothy Dushkin
+		   <unitdate>  1968-71, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dorothy Smith Dushkin to family</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">21-21a</container>
+                        <unittitle>Parents
+		   <unitdate>  1919-54, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">22</container>
+                        <unittitle>David Dushkin
+		   <unitdate>  1927-29</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">23</container>
+                        <unittitle>David Dushkin
+		   <unitdate>  1938-71, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">24</container>
+                        <unittitle>Nadia Dushkin
+		   <unitdate>  1965</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">25</container>
+                        <unittitle>Gertrude Smith
+		   <unitdate>  1921-65, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lelah Dushkin to family</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1a</container>
+                        <container type="folder">1</container>
+                        <unittitle>While at Smith College
+		   <unitdate>  1947-51</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1a</container>
+                        <container type="folder">2</container>
+                        <unittitle>
+                           <unitdate>1964-69, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1a</container>
+                        <container type="folder">3</container>
+                        <unittitle>Nanna
+		   <unitdate>  1948-59, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1a</container>
+                     <container type="folder">4</container>
+                     <unittitle>Sam and Louise Dushkin to David and Dorothy Dushkin
+		   <unitdate>  1930-64</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">1</container>
+                     <unittitle>Eva (Dushkin) and Shalom Kassan to David and Dorothy Dushkin
+		   <unitdate>  1958-74</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">2</container>
+                     <unittitle>Nadia Dushkin [McIntosh] to family
+		   <unitdate>  1940-46</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">2a</container>
+                     <unittitle>Nadia Duskin to Nanna
+		   <unitdate>  1950, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">3</container>
+                     <unittitle>Nadia (Dushkin) and Carey McIntosh to Dorothy and David Dushkin
+		   <unitdate>  1961-64, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">4</container>
+                     <unittitle>Gertrude (Judd) and Henry T. Smith to Dorothy Smith Dushkin
+		   <unitdate>  1920-47, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">5</container>
+                     <unittitle>Gertrude "Trudle" Smith to Dorothy and David Dushkin
+		   <unitdate>  1930-69, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">6</container>
+                     <unittitle>Miscellaneous
+		   <unitdate>  1923-29, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Friends and associates</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">7</container>
+                     <unittitle>Dorothy and David Dushkin to friends and associates
+		   <unitdate>  1961-82</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">8</container>
+                     <unittitle>Dorothy Bolle to Dorothy and David Dushkin
+		   <unitdate>  1961-84, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">9</container>
+                     <unittitle>Nadia Boulanger to Dorothy (Smith) and David Dushkin
+		   <unitdate>  1926-76, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">10</container>
+                     <unittitle>Josephine Crisfield Connerat to Dorothy Smith Dushkin
+		   <unitdate>  1926-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">11</container>
+                     <unittitle>Ross Lee Finney to Dorothy Smith Dushkin, (includes letter from Carrie M. Finney)
+		   <unitdate>  1928-1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">12</container>
+                     <unittitle>Foster Parents Plan for War Children, Inc. to Dorothy Dushkin (includes letters from foster children)
+		   <unitdate>  1951-57</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">13</container>
+                     <unittitle>Malin Guettler to Dorothy Smith
+		   <unitdate>  1926-27, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">14</container>
+                     <unittitle>Betty and Barbara "Bobby" Ickes to Dorothy Dushkin
+		   <unitdate>  1978-79</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">15</container>
+                     <unittitle>Werner Josten to Dorothy Smith
+		   <unitdate>  1925-29, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">16</container>
+                     <unittitle>Amanda Bryan Kane to Dorothy Smith Dushkin
+		   <unitdate>  1930-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">17</container>
+                     <unittitle>Mary Norris Lloyd to Dorothy Dushkin
+		   <unitdate>  1977-84, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">18</container>
+                     <unittitle>Jessie Lloyd O'Connor to Dorothy Smith Dushkin
+		   <unitdate>  1929-84</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">19</container>
+                     <unittitle>Smith College
+		   <unitdate>  1962-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">20</container>
+                     <unittitle>Susan Stockhammer to Dorothy and David Dushkin
+		   <unitdate>  1971-74</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">21</container>
+                     <unittitle>Thomas Whitney Surette to Dorothy Smith
+		   <unitdate>  1925-27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">22</container>
+                     <unittitle>Geraldine Clark Mandell Sylvester to Dorothy Smith Dushkin
+		   <unitdate>  1928-85, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">23</container>
+                     <unittitle>Alice and Fay Taylor to Dorothy and David Dushkin
+		   <unitdate>  1957-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">24</container>
+                     <unittitle>Caroline Bedell Thomas to Dorothy Smith Dushkin
+		   <unitdate>  1925-85, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">25</container>
+                     <unittitle>Miscellaneous friends and associates of Dorothy (Smith) and David Dushkin
+		   <unitdate>  1926-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">26</container>
+                     <unittitle>Letters and cards to Dorothy Dushkin following David Dushkin's death
+		   <unitdate>  1986</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">27</container>
+                     <unittitle>Unidentified
+		   <unitdate>  1926-58, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III. DIARIES AND OTHER WRITINGS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Diaries of Dorothy Smith Dushkin,                 <unitdate>1919-87</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">1</container>
+                     <unittitle>
+                        <unitdate>19 Jun 1919-14 Jul 1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">2</container>
+                     <unittitle>
+                        <unitdate>12 Aug 1926-23 Jan 1936</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">3</container>
+                     <unittitle>
+                        <unitdate>26 Jan 1936-20 May 1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">4</container>
+                     <unittitle>
+                        <unitdate>Jan 1947-5 Dec 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">5</container>
+                     <unittitle>
+                        <unitdate>1 Jan 1967-11 Dec 1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">6</container>
+                     <unittitle>
+                        <unitdate>14 Jan 1974-31 Dec 1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">7</container>
+                     <unittitle>
+                        <unitdate>4 Jan 1982-4 Sep 1987</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">8</container>
+                     <unittitle>
+                        <unitdate>4 Sep 1987-10 Jul 1988</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Writings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3a</container>
+                     <container type="folder">1</container>
+                     <unittitle>"Data on Diabetes,"<unitdate> 1982-89 </unitdate>and record of garden
+		   <unitdate> 1957-86</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3a</container>
+                     <container type="folder">2</container>
+                     <unittitle>Poems, lecture, and articles
+		   <unitdate>  1973, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3a</container>
+                     <container type="folder">3</container>
+                     <unittitle>"The Glassy Interval" (manuscript of diary excerpts)
+		   <unitdate> n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3a</container>
+                     <container type="folder">4</container>
+                     <unittitle>Correspondence re: publication of "The Glassy Interval"
+			<unitdate> 1986-87, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3a</container>
+                     <container type="folder">5</container>
+                     <unittitle>David Dushkin: Poems and miscellaneous
+		   <unitdate>  1956-57, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV. MEMORABILIA AND PHOTOGRAPHS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous memorabilia</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">1</container>
+                     <unittitle>Clippings
+		   <unitdate>  1927-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">2</container>
+                     <unittitle>David and Dorothy Smith Dushkin: Programs, passports, flyers, and other miscellaneous memorabilia</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <container type="folder">3</container>
+                     <unittitle>Dushkin children: Baby records, school reports, programs, flyer
+		   <unitdate>  1932-79, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Scrapbooks</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>Photographs and memorabilia
+		   <unitdate>  1928-37</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Photographs and memorabilia
+		   <unitdate>  1938-43</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Photographs
+		   <unitdate>  1941-60</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Photographs</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">1</container>
+                     <unittitle>Dorothy Smith Dushkin
+		   <unitdate>  1917-67, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">2</container>
+                     <unittitle>David Dushkin
+		   <unitdate>  1920s, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">3</container>
+                     <unittitle>Dorothy and David Dushkin
+		   <unitdate>  1949-50, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">4</container>
+                     <unittitle>Amanda Dushkin
+		   <unitdate>  1948-49, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">5</container>
+                     <unittitle>David Alex Dushkin
+		   <unitdate> ca. 1937, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">6</container>
+                     <unittitle>Lelah Dushkin
+		   <unitdate>  1933-67, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">7</container>
+                     <unittitle>Nadia Dushkin
+		   <unitdate> ca. 1938, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">8</container>
+                     <unittitle>Dushkin family groups
+		   <unitdate> ca. 1932-1960s, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">9</container>
+                     <unittitle>Gertrude "Trudle" Smith
+		   <unitdate>  1928, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">10</container>
+                     <unittitle>Smith family
+		   <unitdate> ca. 1906-1960s, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">11</container>
+                     <unittitle>Dushkin family with friends
+		   <unitdate>  1920s-1970s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">12</container>
+                     <unittitle>Miscellaneous family, friends, and associates (includes portrait of Igor Stravinsky)
+		   <unitdate>  1926, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <container type="folder">13</container>
+                     <unittitle>Homes, schools, and miscellaneous scenes
+		   <unitdate>  1908-42, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Discs</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">1</container>
+                     <unittitle>Dorothy Smith Dushkin singing "Les Roses d'Ispahan"
+			<unitdate> 1931</unitdate>; Mrs. Jent singing Mrs. Reed's song</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">2</container>
+                     <unittitle>Clair de Lune,"<unitdate> 1931</unitdate>; Gertrude Smith playing "Kreisleriana</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">3-15</container>
+                     <unittitle>Dushkin children
+		   <unitdate>  1932-40</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">16</container>
+                     <unittitle>Swami, Vishwananda, visit to Dushkin home
+		   <unitdate> ca. 1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">17</container>
+                     <unittitle>Lelah Dushkin
+		   <unitdate> n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">18</container>
+                     <unittitle>David Alex Dushkin [?]
+		   <unitdate> n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">19</container>
+                     <unittitle>"Test recording of clarison improvisation" and Lelah Dushkin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">20</container>
+                     <unittitle>Dorothy Dushkin, "Trial recording of Handel Recorder Sonata in F"</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">21</container>
+                     <unittitle>Saint-Saens [?]: Dorothy Smith Dushkin, voice; Gertrude Smith, piano</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">22</container>
+                     <unittitle>"Dushkin family ensembles"</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">23</container>
+                     <unittitle>Dorothy Smith Dushkin, "voice--Faure," accompanied by Gertrude Smith</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">24</container>
+                     <unittitle>Dorothy Smith Dushkin, "German songs"</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <container type="folder">25</container>
+                     <unittitle>Kinhaven performances
+		   <unitdate>  1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>Series V. PROFESSIONAL ACTIVITIES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Composing</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Performances of Dorothy Dushkin compositions: Programs, clippings, and correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">1</container>
+                        <unittitle>
+                           <unitdate>1950-84</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">2</container>
+                        <unittitle>
+                           <unitdate>1985-88</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">3</container>
+                     <unittitle>Newsletters, clippings, and brochures
+		   <unitdate>  1986-87, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">4</container>
+                     <unittitle>Copyright applications
+		   <unitdate>  1942-63</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence with publishers</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">5</container>
+                        <unittitle>Carl Fischer, Inc.
+		   <unitdate>  1952-84</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">6</container>
+                        <unittitle>Galaxy Music Corporation
+		   <unitdate>  1960-82</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">7</container>
+                        <unittitle>Musica Rara
+		   <unitdate>  1971-87</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">8</container>
+                        <unittitle>Shawnee Press, Inc.
+		   <unitdate>  1976-84</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">9</container>
+                        <unittitle>The Valley Music Press (Smith College)
+		   <unitdate>  1956-86</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">8</container>
+                        <container type="folder">10</container>
+                        <unittitle>Miscellaneous
+		   <unitdate>  1962-86</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Recorder music and manufacture</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">11</container>
+                     <unittitle>General correspondence
+		   <unitdate>  1934-83</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">12</container>
+                     <unittitle>Requests for music
+		   <unitdate>  1959-67</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">13</container>
+                     <unittitle>Dushkin Recorder Co. publicity
+		   <unitdate> n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">14</container>
+                     <unittitle>Proposal for book about recorders by David Dushkin: grant application and correspondence
+		   <unitdate>  1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Winnetka School of Music</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">15</container>
+                     <unittitle>General correspondence
+		   <unitdate>  1931-54</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">16</container>
+                     <unittitle>Property sale correspondence and legal documents
+		   <unitdate>  1952-55</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">17</container>
+                     <unittitle>Writings by Dushkins and others
+		   <unitdate>  1928-44, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <container type="folder">18</container>
+                     <unittitle>Programs, brochures, and clippings
+		   <unitdate>  1952-71</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">1</container>
+                     <unittitle>Photographs
+		   <unitdate>  1933-1940s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kinhaven Music School</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">2</container>
+                     <unittitle>General correspondence
+		   <unitdate>  1956-82</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">3</container>
+                     <unittitle>Contributers
+		   <unitdate>  1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">4</container>
+                     <unittitle>"Camp memos (diary)" by David Dushkin
+		   <unitdate> 28 Nov 1965-12 Sep 1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">5</container>
+                     <unittitle>Writings and memorabilia</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">6</container>
+                     <unittitle>Scrapbook: "In Celebration of the First Thirty Years of Kinhaven Music School the Alumni Collect and Present this Album to David and Dorothy Dushkin
+		   <unitdate> August 23, 1981</unitdate>"</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">7</container>
+                     <unittitle>Book of greetings to the Dushkin's on Dorothy's birthday
+		   <unitdate> 26 July 1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">8</container>
+                     <unittitle>Awards
+		   <unitdate>  1978-85</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <container type="folder">9</container>
+                     <unittitle>David Dushkin: Contracts with publishers
+		   <unitdate>  1925-34</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>General correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">10</container>
+                        <unittitle>
+                           <unitdate>1929-69</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">11</container>
+                        <unittitle>
+                           <unitdate>1970-79</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">12</container>
+                        <unittitle>
+                           <unitdate>1980-87</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">13</container>
+                        <unittitle>
+                           <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">14</container>
+                        <unittitle>Leopold and Evangeline Stokowski
+		   <unitdate>  1931-35</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">9</container>
+                        <container type="folder">15</container>
+                        <unittitle>Millicent Taylor (Christian Science Monitor)
+		   <unitdate>  1936-55, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Recordings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Cassettes of Dorothy Smith Dushkin compositions (some tapes include other composers)</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">1</container>
+                        <unittitle>"Concerto for Piano and Orchestra" and "Sonata for Horn and Piano"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Eight Voices": student orchestra, University of Western Ontario, Jeff Stokes, conductor (includes pieces by other composers)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">3</container>
+                        <unittitle>"Fantasy for Three": The Pone Ensemble
+		   <unitdate> 9 Feb 1988</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">4</container>
+                        <unittitle>"Quartet in D Minor" for four recorders: student recital, Kalamazoo, Michigan
+		   <unitdate> 13 Jun 1982</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">5</container>
+                        <unittitle>"Septet for Brass," and "Sonata for Horn and Piano," <unitdate>25 May 1982</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">6</container>
+                        <unittitle>"Sonata for Flute and Piano" (1972): Robin Hendrich, flute, Philip Kraft, piano, Boston
+		   <unitdate>1 May 1986</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">7</container>
+                        <unittitle>"Sonata for Flute and Piano," "Pour S'Amuser" for marimba quartet, "Quintet for Horns," and "Sonata for Two Cellos and Piano"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">8</container>
+                        <unittitle>"Ten Poems in a Filagree for Women's Choir"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">8a</container>
+                        <unittitle>"Ten Poems in a Filigree for Women's Choir," sung by Lehigh University Choir, J. Bidlack, conductor</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">8b</container>
+                        <unittitle>"The Light of Man"</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Other and unknown composers</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">9</container>
+                        <unittitle>David Dushkin Memorial Concert, Kinhaven
+		   <unitdate> 18 Jul 1987</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">10</container>
+                        <unittitle>Focus on Women in the Arts, alumnae concert, Smith College
+		   <unitdate> 5 May 1982</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">11</container>
+                        <unittitle>Vytas J. Baksys, Master of Music piano recital, SUNY-Stony Brook
+		   <unitdate> 22 Nov 1983</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">12</container>
+                        <unittitle>Vytas J. Baksys and Terry Kowal, piano duo recital
+		   <unitdate> 25 April 1985</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">10</container>
+                        <container type="folder">13-14</container>
+                        <unittitle>Lawrence Willingham performances</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reel-to-reel recordings of Dorothy Smith Dushkin compositions (some tapes include other composers)</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">1</container>
+                        <unittitle>"Canaan Bound"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Canaan Bound" ("Not as good as original," D.D.)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">3</container>
+                        <unittitle>"Canaan Bound" (master tape for<unitdate> 1976 </unitdate>record)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Pieces by Dvorak and Stravinsky</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">4</container>
+                        <unittitle>"Claviquint III": Lisa Hardaway, flute; Peter Reit, horn; Gilda Joffe, violin; Karl Parens, cello; Vytas Baksys, piano; Kinhaven
+		   <unitdate> Jul 1974</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">5</container>
+                        <unittitle>"Concerto for Piano and Orchestra": Leslie Spotz, piano; Kinhaven Chamber Orchestra, Jerry Bidlack, conductor; <unitdate>2 Aug 1980</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>"Pour S'Amuser," suite for marimba and woodwinds in five movements
+		   <unitdate> 9 Aug 1980</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">6</container>
+                        <unittitle>"Episode No. 2": Daniel Maki, flute; Joe Contino, clarinet; Bob Moore, bassoon</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">7</container>
+                        <unittitle>"Episode No. 3": Daniel Maki, flute; Joe Contino, clarinet; Bob Moore, bassoon</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">7a</container>
+                        <unittitle>"Interlude for Horn and Strings," Kinhaven
+		   <unitdate>  1971</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>"Retrospective," Kinhaven
+		   <unitdate>  1971</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">8</container>
+                        <unittitle>"Interpretations" (copy from Kinhaven master)
+		   <unitdate> 22 Oct 1981 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">9</container>
+                        <unittitle>"Interpretations" cantata, Kinhaven
+		   <unitdate> 16 Aug 1981</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">10</container>
+                        <unittitle>"Kinhaven Concerto" for orchestra: The Kinhaven Orchestra, Jerry T. Bidlack, conductor, Kinhaven ("Not good recording, uneven balances")
+		   <unitdate>  1974 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">11</container>
+                        <unittitle>"Percussion Plus": The Kinhaven Percussion Ensemble, Randall Edson, Director; Diane Rudolph, flute; Ben Parker, string bass</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">12</container>
+                        <unittitle>"Percussion Suite No. 2," Kinhaven
+		   <unitdate> 3 Jul 1972</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>"Time Out," Kinhaven
+		   <unitdate> 3 Jul 1972</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">13</container>
+                        <unittitle>"Precision Patterns": [Kinhaven Percussion Ensemble?], Randall Edson, director; Kinhaven
+		   <unitdate> Summer 1971</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">14</container>
+                        <unittitle>"Quartet Opus 44" (two movements), and pieces by other composers, Kinhaven staff concert
+		   <unitdate> 8 Aug 1981</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">15</container>
+                        <unittitle>"Quartet Opus 44 for piano, flute, clarinet, and bassoon, performed by K. Moore, D. Melle, E. Marks, R. Moore, BGSU College of Musical Arts, Bryan Hall
+		   <unitdate> 25 Apr 1981</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">16</container>
+                        <unittitle>"Quintet for Amanda" for oboe and string quartet: Roy Lawrence, oboe; Mary Jane Metcalf, violin I; Colin Murdoch, violin II; Kathy Jelson, viola; Marti Kanir, cello; Kinhaven
+		   <unitdate> Jul 1974</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">17</container>
+                        <unittitle>"Quintet for Flute and Strings" (1962), recorded <unitdate>14 Jul 1979</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">18</container>
+                        <unittitle>"Quintet for Horn and Strings": Dennis Behm, french horn; Colin Murdoch, violin I; Marcia Edson, violin II; Kathy Jelson, viola; Marti Kanir, cello Kinhaven
+		   <unitdate> July 1974</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">19</container>
+                        <unittitle>"Septet for Brass"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>"Pour S'Amuser": Randall Edson, marimba; Daniel Maki, flute; Mark Perchanok, oboe; Joseph Contino, clarinet; Robert Moore, bassoon</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>"Concerto for Piano and Orchestra": Kay Moore, pianist; Kinhaven Orchestra
+		   <unitdate> Summer 1974</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">20</container>
+                        <unittitle>"Sonata for Bassoon and Piano": Kay Moore, piano; Bob Moore, bassoon</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>"Sonata for Horn": Dennis Behm, horn; Charles Hamlen, piano; ("first movement played too fast both times")</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">21</container>
+                        <unittitle>"Sonata for Flute and Piano": Peter Schultz, flute; Randall Edson and Kay Moore, piano (original tape, uncut)
+		   <unitdate> 15 Aug 1978 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">22</container>
+                        <unittitle>"Sonata for Flute and Piano" (edited copy)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">23</container>
+                        <unittitle>"Sonata for Two Violincelli": Nancy Bidlack, cello; James Kennedy, cello; Jerry Bidlack, piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">24</container>
+                        <unittitle>"Songs of the Bards of Bengal": Chamber Singers, Daisietta Kim, conductor; Kinhaven
+		   <unitdate> Aug 1972</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">25</container>
+                        <unittitle>"Tapestry: Suite for String Orchestra and Percussion": The Kinhaven Orchestra, Jerry Bidlack, conductor; <unitdate>23 Jul 1978</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">26</container>
+                        <unittitle>"Ten Poems in a Filagree": Lehigh Women's Choir, Jerry Bidlack, conductor, with flute, string quartet, and piano; Bicentennial Concert
+		   <unitdate> 28 Mar 1976</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">27</container>
+                        <unittitle>"Ten Poems in a Filagree": (same as #26)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">27a</container>
+                        <unittitle>"Theme and Variations for Piano and Chamber Orchestra," <unitdate>summer 1982</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">28</container>
+                        <unittitle>"Trio" for piano, violin, and cello (also includes pieces by other composers), fourth staff concert
+		   <unitdate> 24 Jul 1976</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Twelfth student concert (pieces by other composers)
+		   <unitdate> 14 Aug 1976 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">29</container>
+                        <unittitle>"Trio Sonata for Viola, Cello, and Piano": M. J. [Metcalf?], Nancy [Bidlack?], Charles [?]</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pieces by other composers</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">30</container>
+                        <unittitle>"Triptych": Kinhaven Orchestra, Jerry Bidlack, conductor
+		   <unitdate> Jul 1979</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">31</container>
+                        <unittitle>"Quintet for Flute and Strings": Peter, Diana, Marcia, M. J., Nancy; <unitdate>14 Jul 1979</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Claviquint No. 1," student performance
+		   <unitdate> 29 Jul 1979 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Special Concert ("Fantasy for Three";
+"Sonata for Two Celli and Piano," movement 1; "Retrospective";
+"Diversion for Four Hands and Percussion)</unittitle>
+			<unitdate>14 Aug 1979</unitdate>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">32</container>
+                        <unittitle>"Triptych"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">33</container>
+                        <unittitle>Allen Shawn, "Cabaret Music"  and "Movements for Violin and Piano" </unittitle>
+			  <unitdate>1978</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Scores</unittitle>
+               </did>
+               <note>
+                  <p>[For more detailed information about scores, see the supplemental list prepared by Thomas G. MacCracken]</p>
+               </note>
+               <c03>
+                  <did>
+                     <unittitle>Orchestral works</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">1</container>
+                        <unittitle>Concerto for Piano and Orchestra," (manuscript); "Piano Concerto: Reduced Score Sketch</unittitle>
+			<unitdate>  1964</unitdate>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Concerto for Piano and Orchestra": full score</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">3</container>
+                        <unittitle>"Concerto for Piano and Orchestra": parts</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">4</container>
+                        <unittitle>"Kinhaven Concerto"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">4a</container>
+                        <unittitle>"Salutation Fanfare"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">5</container>
+                        <unittitle>"Tapestry: Suite for String Orchestra"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">6</container>
+                        <unittitle>"Theme and Variations for Piano and Chamber Orchestra"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">7</container>
+                        <unittitle>"Three Patterns in C, or Holiday Suite" for the younger orchestra</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">8</container>
+                        <unittitle>"Triptych"</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Chamber music</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">12</container>
+                        <container type="folder">9</container>
+                        <unittitle>"Antiphonal Chorale" for brass choirs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">1</container>
+                        <unittitle>"April Quintet" for woodwinds and piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Brass and Piano Quartet" for trumpet, horn, trombone, and piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">3</container>
+                        <unittitle>"Claviquint No. I" for woodwinds and piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">4</container>
+                        <unittitle>"Claviquint No. II" for woodwinds and piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">5</container>
+                        <unittitle>"Claviquint No. III" for flute, horn, strings, and piano
+		   <unitdate>  1973</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">6</container>
+                        <unittitle>"Diversion" for piano four hands and percussion
+		   <unitdate>  1976</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">7</container>
+                        <unittitle>"Dushkajinks" for two pianos, flute, recorder, violin and cello ("played at family concert in Winnetka about 1946-47")</unittitle>
+			<unitdate>circa 1946-47</unitdate>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">7a</container>
+                        <unittitle>"Eight Voices"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">8</container>
+                        <unittitle>"Episode No. I" for flute, violin, and piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">9</container>
+                        <unittitle>"Episode Nos. II and III" for flute, clarinet, and bassoon</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">10</container>
+                        <unittitle>"Episode No. IV" for oboe, clarinet, and bassoon</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">11</container>
+                        <unittitle>"Fantasy for Three" for flute, marimba, and double bass</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">11a</container>
+                        <unittitle>"47 Measures for 1107"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">12</container>
+                        <unittitle>"Four Plus Four" for strings and winds</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">13</container>
+                        <unittitle>"Gaelic Fantasy" for recorders, strings, and piano (manuscript)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">13</container>
+                        <container type="folder">14</container>
+                        <unittitle>"Gaelic Fantasy" for recorders, strings, and piano (transparency)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">1</container>
+                        <unittitle>"Impromptu for Two Pianos" (written for Alice and Fay Taylor)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Morris Dance Fantasy" for strings and winds</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">3</container>
+                        <unittitle>"Octet" for woodwinds</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">4</container>
+                        <unittitle>"Percussion Plus: Suite" for flute, bass, and percussion</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">5</container>
+                        <unittitle>"Pour s'amuser: Suite" for marimba, flute, oboe, clarinet, and basoon</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">6</container>
+                        <unittitle>"Precision Patterns: Suite for Percussion Ensemble," dedicated to Randall Edson
+		   <unitdate>  1971</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">7</container>
+                        <unittitle>"Quartet Opus 44" for flute, clarinet, bassoon, and piano
+		   <unitdate>  1980</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">8</container>
+                        <unittitle>"Quick-step" for flute, oboe, clarinet, and bassoon</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">9</container>
+                        <unittitle>"Quintet for Amanda" for oboe and string quartet
+		   <unitdate>  1956</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">10</container>
+                        <unittitle>"Quintet for Flute and String Quartet"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">11</container>
+                        <unittitle>"Quintet for Horn and Strings"
+			  <unitdate> 1973</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">12</container>
+                        <unittitle>"Quintet" in four movements for flute, violin, viola, cello, and piano
+		   <unitdate>  1950</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">14</container>
+                        <container type="folder">13</container>
+                        <unittitle>"Recorder Quartet in D Minor,"<unitdate> 1960</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">1</container>
+                        <unittitle>"Retrospective" for five winds and piano (manuscript)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Retrospective" for five winds and piano (transparency)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">3</container>
+                        <unittitle>"Septet for Brass"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">4</container>
+                        <unittitle>"Sonata for Two Harpsichords"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">5</container>
+                        <unittitle>"Sonata for Two Violincelli and Piano"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">6</container>
+                        <unittitle>"Suite for Six" for flute, clarinet, violin, viola, cello, and harpsichord</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">7</container>
+                        <unittitle>"Suite for Three" for two recorders and clarinet, or two flutes and viola</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">8</container>
+                        <unittitle>"Suite for Two Alto Recorders"
+			  <unitdate> 1961</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">9</container>
+                        <unittitle>"A ThanCare Piece" for violin and piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">10</container>
+                        <unittitle>"Three Short Flights for Four Flutes, dedicated to Susan Stockhammer
+		   <unitdate>  1975</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">11</container>
+                        <unittitle>"Time Out" for percussion and piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">12</container>
+                        <unittitle>"Trio" for piano, violin and cello, dedicated to Mary Jane Metcalf
+		   <unitdate>  1976</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">13</container>
+                        <unittitle>"Trio Sonata" for viola, cello, and piano
+		   <unitdate>  1979</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Solo pieces</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">14</container>
+                        <unittitle>"Berceuse for Nadia" for violin and piano
+		   <unitdate>  1949</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">15</container>
+                        <unittitle>"For Lelah" for cello and piano
+		   <unitdate>  1949</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">16</container>
+                        <unittitle>"A Gay Set: Piano Pieces for Second or Third Year of Study"
+			  <unitdate> 1961</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">17</container>
+                        <unittitle>"Inconsequential for David Alex" for flute and piano
+		   <unitdate>  1949</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">18</container>
+                        <unittitle>"A Method of Study for the Alto Recorder"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">19</container>
+                        <unittitle>"Nine Piano Pieces" for about third year study</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">20</container>
+                        <unittitle>"A Short Piece for Virginal and Piano" (written for Fay and Alice Taylor)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">21</container>
+                        <unittitle>"Sonata for Bassoon and Piano," dedicated to Bob and Kay Moore
+		   <unitdate>  1975</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">22</container>
+                        <unittitle>"Sonata for Flute and Piano"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">23</container>
+                        <unittitle>"Sonata for Horn and Piano," dedicated to Dennis Behm
+		   <unitdate>  1974</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">24</container>
+                        <unittitle>"Suite for Solo Marimba"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">15</container>
+                        <container type="folder">25</container>
+                        <unittitle>"Three Moods" for flute and piano</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Choral works</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">1</container>
+                        <unittitle>"Canaan Bound: Cantata" for chorus and orchestra
+		   <unitdate>  1948, </unitdate>rev. 1964</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">2</container>
+                        <unittitle>"Canaan Bound: Cantata" for chorus and orchestra, piano reduction</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">3</container>
+                        <unittitle>"The Flower" for women's chorus and woodwinds</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">4</container>
+                        <unittitle>"Interpretations: Cantata" for mixed chorus and orchestra</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">5</container>
+                        <unittitle>"Interpretations: Cantata" for mixed chorus and orchestra</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">6</container>
+                        <unittitle>"The Light of Man" from the Brihadaranyaka Upanishad, for mixed chorus, woodwinds, and piano (manuscript)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">7</container>
+                        <unittitle>"The Light of Man" from the Brihadaranyaka Upanishad, for mixed chorus and orchestra: full score and parts</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">8</container>
+                        <unittitle>"On Paumonok Shore" for women's chorus, reader, flute, and piano: full score and vocal parts (manuscript and transparency)
+		   <unitdate>  1958 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">9</container>
+                        <unittitle>"Songs of the Bards of Bengal" for women's chorus, flute, strings, and piano: full score and parts</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">10</container>
+                        <unittitle>"Ten Poems in a Filagree" for women's chorus, flute, piano, and string quartet: full score and parts</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">11</container>
+                        <unittitle>"Tensions" for mixed chorus</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">12</container>
+                        <unittitle>"Three Madrigals" for mixed chorus</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">16</container>
+                        <container type="folder">13</container>
+                        <unittitle>Three Songs for Women's Voices: The Old Soldier, Prince of Sleep, and Ship of Rio</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Juvenilia</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">1</container>
+                        <unittitle>"Etude" for piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">2</container>
+                        <unittitle>"French Suite" for piano
+		   <unitdate>  1928</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">3</container>
+                        <unittitle>"An Irish Courtship" for piano
+		   <unitdate>  1921</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">4</container>
+                        <unittitle>"A Joke" for piano
+		   <unitdate>  1921</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">5</container>
+                        <unittitle>"Poltarnees" for piano (manuscript)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">6</container>
+                        <unittitle>"Poltarnees, Beholder of Oceans," a musical pantomime for piano, published by Smith College Clef Club
+		   <unitdate> n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">7</container>
+                        <unittitle>"Prelude" for piano
+		   <unitdate>  1927</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">8</container>
+                        <unittitle>Smith College exercises
+		   <unitdate>  1922-23</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">9</container>
+                        <unittitle>"Sonatine for Violin and Piano,"<unitdate> 1928</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">10</container>
+                        <unittitle>"Toccata" for piano
+		   <unitdate>  1924</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous (arrangements; transcriptions; and pieces by Gertrude Smith and unidentified)</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">11</container>
+                        <unittitle>"Christmas Round"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">12</container>
+                        <unittitle>"Song in the Songless" for contralto, clarinet, and piano</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">13</container>
+                        <unittitle>"Trudle's Lighter Moment" for piano and voice [by D.S.D.?]</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">14</container>
+                        <unittitle>"Americana Collection": manuscript and mimeograph scores of American song arrangements</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">15</container>
+                        <unittitle>"Collection of First Songs for Children": songs by others [to be arranged?]</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">16</container>
+                        <unittitle>J.S. Bach, "Chorale and Aria" from "Cantata No. 153," transcribed for orchestra; and "From Cantata No. 4" (arranged by D.S.D.)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">17</container>
+                        <unittitle>Brahms, "Romanze" for chamber orchestra: full score and parts (arranged by D.S.D.)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">18</container>
+                        <unittitle>Fischer, "Six Fugues" transcribed for horns, trumpet, and trombone [arranged by D.S.D.?]</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">19</container>
+                        <unittitle>Grieg, "Norwegian Suite" for orchestra and piano (arranged by D.S.D.)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">20</container>
+                        <unittitle>Marais, "Five Old French Dances" for winds and strings, or recorders and strings (arranged by D.S.D.)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">21</container>
+                        <unittitle>Mozart, "Divertimento I" and "Divertimento II" (cello part only) [arranged by D.S.D.?]</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">22</container>
+                        <unittitle>Mozart, "Tempo di Menuetto": orchestral parts (arranged by D.S.D.]</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">23</container>
+                        <unittitle>Pachelbel and J.S. Bach, "Four Fugues" transcribed for winds and brass [by D.S.D?]</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">24</container>
+                        <unittitle>"Chuckatuck, Walla Walla," piece for speaking chorus</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">25</container>
+                        <unittitle>"We Wish a Happy Birthday"</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">17</container>
+                        <container type="folder">26</container>
+                        <unittitle>"Three songs for Women's Voices with Wind Instruments"</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

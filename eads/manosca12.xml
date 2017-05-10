@@ -1,0 +1,656 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca12.xml//EN" countrycode="us" mainagencycode="manosca">manosca12</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Office of the Acting President Elizabeth Morrow Files, 1939-1940.
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by manosca.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+<date>2003-06-03</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca12 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Office of the Acting President Elizabeth Morrow Files, 1939-1940.
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 32
+</num>
+
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Morrow, Elizabeth, 1873-1955.</persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Office of the Acting President Elizabeth Morrow Files</unittitle><unitdate encodinganalog="245$f" type="inclusive">1939-1940</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 32</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">3 boxes</extent>
+<extent encodinganalog="300$a">(1 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Acting president, alumnae, teacher, author, volunteer, trustee.  Contains correspondence, news clippings, photographs, presidential documents, speeches, and reports.  Correspondents include the Neilson family and the Davis family.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p>Elizabeth Reeve Cutter Morrow has been called Smith's most outstanding alumna.  Born in Cleveland, Ohio in 1873, Elizabeth Cutter was the daughter of Charles Long Cutter and Annie E. (Spencer) Cutter. Her father was Secretary General of L. and Wheeling Railroad.  Having received her early education in Cleveland at Miss Mittleberger's School, she was later granted a B. L. degree from Smith College in the Class of 1896.  She studied at the Sorbonne in Paris, France from 1896 to 1897 as well as in Florence, Italy.</p>
+<p>In 1903 Elizabeth Reeve Cutter married Dwight Whitney Morrow.  Dwight Morrow, born in Huntington, W. V. in 1873, graduated from Amherst College in 1896.  He served as the United States Ambassador to Mexico from 1927 - 1930, during the Hoover administration, and served in the United States Senate between 1930 until his death on October 5, 1931.  The two had four children: Elizabeth Reeve, Anne Spencer, Dwight Whitney, and Constance Cutter.  All three daughters attended Smith College.  Elizabeth Cutter Morrow was the grandmother of twelve, including the famous Lindbergh baby, son of Anne Spencer and her husband Col. Charles A. Lindbergh.</p>
+<p>Elizabeth Cutter  Morrow was the recipient of honorary degrees from six leading colleges and universities including: Amherst College, 1933; New Jersey College for Women, 1935; Smith College, 1937; New York University, 1940; Lafayette College,1940; and Princeton, 1940.  Described by Dr. William Allen Neilson in conferring the degree of Doctor of Humane letters upon her in 1937, "President of the Alumnae Association, and for sixteen years Trustee of Smith College, author of distinction in prose and verse, the multitude of whose services to her college and her country - far greater than the world knows - makes it impossible to describe adequately the alumna who has earned in most abundant measure our love, our honor, and our gratitude.</p>
+<p>Taking an active role in the life and well-being of her alma mater, Elizabeth Cutter Morrow was president of the Smith College Alumnae Association from 1917 - 1920.  She was a member of the War Services Board which directed Smith College relief units overseas.  Between 1920 - 1926 she was the Alumnae representative to the Board of Trustees, and later, in 1926, was elected a Trustee by the Board.  Her largest contribution, however, was her role as acting president for the interim year, 1939 - 1940, after the resignation of William Neilson as president in 1939.</p>
+<p>Elizabeth Cutter Morrow was not a professional woman whose "field" can be easily described.  She certainly achieved eminence in education, philanthropy, finance, and literature.  She was a teacher of English, History, and French in private schools before her marriage to Dwight Whitney Morrow in 1903.  During her marriage she published prose and verse in many popular magazines, as well as publishing multiple children's books, of which some are The Painted Pig, Quatrains for My Daughter, The Rabbit's Nest, Shannon, A Pint of Judgment, and Casa Manana which was chosen as one of 150 of the most beautiful books between 1931 and 1933.  </p>
+<p>Her volunteer work had no limits.  Elizabeth Cutter Morrow was unstintingly active in local as well as national and international affairs.  She was chairman of the Community Chest when it was first organized in Englewood, New Jersey, the town she called home.  She was also involved in her local church, Women's Club, Memorial House (civic center) and was even chairman of the Board of The Little School in Englewood, founded by her daughter Elizabeth.  She was a member of the Executive Committee of the New York National War Fund Committee.  She was one of the founders for Food for Freedom Inc..  She was the first woman to serve on the Board of the Union Theological Seminary.  In New York she was a member of the National Board of the Y. W. C. A., and she took a leading role in many of its campaigns for funds.  Elizabeth Cutter Morrow played an important role in issues abroad.  During her husband's time as Ambassador to Mexico, 1927-30, she supported him in his resolve to bring about the strengthening of friendly relations between Mexico and the United States.  As well, she was an honorary vice-president of the American Association for the United Nations, Inc.</p>
+<p>On January 23, 1955 she died at the age of eighty-two.  In an address at the Smith College memorial service Ada Comstock Notestein, former Dean and Trustee of Smith College, as well as former president of Radcliffe College, said: "...She was one of those rare beings  for whose courage nothing is too great, and for whose imagination nothing is too small....She was a benefactor  and philanthropist without any apparent consciousness of doing more than anyone would have done in her place."</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>The Elizabeth Morrow collection documents her official duties as Acting President of Smith College.  The collection includes correspondence, news clippings, photographs, presidential documents, speeches, and reports.  An important aspect of the Elizabeth Morrow collection is the information concerning the Special Committee on Choosing a President and Trustee information.</p>
+<p>The collection documents Morrow's achievements and her involvement with Smith College.  Among other things the collection highlights academic departments and Interdepartmental majors, the restoration of the President's Office, and documents concerning events such as Rally Day and Commencement.</p>
+<p>Correspondence consists of letters to and from Elizabeth Morrow concerning matters of the President, letters to and from the Neilson family, and letters to and from the Davis family.  </p>
+<p>Due to the short duration of her presidency the collection is small in scope and size.</p>
+</scopecontent>
+<arrangement id="scope-arr">
+<head>Arrangement of the Collection</head>
+<p>The material is arranged alphabetically by subject.
+</p>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the Elizabeth Morrow Papers must be requested from the Smith College Archives. Copyright for official Smith correspondence and documents is owned by the Smith College Archives.  Provenance and copyright ownership of family materials is unknown and researchers are responsible for determining any question of copyright.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Office of the Acting President Elizabeth Morrow Files, Box #, Smith College Archives.</p>
+</prefercite>
+<acqinfo id="admin-acqinfo">
+	<p>Office of the Acting President Elizabeth Morrow Files were donated to the Smith College Archives from a number of sources. </p> 
+    </acqinfo>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Morrow, Elizabeth, 1873-1955.</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Presidents.</corpname>
+<persname encodinganalog="700" source="lcnaf">Neilson, William Allan, 1869-1946.</persname>
+<persname encodinganalog="700" source="lcnaf">Davis, Herbert John, 1893-1967.</persname>
+<corpname encodinganalog="710" source="lcnaf">Smith College. Office of President.</corpname>
+</controlaccess>
+
+<relatedmaterial id="add-related">
+	<p>
+	<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca305_main.html">Elizabeth Morrow Personal Papers, 1892-1947</extref></p>
+    </relatedmaterial>
+<dsc type="in-depth" id="contlist">
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>A
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>Academic Departments and Interdepartmental Programs: A-F
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>Academic Departments and Interdepartmental Programs: G-M
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Academic Departments and Interdepartmental Programs: P-Z
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>Alumnae Association
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>Alumnae Clubs
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Archives
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>B
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>Buildings and Grounds: President's Office Restoration
+	<unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>C
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>Cambridge School
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">12</container>
+<unittitle>Commencement
+	<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">1</container>
+<unittitle>Committee on Resources
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">2</container>
+<unittitle>D-E
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">3</container>
+<unittitle>Davis, Herbert &amp; Gladys
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">4</container>
+<unittitle>Davis, Herbert J.: Inauguration of President
+	<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">5</container>
+<unittitle>F-G
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">6</container>
+<unittitle>Faculty Letter to Elizabeth Cutter Morrow
+	<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">7</container>
+<unittitle>H
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">8</container>
+<unittitle>Honorary Degrees
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">9</container>
+<unittitle>Houses
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">10</container>
+<unittitle>I-J
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">11</container>
+<unittitle>K-L
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">12</container>
+<unittitle>The Lees
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">13</container>
+<unittitle>Library
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">14</container>
+<unittitle>M
+	   <unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">15</container>
+<unittitle>Miscellaneous
+	<unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">16</container>
+<unittitle>Museum of Art
+	<unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">17</container>
+<unittitle>N
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">18</container>
+<unittitle>Neilson, William Allen, Elizabeth &amp; Margaret
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">19</container>
+<unittitle>Notebook
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">20</container>
+<unittitle>O-P
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">21</container>
+<unittitle>Plans for Refugee Children
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">22</container>
+<unittitle>President's Report
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">23</container>
+<unittitle>R
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">24</container>
+<unittitle>Rally Day
+	<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">25</container>
+<unittitle>S
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">26</container>
+<unittitle>Scholarships
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">1</container>
+<unittitle>Secretary to the President
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">2</container>
+<unittitle>Seven Women's Colleges: Annual Congress,
+	<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">3</container>
+<unittitle>Special Committee on Choosing a President
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">4</container>
+<unittitle>Speeches at Smith College
+	<unitdate>1939</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">5</container>
+<unittitle>Speeches at Smith College
+	<unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">3</container>
+<container type="folder">6</container>
+<unittitle>T-U
+	   <unitdate>1939-40, n. d.</unitdate>
+</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">7</container>
+<unittitle>Trustees: Corbett, Elliot R.
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">8</container>
+<unittitle>Trustees: Dalrymple, John S.
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">9</container>
+<unittitle>Trustees: Emerson, Kendall
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">10</container>
+<unittitle>Trustees: Gleason, Hollis T.
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">11</container>
+<unittitle>Trustees: Hofer, Philip
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">12</container>
+<unittitle>Trustees: Huntington, W. Chapin
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">13</container>
+<unittitle>Trustees: Jones, Frederic M.
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">14</container>
+<unittitle>Trustees: Oldham, John E.
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">15</container>
+<unittitle>Trustees: Raymond, Eleanor
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">16</container>
+<unittitle>Trustees: Smith, Frank C.
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">17</container>
+<unittitle>Trustees: Stevenson, George S.
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">18</container>
+<unittitle>Trustees: Teagle, Frank
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">19</container>
+<unittitle>Trustees: Valentine, Alan
+	<unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<container type="box">3</container>
+<container type="folder">20</container>
+<unittitle>V-Z
+	   <unitdate>1939-40</unitdate>
+</unittitle>
+</did>
+</c01>
+</dsc>
+</archdesc>
+</ead>

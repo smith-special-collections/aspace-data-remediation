@@ -1,0 +1,3635 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<!-- Can you open this in Notetab for me and let me know if you are able to cut/paste, add or remove anything? Yes I can!  MRJ  -->
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca95.xml//EN" countrycode="us" mainagencycode="manosca">manosca95</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Smith College Relief Unit Records, 1917-1964
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Elizabeth Kates.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+<date>2003-06-09</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca95 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Smith College Relief Unit Records, 1917-1964
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 12
+</num>
+<author>Elizabeth Kates
+</author>
+<date>1999, 2010
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<corpname encodinganalog="110" source="lcnaf">Smith College Relief Unit.</corpname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Smith College Relief Unit Records</unittitle> <unitdate encodinganalog="245$f" type="inclusive">1917-1997</unitdate>
+
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 12</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">25 boxes</extent>
+<extent encodinganalog="300$a">(9.7 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">The Smith College Relief Unit was founded in 1917 to bring relief to those areas of France that were most devastated during the first World War.  The records include letters, journals, photographs and albums, correspondence with the War Service Board and information about the reconstruction.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Historical Note</head>
+<p> The Smith College Relief Unit was founded in 1917 by Harriet Boyd Hawes (1892) to bring relief to those areas of France that were most devastated during the first World War.  Hawes already had significant experience of relief work when she proposed, at a Boston Smith Club meeting in 1917, to form the SCRU. She had served as a relief nurse in both the Greco-Turkish war of 1897 and the Spanish American war, and then later in France, when WWI began. Having seen first-hand the effects of the war in Europe, Hawes was dismayed at the apathy expressed towards it by Americans when she returned to the States. When the US finally did join the war, Hawes quickly announced her intentions of starting a relief unit, which she hoped to staff with other Smith graduates. Smith alumnae were eager to lend their services; a Committee of Five was established to manage business in the US, and the necessary money was soon raised. The group attained the recognition of the State Department early on, and an affiliation was established with the American Fund for French Wounded through Harriet's previous connections in France. By 1918, after the Unit had proven its success, the Red Cross accepted the SCRU as an affiliate as well, granting the Unit another source of aid and support.</p>
+<p>That summer, with a pledge of $30,000 from alumnae, Hawes set off with seventeen other Smith graduates for France. Their base was to be in the village of Grecourt in the devastated Somme Valley, chosen by the French government as the area of greatest need. When they arrived in Grecourt, the women of the Unit found that not a single building had been left intact; the Germans bombed everything before they left and deported all the able-bodied youth, leaving only the old and the sick and those children who were too young to work. Any machinery that might have been a help to the villagers had been broken, and once-fertile fields were unrecognizable. The primary interest of the Unit was in helping the villagers to regain self-sufficiency. As much as was possible the Unit bought from the villagers food for themselves and fodder for their livestock, much of which was sold back to the villagers at well below original cost. A store was established from which basic staples and supplies were sold. The Unit also kept a truck which they used as a "traveling store." The SCRU rebuilt St. Matthew's Church and revived services by bringing a minister to the town. They built a school, a library and hospital, planted fruit trees, wheat and vegetables and provided medical services. Sewing was given out to the local women, for which the women were paid according to scales established by the French government. The SCRU taught classes to children, including carpentry, sewing, cooking, music, games and physical education, along with a curriculum of reading and arithmetic.</p>
+<p> In March of 1918 a new German offensive forced the evacuation of Grecourt and the surrounding villages. The Unit relocated for a time in Beauvais, where the members worked with the Red Cross to treat the American wounded. Many of the volunteers, having finished their required terms, and having seen more of battle than they bargained for, returned to the States. Among these was Hannah Dunlop Andrews, the director of the Unit, who felt she must give up her position in order to return home with  her husband, a Major in the American Army. When the war ended, a new director, Marie Wolfs, was appointed and the Unit returned to Grecourt. The village was even more devastated than at the time of their first arrival, and much of their work had been lost.</p>
+<p> The Red Cross began to disband their relief services that November, and the SCRU was an independent organization again. Those who stayed on at Grecourt did so at the request of the French government and out of a sense of commitment to and investment in the project. The last of the Unit's members did not leave France until 1929, by which time they had rebuilt and improved upon all that was lost in the German strike of 1918. The Smith College Relief Unit was the first college women's unit in France and the first to be acknowledged by the Red Cross. Inspired by the Smith Unit, several other colleges followed, including Wellesley and Bryn Mawr.</p>
+<p> Though by all accounts those who served in the Smith College Relief Unit would never see fit to mention it, certain tangible rewards were given to commemorate Unit's work. In 1919 the Union des Femmes de France (a French branch of the Red Cross) awarded the women the Medaille de Guerre in recognition of their work in the evacuation of March 1918, and in 1920 the French government awarded the Unit the silver medal of Reconnaissance. The Croix de Guerre was awarded to those  villages that the Unit served, for bravery under German occupation, and at Smith, the Grecourt Gates, a replica of those that stood in front of the Chateau de Robecourt, were erected by the Trustees of  the College in front of College Hall.</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p> The records of the Smith College Relief Unit include directors' reports, financial information, letters, journals, photographs and albums, news clippings, correspondence with the War Service Board and information about the reconstruction. The files are organized into eight categories: early history, financial records, directors, individuals, photographs, publications, news clippings and reconstruction. Financial records and news clippings are arranged chronologically and the directors' records are arranged in order of their terms of office. All other files are arranged alphabetically by subject.</p>
+<p>Smith College Relief Unit Directors</p>
+<p>Harriet Boyd Hawes (1892), July 1917 - September 1917</p>
+<p>Alice Weld Tallant (1897), September 1917 - January 1918</p>
+<p>Hannah Dunlop Andrews (1904), January 1918 - January 1919</p>
+<p>Marie Leonie Wolfs, Assistant Director</p>
+<p>Marie Leonie Wolfs (1908), January 1919 - September 1919</p>
+<p>Ellen Tucker Emerson (1901), Assistant Director</p>
+<p>Anne McClallan Chapin (1904), September 1919 - April 1920</p>
+</scopecontent>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>All of the files are open to the public according to the regulations of the Smith College Archives.
+</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes. In order to publish any material contained in the records of the Smith College Relief Unit, copyright must be obtained from the Smith College Archives.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Smith College Relief Unit Records, Box #, Smith College Archives.</p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>The materials in the Smith College Relief Unit records came to the College Archives largely as gifts or bequests from the members of the Unit and their families. These donors include Dorothy Ainsworth, Mary Allsebrook, Edith Bannon, Marion Bennet, Eugene and Mary Clapp, Ellen Tucker Emerson, Raymond and Amelia Forbes Emerson, Alice Evans, Louisa Kimball Fast, Harriet Bliss Ford, Ruth Gaines, Ruth Whitney Higgins, Alice Emily Leavens, Georgia W. Read, Mary Stevenson, Frances Wadsworth Valentine and Dorothy Young.
+</p>
+</acqinfo>
+<processinfo id="admin-process">
+<p>Processed by Elizabeth Kates.</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Hawes, Harriet Boyd, 1871-1945.</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College. Relief Unit.</corpname>
+<subject encodinganalog="650" source="lcsh">World War, 1914-1918--Women.</subject>
+<subject encodinganalog="650" source="lcsh">World War, 1914-1918--War work.</subject>
+</controlaccess>
+<dsc type="in-depth" id="list-contlist">
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>History and Chronology
+<unitdate>1917-1929</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>American Fund for French Wounded
+<unitdate> 1917</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>Financial Statements
+<unitdate>Aug.1917-Feb.1921</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Ledger</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>Account with Morgan, Harjes &amp; Co.
+<unitdate> 1919-1921</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>Financial Statements
+<unitdate>Jun.1922-May 1930</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<unittitle>Ledger
+<unitdate>Jun.1918-May 1920</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">1</container>
+<unittitle>Ledger
+<unitdate>May 1920-Jun.1929</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<container type="folder">1</container>
+<unittitle>Hawes, Harriet Boyd
+<unitdate>Aug. - Sep. 1917</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<container type="box">2</container>
+<unittitle>Tallant, Alice Weld:</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">2</container>
+<unittitle>Correspondence, general
+<unitdate>Oct. 1917 - Jan. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">3</container>
+<unittitle>Correspondence, Japan Smith Club
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">4</container>
+<unittitle>Correspondence, War Service Board
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">5</container>
+<unittitle>Photo and Autograph Album
+<unitdate>Jan. 26. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">6</container>
+<unittitle>Photos of, News Clippings about A.W.T.
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">7</container>
+<unittitle>Reports
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Andrews, Hannah Dunlop:</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">8</container>
+<unittitle>Correspondence
+<unitdate>Jan. - Aug. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">9</container>
+<unittitle>Correspondence
+<unitdate>Sep. - Nov. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">10</container>
+<unittitle>Correspondence
+<unitdate>Dec. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">11</container>
+<unittitle>Correspondence, to family
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">12</container>
+<unittitle>Correspondence, War Service Board
+<unitdate>Jan. - Mar. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">13</container>
+<unittitle>Correspondence, War Service Board (Beauvais)
+<unitdate>Apr. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">14</container>
+<unittitle>Correspondence, War Service Board
+<unitdate>May - Aug. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">15</container>
+<unittitle>Correspondence, War Service Board (Chateau Thierry)
+<unitdate>Sep. - Dec. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">16</container>
+<unittitle>Departmental Reports
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">17</container>
+<unittitle>Health Service
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">18</container>
+<unittitle>Red Cross
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">19</container>
+<unittitle>Red Cross, reports to
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 id="list-wolfs">
+<did>
+<unittitle>Wolfs, Marie Leonie</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">1</container>
+<unittitle>Agriculture and Livestock
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">2</container>
+<unittitle>Agriculture, reports
+<unitdate>Jan. 1919 - Mar. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">3</container>
+<unittitle>Appeals for Civilian Aid
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">4</container>
+<unittitle>Automobiles
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">5</container>
+<unittitle>Barracks
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">6</container>
+<unittitle>Biographical Data</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">7</container>
+<unittitle>Departmental Reports, Children
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">8</container>
+<unittitle>Correspondence
+<unitdate>Jan. - Mar. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">9</container>
+<unittitle>Correspondence
+<unitdate>Apr. - May 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">10</container>
+<unittitle>Correspondence
+<unitdate>Jun. -  Sep. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">11</container>
+<unittitle>Correspondence to Family
+<unitdate>Aug. - Dec. 1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">12</container>
+<unittitle>Correspondence to Family
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">13</container>
+<unittitle>Correspondence to Family
+<unitdate>Jan. - Jul. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">14</container>
+<unittitle>Correspondence to War Service Board (Beauvais)
+<unitdate>April 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">15</container>
+<unittitle>Correspondence to War Service Board
+<unitdate>Jan. - May 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">16</container>
+<unittitle>Correspondence to War Service Board
+<unitdate>Jun. - Aug. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">17</container>
+<unittitle>Diaries
+<unitdate>1914, 1917, 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">18</container>
+<unittitle>Diary, typescript
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">19</container>
+<unittitle>Dinner (in honor of M.L.W.)
+<unitdate>Jul. 15, 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">1</container>
+<unittitle>General</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">2</container>
+<unittitle>Guest books
+<unitdate>1917-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">3</container>
+<unittitle>Health Services
+<unitdate>1919-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">4</container>
+<unittitle>Libraries
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">5</container>
+<unittitle>Maps of France
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">6</container>
+<unittitle>Medals and Arm Band
+<unitdate>1920-1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">7</container>
+<unittitle>Miscellaneous
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">8</container>
+<unittitle>Official Documents
+<unitdate>1914-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">9</container>
+<unittitle>Photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">10</container>
+<unittitle>Red Cross
+<unitdate>Sep. 1918 - Jul. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">11</container>
+<unittitle>Schools
+<unitdate>May - Jun. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">12</container>
+<unittitle>Social Services
+<unitdate>Jan. 1919 - Mar. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">13</container>
+<unittitle>Supplies, general
+<unitdate>May - Nov. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">14</container>
+<unittitle>Supplies, clothing
+<unitdate>May - Jun. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">15</container>
+<unittitle>Treasurer's Reports
+<unitdate>May 1919-Feb. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">16</container>
+<unittitle>War Indemnity
+<unitdate>Apr. - Dec. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Chapin, Anne McClallan</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">1</container>
+<unittitle>Agriculture
+<unitdate>Sep. - Dec. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">2</container>
+<unittitle>Agriculture, fruit trees
+<unitdate>Jan. 1919- Jul. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">3</container>
+<unittitle>Alumnae Trustee
+<unitdate>Aug. 1922- Jan. 1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">4</container>
+<unittitle>Automobiles
+<unitdate>Sep. 1919-Apr. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">5</container>
+<unittitle>Barracks</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">6</container>
+<unittitle>Committee on Devastated Regions</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">7</container>
+<unittitle>Correspondence
+<unitdate>Jul. - Oct. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">8</container>
+<unittitle>Correspondence
+<unitdate>Nov. - Dec. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">9</container>
+<unittitle>Correspondence
+<unitdate>Jan. - Feb. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">10</container>
+<unittitle>Correspondence
+<unitdate>Mar. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">11</container>
+<unittitle>Correspondence
+<unitdate>Apr. - May 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">12</container>
+<unittitle>Correspondence, to family
+<unitdate>Mar. - Aug. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">13</container>
+<unittitle>Correspondence, re: Ruth Gaines
+<unitdate>Sep. 1919-Jun. 1922</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">14</container>
+<unittitle>Correspondence, thank-you letters
+<unitdate>Sep. 1919-Apr. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">15</container>
+<unittitle>Correspondence, to War Service Board
+<unitdate>Sep. 1917 - Feb. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">16</container>
+<unittitle>Correspondence, to War Service Board
+<unitdate>Mar. - Apr. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">17</container>
+<unittitle>Correspondence, to War Service Board
+<unitdate>Oct. - Dec. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">18</container>
+<unittitle>Correspondence, to War Service Board
+<unitdate>Aug. - Dec. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">19</container>
+<unittitle>Correspondence, to War Service Board
+<unitdate>Jan. - May 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">20</container>
+<unittitle>Dinner (in honor of A.M.C. and Hannah Andrews)
+<unitdate>Jan. 4, 1919 </unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">21</container>
+<unittitle>Films
+<unitdate>Jan. - Feb. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">1</container>
+<unittitle>Health Service
+<unitdate>Aug. - Dec. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">2</container>
+<unittitle>Health Service
+<unitdate>Jan. - Jun. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">3</container>
+<unittitle>Health Service, Dentist
+<unitdate>Aug. 1919-Jan. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">4</container>
+<unittitle>Inhabitants of SCRU villages
+<unitdate>Dec. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">5</container>
+<unittitle>Medal of Honor
+<unitdate>1919-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">6</container>
+<unittitle>Official Documents
+<unitdate>1917-1922</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">7</container>
+<unittitle>Photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">8</container>
+<unittitle>Questionnaire
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">9</container>
+<unittitle>Schools
+<unitdate>Sep. 1919-Mar. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">10</container>
+<unittitle>Supplies
+<unitdate>Jul. 1919-Apr. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Individuals: A-D</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">1</container>
+<unittitle>Andrus, Ida Bourne
+<unitdate>1918-1922</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">2</container>
+<unittitle>Ashley, Margaret
+<unitdate>Sep. 15, 1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">3</container>
+<unittitle>Bannon, Charlotte
+<unitdate>Feb. 25, 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">4</container>
+<unittitle>Bennet, Marion
+<unitdate>c.1917-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">5</container>
+<unittitle>Biddlecome, Elizabeth
+<unitdate>May 1918-Apr. 1921</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">7</container>
+<unittitle>corr. to War Service Board</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">6</container>
+<unittitle>documents
+<unitdate>1918-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">7</container>
+<unittitle>photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03 id="list-biddlephoto">
+<did>
+<container type="box">7</container>
+<container type="folder">8</container>
+<unittitle>photograph album
+<unitdate>[1914]-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">9</container>
+<unittitle>Brown, Dorothy Helen
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">10</container>
+<unittitle>Carr, Marjorie Leigh
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">11</container>
+<unittitle>Clapp, Marie Antoinette
+<unitdate>Aug. - Nov. 1918</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">7</container>
+<unittitle>Correspondence to family</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">12</container>
+<unittitle>Correspondence to family
+<unitdate>Dec.1919 - Apr.1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">13</container>
+<unittitle>photographs
+<unitdate>1919-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">14</container>
+<unittitle>Clark, Mary
+<unitdate>Jun. 17, 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">15</container>
+<unittitle>Clement, Fannie Fletcher
+<unitdate>Jan.1919-Jan.1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Ainsworth, Dorothy Sears</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">1</container>
+<unittitle>Correspondence to family
+<unitdate>Jan. - Apr. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">2</container>
+<unittitle>Correspondence to family
+<unitdate>May - Jul. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">3</container>
+<unittitle>Correspondence to family
+<unitdate>Aug. - Oct. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">4</container>
+<unittitle>Correspondence to Family
+<unitdate>Nov.1919-Jan.1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">5</container>
+<unittitle>Correspondence to family
+<unitdate>May - Jul. 19236Aug. - Sep. 1923</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">7</container>
+<unittitle>Official Documents
+<unitdate>1918-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">8</container>
+<unittitle>Photographs</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">9</container>
+<unittitle>Bliss, Elizabeth Howe</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">1</container>
+<unittitle>Correspondence to Blanche Lange
+<unitdate>Aug. - Sep. 1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">2</container>
+<unittitle>Correspondence to Blanche Lange
+<unitdate>Oct.1917-Mar.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">3</container>
+<unittitle>Correspondence to Blanche Lange
+<unitdate>Apr. - Sep. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">4</container>
+<unittitle>Correspondence to Blanche Lange
+<unitdate>Nov. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">5</container>
+<unittitle>Correspondence to mother
+<unitdate>Jul.1917 - Apr. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">6</container>
+<unittitle>Correspondence to Helen Rand Thayer
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">7</container>
+<unittitle>Correspondence re: War Service
+<unitdate>1966</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">8</container>
+<unittitle>Correspondence miscellaneous
+<unitdate>c. 1917-1964</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">9</container>
+<unittitle>Diaries
+<unitdate>Aug.1917-Sep.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">10</container>
+<unittitle>miscellaneous</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">11</container>
+<unittitle>Photographs
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">12</container>
+<unittitle>Official Documents
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">13</container>
+<unittitle>Red Cross
+<unitdate>1918-1923</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Dana, Elizabeth Mabel</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">10</container>
+<unittitle>souvenirs</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">10</container>
+<unittitle>coins, buttons, bullets</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<unittitle>chevrons and insignia</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<unittitle>artifacts</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">1</container>
+<unittitle>Correspondence, general
+<unitdate>Sep.1918-Jun.1926</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">2</container>
+<unittitle>Correspondence, to parents
+<unitdate>Sep. 1917-Jul.1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">3</container>
+<unittitle>Correspondence, from Isabel Mitchell
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">4</container>
+<unittitle>Correspondence, from John J. Pershing
+<unitdate>Apr. 28, 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">5</container>
+<unittitle>Financial Records
+<unitdate>1917-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">6</container>
+<unittitle>Red Cross
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">7</container>
+<unittitle>Official Documents
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">8</container>
+<unittitle>Photographs
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">9</container>
+<unittitle>Posters and Guidebooks
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">10</container>
+<unittitle>Programs
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">11</container>
+<unittitle>Publications and Clippings
+<unitdate>c.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">12</container>
+<unittitle>Publications - Puranees Bulletin
+<unitdate>Mar. - Apr. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">13</container>
+<unittitle>Song Sheets
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">14</container>
+<unittitle>Tickets
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">15</container>
+<unittitle>Y.M.C.A.
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Individuals: E - F</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">11</container>
+<container type="folder">1</container>
+<unittitle>Emerson, Ellen Tucker
+<unitdate>Dec. 30, 1918</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">11</container>
+<unittitle>birth certificate</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">2</container>
+<unittitle>corr. to family
+<unitdate>Feb. - Apr. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">3</container>
+<unittitle>corr. to family
+<unitdate>May - Dec. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">4</container>
+<unittitle>corr. - miscellaneous
+<unitdate>Apr.1917 - May 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">5</container>
+<unittitle>photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">11</container>
+<container type="folder">6</container>
+<unittitle>Emerson, Josephine Burt
+<unitdate>Sep. 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">11</container>
+<container type="folder">7</container>
+<unittitle>Evans, Alice
+<unitdate>Aug. 1918-Sep. 1919</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">11</container>
+<unittitle>"My  years with the SCRU"</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">11</container>
+<container type="folder">8</container>
+<unittitle>Farrand, Margaret Louise
+<unitdate>Sep. 1923</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">11</container>
+<unittitle>Correspondence, to Marie de Grecourt</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">9</container>
+<unittitle>Correspondence, to Pierre de Schoemaker
+<unitdate>Apr.1917-Mar. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">10</container>
+<unittitle>Correspondence, to general
+<unitdate>1917-1927</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">11</container>
+<unittitle>Correspondence, to Paul Junka
+<unitdate>Jul.1919--Dec.1923</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">12</container>
+<unittitle>Correspondence, to Helene Legendre
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">13</container>
+<unittitle>Fatherless Children of France, Inc.
+<unitdate>Jun.1916-Feb.1921</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">14</container>
+<unittitle>Correspondence, to Marcel Augagne
+<unitdate>1910-1924</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">11</container>
+<container type="folder">15</container>
+<unittitle>Fast, Louisa Kimball
+<unitdate>Mar.1918-Nov.1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">11</container>
+<container type="folder">16</container>
+<unittitle>Ford, Harriet Bliss
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Individuals: G - T</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">1</container>
+<unittitle>Grandin, Mabel
+<unitdate>Feb.1918-Jun.1919 </unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">2</container>
+<unittitle>Grant, Rosamond
+<unitdate>Feb.1919-Mar.1921</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">3</container>
+<unittitle>Griffin, Edith
+<unitdate>1919-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">4</container>
+<unittitle>Hackett, Sarah Balch
+<unitdate>Aug.1918-Aug.1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">5</container>
+<unittitle>Higgins, Ruth Whitney
+<unitdate>Dec.1918-Feb.1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">6</container>
+<unittitle>Hooper, Catherine Baker
+<unitdate>Aug. - Dec.1917</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">7</container>
+<unittitle>corr. to family
+<unitdate>Jan. - Mar.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">8</container>
+<unittitle>corr. to family
+<unitdate>Jul. - Dec.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">9</container>
+<unittitle>corr. to family
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">10</container>
+<unittitle>corr. to War Service Board
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">11</container>
+<unittitle>photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">12</container>
+<unittitle>Joslin, Ruth
+<unitdate>Jan.1918-Feb.1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">13</container>
+<unittitle>Kelly, Maud M.
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">14</container>
+<unittitle>Kinney, Delan
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">15</container>
+<unittitle>La Monte, Isabel
+<unitdate>Dec.1918-May 1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">16</container>
+<unittitle>Lavignet, Marguerite
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">17</container>
+<unittitle>Lawrence, Evelyn Lucy
+<unitdate>[1919]</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">18</container>
+<unittitle>Leavens, Alice Emily
+<unitdate>Dec.1917-May 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">19</container>
+<unittitle>Lewis, Millicent Vaughn
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">20</container>
+<unittitle>Mather, Lucy Olcott
+<unitdate>Aug.1917-Jun.1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">21</container>
+<unittitle>Ober, Alice May
+<unitdate>Dec.1918-Feb.1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">22</container>
+<unittitle>Rochester, Anna
+<unitdate>Aug. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">23</container>
+<unittitle>Ryan, Anna
+<unitdate>Oct. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">24</container>
+<unittitle>Studebaker, Adrianna Louise
+<unitdate>Dec. 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">25</container>
+<unittitle>Talbot, Marjorie
+<unitdate>Mar. - Apr.1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">26</container>
+<unittitle>Thomas, Marion
+<unitdate>Oct. 9, 1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<container type="folder">27</container>
+<unittitle>True, Edna Miriam
+<unitdate>Aug. 1918-Feb 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Gaines, Ruth Louise</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">1</container>
+<unittitle>Appointments and Recommendations
+<unitdate>1904-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">2</container>
+<unittitle>Bills and Receipts
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">3</container>
+<unittitle>Correspondence, general
+<unitdate>Sep.1917-May 1920</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">4</container>
+<unittitle>with family
+<unitdate>Aug.1917 - Aug.1918</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">5</container>
+<unittitle>with family
+<unitdate>Jul. - Dec. 1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">6</container>
+<unittitle>with Georgia Read
+<unitdate>Sep. - Dec. 1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">7</container>
+<unittitle>with War Service Board
+<unitdate>Nov.1917-Apr.1919</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">8</container>
+<unittitle>from French villagers
+<unitdate>Oct.1917-Nov.1920</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">9</container>
+<unittitle>Diaries
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">10</container>
+<unittitle>Maps of France
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">11</container>
+<unittitle>miscellaneous
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">12</container>
+<unittitle>Notes
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">13</container>
+<unittitle>Official Documents
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">14</container>
+<unittitle>Photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">15</container>
+<unittitle>Reports, departmental reports
+<unitdate>Feb. - Oct. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">16</container>
+<unittitle>Reports, Relief of Devastated Regions
+<unitdate>1914-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">17</container>
+<unittitle>Reports, Village Mayors
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">18</container>
+<unittitle>Reports, War Service Board
+<unitdate>Aug.1917-Oct.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Publications</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">14</container>
+<container type="folder">1</container>
+<unittitle>
+<title>Helping France</title>, Civil Affairs Report
+<unitdate>Sep. - Dec. 1917</unitdate>
+</unittitle>
+</did>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">2</container>
+<unittitle>correspondence
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">3</container>
+<unittitle>notes
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">4</container>
+<unittitle>notes
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">5</container>
+<unittitle>notes
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">6</container>
+<unittitle>Red Cross
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c05>
+</c04>
+<c04>
+<did>
+<container type="box">14</container>
+<container type="folder">7</container>
+<unittitle>
+<title>Helping France</title> and <title>Ladies of Grecourt</title>
+<unitdate>1919, 1920</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">14</container>
+<container type="folder">8</container>
+<unittitle>
+<title>Ladies of Grecourt</title>,
+<unitdate>Aug.1918-Jun.1919</unitdate>
+</unittitle>
+</did>
+<c05>
+<did>
+<container type="box">14</container>
+<unittitle>corr. with War Service Board</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">9</container>
+<unittitle>corr. with War Service Board
+<unitdate>Sep.1919-May 1920</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">10</container>
+<unittitle>contracts
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">11</container>
+<unittitle>illustrations
+<unitdate>Sep.1919-Oct.921</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">12</container>
+<unittitle>preface
+<unitdate>Mar. - Jun. 1920</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">13</container>
+<unittitle>publication and sale
+<unitdate>May 1920-Jul.1921</unitdate>
+</unittitle>
+</did>
+</c05>
+</c04>
+<c04>
+<did>
+<container type="box">14</container>
+<container type="folder">14</container>
+<unittitle>
+<title>Ladies of Grecourt</title>, Publication and Sale
+<unitdate>Sep.1921-Nov.1922</unitdate>
+</unittitle>
+</did>
+<c05>
+<did>
+<container type="box">14</container>
+<container type="folder">15</container>
+<unittitle>settlement
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c05>
+</c04>
+<c04>
+<did>
+<container type="box">14</container>
+<unittitle>
+<title>Village in Picardy</title>
+</unittitle>
+</did>
+<c05>
+<did>
+<container type="box">15</container>
+<container type="folder">1</container>
+<unittitle>Correspondence
+<unitdate>Feb.1918-Aug.1919</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">15</container>
+<container type="folder">2</container>
+<unittitle>Illustrations
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">15</container>
+<container type="folder">3</container>
+<unittitle>Newspaper articles - typescripts
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">15</container>
+<container type="folder">4</container>
+<unittitle>Newspaper clippings
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">15</container>
+<container type="folder">5</container>
+<unittitle>Notes
+<unitdate>1914-1919</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">15</container>
+<container type="folder">6</container>
+<unittitle>Proposal
+<unitdate>Sep.25, 1918</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">15</container>
+<container type="folder">7</container>
+<unittitle>Typescript
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">15</container>
+<unittitle>
+<title>Village in Picardy</title>
+</unittitle>
+</did>
+</c05>
+</c04>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Greenborough, Clara</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">1</container>
+<unittitle>Beauvais - American Club
+<unitdate>c.Mar.1918-Dec.1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">2</container>
+<unittitle>Correspondence, to family
+<unitdate>Jan. - Mar.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">3</container>
+<unittitle>Correspondence, to family
+<unitdate>Apr. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">4</container>
+<unittitle>Correspondence, to family
+<unitdate>May - Jul. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">5</container>
+<unittitle>Correspondence, to family
+<unitdate>Aug. - Dec. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">6</container>
+<unittitle>Correspondence, to family
+<unitdate>Jan. - Aug. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">7</container>
+<unittitle>corr. with National War Work Council
+<unitdate>Mar. - Jul. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">8</container>
+<unittitle>corr.  with War Service Board
+<unitdate>Apr. - Jun. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">9</container>
+<unittitle>Correspondence, miscellaneous
+<unitdate>Mar.1918-Jun.1922</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">10</container>
+<unittitle>Flags
+<unitdate>Nov. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">11</container>
+<unittitle>Medals and Stripes</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">12</container>
+<unittitle>Official Documents
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">13</container>
+<unittitle>Overseas Service
+<unitdate>Jun. 1922</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">14</container>
+<unittitle>Photographs
+<unitdate>1914-1918</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Read, Georgia W. </unittitle>
+</did>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">1</container>
+<unittitle>Correspondence with mother
+<unitdate>Sep.1918-Mar.1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">2</container>
+<unittitle>Correspondence to War Service Board
+<unitdate>Sep. - Oct. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">3</container>
+<unittitle>Diaries
+<unitdate>Oct.1918-Mar.1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">4</container>
+<unittitle>miscellaneous
+<unitdate>[Mar. 1918]</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">5</container>
+<unittitle>Official Documents
+<unitdate>1918-1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">6</container>
+<unittitle>Photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">7</container>
+<unittitle>Publication: Kantine Braunschweig
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">8</container>
+<unittitle>Red Cross
+<unitdate>Aug.1918-Oct.1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">9</container>
+<unittitle>Treasurer's Reports
+<unitdate>Feb. - Apr. 1919</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Stevenson, Mary Goodman</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">1</container>
+<unittitle>Citations
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">2</container>
+<unittitle>Correspondence with family
+<unitdate>Jun.1918-Dec.1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">3</container>
+<unittitle>Correspondence to War Service Board
+<unitdate>Aug.1918-Aug.1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">4</container>
+<unittitle>Official Documents
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">5</container>
+<unittitle>Photographs
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03 id="list-stevphoto">
+<did>
+<container type="box">18</container>
+<unittitle>Photograph Album
+<unitdate>Jun.1918-Jul.1919</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Individuals: V - Z</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">19</container>
+<container type="folder">1</container>
+<unittitle>Valentine, Frances Wadsworth
+<unitdate>1918-1920</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">19</container>
+<unittitle>citations</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">2</container>
+<unittitle>Correspondence to family
+<unitdate>Jul.1917-Apr.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">3</container>
+<unittitle>Correspondence to family
+<unitdate>Jul.1918-Apr.1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">4</container>
+<unittitle>Correspondence to War Service Board
+<unitdate>Dec.1917-May 1922</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">5</container>
+<unittitle>Correspondence, general
+<unitdate>May 1918- Dec.1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">6</container>
+<unittitle>Diary
+<unitdate>Nov.1917-Jan.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">7</container>
+<unittitle>Identification Bracelet</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">8</container>
+<unittitle>Photographs
+<unitdate>1917-1954</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">9</container>
+<unittitle>Photograph Albums
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">10</container>
+<unittitle>Travel Permits
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">11</container>
+<unittitle>Visas
+<unitdate>1917-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">19</container>
+<container type="folder">12</container>
+<unittitle>Wiggin, Charlotte Monroe</unittitle>
+</did>
+<note>
+<p>[See Serbian Relief Unit]</p>
+</note>
+</c02>
+<c02>
+<did>
+<container type="box">19</container>
+<container type="folder">13</container>
+<unittitle>Williams, Esther Sprague</unittitle>
+</did>
+<note>
+<p>[See Serbian Relief Unit]</p>
+</note>
+</c02>
+<c02>
+<did>
+<container type="box">19</container>
+<container type="folder">14</container>
+<unittitle>Wolfs, Marie Leonie</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-wolfs">[See Directors files]</ref>
+</p>
+</note>
+</c02>
+<c02>
+<did>
+<container type="box">19</container>
+<container type="folder">15</container>
+<unittitle>Wood, Margaret
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">19</container>
+<container type="folder">16</container>
+<unittitle>Young, Dorothy A.
+<unitdate>Jun. 1918-Jan.1919</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">19</container>
+<unittitle>correspondence to family</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">17</container>
+<unittitle>correspondence to War Service Board
+<unitdate>Aug. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">18</container>
+<unittitle>War Experiences
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">19</container>
+<container type="folder">19</container>
+<unittitle>Photographs
+<unitdate>Dec. 1918</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>News Clippings</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">1</container>
+<unittitle>1917</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">2</container>
+<unittitle>Jan. 1918</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">3</container>
+<unittitle>Feb. 1918</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">4</container>
+<unittitle>Mar. 1918</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">5</container>
+<unittitle>Apr. 1918</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">6</container>
+<unittitle>May 1918</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">7</container>
+<unittitle>Jun. - Aug. 1918</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">8</container>
+<unittitle>Sep. - Dec. 1918</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">9</container>
+<unittitle>1919</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">10</container>
+<unittitle>1920s</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">20</container>
+<container type="folder">11</container>
+<unittitle>other dates and miscellaneous
+<unitdate>1996-1997</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Photographs: A - Z</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">21</container>
+<unittitle>photo album of Isabel La Monte Hackett
+<unitdate>1918-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">1</container>
+<unittitle>The Argonne</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-stevphoto">[See Individuals: Stevenson, photo album, pp.19, 20]</ref>
+</p>
+</note>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">2</container>
+<unittitle>Bacquencourt
+<unitdate>1917-1922</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">3</container>
+<unittitle>Beauvais
+<unitdate>Spring, 1918</unitdate>
+</unittitle>
+</did>
+<note>
+<p>[See also <ref target="list-biddlephoto">Individuals: Biddlecome, photo album</ref> and <ref target="list-stevphoto">Individuals: Stevenson, photo album, pp. 7-9</ref>]</p>
+</note>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">4</container>
+<unittitle>Breuil
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">5</container>
+<unittitle>Buverchy
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">6</container>
+<unittitle>Canal du Nord
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">7</container>
+<unittitle>Canizy
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">8</container>
+<unittitle>Cemetaries
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">9</container>
+<unittitle>Chateau Thierry
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">10</container>
+<unittitle>Esmery - Hallou
+<unitdate>[1917]</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">11</container>
+<unittitle>M. Fussein
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">12</container>
+<unittitle>German Prisoners
+<unitdate>1917-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">13</container>
+<unittitle>Grecourt</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-grecourt">[See Photographs: Grecourt]</ref>
+</p>
+</note>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">14</container>
+<unittitle>Hombleux
+<unitdate>[1917-1920]</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">15</container>
+<unittitle>Hombleux Band
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">16</container>
+<unittitle>Hombleux Library
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">17</container>
+<unittitle>Hospital
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">18</container>
+<unittitle>Nissen
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">19</container>
+<unittitle>Paris
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">20</container>
+<unittitle>Perrone
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">21</container>
+<unittitle>Red Cross
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">21</container>
+<container type="folder">22</container>
+<unittitle>William B. Jackson
+<unitdate>1918-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">23</container>
+<unittitle>S. S. Rochambeau
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">24</container>
+<unittitle>Sancourt
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">25</container>
+<unittitle>St. Quentin
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">26</container>
+<unittitle>Verdun
+<unitdate>[1918]</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">21</container>
+<container type="folder">27</container>
+<unittitle>Unidentified
+<unitdate>[1917-1929]</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 id="list-grecourt">
+<did>
+<unittitle>Photographs: Grecourt</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">1</container>
+<unittitle>Automobiles
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">2</container>
+<unittitle>Barracks
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">3</container>
+<unittitle>Barracks
+<unitdate>1919-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">4</container>
+<unittitle>Chateau de Robecourt
+<unitdate>c.1917-1919</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">22</container>
+<container type="folder">5</container>
+<unittitle>Approach and Garden
+<unitdate>c. 1917-1919</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">6</container>
+<unittitle>Christmas
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">7</container>
+<unittitle>Church and Mass
+<unitdate>1917-1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">8</container>
+<unittitle>Farm Animals
+<unitdate>1917-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">9</container>
+<unittitle>General
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">10</container>
+<unittitle>Llanoy Farm
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">11</container>
+<unittitle>Orangerie, Garage
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">12</container>
+<unittitle>Peasants and Children
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">13</container>
+<unittitle>Personnel
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">22</container>
+<container type="folder">14</container>
+<unittitle>Marie Pottier
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">22</container>
+<container type="folder">15</container>
+<unittitle>Robert Geuse
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">16</container>
+<unittitle>School
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">17</container>
+<unittitle>Social Service Worker
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">18</container>
+<unittitle>Store and Traveling Store
+<unitdate>1917-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">19</container>
+<unittitle>The Unit
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">20</container>
+<unittitle>The Unit
+<unitdate>1919-1920</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">22</container>
+<container type="folder">21</container>
+<unittitle>The Unit, general
+<unitdate>1918-1921</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Publications</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">23</container>
+<container type="folder">1</container>
+<unittitle>Alumnae News Bulletins
+<unitdate>1917-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">23</container>
+<container type="folder">2</container>
+<unittitle>An Irrepressible Crew (2 copies)
+<unitdate>1968</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">3</container>
+<unittitle>correspondence
+<unitdate>Nov. 1967</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">4</container>
+<unittitle>Illustrations
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<container type="folder">5</container>
+<unittitle>Typescript
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">23</container>
+<container type="folder">6</container>
+<unittitle>SCRU Pamphlets
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">23</container>
+<container type="folder">7</container>
+<unittitle>Smith Alumnae Quarterly
+<unitdate>Nov.1917-Nov.1923</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">23</container>
+<container type="folder">8</container>
+<unittitle>War Pamphlets and Publications, general
+<unitdate>1914-1940</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Reconstruction</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">1</container>
+<unittitle>Argonne Association
+<unitdate>1920-1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">2</container>
+<unittitle>Belleau Wood Memorial Association
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">3</container>
+<unittitle>Boy Scouts, correspondence
+<unitdate>Jul. - Dec. 1919</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">4</container>
+<unittitle>correspondence, (Miller)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">5</container>
+<unittitle>correspondence, (Lewis)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">6</container>
+<unittitle>correspondence, general
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">7</container>
+<unittitle>General
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">8</container>
+<unittitle>Photographs
+<unitdate>1918-1920</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">9</container>
+<unittitle>Bureau de Bienfaisance
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">10</container>
+<unittitle>Eppevelle
+<unitdate>1919-1923</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">11</container>
+<unittitle>Hombleux
+<unitdate>1922-1929</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">12</container>
+<unittitle>Ecole d'Action Sociale
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">13</container>
+<unittitle>Ecole de Florence Nightengale
+<unitdate>1921-1922</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">14</container>
+<unittitle>Federation of American Agencies
+<unitdate>Jun. - Jul. 1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">15</container>
+<unittitle>French Restoration Fund
+<unitdate>[1919]</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">16</container>
+<unittitle>Grecourt Church Bell
+<unitdate>1923, 1933</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">24</container>
+<container type="folder">17</container>
+<unittitle>Photographs
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">18</container>
+<unittitle>Salvation Army
+<unitdate>Jan.1920-Feb.192119Secours d'UrgenceMay 1920-Dec.1921</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">24</container>
+<container type="folder">20</container>
+<unittitle>Secours d'Urgence
+<unitdate>Jan.1922-Apr.1924</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle>Anniversaries [Oversize Materials]</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">25</container>
+<container type="folder">1</container>
+<unittitle>Index of Scrapbooks</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">25</container>
+<container type="folder">2</container>
+<unittitle>Anniversaries
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">25</container>
+<unittitle>Album: Smith Overseas in WWI</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">25</container>
+<unittitle>(Book I)
+<unitdate>Apr.1917-Nov.1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<unittitle>(Book II)
+<unitdate>May 1919-Aug.1946</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01>
+<did>
+<unittitle><title render="italic">Out to Win</title> by Coningsby Dawson
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<unittitle><title render="italic">Out of the Ruins</title> by George B. Ford
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<unittitle><title render="italic">Stretchers: The Story of a Hospital Unit on the Western Front</title> by Frederick Pottle
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<unittitle><title render="italic">The Officers and Nurses of Evacuation Eight</title> by Frederick Pottle
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c01>
+<c01>
+<did>
+<unittitle><title render="italic">Vassar's Rainbow Division, 1918</title> by Gladys Bonner Clappison, R.N.
+<unitdate>1964</unitdate>
+</unittitle>
+</did>
+</c01>
+</dsc>
+</archdesc>
+</ead>

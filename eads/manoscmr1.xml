@@ -1,0 +1,3085 @@
+<ead>
+   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr1.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr1</eadid>
+
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Papers of Virginia Woolf, 1902-1956
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Karen V. Kukil.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Mortimer Rare Book Room, William Allan Neilson Library, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c"> 2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Eric Cartier.
+        <date>2003-05-08</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>manoscmr1 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Smith College<lb/>William Allan Neilson Library<lb/>Mortimer Rare Book Room
+        
+         </publisher>
+         <titleproper encodinganalog="245$a">Papers of Virginia Woolf, 1902-1956
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>Manuscript Number<lb/>
+      1
+      </num>
+         <author encodinganalog="245$c">Compiled by<lb/>
+      Karen V. Kukil
+      </author>
+         <date>March 2003
+      </date>
+         
+         <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003 Smith College Libraries. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Woolf, Virginia, 1882-1941</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Papers of Virginia Woolf</unittitle><unitdate encodinganalog="245$f" type="inclusive">1902-1956</unitdate>
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 1</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">6 boxes, 217 items</extent>
+            <extent encodinganalog="300$a">(2.25 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Mortimer Rare Book Room</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+
+         </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Influential English writer best remembered for her innovative stream-of-consciousness novels. Papers include correspondence, reading notes, drafts of essays and short stories, corrected page proofs of novels and collected essays, printed ephemera, and photographs.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist-chron">
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date>1882</date>
+               <event>25 January: Born Adeline Virginia Stephen.</event>
+            </chronitem>
+            <chronitem>
+               <date>1895</date>
+               <event>5 May: Death of mother, Julia Stephen.</event>
+            </chronitem>
+            <chronitem>
+               <date>1899</date>
+               <event>Virginia's brother, Thoby Stephen, attends Cambridge, where he meets members of the future Bloomsbury Group (Lytton Strachey, Leonard Woolf, Clive Bell).</event>
+            </chronitem>
+            <chronitem>
+               <date>1904</date>
+               <event>22 February: Death of father, Leslie Stephen. Travels in Italy. Moves to Gordon Square. 14 December: Virginia's first publication, an unsigned review, appears in the <title render="italic">Guardian</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date>1905</date>
+               <event>Travels in Spain and Portugal.</event>
+            </chronitem>
+            <chronitem>
+               <date>1906</date>
+               <event>Travels in Greece. 20 November: Death of brother, Thoby Stephen.</event>
+            </chronitem>
+            <chronitem>
+               <date>1907</date>
+               <event>7 February: Marriage of Vanessa Stephen and Clive Bell. April: Moves to 29 Fitzroy Square.</event>
+            </chronitem>
+            <chronitem>
+               <date>1908</date>
+               <event>4 February: Nephew Julian Bell is born.</event>
+            </chronitem>
+            <chronitem>
+               <date>1909</date>
+               <event>17 February:  Lytton Strachey proposes marriage to Virginia, and she accepts. The engagement is soon called off.</event>
+            </chronitem>
+            <chronitem>
+               <date>1910</date>
+               <event>19 August: Nephew Claudian [Quentin] Bell is born.</event>
+            </chronitem>
+            <chronitem>
+               <date>1912</date>
+               <event>10 August: Marries Leonard Woolf.</event>
+            </chronitem>
+            <chronitem>
+               <date>1913</date>
+               <event>Suicide attempt.</event>
+            </chronitem>
+            <chronitem>
+               <date>1915</date>
+               <event>March: <title render="italic">The Voyage Out</title> (originally entitled <title render="italic">Melymbrosia</title>) is published.</event>
+            </chronitem>
+            <chronitem>
+               <date>1917</date>
+               <event>Formation of Hogarth Press.</event>
+            </chronitem>
+            <chronitem>
+               <date>1918</date>
+               <event>May:  Lytton Strachey's <title render="italic">Eminent Victorians</title> is published.</event>
+            </chronitem>
+            <chronitem>
+               <date>1919</date>
+               <event>July: The Woolfs buy Monk's House. 20 October: Publication of <title render="italic">Night and Day</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date>1921</date>
+               <event>March: Publication of <title render="italic">Monday or Tuesday</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date>1922</date>
+               <event>October: <title render="italic">Jacob's Room</title> published. December: Meets Vita Sackville-West.</event>
+            </chronitem>
+            <chronitem>
+               <date>1924</date>
+               <event>Moves to 52 Tavistock Square.</event>
+            </chronitem>
+            <chronitem>
+               <date>1925</date>
+               <event>April: Publication of <title render="italic">The Common Reader</title>. May: Publication of <title render="italic">Mrs. Dalloway</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1927</date>
+               <event>May: <title render="italic">To the Lighthouse</title> is published.</event>
+            </chronitem>
+            <chronitem>
+               <date>1928</date>
+               <event>Awarded Femina Vie Heureuse prize. October: Publication of <title render="italic">Orlando</title>. At Cambridge reads two papers on which <title render="italic">A Room of One's Own</title> is based.</event>
+            </chronitem>
+            <chronitem>
+               <date>1929</date>
+               <event>October: Publication of <title render="italic">A Room of One's Own</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date>1930</date>
+               <event>February: Meets Ethel Smyth.</event>
+            </chronitem>
+            <chronitem>
+               <date>1931</date>
+               <event>October: Publication of <title render="italic">The Waves</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date>1932</date>
+               <event>January: Death of Lytton Strachey. July: <title render="italic">Letter to a Young Poet</title> is published.</event>
+            </chronitem>
+            <chronitem>
+               <date>1933</date>
+               <event>Flush is published by Hogarth Press.</event>
+            </chronitem>
+            <chronitem>
+               <date>1934</date>
+               <event>September: Death of Roger Fry.</event>
+            </chronitem>
+            <chronitem>
+               <date>1937</date>
+               <event>March: Publication of <title render="italic">The Years</title>. July: Julian Bell dies in Spanish Civil War.</event>
+            </chronitem>
+            <chronitem>
+               <date>1938</date>
+               <event>June: Publication of <title render="italic">Three Guineas</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date>1939</date>
+               <event>August: Virginia and Leonard move to 37 Mecklenburgh Square.</event>
+            </chronitem>
+            <chronitem>
+               <date>1940</date>
+               <event>July: Publication of <title render="italic">Roger Fry: A Biography</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date>1941</date>
+               <event>26 February: <title render="italic">Between the Acts</title> is completed. 28 March: Commits suicide.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Virginia Woolf Papers consist of 2.25 linear feet of material, dating from 1902 to 1956. Types of materials include correspondence, reading notes, drafts of essays and short stories, corrected page proofs of novels and collected essays, printed ephemera, and photographs. The bulk of the collection was assembled by Frances Hooper (1892-1986) and bequeathed to Smith College in 1986. A few additional manuscripts have been added through purchase and gift. The papers are arranged in six series.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into six series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Correspondence of Virginia Woolf and Lytton Strachey, 1906-1956</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Letters by Virginia Woolf, 1916-1939</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Manuscripts by Virginia Woolf, 1916-1941</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Hogarth Press Ephemera, 1917-1939</ref>
+            </item>
+            <item>
+               <ref target="list-ser5">V. Manuscripts by Others, 1904-1926</ref>
+            </item>
+            <item>
+               <ref target="list-ser6">VI. Photographs, 1902-1927</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <p>The Virginia Woolf Papers are the physical property of the Mortimer Rare Book Room, Smith College.  Literary rights, including copyright belong to the authors of works or their legal representatives.
+          </p>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Papers of Virginia Woolf, Mortimer Rare Book Room, Smith College.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The bulk of the collection was assembled by Frances Hooper (1892-1986) and bequeathed to Smith College in 1986. A few additional manuscripts have been added through purchase and gift.
+          </p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         <persname encodinganalog="600" source="lcnaf">Woolf, Virginia, 1882-1941.</persname>
+         <persname encodinganalog="600" source="lcnaf">Bell, Quentin.</persname>
+         <persname encodinganalog="600" source="lcnaf">Davidson, Angus.</persname>
+         <persname encodinganalog="600" source="lcnaf">Mansfield, Katherine, 1888-1923.</persname>
+         <persname encodinganalog="600" source="lcnaf">Strachey, Lytton, 1880-1932.</persname>
+         <persname encodinganalog="600" source="lcnaf">Walpole, Hugh, Sir, 1884-1941.</persname>
+         <persname encodinganalog="600" source="lcnaf">Sackville-West, V. (Victoria), 1892-1962.</persname>
+         <persname encodinganalog="600" source="lcnaf">Woolf, Leonard, 1880-1969.</persname>
+         <corpname encodinganalog="610" source="lcsh">Hogarth Press.</corpname>
+         <subject encodinganalog="650" source="lcsh">Bloomsbury group.</subject>
+         <subject encodinganalog="650" source="lcsh">Novelists, English--20th century--Biography--Sources.</subject>
+         <subject encodinganalog="650" source="lcsh">Women novelists, English--20th century--Biography--Sources.</subject>
+         <persname encodinganalog="700" source="lcnaf">Strachey, Lytton, 1880-1932.</persname>
+         <persname encodinganalog="700" source="lcnaf">Woolf, Leonard, 1880-1969.</persname>
+         <persname encodinganalog="700" source="lcnaf">Woolf, Virginia, 1882-1941 Common reader.</persname>
+         <persname encodinganalog="700" source="lcnaf">Woolf, Virginia, 1882-1941 Orlando.</persname>
+         <persname encodinganalog="700" source="lcnaf">Woolf, Virginia, 1882-1941 To the lighthouse.</persname>
+      </controlaccess>
+
+<!-- Begin series descriptions -->
+<dsc type="analyticover">
+  <c01 level="series">
+            <did>
+               <unittitle>Series I. Correspondence of Virginia Woolf and Lytton Strachey</unittitle>
+               <physdesc>
+                  <extent>0.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series includes 101 letters from Woolf, with an additional postcard addressed to Duncan Grant, and 39 letters from Strachey. Enclosures include a poem by Strachey (Box 1, folder 61) and a letter from Richard Aldington to Woolf (Box 2, folder 123). A few letters are also written by Leonard Woolf (Box 1, folders 45, 77, 78). The correspondence is accompanied by an autograph manuscript preface by James Strachey for the 1956 Hogarth Press edition of Letters: Virginia Woolf &amp; Lytton Strachey (Box 1, folder 2). Of the 32 letters from Woolf not published in this edition, most are invitations written on halfpenny and penny postcards. One is illustrated with an anti-war graphic (Box 2, folder 137). Picture postcards in the collection depict Alfoxton House, Holford (Box 1, folder 46) and other landscapes in England and Europe. A portrait of George Eliot, with a caption by Virginia Woolf, illustrates a 14 May 1931 card to Strachey (Box 2, folder 143).</p>
+               <p>The correspondence begins in 1906 after Virginia's elder brother, Thoby Stephen, died of typhoid fever. The correspondence ends in 1931 when Strachey died from stomach cancer. In addition to family and friends, Woolf and Strachey discuss literature and their travels. They mention Ralph Partridge, Dora Carrington, Lady Ottoline Morrell, Henry James, Katherine Mansfield, Duncan Grant, and Vanessa and Clive Bell.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series II. Letters by Virginia Woolf</unittitle>
+               <physdesc>
+                  <extent>0.5 linear feet</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series includes 36 letters written by Virginia Woolf about her novels and essays to editors, publishers, booksellers, private readers, and famous writers, such as Enid Bagnold, Katherine Mansfield, and Hugh Walpole. Woolf also writes to her nephew, Quentin Bell, and to a few friends, such as Vita Sackville-West, about illness, furniture, clothes, and the dangers of traveling by automobile and airplane. A series of letters to Angus Davidson, an employee of the Hogarth Press, describe Woolf's travels in Cornwall, Greece, and Italy via Holland and Germany. There are also ten letters to Robert and Mela Spira, who were Austrian refugees during World War II (Box 2, folder 164). Woolf wrote an affidavit for Robert Spira who was interned on the Isle of Man. A 1931 letter to the book dealer, Mr. Wilson, asks for a complete set of Macaulay's works. Woolf also writes to a bibliographer of Leslie Stephen about her father's work (Box 2, folder 167).</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series III. Manuscripts by Virginia Woolf</unittitle>
+            </did>
+            <scopecontent>
+               <p>Boxes 3-5 hold series III., Manuscripts by Virginia Woolf, which is arranged alphabetically by title.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series IV. Hogarth Press Ephemera</unittitle>
+               <physdesc>
+                  <extent>.25 linear feet (15 items)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Box 5 holds series IV., Hogarth Press Ephemera, which is arranged chronologically by item number from <title render="italic">A Checklist of the Hogarth Press</title> by J. Howard Woolmer</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series V. Manuscripts by Others,
+                <unitdate>1904-1926</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.25 linear ft.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series includes a letter from Anne Thackeray Ritchie to Mr. Darwin (probably one of the sons of Charles Darwin). Ritchie's letter discusses the declining health of Leslie Stephen, who died in 1904. In addition, the series contains a holograph draft by Arnold Bennett, "Books and Persons," which is a review of <title render="italic">The Common Reader</title>, <title render="italic">Mrs. Dalloway</title>, and <title render="italic">Jacob's Room</title>. The review appeared in the <title render="italic">Evening Standard</title> on 2 December 1926 under the title "Another Criticism of the New School." The other manuscripts in this series are letters written by Richard Aldington, James Strachey, Lytton Strachey, and Leonard Woolf which are housed in Series I.</p>
+            </scopecontent>
+  </c01>
+  <c01 level="series">
+            <did>
+               <unittitle>Series VI. Photographs,
+                <unitdate>1902-1927</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>The only original work in this series is the 1923 framed photograph of Virginia Woolf at Garsington (box 7, folder 204). The other two photographs are modern reprints.</p>
+            </scopecontent>
+  </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I. Correspondence of Virginia Woolf and Lytton Strachey</unittitle>
+            </did>
+            <c02 id="list-box1">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Notes about the correspondence: holograph by James Strachey, <unitdate>1952</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 leaf (1 page)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Preface to Virginia Woolf &amp; Lytton Strachey Letters: holograph by James Strachey, <unitdate>[1956]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>3 leaves (3 pages)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1906 Nov 22]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Apr 22]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Strachey to Woolf,
+                   <unitdate>1908 Apr 23</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (7 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Apr 28]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 May 18]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Jul 28]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1908 Aug 24</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Aug 30]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1908 Sep 27</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Oct 4]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Oct 14]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Nov 11]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">15</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1908 Nov 17</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">16</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908] Nov 20</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">17</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Nov 23]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">18</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Dec 1]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">19</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Dec 7]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">20</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Dec 19]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">21</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1908 Dec 25]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">22</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1909 Jan 3</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">23</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909 Jan 4]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">24</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909 Jan 26]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">25</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1909 Jan 27</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">26</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909 Jan 28]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">27</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1909 Jan 31</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">28</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909] Feb 1</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">29</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909 Feb 9]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">30</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909 Feb 16]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">31</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1909 Feb 17</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-1_32">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">32</container>
+                  <unittitle>Strachey to James Strachey,
+
+                   <unitdate>1909 Mar 9</unitdate>
+                  </unittitle>
+                  <physdesc>Typescript extract of letter,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">33</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909] Jun 4</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">34</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909 Jun 25]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">35</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1909 Oct 6]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">36</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1909 Oct 13</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">37</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>[1909] Nov 26</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">38</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1910 Jan 21]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">39</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1910 Nov]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">40</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1911 Nov 6]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">41</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1911 Nov 20]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">42</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1912 Feb 13]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">43</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1912 Feb 16]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">44</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1912] May 21</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-1_45">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">45</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1912 Jun 6</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>. With signature of Leonard Woolf
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">46</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1912 Aug 16]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">47</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1912 Sep 1</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">48</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1912 Nov 8</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">49</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1912] Nov 16</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">50</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1912 Dec 1</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">51</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1912] Dec 26</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">52</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1914 Jan 17]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">53</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1914] Jan 29</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">54</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1914] Feb 7</unitdate>
+                  </unittitle>
+                  <physdesc>AL,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">55</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1914 Dec 8]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">56</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1915 Jan]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">57</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1915 Feb 28</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">58</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1915] Oct 22</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">59</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1916 Feb 25</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">60</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1916] Feb 28</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">61</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1916 Apr 15</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>. 
+                </physdesc>
+               </did>
+		<note><p>With poem enclosure, typewritten, 3 leaves (3 pages)</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">62</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1916 Jul 17</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">63</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1916] Jul 25</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">64</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1916 Jul 28</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (4 pages)</extent>. 
+                </physdesc>
+               </did>
+		<note><p>With autograph transcription by James Strachey, 1948 Feb 24, 1 leaf (1 page)</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">65</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1917 Feb 21</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-1_66">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">66</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1917 May 12]</unitdate>
+                  </unittitle>
+                  <physdesc>Hogarth Press prospectus,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">67</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1917 Jul 5]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">68</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1917 Aug 13</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>. 
+                </physdesc>
+               </did>
+		<note><p>With autograph transcription by James Strachey, 1948 Feb 24, 1 leaf (1 page)</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">69</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1917] Aug 14</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">70</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1917 Dec 6]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">71</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1917 Dec 21</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>. 
+                </physdesc>
+               </did>
+		<note><p>With autograph transcription by James Strachey, 1948 Feb 24, 2 leaves (2 pages)</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">72</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1917 Dec 28]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages) with envelope</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">73</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1918] Mar 15</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">74</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1918 Mar 19</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">75</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1918 Mar 24]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">76</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1918] Apr 23</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-1_77">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">77</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1918 May 24</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>. 
+                </physdesc>
+               </did>
+		<note><p>Begins with TLS from Leonard Woolf</p>
+		</note>
+            </c02>
+            <c02 id="list-1_78">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">78</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1918 Jun 11]</unitdate>
+                  </unittitle>
+                  <physdesc>Telegram,
+                  <extent>1 leaf (1 page)</extent>. 
+                </physdesc>
+               </did>
+		<note><p>Also from Leonard Woolf</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">79</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1918] Oct 12</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">80</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1919 Jan 29</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">81</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1919 Jan 30]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">82</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1919 May 26]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">83</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1919 May 27</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">84</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1919 Sep] 14</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">85</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1919 Sep 28</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">86</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1919] Oct 28</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-1_87">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">87</container>
+                  <unittitle>Woolf to Duncan Grant,
+
+                   <unitdate>[1919 Nov 7]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">88</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1919 Nov 26]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">89</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1919 Nov 27</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">90</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1919 Nov 30]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">91</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1920] Feb 21</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">92</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1920 Apr 3</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">93</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1920 Jul 30]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">94</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1921 Jan 24</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">95</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1921] Jan 25</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">96</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1921] Mar [30]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (3 pages)</extent>. 
+                </physdesc>
+               </did>
+		<note><p>With picture postcard</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">97</container>
+                  <unittitle>Woolf to  Strachey,
+
+                   <unitdate>[1921] Apr 17</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>. With envelope
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">98</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1921 Aug 23</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">99</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1921 Aug 29</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">100</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1922 Feb 1]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf  (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">101</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1922 Feb 6</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">102</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1922 Feb 10</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">103</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1922] Feb [11]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">104</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1922 Feb 23]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">105</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1922 Aug 22</unitdate>
+                  </unittitle>
+                  <physdesc>AL,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">106</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1922 Aug 24</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">107</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1922 Sep 19</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">108</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1922 Oct 9</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">109</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1922 Oct 9 [?10]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">110</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1923 Jun 1]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">111</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1923 Jul 20</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf ( 1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">112</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1923 Jul ?21]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">113</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1923 Oct 4]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf  (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">114</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1923 Oct 6</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">115</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1924 Mar 21</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">116</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1924 May 1</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">117</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1924 May 2]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-2_118">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">118</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1924 Nov 11</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>. With Hogarth Press invoice.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">119</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1925 Jan 31]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">120</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1925] Sep 8</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">121</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1925 Sep 11</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">122</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1925 Nov 25]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-2_123">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">123</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1926] Jan 26</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>. With TLS, Richard  Aldington to Woolf, 1926 Jan 23, 1 leaf (1 page)
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">124</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1926 May]</unitdate>
+                  </unittitle>
+                  <physdesc>AL,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">125</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1926 Nov 17]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">126</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[?1927]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">127</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1927 Mar 21]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">128</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1927 Mar 28]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">129</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1927 Apr 12</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">130</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>1927 Sep 3</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">131</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1927 Sep 16</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">132</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1927 Nov 23]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">133</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1928 Nov 7]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">134</container>
+                  <unittitle>Strachey to Woolf,
+
+                   <unitdate>1928 Dec 21</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">135</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1928] Dec 25</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">136</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1930 Jan 21]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">137</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1930 Mar 25]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>l leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">138</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1930 May 28]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">139</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1930 May 30]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">140</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1930 Jul 1]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">141</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1930 Nov 17]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">142</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1930 Dec 7]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">143</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1931 May 14]</unitdate>
+                  </unittitle>
+                  <physdesc>ACS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">144</container>
+                  <unittitle>Woolf to Strachey,
+
+                   <unitdate>[1931] Dec 10</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II. Letters by Virginia Woolf</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">145</container>
+                  <unittitle>Woolf to Leigh Ashton,
+
+                   <unitdate>1930 May 27</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">146</container>
+                  <unittitle>Woolf to Leigh Ashton,
+
+                   <unitdate>[1930 May 29]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">147</container>
+                  <unittitle>Woolf to Enid Bagnold,
+
+                   <unitdate>1928 Oct 28</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">148</container>
+                  <unittitle>Woolf to Miss Batchelder,
+
+                   <unitdate>1934 Nov 3</unitdate>
+                  </unittitle>
+                  <physdesc>TLS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">149</container>
+                  <unittitle>Woolf to Quentin Bell,
+
+                   <unitdate>1929 Feb 17</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>4 leaves (8 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">150</container>
+                  <unittitle>Woolf to Charles E. Brumwell,
+
+                   <unitdate>1938 Jul 12</unitdate>
+                  </unittitle>
+                  <physdesc>TLS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">151</container>
+                  <unittitle>Woolf to Catherine Carswell,
+
+                   <unitdate>[1933] Aug 3</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">152</container>
+                  <unittitle>Woolf to Angus Davidson,
+
+                   <unitdate>[1926] Dec 25</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">153</container>
+                  <unittitle>Woolf to Angus Davidson,
+
+                   <unitdate>[1927 Apr]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (3 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">154</container>
+                  <unittitle>Woolf to Angus Davidson,
+
+                   <unitdate>1927 Apr 14</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">155</container>
+                  <unittitle>Woolf to Angus Davidson,
+
+                   <unitdate>[1927] Dec 22</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">156</container>
+                  <unittitle>Woolf to Angus Davidson,
+
+                   <unitdate>[1935] Apr 11</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">157</container>
+                  <unittitle>Woolf to Angus Davidson,
+
+                   <unitdate>1938 May 26</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (1 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">158</container>
+                  <unittitle>Woolf to Crosby Gaige,
+
+                   <unitdate>1928 Oct 29</unitdate>
+                  </unittitle>
+                  <physdesc>TLS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Woolf to Duncan Grant</unittitle>
+               </did>
+               <note>
+                  <p>See: <ref target="list-1_87">box 1, folder 87</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">159</container>
+                  <unittitle>Woolf to William Jackson,
+
+                   <unitdate>1930 Apr 29</unitdate>
+                  </unittitle>
+                  <physdesc>TLS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">160</container>
+                  <unittitle>Woolf to Katherine Mansfield,
+
+                   <unitdate>[1921] Feb 13</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>2 leaves (4 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">161</container>
+                  <unittitle>Woolf to Robert Nichols,
+                   <unitdate>1936 Sep 24</unitdate>
+                  </unittitle>
+                  <physdesc>                  <extent>1 leaf (2 pages)</extent>.                 </physdesc>
+               </did>
+		<note><p>Postcard with envelope. Written on one of Leonard Woolf's printed postcards.</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">162</container>
+                  <unittitle>Woolf to Margery Olivier,
+
+                   <unitdate>[1916] Jan 13</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">163</container>
+                  <unittitle>Woolf to Margery Olivier,
+
+                   <unitdate>[1916] Jan 21</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">163a</container>
+                  <unittitle>Woolf to Vita Sackville-West,
+
+                   <unitdate>[1939 Feb 26]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,
+                  <extent>1 leaf (2 pages).</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>Purchased.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">164</container>
+                  <unittitle>Woolf to Mela and Robert Spira,
+
+                   <unitdate>1939 Jan 11-1940 Oct 2</unitdate>
+                  </unittitle>
+                  <physdesc>ALS &amp; TLS &amp; Postcard                  <extent>11 letters ,11 leaves, (15 pages)</extent>.                 </physdesc>
+               </did>
+		<note><p>(with 8 envelopes, bound)</p>
+			</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">165</container>
+                  <unittitle>Woolf to J. C. Squire,
+
+                   <unitdate>[1919] Nov 18</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,                  <extent>1 leaf (2 pages)</extent>.                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">166</container>
+                  <unittitle>Woolf to Hugh Walpole,
+
+                   <unitdate>1932 Mar 3</unitdate>
+                  </unittitle>
+                  <physdesc>ALS,                  <extent>1 leaf (1 page)</extent>.                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">167</container>
+                  <unittitle>Woolf to Carlton F. Wells,
+                   <unitdate>1936 Nov 19</unitdate>
+                  </unittitle>
+                  <physdesc>TLS, with envelope                  <extent>1 leaf ( 2 pages)</extent>.                 </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">168</container>
+                  <unittitle>Woolf to Mr. Wilson,
+
+                   <unitdate>1931 Dec 8</unitdate>
+                  </unittitle>
+                  <physdesc>TLS,
+                  <extent>1 leaf (1 page)</extent>.
+                </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">169</container>
+                  <unittitle>Woolf to Unidentified,
+
+                   <unitdate>1928 Oct 17</unitdate>
+                  </unittitle>
+                  <physdesc>TLS,
+                  <extent>1 leaf (1 page).</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III. Manuscripts by Virginia Woolf</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">170</container>
+                  <unittitle>"As to Criticism": holograph, <unitdate>[1924?] Feb 4</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>6 leaves (6 pages).</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="list-3_171">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">171</container>
+                  <unittitle>
+                     <title render="italic">The Common Reader</title>. Donald C. Brace to Crosby Gaige, <unitdate>1925 Jul 14</unitdate>
+                  </unittitle>
+                  <physdesc>ALS, <extent>1 leaf (1 page).</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">172</container>
+                  <unittitle>
+                     <title render="italic">The Common Reader</title>.</unittitle>
+                  <physdesc>Orange quarter leather case for page proofs.</physdesc>
+               </did>
+            </c02>
+            <c02 id="list-3_173_4">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">173-74</container>
+                  <unittitle>
+                     <title render="italic">The Common Reader</title>: page proofs, corrected, <unitdate>1925</unitdate>.</unittitle>
+                  <physdesc><extent>157 leaves (314 pages).</extent>
+                  </physdesc> 
+               </did>
+		<note><p>Stamped: FIRST PROOF, R. &amp; R. Clark, LTD., EDIINBURGH, 13-19 MAR. 1925. Corrected by Virginia Woolf for the American edition (published 14 May 1925, by Harcourt, Brace and Company, Inc.) Includes tear sheets of "Miss Ormerod" from <title render="italic">The Dial,</title> December 1924 77:6, 466-74. Printer's annotations throughout. </p>
+	</note>
+           </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">175</container>
+                  <unittitle>Italian: autograph manuscript notebook, <unitdate>1916 Jun 7</unitdate>.</unittitle>
+		<physdesc><extent>70 leaves (87 pages).</extent>
+                  </physdesc>
+               </did>
+                <note><p>Begins with lesson XXXI. Includes notes, translations, and exercises in Virginia Woolf's hand from an Italian grammar. Purchased.</p>
+                  	</note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title render="italic">Letters: Virginia Woolf &amp;Lytton Strachey</title>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>See: <ref target="list-box1">box 1, folders 1-144</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">176</container>
+                  <unittitle>
+                     <title render="italic">Orlando</title>.</unittitle>
+                  <physdesc>Orange quarter leather case for page proofs.</physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">177</container>
+                  <unittitle>
+                     <title render="italic">Orlando</title>: page proofs, corrected, <unitdate>1928</unitdate>.</unittitle>
+        	<physdesc><extent>155 leaves (310 pages)</extent>.</physdesc>
+               </did>
+          	<note><p>Inscribed by author: Corrected page proofs for Mr Gaige. Proofs stamped: FIRST PROOF, R. &amp;R. CLARK, LTD., EDINBURGH, 9-14 JUN. 1928; THIRD PROOF, R. &amp;R. CLARK, LTD., EDINBURGH, 18 JUL. 1928. Printer's annotation on page 257 of the third proof: July 22, 1928. Includes a later proof of pages 257-272. Corrected by Virginia Woolf for the American edition (published 2 Oct 1928 by Crosby Gaige in a limited edition; 18 Oct 1928 by Harcourt, Brace, and Company in a trade edition). Printers annotations throughout. </p>
+          	</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">178</container>
+                  <unittitle>"The Patron and the Crocus": holograph, <unitdate>1924 Feb 26-Mar 15</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>14 leaves (14 pages).</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>
+                     <ref target="list-3_173_4">See also: <title render="italic">The Common Reader</title>, Box 3, folder 174.</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">179</container>
+                  <unittitle>Reading notes on <title render="italic">Sons and Lovers</title> by D. H. Lawrence: holograph, <unitdate>[1931]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>3 leaves (3 pages).</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">180</container>
+                  <unittitle>Reading notes on novels by Anthony Trollope, Thomas Peacock, Honore de Balzac, Leo Tolstoy, and Samuel Richardson: holograph, <unitdate>1926</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>22 leaves (22 pages)</extent>. </physdesc>
+               </did>
+		<note><p>With Hogarth Press envelope. Includes <title render="italic">Anna Karenina</title> by Tolstoy, <title render="italic">Clarissa Harlowe</title> by Richardson, <title render="italic">Crotchet Castle </title>by Peacock, <title render="italic">Eugenie Gradet</title> by Balzac, and <title render="italic">The Warden</title> by Trollope.</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">181</container>
+                  <unittitle>"Reviewing," typescript, corrected, <unitdate>[1939]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>19 leaves (19 pages)</extent>. </physdesc>
+               </did>
+                  	<note><p>Gift of Ann Safford Mandel, with "The Searchlight."</p>
+                  	</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">182</container>
+                  <unittitle>
+                     <title render="italic">Roger Fry</title>: holograph notes, <unitdate>[1938]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>33 leaves (33 pages)</extent>. With Hogarth Press envelope.</physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">183</container>
+                  <unittitle>
+                     <title render="italic">The Roger Fry Memorial Exhibition</title>: <unitdate>[1935]</unitdate>
+                  </unittitle>
+                  <physdesc>typescript (carbon), corrected, <extent>6 leaves (6 pages)</extent>. </physdesc>
+               </did>
+		<note><p>Address given by Virginia Woolf.</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">184</container>
+                  <unittitle>"The Searchlight": <unitdate>[1939]</unitdate>
+                  </unittitle>
+                  <physdesc>typescript, corrected, <extent>8 leaves (8 pages)</extent>. </physdesc>
+               </did>
+               <note>
+                  <p>Gift of Ann Safford Mandel.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">185</container>
+                  <unittitle>"The Searchlight," <unitdate>[1941]</unitdate>
+                  </unittitle>
+                  <physdesc>holograph, <extent>6 leaves (6 pages)</extent>.</physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">186</container>
+                  <unittitle>
+                     <title render="italic">To the Lighthouse</title>.</unittitle>
+                  <physdesc>Orange quarter leather case for page proofs.</physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">187-89</container>
+                  <unittitle>
+                     <title render="italic">To the Lighthouse</title>: <unitdate>1927</unitdate>.</unittitle>
+                  <physdesc>page proofs, corrected,  <extent>186 leaves (370 pages)</extent>.</physdesc>
+               </did>
+		<note><p>Stamped: FIRST PROOF, R. &amp;R. CLARK, LTD., EDINBURGH, 1927 JAN 13-FEB 12. Includes two sets of corrected proofs for pages 273-322. Corrected by Virginia Woolf for the American edition (published 5 May 1927 by Harcourt, Brace, and Company). Printer's annotations throughout.</p>
+		</note>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV. Hogarth Press Ephemera</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate>1917</unitdate>. Prospectus for <title render="italic">Two Stories</title> (No. 1)</unittitle>
+               </did>
+               <note>
+                  <p>See: <ref target="list-1_66">box 1, folder 66</ref>.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">190</container>
+                  <unittitle>
+                     <unitdate>1921</unitdate>.  Advertisement for <title render="italic">The Note-Books of Anton Tchekhov together with Reminiscences of Tchehkov</title> by Maxim Gorky. (No. 14)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">191</container>
+                  <unittitle>
+                     <unitdate>1921</unitdate>.  Advertisement for<title render="italic"> The Note-Books of Anton Tchekhov</title> (No. 14) and previous publications</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">192</container>
+                  <unittitle>
+                     <unitdate>1921</unitdate>.  Advertisement for <title render="italic">Stories of the East</title> by Leonard Woolf (No. 16) </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">193</container>
+                  <unittitle>
+                     <unitdate>1921</unitdate>. Advertisement for <title render="italic">Monday or Tuesday</title> by Virginia Woolf (No. 17)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate>1924 Nov 11</unitdate> Hogarth Press invoice.</unittitle>
+               </did>
+               <note>
+                  <p>See: <ref target="list-2_118">box 2, folder 118</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">194</container>
+                  <unittitle>
+                     <unitdate>1927</unitdate>. [Lopokova, Lydia] <title render="italic">Interpretations</title>. (No. 128.1)</unittitle>
+               </did>
+               <note>
+                  <p>Gift of Elizabeth Power Richardson.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">195</container>
+                  <unittitle>
+                     <unitdate>1929</unitdate>. Hogarth Press. <title render="italic">Virginia Woolf New Uniform Edition</title>.</unittitle>
+                  <physdesc><extent>3 copies</extent>.</physdesc>
+               </did>
+               <note>
+                  <p>Catalogue of <title render="italic">The Voyage Out</title>, <title render="italic">Jacob's Room</title>, <title render="italic">Mrs. Dalloway</title>, and <title render="italic">The Common Reader</title>. Gift of Elizabeth Power Richardson. </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">196</container>
+                  <unittitle>
+                     <unitdate>1930</unitdate>. Hogarth Press.<title render="italic"> Two New Novels</title>.</unittitle>
+               </did>
+               <note>
+                  <p>Catalogue of <title render="italic">Dawn on Mont Blanc</title> by Wilfred Benson (No. 216) and <title render="italic">Occupied Territory</title> by Alice Ritchie (No. 233). Gift of Elizabeth Power Richardson.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">197</container>
+                  <unittitle>
+                     <unitdate>1932</unitdate>. Hogarth Press.<title render="italic"> Autumn List</title>.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">198</container>
+                  <unittitle>
+                     <unitdate>1932</unitdate>. Hogarth Press. <title render="italic">Complete Catalogue of Works in Print</title>. </unittitle>
+               </did>
+               <note>
+                  <p>Gift of Elizabeth Power Richardson.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">199</container>
+                  <unittitle>
+                     <unitdate>1932</unitdate>. Hogarth Press. <title render="italic">The Works of Virginia Woolf</title>.</unittitle>
+                  <physdesc>
+                     <extent>3 copies.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">200</container>
+                  <unittitle>
+                     <unitdate>1939</unitdate>. Advertisement for Hogarth Sixpenny Pamphlets (Nos. 445, 459, 443, 442).</unittitle>
+               </did>
+               <note>
+                  <p>Gift of Elizabeth Power Richardson.</p>
+               </note>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser5">
+            <did>
+               <unittitle>Series V. Manuscripts by Others,
+                <unitdate>1904-1926</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Aldington, Richard to Virginia Woolf, <unitdate>1926 Jan 23</unitdate>
+                  </unittitle>
+                  <physdesc>TLS</physdesc>
+               </did>
+               <note>
+                  <p>See: <ref target="list-2_123">box 2, folder 123</ref>.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">201</container>
+                  <unittitle>Bennett, Arnold, "Books &amp; Persons": holograph, <unitdate>[1926 Dec?]</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>3 leaves (3 pages)</extent>. </physdesc>
+               </did>
+		<note><p>From Hugh Walpole's library. Essay about three books by Virginia Woolf: <title render="italic">The Common Reader</title>, <title render="italic">Mrs. Dalloway</title>, and <title render="italic">Jacob's Room</title>.</p>
+		</note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brace, Donald C. to Crosby Gaige, <unitdate>1925 Jul 14</unitdate>
+                  </unittitle>
+                  <physdesc>ALS</physdesc>
+               </did>
+               <note>
+                  <p>See: <ref target="list-3_171">box 3, folder 171</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">202</container>
+                  <unittitle>Ritchie, Anne Thackeray to Mr. Darwin, <unitdate>[1904]</unitdate>
+                  </unittitle>
+                  <physdesc>ALS, <extent>4 leaves (4 pages)</extent>. </physdesc>
+               </did>
+		<note><p>Bound with TLS, Laurence Gomme to Frances Hooper, 1952 Sep 2, and chronology of Anne Thackeray Ritchie. Binding stamped: Anne Ritchie's original letter about Leslie Stephen.</p>
+			</note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Strachey, James. Holograph notes and preface to <title render="italic">Letters: Virginia Woolf &amp;Lytton Strachey</title>.</unittitle>
+               </did>
+               <note>
+                  <p>See: <ref target="list-box1">box 1, folders 1-2</ref>.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Strachey, Lytton, to James Strachey, <unitdate>1909 Mar 9</unitdate>
+                  </unittitle>
+                  <physdesc>Typescript extract.</physdesc>
+               </did>
+               <note>
+                  <p>See: <ref target="list-1_32">box 1, folder 32</ref>.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Woolf, Leonard to Lytton Strachey, <unitdate>1912 Jun 6</unitdate>
+                  </unittitle>
+                  <physdesc>ALS.</physdesc>
+               </did>
+               <note>
+                  <p>See: <ref target="list-1_45">box 1, folder 45</ref>.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Woolf, Leonard to Lytton Strachey, <unitdate>1918 May 24</unitdate>
+                  </unittitle>
+                  <physdesc>TLS.</physdesc>
+               </did>
+               <note>
+                  <p>See: <ref target="list-1_77">box 1, folder 77</ref>
+                  </p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Woolf, Leonard to Lytton Strachey, <unitdate>[1918 Jun 11]</unitdate>
+                  </unittitle>
+                  <physdesc>Telegram.</physdesc>
+               </did>
+               <note>
+                  <p>See: <ref target="list-1_78">box 1, folder 78</ref>.</p>
+               </note>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser6">
+            <did>
+               <unittitle>Series VI. Photographs,
+                <unitdate>1902-1927</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">203</container>
+                  <unittitle>George Beresford, <title render="italic">Virginia Stephen</title>, <unitdate>1902</unitdate> (modern print).</unittitle>
+                  <note>
+                     <p>Bloomsbury Iconography A33. </p>
+                  </note>
+               </did>
+               <note>
+                  <p>Gift of Blanche Cooney.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">204</container>
+                  <unittitle>
+                     <title render="italic">Virginia Woolf at Garsington</title>, <unitdate>1923?</unitdate>
+                  </unittitle>
+                  <physdesc>Framed.</physdesc>
+               </did>
+               <note>
+                  <p>Bloomsbury Iconography B19.</p>
+               </note>
+               <note>
+                  <p>Purchased 1988.</p>
+               </note>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <container type="folder">205</container>
+                  <unittitle>
+                     <title render="italic">Virginia Woolf</title>, <unitdate>circa 1927.</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Bloomsbury Iconography B52.</p>
+                  </note>
+               </did>
+               <note>
+                  <p>Gift of Esther Dunn, 1977.</p>
+               </note>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

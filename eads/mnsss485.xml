@@ -1,0 +1,140 @@
+<ead>
+  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<!-- Enter EAD filename before exporting -->
+  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss485.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss485</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Christine M. Shelton Papers, 1977-2008</titleproper>
+        <subtitle>Finding Aid</subtitle>
+       <author encodinganalog="245$c">Finding aid prepared by Accessioned by Burd Schlessinger.</author>
+     </titlestmt>
+     <publicationstmt>
+        <publisher encodinganalog="260$b">Sophia Smith Collection</publisher>
+        <address>
+          <addressline>Smith College</addressline>
+          <addressline>Northampton, MA</addressline>
+        </address>
+         <date encodinganalog="260$c" normal="2009">2009</date>
+         <p>Sophia Smith Collection. All rights reserved.</p>
+       </publicationstmt>
+     </filedesc>
+     <profiledesc>
+<creation encodinganalog="500">Finding aid exported into EAD from InMagic DB/Textworks 7.01. Encoded by Margaret Jessup.
+         <date normal="yyyy-mm-dd">September 29, 2009</date>
+    </creation>
+
+    <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did id="main">
+       <head>Collection Overview</head>
+        <origination label="Creator:">
+           <persname encodinganalog="100" source="lcnaf">Shelton, Christine</persname>
+       </origination>
+       <unittitle label="Title:" encodinganalog="245$a">Christine M. Shelton Papers</unittitle><unitdate type="inclusive" label="Dates:">1977-2008</unitdate>
+      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 627</unitid>
+<physdesc label="Quantity:">
+        <extent encodinganalog="300$a">17 boxes</extent>
+        <extent encodinganalog="300$a">(19.75 linear ft.)</extent>
+</physdesc>
+<!-- Encode additional languages with lang clip -->
+<langmaterial label="Language of Material:" encodinganalog="546">
+     <language langcode="eng">English</language>
+</langmaterial>
+        <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+
+           <!-- MRJ Edit as needed-->
+           <abstract label="Abstract:" encodinganalog="520$a">
+            Professor, Exercise and Sport Studies. Materials documenting Shelton's work as Smith College professor of Exercise and Sports Studies, as consultant for various girl's and women's sports organizations, and as a presenter at national and international conferences and workshops concerning advocacy for women's sports. Documentation of Shelton's work with the International Working Group on Women and Sport (IWG), the International Association of Physical Education and Sport for Girls and Women (IAPESGW), and the 1996 Olympic Games in Atlanta is also included.
+         </abstract>
+        <!-- OR   [NOTE: There is no contents list for this finding aid.  Contact the Sophia Smith Collection for more information about this collection.] -->
+
+</did>
+ 
+ <!--  Add paragraph marks to text -->
+<bioghist id="bioghist">
+       <head>Biographical Note</head>
+     <p>Christine M.  Shelton earned her M.S. from James Madison University.  She is professor of exercise and sport studies at Smith College, and teaches primarily in the graduate program. At the graduate level she teaches courses in philosophy and ethics, current issues, and sport pedagogy, and coordinates the coaching practicum. Within the minor Shelton co-teaches the undergraduate course on Sport and the American Dream, and is a performance instructor of tennis. She also serves as the co-chair of the Project on Women and Social Change at Smith College.  Beyond Smith College, Shelton is involved in national and international organizations that promote increased opportunities for girls and women in sports, including the International Working Group on Women and Sport and the International Association of Physical Education and Sport for Girls and Women.</p>
+</bioghist>
+ <!--  Add paragraph marks to text -->
+<scopecontent id="scope">
+      <head>Scope and Contents of the Collection</head>
+     <p>Materials documenting Shelton's work as Smith College professor of Exercise and Sports Studies, as consultant for various girl's and women's sports organizations, and as a presenter at national and international conferences and workshops concerning advocacy for women's sports. Documentation of Shelton's work with the International Working Group on Women and Sport (IWG), the International Association of Physical Education and Sport for Girls and Women (IAPESGW), and the 1996 Olympic Games in Atlanta is also included.</p>
+       <p>[NOTE: The contents list for this collection is not online.  Contact the Sophia Smith Collection if you would like one sent to you.]</p>
+        <!-- OR   [NOTE: There is no contents list for this finding aid.  Contact the Sophia Smith Collection for more information about this collection.] -->
+</scopecontent>
+
+ <accessrestrict encodinganalog="506" id="admin-access">
+        <p>The papers are open to research according to the regulations of the Sophia Smith Collection with the following caveats:
+   	<list type="simple">
+                <item>The collection is stored offsite; researchers must give 48 hours advance notice.</item>
+              	<item>This collection has not been fully processed and therefore may be difficult to use.</item>
+    </list></p>
+</accessrestrict>
+
+ <!-- MRJ: Edit CR info as necessary -->
+
+<userestrict encodinganalog="540" id="admin-use">
+             <p>The Sophia Smith Collection owns copyright to unpublished works in this collection. Permission must be obtained to publish reproductions or quotations beyond "fair use."Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. </p>
+</userestrict>
+
+<prefercite id="admin-cite">
+        <head>Preferred Citation</head>
+          <p>Please use the following format when citing materials from this collection:</p>
+          <p>Christine M. Shelton Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+</prefercite>
+
+
+<accruals encodinganalog="584" id="admin-accruals">
+               <p>Periodic additions to collection are expected and may not be reflected in this record.</p>
+</accruals>
+
+<!-- MRJ:  Edit donor info as necessary -->
+<acqinfo id="admin-acqinfo">
+          <p>Christine Shelton began donating her papers to the Sophia Smith Collection in 2008.  Periodic additions are expected. </p>
+</acqinfo>
+
+<!-- Edit Processing date if necessary- year only -->
+<processinfo id="admin-process">
+          <p>Accessioned by Burd Schlessinger, October 2008 </p> 
+</processinfo>
+
+<!-- Encode Subject terms -->
+<controlaccess id="subj">
+
+	<subject encodinganalog="650" source="lcsh">Physical education and training -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Sports for women -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Women -- Health and hygiene</subject>
+	<subject encodinganalog="650" source="lcsh">Women in sports</subject>
+	<subject encodinganalog="650" source="lcsh">Physical education for women -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Physical education teachers -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Women -- Health and hygiene -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Sports for women -- History -- Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Women athletes -- History -- Sources</subject>
+	<corpname encodinganalog="610" source="lcsh">International Association for Physical Education and Sport for Girls and Women</corpname> 
+	<corpname encodinganalog="610" source="lcsh">International Working Group on Women and Sport (IWG)</corpname> 
+	<persname encodinganalog="600" source="lcnaf">Shelton, Christine</persname> 
+	<corpname encodinganalog="610" source="lcsh">Smith College -- Faculty -- Biography -- Sources</corpname> 
+	<corpname encodinganalog="610" source="lcsh">Smith College -- Sports -- History</corpname> 
+
+</controlaccess>
+<relatedmaterial id="add-related">
+          <p>Associated material in the
+          <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss439_main.html">International Association for Physical Education and Sport for Girls and Women Records</extref></p>
+      </relatedmaterial>
+
+</archdesc>
+</ead>
+
+<!-- END OF FILE -->

@@ -1,0 +1,1077 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca72.xml//EN" countrycode="us" mainagencycode="manosca">manosca72</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Department of Astronomy Records, 1887-[ongoing]
+</titleproper>
+<author>Finding aid prepared by Gayla Spaulding.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+<date>2003-06-04</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca72 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Department of Astronomy Records, 1887-[ongoing]
+</titleproper>
+<num>RG 52
+</num>
+<author>Gayla Spaulding
+</author>
+<date>Revised 2002
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<corpname encodinganalog="110" source="lcnaf">Smith College. Dept. of Astronomy. </corpname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Department of Astronomy records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1885-[ongoing]</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 52</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">15 boxes</extent>
+<extent encodinganalog="300$a">(7.5 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Records include a history of the department, booklets, course and faculty information, diagrams, account books, notebooks and photographs of astronomical observations, information on observatory instruments, correspondence, and notes and photographs of astronomical societies.  Student work is also included, as well as information on the Five College Program.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p> SERIES I. OFFICE FILES consists of background information on the program of studies, account books, correspondence and course information.  SERIES II. STUDENT WORK consists of rules, models and diagrams of observations, photographs and charts of eclipses and student notebooks.  SERIES III. FIVE COLLEGE PROGRAM consists of faculty lists, Four-College Astronomy Department information, information on laboratory work, examinations, observatory visitor books,  photographs and course notebooks.   SERIES IV. OBSERVATORY RECORDS consists mostly of  notebooks on charts and plates, mean and apparent star places, radial velocity, variable stars, the Meridian Circle, sunspots and transit instrument observations, but also contains correspondence and information on observatory instruments.   SERIES V. SOCIETIES consists of information , photographs, records, notes and predictions of the American Association of Variable Star Observers (AAVSO), the Astronomy Club, Smith College Astronomical Society, Students for the Exploration and Development of Space and Telescopium. </p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into five series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Office Files</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Student Work</ref>
+</item>
+<item>
+<ref target="list-ser3">III. Five College Program</ref>
+</item>
+<item>
+<ref target="list-ser4">IV. Observatory Records</ref>
+</item>
+<item>
+<ref target="list-ser5">V. Societies</ref>
+</item>
+</list>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>Records are open to research according to the regulations of the Smith College Archives.</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>The Archives has no information on the status of literary rights in the collection and researchers are responsible for determining any question of copyright. Permission to cite the papers for publication of quotations beyond "fair use" must be obtained from the Smith College Archives.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Smith College Dept. of Astronomy Records, Box #, Smith College Archives.</p>
+</prefercite>
+<accruals encodinganalog="584" id="admin-accruals">
+<head>Additions to the Collection</head>
+<p>Additions to the records are expected.
+</p>
+</accruals>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<processinfo id="admin-process">
+<p>Processed by Gayla Spaulding</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<corpname encodinganalog="610" source="lcsh">Smith College. Dept. of Astronomy.</corpname>
+<corpname encodinganalog="610" source="lcsh">Smith College--History--Sources.</corpname>
+<subject encodinganalog="650" source="lcsh">Astronomy--Study and teaching (Higher)--Massachusetts</subject>
+<corpname encodinganalog="710" source="lcnaf">Smith College. Astronomy Club.</corpname>
+<corpname encodinganalog="710" source="lcnaf">Smith College Astronomical Society.</corpname>
+<subject encodinganalog="650" source="lcsh">Astronomy--Study and teaching (Higher)--Massachusetts--Northampton.</subject>
+</controlaccess>
+<dsc type="in-depth" id="list-contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>SERIES I.  OFFICE FILES</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>Sciences: General
+<unitdate>1951-1996, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>History of Science Studies Program of Studies
+<unitdate>1983-84</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Astronomy</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>General
+<unitdate>1939-1993, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Account book
+<unitdate>1898-1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>Budget sheets
+<unitdate>1911-1933</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>Code
+<unitdate>1939, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Conferences
+<unitdate>1929-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">8-9</container>
+<unittitle>Correspondence
+<unitdate>1885-1947, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Courses
+<unitdate>1934-1986</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>11-37b</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>101-237</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">1</container>
+<container type="folder">12</container>
+<unittitle>100-110</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<unittitle>Astronomy Department</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">1</container>
+<unittitle>Reports
+<unitdate>1888-1904</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">2</container>
+<unittitle>Annual Reports
+<unitdate>1906-09</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">3</container>
+<unittitle>Reports and minutes
+<unitdate>1919-1920</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">2</container>
+<container type="folder">4</container>
+<unittitle>Secretary's book
+<unitdate>1919-1920</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>SERIES II. STUDENT WORK</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">1</container>
+<unittitle>Rules, models and diagrams
+<unitdate>1902-05</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">2</container>
+<unittitle>Comets: Telegrams re: observations
+<unitdate>1939-1954</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">3</container>
+<unittitle>Eclipses: Photographs and charts
+<unitdate>6/13/17, 5/14/38, 11/7/38</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<unittitle>Five observation notebooks
+<unitdate>1905-1915</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<unittitle>Eleven comet observation computer books
+<unitdate>1902-1930</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>SERIES III. FIVE COLLEGE PROGRAM</unittitle>
+</did>
+<c02>
+<did>
+<unittitle>Course notebooks</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">5</container>
+<unittitle>Astronomy 11
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<unittitle>Astronomy 10b (teaching course)
+<unitdate>circa 1913</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<unittitle>Astronomy 22
+<unitdate>1924-25</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<unittitle>Astronomy 8a
+<unitdate>1906-08</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<unittitle>Astronomy (general)
+<unitdate>1915</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">5</container>
+<unittitle>Astronomy, Special Honors
+<unitdate>1928-1930</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">1</container>
+<unittitle>Smith College Observatory Notices
+<unitdate>1955, 1973</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">2</container>
+<unittitle>Five-college observatory radio telescope
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">3</container>
+<unittitle>Faculty list
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Four-College</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">4-5</container>
+<unittitle>Astronomy Department
+<unitdate>1953-1965</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">6</container>
+<unittitle>Graduate program
+<unitdate>1962-64</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">7</container>
+<unittitle>Faculty
+<unitdate>1959</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">8</container>
+<unittitle>Observatory in Whately
+<unitdate>1962-1974</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">9</container>
+<unittitle>General
+<unitdate>1935-1966</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">10</container>
+<unittitle>Gifts and grants
+<unitdate>1958</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">11</container>
+<unittitle>Laboratory work
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">12</container>
+<unittitle>Library
+<unitdate>1931-1948, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">13</container>
+<unittitle>Examinations
+<unitdate>1912-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">14</container>
+<unittitle>National Science Foundation
+<unitdate>1961-67</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser4">
+<did>
+<unittitle>SERIES IV. OBSERVATORY RECORDS</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">7</container>
+<unittitle>Observatory visitor book
+<unitdate>1955-58</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">1</container>
+<unittitle>Open house
+<unitdate>1933-1956</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">2</container>
+<unittitle>Order book
+<unitdate>1896-1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">3</container>
+<unittitle>Smith College Observatory Notices
+<unitdate>1977-1981</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">4</container>
+<unittitle>Parties
+<unitdate>1977</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Photographs</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">5-6</container>
+<unittitle>Classes
+<unitdate>1890s-1900s, 1930s</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">7</container>
+<unittitle>Solar eclipse
+<unitdate>April 7, 1940</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">8</container>
+<unittitle>Telescopes
+<unitdate>1990-92</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<unittitle>Meridian Circle observations, seven notebooks
+<unitdate>1894-1904</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<unittitle>Meridian Circle reductions, four notebooks
+<unitdate>1888-1957</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">9</container>
+<container type="folder">1</container>
+<unittitle>Correspondence
+<unitdate>1885-86</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">9</container>
+<container type="folder">2</container>
+<unittitle>Equipment
+<unitdate>1888-1957</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Instruments</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">3</container>
+<unittitle>Camera
+<unitdate>1936</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">4</container>
+<unittitle>Chronograph
+<unitdate>1887-1904</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">5</container>
+<unittitle>Chronometer
+<unitdate>1934-1947</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">6</container>
+<unittitle>Clock
+<unitdate>1887-89, 1960</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">7</container>
+<unittitle>Field glasses
+<unitdate>1893-1908</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">8</container>
+<unittitle>Gaertner measuring machine
+<unitdate>1943</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">9</container>
+<unittitle>Levels
+<unitdate>1888-1903, 1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">10</container>
+<unittitle>Micrometer
+<unitdate>1888-1907</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">11</container>
+<unittitle>Photographic reflectors
+<unitdate>1847</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">12</container>
+<unittitle>Telescopes
+<unitdate>1885-1920, 1957-59</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">13</container>
+<unittitle>Gaertner, 6"
+<unitdate>1910-11</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">14</container>
+<unittitle>Portable
+<unitdate>1890-1909, 1937</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">15</container>
+<unittitle>Information
+<unitdate>1885, 1979</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">16</container>
+<unittitle>Observatory, position
+<unitdate>1900-1914</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">10</container>
+<container type="folder">1</container>
+<unittitle>Schedule book
+<unitdate>1901, 1906-07</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">10</container>
+<container type="folder">2</container>
+<unittitle>Science building
+<unitdate>1945, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">10</container>
+<container type="folder">3</container>
+<unittitle>Notebooks: star observations
+<unitdate>1893-1906, 1911</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">10</container>
+<container type="folder">4</container>
+<unittitle>Notebooks</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">10</container>
+<unittitle>charts and plates
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">10</container>
+<unittitle>mean and Apparent star places
+<unitdate>1905-1916</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Marjorie Williams</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">10</container>
+<container type="folder">5</container>
+<unittitle>Radial velocities
+<unitdate>1929, 1936-39</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Variable stars</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">6</container>
+<unittitle>Correspondence
+<unitdate>1934-1946</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">7</container>
+<unittitle>Photographs
+<unitdate>1900, 1904, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">8</container>
+<unittitle>Field 8
+<unitdate>1930-38, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">9</container>
+<unittitle>Field 8 plots
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">11</container>
+<unittitle>Notebooks: Meridian Circle observations books I-III
+<unitdate>1887-1894</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">11</container>
+<container type="folder">1</container>
+<unittitle>Notes: Meridian stones, lines, marks and gnomons
+<unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">12</container>
+<unittitle>Notebooks</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">12</container>
+<unittitle>Sunspot observations books I-II
+<unitdate>1908-1945</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<unittitle>Sunspot observations books III-IV
+<unitdate>1945-1953</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<unittitle>AAVSU sunspot observations
+<unitdate>1945-1951</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<unittitle>Equatorial telescope observations books I-IV
+<unitdate>1891-1931</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Sky photographic observations</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">1-2</container>
+<unittitle>3" telescope
+<unitdate>1933-1978</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">13</container>
+<container type="folder">3-4</container>
+<unittitle>11" telescope
+<unitdate>1930-1977</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">14</container>
+<unittitle>Notebooks: Transit instrument observations, books I-VIII
+<unitdate>1904-08</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser5">
+<did>
+<unittitle>SERIES V. SOCIETIES</unittitle>
+</did>
+<c02>
+<did>
+<unittitle>American Association of Variable Star Observers</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">1</container>
+<unittitle>Photos, records, notes and predictions
+<unitdate>1929-1952</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">2</container>
+<unittitle>Memos, correspondence and notes
+<unitdate>1976</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">3-4</container>
+<unittitle>Photographs
+<unitdate>1920-1950, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">15</container>
+<container type="folder">5</container>
+<unittitle>Astronomy Club: Charter
+<unitdate>1955</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Smith College Astronomical Society</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">6</container>
+<unittitle>Annual letter
+<unitdate>1900-1923</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">7</container>
+<unittitle>Constitution</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">8</container>
+<unittitle>Records
+<unitdate>1891-1921</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">15</container>
+<container type="folder">9</container>
+<unittitle>Students for the Exploration and Development of Space
+<unitdate>1993</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Telescopium</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">10</container>
+<unittitle>Meeting notes, questionnaire
+<unitdate>1913-1938</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">11-13</container>
+<unittitle>Minutes
+<unitdate>1899-1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Telescopium and Astronomical Society (visitor and graduate name book)
+<unitdate>1907-1954</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

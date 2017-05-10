@@ -1,0 +1,1238 @@
+<ead>
+   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr6.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr6</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Carolyn G. Heilbrun Papers, 1846-1979
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Rachel Dwyer.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Mortimer Rare Book Room</publisher>
+            <address>
+               <addressline>William Allan Neilson Library</addressline>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c"> 2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Eric Steven Cartier.
+        <date>2003-09-15</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>manoscmr6 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Smith College<lb/>William Allan Neilson Library<lb/>Mortimer Rare Book Room
+        
+         </publisher>
+         <titleproper encodinganalog="245$a">Carolyn G. Heilbrun Papers, 1846-1979
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>Manuscript Number<lb/>
+      11
+      </num>
+         <author encodinganalog="245$c">Compiled by<lb/>
+      Rachel Dwyer
+      </author>
+         <date>July 2003
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Heilbrun, Carolyn G., 1926-</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Carolyn G. Heilbrun Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1846-1979</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 11</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">3 boxes</extent>
+            <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Mortimer Rare Book Room</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+
+         <abstract label="Abstract:" encodinganalog="520$a">Professor and decorated writer who wrote <title>The Garnett Family</title> (1961) and <title>Christopher Isherwood</title> (1971). Includes correspondence, newspaper articles, photographs of the Garnett family, notes, and interviews relating to the two aforementioned works.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p>CAROLYN G. HEILBRUN, 1926-2003</p>
+         <p>In 1993, Carolyn Heilbrun became Avalon Foundation Professor in the Humanities Emerita at Columbia University, after thirty-three years of teaching there.  She had fellowships from the Guggenheim and Rockefeller Foundations, and from the NEH.  In 1984, she was President of the Modern Language Association.  She was a visiting professor at Princeton, Swarthmore, Yale, Union Theological Seminary, the University of California, and at Columbia and Yale Law schools and has received many honorary degrees from colleges and universities.  She received the Lifetime Achievement Award from the Modern Language Association in 2000, and was elected to the American Academy of Arts and Sciences in 2000. Heilbrun published:  <title>The Garnett Family</title>, <title>Christopher Isherwood</title>, <title>Toward a Recognition of Androgyny</title>, <title>Reinventing Womanhood</title>, <title>Writing a Woman's Life</title> , <title>Hamlet's Mother and Other Women</title>, <title>The Education of A Woman:  A Life of Gloria Steinem</title>, <title>The Last Gift of Time</title>, and <title>the University of Toronto Alexander Lectures</title>, <title>Women's Lives: The View from the Threshold</title>, and <title>When All Our Models Were Men: My Teachers Barzun, Fadiman, Trilling</title>.  She published numerous articles and reviews. Under the name Amanda Cross, she published fourteen mystery novels. Heilbrun died on October 9, 2003.</p>
+         <p>RICHARD GARNETT, 1835-1906</p>
+         <p>Richard Garnett was an English librarian and writer. He served on the staff of the British Museum (1851-1899) as keeper of printed books (1890-1899); and director (from 1880).  In 1905 Garnett published a general catalogue of the British Museum.  He also wrote <title>Relics of Shelley</title> (1862), <title>The Twilight of the Gods</title> (1888, fables), <title>History of Italian Literature</title> (1897), and several biographies.  Richard Garnett was the father of Edward Garnett.</p>
+         <p>CONSTANCE (BLACK) GARNETT, 1862-1946</p>
+         <p>Constance Garnett was the wife of Edward Garnett and mother of David Garnett.  Her translations of many Russian writers, such as Dostoevsky, achieved great popularity in the first two decades of the twentieth century and had a profound influence on modernist writers.  Garnett studied classics at Newnham College, Cambridge University, and began to learn Russian in the early 1890s.</p>
+         <p>EDWARD GARNETT, 1868-1937</p>
+         <p>Edward Garnett was the father of David Garnett, husband of Constance Garnett, and son of Richard Garnett. As a publisher's reader and critic, he discovered, advised, and tutored many British writers, including Conrad, Galsworthy, Ford Maddox Ford, D.H. Lawrence, and W.H. Hudson.  Garnett also authored plays, including <title>The Breaking Point</title> (1907), <title>The Feud</title> (1907), and <title>The Trial of Jeanne d'Arc</title> (1912).</p>
+         <p>DAVID GARNETT, 1892-1981</p>
+         <p>David Garnett was the only child of Edward and Constance Garnett, and was known almost universally as "Bunny."  Although trained at the Royal College of Science as a botanist, he later turned to a highly successful literary career.  Among his twenty-one works of fiction, <title>Lady into Fox</title> (1922) is notable for having won both the Hawthornden and Tait-Black prizes for 1923.  The unexpected success of this novel led Bunny to withdraw in 1924 from the bookshop he had established in 1920 with Francis Birell to devote more time to his writing.  From 1923 to 1935 he was partner in the <title>Nonesuch Press</title>, and from 1932 to 1935 he was literary editor of the <title>New Statesman and Nation</title>.  He wrote several memoirs.</p>
+         <p>CHRISTOPHER ISHERWOOD, 1904-1986</p>
+         <p>Christopher Isherwood was an American-English novelist, poet and playwright. He authored autobiographical and quasi-autobiographical works including the short-story collection <title>Goodbye to Berlin</title> (1939), the novels: <title>The World in the Evening</title> (1954), <title>Down There On A Visit</title> (1962), <title>A Meeting by the River</title> (1967), and <title>Christopher and His Kind</title> (1976). His work included screenwriting for various film studios (from 1939). As a convert, Isherwood wrote, edited, and translated works on Vedantism.</p>
+         <p>Sources:</p>
+         <p>Hussey, Mark. <title>Virginia Woolf A to Z</title>. New York, 1995.</p>
+         <p>
+            <title>Merriam-Webster's Biographical Dictionary</title>. Merriam-Webster Incorporated, 1995.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The Carolyn G. Heilbrun Papers consist of 1.25 linear feet of material, dating from 1846 to 1979, relating to her works: <title>The Garnett Family</title> (1961) and <title>Christopher Isherwood</title> (1971).  Types of materials include correspondence, newspaper articles, photographs of the Garnett family, notes, and interviews. This collection was donated to Smith College by Carolyn Heilbrun in November 1989.  The papers are arranged in four series.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into four series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Garnett Family, 1846-1960</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. The Garnett Family by Carolyn G. Heilbrun, 1955-1960</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Christopher Isherwood by Carolyn G. Heilbrun, 1974-1979</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Interview with Alice G. Fredman, 1977</ref>
+            </item>
+         </list>
+      </arrangement>
+      <arrangement id="scope-arr">
+         <head>Arrangement of the Collection</head>
+         <p>The papers are arranged in four series.
+      </p>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <p>The Carolyn G. Heilbrun Papers are the physical property of the Mortimer Rare Book Room, Smith College.  Literary rights, including copyright, belong to the authors of the works or their legal representatives.
+          </p>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Carolyn G. Heilbrun Papers, Mortimer Rare Book Room, Smith College.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>This collection was donated to Smith College by Carolyn Heilbrun in November 1989.
+          </p>
+            </acqinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+        
+         <persname encodinganalog="600" source="lcnaf">Heilbrun, Carolyn G., 1926-</persname>
+         <persname encodinganalog="600" source="lcnaf">Garnett, Richard, 1835-1906.</persname>
+         <persname encodinganalog="600" source="lcnaf">Garnett, Constance Black, 1862-1946.</persname>
+         <persname encodinganalog="600" source="lcnaf">Garnett, Edward, 1868-1937.</persname>
+         <persname encodinganalog="600" source="lcnaf">Garnett, David, 1892-</persname>
+         <persname encodinganalog="600" source="lcnaf">Isherwood, Christopher, 1904-</persname>
+         <persname encodinganalog="600" source="lcnaf">Fredman, Alice Green, 1924-</persname>
+         <famname encodinganalog="600" source="lcnaf">Garnett family.</famname>
+         <persname encodinganalog="700" source="lcnaf">Isherwood, Christopher, 1904-</persname>
+         <persname encodinganalog="700" source="lcnaf">Forster, E. M. (Edward Morgan), 1879-1970.</persname>
+         <persname encodinganalog="700" source="lcnaf">Fredman, Alice Green, 1924-</persname>
+         <persname encodinganalog="700" source="lcnaf">Spender, Stephen, 1909-</persname>
+      </controlaccess>
+            
+<!-- Begin series descriptions -->
+<dsc type="analyticover">
+<c01 level="series">
+            <did>
+               <unittitle>Series I.  Garnett Family,
+                <unitdate>1846-1960</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.5 linear ft. (51 items)</extent>
+               </physdesc>
+            </did>
+            <arrangement>
+               <p>This series is organized into four subseries: Correspondence, Memoirs, Newspaper Articles, and Photographs.</p>
+            </arrangement>
+            <scopecontent>
+               <p>Correspondence (transcriptions)</p>
+               <p>This subseries includes correspondence of the Garnett family. Most extensive is the correspondence of Edward Garnett with authors such as Joseph Conrad (Box 1, folder 6) and D.H. Lawrence (Box 1, folders 9-10).  Also included is the correspondence of Richard Garnett (Box 1, folders 3-4) and members of the Patten and Black families (Box 1, folders 1-2).  All of the letters are transcriptions.  This series does not include original correspondence.</p>
+               <p>Memoirs</p>
+               <p>This subseries contains memoirs by members of the Garnett family.  Olivia Rayne Garnett recounts the early life of her parents, Richard Garnett and Olivia Narney Garnett (Box 1, folder 13).  Constance Garnett writes of the Garnett and Black families (Box 1, folder 11), and David Garnett's "Constance Garnett" contains memories of his mother (Box 1, folder 12).</p>
+               <p>Newspaper Articles</p>
+               <p>This subseries includes newspaper articles about members of the Garnett family.  These consist of book reviews, obituaries, and related articles.  The bulk of the articles are original clippings from the 1950s, along with transcriptions of earlier articles.</p>
+               <p>Photographs</p>
+               <p>This subseries includes black and white prints of members of the Garnett family.  It contains photographs of Richard Garnett, his wife Olivia Narney Garnett, and their children.  Also included are photographs of Constance (Black) Garnett, Edward Garnett, and David Garnett.</p>
+            </scopecontent>
+
+  </c01>
+<c01 level="series">
+            <did>
+               <unittitle>Series II. <title>The Garnett Family</title> by Carolyn Heilbrun,
+                <unitdate>1955-1960</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.25 linear ft. (25 items)</extent>
+               </physdesc>
+            </did>
+            <arrangement>
+               <p>This series is organized into four subseries: Correspondence, Notes, Evaluations and Corrections, and Publication Materials.</p>
+            </arrangement>
+            <scopecontent>
+               <p>Includes material related to <title>The Garnett Family</title>, Heilbrun's dissertation at Columbia University, which was published in 1961.</p>
+               <p>Correspondence</p>
+               <p>This subseries includes the correspondence of Carolyn G. Heilbrun concerning <title>The Garnett Family</title>.  Many of the letters seek permission to quote correspondence with Edward Garnett.  Correspondents include E.M. Forster (Box 2, folder 36), Stephen Spender (Box 2, folder 45), and various publishers.  Particularly extensive is correspondence with B. W. Huebesch of the Viking Press (Box 2, folder 41).</p>
+               <p>Notes</p>
+               <p>This subseries includes Carolyn Heilbrun's notes for <title>The Garnett Family</title>.  Particularly extensive are her notes on Richard, Constance, and Edward Garnett.</p>
+               <p>Evaluations and Corrections</p>
+               <p>This subseries includes corrections and evaluations of <title>The Garnett Family</title> by members of the Columbia University faculty.</p>
+               <p>Publication Materials</p>
+               <p>This series includes a copyright application for <title>The Garnett Family</title>. It also includes a summary of <title>The Garnett Family</title> for the microfilm publication of the thesis.</p>
+            </scopecontent>
+  </c01>
+<c01 level="series">
+            <did>
+               <unittitle>Series III. <title>Christopher Isherwood</title> by Carolyn Heilbrun,
+                <unitdate>1974-1979</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>.5 linear ft. (10 items)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series includes interviews of and about Christopher Isherwood.  All are audio recordings.  There are transcriptions of the interviews conducted by Heilbrun and of Isherwood's Modern Languages Association Address, as well as television and radio interviews.</p>
+            </scopecontent>
+            <relatedmaterial>
+               <p>Excerpts from three of the interviews conducted by Heilbrun were published in <title>Twentieth Century Literature Volume 22</title> (October 1976).</p>
+            </relatedmaterial>
+  </c01>
+<c01 level="series">
+            <did>
+               <unittitle>Series IV. Interview with Alice G. Fredman,
+                <unitdate>1977</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(1 item)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The audiotape in this series records an interview with Alice G. Fredman, writer and professor.  This interview was conducted by Carolyn Heilbrun. It is one of a series of interviews about women who had careers before the Women's Liberation movement, especially the generation born in the 1920s.</p>
+            </scopecontent>
+  </c01>
+</dsc>
+<!-- End series descriptions -->
+
+<!-- Begin container list -->
+<dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>Series I.  Garnett Family,
+                <unitdate>1846-1960</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Correspondence of the Garnetts</unittitle>
+                  <physdesc>
+                     <extent>(transcriptions)</extent>
+                  </physdesc>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>DAVID BLACK</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">1</container>
+                        <unittitle>Patten, Clara (from)
+                         <unitdate>[1846] Aug 17-1846 Aug 27</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">2</container>
+                        <unittitle>Patten, [George] (to)
+                         <unitdate>1846 Aug 18</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>RICHARD GARNETT</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">3</container>
+                        <unittitle>Butler, Samuel (from)
+                         <unitdate>1893 Dec 10</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <unittitle>Hardy, Thomas (from)
+                         <unitdate>1904 Dec 9</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">4</container>
+                        <unittitle>Woodbury, G.E. (from)
+                         <unitdate>1890 Feb 3</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>EDWARD AND CONSTANCE GARNETT</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">5</container>
+                        <unittitle>Conrad, Joseph (to)
+                         <unitdate>1896 Mar 26-1923 Dec 5</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">6</container>
+                        <unittitle>Forster, E. M. (from)
+                         <unitdate>1907 Sep 7 [or Aug 9?]</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">7</container>
+                        <unittitle>Huebesch, B.W. (to)
+                         <unitdate>1902 Jun 10 -1931 Jul 7</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">8-9</container>
+                        <unittitle>Lawrence, D.H. and Frieda (from)
+                         <unitdate>1911 Sep 10-1921 Nov 10, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Memoirs</unittitle>
+               </did>
+               <note>
+                  <p>Arranged alphabetically by author.</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">10</container>
+                     <unittitle>Garnett, Constance. Memoir about the Black and Garnett families:  typescript transcription
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>118 pages.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>Garnett, David. "Constance Garnett": typescript
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>6 pages.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>Garnett, Olivia Rayne. Memoir about the early life of her parents, Richard and Olivia Narney Garnett: typescript
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>6 pages, (2 copies).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Newspaper Articles</unittitle>
+               </did>
+               <note>
+                  <p>Arranged by subject.</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">13</container>
+                     <unittitle>RICHARD GARNETT</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Symons, Arthur. "Richard Garnett." <title>The Speaker</title>
+                           <unitdate>1906 Apr 21.</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>typescript transcription (2 copies)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">14</container>
+                     <unittitle>CONSTANCE GARNETT</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>"Interpreting Tolstoy." <title>Times Literary Supplement</title>
+                           <unitdate>1954 Jul 16</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>pages 449-50.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>"New Translations" review of David Magarshack's translation of Fyodor Dostoevsky's <title>The Devils</title>. <title>Times Literary Supplement</title>
+                           <unitdate>1954 Apr 30</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Review of Jessie Coulson's translation of <title>Crime and Punishment</title>. <title>Times Literary Supplement</title>
+                           <unitdate>1954 Jan 22</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>"Unerring Nose for Humbug of Any Sort." <title>The New York Times Book Review</title>
+                           <unitdate>1955</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">15</container>
+                     <unittitle>EDWARD GARNETT</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Green, Henry. "Edward Garnett" <title>The New Statesman and Nation</title>
+                           <unitdate>1950 Dec 30</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 675.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Miles, Hamish. "Edward Garnett." <title>The New Statesman and Nation</title>
+                           <unitdate>1937 Feb 27</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 327. (2 copies)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Moore, Harry T. "Hand-Up for an Author" Review of <title>Joseph Conrad: Letters to William Blackwood and David S. Meldrum</title>. <title>The New York Times Book Review</title>
+                           <unitdate>1958 Nov 30</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 62.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Murray, J. Middleton. Review of Edward Garnett's <title>Collected Essays</title>. <title>The Nation and Athenaeum</title>
+                           <unitdate>1922 Jul 22</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>pages 568-9.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Pritchett, V. S. "London Letter." <title>The New York Times Rook Review</title>
+                           <unitdate>1958 Jan 21</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 22.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Scott-James. R. A. "Edward Garnett" <title>The Spectator</title>
+                           <unitdate>1937 Feb 26</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 362.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">16</container>
+                     <unittitle>DAVID GARNETT</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>"Books: Two Freedoms." Review of <title>Aspects of Love</title>
+                           <unitdate>1956 Jan 28</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 95.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Davenport, John. "New Novels: Symbols and Sentiments." Review of <title>A Shot in the Dark</title> by David Garnett. <title>The Observer</title>
+                           <unitdate>1958 Nov 2</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 22.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>"Escape to the Sun." Review of <title>A Shot in the Dark</title> by David Garnett. <title>The Times Literary Supplement</title>
+                           <unitdate>1958 Nov 21</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Fearing, Kenneth, "Love Without Tears." Review of <title>Aspects of Love</title>. <title>The New York Times Book Review</title>
+                           <unitdate>1956 Feb 5</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 4.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Hutchens, John K. Book review <title>Aspects of Love</title> by David Garnett. <title>The New York Herald Tribune</title>
+                           <unitdate>1956 Jan 27</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 15.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>"Neo-Pagan." Review of <title>Aspects of Love</title> by David Garnett. <title>Time</title>
+                           <unitdate>1956 Jan 30</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Nicolson, Harold. "Self-portrait in Profile" Review of <title>The Flowers of the Forest</title> by David Garnett. <title>The Observer</title>
+                           <unitdate>1955 Oct 9</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Peterson, Virgilia. "Growing Up in Bloomsbury." Review of <title>The Flowers of the Forest</title> by David Garnett. <title>Saturday Review</title>
+                           <unitdate>1956 Sept 8</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 43.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Pippett, Aileen.  "Memory is a Golden Thing." Review of <title>The Flowers of the Forest, Vol. 2 of The Golden Echo</title> by David Garnett. <title>The New York Times Book Review</title>
+                           <unitdate>1956 Sept 2</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>page 6.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Poore, Charles "Books of the Times." Review of <title>Aspects of Love</title> by David Garnett. <title>The New York Times</title>
+                           <unitdate>1956 Jan 26</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Rosselli, John. "Was T.E. Lawrence a Fake?" <title>The Reporter</title>
+                           <unitdate>1955 Apr 21</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>pages 49-52.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>West, Anthony. "Books: Through a Glass, Darkly." <title>The New Yorker</title>
+                           <unitdate>1960 May 28</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>pages 137-142.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Photographs</unittitle>
+                  <physdesc>
+                     <extent>(black and white prints)</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>Arranged alphabetically by subject.</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">17</container>
+                     <unittitle>Garnett, Constance by David Garnett
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>Bloomsbury Iconography  B2</p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">18</container>
+                     <unittitle>Garnett, Constance by David Garnett
+                      <unitdate>1942</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">19</container>
+                     <unittitle>Garnett, Constance
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">20</container>
+                     <unittitle>Garnett, Constance in group photograph
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">21</container>
+                     <unittitle>Garnett, Constance with Katherine and Grace Black
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">22</container>
+                     <unittitle>Garnett, David "aged 12"</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">23</container>
+                     <unittitle>Garnett, David
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>Bloomsbury Iconography A20</p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">24</container>
+                     <unittitle>Garnett, David</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">25</container>
+                     <unittitle>Garnett, Edward as a child
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">26</container>
+                     <unittitle>Garnett, Edward
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>Bloomsbury Iconography A1</p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">27</container>
+                     <unittitle>Garnett, Edward
+                      <unitdate>1917</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">28</container>
+                     <unittitle>Garnett, Olivia Narney
+                      <unitdate>1866</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">29</container>
+                     <unittitle>Garnett, Olivia Narney by Frederick Hollyer
+                      <unitdate>1899</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">30</container>
+                     <unittitle>Garnett, Richard with book
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">31</container>
+                     <unittitle>Garnett, Richard with book, profile
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">32</container>
+                     <unittitle>Garnett family, includes Olivia Narney Garnett ("Mrs. Richard Garnett") with May, Robert, Edward, Olive, Lucy, and Arthur Garnett and Christiana Chapple, n.d.</unittitle>
+                  </did>
+                  <note>
+                     <p>With envelopes addressed to Heilbrun from David Garnett</p>
+                  </note>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>Series II. <title>The Garnett Family</title> by Carolyn Heilbrun,
+                <unitdate>1955-1960</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Correspondence of Carolyn Heilbrun regarding <title>The Garnett Family</title>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>Arranged alphabetically.</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">33</container>
+                     <unittitle>Alfred A. Knopf, Inc
+                      <unitdate>1958 Sep 8- 1958 Sep 26</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">34</container>
+                     <unittitle>Chatto &amp; Windus Ltd with letter of introduction from B. W. Huebesch
+                      <unitdate>1955 Nov 21</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">35</container>
+                     <unittitle>Forster, E.M.
+                      <unitdate>1958 Dec 2-1959 Jan 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Frost, Robert</unittitle>
+                  </did>
+                  <note>
+                     <p>See: Box 2, folder <ref target="list-239">39</ref> and <ref target="list-243">43</ref>
+                     </p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">36</container>
+                     <unittitle>Gerald Duckworth &amp; Co.
+                      <unitdate>1955 Nov 21</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">37</container>
+                     <unittitle>Harcourt, Brace &amp; Company
+                      <unitdate>1955 Aug 29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">38</container>
+                     <unittitle>Henry Holt and Company
+                      <unitdate>1958 Dec 2-1960 Mar 29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="list-239">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">39</container>
+                     <unittitle>Huebesch, B. W.
+                      <unitdate>1955 Nov 2-1960 Mar 1</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>See also: Box 2, folder 35</p>
+                  </note>
+               </c03>
+               <c03 id="list-240">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">40</container>
+                     <unittitle>J. M. Dent &amp; Sons
+                      <unitdate>1959 Feb 3-1960 Mar 3</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">41</container>
+                     <unittitle>Jonathan Cape (Firm)
+                      <unitdate>1955 Nov 21- 1959 Feb 11</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">42</container>
+                     <unittitle>Lawrence Pollinger Limited
+                      <unitdate>29 Jan 1959-1960 Mar 29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="list-243">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">43</container>
+                     <unittitle>Spender, Stephen
+                      <unitdate>1958 Dec 2-1959 Jan 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Viking Press</unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-240">See: Box 2, folder 40</ref>
+                     </p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">44</container>
+                     <unittitle>Unidentified
+                      <unitdate>1953 Dec 13, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Notes for <title>The Garnett Family</title>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>Arranged by subject.</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">45</container>
+                     <unittitle>General</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">46</container>
+                     <unittitle>Richard Garnett</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">47</container>
+                     <unittitle>Edward and Constance Garnett</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">48</container>
+                     <unittitle>David Garnett</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">49</container>
+                     <unittitle>Research Notebooks</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">50</container>
+                  <unittitle>Evaluations and corrections</unittitle>
+               </did>
+               <note>
+                  <p>Arranged alphabetically by author.</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Hazen: holograph
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>4 leaves.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Shearer, James F.: typescript, n.d. 1 page, with paper scrap
+                      <unitdate>1959 Apr 28.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Suther: typescript
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>2 pages.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Unidentified: typescript
+                      <unitdate>n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>2 pages.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Publication materials</unittitle>
+               </did>
+               <note>
+                  <p>Arranged chronologically.</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">51</container>
+                     <unittitle>Certificate of copyright registration
+                      <unitdate>1960 Feb 24</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">52</container>
+                     <unittitle>Summary for the microfilm publication of <title>The Garnett Family</title>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>Series III. <title>Christopher Isherwood</title> by Carolyn Heilbrun,
+                <unitdate>1974-1979</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Interviews</unittitle>
+                  <physdesc>
+                     <extent>(audio tapes and transcriptions)</extent>
+                  </physdesc>
+               </did>
+               <note>
+                  <p>Arranged chronologically.</p>
+               </note>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">53</container>
+                     <unittitle>Isherwood, Christopher. Interview by James Day on <title>Day at Night</title>, Broadcast
+                      <unitdate>1974 Jun 2</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>Audiotape #3.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">54</container>
+                     <unittitle>Isherwood, Christopher. Address to the Modern Language Association: typescript
+                      <unitdate>1974 Dec</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>49 pages, with audiotapes #1 and 2</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">55</container>
+                     <unittitle>Isherwood, Christopher. Interview by Carolyn Heilbrun: typescript A
+                      <unitdate>1975 Jul 25</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>71 pages.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">56</container>
+                     <unittitle>Isherwood, Christopher. Interview by Carolyn Heilbrun: typescript B, corrected
+                      <unitdate>1975 Jul 25</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>28 pages.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">57</container>
+                     <unittitle>Isherwood, Christopher. Interview by Carolyn Heilbrun: typescript C
+                      <unitdate>1975 Jul 25</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>24 pages, with audiotapes #4 and 5.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">58</container>
+                     <unittitle>Isherwood, Christopher. Interview by Carolyn Heilbrun: typescript
+                      <unitdate>1975 28 Jul</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>38 pages, with audiotape #6.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">59</container>
+                     <unittitle>Lambert, Gavin interview by Carolyn Heilbrun: typescript A
+                      <unitdate>1975 Jul 28</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>29 pages.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">60</container>
+                     <unittitle>Lambert, Gavin interview by Carolyn Heilbrun: typescript B with introduction
+                      <unitdate>1975 Jul 28</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>21 pages, with audiotape #7.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">61</container>
+                     <unittitle>Isherwood, Christopher. Interview by Carolyn Heilbrun:
+                      <unitdate>1976 May 23</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>58 pages, with audiotape #8.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">62</container>
+                     <unittitle>Isherwood, Christopher on <title>The Dick Cavett Show</title>
+                        <unitdate>1979</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>Audiotape #10.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>Series IV. Interview with Alice G. Fredman,
+                <unitdate>1977</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">63</container>
+                  <unittitle>Fredman, Alice G. Interview by Carolyn Heilbrun
+                   <unitdate>1977 Nov 30.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>Audiotape #9.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

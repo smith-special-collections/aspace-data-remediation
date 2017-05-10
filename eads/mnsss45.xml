@@ -1,0 +1,623 @@
+<ead>
+   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss45.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss45</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Ruth Mellor Papers, 1921-1970
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Burd Schlessinger.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2003 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+        <date>2003-06-05</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss45 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            
+         </publisher>
+         <titleproper encodinganalog="245$a">Ruth Mellor Papers, 1921-1970
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 253
+      </num>
+         <author encodinganalog="245$c">Burd Schlessinger
+      </author>
+         <date>1997
+      </date>
+         
+         <sponsor>Processing of the Ruth Mellor Papers was made possible by the generous support of the Carel Bailey Germain Fund.</sponsor>
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169; 2003  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc relatedencoding="MARC21" level="collection">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Mellor, Ruth</persname>
+         </origination>
+         <unittitle label="Title:" encodinganalog="245$a">Ruth Mellor Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1921-1970</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1928-1930</unitdate>
+         
+         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 253</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">2 boxes</extent>
+            <extent encodinganalog="300$a">(.75 linear ft.)</extent>
+         </physdesc>
+                  <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+	  </repository>
+         <abstract label="Abstract:" encodinganalog="520$a">Social Worker.  Papers consist primarily of material related to a survey conducted by Ruth Mellor in 1929 for the Connecticut Society for Mental Hygiene to assess social welfare services in the state of Connecticut.  Also included is personal correspondence with close friend and Smith College classmate, Mildred Scott Olmsted and numerous love letters to Mellor from both a woman and man.
+      </abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6213.jpg" altrender="right">
+<daodesc><p>Ruth Mellor, 1955</p></daodesc></dao> 
+         <p>Ruth Mellor was born in Rockville, Connecticut on January 15, 1889 and graduated from Smith College in 1912.  In 1916-17, she attended the Bryant and Stratton Business School in Boston,  and from 1918 to 1922 was executive secretary of American Red Cross, Plymouth, Massachusetts.  In 1923 she earned her master's degree in psychiatric social work at the School of Social Work in New York City, afterwards working as Chief of Social Service at the Child Guidance Demonstration Clinic in Cleveland, Ohio, from 1924 to 1926.  From 1926 to 1929 she worked at the Children's Aid Society in Philadelphia, taking time in 1929 to act as field psychiatric worker in a survey conducted by the Connecticut Society for Mental Hygiene.  While living in the Philadelphia area, she continued her friendship with Mildred Scott Olmsted, who also graduated from Smith College in 1912.  Mellor worked as a social worker for the Massachusetts Society for Mental Hygiene from 1929 to 1931, and from 1931 to 1933 was executive secretary of the Connecticut Society for Mental Hygiene.  She took a position as executive director of the Mental Hygiene Clinic in Louisville, Kentucky, where she remained at least until 1949.  (This clinic was renamed the Bingham Child Guidance Clinic, which was heir to Ruth Mellor's estate.)  She was also a lecturer in the Social Sciences division of the Department of Psychiatry at the University of Louisville until her retirement in 1961.  She died in Louisville on November 9, 1989.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p>The papers consist primarily of material related to a survey conducted by Ruth Mellor in 1929 for the Connecticut Society for Mental Hygiene.  The purpose of the survey was to assess social welfare services in the state of Connecticut, and information was gathered from institutions concerned with providing those services.  They included churches; hospitals and clinics; mental health institutions; state agencies; charities and humane societies; and county homes, as well as rural and city schools and several colleges.  The principle method for gathering information was to interview a range of educators, judges, lawmakers, doctors, social workers, prison wardens, and other citizens concerned with the welfare of the indigent and the mentally, emotionally and physically impaired. The interviews are summarized by Mellor and often include her frank assessment of the interviewee.  These, along with some statistical data and notations about site visits, comprise the bulk of the papers.  Mellor often used the reverse side of professional correspondence for hand-written and typed notes.</p>
+         <p>Also included are twenty-seven passionate love letters to Mellor from Marion W. Bomer, called Maisie or Wendy, written in 1928-29.  Apparently against Bomer's wishes and to her distress, Mellor had insisted on one year of separation, during which time Bomer pined for her and pleaded to be reunited. The letters clearly indicate a lesbian relationship. The papers also include letters to Bomer from two other women who appear to have been attracted to her romantically.  Love letters to Mellor from George de Schweinitz, written during the 1930s, suggest that Mellor was probably bi-sexual. </p>
+         <p>The papers also include general correspondence, and typed and hand-written notes.  Material pertaining to Mellor's education is located in the Professional Activities series, as part of her employment application to the Connecticut Society for Mental Health.  Since Dr. Samuel W. Hamilton participated in the Connecticut Society for Mental Health survey, a list of interviews by him is filed with those conducted by Mellor.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into four series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I. Biographical</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II. Correspondence</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III. Professional Activities</ref>
+            </item>
+            <item>
+               <ref target="list-ser4">IV. Subjects</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection.  </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>The copyright owner of unpublished works in this collection is unknown. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Ruth Mellor Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>The Swarthmore Peace Collection donated the Ruth Mellor Papers to the Sophia Smith Collection in 1991. The Bingham Child Guidance Center donated additional material in 1999.  </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Processed by Burd Schlessinger, 1997.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <subject encodinganalog="650" source="lcsh">Mental health facilities--Connecticut--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Social workers--United States--History--Sources</subject>
+         <persname encodinganalog="600" source="lcnaf">Mellor, Ruth</persname>
+         <persname encodinganalog="600" source="lcnaf">Olmsted, Mildred Scott, 1890-1990</persname>
+         <persname encodinganalog="600" source="lcnaf">Ackerly, Spafford</persname>
+         <corpname encodinganalog="610" source="lcnaf">Bingham Child Guidance Center--History</corpname>
+         <subject encodinganalog="650" source="lcsh">Female friendship--United States--History--20th century--Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Bisexuality--United States--History--20th century--Sources</subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>The Ruth Mellor Papers were originally part of the Mildred Scott Olmsted Papers at the Swarthmore Peace Collection, and additional correspondence is located there.</p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Expense book and notebook, <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Travel correspondence and itineraries,<unitdate> 1927, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2a</container>
+                  <unittitle>Photograph, biographical data, clippings, funeral instructions,<unitdate> 1948-60, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2b</container>
+                  <unittitle>Retirement,<unitdate> 1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2c</container>
+                  <unittitle>Financial information,<unitdate> 1954-60, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3-8</container>
+                  <unittitle>General,<unitdate> 1921-70, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>From Marion W. "Maisie" Bomer,<unitdate> 1928-29, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>From Sylvia [?],<unitdate> 1928-29, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>From de George L. Schweinitz,<unitdate> 1933-39, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. PROFESSIONAL ACTIVITIES</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Connecticut Society for Mental Hygiene Survey</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Administrative records</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Correspondence</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">11</container>
+                           <container type="folder">12</container>
+                           <unittitle>General,<unitdate> 1928-29</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">11</container>
+                           <container type="folder">13</container>
+                           <unittitle>From Samuel W. Hamilton to Ruth Mellor,<unitdate> 1929</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">14-15</container>
+                        <unittitle>General information about Connecticut Society for Mental Hygiene, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">16</container>
+                        <unittitle>Minutes of survey committee meeting, <unitdate>11 Jun 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">11</container>
+                        <container type="folder">17</container>
+                        <unittitle>Survey prospectus, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">18</container>
+                        <unittitle>Ruth Mellor, references and credentials submitted in application for survey position,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">19</container>
+                        <unittitle>Expense sheets,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Interviews and statistical data</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">20</container>
+                        <unittitle>Bureau of Child Welfare,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">21</container>
+                        <unittitle>Bureau of Special Education and Standards,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">22</container>
+                        <unittitle>Charities and humane societies,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">23</container>
+                        <unittitle>Churches,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Clinics,                       <unitdate>1929</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">24</container>
+                           <unittitle>Bridgeport</unittitle>
+                        </did>
+                        <note>
+                           <p>
+                              <ref target="list-serOV">[See also Oversize Materials]</ref>
+                           </p>
+                        </note>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">25</container>
+                           <unittitle>Bristol</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">26</container>
+                           <unittitle>Connecticut State Hospital</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">27</container>
+                           <unittitle>Hartley-Salmon</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">28</container>
+                           <unittitle>New Haven</unittitle>
+                        </did>
+                        <note>
+                           <p>
+                              <ref target="list-serOV">[See also Oversize Materials]</ref>
+                           </p>
+                        </note>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">29</container>
+                           <unittitle>Norwich</unittitle>
+                        </did>
+                        <note>
+                           <p>
+                              <ref target="list-serOV">[See also Oversize Materials]</ref>
+                           </p>
+                        </note>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">30</container>
+                           <unittitle>Waterbury</unittitle>
+                        </did>
+                        <note>
+                           <p>
+                              <ref target="list-serOV">[See also Oversize Materials]</ref>
+                           </p>
+                        </note>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">2</container>
+                           <container type="folder">31</container>
+                           <unittitle>Unidentified clinic notes,<unitdate> 1927, n.d.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">32</container>
+                        <unittitle>Colleges,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">33</container>
+                        <unittitle>County homes,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">34</container>
+                        <unittitle>Courts,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">35</container>
+                        <unittitle>Hospitals,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">36</container>
+                        <unittitle>Industry,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">37</container>
+                        <unittitle>Interviews with members of Connecticut Society for Mental Hygiene,<unitdate> 1929, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">38</container>
+                        <unittitle>Interviews with other concerned citizens,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">39</container>
+                        <unittitle>Interviews by Samuel W. Hamilton (list),<unitdate> 1929 </unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">40</container>
+                        <unittitle>Mental health institutions, city,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">41</container>
+                        <unittitle>Mental health institutions, state,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">42</container>
+                        <unittitle>Schools, city,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">43</container>
+                        <unittitle>Schools, rural,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">44</container>
+                        <unittitle>State Department of Mental Health,<unitdate> 1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">45</container>
+                        <unittitle>Survey forms, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bingham Child Guidance Center</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <container type="folder">45a</container>
+                        <unittitle>Ackerley, Spafford,<unitdate> 1933-61</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Minutes and miscellaneous documents,<unitdate> 1953-58, n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">46</container>
+                  <unittitle>Professional affiliations,<unitdate> 1929, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser4">
+            <did>
+               <unittitle>SERIES IV. SUBJECTS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">47</container>
+                  <unittitle>"Mental Hygiene Services in Out-Patient Departments of New York City,"<unitdate> 1928-29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">48</container>
+                  <unittitle>"Philadelphia Health and Hospital Survey," <unitdate>n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">49</container>
+                  <unittitle>Miscellaneous and unidentified material,<unitdate> 1927-29, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-serOV">
+            <did>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="map-case">Flat File:</container>
+                  <unittitle>Statistical charts for Connecticut Society for Mental Hygiene Survey,<unitdate> 1929</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

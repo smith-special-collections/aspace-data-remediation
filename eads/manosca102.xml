@@ -1,0 +1,1707 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca102.xml//EN" countrycode="us" mainagencycode="manosca">manosca102</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Harriet Boyd Hawes Papers, 1888-1967
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by manosca.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Brook Hopkins.
+<date>2003-06-13</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca102 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>Harriet Boyd Hawes Papers, 1888-1967
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 42
+</num>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="collection">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Hawes, Harriet Boyd, 1871-1945. </persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Harriet Boyd Hawes Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1888-1967</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">11 boxes  </extent>
+<extent encodinganalog="300$a">(5 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Instructor of Greek, archaeologist, nurse, relief worker. Contains writings, correspondence, journals, news clippings, notes, photographs, and publications.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p>Harriet Boyd Hawes was born on October 11, 1871 in Boston, Massachusetts.  She was educated at the Prospect Hill School in Greenfield and graduated from Smith College in 1892 with a degree in classics.  Hawes always felt a deep love for Greece and a strong desire to understand its culture and history.  She studied at the American School at Athens from 1896-97 and the next year became a Fellow there.  While in Greece, she learned that the Greeks (who were in the midst of the first Greco-Turkish War) had no nursing supplies and with support from the Queen of Greece soon became a nursing volunteer.  Several years later she was decorated by the Queen for her contributions.</p>
+<p>Hawes soon became well known not only for her volunteer work but also for her expertise in the field of archaeology.  For four months in the spring of 1900, she led an excavation at Kavousi, Crete during which she discovered houses and tombs from the
+Geometric period (900 BC).  During another excavation less than a year later in Gournia, Crete, she discovered a Mycenaean provincial town and later published a book entitled, <title render="italic">Crete: the Forerunner of Greece</title>.
+</p>
+<p>Hawes accepted a position at Smith College teaching Greek archaeology in 1900 and received her M.A. from Smith in 1901.  She taught at Smith until 1905 interspersing her time there with frequent trips abroad for archaeological excursions.  During one trip to Crete, she met Charles Henry Hawes, an English anthropologist and archeologist who later became the associate director of the Boston Museum of Fine Arts.  They were married on March 3, 1906 and nine months later their son, Alexander Boyd Hawes was born.  A daughter, Mary Nesbit Hawes followed in August of 1910.  By this time Charles was teaching at Dartmouth and the family was living in Hanover, New Hampshire.</p>
+<p>Despite her commitment to her family, Hawes remained active in both humanities and her field of archaeology.  In 1910, Hawes received an honorary degree from Smith College.  She traveled to Corfu in 1915 for a year to work extensively with the Serbian Army.  In 1916, she helped the wounded in France and a year later she founded and was the first director of the Smith College Relief Unit in France.  She held this title for three years during which time she worked as a nurse's aide at the YMCA.</p>
+<p>In 1920, the Hawes' moved to Cambridge and Harriet joined the faculty at Wellesley lecturing on Ancient Art.  When Charles retired in 1936, the couple moved to Washington D.C. where Harriet remained after her husband died.  She died on March 31, 1945.</p>
+</bioghist>
+<bioghist id="bioghist-chron">
+<head>Biographical Note</head>
+<chronlist>
+<chronitem>
+<date>1871</date>
+<event>Born Boston, Massachusetts, October 11</event>
+</chronitem>
+<chronitem>
+<date>1892-96</date>
+<event>Teacher of Classics, schools in North Carolina and
+   Delaware</event>
+</chronitem>
+<chronitem>
+<date>1892</date>
+<event>Graduated from Smith College</event>
+</chronitem>
+<chronitem>
+<date>1896</date>
+<event>Graduate work, American School of Classical
+   Studies, Athens</event>
+</chronitem>
+<chronitem>
+<date>1897</date>
+<event>Nurse and relief worker in Thessaly with Greek
+   Army, Greco-Turkish War</event>
+</chronitem>
+<chronitem>
+<date>1898-99</date>
+<event>Fellow of American School of Classical Studies,
+   Athens</event>
+</chronitem>
+<chronitem>
+<date>1898</date>
+<event>Nurse Spanish-American War in Tampa, Florida -
+   Summer</event>
+</chronitem>
+<chronitem>
+<date>1899-00</date>
+<event>Agnes Hoppin Memorial Fellow, Bryn Mawr
+   College</event>
+</chronitem>
+<chronitem>
+<date>1900</date>
+<event>Excavation at Kavousi, Crete - May-June</event>
+</chronitem>
+<chronitem>
+<date>1900-06</date>
+<event>Part-time Instructor, Smith College in
+   Archaeology, Epigraphy and modern Greek</event>
+</chronitem>
+<chronitem>
+<date>1901-04</date>
+<event>Director of excavations of the American
+   Exploration Society - Gournia, Crete, Assisted by Blanche
+   Emily Wheeler 1892.</event>
+</chronitem>
+<chronitem>
+<date>1901</date>
+<event>M.A. Smith College</event>
+</chronitem>
+<chronitem>
+<date>1902</date>
+<event>First woman invited to address the Societies of
+   the Archaeological Institute of American</event>
+</chronitem>
+<chronitem>
+<date>1906</date>
+<event>Married Charles Henry Hawes</event>
+</chronitem>
+<chronitem>
+<date>1910</date>
+<event>Awarded Doctor of Humane Letters, Smith
+   College</event>
+</chronitem>
+<chronitem>
+<date>1915-16</date>
+<event>Established hospital for wounded and ill on Corfu
+   for Serbian army - World War I</event>
+</chronitem>
+<chronitem>
+<date>1917-18</date>
+<event>Organizer and first Director of Smith College
+   Relief Unit in France - World War I</event>
+</chronitem>
+<chronitem>
+<date>1918-20</date>
+<event>Nurse's aid with YMCA at American Hospital,
+   Longchamps - World War I</event>
+</chronitem>
+<chronitem>
+<date>1920-36</date>
+<event>Lecturer in Ancient Art, Wellesley College</event>
+</chronitem>
+<chronitem>
+<date>1933</date>
+<event>Sued by A.R. Hyde and Son, for damages resulting
+   from her involvement in company strike</event>
+</chronitem>
+<chronitem>
+<date>1938</date>
+<event>Traveled to Czechoslovakia during take-over of
+   Sudetenland, detained by German authorities</event>
+</chronitem>
+<chronitem>
+<date>1945</date>
+<event>Died March 31, Washington, D.C.</event>
+</chronitem>
+</chronlist>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>The Harriet Boyd Hawes Papers document her work as an archaeologist and as a nurse and relief worker in three wars.  They contain a large amount of writings, both published and unpublished, on various subjects relating to her professional work and volunteer activities as well as her political opinions.  There is personal, and professional correspondence dating from 1886-1945 and a small amount of material on her career as a college instructor at Smith and Wellesley Colleges.</p>
+<p>The material is arranged in five series: Biographical Material, Correspondence, Professional Life, Publications and Activities.  Where appropriate, correspondence and publications may have been placed under one of the other headings.</p>
+<p>The material relating to Hawes' professional life documents her excavations on Crete (1900-04) and contains correspondence, journals, news clippings, some notes on excavations and photographs of sites, objects and graves.  Included are photographs of objects that are housed in the University Museum at the University of Pennsylvania in Philadelphia.</p>
+<p>Publications include drafts of published and unpublished books and articles on ancient art and on her field work, plus one short story and scenarios intended for films.</p>
+<p>Hawes' work as a nurse and relief worker in the Greco-Turkish War in 1897 is documented in detail.  There are drafts of her manuscripts <title render="italic">In Defense of Crete</title> (1914) and <title render="italic">Greek Cross and Red Cross</title> (1898?) plus news articles, clippings and some photographs.  Her World War I activities are documented in various accounts of her experiences as a representative of the American Distributing Service on Corfu where she organized a hospital for the wounded and ill of the Serbian Army (1915-16).  There are approximately 30 photographs of the facility, its staff and surroundings.  Hawes' work with the Smith College Relief Unit (1917-18)  is documented by correspondence and writings on the founding of the Unit, plus a journal, news clippings and photographs.</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into five series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Biographical Material</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Correspondence</ref>
+</item>
+<item>
+<ref target="list-ser3">III. Professional Life</ref>
+</item>
+<item>
+<ref target="list-ser4">IV. Publications</ref>
+</item>
+<item>
+<ref target="list-ser5">V. Activities</ref>
+</item>
+</list>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The papers are open for research according to the regulations of the Smith College Archives without any additional restrictions.</p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the documents must be requested from the Smith College Archives.  Smith College owns copyright to any published material relating to college events and activities.  Provenance and copyright ownership of other materials is unknown and researchers are responsible for determining any question of copyright.</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Harriet Boyd Hawes Papers, Box #, Smith College Archives. </p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>The papers of Harriet Boyd Hawes were given to Smith College by her daughter, Mrs. Mary Nesbit Allsebrook in 1967.  Additional material was received in 1982 from Phyllis Lehmann, a student of Hawes and Professor Emeritus of Art at Smith College.  </p>
+</acqinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Hawes, Harriet Boyd, 1871-1945.</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Faculty.</corpname>
+<subject encodinganalog="650" source="lcsh">Archaeologists--United States.</subject>
+<subject encodinganalog="650" source="lcsh">Women archaeologists--United States.</subject>
+</controlaccess>
+<descgrp type="add" id="addinfo">
+<head>Additional Information</head>
+<relatedmaterial id="add-related">
+<head>Related Material</head>
+<list>
+<item>12. 
+<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca95_main.html">Smith College Relief Unit</extref></item>
+<item>12. Symposium: Land Called Crete, 1967</item>
+<item>University Museum at the University of Pennsylvania</item>
+</list>
+</relatedmaterial>
+</descgrp>
+<dsc type="in-depth" id="contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I. BIOGRAPHICAL MATERIAL</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>Contents of Collection</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>Autobiography "Memories and Opinions"
+<unitdate>1944</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>Notes and drafts</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Award, L.H.D. Smith College
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>General and miscellaneous</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>Education, Prospect Hill School
+<unitdate>1888</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Education, Smith College,
+<unitdate>1888-92</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>Family miscellaneous</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>Family photographs</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>Fellowship, American School of Classical
+   Studies, Athens
+<unitdate>1898-99</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>Correspondence
+     <unitdate>1896-99</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">12</container>
+<unittitle>Photographs</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">13</container>
+<unittitle>Fellowship, Archaeological Institute of
+   America
+<unitdate>1902</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">14</container>
+<unittitle>Journal, religious (1892), Line-A-Day
+   (1896-1900)</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">15</container>
+<unittitle>printed material from Hull House
+     <unitdate>1902-04</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">16</container>
+<unittitle>Line-A-Day
+     <unitdate>1901-05</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1</container>
+<container type="folder">17</container>
+<unittitle>Xerox copy</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1a</container>
+<container type="folder">18</container>
+<unittitle>
+<unitdate>1908-1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1a</container>
+<container type="folder">19</container>
+<unittitle>
+<unitdate>1918-24</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">1a</container>
+<container type="folder">20</container>
+<unittitle>
+<unitdate>1931</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<unittitle>"Miss Boyd - A Rebel from Boston"
+   unpublished, biography by Mary Nesbit Allsebrook
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">21</container>
+<unittitle>Photographs
+<unitdate>c. 1874-1962</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">22</container>
+<unittitle>Poetry</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">23</container>
+<unittitle>Religion</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">24</container>
+<unittitle>Symposium at Smith College, A Land Called
+   Crete
+<unitdate>1967</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">25</container>
+<unittitle>Trip to Prague - Account by H.B.H.
+<unitdate>1938</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">26</container>
+<unittitle>Correspondence, Misc.
+     <unitdate>1938</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II. CORRESPONDENCE</unittitle>
+</did>
+<c02>
+<did>
+<unittitle>From:</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">27</container>
+<unittitle>Boyd, Alexander (brother)
+     <unitdate>1890-91</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">28</container>
+<unittitle>Boyd, Allen (brother)
+     <unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">29</container>
+<unittitle>MacKenzie, Duncan
+     <unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">30</container>
+<unittitle>Olga, Queen of Greece
+     <unitdate>1912-20</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">31</container>
+<unittitle>photographs</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">32</container>
+<unittitle>Richter, Gisela
+     <unitdate>1906</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">33</container>
+<unittitle>Ridgeway, William
+     <unitdate>1909</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">34</container>
+<unittitle>Santayana, George</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">35</container>
+<unittitle>Tyler, Henry M. President Seelye
+     <unitdate>1908-14</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>To:</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">36</container>
+<unittitle>Allesbrook, Mary (daughter)
+     <unitdate>1921-1939</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">37</container>
+<unittitle>Allesbrook Mary (daughter)
+     <unitdate>1940-44</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">38</container>
+<unittitle>Averny, Myrtilla
+     <unitdate>1934</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">39</container>
+<unittitle>Boyd, Alex and Ida (cousins)
+     <unitdate>1905-13</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">40</container>
+<unittitle>Roosevelt, Eleanor
+     <unitdate>1939-41</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">41</container>
+<unittitle>Roosevelt, Franklin Delano
+     <unitdate>1937-45</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">42</container>
+<unittitle>Swing, Raymond Gram
+     <unitdate>1942-43</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">43</container>
+<unittitle>Waring, Mary Kimberly
+     <unitdate>1899-1945</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">44</container>
+<unittitle>Photographs</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">45</container>
+<unittitle>Miscellaneous
+     <unitdate>1888, 1892</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">46</container>
+<unittitle>Miscellaneous
+     <unitdate>1916-19</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">47</container>
+<unittitle>Miscellaneous
+     <unitdate>1920-23</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">48</container>
+<unittitle>Miscellaneous
+     <unitdate>1924-30</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">49</container>
+<unittitle>Miscellaneous
+     <unitdate>1931-34</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">50</container>
+<unittitle>Miscellaneous
+     <unitdate>1935-37</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">51</container>
+<unittitle>Miscellaneous
+     <unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">52</container>
+<unittitle>Miscellaneous
+     <unitdate>1940</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">53</container>
+<unittitle>Miscellaneous
+     <unitdate>1941-42</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">54</container>
+<unittitle>Miscellaneous
+     <unitdate>1943-45</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">55</container>
+<unittitle>Waring, Mary Kimberly from:Sarah Storer
+     <unitdate>1892-1894</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">56</container>
+<unittitle>Miscellaneous
+<unitdate>1894-1905</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">3</container>
+<container type="folder">57</container>
+<unittitle>Wheeler, Blanche Emily
+<unitdate>1900-01</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III. PROFESSIONAL LIFE</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">58</container>
+<unittitle>Lectures: advertisements, correspondence
+<unitdate>1901-14</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">59</container>
+<unittitle>News clippings
+<unitdate>1901-14</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Kavousi</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">60</container>
+<unittitle>Correspondence
+     <unitdate>May-Jun 1900</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">61</container>
+<unittitle>News Clippings</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">62</container>
+<unittitle>Notes</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">63</container>
+<unittitle>Publications
+     <unitdate>1901-03</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Gournia</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">64</container>
+<unittitle>Correspondence
+     <unitdate>1901-05</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">65</container>
+<unittitle>Journal (Mar-Ap)
+     <unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">66</container>
+<unittitle>Journal (May)
+     <unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">67</container>
+<unittitle>Journal of trip (Feb-Mar)
+     <unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">68</container>
+<unittitle>Journal (Ap-Jul)
+     <unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">69</container>
+<unittitle>Miscellaneous</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">70</container>
+<unittitle>Notes</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">4</container>
+<container type="folder">71</container>
+<unittitle>Crete - Correspondence and Notes
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Photographs</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">72</container>
+<unittitle>Graves</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">73</container>
+<unittitle>Kavousi</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">74</container>
+<unittitle>miscellaneous</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">75-76</container>
+<unittitle>pottery</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">77</container>
+<unittitle>site</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">78</container>
+<unittitle>site and landscape</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">79</container>
+<unittitle>Speeches
+<unitdate>1916-17</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">80</container>
+<unittitle>Speech at Alumnae Assembly
+<unitdate>Jun 18, 1912</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">81</container>
+<unittitle>Speeches, Balkan War
+<unitdate>1912</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">82</container>
+<unittitle>Wellesley College Syllabi</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser4">
+<did>
+<unittitle>Series IV. PUBLICATIONS</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">83</container>
+<unittitle>"Amalasuntha" (scenario)
+<unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">84</container>
+<unittitle>Christianity and Hellanism
+<unitdate>1924?</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">85</container>
+<unittitle><title render="italic">Crete the Forerunner of Greece</title> with Charles
+   Henry Hawes
+<unitdate>1909</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">86</container>
+<unittitle>Correspondence
+     <unitdate>1909-10</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">87</container>
+<unittitle>"A Cretan Pompeii"
+<unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">88</container>
+<unittitle>"The First International Congress of
+   Archaeology"
+<unitdate>1905</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle><title render="italic">Five Riddles of Greek Art</title></unittitle>
+</did>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">89</container>
+<unittitle>Chapter 1, outline
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">90</container>
+<unittitle>Chapter 3
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">91</container>
+<unittitle>Chapter 4
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">92</container>
+<unittitle>Chapter 5
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">93</container>
+<unittitle>Illustrations
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">94</container>
+<unittitle>Chapter 6
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">95</container>
+<unittitle>Illustrations
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">96</container>
+<unittitle>Chapter 7
+     <unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">97</container>
+<unittitle>"The General Election in England"
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">98</container>
+<unittitle>"A Gift of Themistocles: <title render="italic">The Ludovisi Throne</title>
+   and the Boston Relief"
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">99-100</container>
+<unittitle><title render="italic">Gournia </title>manuscript
+<unitdate>1905</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">101</container>
+<unittitle><title render="italic">Gournia, Vasiliki and other Prehistoric
+   sites on the Isthmus of Hierapetr</title>a - manuscript
+<unitdate>1908</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">102</container>
+<unittitle>Correspondence, news clippings and
+     advertisement
+     <unitdate>1907-15</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">6</container>
+<container type="folder">103</container>
+<unittitle>Gournia miscellaneous
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">104</container>
+<unittitle>"Greece and Archaeology"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">105</container>
+<unittitle>"An Immediate Appeal to America by the
+   People of Greece"
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">106</container>
+<unittitle>"Ivanhoe" (scenario)
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<container type="folder">107</container>
+<unittitle>"Larger Loyalties"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>"Memoirs of a Pioneer Excavator in
+   Crete"</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">108</container>
+<unittitle>Part I
+     <unitdate>1965</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">109</container>
+<unittitle>Part II
+     <unitdate>1965</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">110</container>
+<unittitle>"The Minotaur and the Maiden" (scenario)
+<unitdate>1927?</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">111</container>
+<unittitle>"Prince George and Venizelos in Crete"
+<unitdate>1906</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">112</container>
+<unittitle>"The Quest of a Buried City"
+<unitdate>1913</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">113</container>
+<unittitle>"The Smith College Relief Unit"
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">114</container>
+<unittitle>"Theseus, Prince of Athens" (scenario)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">115</container>
+<unittitle>War experiences, outline and draft for
+   article 1906</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">116</container>
+<unittitle>"When the Mummy Moves"
+<unitdate>1937</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">117</container>
+<unittitle>Contest
+     <unitdate>1907-08</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">118</container>
+<unittitle>Correspondence
+     <unitdate>1935-37</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-ser5">
+<did>
+<unittitle>Series V. ACTIVITIES</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">119</container>
+<unittitle>Goldsborough Bills
+<unitdate>1934-37</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">120</container>
+<unittitle>Goldsborough Bills
+<unitdate>1938-39</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">121</container>
+<unittitle>Hyde Company Strike
+<unitdate>1933</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">122</container>
+<unittitle>Hyde Company Strike,
+   Correspondence</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">123</container>
+<unittitle>Political Opinions</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>War work - Greco-Turkish War</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">124</container>
+<unittitle>Correspondence
+     <unitdate>Feb-Mar, 1897</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">125</container>
+<unittitle>Correspondence
+     <unitdate>Apr-May, 1897</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">126</container>
+<unittitle>Correspondence
+     <unitdate>Jun-Aug, 1897</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">127</container>
+<unittitle>Miscellaneous</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">128</container>
+<unittitle>Miscellaneous writings</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">129</container>
+<unittitle>News articles and clippings</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">130</container>
+<unittitle>Photographs</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">131</container>
+<unittitle><title render="italic">Greek Cross and Red Cross</title>, Ch. 1
+     <unitdate>1898?</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">132</container>
+<unittitle>Chapter 2</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">133</container>
+<unittitle>Chapter 3</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">134</container>
+<unittitle>Chapter 4</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">135</container>
+<unittitle>Chapter 5</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">136</container>
+<unittitle>Chapter 6</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">137</container>
+<unittitle>Chapter 7</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">138</container>
+<unittitle>Chapter 8</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">8</container>
+<container type="folder">139</container>
+<unittitle>Chapter 9</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">140</container>
+<unittitle>
+   "Nursing with the
+     Greek Army in 1897"
+</unittitle>
+</did><note><p>****See also oversize box for <title render="italic">In Defense of Crete</title></p></note>
+</c02>
+<c02>
+<did>
+<container type="box">9</container>
+<container type="folder">141</container>
+<unittitle>Spanish - American War
+<unitdate>1898</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">9</container>
+<container type="folder">142</container>
+<unittitle>World War I,
+<unitdate>Corfu - Correspondence 1915- 1916</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">143</container>
+<unittitle>Correspondence
+     <unitdate>(Mar-Ap) 1916</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">144</container>
+<unittitle>News clippings
+     <unitdate>1915-1916</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">145</container>
+<unittitle>Photographs
+     <unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">146</container>
+<unittitle>miscellaneous</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">147</container>
+<unittitle>Records and documents</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">148</container>
+<unittitle>Speeches and writings</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">9</container>
+<container type="folder">149</container>
+<unittitle>World War I, Smith College Relief Unit -
+   Correspondence
+<unitdate>May 1917</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">150</container>
+<unittitle>Correspondence
+     <unitdate>Jun 1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">151</container>
+<unittitle>Correspondence
+     <unitdate>Jul-Aug 1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">152</container>
+<unittitle>Correspondence
+     <unitdate>Sep-Oct 1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">153</container>
+<unittitle>Correspondence
+     <unitdate>Nov-Dec 1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">154</container>
+<unittitle>Correspondence
+     <unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">155</container>
+<unittitle>Correspondence
+     <unitdate>1919-29, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">156</container>
+<unittitle>Pub. "The Gates of Grecourt"
+     <unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">9</container>
+<container type="folder">157</container>
+<unittitle>General and miscellaneous</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">158</container>
+<unittitle>Journal
+<unitdate>1917-18</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">159</container>
+<unittitle>News clippings</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">160</container>
+<unittitle>Photographs</unittitle>
+</did>
+</c04>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">9</container>
+<container type="folder">161</container>
+<unittitle>World War I, Smith College Relief Unit -
+   Confidential</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">10</container>
+<unittitle id="in_defense_of_crete">Oversize: War Work
+   - Greco-Turkish War, 1897, includes manuscript <title render="italic">In
+   Defense of Crete</title>.</unittitle>
+</did>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

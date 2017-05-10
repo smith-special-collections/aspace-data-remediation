@@ -1,0 +1,994 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca80.xml//EN" countrycode="us" mainagencycode="manosca">manosca80</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>John Morton Greene
+  Papers, 1853-1997
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by Valerie Love, '02.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+<date>2003-06-04</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca80 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives
+<lb/>
+
+</publisher>
+<titleproper>John Morton Greene
+Papers, 1853-1997
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>RG 10
+</num>
+<author>Valerie Love, '02
+</author>
+<date>Revised 2002
+</date>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="recordgrp">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Greene, John Morton, 1830-1919. </persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">John Morton Greene Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1856-1930</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 10</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">8 boxes</extent>
+<extent encodinganalog="300$a">(41 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Pastor of Sophia Smith, generally regarded as the originator of the idea of founding Smith College as a college for women.  Papers contain biographical information, personal and professional correspondence, recollections, journals, manuscripts, photographs, and published works.  There are also articles and clippings pertaining to his life, Sophia Smith, and the early history and founding of Smith College.
+</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English.</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p> John Morton Greene, Sophia Smith's pastor, is generally regarded as the originator of the idea of founding Smith College as a college for women.  Born in Hadley, Mass. on March 12, 1830, he was an 1853 graduate of Amherst College, which also granted him the A.M. in 1856 and D.D. in 1881. In 1857 he married Louisa Dickinson of North Amherst, an 1857 graduate of Mount Holyoke Seminary. In the same year, he was installed as the pastor at the Congregational church at Hatfield, where he remained for eleven years. In Hatfield he met Sophia Smith. In 1868 he was called to the pastorate at the Congregational Church at South Hadley, Mass. Two years later he went to the Eliot Congregational Church in Lowell, Mass., where he remained for thirty years. After retiring from regular pastoral duties in 1910, Greene assisted in the establishment of a mission in Maine. He died April 28, 1919.</p>
+<p> John Morton Greene was a trustee of  Smith College almost continuously from its founding in 1871 until his death. In addition, he served on the board of trustees of Mount Holyoke Seminary (now Mount Holyoke College), 1866-1875; and was president of the board of trustees at the French Protestant College in Springfield, 1885-1889. As   advisor to Sophia Smith, he was also instrumental in the founding of Smith Academy in Hatfield, and acted in a similar capacity for Miss Rogers to found the Rogers Hall School in Lowell, where he acted as president of its board of trustees, 1892-1909. For over forty years he was one of the overseers of the charity fund at Amherst College.</p>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p> The John Morton Greene Papers contain materials including biographical information, personal and professional correspondence, journals, manuscripts, photographs, and published works.  There are also articles and clippings pertaining to his life, Sophia Smith, and the early history and founding of Smith College.</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into five series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Biographical</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Correspondence</ref>
+</item>
+<item>
+<ref target="list-ser3">III. Journals</ref>
+</item>
+<item>
+<ref target="list-ser4">IV. Publications</ref>
+</item>
+<item>
+<ref target="list-ser5">V. Scrapbooks</ref>
+</item>
+</list>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<userestrict encodinganalog="540" id="admin-use">
+<p>Single photocopies may be made for research purposes.  Permission to publish material from the John Morton Greene Papers must be requested from the Smith College Archives.
+   When requesting material at the Smith College Archives, see the printed finding aid for specific instructions on completing the call slip.
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>John Morton Greene Papers, Box #, Smith College Archives.</p>
+</prefercite>
+<altformavail encodinganalog="530" type="digital" id="admin-altform">
+<head>Additional Formats</head>
+<p>The following information is also available online as part of the <extref href="http://clio.fivecolleges.edu/smith/greene/">Five College Archives Digital Access Project</extref>
+<list>
+<item>1. General Correspondence, 1856-1917</item>
+<item>2. Personal Journal (entries written 1861-1876 only)</item>
+<item>3. "My Notes On Smith College," ca. 1910-1917 (A 129-page booklet of handwritten notes by John Morton Greene recording his recollections of the circumstances surrounding the founding of Smith College.)</item>
+<item>4. Scrapbook, 1860-1918 (A 100-page scrapbook consisting predominantly of newspaper clippings related to women's education and academic affairs at Smith College, with particular reference to Greene's role in the College's founding; also, some published articles related to women's education at other U.S. institutions.)</item>
+<item>5. Published Writings, 1875-1916 (Writings by JMG published in periodicals:  Includes his  "Early History of Smith College" [a 12-part series appearing in the Daily Hampshire Gazette, 1891-93], also correspondence related to it; a "Sketch of the Life and Character of Miss Sophia Smith"; "An Inside View of Smith College," published in a Lowell, Mass. newspaper in 1882; and other occasional pieces.)</item>
+<item>6. Louisa Dickinson Greene Papers, 1854-1881 (6 letters and 2 other writings by the wife of John Morton Greene.)</item>
+<item>7. Obituaries and Retrospectives on John Morton Greene, 1919-1930</item>
+</list>
+</p>
+</altformavail>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>The materials were donated over a period of time by John Morton Greene and his daughter, Helen French Greene.</p>
+</acqinfo>
+<processinfo id="admin-process">
+<p>Processed by Valerie Love, '02</p>
+</processinfo>
+</descgrp>
+</descgrp>
+<controlaccess id="subj">
+<head>Search Terms</head>
+
+<persname encodinganalog="600" source="lcnaf">Greene, John Morton, 1830-1919.</persname>
+<persname encodinganalog="600" source="lcnaf">Greene, Louisa Dickinson, 1830-1881.</persname>
+<corpname encodinganalog="610" source="lcsh">Smith College--Administration.</corpname>
+<subject encodinganalog="650" source="lcsh">Congregational churches--Clergy.</subject>
+<subject encodinganalog="650" source="lcsh">Clergy--Massachusetts.</subject>
+<persname encodinganalog="700" source="lcnaf">Greene, Louisa Dickinson, 1830-1881.</persname>
+<persname encodinganalog="700" source="lcnaf">Greene, Helen French, 1868-</persname>
+<persname encodinganalog="700" source="lcnaf">Burton, Marion Le Roy, 1874-1925.</persname>
+<persname encodinganalog="700" source="lcnaf">Hubbard, George W. (George Warner)</persname>
+<persname encodinganalog="700" source="lcnaf">Seelye, Laurenus Clark, 1837-1924.</persname>
+<persname encodinganalog="700" source="lcnaf">Smith, Sophia, 1796-1870.</persname>
+<persname encodinganalog="700" source="lcnaf">Wells, Daniel White, 1842-</persname>
+</controlaccess>
+<descgrp type="add" id="addinfo">
+<head>Additional Information</head>
+<relatedmaterial id="add-related">
+<head>Related Material</head>
+<p>See also:
+  10.Founding of the College
+  10.Sophia Smith Papers
+</p>
+</relatedmaterial>
+</descgrp>
+<dsc type="in-depth" id="list-contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I.  Biographical Materials</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>Addresses:  Centennial of the Birth of Sophia Smith
+<unitdate>1853, 1896</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>Biography and Genealogy
+<unitdate>1864-1997</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>Household Servants
+<unitdate>1863</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Obituaries, correspondence re: death of
+<unitdate>1919, 1930</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>Rogers Hall School
+<unitdate>1901-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>General:  Watch- see artifacts
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Greene, Louisa
+<unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>Photographs
+<unitdate>1860, 1879, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>Photographs:  Portraits
+<unitdate>1913, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>Portrait:  Clippings and Correspondence
+<unitdate>1894-1938</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>Photograph:  Emily Dickinson
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">12</container>
+<unittitle>Professional Employment:  Appleton St. Church, Lowell, MA
+<unitdate>1870, 1879</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">13</container>
+<unittitle>Professional Employment:  Eliot Church, Lowell, MA
+<unitdate>1881-1948, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">14</container>
+<unittitle>Professional Employment:  Eliot Church, Lowell, MA:  Sermons
+<unitdate>1887-1909</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">15</container>
+<unittitle>Professional Employment:  Enfield, CT Church
+<unitdate>1866</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">16</container>
+<unittitle>Professional Employment:  Hatfield:  Congregational Church, Hatfield MA
+<unitdate>1857-1925</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">17</container>
+<unittitle>Professional Employment:  South Hadley:  First Church, South Hadley, MA
+<unitdate>1870</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">18</container>
+<unittitle>Smith Charities
+<unitdate>1875</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">19</container>
+<unittitle>Sophia Smith:  Excerpts from journals
+<unitdate>1860-1911</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II.  Correspondence</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">1</container>
+<unittitle>Index</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">2</container>
+<unittitle>from:  Burton, Marion LeRoy
+<unitdate>1909-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">3</container>
+<unittitle>to Alcott, Mr.
+<unitdate>1881, 1883</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">4</container>
+<unittitle>from:  Ames, Henrietta
+<unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">5</container>
+<unittitle>to:  Brown, Nina Eliza, '82
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">6</container>
+<unittitle>to:  Caverno, Julia Harwood, '87
+<unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">7</container>
+<unittitle>to: Clark, Elizabeth (Lawrence), '83
+<unitdate>1911</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">8</container>
+<unittitle>to:  Clark, Josephine Adelaide, '80
+<unitdate>1910, 1914</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">9</container>
+<unittitle>to:  Cone, Kate (Morris), '79
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">10</container>
+<unittitle>to:  Dickinson, Mrs.  (mother-in-law)
+<unitdate>1886</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">11</container>
+<unittitle>to: Fuller, Grace P.
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">12</container>
+<unittitle>to:  Greene, Helen F., '91
+<unitdate>1898-1905</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">13</container>
+<unittitle>from:  Greene, Louisa Dickinson.(before marriage)
+<unitdate>1856-57</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">14</container>
+<unittitle>from:  Greene, Louisa Dickinson to others
+<unitdate>1854-81</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">15</container>
+<unittitle>from:  Greene, Louisa Dickinson to JMG
+<unitdate>1866-75</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">16</container>
+<unittitle>to: Greene, Louisa Dickinson (wife)
+<unitdate>1863, 1864, 1878, 1880</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">17</container>
+<unittitle>to:  Greene, Louisa (daughter)
+<unitdate>1864, 1895, 1899, 1902</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">18</container>
+<unittitle>from:  Greene, Lulu (Louisa)</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">19</container>
+<unittitle>to:  Greene, William (brother)
+<unitdate>1853</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">20</container>
+<unittitle>from:  Greene, William S.
+<unitdate>1872</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">21</container>
+<unittitle>to:  Hill, Edith Naomi, '03
+<unitdate>1911, 1916</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">22</container>
+<unittitle>to:  Hubbard, George W.
+<unitdate>1868-1879</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">23</container>
+<unittitle>to:  Jackson, Alice, '98
+<unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">24</container>
+<unittitle>to:  Jordan, Mary Augusta
+<unitdate>1911</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">25</container>
+<unittitle>to:  Keyes, Bertha A.
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">26</container>
+<unittitle>to:  Mardus, Mrs.
+<unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">27</container>
+<unittitle>from:  Mason, John W.
+<unitdate>1894</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">28</container>
+<unittitle>from:  Northrop, B.G.
+<unitdate>1888</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">29</container>
+<unittitle>from:  Noyes, Lucia (Clapp), '81
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">30</container>
+<unittitle>to:  Park, Edward A.
+<unitdate>1979</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">31</container>
+<unittitle>to:  Parker, Mrs. Henry
+<unitdate>1906</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">32</container>
+<unittitle>from:  Scott, Mary Augusta
+<unitdate>1911</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">33</container>
+<unittitle>from:  Seelye, L. Clark
+<unitdate>1881-1918</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">34</container>
+<unittitle>to:  Smith, Sophia
+<unitdate>1869-70</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">35</container>
+<unittitle>to Tucker, Charlotte (Cheever)
+<unitdate>1891-92</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">36</container>
+<unittitle>to Tyler, William S.
+<unitdate>1873, 1882-84</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">37</container>
+<unittitle>from:  Tyler, William S.
+<unitdate>1875</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">38</container>
+<unittitle>from:  Warner, Elisa A.
+<unitdate>1882</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">39</container>
+<unittitle>from:  Wells, D. W.
+<unitdate>1893-1916</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">40</container>
+<unittitle>to:  Whipple, Mrs. Shipman
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III.  Journals</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">3-4</container>
+<unittitle>Journals
+<unitdate>1883-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">1</container>
+<unittitle>Journal and scrapbook index
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">5</container>
+<container type="folder">2</container>
+<unittitle>Journal excerpts
+<unitdate>1861-1917</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">6</container>
+<unittitle>Journals
+<unitdate>1833-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser4">
+<did>
+<unittitle>Series IV.  Publications</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">1</container>
+<unittitle>Sketch of the Life and Character of Sophia Smith
+<unitdate>1875</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">2</container>
+<unittitle>Early History of Smith College, Daily Hampshire Gazette
+<unitdate>1891-93</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">3</container>
+<unittitle>Early History of Smith College, Correspondence
+<unitdate>1881-1919</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">4</container>
+<unittitle>Early History of Smith College, Typescript
+<unitdate>1891</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">5</container>
+<unittitle>Happy Wedlock
+<unitdate>1900</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">6</container>
+<unittitle>Little Things for Little Folk, parts I-IV
+<unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">7</container>
+<unittitle>Little Things for Little Folk, parts V-VII
+<unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">8</container>
+<unittitle>Looking on the Bright Side
+<unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">9</container>
+<unittitle>Friendship
+<unitdate>1865</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">10</container>
+<unittitle>Semi-Centennial of the Eliot Church, Lowell, MA
+<unitdate>1881</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">11</container>
+<unittitle>Publications:  General
+<unitdate>1897</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">12</container>
+<unittitle>Inside View of Smith College
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">7</container>
+<container type="folder">13</container>
+<unittitle>Pub.  Miscellaneous
+<unitdate>1909</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser5">
+<did>
+<unittitle>Series V.  Scrapbook</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">1</container>
+<unittitle>Index</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">2</container>
+<unittitle>pages 1-10
+<unitdate>1872</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">3</container>
+<unittitle>pages 11-20
+<unitdate>1872-73</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">4</container>
+<unittitle>pages 21-30
+<unitdate>1875-77</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">5</container>
+<unittitle>pages 31-40
+<unitdate>1888</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">6</container>
+<unittitle>pages 41-50
+<unitdate>1873-82</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">7</container>
+<unittitle>pages 51-60
+<unitdate>1894-96</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">8</container>
+<unittitle>pages 61-70
+<unitdate>1893-1913</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">9</container>
+<unittitle>pages 71-80
+<unitdate>1896-1907</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">10</container>
+<unittitle>pages 81-90
+<unitdate>1906-1916</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">8</container>
+<container type="folder">11</container>
+<unittitle>pages 91- end
+<unitdate>1866-79</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<unittitle>Books pertaining to Smith College- addresses by Seelye, Tyler, etc.</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">12</container>
+<unittitle>Greene, John Morton:  "My Notes on Smith College"
+<unitdate>1883</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

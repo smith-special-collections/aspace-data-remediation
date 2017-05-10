@@ -1,0 +1,2220 @@
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::manosca//TEXT us::manosca::manosca119.xml//EN" countrycode="us" mainagencycode="manosca">manosca119</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Harris Hawthorne Wilder Papers, 1868-1975 [Bulk Dates: 1882-1928]
+</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author>Finding aid prepared by manosca.</author>
+<sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+</titlestmt>
+<publicationstmt>
+<publisher>Smith College Archives</publisher>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+<date>&#x00A9; 2003 </date>
+<p>Smith College. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Eric Cartier.
+<date>2003-06-18</date>
+</creation>
+<langusage>Finding aid written in
+<language>English.</language>
+</langusage>
+</profiledesc>
+<revisiondesc>
+<change>
+<date normal="2005-09-23">2005-09-23</date>
+<item>manosca119 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+</change>
+</revisiondesc>
+</eadheader>
+<frontmatter id="front">
+<titlepage>
+<publisher>Smith College Archives</publisher>
+<titleproper>Harris Hawthorne Wilder Papers, 1868-1975 [Bulk Dates: 1882-1928]
+</titleproper>
+<num>RG 42</num>
+<sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+<archdesc relatedencoding="MARC21" level="collection">
+<did id="main-overview">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Wilder, Harris Hawthorne, 1864-1928.</persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">Harris Hawthorne Wilder Papers</unittitle>
+<unitdate encodinganalog="245$f" type="inclusive">1868-1975</unitdate>
+<unitdate encodinganalog="245$g" type="bulk">1882-1928</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">54 boxes plus oversized material</extent>
+<extent encodinganalog="300$a">(21 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Smith College Archives</corpname>
+<address>
+<addressline>Northampton, MA</addressline>
+</address>
+</repository>
+<abstract label="Abstract:" encodinganalog="520$a">Research scientist, writer, and founder of the Zoology Department at Smith College. The Wilder papers reflect a single, overarching theme:  Wilder is a man of science.  Though both personal and professional papers are included in this collection, very few documents fall outside of this portrait. Materials include biographical material, photographs, writings, memorabilia, scrapbooks, research materials, slides, and diaries.  Also included are an autobiography of his youth and correspondence, including 22 items from mentor and Amherst College professor John Tyler.</abstract>
+<langmaterial label="Language of Material:">
+<language langcode="eng">English</language> and
+<language langcode="ger">German</language>
+</langmaterial>
+</did>
+<bioghist id="bioghist">
+<head>Biographical Note</head>
+<p>Harris Hawthorne Wilder was born in Bangor, Maine, on April 7, 1864. He was the only child of Solon Wilder and Sarah Watkins Smith. His father was a noted musical director and composer in New England, who published a book of church hymns in 1874, including a number of original pieces. His most recognized composition was an arrangement of Augustus Toplady's Rock of Ages, using a responsive double chorus. Harris Hawthorne Wilder takes his lifelong nickname, "Hallie," from his father's musical proclivities, a name drawn from Handel's Hallelujah Chorus, referring to Solon Wilder's fondness for grand oratorios.</p>
+<p>His mother, Sarah "Sally" Wilder, was the family homemaker, who continued in this role for her adult son until her death in 1907. She came from a family of physicians, including her father, Chandler Smith, and three uncles. Although Wilder's maternal grandparents died too early to influence him directly, Wilder later cited his mother's family for his original interest in biological and anatomical matters.</p>
+<p>Harris Wilder lived the first three years of his life in Bangor, as his father served as chorister at the French Street Congregational Church. In 1888, the family moved to the Boston area where Solon Wilder accepted a teaching position at the Boston Conservatory of Music. He was also chorister at the Shepherd Memorial Church in Cambridge. During the Wilders' stay in Cambridge, Sarah Wilder's recently widowed sister, Eliza Gardner Smith, lived with the Wilder family. Wilder credits his "Aunt Lizzie" with inspiring him toward a life of learned curiosity, as well as instructing him in drawing, a talent that marked his professional career and one evident throughout this collection of his personal papers. "Aunt Lizzie's" daughter, and Harris Wilder's cousin, Rebecca Wilder Holmes, eventually joined Harris Wilder at Smith College as a professor of music.</p>
+<p>In 1871, prompted by Solon Wilder's poor health, the Wilder family moved to Princeton, Massachusetts, and lived with Solon Wilder's parents, Ivory and Louisa Wilder. During the following years, Solon Wilder expanded his reputation by organizing and conducting a number of musical festivals throughout New England, plus a number in the Midwest. In 1871, a young Harris Wilder accompanied his family on one tour to Pennsylvania, Minnesota, and finally to Missouri, where he investigated the caves made famous by Mark Twain in Tom Sawyer. Solon Wilder died of tuberculosis in 1874, when Harris Wilder was ten years old.</p>
+<p>Inspired by his mother and his "Aunt Lizzie," Harris Wilder showed a bent toward scientific investigation from a young age. As a boy, he would cut out paper dolls like many children, but would then diagram their skeletons. When Wilder was six, a family friend presented him with a seven-month human embryo skeleton. He was also given a human skull by another aunt. He often brought home carcasses of woodchucks and skunks in order to reconstruct their skeletons. While living in Cambridge, he built his own museum containing numerous skeletons. When he was a young adolescent, a local physician, Joseph O. West, helped him unearth the doctor's dead horse, "Thomas Equinas," so Wilder could study the horse's anatomy. By the age of fourteen, he was regularly corresponding with Alfred Wially, a French scientist living in London, and exchanging silk-producing moth cocoons.</p>
+<p>Growing up in Princeton, a summer retreat community near Mt. Wachusett, afforded Wilder the opportunity to meet many interesting and successful people boarding in his family's home. Some of the children of these visitors became lifelong friends. In 1880, he traveled to Worcester to attend high school, returning home on the weekends. As a young student, he took part in numerous musical productions, a talent he utilized throughout his later life at Smith College.</p>
+<p>Wilder family's financial resources were limited and only with a gift from the Chickering family, regular summer boarders at the Wilder house, could he attend college. Daughter May Chickering remained a friend throughout Wilder's life. In 1882, Wilder enrolled at Amherst College, studying zoology and classics. There he met Professor John Tyler, who had just introduced a biology department at Amherst. Tyler would become a main influence in Wilder's professional life.</p>
+<p>After receiving his A.B. from Amherst in 1886, Wilder taught biology for three years in the Chicago public school system. In 1889, motivated by Tyler who had also studied in Germany, Wilder traveled to Freiburg University, a noted center of amphibian research, to pursue a doctorate degree. He Studied with Robert Wiedersheirn and August Weismann and received his Ph.D. in 1891. A minor subject of his examination was medieval English. He returned to the United States and taught again in Chicago. Wilder's mother accompanied her son in all his career moves. A year later in 1892, Wilder obtained a position at Smith College. He would remain at Smith for the next thirty-six years.</p>
+<p>Wilder's professional achievements and his contributions to the Smith College curriculum were numerous. In his second year at Smith, Wilder founded the school's Zoology Department. Two years later he added fieldwork to the curriculum, a rare notion at that time. By the early 1900s, his classes, especially those in evolution and anthropology, were overenrolled by both majors and non-majors. He was an active researcher and writer, publishing either an article or a book nearly every year of his professional life. He produced five major books: <title render="italic">History of the Human Body</title>, <title render="italic">Personal Identification</title>, <title render="italic">A Laboratory Manual of Anthropometry</title>, <title render="italic">Allan's Prehistoric Past</title>, and <title render="italic">The Pedigree of the Human Race</title>. His primary areas of research were amphibian studies, primate and human identification using palm and sole prints, teratology (the study of genetic malformations) among human twins, comparative anatomy, and physical anthropology, including the excavations of skeletal remains of indigenous Indian races of Massachusetts. Notable achievements included the discovery of a species of salamanders without lungs or gills, and the development of a system for reconstructing a lifelike human face solely from the measurements taken from a deceased individual's skull. Although interested in the study of eugenics, a popular field at the turn of the century, Wilder differed with many of his colleagues by suggesting that the differences between races, which to Wilder were often evolutionary adaptations to climate, should be celebrated by science, not used as a means of social and political separation.</p>
+<p>In 1901, Wilder met Inez Whipple, one of the Zoology Department's first graduate students. The two co-taught a class in 1906, "Anatomy and Physiology of Man." That same year, Wilder and Whipple were married. In 1914, Inez Whipple Wilder became a full professor at Smith. The couple frequently worked together in their research. The Wilders led an active social life in the Northampton community, and their Belmont Street house, which was located a block from campus and built from a plan of an Italian villa, became a popular gathering place for friends, students, and visiting scholars. Their life together included many travels to Egypt, Jamaica, and southern Europe. In 1920, Harris Wilder taught at Ginling University in Shanghai, China. Following the Wilders' return from China, their home became a center for visiting students from China.</p>
+<p>Wilder died of a cerebral hemorrhage on February 27, 1928. He was working on his autobiography when he died. Inez Wilder completed the early stages of this project before her own death a year later.</p>
+</bioghist>
+<bioghist id="bioghist-chron">
+<head>Biographical Note</head>
+<chronlist>
+<chronitem>
+<date>1864 (April 7)</date>
+<event>born in Bangor, Maine</event>
+</chronitem>
+<chronitem>
+<date>1867</date>
+<event>family moved to South Boston, Massachusetts</event>
+</chronitem>
+<chronitem>
+<date>1868</date>
+<event>family moved to Cambridge, Massachusetts</event>
+</chronitem>
+<chronitem>
+<date>1872</date>
+<event>family moved to Princeton, Massachusetts</event>
+</chronitem>
+<chronitem>
+<date>1874</date>
+<event>Solon Wilder, father, died</event>
+</chronitem>
+<chronitem>
+<date>1880-1882</date>
+<event>attended Worcester Classical High School</event>
+</chronitem>
+<chronitem>
+<date>1882-1886</date>
+<event>attended Amherst College (A.B.)</event>
+</chronitem>
+<chronitem>
+<date>1886-1889</date>
+<event>taught high school biology in Chicago, Illinois</event>
+</chronitem>
+<chronitem>
+<date>1886</date>
+<event>Ivory Wilder, grandfather (paternal), died</event>
+</chronitem>
+<chronitem>
+<date>1888</date>
+<event>Louisa Wilder, grandmother (paternal), died</event>
+</chronitem>
+<chronitem>
+<date>1889-1891</date>
+<event>attended Freiburg University, Germany (Ph.D.)</event>
+</chronitem>
+<chronitem>
+<date>1891-1892</date>
+<event>taught high school biology in Chicago, Illinois</event>
+</chronitem>
+<chronitem>
+<date>1892-1928</date>
+<event>taught zoology at Smith College, Northampton, Massachusetts</event>
+</chronitem>
+<chronitem>
+<date>1906 (July 26)</date>
+<event>married Inez Whipple</event>
+</chronitem>
+<chronitem>
+<date>1907</date>
+<event>Sarah Watkins Smith, mother, died</event>
+</chronitem>
+<chronitem>
+<date>1916</date>
+<event>HHW and Inez Wilder nearly drown in Connecticut River</event>
+</chronitem>
+<chronitem>
+<date>1928 (February 27)</date>
+<event>died</event>
+</chronitem>
+</chronlist>
+</bioghist>
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>The Harris Hawthorne Wilder papers, perhaps by Wilder's own intent, reflect a single overarching theme: Wilder as a man of science. Although the collection comprises both personal and professional materials, very few documents fall outside of this portrait. Even personal documents such as diaries and correspondence tend to illustrate Wilder's buoyant compassion for the natural world. Personal items unrelated to Wilder's interest in science are rare. Whether this focus reflects Wilder the man, or just this particular collection, is not certain.</p>
+<p>The Wilder papers, measuring 21 linear feet (54 boxes), include biographical accounts, both formal and informal; eulogies and obituaries; newspaper clippings, including accounts of the near drowning of Wilder and his wife; genealogical studies; photographs; memorabilia; scrapbooks; diaries; an autobiography of his youth; correspondence, including 22 items from mentor and Amherst College professor John Tyler; class notes made as a student at Amherst and at Freiburg University in Germany; lecture notes made as a teacher; publications; unpublished manuscripts; speeches; original research data; and a slide collection used in his teaching. These materials date from 1868-1975, with the bulk spanning 1882-1928.</p>
+<p>The strengths of this collection lie in two areas: 1) biographical materials, especially those concerned with Wilder's early life, and 2) Wilder's research and publications. Professional materials include either the original manuscripts or reprints of most of his 65-item bibliography. These documents, however, tend to represent the final stages of publication with few items offering a view into Wilder's preliminary thinking. These files appear to be Wilder's office files rather than his working files. A view into the early stages of Wilder's writing process is available in many of his unpublished manuscripts, which often contain early versions of material that appeared in publications years later.</p>
+<p>Wilder students often remembered him as an inspiring teacher and examples of his teaching style can be found in his handwritten "Popular Lectures." He was also noted for his generalist, "man for all seasons," approach to knowledge, drawn principally from his early training in the classics. This tendency can be seen in manuscripts of Popular speeches, which Wilder presented at Northampton social functions. Other notable materials from Wilder's professional life include the original palm and sole prints from his internationally acclaimed dermatoglyphics research, a field that he discovered.</p>
+<p>A noticeable weakness of the collection is the relative absence of items from Wilder's adult personal life, especially from his life with wife and fellow Smith College professor Inez Wilder. Only photographs and secondary biographical accounts offer a view of this period. Wilder's adult life is represented almost exclusively by his professional activities. As a result, the Wilder collection offers little to researchers wanting to recreate the social milieu around Smith College and Northampton near the turn of the century. Researchers wanting to reconstruct the formal history of Smith College may find letters written by Wilder as the dean of the Zoology Department to the Board of Trustees useful.</p>
+<p>By contrast, his autobiography, diaries, childhood correspondence, memorabilia, and scrapbooks offer an excellent view into the private history of a boy growing up in a rural Massachusetts resort town between 1865-1885.</p>
+<p>The Wilder collection also contains an extensive genealogical study by Wilder himself. Wilder's family came from old New England stock, including Thomas Wilder who first arrived in America in 1638, and perhaps even an unconfirmed Wilder who arrived on the Mayflower. Wilder traced his family tree back to Nicholas Wilder, who fought at Bosworth Field in 1485 and received a landed estate (Shiplake) and coal of arms (Burke's Peerage, sub. Wilder) from Henry VII.</p>
+</scopecontent>
+<arrangement encodinganalog="351$a" id="scope-org">
+<head>Organization of the Collection</head>
+<p>This collection is organized into six series:</p>
+<list>
+<item>
+<ref target="list-ser1">I. Biographical</ref>
+</item>
+<item>
+<ref target="list-ser2">II. Photographs</ref>
+</item>
+<item>
+<ref target="list-ser3">III. Memorabilia</ref>
+</item>
+<item>
+<ref target="list-ser4">IV. Non-Professional Writings</ref>
+</item>
+<item>
+<ref target="list-ser5">V. Correspondence</ref>
+</item>
+<item>
+<ref target="list-ser6">VI. Professional Activities</ref>
+</item>
+<item>
+<ref target="list-serOV">Oversize Materials</ref>
+</item>
+</list>
+</arrangement>
+<arrangement id="scope-arr">
+<head>Arrangement of the Collection</head>
+<p>The Harris Hawthorne Wilder papers naturally break into two large intellectual groups, non-professional activities and professional activities. This collection is arranged to offer both the most direct access into these two areas, as well as the most logical progression through the entire collection. The collection is divided into six series, The first five emphasize Wilder's non-professional life: 1) Biographical; 2) Photographs; 3) Memorabilia; 4) Non-Professional Writings; and 5) Correspondence. This ordering allows for a progressively more specific understanding of Wilder's nonprofessional life. Correspondence follows Writings in this collection as many correspondents are introduced in Wilder's diaries and in the autobiography of his preadult life. The sixth series, Professional Activities, is subdivided into categories of Teaching, Publications, Unpublished Manuscripts, Speeches, Research, and Teaching and Research Tools. Genealogical information is located within the Biographical series.
+</p>
+</arrangement>
+<descgrp type="admininfo" id="admin">
+<head>Information on Use</head>
+<descgrp type="admininfo">
+<head>Terms of Access and Use</head>
+<accessrestrict encodinganalog="506" id="admin-access">
+<p>The papers are open to research according to the regulations of the Smith College Archives without any added restrictions. </p>
+</accessrestrict>
+<userestrict encodinganalog="540" id="admin-use">
+<p>All rights are owned by the Smith College Archives and permission is required for publication beyond "fair use."
+</p>
+</userestrict>
+</descgrp>
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p>Please use the following format when citing materials from this collection:</p>
+<p>Harris Hawthorne Wilder Papers, Box #, Smith College Archives.</p>
+</prefercite>
+<descgrp type="admininfo">
+<head>History of the Collection</head>
+<acqinfo id="admin-acqinfo">
+<p>A common problem among older archives is that early collections often arrived without any formal documentation or acknowledgement. Many collections in the Smith College Archives, founded in the late 19th century, arrived even prior to the advent of modern archival practices. Such is the case with the Harris Hawthorne Wilder papers. The original date of arrival and the name of the depositor are unknown.
+</p>
+</acqinfo>
+</descgrp>
+</descgrp>
+<dsc type="in-depth" id="list-contlist">
+<c01 level="series" id="list-ser1">
+<did>
+<unittitle>Series I.  Biographical</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">1</container>
+<unittitle>Index</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">2</container>
+<unittitle>Biographical accounts, published and unpublished
+<unitdate>1971-1975, 1982, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">3</container>
+<unittitle>Obituaries
+<unitdate>1928, 1929</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">4</container>
+<unittitle>Newspaper clippings
+<unitdate>1906-1932, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">5</container>
+<unittitle>Wilder Family Genealogy
+<unitdate>1874, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">6</container>
+<unittitle>Biographical and genealogical notes based on writings by HHW, unidentified [Inez Wilder?]
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">7</container>
+<unittitle>Awards and Memberships
+<unitdate>1902-1923</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser2">
+<did>
+<unittitle>Series II.  Photographs</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">8</container>
+<unittitle>HHW
+<unitdate>1894, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">9</container>
+<unittitle>Family
+<unitdate>1879-1926, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">10</container>
+<unittitle>HHW with colleagues and Students
+<unitdate>1896-1901, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">1</container>
+<container type="folder">11</container>
+<unittitle>HHW in Germany
+<unitdate>1889-1891</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser3">
+<did>
+<unittitle>Series III.  Memorabilia</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">1</container>
+<unittitle>Childhood: 1)
+<unitdate>1869</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">2</container>
+<unittitle>Childhood: 2)
+<unitdate>1871-1879</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">3</container>
+<unittitle>Education: Worcester High School
+<unitdate>1880-1883</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">4</container>
+<unittitle>Education: Amherst College: 1) Notebooks
+<unitdate>1883, 1884, nd.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">5</container>
+<unittitle>Education: Amherst College: 2) Notebooks
+<unitdate>1884, 1885, n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">6</container>
+<unittitle>Education: Amherst College: 3) Drawing
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">7</container>
+<unittitle>Education: Amherst College: 4) Letters of Recommendation, Commencement Announcement
+<unitdate>1886, 1888</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">8</container>
+<unittitle>Education: Freiburg University: 1) HHW visiting card; Notebooks
+<unitdate>[1889-1891]</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">9</container>
+<unittitle>Education: Freiburg University: 2) Notebooks
+<unitdate>[1889-1891]</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">10</container>
+<unittitle>Education: Freiburg University: 3) Drawings
+<unitdate>1889</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">11</container>
+<unittitle>Family Correspondence
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">12</container>
+<unittitle>Scrapbooks: Childhood [annotated by HHW]
+<unitdate>1868-1872, 1878-1879</unitdate>
+</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-serOV">[See Oversize Materials]</ref>
+</p>
+</note>
+</c02>
+<c02>
+<did>
+<container type="box">2</container>
+<container type="folder">13</container>
+<unittitle>Scrapbooks: Adult
+<unitdate>1896-1911</unitdate>
+</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-serOV">[See Oversize Materials]</ref>
+</p>
+</note>
+</c02>
+</c01>
+<c01 level="series" id="list-ser4">
+<did>
+<unittitle>Series IV.  Writings, Non-Professional</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">1</container>
+<unittitle>Diaries
+<unitdate>1876-1882</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">2</container>
+<unittitle>Autobiography (of early life)
+<unitdate>1930</unitdate>
+</unittitle>
+</did>
+</c02>
+</c01>
+<c01 level="series" id="list-ser5">
+<did>
+<unittitle>Series V.  Correspondence</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">3</container>
+<unittitle>A. To Family from HHW
+<unitdate>1872, 1880</unitdate>
+</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">3</container>
+<unittitle>B. From friends and associates to HHW (with transcriptions)
+<unitdate>1875-1923</unitdate>
+</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">4</container>
+<unittitle>1) Chickering, Mary (2)
+<unitdate>1879, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">5</container>
+<unittitle>2) Grimes, Thaddeus (1)
+<unitdate>1878</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">6</container>
+<unittitle>3) Hyeth, E. (1)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">7</container>
+<unittitle>4) Johnson, Helen (1)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">8</container>
+<unittitle>5) Kimball, George (5)
+<unitdate>1875, 1876, 1877, 1880, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">9</container>
+<unittitle>6) Porter, Charles Alden (10)
+<unitdate>1875-1879</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">10</container>
+<unittitle>7) Potter, John M. (8)
+<unitdate>1877-1879</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">11</container>
+<unittitle>8) Roote, C.B. (1)
+<unitdate>1914</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">12</container>
+<unittitle>9) Scott, Mary Augusta (1)
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">13</container>
+<unittitle>10) Shanghai College (1), fragment
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">14</container>
+<unittitle>11) Tyler, John W. (22)
+<unitdate>1886-1892, 1919-1923, n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">15</container>
+<unittitle>12) Wailly, A. (2)
+<unitdate>1879, 1880</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">16</container>
+<unittitle>13) Watson, Arthur (1)
+<unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">3</container>
+<container type="folder">17</container>
+<unittitle>14) Wesselhoeft, C. (1)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<container type="box">3</container>
+<container type="folder">18</container>
+<unittitle>Poems and Songs</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-teachsmith">[See Professional Activities: Teaching: Smith College]</ref>
+</p>
+</note>
+</c02>
+</c01>
+<c01 level="series" id="list-ser6">
+<did>
+<unittitle>Series VI.  Professional Activities</unittitle>
+</did>
+<c02>
+<did>
+<unittitle>Teaching</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">4</container>
+<container type="folder">1</container>
+<unittitle>Teaching: High School in Chicago
+<unitdate>1891-1892</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03 id="list-teachsmith">
+<did>
+<unittitle>Teaching: Smith College, arranged chronologically
+<unitdate>1892-1928</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">4</container>
+<container type="folder">2</container>
+<unittitle>A. Zoology Department Course Descriptions
+<unitdate>1892-1928</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">4</container>
+<container type="folder">3</container>
+<unittitle>B. Course Notes: General Zoology
+<unitdate>1892-1894, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">4</container>
+<container type="folder">4</container>
+<unittitle>C. Course Notes: Invertebrates
+<unitdate>1897-1901, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">4</container>
+<container type="folder">5</container>
+<unittitle>D. Course Notes: Histology and Cytology
+<unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">4</container>
+<container type="folder">6</container>
+<unittitle>E, Course Notes: Philosophical Zoology
+<unitdate>1905</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">5</container>
+<container type="folder">1</container>
+<unittitle>F. Course Notes: Animal Evolution
+<unitdate>1908-1912</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">5</container>
+<container type="folder">2</container>
+<unittitle>G. Course Notes: Economic Zoology
+<unitdate>1899, bulk 1909-1910</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">5</container>
+<container type="folder">3</container>
+<unittitle>H. Course Notes: Vertebrate Embryology
+<unitdate>1910-1911</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">5</container>
+<container type="folder">4</container>
+<unittitle>I. Course Notes: Evolution-Anthropology
+<unitdate>1912-1913</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">5</container>
+<container type="folder">5</container>
+<unittitle>J. Course Notes: Ethnology
+<unitdate>1912, 1918, 1922</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">1</container>
+<unittitle>K. Course Notes: Anthropology
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">2</container>
+<unittitle>L. Course Notes: History of Anatomy
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">3</container>
+<unittitle>M. Course Notes: Vertebrate Morphology
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">6</container>
+<container type="folder">4</container>
+<unittitle>N. Course Notes: Other
+<unitdate>1899, 1901, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">7</container>
+<container type="folder">1</container>
+<unittitle>O. "Popular Lectures" (both course-related and non course-related)
+<unitdate>1891-1987</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">7</container>
+<container type="folder">2</container>
+<unittitle>P. Student Notes from class taught by HHW
+<unitdate>1893</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">7</container>
+<container type="folder">3</container>
+<unittitle>Q. Poems and Songs on Zoology: by HHW, students, and others
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">7</container>
+<container type="folder">4</container>
+<unittitle>R. Zoology Department Operations
+<unitdate>1898-1918</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">5</container>
+<unittitle>Teaching: "C.S.H. Summer of 1918," unidentified</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">7</container>
+<container type="folder">6</container>
+<unittitle>Teaching: Ginling College, China
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Publications</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">1</container>
+<unittitle>Publications (arranged chronologically): Bibliographies</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">2</container>
+<unittitle>Publications: "A Contribution to the Anatomy of Siren Lacertina," (reprint)
+<unitdate>1891</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">2</container>
+<unittitle>"Die Nasengegend von Menopoma Alleghaniense und Amphiuma Tridactylum," (reprint)
+<unitdate>1891</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">2</container>
+<unittitle>"Studies in the Phylogenesis of the Larynx," (reprint)
+<unitdate>1892</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">2</container>
+<unittitle>"Lungenlose Salamandriden," (reprint)
+<unitdate>1893</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">2</container>
+<unittitle>"The Amphibian Larynx," (reprint)
+<unitdate>1896</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">3</container>
+<unittitle>Publications: "Lungless Salamanders (Second Paper)," (reprint)
+<unitdate>1896</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">4</container>
+<unittitle>Publications: Invertebrate Zoology: A Synopsis of the Anirnal Kingdom, (monograph)
+<unitdate>1894</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">5</container>
+<unittitle>Publications: "Studies in Fresh-Water Entomostraka," (reprint)
+<unitdate>1896</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">6</container>
+<unittitle>Publications: "Aquaria: Their Construction and Equipment," (reprint)
+<unitdate>n.d. [1898-1913]</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">7</container>
+<unittitle>Publications: "The Pharyngo-Oesophageal Lung of Desmognathus Fusca," (original manuscript and reprint)
+<unitdate>1901</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">8</container>
+<unittitle>Publications: A Synopsis of the Animal Kingdom, (monograph)
+<unitdate>1902</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">9</container>
+<unittitle>Publications: "Palms and Soles," (reprint)
+<unitdate>1902</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">9</container>
+<unittitle>Publications: "Scientific Palmistry," (reprint)
+<unitdate>1902</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">9</container>
+<unittitle>Publications: "Palm and Sole Impressions and Their Use for Purposes of Personal Identification," (reprint)
+<unitdate>1903</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">9</container>
+<unittitle>Publications: [Preface] "The Ventricle Surface of the Mammalian Chiridium with Special Reference to the Condition Found in Man," (reprint)
+<unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">10</container>
+<unittitle>Publications: "The Skeletal System of Necturus Maculatus Rafinesque," (reprint)
+<unitdate>1903</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">11</container>
+<unittitle>Publications: "On Titles for Papers," (reprint)
+<unitdate>1904</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">12</container>
+<unittitle>Publications: "Zur Korperlichen Identitat bei Zwillingen," (reprint)
+<unitdate>1908</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">8</container>
+<container type="folder">13</container>
+<unittitle>Publications: "The Morphology of Cosmobia: Speculations Concerning the Significance of Certain Types of Monsters," (reprint)
+<unitdate>1908</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<unittitle>Publications: &lt;title&gt;History of the Human Body&lt;/title&gt;,
+<unitdate>1909 (revised 1923)</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">1</container>
+<unittitle>A. Statement by HHW concerning manuscript (copy)</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">2</container>
+<unittitle>B. Original manuscript: Chapters I-IV</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">3</container>
+<unittitle>C. Original manuscript and drawings: Chapters V-VI</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">4</container>
+<unittitle>D. Original manuscript and drawings: Chapters VII-VIII</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">5</container>
+<unittitle>E. Original manuscript and drawings: Chapters IX-X</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">6</container>
+<unittitle>F. Original manuscript and drawings: Chapters XI-XII</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">9</container>
+<container type="folder">7</container>
+<unittitle>G. Drawings: Chapters XIII-XIV</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">1</container>
+<unittitle>H. Galleys of figures [part 1]</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">2</container>
+<unittitle>I. Galleys of figures [part 2]</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">3</container>
+<unittitle>J. Illustrations</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">10</container>
+<container type="folder">4</container>
+<unittitle>K. Author's copy</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">1</container>
+<unittitle>Publications: "A Petroglyph from Eastern Massachusetts," (reprint)
+<unitdate>1911</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">2</container>
+<unittitle>Publications: "The Appendicular Muscles of Necturus Maculosus," (reprint)
+<unitdate>1912</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">3</container>
+<unittitle>Publications: "The Physiognomy of the Indians of Southern New England," (reprint)
+<unitdate>1912</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">4</container>
+<unittitle>Publications: "Racial Differences in Palm and Sole Configurations," (reprint)
+<unitdate>1913</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">5</container>
+<unittitle>Publications: "[Introduction]," The Craniometry of Southern New England Indians, (reprint)
+<unitdate>1915</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">6</container>
+<unittitle>Publications: "Palm and Sole Studies," (reprint)
+<unitdate>1916</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">7</container>
+<unittitle>Publications: "Restoration of a Cliff-Dweller," (reprint)
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">8</container>
+<unittitle>Publications: "The Position of the Body in Aboriginal Internments in Western Massachusetts," (reprint)
+<unitdate>1917</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">9</container>
+<unittitle>Publications: "Desmognathus Fuscus (sic)," (reprint)
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<unittitle>Publications: &lt;title&gt;Personal Identification: Methods for the Identification of Individuals Living or Dead&lt;/title&gt;,
+<unitdate>1918</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">11</container>
+<container type="folder">10</container>
+<unittitle>A. Early draft, <unitdate>1905</unitdate>: quotations for chapter headings</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">11</container>
+<container type="folder">11</container>
+<unittitle>B. Reviews and Press Notices</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">11</container>
+<container type="folder">12</container>
+<unittitle>C. Photograph of Wentworth, Bert (co-author)</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">11</container>
+<container type="folder">13</container>
+<unittitle>D. Correspondence</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">11</container>
+<container type="folder">14</container>
+<unittitle>E. Monograph of Personal Identification</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">15</container>
+<unittitle>Publications: "Physical Correspondence in Two Sets of Duplicate Twins," (reprint)
+<unitdate>1919</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">16</container>
+<unittitle>Publications: "A Ginling College Essay," (reprint)
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">11</container>
+<container type="folder">17</container>
+<unittitle>Publications: "Indian Corn-hills in Massachusetts," (reprint)
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">1</container>
+<unittitle>Publications: A Laboratory Manual of Anthropometry
+<unitdate>1920</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">2</container>
+<unittitle>Publications: "Anthropometric Measurements," (reprint)
+<unitdate>1921</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">3</container>
+<unittitle>Publications: "Racial Differences in Palm and Sole Configuration III: Palm and Sole Prints of Japanese and Chinese," (reprint)
+<unitdate>1922</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">4</container>
+<unittitle>Publications: "[Memorial to] Robert Wiedersheim," (reprint)
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">5</container>
+<unittitle>Publications: "Notes on the Indians of Southern Massachusetts," (reprint)
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<unittitle>Publications: &lt;title&gt;Man's Prehistoric Past&lt;/title&gt;,
+<unitdate>1923</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">12</container>
+<container type="folder">6</container>
+<unittitle>A. Galleys of figures; illustrations</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">12</container>
+<container type="folder">7</container>
+<unittitle>B. Reviews</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">12</container>
+<container type="folder">8</container>
+<unittitle>C. Copy inscribed by author</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">9</container>
+<unittitle>Publications: "The Phylogeny of the Human Foot: The Testimony Presented by the Configuration of the Friction Ridges," (reprint)
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">10</container>
+<unittitle>Publications: "The Bodily Proportions of Women in the United States: Based Upon Measurements Taken from One Hundred Smith College Students," (draft)
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">11</container>
+<unittitle>Publications: "[A Review of] Manual of the Vertebrates of the United States," (reprint)
+<unitdate>1924</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">12</container>
+<unittitle>Publications: "Palm and Sole Studies VIII. Occurrence of Primitive Patterns (Whorls)," (reprint)
+<unitdate>1925</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<container type="folder">13</container>
+<unittitle>Publications: "Palm and Sole Studies IX: The Morphology of the Hypothenar of the Hand: A Study in the Variation and Degeneration of a Typical Pattern," (reprint)
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">12</container>
+<unittitle>Publications: &lt;title&gt;The Pedigree of the Human Race&lt;/title&gt;,
+<unitdate>1926</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">1</container>
+<unittitle>A. Original Manuscript: preface: table of contents</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">2</container>
+<unittitle>B. Original Manuscript: Chapters I</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">3</container>
+<unittitle>C. Original Manuscript: Chapter II</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">4</container>
+<unittitle>D. Original Manuscript: Chapter III</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">5</container>
+<unittitle>E. Original Manuscript: Chapter IV</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">6</container>
+<unittitle>F. Original Manuscript: Chapter V</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">7</container>
+<unittitle>G. Original Manuscript: additions and revisions</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">8</container>
+<unittitle>H. Original Manuscript: list of illustrations; illustrations; photographs</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">9</container>
+<unittitle>I. Original Manuscript: reviews</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">13</container>
+<container type="folder">10</container>
+<unittitle>J. Copy inscribed by author</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">14</container>
+<container type="folder">1</container>
+<unittitle>Publications: "Study of Error in Interpretation and Formulation of Palmar Dermatoglyphics," (reprint)
+<unitdate>1928</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">14</container>
+<container type="folder">2</container>
+<unittitle>Publications: "Revised Methods of Interpretation and Formulation of Palmar Dermatoglyphics," (reprint)
+<unitdate>1929</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">14</container>
+<container type="folder">3</container>
+<unittitle>Bound volume of 13 HHW reprints
+<unitdate>1904-1918</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">14</container>
+<container type="folder">4</container>
+<unittitle>Illustrations, unidentified,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Unpublished Manuscripts</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">1</container>
+<unittitle>Unpublished Manuscripts (arranged alphabetically): "Acanthias Vulgaris,"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">2</container>
+<unittitle>Unpublished Manuscripts: "A Comparison of the Bones of the Skull of Desmognathus Fusca and Spelerpes Bislineatus,"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<container type="folder">3</container>
+<unittitle>Unpublished Manuscripts: "The Larynx of Pipa Americana,"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Unpublished Manuscripts: &lt;title&gt;Outlines of Anthropology&lt;/title&gt;,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">15</container>
+<container type="folder">4</container>
+<unittitle>A. Early manuscript
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">15</container>
+<container type="folder">5</container>
+<unittitle>B. 1908 manuscript (copy)</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">15</container>
+<container type="folder">6</container>
+<unittitle>C. 1909 manuscript (original)</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">15</container>
+<container type="folder">7</container>
+<unittitle>D. 1914 manuscript (copy)</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">15</container>
+<container type="folder">8</container>
+<unittitle>E. "Part 11: Ethnology" (copy)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">15</container>
+<container type="folder">9</container>
+<unittitle>F. "Part III: Ethnology" (copy)
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">15</container>
+<container type="folder">10</container>
+<unittitle>G. Miscellaneous notes and revisions
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">15</container>
+<container type="folder">11</container>
+<unittitle>H. Tracings of Text Figures
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">15</container>
+<unittitle>Unpublished Manuscripts: &lt;unittitle&gt;Outlines of Culture-History&lt;/unittitle&gt;,
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">1</container>
+<unittitle>A. Introduction</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">2</container>
+<unittitle>B. Chapter I "Man's View: Self and the World."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">3</container>
+<unittitle>C. Chapter II "The Use and Control of Fire."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">4</container>
+<unittitle>D. Chapter III "Tools and Their Use."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">5</container>
+<unittitle>E. Chapter IV "Basketry and Weaving."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">6</container>
+<unittitle>F. Chapter VII "Hunting and Fishing; Warfare."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">7</container>
+<unittitle>G. Chapter VIII "Domestication of Animals."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">8</container>
+<unittitle>H. Chapter IX "Domestication of Plants: Agriculture."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">9</container>
+<unittitle>I. Chapter X "Roads', Transportation; Orientation."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">10</container>
+<unittitle>J. Chapter X [XI] "Weights and Measures; Space and Time."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">11</container>
+<unittitle>K. Chapter XII "Decoration and Dress."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">12</container>
+<unittitle>L. Chapter XIII "Spoken Language."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">13</container>
+<unittitle>M. Chapter XVI "Games and Sports; Mime and Pageantry."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">14</container>
+<unittitle>N. Chapter XVIII "Fine-Arts."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">15</container>
+<unittitle>O. Chapter XX "Philosophy."</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">16</container>
+<container type="folder">16</container>
+<unittitle>P. Notes</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<container type="folder">17</container>
+<unittitle>Unpublished Manuscripts: "Outlines of Human Morphology,"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">16</container>
+<unittitle>Unpublished Manuscripts: "Outlines of Zoology,"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">17</container>
+<container type="folder">1</container>
+<unittitle>A. Table of Contents, Introduction, Vertebrates</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">17</container>
+<container type="folder">2</container>
+<unittitle>B. Mammalia, Samopsida, Ichthyopsida</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">17</container>
+<container type="folder">3</container>
+<unittitle>C. Prevertebrata: Articulata</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">17</container>
+<container type="folder">4</container>
+<unittitle>D. Articulata</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">17</container>
+<container type="folder">5</container>
+<unittitle>E. Arachnoidea</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">17</container>
+<container type="folder">6</container>
+<unittitle>F. Carbon copy of manuscript</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">17</container>
+<container type="folder">7</container>
+<unittitle>Unpublished Manuscripts: "The Phalangeal Patterns of the Human Toes,"
+<unitdate>n.d. [1918-1919]</unitdate>
+</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Speeches</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">1</container>
+<unittitle>Speeches (arranged chronologically), "Butterflies and Moths of Hampshire County,"
+<unitdate>1885</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">2</container>
+<unittitle>Speeches: "The Work of Charles Darwin,"
+<unitdate>1909</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">3</container>
+<unittitle>Speeches: "The Origin of European Civilization,"
+<unitdate>1909</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">4</container>
+<unittitle>Speeches: "The Val Soda,"
+<unitdate>1909</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">5</container>
+<unittitle>Speeches: "The Beginning of Human History,"
+<unitdate>1910</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">6</container>
+<unittitle>Speeches: "The Teaching of Latin and Greek,"
+<unitdate>1912</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">7</container>
+<unittitle>Speeches: "The Origin of the Greek,"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">18</container>
+<container type="folder">8</container>
+<unittitle>Speeches: "Popular Lectures"</unittitle>
+</did>
+<note>
+<p>
+<ref target="list-teachsmith">[See Professional Activities: Teaching: Smith College]</ref>
+</p>
+</note>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Research</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">19</container>
+<unittitle>Research: Anthropometry (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">20</container>
+<unittitle>Research: Anthropornetry (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">21</container>
+<unittitle>Research: Dermatoglyphics (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">22</container>
+<unittitle>Research: Dermatoglyphics (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">23</container>
+<unittitle>Research: Dermatoglyphics (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">24</container>
+<unittitle>Research: Dermatoglyphics (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">25</container>
+<unittitle>Research: Dermatoglyphics (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">26</container>
+<unittitle>Research: Dermatoglyphics (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">27</container>
+<unittitle>Research: Dermatoglyphics (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">28</container>
+<unittitle>Research: Dermatoglyphics (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">29</container>
+<unittitle>Research: New England Indian Files
+<unitdate>1904-1920</unitdate>
+</unittitle>
+</did>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">1</container>
+<unittitle>"Indian Place Names--Massachusetts"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">2</container>
+<unittitle>"Indian History in Massachusetts"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">3</container>
+<unittitle>"Pocumtucks"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">4</container>
+<unittitle>Notes on Indians--Northampton &amp; Laurel Park, Massachusetts
+<unitdate>1913, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">5</container>
+<unittitle>Northampton, Indian Hill &amp; Hadley
+<unitdate>1904-1920</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">6</container>
+<unittitle>"Field Notebook #3 --Hadley, &amp; Cheapside/Greenfield, Massachusetts
+<unitdate>1915-1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">7</container>
+<unittitle>"Rhode Island Early History"
+<unitdate>1904, 1912, 1916</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">8</container>
+<unittitle>An Account of Excavation of Fort Neck Cemetary--Charlestown, Rhode Island
+<unitdate>1912 September</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">9</container>
+<unittitle>Field Notebook #1 --Charlestown, Rhode Island; Field Notebook #2 --Hadley/Hatfield, Massachusetts
+<unitdate>1912 Summer</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">10</container>
+<unittitle>Penobscot, Maine
+<unitdate>1910, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">11</container>
+<unittitle>"Roots in Algonkin Place Name"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">12</container>
+<unittitle>Clippings Concerning Indians, Notes, and Photographs
+<unitdate>1908-1917</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">13</container>
+<unittitle>Notebooks (3):
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+<c05>
+<did>
+<container type="box">29</container>
+<container type="folder">13</container>
+<unittitle>"Indian Aborigines"</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">29</container>
+<container type="folder">13</container>
+<unittitle>"Primitive Music"</unittitle>
+</did>
+</c05>
+<c05>
+<did>
+<container type="box">29</container>
+<container type="folder">13</container>
+<unittitle>Unidentified</unittitle>
+</did>
+</c05>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">14</container>
+<unittitle>"Quotations from Early Explorers concerning the conditions of the country of Southern New England"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">15</container>
+<unittitle>Maps, Topographical of New England
+<unitdate>1914, 1920</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">16</container>
+<unittitle>"Maps of New England"
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">17</container>
+<unittitle>Notes, Maps &amp; Miscellaneous on Indians
+<unitdate>1887, n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+<c04>
+<did>
+<container type="box">29</container>
+<container type="folder">18</container>
+<unittitle>Scorebook of Primitive Music--incomplete
+<unitdate>n.d.</unitdate>
+</unittitle>
+</did>
+</c04>
+</c03>
+<c03>
+<did>
+<container type="box">30</container>
+<unittitle>Research: Teratology (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">31</container>
+<unittitle>Research: Other (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">32</container>
+<unittitle>Research: Other (unprocessed)</unittitle>
+</did>
+</c03>
+</c02>
+<c02>
+<did>
+<unittitle>Teaching and Research Tools</unittitle>
+</did>
+<c03>
+<did>
+<container type="box">33</container>
+<unittitle>Teaching and Research Tools: (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">34</container>
+<unittitle>Teaching and Research Tools: Bust [Cope?] (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">35</container>
+<unittitle>Teaching and Research Tools: Reprint Collection (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">36</container>
+<unittitle>Teaching and Research Tools: Slide Collection (unprocessed)</unittitle>
+</did>
+</c03>
+<c03>
+<did>
+<container type="box">37</container>
+<unittitle>Miscellaneous (unprocessed)</unittitle>
+</did>
+</c03>
+</c02>
+</c01>
+<c01 level="series" id="list-serOV">
+<did>
+<unittitle>Oversize Materials</unittitle>
+</did>
+<c02>
+<did>
+<container type="box">38</container>
+<unittitle>Oversize Materials: (1) (unprocessed)</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">39</container>
+<unittitle>Oversize Materials: (2) (unprocessed)</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">40</container>
+<unittitle>Oversize Materials: (3) (unprocessed)</unittitle>
+</did>
+</c02>
+<c02>
+<did>
+<container type="box">41</container>
+<unittitle>Oversize Materials: (4) (unprocessed)</unittitle>
+</did>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

@@ -1,0 +1,784 @@
+<ead>
+   <eadheader audience="internal" id="head" findaidstatus="unverified-full-draft" langencoding="iso639-2b">
+      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss181.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss181</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Sophie Hutchinson Drinker Papers, 1859-1990 (bulk 1935-66)
+        </titleproper>
+            <subtitle>Finding Aid</subtitle>
+            <author encodinganalog="245$c">Finding aid prepared by Sarah E. Keen.</author>
+            <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+            <address>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            <date encodinganalog="260$c">2004 </date>
+            <p>Smith College. All rights reserved.</p>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation encodinganalog="500">Finding aid encoded using Perl scripts and edited in XMetal 2.0. Encoded by Laura Cutter.
+        <date>2004-05-17</date>
+         </creation>
+         <langusage>Finding aid written in
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005-09-23">2005-09-23</date>
+            <item>mnsss181 converted from EAD 1.0 to 2002 by v1to02-5c.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter id="front">
+      <titlepage>
+         <publisher encodinganalog="260$b">Sophia Smith Collection<lb />Smith College
+        <lb />
+            </publisher>
+         <titleproper encodinganalog="245$a">Sophie Hutchinson Drinker Papers, 1859-1990 (bulk 1935-66)
+      </titleproper>
+         <subtitle>Finding Aid</subtitle>
+         <num>MS 51
+      </num>
+         <author encodinganalog="245$c">Sarah E. Keen
+      </author>
+         <date>2003
+      </date>
+         
+         <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
+         <p>&#169;  2004  Smith College. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC21">
+      <did id="main">
+         <head>Collection Overview</head>
+         <origination label="Creator:">
+            <persname encodinganalog="100" source="lcnaf">Drinker, Sophie Hutchinson </persname>
+         </origination>
+         <unittitle encodinganalog="245$a" label="Title:">Sophie Hutchinson Drinker Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1859-1990</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1935-1966</unitdate>
+         
+         <unitid encodinganalog="099" repositorycode="mnsss" label="Collection Number:" countrycode="us">MS 51</unitid>
+         <physdesc label="Quantity:">
+            <extent encodinganalog="300$a">12 boxes</extent>
+            <extent encodinganalog="300$a">(3.75 linear ft.)</extent>
+         </physdesc>
+         <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+            </repository>
+         <abstract encodinganalog="520$a" label="Abstract:">Historian; Musicologist. Papers primarily relate to Drinker's work on the history of women and music, and her promotion of choral singing by women. Types of materials include correspondence, research, and writings for her books Brahms and His Women's Choruses (1952), and Music and Women: The Story of Women in Their Relation to Music (1948). Of particular interest are the songbooks, or stimmenhefte, which chorus women copied from Johannes Brahms' manuscripts. There are also 16 volumes of bound notes for Music and Women on women and music around the world from prehistoric times to the 20th century.</abstract>
+         <langmaterial label="Language of Material:" encodinganalog="546">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <bioghist id="bioghist">
+         <head>Biographical Note</head>
+         <p> Sophie (Lewis) Hutchinson Drinker was born in Haverford, Pennsylvania, on August 24, 1888 to Sydney Pemberton Hutchinson and Amy Lewis.  She attended boarding school at St. Timothy's School in Catonsville, Maryland, and graduated in 1906.  Although she was then admitted to Bryn Mawr, she declined to attend college.</p>
+         <p> She married Henry Drinker, a lawyer and musicologist, in 1911.  They had five children: Sophie, Henry S., Jr., Cecilia, Ernesta, and Pemberton.  The Drinkers were well known in the Philadelphia area for their invitation-only singing parties.  Group songs and music, often with the accompaniment of invited musicians, including some from the Philadelphia Orchestra or the Curtis Institute, preceded and followed dinner prepared by the Drinker household staff.</p>
+         <p> Sophie Drinker spent a significant portion of her life researching and writing about the history of women and music, as well as promoting choral singing by women.  In 1930 she joined the Montgomery Singers, a women's chorus, and many years later she served as the group's president.  In her scholarly work Drinker was greatly influenced by Mary Beard, pioneer women's historian, and the democratic, economically oriented history of the "progressive" school to which Beard subscribed.  She worked with Beard on her abortive project to establish the World Center for Women's Archives.</p>
+         <p> Drinker's book, <title>Music and Women: The Story of Women in Their Relation to Music</title>, was published in 1948.  It was widely reviewed by the historical community but did not receive much attention from the musical community until the late twentieth century.  She is also the author of <title>Brahms and His Women's Choruses</title> (1952) and articles on women and music.  In her later works, Drinker moved away from the topic of music and began to focus more on women in colonial America.  Her later works include the books Hannah Penn and the Proprietorship of Pennsylvania (1958) and The American Woman in Colonial and Revolutionary Times, 1565-1800 (jointly authored with Eugenie Andruss Leonard and Miriam Young Holden; 1962), and articles entitled, "Patriarchal Values in Women's Education" (1954), "Women and the Ideal Democracy" (1960), "Women Attorneys of Colonial Times" (1961), and "The Two Elizabeth Carterets" (1961).</p>
+         <p> Cited for her "service in the cause of Music whereby she had brought together and made available much that, but for her, would have lain forgotten," Drinker received an honorary degree from Smith College in 1949.  She served for a time as a guest lecturer at Pennsylvania Medical College for Women, from which she received an honorary degree in 1967.  Throughout her life Drinker was involved in a number of philanthropic, civic, and women's groups, including the Marriage Council of Philadelphia, the Pennsylvania Society of the National Society of Colonial Dames of America, the Lucy Stone League, the Community Chest, and the League of Women Voters.  Because of her work with, and writings on, women, Betty Friedan wanted Drinker to join the first elected board of the National Organization of Women.  However, Drinker's health was failing at this point, so her daughter Ernesta volunteered in her place and won election to the board.  Drinker died of cancer a few months later in September 1967.  The Sophie Drinker Institute in Bremen, Germany, is named after her.</p>
+         <p> Additional biographical sketches of Drinker written by Ruth A. Solie can be found in American National Biography and in the afterword of the 1995 edition of <title>Music and Women: The Story of Women in Their Relation to Music</title>.</p>
+      </bioghist>
+      <scopecontent id="scope">
+         <head>Scope and Contents of the Collection</head>
+         <p> The Sophie Hutchinson Drinker Papers consist of 3.75 linear feet and are primarily related to her books <title>Brahms and His Women's Choruses</title> and <title>Music and Women: The Story of Women in Their Relation to Music</title>.  Types of materials include correspondence, research notes, songbooks, addresses, journal articles, newspaper clippings, transcripts of oral history interviews, and memorabilia.  </p>
+         <p> The bulk of the papers date from 1935 to 1966.  Notable parts of the first series are the transcripts of oral history interviews conducted by Smith College Professor Ruth A. Solie with two of Drinker's daughters, Ernesta Drinker Ballard and Cecilia Drinker Saltonstall.  These provide a glimpse into the life of Sophie Drinker and her family.</p>
+         <p> WRITINGS is the largest series and much of it consists of research materials, notes, and correspondence relating to Drinker's book <title>Brahms and His Women's Choruses</title>.  Of particular interest are the individual music notebooks, or stimmenhefte, that the chorus women copied from Brahms' manuscripts.  Drinker obtained stimmenhefte from four women or their families in either their original book form or as photostatic copies.  The photostatic copies are in many cases the only remaining copies as the originals were destroyed during World War II or otherwise lost.  The stimmenhefte are all written in German.  Except for the V&#246;lckers sisters' materials, there is a folder of correspondence associated with each woman's stimmenhefte that explain how the Drinkers acquired the material or the status of the songbooks.  The search for the original choir members and their stimmenhefte began in the 1930s when the Drinkers contacted Dr. Hans Albrecht.  Dr. Albrecht contacted many of the families of former choir members on behalf of the Drinkers and facilitated the acquisition or the copying of the stimmenhefte.  A fuller account of the acquisitions can be found in the correspondence folders mentioned previously, or in Drinker's book <title>Brahms and His Women's Choruses</title>.</p>
+         <p> The Jahrbuch der Gesellschaft Hamburgischer Kunstfreunde, 1902 [translation: Yearbook of the Hamburg Society of Friends of the Arts] contains a piece written in German by Franzisca Lentz about the women's chorus directed by Brahms.  "Photographs and illustrations" includes images of Brahms, some of the chorus women, and other musical figures involved with the chorus.  The "Writings by Brahms" folder contains a photostat of a few lines of music most likely written by Brahms.</p>
+         <p> The subseries on Drinker's book <title>Music and Women</title> largely consists of bound volumes of her notes.  The first volume (Part I: "Introduction/Prehistoric") contains a list of contents for the books; however, the titles on the outsides of the books sometimes do not exactly match the formal title or description Drinker gave them in the contents listing.  The books are arranged according to Drinker's order in the first volume.  Due to the fragility of these items, they may not be photocopied.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="scope-org">
+         <head>Organization of the Collection</head>
+         <p>This collection is organized into three series:</p>
+         <list>
+            <item>
+               <ref target="list-ser1">I.  BIOGRAPHICAL MATERIALS</ref>
+            </item>
+            <item>
+               <ref target="list-ser2">II.  CORRESPONDENCE</ref>
+            </item>
+            <item>
+               <ref target="list-ser3">III.  WRITINGS</ref>
+            </item>
+         </list>
+      </arrangement>
+      <descgrp type="admininfo" id="admin">
+         <head>Information on Use</head>
+         <descgrp type="admininfo">
+            <head>Terms of Access and Use</head>
+            <accessrestrict encodinganalog="506" id="admin-access">
+               <p>The papers are open to research according to the regulations of the Sophia Smith Collection. Due to their fragility, bound materials in the collection may not be photocopied.
+          </p>
+            </accessrestrict>
+            <userestrict encodinganalog="540" id="admin-use">
+               <p>Permission to cite the papers for quotations or for publication beyond "fair use" must be obtained from the Sophia Smith Collection as owners of the physical property.  The copyright owner for Drinker's writings is unknown.  Copyright to materials authored by persons other than Sophie Hutchinson Drinker may be owned by those individuals or their heirs or assigns.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.
+          </p>
+            </userestrict>
+         </descgrp>
+         <prefercite id="admin-cite">
+            <head>Preferred Citation</head>
+            <p>Please use the following format when citing materials from this collection:</p>
+            <p>Sophie Hutchinson Drinker Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+         </prefercite>
+         <descgrp type="admininfo">
+            <head>History of the Collection</head>
+            <acqinfo id="admin-acqinfo">
+               <p>Sophie Drinker donated her papers to the Sophia Smith Collection in 1948 and 1965.  Professor Ruth Solie donated the oral history transcripts in 1991 and Harriet Gratwick donated some correspondence with Drinker in 1983 and two articles in 1989.
+          </p>
+            </acqinfo>
+             <processinfo id="admin-process">
+               <p>Reprocessed by Sarah E. Keen, 2004.</p>
+            </processinfo>
+         </descgrp>
+      </descgrp>
+      <controlaccess id="subj">
+         <head>Search Terms</head>
+         
+         <persname encodinganalog="600" source="lcnaf">Brahms, Johannes, 1833-1897-Choral music-Sources</persname>
+         <persname encodinganalog="600" source="lcnaf">Drinker, Henry Sandwith, 1880-1965</persname>
+         <persname encodinganalog="600" source="lcnaf">Drinker, Sophie Hutchinson, 1888-1967</persname>
+         <subject encodinganalog="650" source="lcsh">Ethnomusicology-History-Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Music-History and criticism-Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women composers-History-Sources </subject>
+         <subject encodinganalog="650" source="lcsh">Women musicians-History-Sources</subject>
+         <subject encodinganalog="650" source="lcsh">Women singers-History-Sources </subject>
+      </controlaccess>
+      <descgrp type="add" id="addinfo">
+         <head>Additional Information</head>
+         <relatedmaterial id="add-related">
+            <head>Related Material</head>
+            <p>Additional correspondence with Drinker can be found in the Marie Munk Papers at the Sophia Smith Collection and in her donor file in the Smith College Archives.  The College Archives also has photographs of Drinker and the full citation for her honorary degree from Smith College.  Additional papers of Drinker are housed at the Schlesinger Library, Radcliffe Institute; and the Van Pelt Library, University of Pennsylvania.  Henry and Sophie Drinker's music collection is at the Drinker Choral Library, Free Library of Philadelphia.
+        </p>
+         </relatedmaterial>
+      </descgrp>
+      <dsc type="in-depth" id="list-contlist">
+         <c01 level="series" id="list-ser1">
+            <did>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Contents</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Published material about Drinker,<unitdate> 1967, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+		  <unittitle>Photograph of unidentified man,<unitdate>1952</unitdate></unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Oral histories about Drinker: transcripts</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">3</container>
+                     <unittitle>Ernesta Drinker Ballard,<unitdate> 1990</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+			   
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">4</container>
+                     <unittitle>Cecilia Drinker Saltonstall,<unitdate> 1990</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+	    <c02>
+	      <did><container type="box">1</container>
+		   <container type="folder">4a</container>
+		   <unittitle> Photographs, Sophie Hutchinson Drinker,<unitdate> 1949, n.d.</unitdate></unittitle>
+                  </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser2">
+            <did>
+               <unittitle>SERIES II. CORRESPONDENCE</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Albrecht, Hans,<unitdate> 1935-39, 1950</unitdate>
+                  </unittitle>
+               </did>
+                     </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5a</container>
+                  <unittitle>Becker, Gretchen and unidentified, <unitdate>1960-67</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Gratwick, Harriet,<unitdate> 1946-48, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Helms, Sigmund, and Arthur Ware Locke,<unitdate> 1962-66, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Miscellaneous about the Drinker collection,<unitdate> 1965, 1981, n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="list-ser3">
+            <did>
+               <unittitle>SERIES III. WRITINGS</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>Addresses</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">9</container>
+                     <unittitle>"Address to Marriage Council Trainees, <unitdate>March 1963</unitdate>"</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">10</container>
+                     <unittitle>"Women in American History," <unitdate>9 Apr 1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Articles</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">11</container>
+                     <unittitle>"Academia dei Dilettanti di Musica,<unitdate> 1930-60,</unitdate>" by Sophie and Henry Drinker</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <container type="folder">12</container>
+                     <unittitle>"The Amateur in Music," by Henry S. Drinker</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Books</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title>Brahms and His Women's Choruses</title>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">13</container>
+                        <unittitle>Articles about Brahms,<unitdate> 1987, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">14</container>
+                        <unittitle>Correspondence: permission letters,<unitdate> 1950-51</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">15</container>
+                        <unittitle>Diary entries and reminiscences,<unitdate> 1859, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">16-18</container>
+                        <unittitle>Folksongs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">19</container>
+                        <unittitle>
+                           <title>Jahrbuch der Gesellschaft Hamburgischer Kunstfreunde</title>,<unitdate> 1902 </unitdate>[translation: <title>Yearbook of the Hamburg Society of Friends of the Arts</title>]</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">20</container>
+                        <unittitle>Memorabilia,<unitdate> 1860, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                     <note>
+                        <p>[see also Box 2]</p>
+                     </note>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">21</container>
+                        <unittitle>Photographs and illustrations,<unitdate> 1860-65, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <container type="folder">22</container>
+                        <unittitle>Photographs: negatives,<unitdate> 1865, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Published copy of <title>Brahms and His Women's Choruses</title> (<unitdate>1952</unitdate>)</unittitle>
+                     </did>
+                     <note>
+                        <p>
+                           <ref target="list-brahmswomen">[see books in box 12]</ref>
+                        </p>
+                     </note>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Stimmenhefte [translation: music notebooks]</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <unittitle>Franzisca Lentz</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">1</container>
+                              <container type="folder">23</container>
+                              <unittitle>Correspondence: Anna Lentz,<unitdate> 1935-37</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">1</container>
+                              <container type="folder">24-25</container>
+                              <unittitle>Paperbound volumes</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">1</container>
+                              <container type="folder">26</container>
+                              <unittitle>Photostatic copy</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">2</container>
+                              <unittitle>
+                                 <title>Quartette</title>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">2</container>
+                              <unittitle>
+                                 <title>Versammlung No. 3</title>
+                              </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">2</container>
+                        <unittitle>Memorabilia: medallion, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Stimmenhefte</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <unittitle>Camilla Meier</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">1</container>
+                              <unittitle>Correspondence from Brahms, <unitdate>n.d.</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">2</container>
+                              <unittitle>No. 24 - <title>3 Stimmige Lieder f&#252;r Frauen-Chor</title>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">3</container>
+                              <unittitle>No. 25 - <title>Lieder &amp; Gesange f&#252;r Frauenchor ohne Begleitung</title>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">4</container>
+                              <unittitle>Paperbound volumes</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">5</container>
+                              <unittitle>Notes</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Clara von K&#246;nigslow</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">6</container>
+                              <unittitle>Correspondence,<unitdate> 1951</unitdate>
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">7</container>
+                              <unittitle>Photostatic copy</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Friedchen Wagner</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <unittitle>Correspondence</unittitle>
+                           </did>
+                           <c07>
+                              <did>
+                                 <container type="box">3</container>
+                                 <container type="folder">8</container>
+                                 <unittitle>Kurt Sauermann,<unitdate> 1936, 1950</unitdate>
+                                 </unittitle>
+                              </did>
+                           </c07>
+                           <c07>
+                              <did>
+                                 <container type="box">3</container>
+                                 <container type="folder">9</container>
+                                 <unittitle>Brahms to F. Wagner, <unitdate>n.d.</unitdate>
+                                 </unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">10</container>
+                              <unittitle>Volksleider, 1. Stimme</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">11</container>
+                              <unittitle>Volksleider, 2. Stimme</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">12</container>
+                              <unittitle>Volksleider, 3. Stimme</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">13</container>
+                              <unittitle>Volksleider, 4. Stimme</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">3</container>
+                              <container type="folder">14</container>
+                              <unittitle>Partitur der Volksleider</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">4</container>
+                              <container type="folder">1</container>
+                              <unittitle>Notes</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">4</container>
+                           <container type="folder">2-14</container>
+                           <unittitle>Betty and Marie V&#246;lckers</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">15</container>
+                        <unittitle>Writings by Brahms, <unitdate>n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title>Die Frau in der Musik, eine Sociologische Studie</title> (<unitdate>1955</unitdate>)</unittitle>
+                  </did>
+                  <note>
+                     <p>
+                        <ref target="list-diefrau">[see books in box 12]</ref>
+                     </p>
+                  </note>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title>Music and Women: The Story of Women in Their Relation to Music</title>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">4</container>
+                        <container type="folder">16</container>
+                        <unittitle>Articles and reviews,<unitdate> 1948, n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Published copy of Music and Women (<unitdate>1948</unitdate>)</unittitle>
+                     </did>
+                     <note>
+                        <p>
+                           <ref target="list-musicandwomen">[see books in box 12]</ref>
+                        </p>
+                     </note>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Notes in bound volumes</unittitle>
+                     </did>
+                     <note>
+                        <p>[Due to their fragility, these items may not be photocopied.]</p>
+                     </note>
+                     <c05>
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle>Part I: "Introduction/Prehistoric" (Foreword, Introduction to Primitive Ideas and Customs, Prehistoric Culture)</unittitle>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Part II: Primitive contemporaries</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">5</container>
+                              <unittitle>"American Indians" (North American Indians, South American Indians, Central American Indians)</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">5</container>
+                              <unittitle>"Pacific primitives" (Siberian primitives including Ainu in Japan, Malay, Pacific Islands)</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">6</container>
+                              <unittitle>"Africa"</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Part III: Ancient civilizations and modern peasants</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">6</container>
+                              <unittitle>"Orient" (China; Tibet; Burma; Persia; Indo-China: Annamites, Siamese, and Cambodians; Japan; Korea; India)</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">6</container>
+                              <unittitle>"Near East" (Arabia, Armenia, Cappadocia, The Jews, Phoenicia, Sumer, Syria, Turkey, Crete, Etruria, Rome)</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">7</container>
+                              <unittitle>"Egypt" (Egypt, Carthage)</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">7</container>
+                              <unittitle>"Greece"</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">8</container>
+                              <unittitle>"Europe peasants" (Ancient Celtic, Ancient Eddic and Teutonic, Ancient Finno-Ugrian, Ancient Slavic, Modern Europe, and "The Participation of Russian Women in Music," by Katherine Swan)</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05>
+                        <did>
+                           <unittitle>Part IV: Christian culture</unittitle>
+                        </did>
+                        <c06>
+                           <did>
+                              <container type="box">8</container>
+                              <unittitle>"Nuns"</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">9</container>
+                              <unittitle>"Early Christian - Mediaeval" (Early Christian, Mediaeval Laywomen (secular))</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">9</container>
+                              <unittitle>"1400-1700" (Renaissance 1400-1700 [laywomen])</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">9</container>
+                              <unittitle>"1700-1800" (18th century, Venetian conservatories)</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">10</container>
+                              <unittitle>"19th century" (19th century including the Brahms material)</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">10</container>
+                              <unittitle>"20th century"</unittitle>
+                           </did>
+                        </c06>
+                        <c06>
+                           <did>
+                              <container type="box">11</container>
+                              <unittitle>"Meyer's 'Choral Singing'" (Kathi Meyer's "Choral Singing of Women")</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="list-serBKS">
+            <did>
+               <unittitle>BOOKS</unittitle>
+            </did>
+            <c02 id="list-brahmswomen">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>
+                     <title>Brahms and His Women's Choruses</title> (<unitdate>1952</unitdate>)</unittitle>
+               </did>
+            </c02>
+            <c02 id="list-diefrau">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>
+                     <title>Die Frau in der Musik, eine Sociologische Studie</title> (<unitdate>1955</unitdate>)</unittitle>
+               </did>
+            </c02>
+            <c02 id="list-musicandwomen">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>
+                     <title>Music and Women: The Story of Women in Their Relation to Music</title> (<unitdate>1948</unitdate>)</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,145 @@
+<ead>
+ <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss332.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss332</eadid>
+	<filedesc>
+	  <titlestmt>
+		<titleproper encodinganalog="245$a">National Association of Manufacturers, Women's Department Records, 1946-1962</titleproper>
+		<subtitle>Finding Aid</subtitle>
+		<author encodinganalog="245$c">Finding aid prepared by Carrie Baldwin, Fraenkel Intern.</author>
+		 
+	  </titlestmt>
+	  <publicationstmt>
+		<publisher encodinganalog="260$b">Sophia Smith Collection, Smith College</publisher>
+		<address>
+		  <addressline>Northampton, MA</addressline>
+		</address>
+		<date encodinganalog="260$c" normal="2008">2008</date>
+	  </publicationstmt>
+	</filedesc>
+	<profiledesc>
+	  <creation encodinganalog="500">Finding aid encoded in NoteTab Pro. Encoded by Carrie Baldwin, Fraenkel Intern. 
+		<date normal="2008-05-05">2008-05-05</date>
+	  </creation>
+	  <langusage>Finding aid written in
+		<language encodinganalog="546" langcode="eng" scriptcode="latn">English</language>
+	  </langusage>
+	</profiledesc>
+  </eadheader>
+
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did id="main">
+	<head>Collection Overview</head>
+	<origination label="Creator:">
+		<corpname source="lcnaf" encodinganalog="110">National Association of Manufacturers</corpname>
+	</origination>
+	<unittitle label="Title:" encodinganalog="245$a">National Association of Manufacturers, Women's Department Records</unittitle><unitdate type="inclusive" label="Dates:">1946-1962</unitdate>
+		
+	<physdesc label="Quantity:">
+		<extent encodinganalog="300$a">1 box</extent>
+		<extent encodinganalog="300$a">(.25 linear ft.)</extent>
+	</physdesc>
+	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+</langmaterial>
+        <repository label="Location:">
+            <corpname>Sophia Smith Collection</corpname>
+            <address>
+               <addressline>Smith College</addressline>
+               <addressline>Northampton, MA</addressline>
+            </address>
+         </repository>
+	<abstract encodinganalog="520$a" label="Abstract:">
+		Educational program. This small collection contains newsletters, brochures and pamphlets from the Women's Department of the National Association of Manufacturers for distribution to women's clubs. There is also a small amount of general printed material about the National Association of Manufacturers. 
+	</abstract>
+    </did>
+
+
+<!-- Enter collection level metadata -->
+    <bioghist id="bioghist">
+	<head>Biographical Note</head>
+	<p>Founded in 1895, the National Association of Manufacturers is a voluntary association of American companies which strives to improve the freedom of opportunity and enterprise and advance a pro growth and pro manufacturing agenda. It is headquartered in Washington, D.C.</p>
+    </bioghist>
+    <scopecontent id="scope">
+	<head>Scope and Contents of the Collection</head>
+<p>	This small collection contains newsletters, brochures and pamphlets from the Women's Department of the National Association of Manufacturers for distribution to women's clubs. There is also a small amount of general printed material about the National Association of Manufacturers.</p>
+    </scopecontent>
+
+<!-- End collection level metadata -->
+
+
+<!-- Enter administrative information -->
+    <accessrestrict id="admin-access">
+	<p>The papers are open to research according to the regulations of the Sophia Smith Collection.  </p>
+    </accessrestrict>
+    <userestrict id="admin-use">
+	<p>Copyright ownership  for this collection is unknown.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission to publish reproductions or quotations beyond "fair use" must also be obtained from the Sophia Smith Collection as owners of the physical property.</p>
+    </userestrict>
+    <prefercite id="admin-cite">
+	<p>Please use the following format when citing materials from this collection:</p>
+	<p>National Association of Manufacturers, Women's Department Records, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+    </prefercite>
+    <processinfo id="admin-process">
+	<p>Finding aid revised by Carrie Baldwin (intern), 2008</p> 
+    </processinfo>
+
+<!-- End administrative information -->
+
+
+<!-- Enter controlled access terms -->
+    <controlaccess id="subj">
+		
+		<subject encodinganalog="650" source="lcsh">Labor--United States--History--20th century--Sources</subject>
+	<corpname encodinganalog="610" source="lcsh">National Association of Manufacturers (U.S.). Women's Department.--History--Sources</corpname> 
+	<subject encodinganalog="650" source="lcsh">Trade and professional associations--United States--History--Sources</subject>
+	<subject encodinganalog="650" source="lcsh">Women--Societies and clubs--United States--History--Sources</subject>
+	    </controlaccess>
+<!-- end controlled access terms -->
+
+
+<!-- Enter additional information -->
+
+<!-- End additional information -->
+
+
+<!-- Enter Series descriptions -->
+
+<!-- End Series descriptions -->
+
+<!-- Insert container list here:-->
+
+<dsc type="in-depth" id="list-contlist">
+ <c01>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">1</container>
+ <unittitle>Contents</unittitle>
+ </did>
+ </c01>
+ <c01>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">2-3</container>
+ <unittitle><title render="italic">Program Notes</title>, <unitdate>1946-51, 1957-62</unitdate></unittitle>
+ </did>
+ </c01>
+ <c01>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">4</container>
+ <unittitle><title render="italic">Club Comments</title>,<unitdate> 1958-62</unitdate></unittitle>
+ </did>
+ </c01>
+ <c01>
+ <did>
+ <container type="box">1</container>
+ <container type="folder">5</container>
+ <unittitle>Pamphlets and other printed material,<unitdate> 1958-62, n.d.</unitdate></unittitle>
+ </did>
+ </c01>
+</dsc>
+
+<!-- End container list -->
+
+  </archdesc>
+</ead>
+
+

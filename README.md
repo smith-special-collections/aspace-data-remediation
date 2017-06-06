@@ -9,8 +9,8 @@ The scope of the project is as follows:
 - [ ] accession records
 - [ ] agent records
 - [ ] top containers
-- [ ] reconciliation of subjects *depending on timeline, this may need to be pushed out of scope*
-- [ ] merge duplicate names and subjects *depending on timeline, this may need to be pushed out of scope*
+- [ ] reconciliation of subjects \(*depending on timeline, this may need to be pushed out of scope*)
+- [ ] merge duplicate names and subjects \(*depending on timeline, this may need to be pushed out of scope*)
 - [ ] normalization of dates
 
 **Migration**

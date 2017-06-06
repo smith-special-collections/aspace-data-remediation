@@ -1,6 +1,32 @@
 # aspace-data-remediation
 Files, tools, and plans for remediating data for migration to ArchivesSpace at Smith.
 
+The scope of the project is as follows:
+
+**Data cleanup and transformation**
+- [ ] single-level resource records \(EAD and InMagic resource records)
+- [ ] multi-level resource records \(EAD)
+- [ ] accession records
+- [ ] agent records
+- [ ] top containers
+- [ ] reconciliation of subjects *depending on timeline, this may need to be pushed out of scope*
+- [ ] merge duplicate names and subjects *depending on timeline, this may need to be pushed out of scope*
+- [ ] normalization of dates
+
+**Migration**
+- [ ] single-level resource records \(EAD and InMagic resource records)
+- [ ] multi-level resource records \(EAD)
+- [ ] accession records
+- [ ] agent records
+- [ ] top containers
+- [ ] container profiles
+- [ ] locations
+- [ ] classifications
+
+**Other**
+- [ ] recommend solutions for item-level archival objects (images, AV, and objects) described out of context from parent collections
+- [ ] training
+
 
 ### ACCESSION RECORD SPECIFICATIONS
 Specifications for remediating and processing Smith SSC accessions records may be found here:

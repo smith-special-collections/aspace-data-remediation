@@ -69,11 +69,11 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | archdesc/scopecontent/head | Remove head subelement. |
 | archdesc/arrangement/head | Remove head subelement. |
 | arcdesc/descgrp  | Remove descgrp element and retain content inside (accessrestrict, userestrict, processinfo, prefercite, altformavail, acqinfo, accruals, custodhist) |
-| did/note | Change to <didnote> |
+| did/note | Change to odd element |
 | dsc @type="analyticcover"/c01 | Match c01s in analyticover dsc and in-depth dsc by unittitle. Copy over unittitle, extent, unitdate, arrangement, scopecontent from c01s in analyticover dsc to in-depth c01s. Where multiple unittitle, use unittitle from in-depth dsc. Where multiple, matching (as in equal) extent and unitdate, use extent and unitdate in analyticover dsc. Where multiple, non-matching extent and unitdate, keep both for repeatable extent or date. The unitdates we are likely to come across in both the analyticover and in-depth dsc will either be a range or a range + n.d./single date in a single unitdate. It will always be an expression and not a normalized date. Equal means that the expression is identical. |
 | unitdate | Where exists, update dates with the following to circa, followed by date info: "c.", "c", "ca", "ca.". Where exists, update dates with following to undated: "n.d.", "nd". When dates are in parentheses, remove the parentheses and retain date information. |
-| c/did/note | Change <note> in <c><did> to <c><didnote>. Remove @href or @target and leave content of the note. |
-| c/did/note/ref | Change <note> in <c><did> to <c><didnote>. Remove ref subelement. Retain content in ref element in the <didnote> field. |
+| c/did/note | Change note subelement in odd element and move out of did element. Remove @href or @target and leave content of the note. |
+| c/did/note/ref | Change note subelement in odd element and move out of did element. Remove ref subelement. Retain content in ref subelement in odd. |
 | archdesc/scopecontent/chronlist | Keep chronlist in respective field and test ingest as is. If ingest fails, determine another solution. |
 | archdesc/bioghist/chronlist | Keep chronlist in respective field and test ingest as is. If ingest fails, determine another solution. |
 | archdesc/index | Pull out content from index and save as text file. Retain EADID for later integration. |

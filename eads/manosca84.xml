@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca84.xml//EN" countrycode="us" mainagencycode="manosca">manosca84</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca84.xml//EN">manosca84</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Department of Music Records, 1918-2001
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,17 +51,17 @@
 <date>2002
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <corpname encodinganalog="110" source="lcnaf">Smith College. Dept. of Music.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Department of Music Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1918-[ongoing] </unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 52</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Department of Music Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1918-[ongoing] </unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 52 UUID:6240785a-c7fb-450e-b35a-5a8fcc6cdd76</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">10 boxes</extent>
 <extent encodinganalog="300$a">(14 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Records contain information regarding the history of the program, booklets, course information, department minutes, office files, faculty files, Smith College concerts and recitals and the New Valley Music Press, the only university press in the country devoted to the publication of modern American music.
+<abstract encodinganalog="520$a" label="Abstract:">Records contain information regarding the history of the program, booklets, course information, department minutes, office files, faculty files, Smith College concerts and recitals and the New Valley Music Press, the only university press in the country devoted to the publication of modern American music.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -85,7 +86,7 @@
 <p> The Valley Music Press:</p>
 <p> The Valley Music Press was established in 1942 by Ross Lee Finney, then a faculty member at Smith College, and John Verral.  For a number of years Verral was based at Mount Holyoke College as part of the music departments of Smith College and Mt. Holyoke College and was supported by these two institutions.  The Valley Music Press was unique because it was the only university press in the country devoted to the publication of modern American music.  It was a non-profit organization for the distribution at moderate price of music by contemporary composers.  Works were chosen as being practical for performance, rewarding for study, and varied both in medium and in place in the contemporary scene.  As of 1962, the press had 55 publications on hand.  Needless to say, the business details were many and varied.  Meetings of the Executive Committee were held during the year to discuss new music to be published.  It was felt that the time had come for the Press to become a member of the Smith College publications, and that it would be necessary to sever its connection with Mount Holyoke College.  President Mendenhall gave his support to this goal, and also arranged for the sum of $400.00 annually to be provided by Smith College towards operating expenses of the Press.  (Formerly, $200.00 came from the Music Department at Smith College and $200.00 from Mount Holyoke College.)  It was also agreed that the name would be changed to signify the end of the original partnership.  Hence, the Press was renamed the  New Valley Music Press (NVMP) of Smith College.  The NVMP ceased publication in December of 1996.</p>
 </bioghist>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -126,7 +127,7 @@
 <subject encodinganalog="650" source="lcsh">Music--Instruction and study--Massachusetts--Northampton.</subject>
 <corpname encodinganalog="710" source="lcnaf">New Valley Music Press.</corpname>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -134,7 +135,7 @@
 </p>
 </relatedmaterial>
 </descgrp>
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <unittitle>DEPARTMENT MINUTES</unittitle>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss63.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss63</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss63.xml//EN">mnsss63</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Livingston-Fulton Family Papers, 1874-1939
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Livingston family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Livingston-Fulton Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1874-1939</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Livingston-Fulton Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1874-1939</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1920-1939</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 147</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 147</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">6 boxes</extent>
             <extent encodinganalog="300$a">(2.4 linear ft.)</extent>
@@ -73,9 +74,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Collection consists primarily of the papers of Edith Livingston Crary Smith (1874-1938), author and poet.  They document family matters and commentary on political and moral issues of the day.  Material includes transcripts and other material pertaining to Smith's writings; also diaries and correspondence with her daughter, Katharine Smith Stevens and husband, Alpheus Dutton Smith.
+         <abstract encodinganalog="520$a" label="Abstract:">Collection consists primarily of the papers of Edith Livingston Crary Smith (1874-1938), author and poet.  They document family matters and commentary on political and moral issues of the day.  Material includes transcripts and other material pertaining to Smith's writings; also diaries and correspondence with her daughter, Katharine Smith Stevens and husband, Alpheus Dutton Smith.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -112,7 +113,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -207,8 +208,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1874-1939)</unitdate>
                </unittitle>
@@ -238,7 +239,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. DIARIES <unitdate>(1919-36)</unitdate>
                </unittitle>
@@ -253,7 +254,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CORRESPONDENCE <unitdate>(1885-1938)</unitdate>
                </unittitle>
@@ -377,7 +378,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. WRITINGS <unitdate>(1892-29)</unitdate>
                </unittitle>
@@ -685,7 +686,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

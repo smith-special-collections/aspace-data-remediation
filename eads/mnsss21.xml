@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss21.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss21</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss21.xml//EN">mnsss21</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Eastern Association for Physical Education of College Women (EAPECW) Records, 1910-1995
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Eastern Association for Physical Education of College Women</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Eastern Association for Physical Education of College Women Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1910-1995</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Eastern Association for Physical Education of College Women Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1910-1995</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1950-1992</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 367</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 367</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">27 boxes</extent>
             <extent encodinganalog="300$a">(13 linear ft.)</extent>
@@ -73,9 +74,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Collegiate Association.  Founded by various women directors of physical training from colleges in New England. Records document the history and activities of the organization, as well as the establishment and development of physical education as a profession and as an academic discipline.  Materials include photographs, correspondence and memorabilia. Topics covered include the benefits of PE; the physical and mental health of students; and women in college sports.
+         <abstract encodinganalog="520$a" label="Abstract:">Collegiate Association.  Founded by various women directors of physical training from colleges in New England. Records document the history and activities of the organization, as well as the establishment and development of physical education as a profession and as an academic discipline.  Materials include photographs, correspondence and memorabilia. Topics covered include the benefits of PE; the physical and mental health of students; and women in college sports.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -83,7 +84,7 @@
          <head>Historical Note</head>
          <p>The EAPECW had its genesis in 1910 when Amy Morris Homans, director of physical training at Wellesley College, called together women directors of physical training and heads of athletic associations in New England Colleges for an informal meeting.  After four years of these gatherings, in 1915 the group officially formed as the Association of Directors of Physical Education for College Women to "discuss the problems of organization and administration of departments of physical education in colleges, and by definite cooperation, study, experiment, and research work, broaden the scope and increase the usefulness of such departments."  At this time, physical education was a relatively new addition to the college curriculum and these women met to share ideas and information and collaboratively establish policies for the emerging discipline and its professionals.  Membership was limited to directors of physical education in four-year accredited colleges and universities with appropriate facilities for physical education.</p>
          <p>At annual meetings, papers and reports were presented and roundtable discussions held on a wide variety of topics to do with the administration of college departments and curriculum;  status, pay, benefits, and retirement programs for physical education faculty; and various aspects of hygiene and physical and mental health including anthropometric testing of college students.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1831.jpg" altrender="left">
+<dao actuate="onLoad" altrender="left" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1831.jpg" linktype="simple" show="embed">
 <daodesc><p>Margaret Paulding, Eastern Association <lb />for Physical Education of College <lb />Women Merit Award winner, 1970.</p></daodesc></dao> 
          <p>	Similar associations were formed in the midwest and the west and in 1923 the regional groups voted to affiliate as the National Association of Directors of Physical Education for Women in Colleges and Universities.  The EAPECW became known as the Eastern Society of that Association.</p>
          <p>	In 1941, directors of physical education in selected junior colleges were admitted to membership in the association.  Physical education faculty and staff who were not department directors were permitted to join as associate members in 1946 and as full voting members in 1948.  The name of the organization was changed to Eastern Association for Physical Education of College Women at that time.</p>
@@ -134,7 +135,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -179,7 +180,7 @@
          <persname encodinganalog="600" source="lcnaf">Spears, Betty Mary</persname>
          <subject encodinganalog="650" source="lcsh">Sports for women--History--20th century-Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -325,8 +326,8 @@
 </dsc>
 <!-- End series descriptions -->
 <!-- Insert container list here -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. HISTORICAL MATERIALS AND MEMORABILIA</unittitle>
             </did>
@@ -436,7 +437,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. ADMINISTRATION</unittitle>
             </did>
@@ -702,7 +703,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. EXECUTIVE BOARD</unittitle>
             </did>
@@ -1093,7 +1094,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. FINANCIAL RECORDS</unittitle>
             </did>
@@ -1123,7 +1124,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V. MEMBERSHIP RECORDS</unittitle>
             </did>
@@ -1169,7 +1170,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>Series VI. COMMITTEE RECORDS</unittitle>
                <unitdate>(1920-92)</unitdate>
@@ -1865,7 +1866,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>Series VII. PROGRAMS</unittitle>
             </did>
@@ -1895,7 +1896,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>Series VIII. MEETINGS AND CONFERENCES</unittitle>
             </did>
@@ -2089,7 +2090,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>Series IX. AFFILIATIONS</unittitle>
             </did>
@@ -2175,7 +2176,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser10">
+         <c01 id="list-ser10" level="series">
             <did>
                <unittitle>Series X. PUBLICATIONS</unittitle>
             </did>
@@ -2212,7 +2213,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

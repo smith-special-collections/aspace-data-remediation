@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss91.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss91</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss91.xml//EN">mnsss91</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Families Collection, 1853-1980 (bulk 1930-1980)
@@ -48,16 +49,16 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Families Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1853-1980 </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Families Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1853-1980 </unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1930-1980</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 391</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 391</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes; 19 volumes</extent>
             <extent encodinganalog="300$a">(3 linear ft.)</extent>
@@ -69,21 +70,21 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Collection contains articles, bibliographies, books, greeting cards, leaflets, newspaper clippings, pamphlets, periodicals, reports, and syllabi addressing "the family," including topics such as homemakers, housework, marriage, unwed mothers, and divorce.  Includes feminist critique of marriage and the family by both well-known feminists and more mainstream writers and journalists. Contains documentation of the changes in American family structures and norms that resulted from the cultural and socio-economic changes of the 1960s and 1970s.
+         <abstract encodinganalog="520$a" label="Abstract:">Collection contains articles, bibliographies, books, greeting cards, leaflets, newspaper clippings, pamphlets, periodicals, reports, and syllabi addressing "the family," including topics such as homemakers, housework, marriage, unwed mothers, and divorce.  Includes feminist critique of marriage and the family by both well-known feminists and more mainstream writers and journalists. Contains documentation of the changes in American family structures and norms that resulted from the cultural and socio-economic changes of the 1960s and 1970s.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-        <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6349.jpg" altrender="right">
+        <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6349.jpg" linktype="simple" show="embed">
 <daodesc><p>"Report from the White House Conference <lb />on Families," November 1979</p></daodesc></dao>
  <p> The Families collection contains articles, bibliographies, books, greeting cards, leaflets, newspaper clippings, pamphlets, periodicals, reports, and syllabi addressing a range of topics subsumed under "the family" including homemakers, housework, marriage, unwed mothers, and divorce.  The material spans the period from 1853-1980. There are a few documents from the late nineteenth and early twentieth centuries, including Charlotte Perkins Gilman's 1907 article on motherhood and a 1928 article entitled "Yashee: Motherhood and Babyhood in Soviet Russia." These items reflect the prevailing attitudes of those decades by defining marriage and motherhood as the normal and desirable goals for all women, and defining those who did not pursue marriage and motherhood as maladjusted.</p>
 
          <p> The majority of the items date from the years 1960-80.  Many of these documents--such as Marvin Sussman's study, The Capacity of U.S. Families in the 1970s to Provide an Appropriate Child-rearing Environment (1973) and the booklet, Eleven Million Teenagers: What Can Be Done about the Epidemic of Adolescent Pregnancies (1976) --reflect the middle-class liberal concerns and anxieties that emerged from national social programs like the Great Society and the War on Poverty.  A great deal of this material presents the feminist critique of marriage and the family as it was articulated by both well known feminists and more mainstream writers and journalists. The collection contains documentation of the changes in American family structures and norms that resulted from the cultural and socio-economic changes that took place during the 1960s and 1970s. It also demonstrates the presence of a small but vocal minority of women who joined organizations such as the Martha Movement to protest women's movement away from traditional definitions of housewife and mother.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -140,7 +141,7 @@
          <persname encodinganalog="600" source="lcnaf">Gilman, Charlotte Perkins, 1860-1935</persname>
 	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
       </controlaccess>
-       <dsc type="in-depth" id="list-contlist">
+       <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>
@@ -439,7 +440,7 @@
             </c02>
             <c02>
                <did>
-                  <unittitle>Soyer, Alexis, <title>The Modern Housewife or M&#233;nager&#232;</title>,<unitdate> 1849</unitdate>
+                  <unittitle>Soyer, Alexis, <title>The Modern Housewife or Ménagerè</title>,<unitdate> 1849</unitdate>
                   </unittitle>
                </did>
             </c02>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss93.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss93</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss93.xml//EN">mnsss93</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Health Collection, 1818-1990s (bulk 1860s-1980s)
@@ -48,16 +49,16 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Health Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1818-1990s </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Health Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1818-1990s </unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1860s-1980s</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 394</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 394</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes; 11 books</extent>
             <extent encodinganalog="300$a">(3.75 linear ft.)</extent>
@@ -69,9 +70,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Documents the evolution of medical and scientific thinking and practice relating to women's health. Topics include abortion, birth control, childbirth, eugenics, female genital mutilation, lactation, infant mortality, marriage instruction, mental hygiene, motherhood, nutrition, obstetrics, sexuality, sterilization, and AIDS.  Types of materials include printed material, research materials, reports, and surveys.
+         <abstract encodinganalog="520$a" label="Abstract:">Documents the evolution of medical and scientific thinking and practice relating to women's health. Topics include abortion, birth control, childbirth, eugenics, female genital mutilation, lactation, infant mortality, marriage instruction, mental hygiene, motherhood, nutrition, obstetrics, sexuality, sterilization, and AIDS.  Types of materials include printed material, research materials, reports, and surveys.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -79,7 +80,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> This subject collection documents the evolution of medical and scientific thinking and practice relating to women's health from 1818-1990s. There are small amounts of material on such topics as abortion, birth control, childbirth, eugenics, female genital mutilation, lactation, infant mortality, marriage instruction, mental hygiene, motherhood, nutrition, obstetrics, sexuality, sterilization, and AIDS.  Types of materials include articles, books, advertisements, clippings, research materials, reports, surveys, pamphlets, and newsletters from a wide range of authors ranging from misogynist to feminist.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -134,7 +135,7 @@
          <subject encodinganalog="650" source="lcsh">Women's health services--History</subject>
 	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
       </controlaccess>
-       <dsc type="in-depth" id="list-contlist">
+       <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>GENERAL</unittitle>

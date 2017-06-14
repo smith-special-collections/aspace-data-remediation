@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca375.xml//EN" countrycode="us" mainagencycode="manosca">manosca375</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca375.xml//EN">manosca375</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Gladys Amelia Anslow Papers, </titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2014">2014</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Anslow, Gladys Amelia</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Anslow, Gladys Amelia</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Gladys Amelia Anslow Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1914 - 1969</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Gladys Amelia Anslow Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1914 - 1969</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:89f51dda-247e-47c3-b717-8ace2bd975b8</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">1 half document box</extent>
 		<extent encodinganalog="300$a">(.25 linear feet)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -61,7 +62,7 @@
 	<head>Biographical Note</head>
 <p>Gladys Amelia Anslow graduated from Smith College in 1914 during which time she served as the vice-president of the Physics Club and a member of the Mathematical Society. She was appointed the demonstrator in the Department of Physics at Smith that year. In 1924, Anslow received her Ph.D. from Yale in Physics, allowing her to become an associate professor. In 1936, she became a full Professor. </p>
 
-<p>The first woman to work with the cyclotron ("atomic whirligig to smash the atom") at UC Berkeley, she worked with fellow Smith physicist Dorothy Wrinch on a "spectrochemical study of protein molecules for the eventual production of synthetic foods and drugs" under a grant from the Office of Naval Research. To mark another first, it was the first research grant of its kind at Smith College. During World War II, Anslow was named Chief of Communications and Information Section for Liaison with Civilian Scientists and attached to the armed forces.  For this work she won President Truman&#39;s Certificate of Merit, one of only three educators to do so.</p>
+<p>The first woman to work with the cyclotron ("atomic whirligig to smash the atom") at UC Berkeley, she worked with fellow Smith physicist Dorothy Wrinch on a "spectrochemical study of protein molecules for the eventual production of synthetic foods and drugs" under a grant from the Office of Naval Research. To mark another first, it was the first research grant of its kind at Smith College. During World War II, Anslow was named Chief of Communications and Information Section for Liaison with Civilian Scientists and attached to the armed forces.  For this work she won President Truman's Certificate of Merit, one of only three educators to do so.</p>
 
 <p>From her professorship, Anslow progressed to Director of Graduate Study in 1940, professor on the Gates Foundation in 1946, and Professor Emeritus in 1960.  During her time working at Smith, Anslow frequently contributed to scientific journals and was a fellow of the American Academy of Arts and Sciences, the American Academy of for the Advancement of Science, and the American Physical Society, where she was the president of the New England Section. She died in 1969.  </p>
 
@@ -120,7 +121,7 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">1</container>
@@ -162,5 +163,3 @@
 
   </archdesc>
 </ead>
-
-

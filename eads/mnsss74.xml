@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss74.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss74</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss74.xml//EN">mnsss74</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Mary Frances Winston Papers, 1889-1987
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Winston, Mary Frances (Newson), 1869-1959</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Mary Frances Winston Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1889-1987</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Mary Frances Winston Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1889-1987</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1889-1940</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 213</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 213</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Professor; teacher of mathematics; and mathematician. Material consists primarily of correspondence from Winston to her family from colleges and universities she attended, describing student life, particularly from the University of G&#246;ttingen between 1893 to 1896. Prominent individuals represented in correspondence include Felix Klein, Margaret Eliza Maltby, and Grace Chisholm Young.  Photographs are also included.
+         <abstract encodinganalog="520$a" label="Abstract:">Professor; teacher of mathematics; and mathematician. Material consists primarily of correspondence from Winston to her family from colleges and universities she attended, describing student life, particularly from the University of Göttingen between 1893 to 1896. Prominent individuals represented in correspondence include Felix Klein, Margaret Eliza Maltby, and Grace Chisholm Young.  Photographs are also included.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -84,7 +85,7 @@
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
 	<p>Mary Frances Winston was born 1889 in Forreston, Illinois, and graduated from the University of Wisconsin in 1869.  She taught at Downer College in Fox Lake, Wisconsin, 1889-1891, then received a fellowship to study mathematics at Bryn Mawr College, and she studied at the University of Chicago, 1892-1893. She went to Germany in 1893 to complete her studies at the University of Gottingen and became the first woman to receive a Ph.D in mathematics from a German University. </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6229.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6229.jpg" linktype="simple" show="embed">
 <daodesc><p>Mary Frances Winston (center) <lb />with Grace Chrisholm and <lb />Margaret Malloy, undated</p></daodesc></dao> 
 
 <p>She returned to the United States in 1896 where she taught high school in St. Joseph, Missouri for one year, then took a position as head of the Mathematics Department at Kansas State Agricultural College in Manhattan, Kansas.  She held the position until 1900 when she left to marry Henry Byron Newson, a professor of mathematics at the University of Kansas. They had three children.   When her husband died in 1910 she returned to work as an assistant professor of mathematics at Washburn College in Topeka in 1913.  She left Washburn in 1921 and became professor of mathematics at Eureka College, where she stayed until her retirement in 1942.   Mary Winston Newson died in 1959.</p>
@@ -97,7 +98,7 @@
          <head>Scope and Contents of the Collection</head>
          <p>The Mary Frances Winston Papers include correspondence, biographical material, and photographs. They consist primarily of correspondence (1889-1895) from Winston to her family, particularly her parents, her brothers Ed, Pare, Charles and Win, her sister Gene, and her aunts Ada and Anna, and are written from the colleges and university she attended during those years. The most significant letters are those from Gottingen University, and describe student life there between 1893 and 1895. Included with some of the letters are photocopies of her daughter Caroline Besher's notes from the envelopes. In addition to the handwritten originals, there are typescripts of these letters, accompanied by a 13-page description of her student days in Germany written by Mary Winston, a biographical "Foreward" by Mrs. Beshers, and several letters from friends. represented in correspondence include: German mathematician Felix Klein, physicist Margaret Eliza Maltby, and English mathematician Grace Chisholm Young.</p>  
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -136,7 +137,7 @@
          <persname encodinganalog="600" source="lcnaf">Young, Grace Chisholm, 1868-1944</persname>
          <corpname encodinganalog="610" source="lcnaf">Universitaet Goettingen--Students--History</corpname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

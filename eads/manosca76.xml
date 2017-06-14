@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca76.xml//EN" countrycode="us" mainagencycode="manosca">manosca76</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca76.xml//EN">manosca76</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Department of Psychology Records, 1876-1997
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,17 +51,17 @@
 <date>Revised 2002
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <corpname encodinganalog="110" source="lcnaf">Smith College. Dept. of Psychology.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Department of Psychology Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1876-[ongoing] </unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 52</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Department of Psychology Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1876-[ongoing] </unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 52 UUID:767794a8-9712-4e13-83ec-1071e1476da5</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">2 boxes</extent>
 <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Records contain information about the department's history, academic courses, syllabi, examinations, and finances.  Also included is information on events sponsored by the department and on the students' Psychology Club. Types of materials include typescripts, photographs, and news clippings.
+<abstract encodinganalog="520$a" label="Abstract:">Records contain information about the department's history, academic courses, syllabi, examinations, and finances.  Also included is information on events sponsored by the department and on the students' Psychology Club. Types of materials include typescripts, photographs, and news clippings.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -88,7 +89,7 @@
 <head>Scope and Contents of the Collection</head>
 <p> The Psychology Department papers, 1876 - 1997, contain materials relating to the department's history, academic courses, examinations, and finances.  Course syllabi provide a useful overview of what topics were taught in the department.  There is also information on the many events the department sponsored, such as speakers, and on the students' Psychology Club. Types of materials include typescripts, photographs, and news clippings.</p>
 </scopecontent>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -124,7 +125,7 @@
 <corpname encodinganalog="610" source="lcsh">Smith College--History--Sources.</corpname>
 <subject encodinganalog="650" source="lcsh">Psychology--Study and teaching (Higher)--Massachusetts --Amherst.</subject>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -140,7 +141,7 @@
 </p>
 </relatedmaterial>
 </descgrp>
-<dsc type="in-depth" id="contlist">
+<dsc id="contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">1254</container>

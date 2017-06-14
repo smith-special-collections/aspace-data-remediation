@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss407.html">mnsss407</eadid>
     <filedesc>
       <titlestmt>
@@ -37,15 +38,14 @@
          <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Willard, Charity Cannon</persname>
          </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Charity Cannon Willard Papers<unitdate label="Dates:">1891-2006</unitdate></unittitle>
-       <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-       repositorycode="mnsss">MS 558</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Charity Cannon Willard Papers<unitdate label="Dates:">1891-2006</unitdate></unittitle>
+       <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 558</unitid>
        <physdesc label="Quantity:">
                <extent encodinganalog="300$a">4 boxes</extent>
                <extent encodinganalog="300$a">(4 linear ft.)</extent>
        </physdesc>
        <!-- Add other languages if applicable and encode with lang clip -->
-       <langmaterial label="Language of Material:" encodinganalog="546">
+       <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language>, 
             <language langcode="fre">French</language>
        </langmaterial>
@@ -57,7 +57,7 @@
             </address>
          </repository>
 
-      <abstract label="Abstract:" encodinganalog="520$a">Papers of Charity Cannon Willard, biographer of early French feminist and author Christine de Pizan (1363-1440). Included are writings by Charity Cannon Willard and others about Christine de Pizan and microfilmed manuscripts and other source materials collected by Willard. 
+      <abstract encodinganalog="520$a" label="Abstract:">Papers of Charity Cannon Willard, biographer of early French feminist and author Christine de Pizan (1363-1440). Included are writings by Charity Cannon Willard and others about Christine de Pizan and microfilmed manuscripts and other source materials collected by Willard. 
        </abstract>
 </did>
 <!-- Enter collection level metadata -->
@@ -67,7 +67,7 @@
 
 	<p>Willard was awarded the Ordres des Palmes Academiques by the French government in 1984, the Distinguished Alumnae Award from Hiram College in 1988, an L.H.D. from Saint Mary College in 1993, and a Smith College Medal in 1998.  She died June 5, 2005.</p>
 
-	<p><title render="bold">Christine de Pizan</title> (1363-1440) was the daughter of Tommaso di Benvenuto da Pizzano, a lecturer in astrology at the University of Bologna (1348) and later a physician. Shortly after Christine's birth, her father became court astrologer to Charles V, moving the family to Paris in 1368. De Pizan was educated by her father in spite of her mother's objections, and was married at age fifteen to &#201;tienne du Castel, a royal secretary, who encouraged her to continue her studies. She was widowed at age twenty-five and left with three children, a niece, and her own widowed mother to support; her father had died impoverished, and her husband's estate took fourteen years and numerous lawsuits to close. Most feminist scholars date the beginning of the modern feminist movement to the works of Christine de Pizan. She was France's, and possibly Europe's, first woman known to have earned her living by the pen; she is also considered by some scholars to be Europe's first professional writer, male or female. While establishing her reputation as a writer, she earned her living by copying and illustrating other people's works. Her works included all genres: biography, autobiography, poetry, history, novels, short stories, feminist polemics, books on advice and morality, military techniques, religion, politics, and literary commentary.</p>
+	<p><title render="bold">Christine de Pizan</title> (1363-1440) was the daughter of Tommaso di Benvenuto da Pizzano, a lecturer in astrology at the University of Bologna (1348) and later a physician. Shortly after Christine's birth, her father became court astrologer to Charles V, moving the family to Paris in 1368. De Pizan was educated by her father in spite of her mother's objections, and was married at age fifteen to Étienne du Castel, a royal secretary, who encouraged her to continue her studies. She was widowed at age twenty-five and left with three children, a niece, and her own widowed mother to support; her father had died impoverished, and her husband's estate took fourteen years and numerous lawsuits to close. Most feminist scholars date the beginning of the modern feminist movement to the works of Christine de Pizan. She was France's, and possibly Europe's, first woman known to have earned her living by the pen; she is also considered by some scholars to be Europe's first professional writer, male or female. While establishing her reputation as a writer, she earned her living by copying and illustrating other people's works. Her works included all genres: biography, autobiography, poetry, history, novels, short stories, feminist polemics, books on advice and morality, military techniques, religion, politics, and literary commentary.</p>
 	<p>[See also APPENDIX:  PUBLICATIONS ON CHRISTINE DE PIZAN]</p>
 </bioghist>
 <scopecontent id="scope">
@@ -75,7 +75,7 @@
        <p>The collection contains writings by Charity Cannon Willard and others about Christine de Pizan (1363-1440), including essays, lectures, articles, notes, and books. There are approximately 40 reels of microfilm of source materials collected by Willard as well as slides and photographs of original manuscripts from other archival repositories.</p>
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into seven series:</p>
 	<list>
@@ -109,7 +109,7 @@
 
 <!-- Enter administrative information -->
  <!-- PROOF -->
- <descgrp type="admininfo" id="admin">
+ <descgrp id="admin" type="admininfo">
         <head>Information on Use</head>
         <descgrp type="admininfo">
               <head>Terms of Access and Use</head>
@@ -153,13 +153,13 @@ Smith Collection.</p>
      <persname encodinganalog="600" source="lcnaf">Willard, Charity Cannon</persname> 
 <!-- Encode with Added Entry clips -->
       <persname encodinganalog="700" source="lcnaf">Christine, de Pisan, ca. 1364-ca. 1431</persname> 
-      <title render="italic" encodinganalog="730">The writings of Christine de Pizan. Ed. Charity Cannon Willard--Sources</title> 
+      <title encodinganalog="730" render="italic">The writings of Christine de Pizan. Ed. Charity Cannon Willard--Sources</title> 
 </controlaccess>
 <!-- end controlled access terms -->
 
 <!-- Enter additional information -->
 <!-- Edit and add hyperlinks if nec -->
-  <descgrp type="add" id="addinfo">
+  <descgrp id="addinfo" type="add">
       <head>Additional Information</head>
       <relatedmaterial id="add-related">
           <head>Related Material</head>
@@ -171,7 +171,7 @@ Smith Collection.</p>
 <head>APPENDIX: Publications on Christine de Pizan</head>
 	<p><title render="bold">Books</title></p>
 <list>
-<item><title render="italic">&#201;dition Critique of Le Livre de la paix</title>, by Christine de Pizan. The Hague: Mouton, 1958.</item>
+<item><title render="italic">Édition Critique of Le Livre de la paix</title>, by Christine de Pizan. The Hague: Mouton, 1958.</item>
 <item><title render="italic">Christine de Pizan, Her Life and Works</title>. New York: Persea, 1985.</item>
 
 <item>Text established in collaboration with Eric Hicks. <title render="italic">Le Livre des trois vertus.</title> Paris: Champion, 1989.</item>
@@ -186,15 +186,15 @@ Smith Collection.</p>
 
 <item><title render="italic">The "Livre de la Paix" of Christine de Pizan: A Critical Edition with Introduction and Notes.</title> The Hague: Mouton, 1958.</item>
 
-<item>Editor. <title render="italic">Les Faits d'armes et de chevalerie</title>. &#201;dition critique. Forthcoming.</item>
+<item>Editor. <title render="italic">Les Faits d'armes et de chevalerie</title>. Édition critique. Forthcoming.</item>
 
 </list>
 	<p><title render="bold">Book Reviews</title></p>
 <list>
 
-<item>Review of: Rains, R.R., ed. <title render="italic">Les Sept Psaumes all&#233;goris&#233;s.</title>in <title render="italic">Romance Philology</title>. Vol. XXI, No. 1. Berkeley: University of California Press, August 1967. </item>
+<item>Review of: Rains, R.R., ed. <title render="italic">Les Sept Psaumes allégorisés.</title>in <title render="italic">Romance Philology</title>. Vol. XXI, No. 1. Berkeley: University of California Press, August 1967. </item>
 
-<item>Review of: Hicks, Eric. "Le D&#233;bat sur le Roman de la Rose." 1977.</item>
+<item>Review of: Hicks, Eric. "Le Débat sur le Roman de la Rose." 1977.</item>
 
 <item>Review of: McLeod, Enid. <title render="italic">The Order of the Rose: The Life and Ideas of Christine de Pizan. 
 </title></item>
@@ -202,16 +202,16 @@ Smith Collection.</p>
 	<p><title render="bold">Book Articles</title></p>
 <list>
 
-<item>"Isabel of Portugal, Patroness of Humanism?" in Simone, Franco. <title render="italic">Miscellanea di studi e recherch&#233; sul Quatrocento francese.</title> Torino: Gioppichelli, 1967. 519-544.</item>
+<item>"Isabel of Portugal, Patroness of Humanism?" in Simone, Franco. <title render="italic">Miscellanea di studi e recherché sul Quatrocento francese.</title> Torino: Gioppichelli, 1967. 519-544.</item>
 
 <item>"Christine de Pizan on the Art of Warfare" in Desmond, Marilynn, ed. <title render="italic">Christine de Pizan and the Categories of Difference</title>. Minneapolis, MN: U of Minnesota P; 1998. pp. 3-15. xix, 287 pp. in <title render="italic">Essays in Honor of L. F. Solano,</title> ed. Raymond Cormier and Urban Holmes. Chapel Hill: University of North Carolina Press, 1970.</item>
 
 <item>"A Fifteenth-Century View of Women's Role in Medieval Society: Christine de Pizan's <title render="italic">Livre des Trois Vertus" </title>In Morewedge, Rosemarie Thee. <title render="italic">The Role of Women in the Middle Ages, Papers of the sixth annual conference of the Center for Medieval and Early Renaissance Study, State University of New York at Binghamton 6-7 May 1972.</title> Albany and London: State University of New York Press and Hodder and Stroughton, 1975. 90-120.</item> 
 
-<item>"Christine de Pizan, The Astrologer's Daughter."  in <title render="italic">Moyen Age et Renaissance</title>, ed. Jonathan Beck and Gianni Mombello. Vol. 1 of <title render="italic">M&#233;langes &#224; la m&#233;moire de Franco Simone: France et Italie dans la culture europ&#233;enne</title>. Geneva: Slatkine, 1980.</item>
+<item>"Christine de Pizan, The Astrologer's Daughter."  in <title render="italic">Moyen Age et Renaissance</title>, ed. Jonathan Beck and Gianni Mombello. Vol. 1 of <title render="italic">Mélanges à la mémoire de Franco Simone: France et Italie dans la culture européenne</title>. Geneva: Slatkine, 1980.</item>
 
 <item>"A New Look at Christine de Pizan's <title render="italic">Epistre au dieu d'Amours"
-</title>In Beck, Jonathan and Mombello, Gianni. <title render="italic">Seconda miscellanea di studi e ricerche sul quatttrocento francese.</title> Chamb&#233;ry et Turin, Centre d'&#233;tudes franco-italien. 1981. 71-92. </item>
+</title>In Beck, Jonathan and Mombello, Gianni. <title render="italic">Seconda miscellanea di studi e ricerche sul quatttrocento francese.</title> Chambéry et Turin, Centre d'études franco-italien. 1981. 71-92. </item>
 
 <item>"Christine de Pizan and the Order of the Rose" in <title render="italic">Ideals for Women in the Works of Christine de Pizan,</title> ed. Diane Bornstein. Michigan Consortium of Medieval and Early Modern Studies Monograph Series 1. 1981.</item>
 
@@ -235,7 +235,7 @@ Smith Collection.</p>
 
 <item>"Jean de Werchin, Seneschal de Hainaut: Reader and Writer of Courtly Literature"  in Busby, Keith (ed.); Kooper, Erik (ed.); <title render="italic">Courtly Literature: Culture and Context</title>. Amsterdam: Benjamins; 1990. pp. 595-603.</item>
 
-<item>"L'id&#233;e du Bonheur chez Christine de Pizan" In Bushinger, Danielle. <title render="italic">L'Id&#233;e du bonheur au moyen &#226;ge, Actes du Colloque d'Amiens de mars 1984.</title> G&#246;ppingen, K&#252;mmerle (G&#246;ppinger Arbeiten zur Germanistik, CDXIX), 1990. 97-102.</item>
+<item>"L'idée du Bonheur chez Christine de Pizan" In Bushinger, Danielle. <title render="italic">L'Idée du bonheur au moyen âge, Actes du Colloque d'Amiens de mars 1984.</title> Göppingen, Kümmerle (Göppinger Arbeiten zur Germanistik, CDXIX), 1990. 97-102.</item>
 
 <item>"Anne de France, Reader of Christine de Pizan" in  McLeod, Glenda K. <title render="italic">Visitors to the City: Readers of Christine Pizan.</title> Lewiston, NY: Edward Mellen, 1991.</item>
 
@@ -247,9 +247,9 @@ Smith Collection.</p>
 
 <item>"Christine de Pizan: From Poet to Political Commentator"  in Brabant, Margaret (ed.); Elshtain, Jean Bethke (introd.); <title render="italic">Politics, Gender, and Genre: The Political Thought of Christine de Pizan.</title> Boulder: Westview; 1992. pp. 17-32. xii, 240 pp.</item>
 
-<item>"Une Source oubli&#233;e du voyage imaginaire de Christine de Pizan" in Aubailly, Jean-Claude, Baumgartner; Emmanu&#232;le; Dubost, Francis; Dulac, Liliane; and Faure, Marcel. <title render="italic">"Et c'est la fin pour que sommes ensemble," hommage &#224; Jean Dufournet: litt&#233;rature, histoire, et langue du moyen &#226;ge.</title> Paris: Champion, t. I, 1993. 321-326.</item>
+<item>"Une Source oubliée du voyage imaginaire de Christine de Pizan" in Aubailly, Jean-Claude, Baumgartner; Emmanuèle; Dubost, Francis; Dulac, Liliane; and Faure, Marcel. <title render="italic">"Et c'est la fin pour que sommes ensemble," hommage à Jean Dufournet: littérature, histoire, et langue du moyen âge.</title> Paris: Champion, t. I, 1993. 321-326.</item>
 
-<item>"Christine de Pizan's Allegorized Psalms" in Dulac, Liliane and Rib&#233;mont, Bernard. <title render="italic">Une femme de Lettres au moyen &#226;ge: &#233;tudes r&#233;unies autour de Christine de Pizan.</title> Orl&#233;ans: Paradigme, 1995. 317-324</item>
+<item>"Christine de Pizan's Allegorized Psalms" in Dulac, Liliane and Ribémont, Bernard. <title render="italic">Une femme de Lettres au moyen âge: études réunies autour de Christine de Pizan.</title> Orléans: Paradigme, 1995. 317-324</item>
 
 <item>. "Pilfering Vegetius? Christine de Pizan's 'Faits d'Armes et de Chevalerie' " in Smith, Lesley (ed.); Taylor, Jane H. M. (ed.); <title render="italic">Women, the Book and the Worldly. </title>Cambridge: D. S. Brewer; 1995. pp. 31-37.</item>
 
@@ -257,17 +257,17 @@ Smith Collection.</p>
 
 <item>"The Patronage of Isabel of Portugal" in McCash, June Hall (ed.); Nichols, Stephen G. (foreword); <title render="italic">The Cultural Patronage of Medieval Women.</title> Athens, GA: University of Georgia Press, 1996. 306-20.</item>
 
-<item>"Louis de Bruges, lecteur de Christine de Pizan" In  <title render="italic">Cahiers de Recherches M&#233;di&#233;vales.</title> XIII-XV s. 4, 1997. pp. 191-195.</item>
+<item>"Louis de Bruges, lecteur de Christine de Pizan" In  <title render="italic">Cahiers de Recherches Médiévales.</title> XIII-XV s. 4, 1997. pp. 191-195.</item>
 
 <item>"The Dominican Abbey of Poissy in 1400" in Campbell, John (ed. and preface); Margolis, Nadia (ed. and introd.); <title render="italic">Christine de Pizan 2000.</title> Amsterdam, Netherlands: Rodopi; 2000. pp. 209-18. 429 pp.</item>
 
-<item>"A Singular Career: College Professor and Army Wife" (1914- ) In Chance, Jane (ed. and introd.); <title render="italic">Women Medievalists and the Academy</title>. Madison&#160;: University of Wisconsin Press, 2005. 759-68.</item>
+<item>"A Singular Career: College Professor and Army Wife" (1914- ) In Chance, Jane (ed. and introd.); <title render="italic">Women Medievalists and the Academy</title>. Madison : University of Wisconsin Press, 2005. 759-68.</item>
 </list>
 	<p><title render="bold">Journal Articles</title></p>
 	<list>
 	<item>"The 'Three Virtues' of Christine de Pizan." In <title render="italic">Boston Public Library Quarterly</title> (1950): 201-305.</item>
 
-<item>"Christine de Pizan's 'Clock of Temperance.'" <title render="italic">L'Esprit Cr&#233;ateur</title> 2 (1962): 149-54.</item>
+<item>"Christine de Pizan's 'Clock of Temperance.'" <title render="italic">L'Esprit Créateur</title> 2 (1962): 149-54.</item>
 
 <item>"A Portuguese Translation of Christine de Pisan's Livre des Trois Vertus" <title render="italic">PMLA: Publications of the Modern Language Association of America</title> 78 (1963): 459-64.</item>
 
@@ -277,13 +277,13 @@ Smith Collection.</p>
 
 <item>"The Manuscript Tradition of <title render="italic">Le Livre des Trois Vertus</title> and Christine de Pizan's Audience." <title render="italic">Journal of the History of Ideas</title> 27 (1966): 433-44.</item>
 
-<item>"The Remarkable Case of Clotilde de Surville" <title render="italic">L'Esprit Cr&#233;ateur</title>, 1966; 6: 108-116.</item>
+<item>"The Remarkable Case of Clotilde de Surville" <title render="italic">L'Esprit Créateur</title>, 1966; 6: 108-116.</item>
 
 <item>"The Concept of True Nobility at the Burgundian Court" <title render="italic">Studies in the Renaissance</title>, 1967; 14: 33-48.</item>
 
 <item>"A Fifteenth-Century Burgundian Version of the <title render="italic">Roman de Florimont"Medievalia et Humanistica</title>. II (n.s.). 1971. 21-46. </item>
 
-<item>"A Re-Examination of <title render="italic">Le D&#233;bat des deux amants</title>"<title render="italic">Les Bonnes Feuilles. </title>III. 1974. 73-88.</item>
+<item>"A Re-Examination of <title render="italic">Le Débat des deux amants</title>"<title render="italic">Les Bonnes Feuilles. </title>III. 1974. 73-88.</item>
 
 <item>"An Unknown Manuscript of Christine de Pizan's Livre de la paix" <title render="italic">Studi Francesi</title>, 1978; 64: 90-97.</item>
 
@@ -291,9 +291,9 @@ Smith Collection.</p>
 
 <item>"Lovers' Dialogues in Christine de Pizan's Lyric Poetry from the Cent ballades to the Cent ballades d'Amant et de Dame" <title render="italic">Fifteenth-Century Studies</title>, 1981; 4: 167-180.</item>
 
-<item>"Essor et Fortune de la Chanson de Geste dans l'Europe et l'orient latin" <title render="italic">Actes du IXe Congr&#232;s International de la Soci&#233;t&#233; Rencesvals pour l'&#201;tude des &#201;pop&#233;es Romanes</title>. Padoue-Venise: Mucchi Editore, 29 Aug. - 4 Sept., 1982. </item>
+<item>"Essor et Fortune de la Chanson de Geste dans l'Europe et l'orient latin" <title render="italic">Actes du IXe Congrès International de la Société Rencesvals pour l'Étude des Épopées Romanes</title>. Padoue-Venise: Mucchi Editore, 29 Aug. - 4 Sept., 1982. </item>
 
-<item>"Florent et Octavien: The Fourteenth-Century Poem" <title render="italic">Olifant: A Publication of the Soci&#233;t&#233; Rencesvals, American-Canadian Branch</title>, 1989 Fall-Winter; 14 (3-4): 179-189.</item>
+<item>"Florent et Octavien: The Fourteenth-Century Poem" <title render="italic">Olifant: A Publication of the Société Rencesvals, American-Canadian Branch</title>, 1989 Fall-Winter; 14 (3-4): 179-189.</item>
 
 <item>"Women and Marriage Around 1400: Three Views" <title render="italic">Fifteenth-Century Studies</title>, 1990; 17: 475-484.</item>
 
@@ -301,22 +301,22 @@ Smith Collection.</p>
 
 <item>"L'influence de l'image sur l'imagination de Christine de Pizan"<title render="italic">Wodam, </title>1992.</item>
 
-<item>"Renard et ses compagnons dans les sermons de Jean Gerson"  <title render="italic">Reinardus: Yearbook of the International Reynard Society/Annuaire de la Soci&#233;t&#233; Internationale Renardienne</title>, 1992; 5: 209-15.</item>
+<item>"Renard et ses compagnons dans les sermons de Jean Gerson"  <title render="italic">Reinardus: Yearbook of the International Reynard Society/Annuaire de la Société Internationale Renardienne</title>, 1992; 5: 209-15.</item>
 </list>
 
 <p><title render="bold">Replies to the Following Articles</title></p>
 <list>
 <item>"Dignity and Desire: The Alba Poet's Liberation of the Courtly Lady" By: Sigal, Gale;  in O'Nan, Martha (ed.); <title render="italic">Papers on Romance Literary Relations: The Creation of Female Voices by Male Writers in Romance Literatures</title>. Brockport: State University of New York; 1987. pp. 9-20. </item>
 
-<item>"Doing unto Others as Was Done unto Her: The p&#237;cara in Spanish Golden Age Fiction" By: Ackerlind, Sheila R.  in O'Nan, Martha (ed.); <title render="italic">Papers on Romance Literary Relations: The Creation of Female Voices by Male Writers in Romance Literatures</title>. Brockport: State Univ. of New York; 1987. pp. 23-29.</item>
+<item>"Doing unto Others as Was Done unto Her: The pícara in Spanish Golden Age Fiction" By: Ackerlind, Sheila R.  in O'Nan, Martha (ed.); <title render="italic">Papers on Romance Literary Relations: The Creation of Female Voices by Male Writers in Romance Literatures</title>. Brockport: State Univ. of New York; 1987. pp. 23-29.</item>
 
-<item>"Enide and Fenice: Chr&#233;tien de Troyes's Clerkly Heroines" By: Armstrong, Grace M. In O'Nan, Martha (ed.); <title render="italic">Papers on Romance Literary Relations: The Creation of Female Voices by Male Writers in Romance Literatures</title>. Brockport: State Univ.of New York; 1987. pp. 1-8.</item>
+<item>"Enide and Fenice: Chrétien de Troyes's Clerkly Heroines" By: Armstrong, Grace M. In O'Nan, Martha (ed.); <title render="italic">Papers on Romance Literary Relations: The Creation of Female Voices by Male Writers in Romance Literatures</title>. Brockport: State Univ.of New York; 1987. pp. 1-8.</item>
 </list>
 </odd>
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -363,7 +363,7 @@ Smith Collection.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. NOTES</unittitle>
  </did>
@@ -371,7 +371,7 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">7</container>
- <unittitle>J. Germain "D&#233;bat du Chr&#233;tien et du Sarrazin"</unittitle>
+ <unittitle>J. Germain "Débat du Chrétien et du Sarrazin"</unittitle>
  </did>
  </c02>
  <c02>
@@ -385,7 +385,7 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">9</container>
- <unittitle>"Dictionnaire des litt&#233;ratures de langue fran&#231;aise"</unittitle>
+ <unittitle>"Dictionnaire des littératures de langue française"</unittitle>
  </did>
  </c02>
  <c02>
@@ -399,7 +399,7 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">11</container>
- <unittitle>"Un Po&#232;me in&#233;dit" (with copy of text)</unittitle>
+ <unittitle>"Un Poème inédit" (with copy of text)</unittitle>
  </did>
  </c02>
  <c02>
@@ -413,7 +413,7 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">13</container>
- <unittitle>"L'&#201;p&#238;tre d'Oth&#233;a"</unittitle>
+ <unittitle>"L'Épître d'Othéa"</unittitle>
  </did>
  </c02>
  <c02>
@@ -427,7 +427,7 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">15</container>
- <unittitle>Obras de Rodriguez de la C&#225;mera</unittitle>
+ <unittitle>Obras de Rodriguez de la Cámera</unittitle>
  </did>
  </c02>
  <c02>
@@ -438,7 +438,7 @@ Smith Collection.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
   <note>
@@ -455,7 +455,7 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">17</container>
- <unittitle>"Jeanne d'Arc comme Source d'Inspiration R: H&#233;raire au quinzi&#232;me si&#232;cle" M.A. Thesis, Smith College,<unitdate> 1936.</unitdate></unittitle>
+ <unittitle>"Jeanne d'Arc comme Source d'Inspiration R: Héraire au quinzième siècle" M.A. Thesis, Smith College,<unitdate> 1936.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -481,14 +481,14 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">20</container>
- <unittitle>Review of: Rains, R.R., ed. <title render="italic">Les Sept Psaumes all&#233;goris&#233;s. </title><unitdate>1967.</unitdate></unittitle>
+ <unittitle>Review of: Rains, R.R., ed. <title render="italic">Les Sept Psaumes allégorisés. </title><unitdate>1967.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">1</container>
  <container type="folder">21</container>
- <unittitle>Review of: Hicks, Eric. "Le D&#233;bat sur le Roman de la Rose."<unitdate> 1977.</unitdate></unittitle>
+ <unittitle>Review of: Hicks, Eric. "Le Débat sur le Roman de la Rose."<unitdate> 1977.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -619,7 +619,7 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">39</container>
- <unittitle>"The Flemish Cit&#233; des Dames"</unittitle>
+ <unittitle>"The Flemish Cité des Dames"</unittitle>
  </did>
  </c03>
  <c03>
@@ -676,7 +676,7 @@ Smith Collection.</p>
  <c03>
  <did>
  <container type="box">1</container>
- <unittitle>"L'id&#233;e de bonheur au moyen &#226;ge,"<unitdate> 1990</unitdate></unittitle>
+ <unittitle>"L'idée de bonheur au moyen âge,"<unitdate> 1990</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -694,7 +694,7 @@ Smith Collection.</p>
  <c03>
  <did>
  <container type="box">1</container>
- <unittitle>"Une Source Oubli&#233;e du Voyage Imaginaire de Christine de Pizan," 3 copies</unittitle>
+ <unittitle>"Une Source Oubliée du Voyage Imaginaire de Christine de Pizan," 3 copies</unittitle>
  </did>
  </c03>
  <c03>
@@ -746,7 +746,7 @@ Smith Collection.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. LECTURES AND CONFERENCE PAPERS</unittitle>
  </did>
@@ -835,7 +835,7 @@ Smith Collection.</p>
  <did>
  <container type="box">1</container>
  <container type="folder">56</container>
- <unittitle>"Early Readers of Christine de Pizan: Some Medieval Women to Be Remembered," La Maison Fran&#231;aise, New York University: <unitdate>February 13 </unitdate>(multiple copies)</unittitle>
+ <unittitle>"Early Readers of Christine de Pizan: Some Medieval Women to Be Remembered," La Maison Française, New York University: <unitdate>February 13 </unitdate>(multiple copies)</unittitle>
  </did>
  </c03>
  <c03>
@@ -1018,7 +1018,7 @@ Smith Collection.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. SUBJECT FILES: CHRISTINE DE PIZAN</unittitle>
   <note>
@@ -1042,7 +1042,7 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">2</container>
- <unittitle>Salet, Frances and Erlande-Brandenburg, Alain. "La Priorale Saint-Louis de Poissy." <title render="italic">Bulletin Monumental</title>. Paris: Mus&#233;e des Monuments Fran&#231;ais, Soci&#233;t&#233; Fran&#231;aise d'Arch&#233;ologie,<unitdate> 1971.</unitdate></unittitle>
+ <unittitle>Salet, Frances and Erlande-Brandenburg, Alain. "La Priorale Saint-Louis de Poissy." <title render="italic">Bulletin Monumental</title>. Paris: Musée des Monuments Français, Société Française d'Archéologie,<unitdate> 1971.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1056,7 +1056,7 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">4</container>
- <unittitle>"MS 8 Christine de Pizan, Epitre d'Oth&#233;a" (article with examples of manuscript and notes).</unittitle>
+ <unittitle>"MS 8 Christine de Pizan, Epitre d'Othéa" (article with examples of manuscript and notes).</unittitle>
  </did>
  </c03>
  <c03>
@@ -1152,7 +1152,7 @@ Smith Collection.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES V. SUBJECT FILES: CHRISTINE DE PIZAN</unittitle>
  </did>
@@ -1164,7 +1164,7 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">18</container>
- <unittitle>"Biographie de Jean de Mantagu, Grand Ma&#238;tre de France" <title render="italic">Biblioth&#232;que de l'&#201;cole des chartes XIII. </title><unitdate>1852.</unitdate></unittitle>
+ <unittitle>"Biographie de Jean de Mantagu, Grand Maître de France" <title render="italic">Bibliothèque de l'École des chartes XIII. </title><unitdate>1852.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1199,7 +1199,7 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">23</container>
- <unittitle>Schneider-Lastin, Wolfram. "Hanschriftenfunde zur Literatur des Mittelalters: Christine de Pizan Deutsch." <title render="italic">Zeitschrift f&#252;r deutsches Altertum und deutsche Literatur (ZFDA). </title>125:<unitdate>2, 1996.</unitdate></unittitle>
+ <unittitle>Schneider-Lastin, Wolfram. "Hanschriftenfunde zur Literatur des Mittelalters: Christine de Pizan Deutsch." <title render="italic">Zeitschrift für deutsches Altertum und deutsche Literatur (ZFDA). </title>125:<unitdate>2, 1996.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1213,28 +1213,28 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">25</container>
- <unittitle>Walters, Lori J. "The Royal Vernacular: Poet and Patron in Christine de Pizan's <title render="italic">Charles V </title>and the <title render="italic">Sept Psaumes All&#233;goris&#233;s." </title>Blumenfeld-Kosinski, Renate; Robertson, Duncan; and Warren, Nancy Bradley, eds. <title render="italic">The Vernacular Spirit: Essays on Medieval Religious Literature.</title> New York: Palgrave, 2002.</unittitle>
+ <unittitle>Walters, Lori J. "The Royal Vernacular: Poet and Patron in Christine de Pizan's <title render="italic">Charles V </title>and the <title render="italic">Sept Psaumes Allégorisés." </title>Blumenfeld-Kosinski, Renate; Robertson, Duncan; and Warren, Nancy Bradley, eds. <title render="italic">The Vernacular Spirit: Essays on Medieval Religious Literature.</title> New York: Palgrave, 2002.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">26</container>
- <unittitle>Parussa, Gabriella. "Veior, O&#239;r et Entendre<title render="italic"> </title>l'<title render="italic">Epistre Oth&#233;a</title> et le Cycle Iconographique de Deux Manuscrits." <title render="italic">Favola, Mito ed Altrisaggi di Letteratura e Filologia</title>. 2003.</unittitle>
+ <unittitle>Parussa, Gabriella. "Veior, Oïr et Entendre<title render="italic"> </title>l'<title render="italic">Epistre Othéa</title> et le Cycle Iconographique de Deux Manuscrits." <title render="italic">Favola, Mito ed Altrisaggi di Letteratura e Filologia</title>. 2003.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">27</container>
- <unittitle>"Christine de Pizan: Une Femme de Science, Une femme de lettres: R&#233;sum&#233;s" Colloque international: Universit&#233; de Li&#233;ge. <unitdate>11-15 January 20</unitdate>05.</unittitle>
+ <unittitle>"Christine de Pizan: Une Femme de Science, Une femme de lettres: Résumés" Colloque international: Université de Liége. <unitdate>11-15 January 20</unitdate>05.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">28</container>
- <unittitle>"Bibliographie: A propos d'un livre r&#233;cent sur Christine de Pizan."</unittitle>
+ <unittitle>"Bibliographie: A propos d'un livre récent sur Christine de Pizan."</unittitle>
  </did>
  </c03>
  <c03>
@@ -1262,7 +1262,7 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">32</container>
- <unittitle>"Notice sur la Construction du Palais Rihour &#224; Lille"</unittitle>
+ <unittitle>"Notice sur la Construction du Palais Rihour à Lille"</unittitle>
  </did>
  </c03>
  </c02>
@@ -1274,14 +1274,14 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">33</container>
- <unittitle>Mombello, Gianni. "Recherches sur l'Origine du Nom de la D&#233;esse Oth&#233;a." Dagli, Estratto. <title render="italic">Atti Della Academia delle Scienze di Torino</title>. Vol. 103<unitdate>. 1968-69.</unitdate></unittitle>
+ <unittitle>Mombello, Gianni. "Recherches sur l'Origine du Nom de la Déesse Othéa." Dagli, Estratto. <title render="italic">Atti Della Academia delle Scienze di Torino</title>. Vol. 103<unitdate>. 1968-69.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">33</container>
- <unittitle>Mombello, Gianni. "Quelques aspects de la pens&#233;e politique de Christine de Pizan d'apr&#232;s ses &#339;uvres publi&#233;es." Dagli, Estratto. Tai del Convegno su: 'Culture et politique en France &#224; l'&#233;poque de l'Humanisme et de la Renaissance.' Academia delle Scienze di Torino. 29 March - <unitdate>3 April, 1971.</unitdate></unittitle>
+ <unittitle>Mombello, Gianni. "Quelques aspects de la pensée politique de Christine de Pizan d'après ses œuvres publiées." Dagli, Estratto. Tai del Convegno su: 'Culture et politique en France à l'époque de l'Humanisme et de la Renaissance.' Academia delle Scienze di Torino. 29 March - <unitdate>3 April, 1971.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1295,21 +1295,21 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">33</container>
- <unittitle>Kennedy, Angus. "La Lamentation sur les maux de la France de Christine de Pizan." Foulon, Charles. <title render="italic">M&#233;langes de Langue et Litt&#233;rature Fran&#231;aises de Moyen Age et de la Renaissance</title>. Tome I. Institut de Fran&#231;ais, Universit&#233; de Haute Bretagne,<unitdate> 1980.</unitdate></unittitle>
+ <unittitle>Kennedy, Angus. "La Lamentation sur les maux de la France de Christine de Pizan." Foulon, Charles. <title render="italic">Mélanges de Langue et Littérature Françaises de Moyen Age et de la Renaissance</title>. Tome I. Institut de Français, Université de Haute Bretagne,<unitdate> 1980.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">33</container>
- <unittitle>Dulac, Liliane. "Dissym&#233;trie et &#233;chec de la communication dans les <title render="italic">Cent Balades d'Amant et de Dame </title>de Christine de Pizan." Lengas: Dix Ann&#233;es de Sociolinguistique / D&#233;tz ans de Socioling&#252;&#237;stica. Montpellier,<unitdate> 1987.</unitdate></unittitle>
+ <unittitle>Dulac, Liliane. "Dissymétrie et échec de la communication dans les <title render="italic">Cent Balades d'Amant et de Dame </title>de Christine de Pizan." Lengas: Dix Années de Sociolinguistique / Détz ans de Sociolingüística. Montpellier,<unitdate> 1987.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">33</container>
- <unittitle>Kennedy, Angus. "Le manuscrit de Ch&#226;tellerault. Un manuscrit perdu du VIIe livre de 'La Mutacion de Fortune.'" Zimmerman, Margarete and De Rentiis, Dina. The City of Scholars: New Approaches to Christine de Pizan. Berlin: Walter de Gruyter,<unitdate> 1994. </unitdate>(2 copies)</unittitle>
+ <unittitle>Kennedy, Angus. "Le manuscrit de Châtellerault. Un manuscrit perdu du VIIe livre de 'La Mutacion de Fortune.'" Zimmerman, Margarete and De Rentiis, Dina. The City of Scholars: New Approaches to Christine de Pizan. Berlin: Walter de Gruyter,<unitdate> 1994. </unitdate>(2 copies)</unittitle>
  </did>
  </c03>
  <c03>
@@ -1330,26 +1330,26 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">33</container>
- <unittitle>Smith, Geri L. "De Marotele au <title render="italic">Lai Mortel: </title>La Subversion Discursive du Code Courtois Dans Deux Ouvrages de Christine de Pizan." Hicks, Eric. Au Champ des Escriptures, III Colloque international sur Christine de Pizan. Paris: Honor&#233; Champion &#201;diteur, 2000.</unittitle>
+ <unittitle>Smith, Geri L. "De Marotele au <title render="italic">Lai Mortel: </title>La Subversion Discursive du Code Courtois Dans Deux Ouvrages de Christine de Pizan." Hicks, Eric. Au Champ des Escriptures, III Colloque international sur Christine de Pizan. Paris: Honoré Champion Éditeur, 2000.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">33</container>
- <unittitle>Walters, Loris J. "Autobiographie et Humanisme: la R&#233;ception de P&#233;trarque par Christine de Pizan." Dynamique d'une expansion culturelle P&#233;trarque en Europe XIV-XX Si&#232;cle. Paris: Honor&#233; Champion &#201;diteur, 2001.</unittitle>
+ <unittitle>Walters, Loris J. "Autobiographie et Humanisme: la Réception de Pétrarque par Christine de Pizan." Dynamique d'une expansion culturelle Pétrarque en Europe XIV-XX Siècle. Paris: Honoré Champion Éditeur, 2001.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">33</container>
- <unittitle>Altman, Barbara. "L'Art de l'Autoportrait Litt&#233;raire dans les <title render="italic">Cent Ballades</title> de Christine de Pizan."</unittitle>
+ <unittitle>Altman, Barbara. "L'Art de l'Autoportrait Littéraire dans les <title render="italic">Cent Ballades</title> de Christine de Pizan."</unittitle>
  </did>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VI. AUDIOVISUAL MATERIALS</unittitle>
  </did>
@@ -1361,21 +1361,21 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">34</container>
- <unittitle>Photographed manuscript: Christine de Pisan, <title render="italic">Lettre &#224; Isabelle de Bavi&#232;re, reine de France.</title> Flandre m&#233;ridionale ou France, c. 1490. MS. IV 1176</unittitle>
+ <unittitle>Photographed manuscript: Christine de Pisan, <title render="italic">Lettre à Isabelle de Bavière, reine de France.</title> Flandre méridionale ou France, c. 1490. MS. IV 1176</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">35</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 1. <title render="italic">Les Grandes Chroniques de France.</title> f. 170. Le Ch&#226;teau de Poissy.</unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 1. <title render="italic">Les Grandes Chroniques de France.</title> f. 170. Le Château de Poissy.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">35</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 10387, f. 1. (2 copies)</unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 10387, f. 1. (2 copies)</unittitle>
  </did>
  </c03>
  <c03>
@@ -1403,42 +1403,42 @@ Smith Collection.</p>
  <did>
  <container type="box">2</container>
  <container type="folder">35</container>
- <unittitle>Lyon, Biblioth&#232;que de la ville de Lyon. 240</unittitle>
+ <unittitle>Lyon, Bibliothèque de la ville de Lyon. 240</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">35</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. 12994 MS. Fr. 948, f. 1.</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. 12994 MS. Fr. 948, f. 1.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">35</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. 12994 MS. Fr. 948, f. 14.</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. 12994 MS. Fr. 948, f. 14.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">35</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. 12994 MS. Fr. 948, f. 184.</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. 12994 MS. Fr. 948, f. 184.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">35</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. 12994 MS. Fr. 2807, f. 12.</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. 12994 MS. Fr. 2807, f. 12.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">35</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. 30648 MS. Fr. 948, f. IIV</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. 30648 MS. Fr. 948, f. IIV</unittitle>
  </did>
  </c03>
  <c03>
@@ -1457,7 +1457,7 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">1</container>
- <unittitle><title render="italic">L'&#233;poque de Charles VI</title> from Les Tr&#233;sors de la Biblioth&#232;que Nationale: D&#233;partement des Manuscrits. Commentaires par Marcel Thomas. &#201;ditions Film&#233;es d'Art et d'Histoire<unitdate>. 1957. </unitdate>(20-slide collection with commentary book)</unittitle>
+ <unittitle><title render="italic">L'époque de Charles VI</title> from Les Trésors de la Bibliothèque Nationale: Département des Manuscrits. Commentaires par Marcel Thomas. Éditions Filmées d'Art et d'Histoire<unitdate>. 1957. </unitdate>(20-slide collection with commentary book)</unittitle>
  </did>
  </c03>
  <c03>
@@ -1492,14 +1492,14 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">6</container>
- <unittitle>Biblioth&#232;que publique et universitaire. A. Steinschaber (1478). Jean d'Arras. M&#233;lusine. Gen&#232;ve.</unittitle>
+ <unittitle>Bibliothèque publique et universitaire. A. Steinschaber (1478). Jean d'Arras. Mélusine. Genève.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">7</container>
- <unittitle>Biblioth&#232;que publique et universitaire. Attribu&#233; &#224; Jean Perrissin (vers 1530-vers 1611). Temple de Lyon, nomm&#233; Paradis. Vers 1565.</unittitle>
+ <unittitle>Bibliothèque publique et universitaire. Attribué à Jean Perrissin (vers 1530-vers 1611). Temple de Lyon, nommé Paradis. Vers 1565.</unittitle>
  </did>
  </c03>
  <c03>
@@ -1520,7 +1520,7 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">10</container>
- <unittitle>Catherine of Cl&#232;ves Kneeling - Virgin and Child</unittitle>
+ <unittitle>Catherine of Clèves Kneeling - Virgin and Child</unittitle>
  </did>
  </c03>
  <c03>
@@ -1595,7 +1595,7 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">1</container>
- <unittitle>Armand M. Queyroy, <title render="italic">Enseignements d'Anne de France &#224; sa fille Susanne de Bourbon.</title> Moulins: C. Desrosiers,<unitdate> 1878.</unitdate></unittitle>
+ <unittitle>Armand M. Queyroy, <title render="italic">Enseignements d'Anne de France à sa fille Susanne de Bourbon.</title> Moulins: C. Desrosiers,<unitdate> 1878.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1609,77 +1609,77 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">3</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 1093. Christine de Pizan, <title render="italic">Les sept psaumes all&#233;goris&#233;s</title> (Louis de Bruges.)</unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 1093. Christine de Pizan, <title render="italic">Les sept psaumes allégorisés</title> (Louis de Bruges.)</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">4</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 9009-9011. Christine de Pizan, <title render="italic">Le livre des fais d'armes et de chevalerie. </title> (Croy )</unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 9009-9011. Christine de Pizan, <title render="italic">Le livre des fais d'armes et de chevalerie. </title> (Croy )</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">5</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 9235, 10973-74. Christine de Pizan, <title render="italic">La cit&#233; des dames</title> - <title render="italic">Le Livre des Trois Vertus</title> (en A).</unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 9235, 10973-74. Christine de Pizan, <title render="italic">La cité des dames</title> - <title render="italic">Le Livre des Trois Vertus</title> (en A).</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">6</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 9551-52. Christine de Pizan, <title render="italic">Le Livre des Trois Vertus</title>.</unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 9551-52. Christine de Pizan, <title render="italic">Le Livre des Trois Vertus</title>.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">7a</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 10205. Christine de Pizan, <title render="italic">Le livre des fais d'armes et de chevalerie.</title></unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 10205. Christine de Pizan, <title render="italic">Le livre des fais d'armes et de chevalerie.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">7b</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 10205. Christine de Pizan, <title render="italic">Le livre des fais d'armes et de chevalerie.</title></unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 10205. Christine de Pizan, <title render="italic">Le livre des fais d'armes et de chevalerie.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">8</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 10476. Christine de Pizan, <title render="italic">Le livre des fais d'armes et de chevalerie.</title></unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 10476. Christine de Pizan, <title render="italic">Le livre des fais d'armes et de chevalerie.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">9</container>
- <unittitle>Brussels, Biblioth&#232;que Royale. MS. 11048. Vegesce [Vegetius], <title render="italic">Le livre de l'art de chevalerie. *Note&#160;: Wound backwards</title></unittitle>
+ <unittitle>Brussels, Bibliothèque Royale. MS. 11048. Vegesce [Vegetius], <title render="italic">Le livre de l'art de chevalerie. *Note : Wound backwards</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">10</container>
- <unittitle>Chantilly, Mus&#233;e Cond&#233;. MS. 492. <title render="italic">Cent Ballades</title> - <title render="italic">Dit de la pastoure</title></unittitle>
+ <unittitle>Chantilly, Musée Condé. MS. 492. <title render="italic">Cent Ballades</title> - <title render="italic">Dit de la pastoure</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">11</container>
- <unittitle>Dresden, S&#228;chsische Landesbibliothek. MS. 770. <title render="italic">Le Livre des Trois Vertus.</title></unittitle>
+ <unittitle>Dresden, Sächsische Landesbibliothek. MS. 770. <title render="italic">Le Livre des Trois Vertus.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">12</container>
- <unittitle>The Hague, Royal Library. MS. 71 E 46. Philippe de Cl&#232;ves, <title render="italic">Art de Guerroyer. </title></unittitle>
+ <unittitle>The Hague, Royal Library. MS. 71 E 46. Philippe de Clèves, <title render="italic">Art de Guerroyer. </title></unittitle>
  </did>
  </c03>
  <c03>
@@ -1693,21 +1693,21 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">14</container>
- <unittitle>Lille, Biblioth&#232;que Municipale. Godetroy 50. <title render="italic">Histoire de Gilles de Chin.</title></unittitle>
+ <unittitle>Lille, Bibliothèque Municipale. Godetroy 50. <title render="italic">Histoire de Gilles de Chin.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">15</container>
- <unittitle>Lille, Biblioth&#232;que Municipale. Godetroy 152. Christine de Pizan, <title render="italic">Le Livre des Trois Vertus.</title></unittitle>
+ <unittitle>Lille, Bibliothèque Municipale. Godetroy 152. Christine de Pizan, <title render="italic">Le Livre des Trois Vertus.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">16</container>
- <unittitle>Lille, Biblioth&#232;que Municipale. MS. 607. Vacotin de Ramecourt, <title render="italic">Spiritual Texts Copied for Isabel du Portugal.</title></unittitle>
+ <unittitle>Lille, Bibliothèque Municipale. MS. 607. Vacotin de Ramecourt, <title render="italic">Spiritual Texts Copied for Isabel du Portugal.</title></unittitle>
  </did>
  </c03>
  <c03>
@@ -1735,14 +1735,14 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">20</container>
- <unittitle>London, British Library. Harley 219. Christine de Pizan, <title render="italic">L'&#201;p&#238;tre d'Oth&#233;a.</title></unittitle>
+ <unittitle>London, British Library. Harley 219. Christine de Pizan, <title render="italic">L'Épître d'Othéa.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">21</container>
- <unittitle>London, British Library. Harley 4431. Christine de Pizan, <title render="italic">Po&#233;sies.</title></unittitle>
+ <unittitle>London, British Library. Harley 4431. Christine de Pizan, <title render="italic">Poésies.</title></unittitle>
  </did>
  </c03>
  <c03>
@@ -1770,105 +1770,105 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">25</container>
- <unittitle>Paris, Biblioth&#232;que de l'Arsenal. 3356 no. 1-264. 1. <title render="italic">Le Chevalier de la Tour Landry</title> 2. Christine de Pizan, <title render="italic">Le Livre des Trois Vertus</title> (129).</unittitle>
+ <unittitle>Paris, Bibliothèque de l'Arsenal. 3356 no. 1-264. 1. <title render="italic">Le Chevalier de la Tour Landry</title> 2. Christine de Pizan, <title render="italic">Le Livre des Trois Vertus</title> (129).</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">26</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 214, No. 1 - 68. R. 16.413. <title render="italic">Livre des faits de Boucicaut</title>.</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 214, No. 1 - 68. R. 16.413. <title render="italic">Livre des faits de Boucicaut</title>.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">27</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 301. No. 1-295. R. 10.735.&#160;<title render="italic">Histoire ancienne jusqu'&#224; C&#233;sar.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 301. No. 1-295. R. 10.735. <title render="italic">Histoire ancienne jusqu'à César.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">28</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 452&#160;; Fr. 1177. Christine de Pizan, <title render="italic">Le Livre des Trois Vertus</title>.</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 452 ; Fr. 1177. Christine de Pizan, <title render="italic">Le Livre des Trois Vertus</title>.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">29</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 585. <title render="italic">Le livre des fais d'armes et de chevalerie.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 585. <title render="italic">Le livre des fais d'armes et de chevalerie.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">30</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 605-607, 1197. Christine de Pizan, <title render="italic">Livre de prudence, Le corp de Policie.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 605-607, 1197. Christine de Pizan, <title render="italic">Livre de prudence, Le corp de Policie.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">31</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 835. Christine de Pizan, <title render="italic">&#201;p&#238;tres sur le roman de la rose</title>.</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 835. Christine de Pizan, <title render="italic">Épîtres sur le roman de la rose</title>.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">32</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 1091. L. Du Premier fait, <title render="italic">Livre des 4 vertus. </title>Christine de Pizan, <title render="italic">Livre des Trois Vertus.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 1091. L. Du Premier fait, <title render="italic">Livre des 4 vertus. </title>Christine de Pizan, <title render="italic">Livre des Trois Vertus.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">33</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 1180. <title render="italic">Le Livre des Trois Vertus.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 1180. <title render="italic">Le Livre des Trois Vertus.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">34</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 12779. <title render="italic">Oeuvres de Christine Pizan</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 12779. <title render="italic">Oeuvres de Christine Pizan</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">35</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Fr. 24786. <title render="italic">L'Epistre de la Prison de Vie Humaine.</title> Fr. 24864 - <title render="italic">Lamentation sur la Guerre Civile.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Fr. 24786. <title render="italic">L'Epistre de la Prison de Vie Humaine.</title> Fr. 24864 - <title render="italic">Lamentation sur la Guerre Civile.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">36</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. R&#233;s. 611. V&#233;rard ed. <title render="italic">Le livre des fais d'armes et de chevalerie</title>.</unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Rés. 611. Vérard ed. <title render="italic">Le livre des fais d'armes et de chevalerie</title>.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">37</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Res. <unitdate>42 20</unitdate>73. Christine de Pizan, <title render="italic">Tr&#233;sor de la cit&#233; des dames.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Res. <unitdate>42 20</unitdate>73. Christine de Pizan, <title render="italic">Trésor de la cité des dames.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">38</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. Res. Y2 186. R<unitdate>. 1864. </unitdate>Christine de Pizan. Le <title render="italic">Tr&#233;sor de la cit&#233; des dames.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. Res. Y2 186. R<unitdate>. 1864. </unitdate>Christine de Pizan. Le <title render="italic">Trésor de la cité des dames.</title></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">3</container>
  <container type="folder">39</container>
- <unittitle>Paris, Biblioth&#232;que nationale de France. R. Sh. 613, cod. 18.943. Philippe de Cl&#232;ves, <title render="italic">Instruction du toutes mani&#232;res.</title></unittitle>
+ <unittitle>Paris, Bibliothèque nationale de France. R. Sh. 613, cod. 18.943. Philippe de Clèves, <title render="italic">Instruction du toutes manières.</title></unittitle>
  </did>
  </c03>
  <c03>
@@ -1882,7 +1882,7 @@ Smith Collection.</p>
  <did>
  <container type="box">3</container>
  <container type="folder">41</container>
- <unittitle>Vienna, National Bibliothek. Photo Nr. M 966 62, Cod. 3430. Roman de la Mappemonde. Gautier de Mils, <title render="italic">Image du monde</title>. Christine de Pizan, <title render="italic">La cit&#233; des dames</title>, <title render="italic">Le Livre des Trois Vertus.</title></unittitle>
+ <unittitle>Vienna, National Bibliothek. Photo Nr. M 966 62, Cod. 3430. Roman de la Mappemonde. Gautier de Mils, <title render="italic">Image du monde</title>. Christine de Pizan, <title render="italic">La cité des dames</title>, <title render="italic">Le Livre des Trois Vertus.</title></unittitle>
  </did>
  </c03>
  </c02>
@@ -2084,7 +2084,7 @@ Smith Collection.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VII. OVERSIZED MATERIALS</unittitle>
  </did>
@@ -2126,7 +2126,7 @@ Smith Collection.</p>
  <did>
  <container type="box">4</container>
  <container type="folder">4</container>
- <unittitle>Trans. Chaperon, Ian. <title render="italic">Le Chemin de Long Estude de dame Cristine de Pise</title>. Paris&#160;: Eltienne Groulteau, 1549.</unittitle>
+ <unittitle>Trans. Chaperon, Ian. <title render="italic">Le Chemin de Long Estude de dame Cristine de Pise</title>. Paris : Eltienne Groulteau, 1549.</unittitle>
  </did>
  </c04>
  <c04>
@@ -2140,7 +2140,7 @@ Smith Collection.</p>
  </c02>
  <c02>
  <did>
- <unittitle>Dissertations&#160;</unittitle>
+ <unittitle>Dissertations </unittitle>
  </did>
  <c03>
  <did>
@@ -2153,7 +2153,7 @@ Smith Collection.</p>
  <did>
  <container type="box">4</container>
  <container type="folder">7</container>
- <unittitle>de Silva Nunes Ribeiro Cruzeiro, Maria Manuela. <title render="italic">Espelho de Cristina&#160;: Estudo linguistico comparativo dos dois textos actualmente conhecidos de uma tradu&#231;&#227;o medieval portuguesa do "Livre des Trois Vertus," de Christine de Pisan.</title> (2 vols.).</unittitle>
+ <unittitle>de Silva Nunes Ribeiro Cruzeiro, Maria Manuela. <title render="italic">Espelho de Cristina : Estudo linguistico comparativo dos dois textos actualmente conhecidos de uma tradução medieval portuguesa do "Livre des Trois Vertus," de Christine de Pisan.</title> (2 vols.).</unittitle>
  </did>
  </c03>
  </c02>
@@ -2165,12 +2165,12 @@ Smith Collection.</p>
  <did>
  <container type="box">4</container>
  <container type="folder">8</container>
- <unittitle>Ringland Rains, Ruth. <title render="italic">Les septes psaumes all&#233;goris&#233;s of Christine de Pisan.</title> Washington, D.C.,: Catholic University of America Press,<unitdate> 1965.</unitdate></unittitle>
+ <unittitle>Ringland Rains, Ruth. <title render="italic">Les septes psaumes allégorisés of Christine de Pisan.</title> Washington, D.C.,: Catholic University of America Press,<unitdate> 1965.</unitdate></unittitle>
  </did>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serbks">
+ <c01 id="list-serbks" level="series">
  <did>
  <unittitle>BOOKS (by or containing writing by Charity Cannon Willard)</unittitle>
  </did>
@@ -2195,7 +2195,7 @@ Smith Collection.</p>
  <c02>
  <did>
  <container type="box">5</container>
- <unittitle>"A New Look at Christine de Pizan's <title render="italic">Epistre au dieu d'Amours</title>," in Beck, Jonathan and Mombello, Gianni. <title render="italic">Seconda miscellanea di studi e ricerche sul quatttrocento francese.</title> Chamb&#233;ry et Turin, Centre d'&#233;tudes franco-italien. 1981. <unitdate>71-92.</unitdate></unittitle>
+ <unittitle>"A New Look at Christine de Pizan's <title render="italic">Epistre au dieu d'Amours</title>," in Beck, Jonathan and Mombello, Gianni. <title render="italic">Seconda miscellanea di studi e ricerche sul quatttrocento francese.</title> Chambéry et Turin, Centre d'études franco-italien. 1981. <unitdate>71-92.</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -2267,7 +2267,7 @@ Smith Collection.</p>
  <c02>
  <did>
  <container type="box">5</container>
- <unittitle>&#201;dition Critique of <title render="italic">Le Livre de la paix</title>, by Christine de Pizan. The Hague: Mouton,<unitdate> 1958.</unitdate></unittitle>
+ <unittitle>Édition Critique of <title render="italic">Le Livre de la paix</title>, by Christine de Pizan. The Hague: Mouton,<unitdate> 1958.</unitdate></unittitle>
  </did>
  </c02>
  </c01>
@@ -2277,5 +2277,4 @@ Smith Collection.</p>
 <!-- End container list -->
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

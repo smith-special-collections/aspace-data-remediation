@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss546.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss546</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss546.xml//EN">mnsss546</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Hedda Nussbaum Papers, c1940s-2009
@@ -38,15 +36,13 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Nussbaum, Hedda, 1942-</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Hedda Nussbaum Papers</unittitle><unitdate
-type="inclusive" label="Dates:">c1940s-2009 (ongoing)</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 642</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Hedda Nussbaum Papers</unittitle><unitdate label="Dates:" type="inclusive">c1940s-2009 (ongoing)</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 642</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">22 boxes</extent>
         <extent encodinganalog="300$a">(14 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -56,7 +52,7 @@ repositorycode="mnsss">MS 642</unitid>
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Author; Editor. Papers include diaries (closed); correspondence to Nussbaum from others
 re: Steinberg case; legal files re: case Hedda Nussbaum v. Joel Steinberg; writings and talks by
 Nussbaum;  Nussbaum's published books; videos, including interviews and TV broadcasts featuring
@@ -149,5 +145,4 @@ record.</p>
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

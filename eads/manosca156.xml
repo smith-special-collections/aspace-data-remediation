@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca156.html">manosca156</eadid>
 
@@ -14,7 +15,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2006</date>
+<date>© 2006</date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -36,7 +37,7 @@
 <num>RG 42</num> 
 <author>Emily Markham</author> 
 <date>2004</date> 
-<p>&#x00A9; 2006 Smith College. All rights reserved.</p> 
+<p>© 2006 Smith College. All rights reserved.</p> 
 </titlepage> 
 </frontmatter> 
 
@@ -44,17 +45,17 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<persname source="lcnaf" encodinganalog="100 1">Kapp, Marie F.</persname>
+<persname encodinganalog="100 1" source="lcnaf">Kapp, Marie F.</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Marie F. Kapp Papers</unittitle> <unitdate label="Dates:">1882-1923</unitdate>
+<unittitle encodinganalog="245$a" label="Title:">Marie F. Kapp Papers</unittitle> <unitdate label="Dates:">1882-1923</unitdate>
 
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:ec5e4218-c21f-46b6-9cd0-3b5e7f09b334</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.25 linear ft.)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -138,7 +139,7 @@ Professor of German.  Contains biographical materials, correspondence, photograp
 
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">885</container>
@@ -221,5 +222,3 @@ Professor of German.  Contains biographical materials, correspondence, photograp
 
 </archdesc>
 </ead>
-
-

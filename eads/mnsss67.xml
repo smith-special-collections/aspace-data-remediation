@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss67.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss67</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss67.xml//EN">mnsss67</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Gladys Virginia Swackhamer Papers, 1881-1988
@@ -51,19 +52,19 @@
          
          <sponsor>Processing of the Gladys Virginia Swackhamer Papers was made possible by the generous support of the Carel Bailey Germain Fund.</sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Swackhamer, Gladys V.</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Gladys V. Swackhamer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1881-1988</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Gladys V. Swackhamer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1881-1988</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1900-1988</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 268</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 268</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -75,16 +76,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Pacifist; psychiatric social worker; and political activist. The collection documents topics such as conscientious objector status during the Vietnam War; nuclear disarmament; the environment; homelessness; the plight of migrant farm workers; and governmental waste and mismanagement; as well as her work with the WPA and other agencies. Materials include photographs; correspondence; and unpublished autobiographical writings, including recordings and interpretations of her dreams.
+         <abstract encodinganalog="520$a" label="Abstract:">Pacifist; psychiatric social worker; and political activist. The collection documents topics such as conscientious objector status during the Vietnam War; nuclear disarmament; the environment; homelessness; the plight of migrant farm workers; and governmental waste and mismanagement; as well as her work with the WPA and other agencies. Materials include photographs; correspondence; and unpublished autobiographical writings, including recordings and interpretations of her dreams.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p>Gladys Virginia Swackhamer was born September 17, 1893 in Hagerstown, Maryland, the daughter of Judge Austin H. Swackhamer and Florence Anderson Swackhamer.  She received her Bachelor of Arts Degree from Smith College in 1917 and went on to earn her Master of Social Work in 1923 as a member of the first class of the Smith College School for Social Work.  She then obtained a Certificate of Proficiency in the German language from the Institut fuer Auslaender at the University of Berlin.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6215.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6215.jpg" linktype="simple" show="embed">
 <daodesc><p>Gladys Swackhammer on parapet of Castil Gandalpho <lb />(with St. Peter's basilica in the background), Rome, 1932</p></daodesc></dao> 
          <p>Early in her professional career, Swackhamer practiced social case work in hospitals and clinics in Pennsylvania, New Jersey and New York.  After obtaining a position as Secretary and Research Assistant to the editor of the <title>Psychoanalytic Quarterly</title> in 1927, her professional interests evolved in the direction of research and writing.  From 1933 through 1945, she conducted "psychiatric, medical and industrial research for private and government agencies". <title>Cigar Makers After the Lay-Off</title>, 1937, a WPA project, evaluated the problem of workers' welfare following termination of employment due to industrial mechanization, and <title>Choice and Change of Doctors</title>, 1939, examined how low-income families and individuals exercised freedom of choice in selecting medical care.  In 1945 Swackhamer resumed practicing social work, continuing until her retirement in 1957 (having moved to Santa Barbara, California in 1949).  In addition to writing articles and abstracts for professional journals,  she also translated into English the work of several German scholars.</p>
          <p>Upon retirement, Swackhamer continued her life-long involvement in the Unitarian Church and also pursued a variety of community interests, including the League of Women Voters, the Sierra Club, and the Child Guidance Clinic of Santa Barbara.  She was a committed pacifist and took great interest in the political issues of her day, frequently writing articulate, well-informed letters to her elected representatives and to the editors of local newspapers.  In 1986, under the aegis of the Nuclear Age Peace Foundation, Swackhamer initiated the Austin H. and Florence A. Swackhamer Memorial Prizes, to be awarded annually to three college-bound high school seniors for the best essays on how to promote world peace in the nuclear age.  The contest was open to international and United States students, and the essays were to focus on specific themes, determined each year by Swackhamer and the staff of the Nuclear Age Peace Foundation.</p>
@@ -123,7 +124,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -245,8 +246,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL <unitdate>(1901-88)</unitdate>
                </unittitle>
@@ -429,7 +430,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PHOTOGRAPHS <unitdate>(1903-29, n.d.)</unitdate>
                </unittitle>
@@ -451,7 +452,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CORRESPONDENCE <unitdate>(1900-86)</unitdate>
                </unittitle>
@@ -674,7 +675,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PROFESSIONAL ACTIVITIES <unitdate>(1929-88)</unitdate>
                </unittitle>
@@ -725,7 +726,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. WRITINGS <unitdate>(1937-86)</unitdate>
                </unittitle>
@@ -896,7 +897,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. SUBJECTS <unitdate>(1930, n.d.)</unitdate>
                </unittitle>
@@ -918,7 +919,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIAL</unittitle>
             </did>

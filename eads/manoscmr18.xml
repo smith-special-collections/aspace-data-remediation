@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manoscmr" url="http://asteria.fivecolleges.edu/findaids/mortimer/manoscmr18.html">manoscmr18</eadid>
 
 	<filedesc>
@@ -37,7 +38,7 @@
 		<date>2006</date> 
 		 
 		 
-		<p>&#169; 2006 Smith College. All rights reserved.</p> 
+		<p>© 2006 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,16 +46,16 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Dahl, Portia Pratt, d. 1970</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Dahl, Portia Pratt, d. 1970</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Portia Pratt Dahl Papers</unittitle><unitdate label="Dates:">1864-1955</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr">MS 175</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Portia Pratt Dahl Papers</unittitle><unitdate label="Dates:">1864-1955</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 175</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">2 boxes   </extent>
 			<extent encodinganalog="300$a">(.75 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">
+		<langmaterial encodinganalog="546" label="Language of Material:">
 			<language langcode="eng">English; </language>
 			<language langcode="fre">French</language>
 		</langmaterial>
@@ -85,7 +86,7 @@
 <head>Scope and Contents of the Collection</head>
 	<p>The Portia Pratt Dahl papers consist of .75 linear feet and include documents related to Ms. Dahl's work as a bookbinder from her student days in Paris, France and her workshop in Boston, Mass.    The papers also include a commonplace book, documents and photographs of her father, Seth F. Pratt.  In addition, there is an artist's sketchbook of Peter Dahl (1857-1929), possibly a relative of her husband's, Dr. Ernst O. Dahl. </p> 
 </scopecontent>
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into three series:</p>
 	<list>
@@ -166,8 +167,8 @@
 <!-- End additional information -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. PORTIA PRATT DAHL'S PAPERS</unittitle>
  </did>
@@ -241,7 +242,7 @@
 		</note>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. SETH F. PRATT'S COMMONPLACE BOOK AND PAPERS</unittitle>
  </did>
@@ -386,7 +387,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PETER DAHL'S SKETCHBOOK AND RELATED MATERIALS</unittitle>
  </did>
@@ -441,5 +442,3 @@
 
 </archdesc>
 </ead>
-
-

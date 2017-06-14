@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca379.xml//EN" countrycode="us" mainagencycode="manosca">manosca379</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca379.xml//EN">manosca379</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Quentin Quesnell papers, 1927 - 2012 (bulk 1970 - 2000)</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2014">2014</date>
 	  </publicationstmt>
@@ -31,12 +32,12 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Quesnell, Quentin</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Quesnell, Quentin</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Quentin Quesnell papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1927 - 2012</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1970 - 2000</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Quentin Quesnell papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1927 - 2012</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1970 - 2000</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:982a6e10-cc35-45ac-b6d1-949dca4284db</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">2 document boxes, 1 flat file</extent>
@@ -45,12 +46,12 @@
 
 
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English, Greek</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English, Greek</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -72,7 +73,7 @@
 	<p>The collection contains correspondence, photographic prints and slides, publications, research and Quesnell's professional file.</p>
  </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 <head>Organization of the Collection</head>
 <p>This collection is organized into five series:</p>
 <list>
@@ -167,8 +168,8 @@ Collection processed and encoded by Elizabeth Carron, Archives Specialist.</p>
 
 <!-- Enter Series descriptions -->
 
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>Series I: Correspondence</unittitle>
       </did>
@@ -245,7 +246,7 @@ Collection processed and encoded by Elizabeth Carron, Archives Specialist.</p>
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>Series II: Professional Life</unittitle>
       </did>
@@ -259,7 +260,7 @@ Collection processed and encoded by Elizabeth Carron, Archives Specialist.</p>
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>Series III: Publications</unittitle>
       </did>
@@ -318,7 +319,7 @@ Collection processed and encoded by Elizabeth Carron, Archives Specialist.</p>
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser4">
+   <c01 id="list-ser4" level="series">
       <did>
          <unittitle>Series IV: Research</unittitle>
       </did>
@@ -395,7 +396,7 @@ Collection processed and encoded by Elizabeth Carron, Archives Specialist.</p>
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser5">
+   <c01 id="list-ser5" level="series">
             <did>
          <unittitle>Series V: Oversized Materials</unittitle>
       </did>
@@ -478,5 +479,3 @@ Collection processed and encoded by Elizabeth Carron, Archives Specialist.</p>
 
   </archdesc>
 </ead>
-
-

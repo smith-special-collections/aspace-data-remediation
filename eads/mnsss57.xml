@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss57.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss57</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss57.xml//EN">mnsss57</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Judith Raskin Papers, 1911-2000
@@ -52,18 +53,18 @@
          <sponsor>Processing of the Judith Raskin Raskin Papers was funded by the generous support of the Mary Elizabeth Ford '47-Raskin Fund and the Raskin family.
                 </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Raskin, Judith</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Judith Raskin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1911-2000</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Judith Raskin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1911-2000</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 126</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 126</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">24 boxes</extent>
             <extent encodinganalog="300$a">(14 linear ft.)</extent>
@@ -75,9 +76,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Opera singer and teacher. Raskin made her professional debut on both the stage and television, specializing in Schubert, Mozart, Lieder and Yiddish songs. The bulk of the Raskin papers focus on her professional life, and include publicity, reviews, programs, and taped recordings of performances. Personal materials include correspondence, photographs, scrapbooks and diaries, primarily from her years as a student at Smith College. Notable correspondents include Beverly Sills, Eugene Ormandy, and William Maxwell.
+         <abstract encodinganalog="520$a" label="Abstract:">Opera singer and teacher. Raskin made her professional debut on both the stage and television, specializing in Schubert, Mozart, Lieder and Yiddish songs. The bulk of the Raskin papers focus on her professional life, and include publicity, reviews, programs, and taped recordings of performances. Personal materials include correspondence, photographs, scrapbooks and diaries, primarily from her years as a student at Smith College. Notable correspondents include Beverly Sills, Eugene Ormandy, and William Maxwell.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -111,7 +112,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -152,7 +153,7 @@
          <persname encodinganalog="600" source="lcnaf">Ormandy, Eugene, 1899-1985--Correspondence</persname>
          <persname encodinganalog="600" source="lcnaf">Sills, Beverly--Correspondence</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -229,8 +230,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL <unitdate>(1937-1995)</unitdate>
                </unittitle>
@@ -375,7 +376,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1911-1986)</unitdate>
                </unittitle>
@@ -578,7 +579,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. PROFESSIONAL ACTIVITIES <unitdate>(1947-1984)</unitdate>
                </unittitle>
@@ -832,7 +833,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PHOTOGRAPHS AND SCRAPBOOKS <unitdate>(1917-1973)</unitdate>
                </unittitle>
@@ -928,7 +929,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. AUDIOTAPES <unitdate>(1959-1978, n.d.)</unitdate>
                </unittitle>
@@ -947,7 +948,7 @@
                <c03>
                   <did>
                      <container type="box">12</container>
-                     <unittitle>Side 2: n.d.: R. Strauss--"Four Last Songs," Lisa Della Casa, soprano, Karl B&#246;hm, conductor, Salzburg Festival</unittitle>
+                     <unittitle>Side 2: n.d.: R. Strauss--"Four Last Songs," Lisa Della Casa, soprano, Karl Böhm, conductor, Salzburg Festival</unittitle>
                   </did>
                </c03>
                <c03>
@@ -960,14 +961,14 @@
                <c03>
                   <did>
                      <container type="box">12</container>
-                     <unittitle>Side 2: 28 Sept 1961: Beethoven, Symphony No. 9 (Last Movement), Eugene Ormandy and the Philadelphia Orchestra (Raskin, Rosalind Elias, Richard Tucker, Jerome Hines), UN Memorial to Dag Hammarskj&#246;ld; and Donizetti, "Regnava nel silenzio" (<title>Lucia di Lammermoor</title>); Schubert, "Mein Herz ist schwer" ("Gretchen am Spinnrade"); and Verdi, (Recitative) "&#200; strano!" and (Aria) "Sempre libera" (<title>La Traviata</title>) at Anna Hamlin's, n.d.</unittitle>
+                     <unittitle>Side 2: 28 Sept 1961: Beethoven, Symphony No. 9 (Last Movement), Eugene Ormandy and the Philadelphia Orchestra (Raskin, Rosalind Elias, Richard Tucker, Jerome Hines), UN Memorial to Dag Hammarskjöld; and Donizetti, "Regnava nel silenzio" (<title>Lucia di Lammermoor</title>); Schubert, "Mein Herz ist schwer" ("Gretchen am Spinnrade"); and Verdi, (Recitative) "È strano!" and (Aria) "Sempre libera" (<title>La Traviata</title>) at Anna Hamlin's, n.d.</unittitle>
                   </did>
                </c03>
                <c03>
                   <did>
                      <container type="box">12</container>
                      <container type="folder">3</container>
-                     <unittitle>Side 1: 6 Dec 1959: Mozart--"Ach, ich liebte" (<title>Die Entf&#252;hrung aus dem serail</title>); 11 Dec 1959: "Lisa's Birthday Party"; 4 Jan 1960: Donizetti--<title>Lucia di Lammermoor</title>; 1960: "Jon's party"</unittitle>
+                     <unittitle>Side 1: 6 Dec 1959: Mozart--"Ach, ich liebte" (<title>Die Entführung aus dem serail</title>); 11 Dec 1959: "Lisa's Birthday Party"; 4 Jan 1960: Donizetti--<title>Lucia di Lammermoor</title>; 1960: "Jon's party"</unittitle>
                   </did>
                </c03>
                <c03>
@@ -993,14 +994,14 @@
                   <did>
                      <container type="box">12</container>
                      <container type="folder">5</container>
-                     <unittitle>Side 1: 10 April 1960: Mozart--(Scenes from <title>Don Giovanni</title>) "Giovinette, che fate all amore," "L&#224; ci darem la mano," "Batti, batti"; 8 Dec 1957: Poulenc--(<title>The Carmelites</title>) Sister Constance (III, V, VI, Last)</unittitle>
+                     <unittitle>Side 1: 10 April 1960: Mozart--(Scenes from <title>Don Giovanni</title>) "Giovinette, che fate all amore," "Là ci darem la mano," "Batti, batti"; 8 Dec 1957: Poulenc--(<title>The Carmelites</title>) Sister Constance (III, V, VI, Last)</unittitle>
                   </did>
                </c03>
                <c03>
                   <did>
                      <container type="box">12</container>
                      <container type="folder">5</container>
-                     <unittitle>Side 2: Oct 1961: Mozart--<title>Cos&#236; Fan Tutte</title>, City Center, NYC; 20 April 1962: Bach--(<title>St. John Passion</title>) "Ich folge dir gleichfalls mit freudigen schritten"; and Beethoven--Symphony No. 9 (Movement IV), Eugene Ormandy, conductor (Raskin, Rosalind Elias, Richard Tucker, Jerome Hines), Carnegie Hall</unittitle>
+                     <unittitle>Side 2: Oct 1961: Mozart--<title>Così Fan Tutte</title>, City Center, NYC; 20 April 1962: Bach--(<title>St. John Passion</title>) "Ich folge dir gleichfalls mit freudigen schritten"; and Beethoven--Symphony No. 9 (Movement IV), Eugene Ormandy, conductor (Raskin, Rosalind Elias, Richard Tucker, Jerome Hines), Carnegie Hall</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1013,7 +1014,7 @@
                <c03>
                   <did>
                      <container type="box">12</container>
-                     <unittitle>Side 2: 22 Dec 1961: Bach--(<title>Christmas Oratorio</title>): "Herr, dein Mitleid" (Raskin and Ara Berberian), "Immanuel, o s&#252;sses Wort" (Raskin and Berberian), "Ach! Wann wird die Zeit erscheinen" (Raskin, Joan Caplan, and Charles Bressler), Recitative "Du Falscher" and Aria "Nur ein Wink" (Raskin); and Bellini (<title>La Sonnambula</title>)--"Ah! non giunge" (Joan Sutherland), Thomas Dunn, conductor, Carnegie Hall</unittitle>
+                     <unittitle>Side 2: 22 Dec 1961: Bach--(<title>Christmas Oratorio</title>): "Herr, dein Mitleid" (Raskin and Ara Berberian), "Immanuel, o süsses Wort" (Raskin and Berberian), "Ach! Wann wird die Zeit erscheinen" (Raskin, Joan Caplan, and Charles Bressler), Recitative "Du Falscher" and Aria "Nur ein Wink" (Raskin); and Bellini (<title>La Sonnambula</title>)--"Ah! non giunge" (Joan Sutherland), Thomas Dunn, conductor, Carnegie Hall</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1060,7 +1061,7 @@
                   <did>
                      <container type="box">12</container>
                      <container type="folder">11</container>
-                     <unittitle>Side 1 (broadcast 6 Oct 1962): Schubert--"Die Forelle," "Geheimes," "Gretchen am Spinnrade," and "Seligkeit"; R. Strauss--"Ich schwebe," and "Schlagende Herzen"; Debussy--"Fantoches," "Receuillement"; Poulenc--"Air Champ&#234;tre," "Air Grave," and "Air Vif"; Barber--"Knoxville: Summer of 1915", Anne Macfarlane, accompanist, Recital Hall, NBC-TV, 2 Oct 1962 </unittitle>
+                     <unittitle>Side 1 (broadcast 6 Oct 1962): Schubert--"Die Forelle," "Geheimes," "Gretchen am Spinnrade," and "Seligkeit"; R. Strauss--"Ich schwebe," and "Schlagende Herzen"; Debussy--"Fantoches," "Receuillement"; Poulenc--"Air Champêtre," "Air Grave," and "Air Vif"; Barber--"Knoxville: Summer of 1915", Anne Macfarlane, accompanist, Recital Hall, NBC-TV, 2 Oct 1962 </unittitle>
                   </did>
                </c03>
                <c03>
@@ -1093,14 +1094,14 @@
                   <did>
                      <container type="box">12</container>
                      <container type="folder">14</container>
-                     <unittitle>Summer 1963: Mozart--<title>Die Zauberfl&#246;te</title>, Act I, Glyndebourne Festival, England</unittitle>
+                     <unittitle>Summer 1963: Mozart--<title>Die Zauberflöte</title>, Act I, Glyndebourne Festival, England</unittitle>
                   </did>
                </c03>
                <c03>
                   <did>
                      <container type="box">12</container>
                      <container type="folder">15</container>
-                     <unittitle>Summer 1963: Mozart--<title>Die Zauberfl&#246;te</title>, Act II, Glyndebourne Festival, England</unittitle>
+                     <unittitle>Summer 1963: Mozart--<title>Die Zauberflöte</title>, Act II, Glyndebourne Festival, England</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1133,14 +1134,14 @@
                   <did>
                      <container type="box">12</container>
                      <container type="folder">18</container>
-                     <unittitle>Side 1: 16 Oct 1963: Puccini--<title>La Boh&#232;me</title> excerpts, Act III (concl.) and Act IV (Raskin, Ryan, Patricia Brooks, Craig, Bertolind, Thomas Paul, Metcalf) NYC Opera, Middletown, NY; 11 Feb 1963: Mahler--Symphony No. 4, 4th Movement, George Szell, conductor; 14 Jan 1964: Rossini (<title>Barber of Seville</title>)--"Una Voce Poco Fa," (Duet) "Dunque Io Son" (Raskin, William Walker) Bell Telephone Hour, NBC-TV; 24 Sept 1963: R. Strauss--<title>Die Rosenkavalier</title>, Act II-Presentation of the Rose, Leonard Bernstein, conductor (Raskin, Regina Sarfaty), New York Philharmonic Orchestra, Philharmonic Hall</unittitle>
+                     <unittitle>Side 1: 16 Oct 1963: Puccini--<title>La Bohème</title> excerpts, Act III (concl.) and Act IV (Raskin, Ryan, Patricia Brooks, Craig, Bertolind, Thomas Paul, Metcalf) NYC Opera, Middletown, NY; 11 Feb 1963: Mahler--Symphony No. 4, 4th Movement, George Szell, conductor; 14 Jan 1964: Rossini (<title>Barber of Seville</title>)--"Una Voce Poco Fa," (Duet) "Dunque Io Son" (Raskin, William Walker) Bell Telephone Hour, NBC-TV; 24 Sept 1963: R. Strauss--<title>Die Rosenkavalier</title>, Act II-Presentation of the Rose, Leonard Bernstein, conductor (Raskin, Regina Sarfaty), New York Philharmonic Orchestra, Philharmonic Hall</unittitle>
                   </did>
                </c03>
                <c03>
                   <did>
                      <container type="box">12</container>
                      <container type="folder">18</container>
-                     <unittitle>Side 2: 16 Oct 1963: Puccini--<title>La Boh&#232;me</title> excerpts, Acts I and III [beginning with Mimi's entrance, ending after the coat song] (Raskin, Ryan, Patricia Brooks, Craig, Bertolind, Thomas Paul, Metcalf) NYC Opera, Middletown, NY</unittitle>
+                     <unittitle>Side 2: 16 Oct 1963: Puccini--<title>La Bohème</title> excerpts, Acts I and III [beginning with Mimi's entrance, ending after the coat song] (Raskin, Ryan, Patricia Brooks, Craig, Bertolind, Thomas Paul, Metcalf) NYC Opera, Middletown, NY</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1172,21 +1173,21 @@
                   <did>
                      <container type="box">12</container>
                      <container type="folder">21</container>
-                     <unittitle>14 Mar 1964: "Opera News on the Air," Puccini--<title>La Boh&#232;me</title>; Sept. 1965: Mahler--Symphony No. 4 (Last Movement), Cleveland broadcast; n.d.: Donizetti--<title>Anna Bolena</title> selection</unittitle>
+                     <unittitle>14 Mar 1964: "Opera News on the Air," Puccini--<title>La Bohème</title>; Sept. 1965: Mahler--Symphony No. 4 (Last Movement), Cleveland broadcast; n.d.: Donizetti--<title>Anna Bolena</title> selection</unittitle>
                   </did>
                </c03>
                <c03>
                   <did>
                      <container type="box">12</container>
                      <container type="folder">22</container>
-                     <unittitle>Summer 1964: Mozart--<title>Die Zauberfl&#246;te</title> (Raskin-"Pamina", Ragnar Ulfong-"Tamino", Heinz Blanken-burg-"Papageno") Bryon Balkwill, conductor, Glyndebourne Festival, England</unittitle>
+                     <unittitle>Summer 1964: Mozart--<title>Die Zauberflöte</title> (Raskin-"Pamina", Ragnar Ulfong-"Tamino", Heinz Blanken-burg-"Papageno") Bryon Balkwill, conductor, Glyndebourne Festival, England</unittitle>
                   </did>
                </c03>
                <c03>
                   <did>
                      <container type="box">12</container>
                      <container type="folder">23</container>
-                     <unittitle>Summer 1964: Mozart--<title>Die Zauberfl&#246;te</title> (Raskin-"Pamina", Ragnar Ulfong-"Tamino", Heinz Blanken-burg-"Papageno") Bryon Balkwill, conductor, Glyndebourne Festival, England Geheimes," "Gretchen am Spinnrade," "Der J&#252;ngling an der Quelle," "Aufl&#246;sung," "Seligkeit"; Mahler--"Liebst du um Sch&#246;nheit," "Abl&#246;sung im Sommer," "Ich atmet' einen linden Duft," and "Wer hat dies Liedlein erdacht?", Ford Foundation recital, Rogers Auditorium, Metropolitan Museum</unittitle>
+                     <unittitle>Summer 1964: Mozart--<title>Die Zauberflöte</title> (Raskin-"Pamina", Ragnar Ulfong-"Tamino", Heinz Blanken-burg-"Papageno") Bryon Balkwill, conductor, Glyndebourne Festival, England Geheimes," "Gretchen am Spinnrade," "Der Jüngling an der Quelle," "Auflösung," "Seligkeit"; Mahler--"Liebst du um Schönheit," "Ablösung im Sommer," "Ich atmet' einen linden Duft," and "Wer hat dies Liedlein erdacht?", Ford Foundation recital, Rogers Auditorium, Metropolitan Museum</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1264,7 +1265,7 @@
                   <did>
                      <container type="box">12</container>
                      <container type="folder">30</container>
-                     <unittitle>5 Dec 1965: Part I: Beethoven--"Die Trommel ger&#252;hret," "Freudvoll und leidvoll," and "Neue Liebe, neues Leben"; and Schubert--"Geheimnis," "Aufl&#246;sing," "Der J&#252;ngling an der Quelle," "Suleika," "Neue Liebe," "Die Liebende Scheibt," "Italien [Fanny Mendelssohn]," and "Fr&#252;hlingsleid," George Schick, piano, Town Hall, New York</unittitle>
+                     <unittitle>5 Dec 1965: Part I: Beethoven--"Die Trommel gerühret," "Freudvoll und leidvoll," and "Neue Liebe, neues Leben"; and Schubert--"Geheimnis," "Auflösing," "Der Jüngling an der Quelle," "Suleika," "Neue Liebe," "Die Liebende Scheibt," "Italien [Fanny Mendelssohn]," and "Frühlingsleid," George Schick, piano, Town Hall, New York</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1285,7 +1286,7 @@
                   <did>
                      <container type="box">12</container>
                      <container type="folder">33</container>
-                     <unittitle>Side 1: May 1966: Mozart--"L'Amer&#242;" (<title>Il Re Pastore</title>), "Batti, batti" (<title>Don Giovanni</title>), and "Welche Wonne" (<title>Seraglio</title>); Lehar--"Vilia" (<title>The Merry Widow</title>); and Johann Strauss--"Tales From The Vienna Woods," and "Laughing Song" (<title>Die Fledermaus</title>), Cleveland Orchestra Concert, Louis Lane, conductor; n.d.: part of <title>Don Giovanni</title>
+                     <unittitle>Side 1: May 1966: Mozart--"L'Amerò" (<title>Il Re Pastore</title>), "Batti, batti" (<title>Don Giovanni</title>), and "Welche Wonne" (<title>Seraglio</title>); Lehar--"Vilia" (<title>The Merry Widow</title>); and Johann Strauss--"Tales From The Vienna Woods," and "Laughing Song" (<title>Die Fledermaus</title>), Cleveland Orchestra Concert, Louis Lane, conductor; n.d.: part of <title>Don Giovanni</title>
                      </unittitle>
                   </did>
                </c03>
@@ -1334,7 +1335,7 @@
                   <did>
                      <container type="box">13</container>
                      <container type="folder">43</container>
-                     <unittitle>6 Nov 1967: Haydn--"Sinfonia Concertante, Op. 84"; Berlioz--"Les Nuits d'&#233;t&#233;, Op. 7," Pierre Boulez, conductor, Severance Hall Concert</unittitle>
+                     <unittitle>6 Nov 1967: Haydn--"Sinfonia Concertante, Op. 84"; Berlioz--"Les Nuits d'été, Op. 7," Pierre Boulez, conductor, Severance Hall Concert</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1376,7 +1377,7 @@
                   <did>
                      <container type="box">13</container>
                      <container type="folder">51</container>
-                     <unittitle>11 May 1975: Mozart--"An Chloe," and "Als Luise," "Warnung"; Schubert--"An Die Musik," "Im Fr&#252;hling," "Fr&#252;hlingstraum," and "Seligkeit"; Martin Isepp, piano, Master's School Theatre, Dobbs Ferry, NY</unittitle>
+                     <unittitle>11 May 1975: Mozart--"An Chloe," and "Als Luise," "Warnung"; Schubert--"An Die Musik," "Im Frühling," "Frühlingstraum," and "Seligkeit"; Martin Isepp, piano, Master's School Theatre, Dobbs Ferry, NY</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1397,7 +1398,7 @@
                   <did>
                      <container type="box">13</container>
                      <container type="folder">54</container>
-                     <unittitle>11 May 1975: Mahler--"Rheinlegendchen," "Ich atmet' einen linden Duft," "Wo die sch&#246;nen Trompeten blasen," and "Wer hat dies Liedlein erdacht?"; Schubert--"Die Forelle"; Brahms--"Lullaby", Martin Isepp, piano, Master's School Theatre, Dobbs Ferry, NY</unittitle>
+                     <unittitle>11 May 1975: Mahler--"Rheinlegendchen," "Ich atmet' einen linden Duft," "Wo die schönen Trompeten blasen," and "Wer hat dies Liedlein erdacht?"; Schubert--"Die Forelle"; Brahms--"Lullaby", Martin Isepp, piano, Master's School Theatre, Dobbs Ferry, NY</unittitle>
                   </did>
                </c03>
                <c03>
@@ -1495,7 +1496,7 @@
                   <did>
                      <container type="box">13</container>
                      <container type="folder">9</container>
-                     <unittitle>n.d.: Cleveland Orchestra: Berlioz--"Les Nuits d'&#233;t&#233;" (Pierre Boulez, conductor); Mozart--<title>Requiem</title> (George Szell, conductor)</unittitle>
+                     <unittitle>n.d.: Cleveland Orchestra: Berlioz--"Les Nuits d'été" (Pierre Boulez, conductor); Mozart--<title>Requiem</title> (George Szell, conductor)</unittitle>
                   </did>
                </c03>
             </c02>

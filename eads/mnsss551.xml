@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss551.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss551</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss551.xml//EN">mnsss551</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Fannie Simon Papers, 1898-1980</titleproper>
@@ -37,15 +35,13 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Simon, Fannie, 1891-1980</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Fannie Simon Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1898-1980</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 694</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Fannie Simon Papers</unittitle><unitdate label="Dates:" type="inclusive">1898-1980</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 694</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">1 box</extent>
         <extent encodinganalog="300$a">(.5 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +51,7 @@ repositorycode="mnsss">MS 694</unitid>
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Librarian; Assistant editor. The papers include Simon's unpublished manuscript,
 "Following Fannie in a Changing World," which focuses on the around-the-world trip she made with
 her college classmate, Margaret Hodges, in 1928-1929. There is also a small amount of
@@ -149,5 +145,4 @@ O'Locke in 2011.</p>
           <p>The papers were donated to the Sophia Smith Collection by Julie Nash and Virginia O'Locke in 2011.</p>
       </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca141.html">manosca141</eadid>
 
@@ -44,17 +45,17 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<persname source="lcnaf" encodinganalog="100 1">McClellan, Katherine Elizabeth</persname>
+<persname encodinganalog="100 1" source="lcnaf">McClellan, Katherine Elizabeth</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Katherine Elizabeth McClellan Papers</unittitle> <unitdate label="Dates:">ca. 1879-ca. 1996</unitdate>
-<unitdate type="bulk" encodinganalog="245$g">1904-1918</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Katherine Elizabeth McClellan Papers</unittitle> <unitdate label="Dates:">ca. 1879-ca. 1996</unitdate>
+<unitdate encodinganalog="245$g" type="bulk">1904-1918</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:9d379409-4087-4c1e-8af8-d4a7b9f8dc8e</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.4 linear ft.)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -153,7 +154,7 @@ The Katherine Elizabeth McClellan Papers contain biographical information, newsp
 
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">935</container>

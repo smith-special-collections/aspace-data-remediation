@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss205.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss205</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss205.xml//EN">mnsss205</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Loretta J. Ross Papers, 1956-2005</titleproper>
@@ -31,16 +32,16 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Ross, Loretta J.</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Ross, Loretta J.</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Loretta J. Ross Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1956-2013</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Loretta J. Ross Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1956-2013</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 504</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 504</unitid>
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">70 boxes (34.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -59,7 +60,7 @@
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
 	<p>Loretta June Ross was born in Temple, Texas, August 16, 1953, the sixth of eight children in a blended family. Her mother, who brought five older children to her marriage with Ross, had been owner of a music store and a domestic worker; she was a housewife as Loretta was growing up. Loretta's father, who hailed from Jamaica, was an Army weapons specialist and drill sergeant. After retiring from the military in 1963, he worked for the Post Office and often held additional jobs to support the family. </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2364.jpg" altrender="left">
+<dao actuate="onLoad" altrender="left" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2364.jpg" linktype="simple" show="embed">
 <daodesc><p>Loretta Ross</p></daodesc></dao> 
 <p>Loretta attended integrated schools - Army schools through second grade, then public schools. She was double-promoted in elementary grades and was an honors student in high school. When Loretta was 11 years old, a stranger beat and raped her. At age 15 she was the victim of incest by a distant relative; she gave birth to a son, Howard, in April, 1969. Because she chose to keep her child, she lost a scholarship to Radcliffe College.</p>   
 
@@ -84,7 +85,7 @@
 	<p>The Loretta J. Ross Papers contain speeches, writings, correspondence, organization and conference files, subject files, periodicals, memorabilia and audiovisual materials.  The papers pertain primarily to her activism for reproductive justice rights for women of color, anti-violence, and international human rights work.  The collection is particularly strong in issues related to black women's health. Other topics include abortion, women's health, teenage pregnancy, housing, socialism, South Africa, and national political activities. Organization files include printed material, board meeting documents, correspondence, memorabilia and notes that document the numerous organizations that Ross founded and was active in, as well as related organizations on which she collected information. They include the Center for Democratic Renewal, National Black Women's Health Project, National Women Health Network, National Center for Human Rights Education, National Organization for Women, Religious Coalition for Abortion Rights, American Friends Service Committee, International Council of African Women, and Women's Global Network on Reproductive Rights.</p>
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into ten series:</p>
 	<list>
@@ -320,8 +321,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS</unittitle>
  </did>
@@ -458,7 +459,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -477,7 +478,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS AND SPEECHES</unittitle>
 
@@ -1060,7 +1061,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ORGANIZATION FILES</unittitle>
  </did>
@@ -3532,7 +3533,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. CONFERENCES AND EVENTS</unittitle>
 
@@ -4275,7 +4276,7 @@
  <did>
  <container type="box">44</container>
  <container type="folder">11-12</container>
- <unittitle>Women Thinking Globally&#8230; Acting Locally <unitdate> 1994</unitdate></unittitle>
+ <unittitle>Women Thinking Globally… Acting Locally <unitdate> 1994</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -4388,7 +4389,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. SUBJECT FILES</unittitle>
  </did>
@@ -5631,7 +5632,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. AUDIOVISUAL MATERIALS</unittitle>
 	<note><p><extref href="https://media.smith.edu/departments/ssc/ross/ross_videos.html">The video and audio tapes from the Loretta Ross Papers</extref> have been digitized and are available online (Smith campus access only)</p></note>
@@ -6405,7 +6406,7 @@
 	</c02>
  </c01>
 
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. MEMORABILIA</unittitle>
  </did>
@@ -6440,7 +6441,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. PERIODICALS</unittitle>
  </did>
@@ -6755,7 +6756,7 @@
 </c02>
  </c01>
 
-<c01 level="series" id="list-serOV">
+<c01 id="list-serOV" level="series">
 <did>
 <unittitle>OVERSIZE MATERIALS</unittitle>
 </did>
@@ -6772,5 +6773,3 @@
 
   </archdesc>
 </ead>
-
-

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss144.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss144</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss144.xml//EN">mnsss144</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Carrie Chapman Catt Papers, 1880-1958
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Catt, Carrie Chapman, 1859-1947</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Carrie Chapman Catt Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1880-1958</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Carrie Chapman Catt Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1880-1958</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 31</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 31</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.75 linear ft.)</extent>
@@ -72,14 +73,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Suffragist, president, National American Women Suffrage Association, and pacifist. Papers relate primarily to Catt's public life, primarily her work as president of both the National American Woman Suffrage Association and the International Woman Suffrage Alliance. There is a significant amount of material pertaining to her peace activities. There is also a rich collection of photographs, including many of the Women's Land Army, created in Great Britain during World War II to aid in the war effort.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Suffragist, president, National American Women Suffrage Association, and pacifist. Papers relate primarily to Catt's public life, primarily her work as president of both the National American Woman Suffrage Association and the International Woman Suffrage Alliance. There is a significant amount of material pertaining to her peace activities. There is also a rich collection of photographs, including many of the Women's Land Army, created in Great Britain during World War II to aid in the war effort.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc885.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc885.jpg" linktype="simple" show="embed">
 <daodesc><p>"One of longshore girls driving an auto truck."<lb />
             Photo by Underwood and Underwood, 1917</p></daodesc></dao>
          <p>Carrie Lane Chapman Catt was born on January 9, 1859 in
@@ -222,7 +223,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -280,7 +281,7 @@
          <subject encodinganalog="650" source="lcsh">Women's
                         rights--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -384,8 +385,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1880-1958)</unitdate>
                </unittitle>
@@ -532,7 +533,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE  <unitdate>(1892-1947)</unitdate>
                </unittitle>
@@ -720,7 +721,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS <unitdate>(1902-44)</unitdate>
                </unittitle>
@@ -826,7 +827,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. SUBJECT FILES <unitdate>(1914-34)</unitdate>
                </unittitle>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss27.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss27</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss27.xml//EN">mnsss27</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Alice Gorton Hart Papers, 1948-1988
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Hart, Alice Gorton, 1932-1987</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">
+         <unittitle encodinganalog="245$a" label="Title:">
 Alice Gorton Hart Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1948-1988</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">227</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">227</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">6 boxes</extent>
             <extent encodinganalog="300$a">(2.5 linear ft.)</extent>
@@ -74,9 +75,9 @@ Alice Gorton Hart Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Poet and teacher. Primarily personal journals and notebooks, with inserts, dated from 1948 to 1988.  Her undergraduate life at Smith is well documented. Materials from student life at Smith in the 1950s are included. Later journals document her marriage, friendships, and close relationship with her mother. Among the subjects she explored were poetry, women's spirituality, dreams, and the feminist movement.  There are also poems and writings and a letter from Aldous Huxley.
+         <abstract encodinganalog="520$a" label="Abstract:">Poet and teacher. Primarily personal journals and notebooks, with inserts, dated from 1948 to 1988.  Her undergraduate life at Smith is well documented. Materials from student life at Smith in the 1950s are included. Later journals document her marriage, friendships, and close relationship with her mother. Among the subjects she explored were poetry, women's spirituality, dreams, and the feminist movement.  There are also poems and writings and a letter from Aldous Huxley.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -103,7 +104,7 @@ Alice Gorton Hart Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -152,8 +153,8 @@ Alice Gorton Hart Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
          <corpname encodinganalog="610" source="lcnaf">Smith College--Students--History--Sources</corpname>
          <subject encodinganalog="650" source="lcsh">Women--United States-Diaries</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. JOURNALS </unittitle>
 	<note><p>[containing correspondence, photographs, memorabilia, clippings, printed material, and writings]</p>
@@ -216,7 +217,7 @@ Alice Gorton Hart Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PUBLICATIONS</unittitle>
             </did>

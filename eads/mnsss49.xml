@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss49.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss49</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss49.xml//EN">mnsss49</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Eleanora Davis Pim Papers, 1962-1968
@@ -46,19 +47,19 @@
       </num>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Pim, Eleanora Davis, 1918-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">
+         <unittitle encodinganalog="245$a" label="Title:">
 Eleanora Davis Pim Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1962-1968</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 276</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 276 UUID:a2e571d2-177e-4825-89b6-da19702bd9ac</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -70,9 +71,9 @@ Eleanora Davis Pim Papers</unittitle><unitdate encodinganalog="245$f" type="incl
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">YWCA Overseas Secretary. Papers consist primarily of letters to family from her time working as YWCA overseas secretary in Turkey. The letters detail Pim's work; Turkish social customs; trips in Turkey, Greece, and Western Europe; and her views on current political situations in the United States and the Middle East, including the 1963 attempted coup d'etat in Turkey. Includes photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">YWCA Overseas Secretary. Papers consist primarily of letters to family from her time working as YWCA overseas secretary in Turkey. The letters detail Pim's work; Turkish social customs; trips in Turkey, Greece, and Western Europe; and her views on current political situations in the United States and the Middle East, including the 1963 attempted coup d'etat in Turkey. Includes photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -87,7 +88,7 @@ Eleanora Davis Pim Papers</unittitle><unitdate encodinganalog="245$f" type="incl
          <p>The nine photographs consist of people Pim met and befriended during her stay. Most of the correspondence is from Eleanora Pim to her mother and father. Her mother died in 1963, therefore all the letters written after that time were addressed only to her father Paul Davis. The last folder contains letters to Paul Davis from relatives and friends discussing Pim's career overseas.</p>
          <p>In Eleanora's letters she explains Turkish social customs, such as weddings and New Year's Eve parties. She also writes of her trips to different parts of Turkey, Greece, and Europe. Pim offers her views on current political situations in the United States and the Middle East, such as the assassination of Martin Luther King Jr.  and the 1963 attempted coup d'etat in Turkey. Most of her correspondence describes her work and social activities in Turkey and her concern for family and friends back home.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -120,7 +121,7 @@ Eleanora Davis Pim Papers</unittitle><unitdate encodinganalog="245$f" type="incl
          <geogname encodinganalog="651" source="lcsh">Turkey--Social life and customs--20th century--Sources</geogname>
          <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Associations--History--Sources</corpname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

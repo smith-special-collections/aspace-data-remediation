@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss87.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss87</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss87.xml//EN">mnsss87</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Phyllis Duganne Papers, 1903-1965
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Duganne, Phyllis, 1899-1976</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Phyllis Duganne Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1930-1965</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Phyllis Duganne Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1930-1965</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 52</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 52</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">9 boxes</extent>
             <extent encodinganalog="300$a">(6 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Author. Suffragist. Typescripts of Duganne's short stories comprise most of the collection, although there are also typescripts of five novels, a number of plays and scrapbooks.  Correspondence with her agent Carl Brandt reflects her attempt to break into the television and film writing industries.
+         <abstract encodinganalog="520$a" label="Abstract:">Author. Suffragist. Typescripts of Duganne's short stories comprise most of the collection, although there are also typescripts of five novels, a number of plays and scrapbooks.  Correspondence with her agent Carl Brandt reflects her attempt to break into the television and film writing industries.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6182.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6182.jpg" linktype="simple" show="embed">
 <daodesc><p>Phyllis Duganne, circa 1962</p></daodesc></dao> 
          <p> Phyllis Duganne (1899-1976) was born in Boston, descended from a long line of New England farmers and seagoing Cape Codders. She spent summers in Scituate with her aunt, Inez Haynes Irwin.  Irwin was a well-known author, suffragist, and feminist, and in Scituate, Duganne was surrounded by artists and writers. Duganne worked in New York City as a short story writer from the 1920s to the 1950s. In 1919, she was one of "nine brilliant members of the Bobbed Hair Brigade of Greenwich Village who borned the buxom young magazine Judy" with Freda Kirchway, Margaret Sangster, and Jane Burr. Judy, which included poems by Duganne's aunt, Inez Haynes Irwin was promoted as a magazine for the modern woman and the men who wished to understand her.  Duganne also published in Saturday Evening Post, Ladies Home Journal, Colliers, and other magazines, and she published two novels, one of which was Prologue (1920). Love stories, often tragic, were her specialty. Duganne also wrote for young female readers, including a novel, Ruthie, and short stories for American Girl Magazine. Duganne also had some success as a writer for television and film. Her play Nice Girl was made into a movie in 1941, starring Deanna Durban. Duganne's first marriage was to a writer, Austin Parker. Their daughter Jane was born in 1920.  Duganne divorced Parker when he became involved with Broadway actress and film star Miriam Hopkins. Duganne's second marriage was to Eben Given, an artist and author.  They lived in Truro, Massachusetts, where Duganne continued to write, garden, and sail.</p>
       </bioghist>
@@ -110,7 +111,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -154,8 +155,8 @@
          <subject encodinganalog="650" source="lcsh">Women authors, American--20th century</subject>
          <corpname encodinganalog="610" source="lcnaf">Judy, a magazine (New York, N.Y., 1919)</corpname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
             </did>
@@ -196,7 +197,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -239,7 +240,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
             </did>
@@ -470,7 +471,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>
@@ -528,7 +529,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serBKS">
+         <c01 id="list-serBKS" level="series">
             <did>
                <unittitle>BOOKS ON SHELF</unittitle>
             </did>

@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca321.xml//EN" countrycode="us" mainagencycode="manosca">manosca321</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca321.xml//EN">manosca321</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">John Tappan Stoddard Papers, 1877-2001</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2013">2013</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Stoddard, John Tappan,  1852-1919</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Stoddard, John Tappan,  1852-1919</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">John Tappan Stoddard Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1877-2001</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">John Tappan Stoddard Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1877-2001</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:2e423c59-2113-4b70-8854-9c3db584e159</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">1 box</extent>
 		<extent encodinganalog="300$a">( 0.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -61,7 +62,7 @@
 	<head>Biographical Note</head>
 	<p>John Tappan Stoddard was born October 20, 1852 to William H. and Helen H. Stoddard in Northampton, Massachusetts. He is a descendant of Solomon Stoddard, the second minister of Northampton, known for the "halfway covenant" and for being the grandfather of Jonathan Edwards. On June 26, John Stoddard married Mary Grover Leavitt, with whom he would have two sons and a daughter.</p>
 
-<p>Stoddard graduated from Amherst College in 1874. He served as Assistant Principle of Northampton High in 1875 before going to the University of G&#246;ttingen, where he studied under Hans Hubner and received his doctorate in 1878.
+<p>Stoddard graduated from Amherst College in 1874. He served as Assistant Principle of Northampton High in 1875 before going to the University of Göttingen, where he studied under Hans Hubner and received his doctorate in 1878.
 </p>
 <p>In 1878 Stoddard was appointed by President Seeyle as the instructor of Mathematics and Physics. In 1881 he became head of the departments of physics and chemistry and in 1897 became the head of the chemistry department. He was the "heart and soul" of Colloquium, a departmental chemistry club where informal discussions about the subject could be conducted between students and faculty similar to seminars in the German universities.</p>
 
@@ -114,7 +115,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">1026</container>
@@ -211,5 +212,3 @@
 
   </archdesc>
 </ead>
-
-

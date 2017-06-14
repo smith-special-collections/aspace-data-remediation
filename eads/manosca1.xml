@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca1.xml//EN" countrycode="us" mainagencycode="manosca">manosca1</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca1.xml//EN">manosca1</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Laurenus Clark Seelye Papers, 1820-1995 (bulk 1875-1924)
@@ -53,16 +54,16 @@
 <p> 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Seelye, Laurenus Clark, 1837-1924.</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Laurenus Clark Seelye Papers</unittitle>
+<unittitle encodinganalog="245$a" label="Title:">Laurenus Clark Seelye Papers</unittitle>
 <unitdate encodinganalog="245$f" type="inclusive">1820-1995</unitdate>
 <unitdate encodinganalog="245$g" type="bulk">1875-1924</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 32</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 32 UUID:2a5eb7ab-250c-4302-8521-bd58e95328d1</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">26 boxes</extent>
 <extent encodinganalog="300$a">(12.75 linear ft.)</extent>
@@ -73,7 +74,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">First president of Smith College.  Contains biographical material, correspondence, sermons, speeches, lectures, publications, photographs, and family papers of Henrietta Chapin Seelye.  Correspondents include President Marion LeRoy Burton, Harry Norman Gardiner, Arthur L. Gillett, John M. Greene, Mary Augusta Jordan, William H. Lanning, Alice (Lord) Parsons, Herbert A. Wilder, Andrew Carnegie, President William McKinley, and John D. Rockefeller, Jr, among others.
+<abstract encodinganalog="520$a" label="Abstract:">First president of Smith College.  Contains biographical material, correspondence, sermons, speeches, lectures, publications, photographs, and family papers of Henrietta Chapin Seelye.  Correspondents include President Marion LeRoy Burton, Harry Norman Gardiner, Arthur L. Gillett, John M. Greene, Mary Augusta Jordan, William H. Lanning, Alice (Lord) Parsons, Herbert A. Wilder, Andrew Carnegie, President William McKinley, and John D. Rockefeller, Jr, among others.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -113,7 +114,7 @@
 </item>
 </list>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -131,7 +132,7 @@
 <p>Please use the following format when citing materials from this collection:</p>
 <p>Laurenus Clark Seelye Papers, Box #, Smith College Archives.</p>
 </prefercite>
-<altformavail id="altform" type="digital" encodinganalog="530">
+<altformavail encodinganalog="530" id="altform" type="digital">
 <head>Additional Formats</head>
 <p>Images from this collection are also available online as part of the <extref href="http://clio.fivecolleges.edu/smith/pres-seelye/">Five College Archives Digital Access Project</extref>.</p>
 </altformavail>
@@ -160,8 +161,8 @@
 <persname encodinganalog="700" source="lcnaf">Rockefeller, John D. (John Davison), 1874-1960.</persname>
 <corpname encodinganalog="710" source="lcnaf">Smith College. Office of President.</corpname>
 </controlaccess>
-<dsc type="combined" id="contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>SERIES I. BIOGRAPHY
 <unitdate>(1854-1995)</unitdate>
@@ -509,7 +510,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>SERIES II. CORRESPONDENCE
 <unitdate>(1860-1925)</unitdate>
@@ -1223,7 +1224,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>SERIES III. SERMONS/SPEECHES/LECTURES
 <unitdate>(1859-1923)</unitdate>
@@ -2872,7 +2873,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>SERIES IV. PUBLICATIONS
 <unitdate>(1859-1925)</unitdate>
@@ -3220,7 +3221,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>SERIES V. PHOTOGRAPHS
 <unitdate>(1857-1962)</unitdate>
@@ -3560,7 +3561,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser6">
+<c01 id="list-ser6" level="series">
 <did>
 <unittitle>SERIES VI. HENRIETTA CHAPIN SEELYE
 <unitdate>(1820-1925)</unitdate>

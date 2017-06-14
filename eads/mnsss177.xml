@@ -1,6 +1,7 @@
-<ead>
-   <eadheader audience="internal" id="head" findaidstatus="unverified-full-draft" langencoding="iso639-2b">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss177.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss177</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss177.xml//EN">mnsss177</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Settlements Collection, 1883-1972
@@ -49,7 +50,7 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2004  Smith College. All rights reserved.</p>
+         <p>©  2004  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
    <archdesc level="collection" relatedencoding="MARC21">
@@ -57,7 +58,7 @@
          <head>Collection Overview</head>
          <unittitle encodinganalog="245$a" label="Title:">Settlements Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1883-1972</unitdate>
          
-         <unitid encodinganalog="099" repositorycode="mnsss" label="Collection Number:" countrycode="us">MS 430</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 430</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes; 6 volumes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -70,19 +71,19 @@
             </address>
             </repository>
          <abstract encodinganalog="520$a" label="Abstract:">The Settlements Collection documents the social settlement movement and its contributions to poor and working-class urban communities from the 1880s through the first half of the 20th century.  Documentation primarily relates to the College Settlement Association (later called the Intercollegiate Community Service Association), and the individual settlements affiliated with it: the College Settlement of Philadelphia, Denison House in Boston, the Smith Alumnae Chapter, and the Rivington Street Settlement in New York City.  Types of material include articles, correspondence, clippings, historical writings, pamphlets, annual reports, minutes, newsletters, and photographs.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6313.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6313.jpg" linktype="simple" show="embed">
 <daodesc><p>Cover of pamphlet on Denison <lb />House settlement, undated</p></daodesc></dao>
          <p> The Settlements Collection contains manuscript and printed material that primarily relate to the College Settlement Association, which later became the Intercollegiate Community Service Association, and the individual settlements affiliated with it, primarily the College Settlement of Philadelphia, Denison House in Boston, the Smith Alumnae Chapter, and the Rivington Street Settlement in New York City.   The bulk of the material dates from the 1880s, when the settlement movement first emerged in the U.S., to the 1960s when, after the appearance of federal anti-poverty programs, many settlements closed their doors permanently.</p>
          <p> The nineteenth century material in this collection includes both published and unpublished sources, such as articles, correspondence, newspaper clippings,  promotional pamphlets, histories, and reports that document the emergence and evolution of the settlement movement in the 1880s and 1890s.  It also illustrates both settlement founders' efforts to legitimize their work, and their increasingly successful endeavors to draw educated young women into the field of settlement work.</p>
          <p> The twentieth century material is more varied and includes articles, commemorative booklets, correspondence, fundraising appeals, minutes, newsletters, pamphlets, photographs, programs, and an unpublished thesis. These items document the thorough institutionalization of settlements in U.S. society between 1900 and the 1930s, the crucial contributions they made to poor and working-class communities, and the gradual decline that most settlements faced in the post-World War II period.  The collection includes bound volumes of the annual reports of the College Settlement Association (1890-1913), as well as books and newsletters published by the CSA.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -126,7 +127,7 @@
          <subject encodinganalog="650" source="lcsh">Social settlements--United States--History-Sources</subject>
          <subject encodinganalog="650" source="lcsh">Working class women--United States--History--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

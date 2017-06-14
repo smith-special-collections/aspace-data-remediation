@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss361.html">mnsss361</eadid>
 
 	<filedesc>
@@ -36,7 +37,7 @@
 		<author encodinganalog="245$c">Revised by Jennifer Smar</author> 
 		<date encodinganalog="260$c">2006</date> 
 		 	 
-		<p>&#169; 2006 Smith College. All rights reserved.</p> 
+		<p>© 2006 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -44,16 +45,16 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Storm, Marian, 1892-1975</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Storm, Marian, 1892-1975</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Marian Storm Papers</unittitle><unitdate label="Dates:">1857-1972</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 156</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Marian Storm Papers</unittitle><unitdate label="Dates:">1857-1972</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 156</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">18 boxes, 1 volume, oversize materials</extent>
 			<extent encodinganalog="300$a">(9 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">English, Spanish</langmaterial>
+		<langmaterial encodinganalog="546" label="Language of Material:">English, Spanish</langmaterial>
 
          <repository label="Location:">
             <corpname>Sophia Smith Collection</corpname>
@@ -85,7 +86,7 @@
 
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized as follows:</p>
 	<list>
@@ -185,9 +186,9 @@
 <!-- Insert container list here:-->
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <head>Contents List</head>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -280,7 +281,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  <note>
@@ -364,7 +365,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
  <note>
@@ -881,7 +882,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. MEXICO</unittitle>
  </did>
@@ -1040,7 +1041,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. TRAVEL</unittitle>
  </did>
@@ -1149,7 +1150,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -1193,13 +1194,13 @@
  <note><p>Missing as of January 2016.</p></note>
  </c02>
  </c01>
- <c01 level="series" id="list-serBks">
+ <c01 id="list-serBks" level="series">
  <did>
  <unittitle>BOOKS ON SHELF</unittitle>
  </did>
  <c02>
  <did>
- <container type="box"></container>
+ <container type="box"/>
  <unittitle><title render="italic">Old Dirk's Book</title>, by Raymond Storm,<unitdate> 1949</unitdate></unittitle>
  </did>
  </c02>
@@ -1212,5 +1213,3 @@
 
 </archdesc>
 </ead>
-
-

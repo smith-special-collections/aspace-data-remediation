@@ -1,6 +1,7 @@
-<ead>
-   <eadheader audience="internal" id="head" findaidstatus="unverified-full-draft" langencoding="iso639-2b">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss176.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss176</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss176.xml//EN">mnsss176</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Authors Collection, 1845-1986
@@ -49,7 +50,7 @@
       </date>
 
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2004  Smith College. All rights reserved.</p>
+         <p>© 2004  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
    <archdesc level="collection" relatedencoding="MARC21">
@@ -57,7 +58,7 @@
          <head>Collection Overview</head>
          <unittitle encodinganalog="245$a" label="Title:">Authors Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1845-1986</unitdate>
 
-         <unitid encodinganalog="099" repositorycode="mnsss" label="Collection Number:" countrycode="us">MS 443</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 443</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">12 boxes; 4 volumes</extent>
             <extent encodinganalog="300$a">(4.75 linear ft.)</extent>
@@ -70,13 +71,13 @@
             </address>
             </repository>
          <abstract encodinganalog="520$a" label="Abstract:">The Authors Collection contains small amounts of material on a number of women writers from the U.S. and abroad.  Types of materials include biographical writings, articles, reviews, newspaper clippings, and other printed materials. There are also some letters, manuscripts and photographs. A large portion of the collection relates to author Margaret Mitchell, and her book and the movie, <title>Gone With the Wind</title>. Other authors represented include Louisa May Alcott, Elizabeth Barrett Browning, Willa Cather, Doris Lilly, Emily Dickinson, Edna St. Vincent Millay, Tillie Olsen, Harriet Beecher Stowe, and Virginia Woolf.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc878.jpg" altrender="right">
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc878.jpg" linktype="simple" show="embed">
 <daodesc><p>Gertrude Stein, ca. 1900</p></daodesc></dao>
          <p> The Authors Collection is comprised of bibliographies of women writers, both from the U.S. and abroad; general files on women authors by country; and files on individual authors and poets.  In a few cases there are typescripts of an author's works, photographs, biographical information, newspaper clippings, and some reviews. The collection dates approximately from 1845 to 1976.  Individual authors represented include Louisa May Alcott, Elizabeth Barrett Browning, Willa Cather, Emily Dickinson, Edna St. Vincent Millay, Tillie Olsen, Harriet Beecher Stowe, and Virginia Woolf, among others.  There is one complete manuscript, How to Make Love to a Man in Five Languages, by Doris Lilly. A substantial section on Margaret Mitchell includes newspaper clippings, magazine articles, and correspondence about Mitchell, the publication of Gone With the Wind, the release of the movie, and efforts of the Atlanta Smith Club to raise money for Margaret Mitchell scholarships to send Georgia women to Smith. Correspondence includes letters from Mitchell to Julia Collier Harris and her husband Julian Harris (circa 1936-47), both newspaper editors who, together, received the Pulitzer Prize in journalism for their editorials in the Columbus (Georgia) Enquirer-Sun against the Ku Klux Klan.</p>
       </scopecontent>
@@ -98,7 +99,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -138,8 +139,8 @@
          <subject encodinganalog="650" source="lcsh">Authors--Biography--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women authors--Biography--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. GENERAL</unittitle>
             </did>
@@ -186,7 +187,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. COUNTRIES</unittitle>
             </did>
@@ -245,7 +246,7 @@
                   <did>
                      <container type="box">1a</container>
                      <container type="folder">6</container>
-                     <unittitle>de Sta&#235;l, Madame</unittitle>
+                     <unittitle>de Staël, Madame</unittitle>
                   </did>
                </c03>
                <c03>
@@ -316,11 +317,11 @@
                <did>
                   <container type="box">1a</container>
                   <container type="folder">16</container>
-                  <unittitle>Sweden: Selma Lagerl&#246;f</unittitle>
+                  <unittitle>Sweden: Selma Lagerlöf</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. INDIVIDUAL AUTHORS</unittitle>
             </did>
@@ -417,7 +418,7 @@
                <did>
                   <container type="box">2</container>
                   <container type="folder">12</container>
-                  <unittitle>Bront&#235;;, Charlotte and family</unittitle>
+                  <unittitle>Brontë;, Charlotte and family</unittitle>
                </did>
             </c02>
             <c02>
@@ -514,7 +515,7 @@
                <did>
                   <container type="box">3</container>
                   <container type="folder">2</container>
-                  <unittitle>De la Ram&#233;e, Louisa</unittitle>
+                  <unittitle>De la Ramée, Louisa</unittitle>
                </did>
             </c02>
             <c02>
@@ -1079,7 +1080,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. POETRY</unittitle>
             </did>
@@ -1291,7 +1292,7 @@
             </c02>
 
          </c01>
-         <c01 level="series" id="list-serbks">
+         <c01 id="list-serbks" level="series">
             <did>
                <unittitle>Books on Shelf</unittitle>
             </did>
@@ -1312,7 +1313,7 @@
                   </unittitle></did></c02>
 				  <c02><did><unittitle>Meredith Tax, ed.
 				  <br /><title>The Guarded Tongue</title><unitdate>2001</unitdate>
-				  <br /><title>The Power of the Word</title><unitdate>2006></unitdate>
+				  <br/><title>The Power of the Word</title><unitdate>2006&gt;</unitdate>
 				  <br /><title>The Power of the Word II</title><unitdate>1996</unitdate>
 				  <br /><title>Speaking in Tongues</title><unitdate>2002</unitdate>
 				  <br /><title>The Spongue Set Free</title><unitdate>2002</unitdate>

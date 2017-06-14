@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss138.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss138</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss138.xml//EN">mnsss138</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Lady Caroline Reynolds Jebb Papers, 1858-1930, 1960
@@ -53,19 +54,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Jebb, Caroline Lane Reynolds Slemmer, Lady, 1840-1930</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Lady Caroline Lane Reynolds Slemmer Jebb Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1858-1960</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Lady Caroline Lane Reynolds Slemmer Jebb Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1858-1960</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1858-1926</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 228</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 228</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes		  </extent>
             <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
@@ -77,14 +78,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Intellectual and socialite. The majority of the collection is correspondence, primarily letters written from England by Lady Jebb's, to her family. The letters describe late 19th century England and many literary figures with whom Lady Jebb socialized, including Robert Browning, Thomas Carlyle, Charles Darwin, Benjamin Disraeli, George Eliot, Charles Hale, Oliver Wendell Homes, James Russell Lowell, Alfred Lord Tennyson, Ellen Terry, Mark Twain, and William Thackeray. Also included are brief diary entries, articles, and a copy of the published book, <title>With Dearest Love to All</title>, by Mary Reed Bobbitt, Lady Jebb's great-great-niece, containing portions of these letters.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Intellectual and socialite. The majority of the collection is correspondence, primarily letters written from England by Lady Jebb's, to her family. The letters describe late 19th century England and many literary figures with whom Lady Jebb socialized, including Robert Browning, Thomas Carlyle, Charles Darwin, Benjamin Disraeli, George Eliot, Charles Hale, Oliver Wendell Homes, James Russell Lowell, Alfred Lord Tennyson, Ellen Terry, Mark Twain, and William Thackeray. Also included are brief diary entries, articles, and a copy of the published book, <title>With Dearest Love to All</title>, by Mary Reed Bobbitt, Lady Jebb's great-great-niece, containing portions of these letters.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6270.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6270.jpg" linktype="simple" show="embed">
 <daodesc><p>First page of letter to "Mary" written <lb />from Albemarle Club, 1885</p></daodesc></dao> 
          <p>Caroline Lane Reynolds was born in 1840 in Evansburg, Pennsylvania.  She was married in 1856 to U.S. Army Lieutenant Adam J. Slemmer and the couple lived at military outposts in South Carolina, Florida, and Wyoming Territory. After his death in 1868 she lived briefly in Cambridge, England, and was visiting Paris at the outbreak of the Franco-Prussian War. In 1874 she married British Classicist Richard Claverhouse Jebb and joined social circles embracing George Eliot, Tennyson, Charles Darwin, Mark Twain, and Bret Harte. For a more complete biographical sketch see the attached article written at the time of her death in 1930.
     </p>
@@ -118,7 +119,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -154,8 +155,8 @@
          <geogname encodinganalog="651" source="lcsh">Great Britain--Social life and customs--19th century--Sources</geogname>
          <subject encodinganalog="650" source="lcsh">Authors, English--19th century--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. CORRESPONDENCE</unittitle>
             </did>
@@ -256,7 +257,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. BIOGRAPHY</unittitle>
             </did>

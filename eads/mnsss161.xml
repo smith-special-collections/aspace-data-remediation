@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss161.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss161</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss161.xml//EN">mnsss161</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Jane Sommer Papers, 1964-1966</titleproper>
@@ -47,18 +48,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Sommer, Jane</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Jane Sommer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1964-66</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Jane Sommer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1964-66</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 148</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 148</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -70,9 +71,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Teacher and Peace Corps volunteer.  The Sommer Papers consist primarily of letters to her family written during her service for the Peace Corps as a teacher in the Philippines. The letters also document her training in Hawaii and at Northern Illinois University. Included are reports to the Peace Corps, correspondence to and from others about her work, and itineraries of her travels in Asia during and after her Peace Corps duty.
+         <abstract encodinganalog="520$a" label="Abstract:">Teacher and Peace Corps volunteer.  The Sommer Papers consist primarily of letters to her family written during her service for the Peace Corps as a teacher in the Philippines. The letters also document her training in Hawaii and at Northern Illinois University. Included are reports to the Peace Corps, correspondence to and from others about her work, and itineraries of her travels in Asia during and after her Peace Corps duty.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -84,7 +85,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The papers consist primarily of letters to her family written during her service for the Peace Corps as a teacher in the Philippines from 1964 to 1966. The letters also cover her training in Hawaii and at Northern Illinois University in 1964. Included are reports to the Peace Corps, correspondence to and from others about her work, and itineraries of her travels in Asia during and after her Peace Corps duty.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -119,7 +120,7 @@
          <geogname encodinganalog="651" source="lcsh">Philippines--Description and travel--Sources</geogname>
          <persname encodinganalog="600" source="lcnaf">Sommer, Jane</persname>
       </controlaccess>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

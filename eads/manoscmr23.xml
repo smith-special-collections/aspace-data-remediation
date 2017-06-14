@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr23.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr23</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr23.xml//EN">manoscmr23</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Joshua Morse Papers,  1790-1849</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Morse, Joshua</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Morse, Joshua</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Joshua Morse Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1790-1849</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Joshua Morse Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1790-1849</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr">MS 276</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 276 UUID:3745d2ec-be37-4232-a96e-218c3f80313e</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">1 box</extent>
 		<extent encodinganalog="300$a">(3 linear inches)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Mortimer Rare Book Room</corpname>
@@ -72,7 +73,7 @@
 
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -132,8 +133,8 @@
 
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. LAND DEEDS</unittitle>
  </did>
@@ -204,7 +205,7 @@
 	</physdesc></did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. BILLS AND RECEIPTS</unittitle>
  </did>
@@ -216,7 +217,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. GUARDIANSHIP OF SAMUEL W. PHILLIPS AND MARY PHILLIPS BY JOSHUA MORSE</unittitle>
  </did>
@@ -250,7 +251,7 @@
  	</note></did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. MISCELLANEOUS</unittitle>
  </did>
@@ -297,5 +298,3 @@
 
   </archdesc>
 </ead>
-
-

@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss456.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss456</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss456.xml//EN">mnsss456</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Linda Stein Papers, 1974-2008</titleproper>
@@ -35,16 +36,16 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Stein, Linda</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Linda Stein Papers</unittitle><unitdate type="inclusive" label="Dates:">1974-2008</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Linda Stein Papers</unittitle><unitdate label="Dates:" type="inclusive">1974-2008</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 495</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 495</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">3 boxes</extent>
         <extent encodinganalog="300$a">(1 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +56,7 @@
             </address>
          </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Visual artist; Feminist; Political activist; Founder and president, Have Art: Will Travel! Inc. (HAWT); Founder and president, the Art Club (Tribeca). The papers document the evolution of Stein's work both as an artist and as a political activist; her dialogue with other artists, peers and family; public events; her personal thoughts, and private life. The collection includes exhibition catalogs and announcements, press coverage, work documentation, lectures and presentations, writings, speeches, diaries and journals, correspondence, videos, and photographs.
  
                  </abstract>
@@ -63,7 +64,7 @@
 
 <bioghist id="bioghist">
        <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2231.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2231.jpg" linktype="simple" show="embed">
 <daodesc><p>"Margaret Sanger 380" <lb />watercolor painting by Stein, n.d.</p></daodesc></dao> 
      <p>Linda Stein received her B.A. from Queens College and her M.F.A. from the Pratt Institute.  In 1974, she founded  Have Art: Will Travel! Inc. (HAWT), a non-profit corportation, to help artists, particularly women, to teach, exhibit, and sell their art.  In 1993, she founded the Art Club, a Tribeca gallery providing free exhibit space for non-profit organizations promoting feminism, diversity, and reproductive rights. Stein recently received the National Association of Women Artists award as their 2017 Artist Honoree for Commitment to the Arts.  And in October 2017 the New York City Art Teachers Association/UFT will honor Stein with their Artist of the Year award. </p>
 

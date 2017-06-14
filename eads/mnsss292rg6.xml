@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg6</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6.xml//EN">mnsss292rg6</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -33,9 +34,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 06. Program</unittitle><unitdate type="inclusive" label="Dates:">1870-2002</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 06. Program</unittitle><unitdate label="Dates:" type="inclusive">1870-2002</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:cdeb59e3-d144-4c63-aca5-d1af4ae4c578</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -47,7 +48,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
            This record group documents national staff and committees' work to achieve the overall goals and program of the Association as directed by the National Convention. Series within this Record Group document Public Advocacy; work with Employed Women, Immigrants, Teen-agers, and Young Adults; Racial Justice work; War Work; and program materials on camping, health, recreation, music, pageantry and drama, and religion. Materials include committee and department minutes, reports, correspondence, programs and projects files, publications, conference files, reference files, studies, subject files, surveys, and training materials.  Forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>.
          </abstract>
 </did>
@@ -96,7 +97,7 @@
 			<extref href="mnsss292rg6s7_main.html">VII.  WAR WORK AND DEFENSE SERVICES</extref> 
 		</item>
          </list>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3406.jpg" altrender="right"><daodesc><p>Folder for "Call to Dialogue and Action" Kit, 1968 </p></daodesc></dao> 
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3406.jpg" linktype="simple" show="embed"><daodesc><p>Folder for "Call to Dialogue and Action" Kit, 1968 </p></daodesc></dao> 
 	<p>In October 1970, Beth Marti, chair of the newly formed Program Coordination Core Group, described the YWCA's multi-faceted use of the word "Program" as follows: "Program in a very real sense is everything we do!  It encompasses not only the positions we take and the goals we set, but also the ways we determine to work at them."</p>
 	<p>The word "Program" is used to refer to the overall agenda of the Association, as well as efforts on behalf of specific "constituent groups" (such as employed women, girls/teens, and immigrants), and in various key areas of concern (such as international and interracial relations, religion, and health).   It is also used when referring to the various materials and techniques used to communicate the Association's principles and carry out its mission of bringing "abundant life to all."</p>
 	<p>From the founding of the National Association in 1906, its basic areas of concern have remained remarkably consistent while the methods for addressing those concerns and the language for describing them changed with the times.  The Association has worked for the betterment of life for all human beings worldwide, with a particular emphasis on young women and girls.  The YWCA always defined "betterment of life" in broad terms.  Programs were designed to encourage women to take their place in society as leaders and informed citizens, to work for social and economic justice, to facilitate women's economic advancement, to help them live healthier lives and to express themselves creatively.  The YWCA movement saw building and maintaining a diverse membership across barriers of race, economics, religion, and nationality as crucial to its mission.</p>
@@ -113,7 +114,7 @@
 <extref href="mnsss292rg6s3_main.html">SERIES III.  PUBLIC ADVOCACY</extref> .]</p>
 	<p>The influx of funding associated with World War I allowed for an especially dramatic expansion of program [see
 <extref href="mnsss292rg6s7_main.html">SERIES VII.  WAR WORK AND DEFENSE SERVICES</extref>] that proved difficult to sustain once that special funding was exhausted, especially during the Great Depression.  Lack of funds caused a considerable reduction in staff.  The Association was hesitant to abandon altogether work begun with war funding, decisions about the future of various programs were postponed and the remaining staff did its best to sustain them.  In 1933, the Association established the Committee on Review of Program and Budget to make recommendations about how to prioritize national program while reducing its budget deficit.</p>
-	<p>Hoping that the challenging economic situation would be temporary, the Committee recommended an emphasis on the development of the Association as a whole rather than the "special groups" within it, transferring the already considerably reduced program staff from specialist work to a "general advisory" role.  The idea was to "foster the unique contribution of women to the life of the nation and the world" through  "the interpretation of religious values, the development of the technique of fellowship, and&#8230;releasing the power of religion to meet the present most pressing needs of individual girls and women, and of society."  This translated in part into "less time and money spent for preparation of printed and mimeographed material on administrative problems and on program."   It also meant a reduction in programs for individual constituent groups and emphasis on more general "group work" training.</p>
+	<p>Hoping that the challenging economic situation would be temporary, the Committee recommended an emphasis on the development of the Association as a whole rather than the "special groups" within it, transferring the already considerably reduced program staff from specialist work to a "general advisory" role.  The idea was to "foster the unique contribution of women to the life of the nation and the world" through  "the interpretation of religious values, the development of the technique of fellowship, and…releasing the power of religion to meet the present most pressing needs of individual girls and women, and of society."  This translated in part into "less time and money spent for preparation of printed and mimeographed material on administrative problems and on program."   It also meant a reduction in programs for individual constituent groups and emphasis on more general "group work" training.</p>
 	<p>What began as a response to a short-term financial crisis gradually became the norm for the National Association which never re-established the national level, wide-ranging program development of its early years.  The Program Planning Committee (established in 1939 to develop long-range, centralized program planning) identified five overall objectives for the Association:   providing effective direct service to local associations; encouraging a diverse membership; fostering religious commitment; developing a program of social action; and encouraging international cooperation, particularly through participation in the World's YWCA.  With these objectives in mind, the Committee considered which subjects should remain in the program and how much staff would be needed to "carry the subject."  As part of their deliberations, the Committee analyzed whether some YWCA programs had outlasted their usefulness and if the YW remained the most effective organization to operate such programs in light of a growing state- and nationally-funded social service infrastructure. </p>  
 	<p>World War II provided a temporary influx of funding similar to the first World War, but budget problems returned in force with the end of post-war reconstruction.  A major study of the National Association's finances in 1947 forced another examination of  "what program, essential and vital to the life of the whole Association, the National Board should carry."  Having decided it would like to work toward balancing its national budget, the National Board established in 1948 a Program and Budget Apportionment Committee responsible for continuing study of the national program, making budget recommendations that would match program with available funds, and recommending appropriate structure to achieve effective administration and correlation of program.  The Committee identified three major areas of work:  strengthening the religious life of the YWCA, developing an active and responsible membership, and world citizenship. </p> 
 	<p>Staff and members interested in developing programs in these areas submitted proposals to the Committee.  Approved proposals might be forwarded for inclusion in the regular budget, or the applicants might receive permission to seek outside funding. </p>
@@ -130,7 +131,7 @@
 <extref href="mnsss292rg6s4_main.html">SERIES IV. CONSTIUTENT GROUPS</extref> and
 <extref href="mnsss292rg6s5_main.html">SERIES V. PROGRAM SUBJECTS</extref>]</p>
 </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization</head>
 	<p>This record group is divided into the following Series and Subseries: </p>
 	<list>
@@ -261,5 +262,4 @@
 <!-- Insert container list here:-->
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss107.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss107</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss107.xml//EN">mnsss107</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Peabody Family Papers, 1820-1853</titleproper>
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Peabody Family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Peabody Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1820-1853</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Peabody Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1820-1853</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 118</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 118</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -72,9 +73,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Primarily correspondence, mostly to Maria Chase, a friend and neighbor of the three Peabody sisters, although a few are to Rebecca Chase Kinsman. The collection also includes several journals in which the letters have been published.
+         <abstract encodinganalog="520$a" label="Abstract:">Primarily correspondence, mostly to Maria Chase, a friend and neighbor of the three Peabody sisters, although a few are to Rebecca Chase Kinsman. The collection also includes several journals in which the letters have been published.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -82,7 +83,7 @@
          <head>Biographical Note</head>
          <p> Elizabeth Palmer Peabody was born in Billerica, Massachusetts on May 16, 1804, the eldest of the seven children of Nathaniel and Elizabeth (Palmer) Peabody.  She was educated at home by her father who taught her Latin at an early age and, later, at a school run by her mother.  She developed interests in theology, philosophy, history, and literature, as well as proficiency in ten languages.  She began teaching while in her teens, first at her mother's school.  From 1823 to 1825, she was a teacher and governess to wealthy families in Gardiner and Hallowell, Maine.  She went on to open a school in Brookline, Massachusetts, with her sister, Mary.  During her years there, Elizabeth developed friendships with Bronson Alcott, William Ellery Channing, Ralph Waldo Emerson, Nathaniel Hawthorne, Jones Very and other New England intellectuals.  This loose association of like minds led to the founding of the Transcendentalist Club in 1837, of which Elizabeth Peabody and Margaret Fuller were the only female charter members.</p>
          <p> After her school closed in 1832, Elizabeth eked out a living by tutoring and from the limited proceeds from sales of her books (First Steps to the Study of History (1832) and related textbooks).  In 1836, out of financial necessity, she went to live with her family in Salem, Massachusetts, where she remained for four years.  In 1840, she moved the family to 13 West Street in Boston, where she opened a bookstore in the front parlor.  It became a center for Transcendentalist gatherings, and some of Margaret Fuller's famous "Conversations" were held there. Elizabeth also established herself as a publisher, bringing forth children's stories by Hawthorne, important abolitionist literature, and, briefly, The Dial, a journal written for and by persons interested in transcendentalism.  She published the sole issue of her own periodical, Aesthetic Papers, in 1849.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6061.jpg" altrender="left">
+<dao actuate="onLoad" altrender="left" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6061.jpg" linktype="simple" show="embed">
 <daodesc><p>One page of an eight page letter from Sophia Peabody to <lb />Maria Chase, Salem, Massachusetts, April 24, 1834</p></daodesc></dao> 
          <p> Elizabeth closed her bookshop in 1850 and moved with her elderly parents to West Newton, Massachusetts, where she cared for them in their final years while pursuing her interest in the education of young children.  In 1859, she moved to Concord, Massachusetts to live with her recently widowed sister, Mary.  During the years 1850 to 1884, Elizabeth produced ten books and fifty articles.  She also became an enthusiastic advocate of the kindergarten movement, founded in Germany by Friedrich Froebel, and in 1860 she founded, in Boston, the first organized kindergarten school in the United States.  She also created and edited the Kindergarten Messenger in 1873, and in 1877 organized the American Froebel Union and served as its first president.</p>
          <p> Elizabeth Palmer Peabody, known anecdotally to have become rather eccentric in her old age, died in Jamaica Plain, Massachusetts on January 3, 1894.</p>
@@ -110,7 +111,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -161,7 +162,7 @@
          <subject encodinganalog="650" source="lcsh">Women artists--United States--History--19th century--Sources</subject>
          <persname encodinganalog="600" source="lcnaf">Peabody, Elizabeth Palmer, 1804-1894</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -191,8 +192,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. PEABODY FAMILY</unittitle>
             </did>
@@ -351,7 +352,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. REBECCA CHASE KINSMAN</unittitle>
             </did>

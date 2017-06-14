@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss191.html">mnsss191</eadid>
 
 	<filedesc>
@@ -35,7 +36,7 @@
 		<num>MS 318</num> 
 		<author encodinganalog="245$c">Amanda Izzo</author> 
 		<date>2004</date> 		 
-		<p>&#169; 2005 Smith College. All rights reserved.</p> 
+		<p>© 2005 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -43,16 +44,16 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<corpname source="lcnaf" encodinganalog="110">Women's Africa Committee</corpname>
+			<corpname encodinganalog="110" source="lcnaf">Women's Africa Committee</corpname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Women's Africa Committee Records</unittitle><unitdate label="Dates:">1958-1978</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 318</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Women's Africa Committee Records</unittitle><unitdate label="Dates:">1958-1978</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 318</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">1 box</extent>
 			<extent encodinganalog="300$a">(.5 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">
+		<langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language>
          </langmaterial>
 
@@ -150,7 +151,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -274,5 +275,3 @@
 
 </archdesc>
 </ead>
-
-

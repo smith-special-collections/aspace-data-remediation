@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss563.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss563</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss563.xml//EN">mnsss563</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Lori Hiris Papers, 1962-2001</titleproper>
@@ -38,16 +36,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Hiris, Lori</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Lori Hiris Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1962-2001</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 593</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Lori Hiris Papers</unittitle><unitdate label="Dates:" type="inclusive">1962-2001</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 593</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">10 boxes</extent>
         <extent encodinganalog="300$a">(14.5 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -58,7 +54,7 @@ repositorycode="mnsss">MS 593</unitid>
             </address>
          </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Filmmaker. The collection includes primarily film, videotapes, and audiotapes pertaining to the making of Lori Hiris' film, <title render="italic">With a Vengeance: The Fight for Reproductive Freedom.</title> [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith Collection if you would like one sent to you.]
          </abstract>
 
@@ -119,11 +115,9 @@ Periodic additions to the collection are expected.</p>
 	<subject encodinganalog="650" source="lcsh">Women motion picture producers and directors -- Biography -- Sources</subject>
 	<subject encodinganalog="650" source="lcsh">Independent filmmakers -- Biography -- Sources</subject>
 	<persname encodinganalog="600" source="lcnaf">Hiris, Lori</persname> 
-	<title render="italic" encodinganalog="630" source="lcsh">With A Vengeance: The Fight for Reproductive Freedom</title> 
+	<title encodinganalog="630" render="italic" source="lcsh">With A Vengeance: The Fight for Reproductive Freedom</title> 
 
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
-
+</ead><!-- END OF FILE -->

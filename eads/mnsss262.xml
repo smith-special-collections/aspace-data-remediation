@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss262.html">mnsss262</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss262.html">mnsss262</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Martha Lavell Papers, 1926-1981</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss262.html">mnsss26
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss262.html">mnsss26
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss262.html">mnsss26
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Lavell, Martha, 1909-</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Martha Lavell Papers</unittitle><unitdate label="Dates:">1926-1981</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 197</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Martha Lavell Papers</unittitle><unitdate label="Dates:">1926-1981</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 197</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">1 box</extent>
           <extent encodinganalog="300$a">(.25 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,12 +66,12 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss262.html">mnsss26
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Social worker; Editor. Biographical material; diaries; writings; correspondence; printed material; and photographs.  Included are introspective diaries kept during her teens and twenties; professional writings.
+      <abstract encodinganalog="520$a" label="Abstract:">Social worker; Editor. Biographical material; diaries; writings; correspondence; printed material; and photographs.  Included are introspective diaries kept during her teens and twenties; professional writings.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6421.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6421.jpg" linktype="simple" show="embed">
 <daodesc><p>Martha Lavell while at Mills College, 1926</p></daodesc></dao>
        <p>Martha Lavell was born in St. Paul, Minnesota in 1909.  She received her B.A. in psychology from the University of Minnesota in 1930, and her M.S.W. from Smith College School for Social Work in 1931.  She went on to earn an additional graduate degree in psychology from the  University of Minnesota in 1943, and studied research methods at the University of
 Pennsylvania from 1956 to 1957. Lavell held an administrative position at the American Psychiatric Association from 1947 to 53 and while there was Editorial Assistant of <title render="italic">American Journal of Psychiatry</title>.  She was the Chief Project Planner for the Philadelphia Antipoverty Action Committee in 1965, and served as Assistant Director of the Philadelphia Schools Study, under contract with the U.S. Civil Rights Commission in 1966.  Martha Lavell died on January 3rd, 2008.</p>
@@ -86,7 +84,7 @@ photographs.  Included are several volumes of highly introspective diaries kept 
 
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -125,5 +123,4 @@ record.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

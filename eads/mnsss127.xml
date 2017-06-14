@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss127.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss127</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss127.xml//EN">mnsss127</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ethel Eyre Valentine Dreier Papers, 1902-1957
@@ -57,18 +58,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Dreier, Ethel Eyre Valentine</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Ethel Eyre Valentine Dreier Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1902-1957</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ethel Eyre Valentine Dreier Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1902-1957</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 50</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 50</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">7 boxes		  </extent>
             <extent encodinganalog="300$a">(2.75 linear ft.)</extent>
@@ -80,8 +81,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Settlement house president; suffragist; woman's club leader; and civic leader. The bulk of professional papers relate to Dreier's suffrage work and civic activities.  Also documented is Dreier's advocacy of public housing; her work in politics; and her settlement house work. Materials include correspondence, speeches, writings, photographs, notebooks, and travel diaries. The personal correspondence consists primarily of letters to her husband. Other correspondents include Jane Addams, Carrie Chapman Catt, Eleanor Roosevelt, Theodore Roosevelt, and Alfred E. Smith.  </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Settlement house president; suffragist; woman's club leader; and civic leader. The bulk of professional papers relate to Dreier's suffrage work and civic activities.  Also documented is Dreier's advocacy of public housing; her work in politics; and her settlement house work. Materials include correspondence, speeches, writings, photographs, notebooks, and travel diaries. The personal correspondence consists primarily of letters to her husband. Other correspondents include Jane Addams, Carrie Chapman Catt, Eleanor Roosevelt, Theodore Roosevelt, and Alfred E. Smith.  </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -90,7 +91,7 @@
          <p>Ethel Eyre Valentine was born in Brooklyn, New York in 1874.  She graduated from Packer Collegiate Institute in 1895.  After graduation Ethel organized and became president of Brooklyn's first social settlement, All Sorts and Conditions of Girls.  She was also president of the United Neighborhood Guild (consisting of five settlements) and the People's Institute of Brooklyn.  She married H. Edward Dreier (brother of Mary Dreier and Margaret Dreier Robins, labor reformers; and Katherine Dreier, artist) on April 18, 1901.  The next ten years were primarily dedicated to family life.  Her daughters Antoinette Storrs and Dorothea; and sons Theodore and John were born between 1902 and 1909.
 
     </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6179.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6179.jpg" linktype="simple" show="embed">
 <daodesc><p>Ethel Eyre Valentine Dreier on her birthday, circa 1925</p></daodesc></dao> 
 
          <p>In 1912 Dreier was named chairman of the Woman Suffrage Party of Brooklyn.  Under her leadership its 23 Assembly Districts were organized.  When the women of New York state won suffrage in 1917, Brooklyn cast the largest vote for suffrage of any county in the state.  For several years after this victory, she continued in a leadership role group as chairman of the Brooklyn League of Women Voters.  From 1924 to 1930, and again from 1932 to 1936, Dreier was president of the Women's City Club of New York.  She remained honorary president until her death.
@@ -120,7 +121,7 @@
          <p>Remaining records document biographical information such as Ethel Dreier's work for her alma mater, Packer Collegiate Institute; and an 80th birthday celebration folder contains congratulatory correspondence and a biographical sketch written by her children.
     </p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -166,7 +167,7 @@
          <geogname encodinganalog="651" source="lcsh">New York (N.Y.)--Politics and government--1898-1951</geogname>
          <geogname encodinganalog="651" source="lcsh">New York (N.Y.)--Civic improvement--History--Sources</geogname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>Correspondence</unittitle>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss90.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss90</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss90.xml//EN">mnsss90</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Hale Family Papers, 1787-1988
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Hale Family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Hale Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1787-1988</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Hale Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1787-1988</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 71</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 71</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">143 boxes, 51 volumes</extent>
             <extent encodinganalog="300$a">(61 linear ft.)</extent>
@@ -73,16 +74,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Papers consist of biographical material, artwork, artifacts, correspondence, speeches, photographs, writings, and memorabilia created or kept by Hale Family members and their Everett, Beecher, Gilman, Hooker, Perkins, Stowe, and Westcott relatives.  Primarily documents the households of Nathan, Sr., and Sarah Preston (Everett) Hale; Edward Everett and Emily (Perkins) Hale; Ellen Day Hale; and Philip and Lilian (Westcott) Hale.
+         <abstract encodinganalog="520$a" label="Abstract:">Papers consist of biographical material, artwork, artifacts, correspondence, speeches, photographs, writings, and memorabilia created or kept by Hale Family members and their Everett, Beecher, Gilman, Hooker, Perkins, Stowe, and Westcott relatives.  Primarily documents the households of Nathan, Sr., and Sarah Preston (Everett) Hale; Edward Everett and Emily (Perkins) Hale; Ellen Day Hale; and Philip and Lilian (Westcott) Hale.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p> Note:  Detailed biographical sketches of many Hale family members are available in standard reference works such as the American National Biography (ANB), Dictionary of American Biography (DAB), Dictionary of Literary Biography (DLB), and Notable American Women (NAW). Please consult these sources (as referenced below) for further information.</p>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2469.jpg" altrender="center">
+	<dao actuate="onLoad" altrender="center" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2469.jpg" linktype="simple" show="embed">
 <daodesc><p>Hale Family group at Matunuck, 1890s [left to right: Emily (Perkins) Hale, Ellen Day Hale?,<lb />?, ?, Edward Everett Hale, Camilla (Conner) Hale?, Herbert Dudley Hale]</p></daodesc></dao>
          <p><title render="bold">Generation I</title>:  Enoch and Octavia (Throop) Hale</p>
          <p> The Hale family as represented in this collection begins with the Rev. Enoch Hale (1753-1837) and his wife Octavia Throop (1754-1839).  Enoch was born and raised in Coventry, Connecticut.  He earned a degree from Yale in 1773 and taught while studying to be a preacher.  He was the Congregational minister in rural Westhampton, Massachusetts, from 1778 until his death in 1837.  From 1804 to 1824, Enoch was secretary of the General Association of Congregational Churches and Ministers of Massachusetts.  He was also secretary of the Hampshire Missionary Society for a number of years.  He was the brother of Nathan Hale (1755-76) who was hanged as a spy by the British.</p>
@@ -91,7 +92,7 @@
          <p> Nathan Hale, Sr. (1784-1863, see also DAB) was raised in Westhampton, Massachusetts, earned an A.B. from Williams College in 1804, and briefly taught mathematics at Phillips Exeter Academy.  He moved to Boston, Massachusetts, in 1808 where he studied law privately and opened a law office around 1810.  His career as a journalist began when he was asked to edit the Boston Weekly Messenger.  In 1814 he purchased the Boston Daily Advertiser, the first daily newspaper in Boston.  In 1816 he married Sarah Preston Everett.  He was also a book publisher and experimental printer.  Considered somewhat of a fanatic about railroads, Nathan, Sr., worked tirelessly to help establish the Boston and Worcester Rail Road and served as its first president from 1831 to 1849.  He was also a civil engineer who served on the Boston Water Commission in the 1840s and early 1850s.</p>
          <p> The Daily, as it was known by the Hales, was truly a family business with Nathan's spouse and children all contributing to its pages.  It was Boston's first daily newspaper and one of the earliest American papers to regularly feature editorial articles. The family lived at the center of the Boston social and political scene in a series of houses near the Boston Common.  The Daily offices generally occupied the ground floor and the family lived above.  Nathan Hale retired from active control of the Daily in 1854.  In 1857, financial losses connected with Nathan's involvement with the Chesapeake and Ohio Canal Company forced a move to a smaller house in Brookline.  He died there in 1863.</p>
          <p> Sarah Preston (Everett) Hale (1796-1866) was the daughter of Oliver Everett, minister of New South Church in Boston.  After the death of her father when she was six, Sarah's brothers, editor and diplomat Alexander Hill Everett (see DAB) and clergyman and orator Edward Everett (see DAB), took charge of her education.  In his book Memories of a Hundred Years, Sarah's son Edward Everett Hale wrote, "so little had schools to do with [her] education, that I cannot...name any of her school teachers."  At age twelve, she was introduced by her brother Alexander to his friend and fellow teacher at Exeter Academy, Nathan Hale, Sr.  They married in 1816.  A regular contributor to her husband's newspaper the Boston Daily Advertiser, Sarah P.E. Hale wrote book reviews and was its French editor.  Edward Everett Hale remembered "seeing his mother rock the cradle in which reposed his sister...while [Daniel] Webster and Judge Story dictated to her speeches that were to appear in her husband's paper."  She also wrote juvenile biographies of Spanish explorers for the School Library and several other books and stories for children (Well Bred Girl, Well Bred Boy, Childs Token).</p>
-         <p> She and Nathan, Sr. had eleven children of whom four died in childhood, and two, Sarah and Alexander, died as young adults.  According to their son Edward Everett Hale, Nathan, Sr., and Sarah "had decided and advanced views on education."  In his memoir A New England Boyhood, Edward Everett Hale describes his father, Nathan, Sr., as "one of the best teachers I ever knew" and says his mother, Sarah Preston (Everett) Hale, "had a genius for education."  "Their genius made home the happiest place of all with an infinite variety of amusements...almost everything wanted for purposes of manufacture or invention."  Because of their father's position as editor of the Daily, the family received copies of most of the books published in America and tickets to most of the concerts, lectures, and events in Boston.  All of this wealth of experience was made available to the children and this highly enriched home environment produced a truly remarkable brood.  "To write a book for one of the Hales, was as natural as to breathe:&#8230;[they] were all authors by instinct," wrote Van Wyck Brooks in his The Flowering of New England, 1815-1865.</p>
+         <p> She and Nathan, Sr. had eleven children of whom four died in childhood, and two, Sarah and Alexander, died as young adults.  According to their son Edward Everett Hale, Nathan, Sr., and Sarah "had decided and advanced views on education."  In his memoir A New England Boyhood, Edward Everett Hale describes his father, Nathan, Sr., as "one of the best teachers I ever knew" and says his mother, Sarah Preston (Everett) Hale, "had a genius for education."  "Their genius made home the happiest place of all with an infinite variety of amusements...almost everything wanted for purposes of manufacture or invention."  Because of their father's position as editor of the Daily, the family received copies of most of the books published in America and tickets to most of the concerts, lectures, and events in Boston.  All of this wealth of experience was made available to the children and this highly enriched home environment produced a truly remarkable brood.  "To write a book for one of the Hales, was as natural as to breathe:…[they] were all authors by instinct," wrote Van Wyck Brooks in his The Flowering of New England, 1815-1865.</p>
          <p> <title render="bold">Generation III</title>:  Children of Nathan, Sr., and Sarah Preston (Everett) Hale</p>
          <p> Nathan Sr., and Sarah Hale's children naturally divided into two groups by age.  The older four, Sarah, Nathan, Jr., Lucretia, and Edward, known as "We Four," attended school together until the boys were old enough to go to Boston Latin School, and did many things as a unit.</p>
          <p> Sarah Everett Hale (1817-51) was educated at Miss Susan Whitney's School and most probably joined her sister Lucretia at the schools of Elizabeth Peabody and George B. Emerson.  She died in 1851 at age 34 after a long illness.</p>
@@ -104,7 +105,7 @@
          <p> Alexander Hale (1829-50), known as "Elly," graduated from Harvard in 1848, then went to work as a civil engineer at the navy yard in Pensacola, Florida.  He drowned there while attempting to rescue the crew of a ship in a storm on September 23, 1850.</p>
          <p> Charles Hale (1831-82, see DAB) attended Boston Latin School and Harvard, graduating in 1850.  He worked on-and-off at the Daily Advertiser between 1850 and 1865.  In 1852 he founded Today:  A Boston Literary Journal which failed after one year.  In 1855 he was elected to the Massachusetts House of Representatives and was chosen speaker in 1859.  Ill health forced his resignation in 1861 and he spent much of the next few years traveling.  Following the death of his friend William S. Thayer in 1864, Charles was offered Thayer's post, consul-general in Cairo, Egypt.  During his years as consul-general, Charles maintained close ties with the Egyptian government and played an active role in the replacement of consular courts with the more professional and impartial mixed courts.  From the time of his appointment, Charles was the subject of charges and suits brought by Francis Dainese, the man who had held the position of consul-general on a temporary basis before Charles.  Though no allegations against him were proved, Dainese created enough controversy over the years that Charles was asked to resign in 1870.</p>
          <p> After returning to the U.S. in 1871,  Charles was elected to the Massachusetts Senate and in 1872 he became Assistant Secretary of State.  Charles returned to Boston after two years and was again elected to the state House of Representatives in 1876 and 1877.  Declining mental and physical health, probably the result of syphilis, led to his eventual institutionalization.  He died in 1882.</p>
-         <p> Susan Hale (1833-1910, see ANB, DLB, NAW) was primarily educated at home by her mother and siblings.  Susan lived at home until her parents' deaths in the 1860s.  Like her sister Lucretia, Susan contributed to the family's resources beginning in the 1850s.  She gave classes for children in the family's home and reviewed books for the Daily.  After the death of their mother, she and Lucretia traveled abroad.  In 1872, she studied painting in Paris and Weimar, Germany.  Upon returning to Boston, she took rooms and gave classes in watercolor painting at the Boston Art Club.  In addition to teaching, Susan wrote articles for Boston newspapers, including regular columns about art, artists, theater, her travels, and a sort of weekly report called "Susan Hale's Chit-Chat" for the <title render="italic" encodinganalog="630" source="lcsh">Boston Globe</title> in the 1880s.  She also "developed a specialty" of editing literary collections published as fundraisers for a variety of causes.</p>
+         <p> Susan Hale (1833-1910, see ANB, DLB, NAW) was primarily educated at home by her mother and siblings.  Susan lived at home until her parents' deaths in the 1860s.  Like her sister Lucretia, Susan contributed to the family's resources beginning in the 1850s.  She gave classes for children in the family's home and reviewed books for the Daily.  After the death of their mother, she and Lucretia traveled abroad.  In 1872, she studied painting in Paris and Weimar, Germany.  Upon returning to Boston, she took rooms and gave classes in watercolor painting at the Boston Art Club.  In addition to teaching, Susan wrote articles for Boston newspapers, including regular columns about art, artists, theater, her travels, and a sort of weekly report called "Susan Hale's Chit-Chat" for the <title encodinganalog="630" render="italic" source="lcsh">Boston Globe</title> in the 1880s.  She also "developed a specialty" of editing literary collections published as fundraisers for a variety of causes.</p>
          <p> A brilliant and delightful personality, Susan developed a very popular series of two-week courses on fiction in which she lectured about, and read from, a variety of eighteenth-century English novelists (many of them women).  In the 1880s and 90s, she became a literary celebrity, traveling the country giving her courses for charity.  In the 1880s, she collaborated with Edward Everett Hale on the Family Flight series of travel books for young readers.  She also published Self-Instructive Lessons in Painting with Oil and Water-Colors (1885) and several other books.  While winters were spent traveling, Susan settled into Edward's summer house in Matunuck, Rhode Island, as a permanent summer home beginning in 1885.  Here she hosted a wide variety of guests making "a delightful mecca for her young friends."  She died at Matunuck in 1910. A volume of her collected letters was published posthumously.</p>
          <p> <title render="bold">Generation IV</title>:  Children of Edward Everett and Emily (Perkins) Hale </p>
          <p> Edward and Emily had one daughter and eight sons of whom three (Alexander, Charles Alexander, and Henry Kidder) died in childhood.  A fourth, Robert Beverly Hale, died as a young adult.</p>
@@ -160,7 +161,7 @@
       Photographs and visual images </p>
          <p> Artifacts are filed at the end.</p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -246,7 +247,7 @@
          <persname encodinganalog="600" source="lcnaf">Hale, Susan, 1833-1910</persname>
          <persname encodinganalog="600" source="lcnaf">Westcott, Edward Gardner</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -255,15 +256,15 @@
         </p>
          </relatedmaterial>
       </descgrp>
- <odd id="odd1" altrender="endoffile">
+ <odd altrender="endoffile" id="odd1">
 <head>Appendices</head>
 	<p>APPENDIX I:  Franklin Circulating Library</p>
 	<p>[see also <ref target="odd2">APPENDIX II</ref>: Charlieshope Library]</p>
 	<p><lb />Proprietors:  Alexander Hale, Charles Hale, T.K. Lothrop, Robert Durivage, Edward B. Everett, W. L. Pynchon, H. P. Curtis, S.  Willard, E. Everett, Jr., L. Everett [see Volume 187 "History of the Franklin Circulating Library" for information]</p>
 <table>
   <tgroup cols="2">  
-     <colspec colnum="1" colname="1" colwidth="60"/> 
-     <colspec colnum="2" colname="2" colwidth="200"/> 
+     <colspec colname="1" colnum="1" colwidth="60"/> 
+     <colspec colname="2" colnum="2" colwidth="200"/> 
   <thead>
     <row>
       <entry colname="1">Volume</entry> 
@@ -273,7 +274,7 @@
      
  <tbody>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2"><title render="bold">1839-40</title></entry>
   </row>
   <row>
@@ -333,7 +334,7 @@
     <entry colname="2">The Celestial Sisters, a Shawnee Tale by ? R. Schoolcraft, transcribed by Edward B. Everett, 1839</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2"><lb /><title render="bold">1841</title></entry>
   </row>
   <row>
@@ -445,7 +446,7 @@
     <entry colname="2">Various Stories, Vol. 2, by Charles and Alexander Hale, for the year 1840 or 1</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2"><lb /><title render="bold">1842</title></entry>
   </row>
   <row>
@@ -573,7 +574,7 @@
     <entry colname="2">A Fight by Charles Hale, 1842</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2"><lb /><title render="bold">1843</title></entry>
   </row>
   <row>
@@ -677,7 +678,7 @@
     <entry colname="2">The Star by Robert Durivage, 1843</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2"><lb /><title render="bold">1844</title></entry>
   </row>
   <row>
@@ -765,7 +766,7 @@
     <entry colname="2">The Adventures of a Rod, 1844</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2"><lb /><title render="bold">1845</title></entry>
   </row>
   <row>
@@ -857,7 +858,7 @@
     <entry colname="2">Life of Wm. B. Jenkins by T. K. Lothrop, 1845</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2"><lb /><title render="bold">1846</title></entry>
   </row>
   <row>
@@ -966,249 +967,249 @@
 </odd>
       
 
- <odd id="odd2" altrender="endoffile">
+ <odd altrender="endoffile" id="odd2">
  <head>APPENDIX II: Charlieshope Library</head>
 	<p> Members:  Olivia B. Lowell, Fanny R. Banks, Lucy Parsons, Mabel H. Chapin, Lily White, Mary L. Morse, Nelly Hale, Alice Lee.</p>
    <table> 
     <tgroup cols="2">  
-       <colspec colnum="1" colname="1" colwidth="10"/>
-     <colspec colnum="2" colname="2" colwidth="200"/> 
+       <colspec colname="1" colnum="1" colwidth="10"/>
+     <colspec colname="2" colnum="2" colwidth="200"/> 
   <tbody>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Accident [lost]</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Allie and Charley by E. C. Papendick</entry>
   </row>
 
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Araminta by Mrs. Windermere</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">At Washington, A True Story/The Twins</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Book of Fortune by Arthur Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Boy Who Confessed to His Father About the Cat, 1868</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Boy Who Eats Potato and Meat [lost]</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Burnt House by Herman Chapin, 1866</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Charley Stanwood/Willie Hyde, 1866</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Crew of the Albatross, Vol. 1, by Mary L. Morse and Ellen Day Hale, 1867</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Day of a Doll [lost]</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Desk Stories, Vol. 1, by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Desk Stories, Vol. 2, by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Desk Stories, Vol. 3, by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Ellen Stockbridge/Clara Andrews and Her Friend Who Lived in a Tree by CHL Members</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Faithless Servant and Other Stories by Olivia Lowell</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Fairy Book by Mabel H. Chapin</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Fairy Festival</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Fairy Stories, Vol. 1, by Lily Finis Terre</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Fairy Stories, Vol. 2, by Lily Finis Terre</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Fairy That Lived in a Tree by L.P.</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Fanny Benson by Cynthia Mack, 1866</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Flora Hamilton, or the Blackberry Party by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Flossie and Dick, or a Visit to Auntie's, Vol. 1, by Zelle Costello</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Flossie and Dick, or a Visit to Auntie's, Vol. 1, by Zelle Costello</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Gold Bracelet by E. W[indemere?]</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
-    <entry colname="2">Harry and Anny &#226;&#339;Harry and Anny&#226; is an unfinished work from the celebrated pen(cil) of Miss Mary Lesley</entry>
+    <entry colname="1"/>
+    <entry colname="2">Harry and Anny âœHarry and Annyâ is an unfinished work from the celebrated pen(cil) of Miss Mary Lesley</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Haunted House by Olivia B. Lowell</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Helen's Christmas in Paris/Violet Mason</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">History of a Button by MLM, 1866</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">How I Silenced a Dog</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Johnny Randolph/Katy Jackson by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Julia Howe</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Lady in Brown, a Fairy Story for Little Children, Vol. 1, by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Lady in Brown, a Fairy Story for Little Children, Vol. 2, by Ellen Day Hale [only the cover survives]</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Lame Boy</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Lame Boy Recovered</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Mary Lee's Visit in the Country</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Mary Lowell, or the Desert Island, by Nelly Hale, 1865</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
-    <entry colname="2">Mary Snow and Eleanor Williams &#226;&#339;Mary Snow and Eleanor Williams&#226;  was written seven or eight years ago by a child of six or seven.  This must excuse various little inaccuracies of style.  [The volume that continues the story is unfortunately lost.]</entry>
+    <entry colname="1"/>
+    <entry colname="2">Mary Snow and Eleanor Williams âœMary Snow and Eleanor Williamsâ  was written seven or eight years ago by a child of six or seven.  This must excuse various little inaccuracies of style.  [The volume that continues the story is unfortunately lost.]</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Novel Without a Name by Arthur Hale and Ellen Day Hale, MDCCCLXVIII	</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Peggy's Stories, Parts 1, 2, by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Peggy's Stories, Part 4, by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">A Poem</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Robe of Lightning, or the Adventures of the Fairy Anza by MLM and Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Six Labourers</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Solitary House in Silo by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Under the Sea</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">What the Playthings Said to Each Other on Midsummer Night by A Robin.  Illustrated by Miss Robina Bright-Eyes</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Young Sportsmen of Vermont by F. E. Peabody</entry>
   </row> 
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2"><lb /><title render="bold">Other volumes not on Charlieshope Library list (published by Morse, Hale &amp; Co.)</title></entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Enchanted House by A. Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Fairy Journey</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The History of a Tin Soldier by A. Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Histrey of a Tin Soldier, Vol 2, by A. Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Old Woman Who Lived in the Little White House in the Wood by Ellen Day Hale</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Summer at the Seaside by E.O. [Lily] White</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">The Visit by E. C. Papendick</entry>
   </row>
   <row>
-    <entry colname="1"></entry>
+    <entry colname="1"/>
     <entry colname="2">Chronicles of Waterford II.  Polly's Testimonial by Keren Happuch, 1869</entry>
   </row>
    </tbody>
@@ -1219,7 +1220,7 @@
      
 
   
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>HALE FAMILY</unittitle>

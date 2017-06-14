@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss252.html">mnsss252</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss252.html">mnsss252</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Julia Collier Harris Papers, 1921-1955</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss252.html">mnsss25
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2006</date>
+         <date calendar="gregorian" era="ce">© 2006</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -44,7 +43,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss252.html">mnsss25
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -53,14 +52,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss252.html">mnsss25
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Harris, Julia Collier, b. 1875</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Julia Collier Harris Papers</unittitle><unitdate label="Dates:">1921-1955</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 74</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Julia Collier Harris Papers</unittitle><unitdate label="Dates:">1921-1955</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 74</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">2 boxes</extent>
           <extent encodinganalog="300$a">(.5 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -72,13 +70,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss252.html">mnsss25
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Journalist; Civic leader; Editor. Papers consist primarily of correspondence from well known people, including Sherwood Anderson, Louis Bromfield, George Washington Carver, Geraldine
+      <abstract encodinganalog="520$a" label="Abstract:">Journalist; Civic leader; Editor. Papers consist primarily of correspondence from well known people, including Sherwood Anderson, Louis Bromfield, George Washington Carver, Geraldine
 Farrar, Dorothy Canfield Fisher, and H. L. Mencken.  Also manuscripts, memorabilia, photographs, and newspaper clippings.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6417.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6417.jpg" linktype="simple" show="embed">
 <daodesc><p>Sherwood Anderson, Julia Collier Harris, and <lb />J. LaRose Harris in Columbus, Ga., February 1929</p></daodesc></dao> 
 	<p>Julia Florida Collier was born to Charles Augustus and Susie Rawson Collier in Atlanta, Georgia in 1875.   After finishing Miss Chamberlayne's School in Boston, Harris graduated from Washington Seminary in Atlanta, Georgia where she studied illustration with Henry Sandham. She went on to attend Cowles Art School and the University of Chicago.  In 1897 she married Julian LaRose Harris, managing editor of the <title render="italic">Atlanta Constitution</title>, and business manager of <title render="italic">Uncle Remus's Magazine</title>.  In 1913, the Harrises moved to New York, where Julian began work as the Sunday editor of the <title render="italic">New York Herald</title>, then as editor and general manager of the <title render="italic">Paris Herald</title>.  Julia contributed articles and columns to both of these papers.  Following Julian's service in World War I, the Harrises became owners of the <title render="italic">Columbus Enquirer-Sun</title> in Georgia (1922-29).  Julia was associate editor and vice president; wrote articles, editorials and reviewed books; and was a music critic.  She also wrote a number of travel and art essays for leading periodicals.  Additionally, she was a strong voice in local and national social and civic issues.  In 1926, Julia and Julian Harris received the Pulitzer Prize.  She also published two biographies of her father-in-law: <title render="italic">Life and Letters of Joel Chandler Harris</title> (1918) and <title render="italic">Joel Chandler Harris: Editor and Essayist</title> (1931).  Julia Collier Harris died in 1967.</p>
 
@@ -92,7 +90,7 @@ Farrar, Dorothy Canfield Fisher, and H. L. Mencken.  Also manuscripts, memorabil
 	<p>This collection also includes typescripts of unpublished papers by Julia Harris for the Atlanta "History Club," Harris' published articles for the <title render="italic">Columbus Enquirer-Sun</title> and the <title render="italic">Chattanooga Sunday Times</title>, manuscripts of her review of the George Washington Carver biography and impressions of Europe written for the <title render="italic">New York Herald Magazine Supplement</title> as well as a memorabilia and a photograph of the Harrises with Sherwood Anderson (1929).</p>
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
          <accessrestrict encodinganalog="506" id="admin-access">
           <p>The papers are open to research according to the regulations of the Sophia
 Smith Collection.</p>
@@ -132,7 +130,7 @@ Northampton, Mass.</p>
 
  </controlaccess>
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -140,7 +138,7 @@ Northampton, Mass.</p>
  <unittitle>Contents</unittitle>
  </did>
  </c01>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. CORRESPONDENCE</unittitle>
  </did>
@@ -455,7 +453,7 @@ Northampton, Mass.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II: WRITINGS AND MISCELLANEOUS</unittitle>
  </did>
@@ -484,5 +482,4 @@ Northampton, Mass.</p>
 </dsc>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

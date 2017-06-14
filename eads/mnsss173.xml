@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss173.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss173</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss173.xml//EN">mnsss173</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Margaret Breed Marsh Papers , 1942-1946
@@ -46,18 +47,18 @@
          <date>2002, Revised 2006</date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Marsh, Margaret Breed, 1919-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Margaret Breed Marsh Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1942-1946</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Margaret Breed Marsh Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1942-1946</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 467</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 467</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -69,14 +70,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Women's Army Corps, World War II. The Papers consist primarily of correspondence between Margaret Breed Marsh and her family, especially her parents, during her tour of duty as a WAC. She wrote almost daily letters home from posts in California, Georgia, Kentucky, Pennsylvania, and Louisiana, and they provide a vivid description of the professional duties and personal activities associated with wartime army life.  Also included are photographs of army life, as well as miscellaneous pamphlets, brochures, and clippings pertaining to subjects of interest to Marsh.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Women's Army Corps, World War II. The Papers consist primarily of correspondence between Margaret Breed Marsh and her family, especially her parents, during her tour of duty as a WAC. She wrote almost daily letters home from posts in California, Georgia, Kentucky, Pennsylvania, and Louisiana, and they provide a vivid description of the professional duties and personal activities associated with wartime army life.  Also included are photographs of army life, as well as miscellaneous pamphlets, brochures, and clippings pertaining to subjects of interest to Marsh.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6311.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6311.jpg" linktype="simple" show="embed">
 <daodesc><p>2nd Lt. Margaret P. Breed (Marsh) <lb />at the Plattsburgh Barracks, 1945</p></daodesc></dao>
          <p> Margaret Post Breed was born in Boston, Massachusetts on June 21, 1920 to Laura Post and Stephen Alec Breed.  She attended the May School in Boston, Class of1937, and graduated with honors from Smith College in 1941.  She joined the Women's Army Corps (WAC) in 1943 and remained on active duty until 1946.  Her responsibilities included conducting interviews and foreign language tests, and she also took army administrative classes. She traveled a great deal to various army bases in the United States.</p>
          <p> After the war, Margaret Breed married Paul Marsh and they had two sons, Alec and Alan.  She held a variety of jobs, including teaching and serving as an admissions officer at Radcliffe and Wellesley Colleges; working at Polaroid Corporation as a security supervisor and as a buyer of raw material for battery manufacture; and acting as president of a small family company, North Atlantic Dragline and Shovel Service.  She also served on the staff of the Lighthouse Preservation Society, and as Deputy Assistant Tax Collector in Lincoln, Massachusetts.</p>
@@ -100,7 +101,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -138,8 +139,8 @@
       </controlaccess>
 
 <!-- Insert container list here:-->
-	<dsc type="in-depth" id="list-contlist">
- 	  <c01 level="series" id="list-ser1">
+	<dsc id="list-contlist" type="in-depth">
+ 	  <c01 id="list-ser1" level="series">
  	    <did>
    		<unittitle>SERIES I. CORRESPONDENCE</unittitle>
  	    </did>
@@ -170,7 +171,7 @@
                </did>
             </c02>
          </c01>
-          <c01 level="series" id="list-ser2">
+          <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PHOTOGRAPHS AND MEMORABILIA</unittitle>
             </did>

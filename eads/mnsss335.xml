@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss335.html">mnsss335</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss335.html">mnsss335</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">ProChoice Resource Center Records, 1991-2002</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss335.html">mnsss33
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -39,7 +38,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss335.html">mnsss33
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -48,14 +47,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss335.html">mnsss33
  <origination label="Creator:">
      <corpname  encodinganalog="110" source="lcnaf">ProChoice Resource Center  (Port Chester, NY)</corpname >
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">ProChoice Resource Center Records</unittitle><unitdate label="Dates:">1991-2002</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 470</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">ProChoice Resource Center Records</unittitle><unitdate label="Dates:">1991-2002</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 470</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">1 box</extent>
           <extent encodinganalog="300$a">(.5 linear ft.) </extent>
   </physdesc>
-  <langmaterial label="Language of Material:" encodinganalog="546">
+  <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
     </langmaterial>
          <repository label="Location:">
@@ -66,7 +64,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss335.html">mnsss33
             </address>
          </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Abortion rights advocacy group. Collection consists primarily of  newsletters, pamphlets, brochures and other publications by the ProChoice Resource Center, and annual reports.
+      <abstract encodinganalog="520$a" label="Abstract:">Abortion rights advocacy group. Collection consists primarily of  newsletters, pamphlets, brochures and other publications by the ProChoice Resource Center, and annual reports.
     </abstract>
 </did>
 <bioghist id="bioghist">
@@ -80,7 +78,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss335.html">mnsss33
 
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -117,5 +115,4 @@ record.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

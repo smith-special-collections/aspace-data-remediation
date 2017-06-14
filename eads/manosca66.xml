@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca66.html">manosca66</eadid>
 
 	<filedesc>
@@ -13,7 +14,7 @@
 			<address>
 				<addressline>Northampton, MA</addressline>
 			</address>
-			<date>&#195;&#8218;&#194;&#169; 2006</date>
+			<date>Ã‚Â© 2006</date>
 			<p>Smith College. All rights reserved.</p>
 		</publicationstmt>
 </filedesc>
@@ -38,7 +39,7 @@
 		<date>February 1986</date>
 
 
-		<p>&#195;&#8218;&#194;&#169; 2006 Smith College. All rights reserved.</p>
+		<p>Ã‚Â© 2006 Smith College. All rights reserved.</p>
 	 </titlepage>
   </frontmatter>
 
@@ -46,19 +47,19 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Duke, John, 1899-1984</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Duke, John, 1899-1984</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">John Duke Papers
+		<unittitle encodinganalog="245$a" label="Title:">John Duke Papers
 			<unitdate label="Dates:">1916-1984</unitdate>
 
 		</unittitle>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:bea562f0-801d-43d1-ab8b-0df24a81578e</unitid>
 
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">45 boxes</extent>
 			<extent encodinganalog="300$a">(18 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">english</language>
+		<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">english</language>
 </langmaterial>
 
 		<repository label="Location:">
@@ -162,13 +163,13 @@ Appendix I: Catalogue of songs by John Duke - by song number
 
 <table>
 
-<tgroup cols="6" align="left">
-<colspec colnum="1" colname="1" align="left" colwidth="50"/>
-<colspec colnum="2" colname="2" align="left" colwidth="175"/>
-<colspec colnum="3" colname="3" align="left" colwidth="100"/>
-<colspec colnum="4" colname="4" align="left" colwidth="50"/>
-<colspec colnum="5" colname="5" align="left" colwidth="75"/>
-<colspec colnum="6" colname="6" align="left" colwidth="100"/>
+<tgroup align="left" cols="6">
+<colspec align="left" colname="1" colnum="1" colwidth="50"/>
+<colspec align="left" colname="2" colnum="2" colwidth="175"/>
+<colspec align="left" colname="3" colnum="3" colwidth="100"/>
+<colspec align="left" colname="4" colnum="4" colwidth="50"/>
+<colspec align="left" colname="5" colnum="5" colwidth="75"/>
+<colspec align="left" colname="6" colnum="6" colwidth="100"/>
 
 <thead valign="bottom">
 <row>
@@ -703,14 +704,14 @@ Appendix I: Catalogue of songs by John Duke - by song number
 Appendix II: Catalogue of songs by John Duke - alphabetical by title
 </head>
 <table>
-<tgroup cols="6" align="left">
+<tgroup align="left" cols="6">
 
-<colspec colnum="1" colname="1" align="left" colwidth="50"/>
-<colspec colnum="2" colname="2" align="left" colwidth="175"/>
-<colspec colnum="3" colname="3" align="left" colwidth="100"/>
-<colspec colnum="4" colname="4" align="left" colwidth="50"/>
-<colspec colnum="5" colname="5" align="left" colwidth="75"/>
-<colspec colnum="6" colname="6" align="left" colwidth="100"/>
+<colspec align="left" colname="1" colnum="1" colwidth="50"/>
+<colspec align="left" colname="2" colnum="2" colwidth="175"/>
+<colspec align="left" colname="3" colnum="3" colwidth="100"/>
+<colspec align="left" colname="4" colnum="4" colwidth="50"/>
+<colspec align="left" colname="5" colnum="5" colwidth="75"/>
+<colspec align="left" colname="6" colnum="6" colwidth="100"/>
 
 <thead valign="bottom">
 <row>
@@ -1304,13 +1305,13 @@ Appendix III: Catalogue of songs by John Duke - alphabetical by poet
 
 <table>
 
-<tgroup cols="6" align="left">
-<colspec colnum="1" colname="1" align="left" colwidth="50"/>
-<colspec colnum="2" colname="2" align="left" colwidth="175"/>
-<colspec colnum="3" colname="3" align="left" colwidth="100"/>
-<colspec colnum="4" colname="4" align="left" colwidth="50"/>
-<colspec colnum="5" colname="5" align="left" colwidth="75"/>
-<colspec colnum="6" colname="6" align="left" colwidth="100"/>
+<tgroup align="left" cols="6">
+<colspec align="left" colname="1" colnum="1" colwidth="50"/>
+<colspec align="left" colname="2" colnum="2" colwidth="175"/>
+<colspec align="left" colname="3" colnum="3" colwidth="100"/>
+<colspec align="left" colname="4" colnum="4" colwidth="50"/>
+<colspec align="left" colname="5" colnum="5" colwidth="75"/>
+<colspec align="left" colname="6" colnum="6" colwidth="100"/>
 
 <thead valign="bottom">
 <row>
@@ -1719,7 +1720,7 @@ Appendix IV: Bibliography of compositions by John Duke</head>
 </odd>
 
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into six series:</p>
 	<list>
@@ -1785,7 +1786,7 @@ Appendix IV: Bibliography of compositions by John Duke</head>
 
 <!-- Enter additional information -->
 
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -1808,8 +1809,8 @@ Appendix IV: Bibliography of compositions by John Duke</head>
 
 <!-- Insert container list here:-->
 
-<dsc type="combined" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="combined">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>Series I. SCORES</unittitle><unitdate>1921-1984, n.d.</unitdate>
       </did><scopecontent>
@@ -3728,7 +3729,7 @@ Scripts and Texts consists of typescript, mimeograph, or photocopy versions of t
          </c03>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>Series II. BIOGRAPHICAL AND PERSONAL MATERIAL</unittitle><unitdate>1922-1984, n.d.</unitdate>
       </did><scopecontent>
@@ -3908,7 +3909,7 @@ Scripts and Texts consists of typescript, mimeograph, or photocopy versions of t
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>Series III. CORRESPONDENCE</unittitle><unitdate>1913-1984</unitdate>
       </did><scopecontent>
@@ -5714,7 +5715,7 @@ Correspondence about Publication consists mainly of letters from music publishin
          </c03>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser4">
+   <c01 id="list-ser4" level="series">
       <did>
          <unittitle>Series IV. PROFESSIONAL ACTIVITIES</unittitle><unitdate>1916-1984</unitdate>
       </did><scopecontent>
@@ -5943,7 +5944,7 @@ Correspondence about Publication consists mainly of letters from music publishin
          </c03>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser5">
+   <c01 id="list-ser5" level="series">
       <did>
          <unittitle>Series V. SPEAKING AND WRITING</unittitle><unitdate>1920-1984</unitdate>
       </did><scopecontent>
@@ -6361,7 +6362,7 @@ Correspondence about Publication consists mainly of letters from music publishin
          </c03>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser6">
+   <c01 id="list-ser6" level="series">
       <did>
          <unittitle>Series VI.  RECORDINGS</unittitle><unitdate>1939-1984</unitdate>
       </did><scopecontent>

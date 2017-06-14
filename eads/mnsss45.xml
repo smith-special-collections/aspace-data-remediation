@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss45.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss45</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss45.xml//EN">mnsss45</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ruth Mellor Papers, 1921-1970
@@ -51,19 +52,19 @@
          
          <sponsor>Processing of the Ruth Mellor Papers was made possible by the generous support of the Carel Bailey Germain Fund.</sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Mellor, Ruth</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Ruth Mellor Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1921-1970</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ruth Mellor Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1921-1970</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1928-1930</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 253</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 253</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -75,15 +76,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Social Worker.  Papers consist primarily of material related to a survey conducted by Ruth Mellor in 1929 for the Connecticut Society for Mental Hygiene to assess social welfare services in the state of Connecticut.  Also included is personal correspondence with close friend and Smith College classmate, Mildred Scott Olmsted and numerous love letters to Mellor from both a woman and man.
+         <abstract encodinganalog="520$a" label="Abstract:">Social Worker.  Papers consist primarily of material related to a survey conducted by Ruth Mellor in 1929 for the Connecticut Society for Mental Hygiene to assess social welfare services in the state of Connecticut.  Also included is personal correspondence with close friend and Smith College classmate, Mildred Scott Olmsted and numerous love letters to Mellor from both a woman and man.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6213.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6213.jpg" linktype="simple" show="embed">
 <daodesc><p>Ruth Mellor, 1955</p></daodesc></dao> 
          <p>Ruth Mellor was born in Rockville, Connecticut on January 15, 1889 and graduated from Smith College in 1912.  In 1916-17, she attended the Bryant and Stratton Business School in Boston,  and from 1918 to 1922 was executive secretary of American Red Cross, Plymouth, Massachusetts.  In 1923 she earned her master's degree in psychiatric social work at the School of Social Work in New York City, afterwards working as Chief of Social Service at the Child Guidance Demonstration Clinic in Cleveland, Ohio, from 1924 to 1926.  From 1926 to 1929 she worked at the Children's Aid Society in Philadelphia, taking time in 1929 to act as field psychiatric worker in a survey conducted by the Connecticut Society for Mental Hygiene.  While living in the Philadelphia area, she continued her friendship with Mildred Scott Olmsted, who also graduated from Smith College in 1912.  Mellor worked as a social worker for the Massachusetts Society for Mental Hygiene from 1929 to 1931, and from 1931 to 1933 was executive secretary of the Connecticut Society for Mental Hygiene.  She took a position as executive director of the Mental Hygiene Clinic in Louisville, Kentucky, where she remained at least until 1949.  (This clinic was renamed the Bingham Child Guidance Clinic, which was heir to Ruth Mellor's estate.)  She was also a lecturer in the Social Sciences division of the Department of Psychiatry at the University of Louisville until her retirement in 1961.  She died in Louisville on November 9, 1989.</p>
       </bioghist>
@@ -111,7 +112,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -150,15 +151,15 @@
          <subject encodinganalog="650" source="lcsh">Female friendship--United States--History--20th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Bisexuality--United States--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
             <p>The Ruth Mellor Papers were originally part of the Mildred Scott Olmsted Papers at the Swarthmore Peace Collection, and additional correspondence is located there.</p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL</unittitle>
             </did>
@@ -203,7 +204,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -236,7 +237,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. PROFESSIONAL ACTIVITIES</unittitle>
             </did>
@@ -577,7 +578,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. SUBJECTS</unittitle>
             </did>
@@ -606,7 +607,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

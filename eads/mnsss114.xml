@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss114.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss114</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss114.xml//EN">mnsss114</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ida Tarbell Papers, 1896-1943
@@ -54,18 +55,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Tarbell, Ida M. (Ida Minerva), 1857-1944</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Ida Tarbell Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1896-1943</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ida Tarbell Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1896-1943</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 159</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 159</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -77,16 +78,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Journalist; Historian; Biographer; and Anti-suffragist.  Papers are primarily related to her professional life, focusing on her time as assistant editor at <title render="italic">McClure's</title> and on her writings about Abraham Lincoln.  There is also a small amount of material regarding her anti-suffrage views.  Types of material include correspondence, memorabilia, journal and newspaper articles, published and unpublished writings, and a photograph.
+         <abstract encodinganalog="520$a" label="Abstract:">Journalist; Historian; Biographer; and Anti-suffragist.  Papers are primarily related to her professional life, focusing on her time as assistant editor at <title render="italic">McClure's</title> and on her writings about Abraham Lincoln.  There is also a small amount of material regarding her anti-suffrage views.  Types of material include correspondence, memorabilia, journal and newspaper articles, published and unpublished writings, and a photograph.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p>Ida Minerva Tarbell was born in Erie County, Pennsylvania on 5 November 1857, the daughter of Esther Ann McCullough and Franklin Sumner Tarbell. She attended local public schools and graduated from Allegheny College in 1880, the sole woman of her class.  </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6350.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6350.jpg" linktype="simple" show="embed">
 <daodesc><p>Ida M. Tarbell, undated</p></daodesc></dao>
          <p>She taught for a few years at Poland Union Seminary, in Poland, Ohio, and worked for <title render="italic">The Chatauquan</title>, a home-study teaching guide based in Meadville, Pennsylvania from 1883 to 1891.  She left her job, traveling to Paris to study the role of women in the French Revolution. While there, she supported herself by writing occasional articles for <title render="italic">Scribner's</title> magazine and by 1892, <title render="italic">McClure's</title>, including a series of articles on Napoleon Bonaparte that was published in book form in 1895. She also wrote biographies of Madame Roland (1896) and Abraham Lincoln (1900), but remains best known for her scathing expose, <title render="italic">The History of Standard Oil</title> (1904). She was an assistant editor of <title render="italic">McClure's</title> from 1894 to 1906.  She was one of a group of investigative journalists (dubbed "muckrakers" by Theodore Roosevelt) who owned and edited the <title render="italic">American Magazine</title> from 1906 to 1915.  She then lectured on the Chautauqua circuit until 1932, speaking on a variety of topics and occasionally writing articles for magazines.  </p>
          <p>Though a supporter of women's rights early in her career, she did not support women's suffrage, a position that caused friction between her and those she worked with on a variety of causes.  She suffered from Parkinson's disease in her later years and died in Bridgeport, Connecticut on 6 January 1944.
@@ -111,7 +112,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -186,13 +187,13 @@
 	</physdesc>
 	</did>
 	<scopecontent>
-		<p>This series comprises the bulk of the collection and includes correspondence of a mostly professional nature.  Most of the material focuses on Tarbell's work at <title render="italic">McClure's</title> and her research for her Lincoln biography. Carbon copies of Tarbell's responses to correspondents can be found within much of the <title render="bold">general </title>correspondence.  Notable correspondents include Albert Augustus Boyden, John McCann Davis, Nancy Hanks Hitchcock, and John S. Phillips, as well as a variety of political figures and acquaintances of Abraham Lincoln. The correspondence is arranged chronologically except for the letters in the <title render="bold">general </title>correspondence subseries, which is first arranged alphabetically by correspondent and then chronologically within each individual's letters. The <title render="bold"></title>business letters of 1896-97 have been removed from a bound book and photocopied.  [Note:  A letter written to John S. Phillips regarding Tarbell's anti-suffrage views has been missing since 1977.]</p>
+		<p>This series comprises the bulk of the collection and includes correspondence of a mostly professional nature.  Most of the material focuses on Tarbell's work at <title render="italic">McClure's</title> and her research for her Lincoln biography. Carbon copies of Tarbell's responses to correspondents can be found within much of the <title render="bold">general </title>correspondence.  Notable correspondents include Albert Augustus Boyden, John McCann Davis, Nancy Hanks Hitchcock, and John S. Phillips, as well as a variety of political figures and acquaintances of Abraham Lincoln. The correspondence is arranged chronologically except for the letters in the <title render="bold">general </title>correspondence subseries, which is first arranged alphabetically by correspondent and then chronologically within each individual's letters. The <title render="bold"/>business letters of 1896-97 have been removed from a bound book and photocopied.  [Note:  A letter written to John S. Phillips regarding Tarbell's anti-suffrage views has been missing since 1977.]</p>
 	</scopecontent>
 </c01>
  
 <c01 level="series">
 	<did>
-		<unittitle>SERIES III> WRITINGS <unitdate>(1912-1930)</unitdate></unittitle>
+		<unittitle>SERIES III. WRITINGS <unitdate>(1912-1930)</unitdate></unittitle>
 	<physdesc>
 		<extent>.25 linear feet</extent>
 	</physdesc>
@@ -206,8 +207,8 @@
 
 
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -245,7 +246,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -256,60 +257,60 @@
  <unittitle>General, A-Z,<unitdate> 1892-1911, n.d.</unitdate></unittitle>
  </did>
  </c02>
- </c01>
- <c01>
+ <c02>
  <did>
  <unittitle>Individuals</unittitle>
  </did>
- <c02>
+ <c03>
  <did>
  <container type="box">1</container>
  <container type="folder">13</container>
  <unittitle>Boyden, Albert,<unitdate> 1905-12, n.d.</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">1</container>
  <container type="folder">14</container>
  <unittitle>Davis, J. McCan,<unitdate> 1898-1900</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">1</container>
  <container type="folder">15</container>
  <unittitle>Phillips, John S.,<unitdate> 1910-43</unitdate></unittitle>
  </did>
+ </c03>
  </c02>
- </c01>
- <c01>
+ <c02>
  <did>
  <container type="box">1</container>
  <container type="folder">16</container>
- <unittitle>Taylor Society,<unitdate> 1919-32 </unitdate>[copies from Allegheny College]</unittitle>
+ <unittitle>Taylor Society,<unitdate> 1919-32 </unitdate> [copies from Allegheny College]</unittitle>
  </did>
- </c01>
- <c01>
+ </c02>
+ <c02>
  <did>
          <unittitle>Business letters,<unitdate>1896-97 </unitdate>          </unittitle>
  </did>
- <c02>
+ <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">1</container>
  <unittitle>Index</unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">2</container>
  <container type="folder">2-19</container>
  <unittitle><unitdate>Mar-Feb 1897</unitdate></unittitle>
  </did>
+ </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
  </did>

@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca175.html">manosca175</eadid>
 
@@ -14,7 +15,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2006</date>
+<date>© 2006</date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -36,7 +37,7 @@
 <num>RG 80</num> 
 <author>Elisha Winkler</author> 
 <date>2004</date> 
-<p>&#x00A9; 2006 Smith College. All rights reserved.</p> 
+<p>© 2006 Smith College. All rights reserved.</p> 
 </titlepage> 
 </frontmatter> 
 
@@ -44,17 +45,17 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<corpname source="lcnaf" encodinganalog="110">Smith College. Class of 1883.</corpname>
+<corpname encodinganalog="110" source="lcnaf">Smith College. Class of 1883.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Class of 1883 Records</unittitle> <unitdate label="Dates:">1875-1998</unitdate>
+<unittitle encodinganalog="245$a" label="Title:">Class of 1883 Records</unittitle> <unitdate label="Dates:">1875-1998</unitdate>
 
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 80</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:9359cfb5-34e9-4e94-af62-b2287aaaf585</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">16 boxes</extent>
 <extent encodinganalog="300$a">(6.75 linear ft.)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -132,7 +133,7 @@ This collection contains black and white photographs, letters, correspondence, c
 
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">1400</container>
@@ -944,7 +945,7 @@ This collection contains black and white photographs, letters, correspondence, c
 <c01>
 <did>
 <container type="box">1408</container>
-<container type="folder"></container>
+<container type="folder"/>
 <unittitle>Class of 1883: Lawrence, Elizabeth Crocker</unittitle>
 </did>
 </c01>
@@ -970,7 +971,7 @@ This collection contains black and white photographs, letters, correspondence, c
 <did>
 <container type="box">1405</container>
 <container type="folder">5</container>
-<unittitle>Class of 1883: Machado, Salom&#233; Amelia
+<unittitle>Class of 1883: Machado, Salomé Amelia
 <unitdate>1885, 1879</unitdate>
 </unittitle>
 </did>
@@ -979,7 +980,7 @@ This collection contains black and white photographs, letters, correspondence, c
 <did>
 <container type="box">1405</container>
 <container type="folder">6</container>
-<unittitle>Class of 1883: Machado, Salom&#233; Amelia (Photographs)
+<unittitle>Class of 1883: Machado, Salomé Amelia (Photographs)
 <unitdate>1880-83, 1923, 1954</unitdate>
 </unittitle>
 </did>
@@ -1567,5 +1568,3 @@ This collection contains black and white photographs, letters, correspondence, c
 
 </archdesc>
 </ead>
-
-

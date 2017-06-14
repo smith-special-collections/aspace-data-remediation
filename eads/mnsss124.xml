@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss124.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss124</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss124.xml//EN">mnsss124</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Josephine Schain Papers, 1907-1960
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Schain, Josephine, 1886-1972</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Josephine Schain Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1907 - 1960</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Josephine Schain Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1907 - 1960</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 139</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 139</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">15 boxes		  </extent>
             <extent encodinganalog="300$a">(5.25 linear ft.)</extent>
@@ -72,14 +73,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Settlement house worker, suffragist, pacifist, and international relations specialist. Papers focus primarily on Schain's involvement in a host of women's organizations, the purpose of which was advocacy of international peace through cooperative enterprise among nations. Types of material include radio broadcasts scripts, speeches, photographs, articles, and other writings. Notable correspondents include Margaret Corbett Ashby, Mary Ritter Beard, Carrie Chapman Catt (extensive), Newton Diehl Baker, Helen Gahagan Douglas, India Edwards, Helen Hayes, Lorena Hickok, Stanley Hornbeck, Cordell Hull, Rosa Manus, Alva Reimer Myrdal, Maud Wood Park, Frances Perkins, and Virginia Rishel.  </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Settlement house worker, suffragist, pacifist, and international relations specialist. Papers focus primarily on Schain's involvement in a host of women's organizations, the purpose of which was advocacy of international peace through cooperative enterprise among nations. Types of material include radio broadcasts scripts, speeches, photographs, articles, and other writings. Notable correspondents include Margaret Corbett Ashby, Mary Ritter Beard, Carrie Chapman Catt (extensive), Newton Diehl Baker, Helen Gahagan Douglas, India Edwards, Helen Hayes, Lorena Hickok, Stanley Hornbeck, Cordell Hull, Rosa Manus, Alva Reimer Myrdal, Maud Wood Park, Frances Perkins, and Virginia Rishel.  </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1952.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1952.jpg" linktype="simple" show="embed">
 <daodesc><p>Josephine Schain, center, with a group at the Pan-Pacific <lb />Women's Association 7th International Conference, 1955</p></daodesc></dao> 
          <p>Josephine Schain was born in Browns Valley, Minnesota in 1886 to Irene Burdick Schain and Jacob Theodore Schain.  She earned her LL.B. from the University of Minnesota in 1908 and was awarded an honorary LL.D. by Smith College in 1937.  She began her career as a social worker in Minneapolis, and worked as a settlement house worker on New York's East Side from 1918 to 1924.  Schain was also active in the suffrage and peace movements, both as an organizer of conferences and similar events, and as a much sought after speaker.  She spoke during the women's suffrage campaign in New York City in 1915 and wrote Women and the Franchise in 1918. She served as director of the Department of International Relations for the National League of Women Voters from 1924 to 1928, and as the national director of the Girl Scouts of America from 1930 to 1935.  Schain chaired the National Committee on the Cause and Cure of War from 1936 to 1941, the Peace and Disarmament Committee of the Women's International Organizations from 1933 to 1938, the executive committee of the Women's Centennial Congress in 1940 and the Pan-Pacific Women's Association from 1949 to 1955.   Schain was also a member of the International Alliance of Women for Suffrage and Equal Citizenship from 1933 to 1938, the U.S. Delegation to the Conference on Food and Agriculture in 1943, and of the consultant group to the U.S. delegation to the United Nations Conference in San Francisco in 1945.  To quote words spoken at Smith College when Schain was awarded an honorary degree there in 1937, she was "a devoted laborer and a valiant and effective leader in the cause of peace, freedom and justice among the peoples of the world."  Josephine Schain died in 1972.
     </p>
@@ -112,7 +113,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -267,8 +268,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1907-60)</unitdate>
                </unittitle>
@@ -435,7 +436,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1915-54)</unitdate>
                </unittitle>
@@ -502,7 +503,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS AND SPEECHES <unitdate>(1913-48)</unitdate>
                </unittitle>
@@ -667,7 +668,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. ORGANIZATIONS <unitdate>(1927-58)</unitdate>
                </unittitle>
@@ -2181,7 +2182,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. SUBJECT FILES <unitdate>(1945-57)</unitdate>
                </unittitle>

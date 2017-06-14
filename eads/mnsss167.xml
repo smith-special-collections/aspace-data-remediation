@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss167.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss167</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss167.xml//EN">mnsss167</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ira Wile Papers, circa 1915-1943</titleproper>
@@ -47,18 +48,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Wile, Ira S. (Ira Solomon), 1877-1943</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Ira S. Wile Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">circa 1915-1943</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ira S. Wile Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">circa 1915-1943</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 173</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 173</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -70,9 +71,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Physician; public health advocate; and birth control advocate. This collection consists of photocopies from a larger collection of Wile Papers at the University of Rochester.  Included here are manuscripts, papers, and notes on birth control, and extensive correspondence with prominent individuals in the early birth control movement.  Correspondents include Louise Stevens Bryant, Robert Latou Dickinson, Lydia DeVilbiss, Stella Hanau, Katherine Houghton Hepburn, Eleanor Dwight Jones, Florence Rose, and Margaret Sanger.
+         <abstract encodinganalog="520$a" label="Abstract:">Physician; public health advocate; and birth control advocate. This collection consists of photocopies from a larger collection of Wile Papers at the University of Rochester.  Included here are manuscripts, papers, and notes on birth control, and extensive correspondence with prominent individuals in the early birth control movement.  Correspondents include Louise Stevens Bryant, Robert Latou Dickinson, Lydia DeVilbiss, Stella Hanau, Katherine Houghton Hepburn, Eleanor Dwight Jones, Florence Rose, and Margaret Sanger.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -84,7 +85,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> This collection consists of photocopies from a larger collection of Wile Papers at the University of Rochester.  Included here are manuscripts, papers, and notes on birth control, and extensive correspondence (circa 1915-1943) with prominent individuals in the early birth control movement.  Correspondents include Louise Stevens Bryant, Robert Latou Dickinson, Lydia DeVilbiss, Stella Hanau, Katherine Houghton Hepburn, Eleanor Dwight Jones, Florence Rose, and Margaret Sanger.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -124,7 +125,7 @@
          <persname encodinganalog="600" source="lcnaf">Wile, Ira S. (Ira Solomon), 1877-1943</persname>
          <subject encodinganalog="650" source="lcsh">Birth control--United States--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -132,7 +133,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

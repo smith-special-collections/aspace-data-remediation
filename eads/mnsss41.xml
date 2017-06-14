@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss41.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss41</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss41.xml//EN">mnsss41</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Elmina R. Lucke Papers, 1897-1987
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Lucke, Elmina Rose</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Elmina Rose Lucke Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1897-1987</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Elmina Rose Lucke Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1897-1987</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 192</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 192</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes</extent>
             <extent encodinganalog="300$a">(4.5 linear ft.)</extent>
@@ -73,9 +74,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Professor of social work and social studies, founder and director of the Dehli School of Social Work, consultant for social work education, and YWCA official. The Elmina Lucke papers focus on her work abroad as educator, administrator, and consultant for social work.  Materials include correspondence with former students and associates in Egypt, India, and Pakistan; photographs of her travels; speeches; writings, including an unpublished memoir; and a transcript and tapes of an oral history.
+         <abstract encodinganalog="520$a" label="Abstract:">Professor of social work and social studies, founder and director of the Dehli School of Social Work, consultant for social work education, and YWCA official. The Elmina Lucke papers focus on her work abroad as educator, administrator, and consultant for social work.  Materials include correspondence with former students and associates in Egypt, India, and Pakistan; photographs of her travels; speeches; writings, including an unpublished memoir; and a transcript and tapes of an oral history.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -212,7 +213,7 @@
       </bioghist>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-         	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2697.jpg" altrender="right">
+         	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2697.jpg" linktype="simple" show="embed">
 <daodesc><p>Elimina Lucke with Social Work students, n.d.</p></daodesc></dao><p>The papers are concentrated in the period after World War II.  There are some items, mainly from the 1930s, relating to her family, teaching, and research.  With the exception of family letters and photographs, the papers document her professional work and are not personal in nature.</p>
       </scopecontent>
       <arrangement encodinganalog="351$a" id="scope-org">
@@ -236,7 +237,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -347,8 +348,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. CORRESPONDENCE</unittitle>
             </did>
@@ -928,7 +929,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. PROFESSIONAL ACTIVITIES</unittitle>
             </did>
@@ -1573,7 +1574,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. WRITINGS AND SPEECHES</unittitle>
             </did>
@@ -1701,7 +1702,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. BIOGRAPHICAL MATERIALS AND MEMORABILIA</unittitle>
             </did>
@@ -1851,7 +1852,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V. PHOTOGRAPHS</unittitle>
             </did>

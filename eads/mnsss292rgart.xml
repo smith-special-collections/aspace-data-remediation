@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rgart.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rgart</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rgart.xml//EN">mnsss292rgart</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -33,9 +34,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Artifacts</unittitle>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Artifacts</unittitle>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:b281d986-6a37-4cfb-b648-e99f0f0630ed</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -46,7 +47,7 @@
             </address>
 </repository>
 <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             This record group includes artifacts created by and from the YWCA. Forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>.
          </abstract>
 </did>
@@ -121,7 +122,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1113</container>
@@ -470,5 +471,4 @@
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

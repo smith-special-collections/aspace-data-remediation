@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss75.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss75</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss75.xml//EN">mnsss75</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Helen Leland Witmer Papers, 1928-1979
@@ -51,19 +52,19 @@
          
          <sponsor>Processing of the Helen Leland Witmer Papers was made possible by the generous support of the Carel Bailey Germain Fund.</sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Witmer, Helen Leland</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Helen Leland Witmer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1928-1979</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Helen Leland Witmer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1928-1979</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1935-1965</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 199</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 199</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -75,9 +76,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Sociologist, teacher, and social worker. The bulk of the Witmer papers pertain to her writings, including notes, typescripts and manuscripts for her unpublished book, <title>Juvenile Delinquents in Court: A Study in Four Countries (Israel, Poland, Puerto Rico and Yugoslavia)</title>. There are also photographs, correspondence, lectures, and conference papers. Also documented are her tenure as director of research at Smith College School for Social Work and at the U.S. Children's Bureau.
+         <abstract encodinganalog="520$a" label="Abstract:">Sociologist, teacher, and social worker. The bulk of the Witmer papers pertain to her writings, including notes, typescripts and manuscripts for her unpublished book, <title>Juvenile Delinquents in Court: A Study in Four Countries (Israel, Poland, Puerto Rico and Yugoslavia)</title>. There are also photographs, correspondence, lectures, and conference papers. Also documented are her tenure as director of research at Smith College School for Social Work and at the U.S. Children's Bureau.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -106,7 +107,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -142,8 +143,8 @@
          <corpname encodinganalog="610" source="lcnaf">Smith College. School for Social Work--Faculty--History</corpname>
          <persname encodinganalog="600" source="lcnaf">Witmer, Helen Leland</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
             </did>
@@ -172,7 +173,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. WRITINGS</unittitle>
             </did>
@@ -263,7 +264,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. PROFESSIONAL ACTIVITIES</unittitle>
             </did>

@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss405.html">mnsss405</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss405.html">mnsss405</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Cynthia Ellen Elbaum Papers, 1994-2012</titleproper>
@@ -35,7 +34,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss405.html">mnsss40
    <num>MS 560</num>
    <date encodinganalog="260$c">2014</date>
 
-       <p>&#169; 2014 Smith College. All rights reserved.</p>
+       <p>© 2014 Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -44,13 +43,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss405.html">mnsss40
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Elbaum, Cynthia Ellen, 1966-1994</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Cynthia Ellen Elbaum Papers</unittitle><unitdate label="Dates:">1984-2012</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 560</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Cynthia Ellen Elbaum Papers</unittitle><unitdate label="Dates:">1984-2012</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 560</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">7 boxes</extent>
           <extent encodinganalog="300$a">(5.25 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
   </langmaterial>
          <repository label="Location:">
@@ -61,7 +60,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss405.html">mnsss40
             </address>
          </repository>
 
-      <abstract label="Abstract:" encodinganalog="520$a">Photojournalist. The
+      <abstract encodinganalog="520$a" label="Abstract:">Photojournalist. The
 Papers document Elbaum's career as a photojournalist, notably in Chechnya during the war with the Soviet Union and include biographical information and photographs.
 
     </abstract>
@@ -80,7 +79,7 @@ Papers document Elbaum's career as a photojournalist, notably in Chechnya during
 <!-- End collection level metadata -->
 
 <!-- Enter administrative information -->
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -125,8 +124,8 @@ Papers document Elbaum's career as a photojournalist, notably in Chechnya during
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>ACCESSION I.</unittitle>
  </did>
@@ -207,7 +206,7 @@ Papers document Elbaum's career as a photojournalist, notably in Chechnya during
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>ACCESSION II.</unittitle>
  </did>
@@ -332,7 +331,7 @@ Papers document Elbaum's career as a photojournalist, notably in Chechnya during
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>ACCESSION III.</unittitle>
  </did>
@@ -402,5 +401,4 @@ Papers document Elbaum's career as a photojournalist, notably in Chechnya during
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

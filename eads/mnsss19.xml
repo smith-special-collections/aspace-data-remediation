@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss19.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss19</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss19.xml//EN">mnsss19</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Fanny Fern and Ethel Parton Papers, 1805-1982
@@ -50,17 +51,17 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Fern, Fanny and Ethel Parton </persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Fanny Fern and Ethel Parton Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1805-1982</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 117</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Fanny Fern and Ethel Parton Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1805-1982</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 117</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">15 boxes</extent>
             <extent encodinganalog="300$a">(7 linear ft.)</extent>
@@ -72,15 +73,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Author, journalist, columnist, children's author, and humorist. Sara Payson Willis wrote for several small Boston magazines under the name Fanny Fern; numerous newspapers soon published her pieces. She had a regular weekly column in the New York Ledger and was one of the first woman columnists. Ethel Parton, granddaughter of Sara Willis and James Parton, worked as a writer and literary assistant, and at age 70 began writing children's books.  Materials include extensive writings, correspondence, sketches, albums, and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">Author, journalist, columnist, children's author, and humorist. Sara Payson Willis wrote for several small Boston magazines under the name Fanny Fern; numerous newspapers soon published her pieces. She had a regular weekly column in the New York Ledger and was one of the first woman columnists. Ethel Parton, granddaughter of Sara Willis and James Parton, worked as a writer and literary assistant, and at age 70 began writing children's books.  Materials include extensive writings, correspondence, sketches, albums, and photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1766.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1766.jpg" linktype="simple" show="embed">
 <daodesc><p>Pen and ink drawing of Fanny Fern (Sara Willis Parton)<lb />by her daughter, Ellen Eldredge Parton, n.d.</p></daodesc></dao>
          <p>Sara Payson Willis Parton, author and newspaper columnist better known as Fanny Fern, was born in Portland, Maine on July 9, 1811 to Nathaniel Willis and Hannah Parker.  The fifth of nine children, Sara was educated in Boston and at Catharine Beecher's seminary in Hartford, Connecticut.  While still in school she occasionally contributed to her father's periodical for children, Youth's Companion.  Willis married Charles Eldredge in 1837. The couple had three daughters, Mary, Grace, and Ellen.  After the death of Eldredge in 1846, Willis married Boston merchant Samuel P. Farrington, whom she divorced three years later.  After several dismal employment ventures, in 1851 she began writing under the name Fanny Fern for several small Boston magazines.  Numerous newspapers soon picked up her humorous pieces.  A collection of her writings was published in 1853 as Fern Leaves from Fanny's Port-Folio, an immediate bestseller.  She married historian and biographer James Parton in 1856.  Fanny Fern's other publications include two novels, Ruth Hall (1855) and Rose Clark (1856); and six collections of her columns including Fresh Leaves (1857), Folly as It Flies (1859), Ginger-Snaps (1870), and Caper-Sauce (1872).  Her astounding success led to a regular weekly column in the New York Ledger, making her America's first women columnist.  Fern's works incorporated wit and impudence, dealing with such topics as domestic problems, equality between the sexes, the double standard of morality, the need for parents to respect willful children, and tomboys.  She deplored excessive housework and too large families, encouraged women to seek wider fields of endeavor, poked fun at the august male, and criticized conventional religion.  A suffrage supporter after 1858, Fern was a co-founder of New York City's pioneer woman's club, Sorosis, in 1868.  Fanny Fern died of cancer in New York on October 10,1872.</p>
          <p>Ethel Parton was born in New York on December 1,1862 to Mortimer Thomson (whose pen name was Q. K. Philander Doesticks) and Grace Eldredge, daughter of Sara Payson Willis Parton (Fanny Fern).  Fanny Fern (her grandmother) and James Parton adopted her after the death of her mother.  After Fanny Fern's death in 1872, James Parton married Ethel's aunt, Ellen Willis Eldredge, and the couple cared for Ethel along with their own children.  Ethel was educated at home by James Parton, at the school of Jane Andrews, and at the Putnam Free School in Newburyport, Massachusetts.  After high school Ethel worked for James Parton as "secretary, literary assistant, and occasional collaborator."  She changed her surname to Parton on attaining her majority.  After James Parton's death, Ethel was a correspondent for Youth's Companion (founded by her great-grandfather, Nathaniel Willis) and contributed verses and stories to St. Nicholas.  At age 70, she began writing children's books.  These included 6 titles, popularly known as "The Newburyport Chronicles" which were set in early 19th-century Newburyport: Melissa Ann (1932), Tabitha Mary (1933), Penelope Ellen (1936),  Vinnie Applegay and Minnie Applegay (1937), Runaway Prentice (1939), The Lost Locket (1940), and The House Between (1943).  Ethel Parton died in 1944.</p>
@@ -122,7 +123,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -176,7 +177,7 @@
          <subject encodinganalog="650" source="lcsh">Satire, American--19th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women journalists--United States--History-19th century-Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -316,8 +317,8 @@
 
 
 <!-- Insert container list here --> 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. FANNY FERN BIOGRAPHICAL MATERIAL
                </unittitle>
@@ -427,7 +428,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. FANNY FERN CORRESPONDENCE
                </unittitle>
@@ -598,7 +599,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. FANNY FERN MEMORABILIA
                </unittitle>
@@ -661,7 +662,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. FANNY FERN PHOTOGRAPHS   </unittitle>
             </did>
@@ -799,7 +800,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. FANNY FERN WRITINGS
                </unittitle>
@@ -971,7 +972,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. ETHEL PARTON BIOGRAPHICAL MATERIAL
              	</unittitle>
@@ -1123,7 +1124,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. ETHEL PARTON CORRESPONDENCE
                </unittitle>
@@ -1302,7 +1303,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII. ETHEL PARTON WRITINGS
                </unittitle>
@@ -1706,7 +1707,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>SERIES IX. ARTWORK
                </unittitle>

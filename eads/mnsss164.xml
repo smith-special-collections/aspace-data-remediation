@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss164.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss164</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss164.xml//EN">mnsss164</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Martha Voegeli Papers, 1946-1965</titleproper>
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Voegeli, Martha </persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Martha Voegeli Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1946-65</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Martha Voegeli Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1946-65</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 168</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 168</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Birth control advocate; pacifist; animal welfare advocate; and physician. The Martha Voegeli papers include correspondence and writings. Correspondence includes Voegeli's letters to medical professionals and government officials espousing her views on birth control, famine in India, world peace, race relations, and animal welfare. Replies from Dr. Clarence Gamble, Aldous Huxley, Dorothy Brush, LeRoy Collins, Dr. Mary Calderone, Albert Schweitzer, Dr. Harrison Brown, and Arnold Toynbee are included. Of particular interest are her writings and correspondence about  male sterilization through the thermic method, selective breeding, and her "One-Meal-A-Day-For-People-Over-Forty" solution to famine in India.
+         <abstract encodinganalog="520$a" label="Abstract:">Birth control advocate; pacifist; animal welfare advocate; and physician. The Martha Voegeli papers include correspondence and writings. Correspondence includes Voegeli's letters to medical professionals and government officials espousing her views on birth control, famine in India, world peace, race relations, and animal welfare. Replies from Dr. Clarence Gamble, Aldous Huxley, Dorothy Brush, LeRoy Collins, Dr. Mary Calderone, Albert Schweitzer, Dr. Harrison Brown, and Arnold Toynbee are included. Of particular interest are her writings and correspondence about  male sterilization through the thermic method, selective breeding, and her "One-Meal-A-Day-For-People-Over-Forty" solution to famine in India.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6276.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6276.jpg" linktype="simple" show="embed">
 <daodesc><p>Letter to the First Secretary, Indian Legation, 1952</p></daodesc></dao> 
          <p> Martha Voegeli was born in Switzerland.  She received her M.A. from Columbia University and her M.D. from the University of Berlin and the University of Paris. Voegeli owned a private hospital in India, where she specialized in surgery.  She retired to Switzerland in 1950.</p>
       </bioghist>
@@ -89,7 +90,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The Martha Voegeli papers include correspondence and writings. Most of the correspondence consists of copies of Voegeli's letters to medical professionals and government officials espousing her views on birth control, famine in India, world peace, race relations, and animal rights. There are a few replies, including those from Dr. Clarence Gamble, Aldous Huxley, Dorothy Brush, LeRoy Collins, Dr. Mary Calderone, Albert Schweitzer, Dr. Harrison Brown, and Arnold Toynbee. There are also two speeches by LeRoy Collins (Governor of Florida) on race relations, 1958. Of particular interest are her writings and correspondence about  male sterilization through the thermic method (1952-55), selective breeding (1946-47), and her "One-Meal-A-Day-For-People-Over-Forty" solution to famine in India (1946).</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -129,7 +130,7 @@
          <subject encodinganalog="650" source="lcsh">Sterilization (birth control)--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women physicians--History--20th century--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

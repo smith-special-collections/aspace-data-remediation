@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss109.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss109</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss109.xml//EN">mnsss109</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Frances Rich Papers, 1912-1980</titleproper>
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Rich, Frances</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Frances Rich Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1912-1980</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Frances Rich Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1912-1980</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 129</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 129</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes</extent>
             <extent encodinganalog="300$a">(2.75 linear ft.)</extent>
@@ -72,16 +73,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Sculptor; Director, Smith College Public Relations; and Officer, United States Naval Reserve, World War II. Focuses primarily on her career as a sculptor, with a small amount of material on her work (as student and staff) at Smith College and in U.S. Navy.  Material includes correspondence, biographical articles, research files, clippings, exhibit catalogs (sculptures of notable people), posters, scrapbooks, and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">Sculptor; Director, Smith College Public Relations; and Officer, United States Naval Reserve, World War II. Focuses primarily on her career as a sculptor, with a small amount of material on her work (as student and staff) at Smith College and in U.S. Navy.  Material includes correspondence, biographical articles, research files, clippings, exhibit catalogs (sculptures of notable people), posters, scrapbooks, and photographs.
 
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4516.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4516.jpg" linktype="simple" show="embed">
 <daodesc><p>Frances Rich working on a bust of  Diego Rivera while Rivera<lb /> works on a painting of Frances Rich, 1941</p></daodesc></dao> 
          <p>Irene Frances Luther Rich was born in Spokane, Washington, on 8 January 1910. She was named after her mother, Irene Frances Luther (film actress Irene Rich), but used Frances Rich to avoid confusion. She was educated in Swiss schools and at the School for Girls in Santa Barbara, California. She received a B.A. from Smith College in 1931 with a major in English Literature. </p>
 
@@ -153,8 +154,8 @@
 <table>
 
   <tgroup cols="2">  
-     <colspec colnum="1" colname="1" colwidth="50"/> 
-     <colspec colnum="2" colname="2" colwidth="50"/> 
+     <colspec colname="1" colnum="1" colwidth="50"/> 
+     <colspec colname="2" colnum="2" colwidth="50"/> 
   <thead>
     <row>
       <entry colname="1">Location</entry> 
@@ -167,17 +168,17 @@
   <row>
     <entry colname="1">Smith College Museum</entry>
     <entry colname="2">Bust: Laura Scales</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
   </row>
   <row>
     <entry colname="1">Smith College Museum</entry>
     <entry colname="2">Bust: Diego Rivera</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
   </row>  
 <row>
     <entry colname="1">Smith College Museum</entry>
     <entry colname="2">Bust: Virgil Thompson</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
   </row>  
 <row>
     <entry colname="1">Smith College Museum</entry>
@@ -192,32 +193,32 @@
 <row>
     <entry colname="1">Smith College Museum</entry>
     <entry colname="2">Study for St. Francis</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
 </row>
 <row>
     <entry colname="1">Smith College Museum</entry>
     <entry colname="2">Bas Relief for St. Peters Episcopal Church</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
 </row>
 <row>
     <entry colname="1">Smith College Library</entry>
     <entry colname="2">Bust: Herbert Davis</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
 </row>
 <row>
     <entry colname="1">Smith College Library</entry>
     <entry colname="2">Bust: Margaret Sanger</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
 </row>
 <row>
     <entry colname="1">Center for the Performing Arts</entry>
     <entry colname="2">Bust: Katharine Hepburn as Cleopatra</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
 </row>
 <row>
     <entry colname="1">Behind the President's House</entry>
     <entry colname="2">Statue: St. Francis of Assisi</entry>
-    <entry colname="3"></entry>
+    <entry colname="3"/>
 </row>
   </tbody>
   </tgroup>
@@ -323,8 +324,8 @@
 
 
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -436,7 +437,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. ARTWORK</unittitle>
  </did>
@@ -653,7 +654,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PHOTOGRAPHS</unittitle>
  </did>
@@ -733,7 +734,7 @@
  <unittitle>Studios: Hope and Shumway Ranches,<unitdate> 1941-68, n.d.</unitdate></unittitle>
  </did>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. OVERSIZE MATERIALS</unittitle>
  </did>

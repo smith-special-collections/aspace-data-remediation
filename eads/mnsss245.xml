@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss245.html">mnsss245</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss245.html">mnsss245</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Annette Hoyt Flanders Papers, 1923-1991</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss245.html">mnsss24
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -39,7 +38,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss245.html">mnsss24
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -48,14 +47,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss245.html">mnsss24
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Flanders, Annette Hoyt, 1887-1946</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Annette Hoyt Flanders Papers</unittitle><unitdate label="Dates:">1923-1991</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 501</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Annette Hoyt Flanders Papers</unittitle><unitdate label="Dates:">1923-1991</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 501</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">11 boxes</extent>
           <extent encodinganalog="300$a">(5.75 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -67,12 +65,12 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss245.html">mnsss24
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Landscape architect. Collection consists of files compiled by Patricia L. Filzen in preparation for writing her M.A. thesis on landscape architecture (1988, University of Wisconsin-Madison).  While the files pertain primarily to Annette Hoyt Flanders, there are materials about other practitioners in the field, as well.  Glass slides of Flanders' work are also included.
+      <abstract encodinganalog="520$a" label="Abstract:">Landscape architect. Collection consists of files compiled by Patricia L. Filzen in preparation for writing her M.A. thesis on landscape architecture (1988, University of Wisconsin-Madison).  While the files pertain primarily to Annette Hoyt Flanders, there are materials about other practitioners in the field, as well.  Glass slides of Flanders' work are also included.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1589.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1589.jpg" linktype="simple" show="embed">
 <daodesc><p>Astor Doorway painted by <lb /> Annette Hoyt Flanders, n.d.</p></daodesc></dao> 
        <p>Annette Hoyt Flanders was born in Milwaukee, WI, the daughter of Frank M. Hoyt, a
 prominent attorney, and Hettie Pamelia Hoyt.  She received her early education from tutors
@@ -103,7 +101,7 @@ practitioners in the field, as well.  Glass slides of Flanders' work are also in
 
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -144,5 +142,4 @@ record.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

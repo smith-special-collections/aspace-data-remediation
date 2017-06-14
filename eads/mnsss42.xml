@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss42.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss42</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss42.xml//EN">mnsss42</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Marie Manning Papers, 1901-2000
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Manning, Marie</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Marie Manning Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1901-2000</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Marie Manning Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1901-2000</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1930-1945</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 385</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 385</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">16 boxes</extent>
             <extent encodinganalog="300$a">(5.75 linear ft.)</extent>
@@ -74,16 +75,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Columnist and novelist.  The Manning Papers consist primarily of correspondence and writings. The writings contained in this collection, especially those relating to the <title>Dear Beatrice Fairfax</title> advice column, offer insight into the domestic and marital issues encountered by women. Correspondence includes letters from her friend Olivia Torrence which span a lifetime; letters between Manning and her son during World War II; as well as letters from Eleanor Roosevelt, Earl of Halifax, Harold Ickes, and author Margaret Chase Smith.
+         <abstract encodinganalog="520$a" label="Abstract:">Columnist and novelist.  The Manning Papers consist primarily of correspondence and writings. The writings contained in this collection, especially those relating to the <title>Dear Beatrice Fairfax</title> advice column, offer insight into the domestic and marital issues encountered by women. Correspondence includes letters from her friend Olivia Torrence which span a lifetime; letters between Manning and her son during World War II; as well as letters from Eleanor Roosevelt, Earl of Halifax, Harold Ickes, and author Margaret Chase Smith.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p>Marie Manning was secretive about her age, even with her immediate family, and her exact date of birth is therefore unknown.  She was born in Washington, D.C. to Elizabeth (Barrett) and Michael Charles Manning, probably on 22 January 1872.  Manning was educated privately at various schools, graduating from Miss  Kerr's, a Washington finishing school.  Her mother died in childbirth when she was six and her father died when she was eighteen.  In the early 1890s she visited relatives in England, where she "learned enough of English life" to write her first novel, Lord Alingham, Bankrupt, published in 1901.</p>
-         <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc579.jpg" altrender="right">
+         <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc579.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Marie Manning, n.d.</p></daodesc></dao>
 <p>In 1896, Manning met Arthur Brisbane, Editor of the New York World, who invited her to move to New York and join the writing staff at a "space rate" salary of approximately $5 per week.  Upon obtaining an exclusive interview with President Grover Cleveland, something he had refused to the "star reporters" of the day,  Manning was promoted to permanent staff at a salary of $30 per week. When Brisbane took a job at the New York Evening Journal in 1898, at his invitation Manning did so as well.  She worked with two other women in what was known as the "Hen Coop," creating the women's page.</p>
@@ -116,7 +117,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -232,8 +233,8 @@ Marie Manning. Copyright to materials created by others may be owned by those in
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
                <unitdate>(1906-92)</unitdate>
@@ -442,7 +443,7 @@ Marie Manning. Copyright to materials created by others may be owned by those in
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
                <unitdate>(1904-45)</unitdate>
@@ -625,7 +626,7 @@ Marie Manning. Copyright to materials created by others may be owned by those in
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
                <unitdate>(1901-45)</unitdate>
@@ -709,7 +710,7 @@ Marie Manning. Copyright to materials created by others may be owned by those in
                      <did>
                         <container type="box">6</container>
                         <container type="folder">18</container>
-                        <unittitle>	<title render="italic" encodinganalog="730">Lord Alingham, Bankrupt</title>: review, 	<title render="italic" encodinganalog="730">The Bookman</title><unitdate>Mar. 1901</unitdate>
+                        <unittitle>	<title encodinganalog="730" render="italic">Lord Alingham, Bankrupt</title>: review, 	<title encodinganalog="730" render="italic">The Bookman</title><unitdate>Mar. 1901</unitdate>
                         </unittitle>
                      </did>
                   </c03>
@@ -722,14 +723,14 @@ Marie Manning. Copyright to materials created by others may be owned by those in
                   <c04>
                      <did>
                         <container type="box">7</container>
-                        <unittitle><title render="italic" encodinganalog="730">Ladies Now and Then</title> <unitdate>1944</unitdate>
+                        <unittitle><title encodinganalog="730" render="italic">Ladies Now and Then</title> <unitdate>1944</unitdate>
                         </unittitle>
                      </did>
                   </c04>
                   <c04>
                      <did>
                         <container type="box">7</container>
-                        <unittitle><title render="italic" encodinganalog="730">Problems of Love and Marriage: Advice to the Lovelorn</title><unitdate>1931</unitdate>
+                        <unittitle><title encodinganalog="730" render="italic">Problems of Love and Marriage: Advice to the Lovelorn</title><unitdate>1931</unitdate>
                         </unittitle>
                      </did>
                   </c04>
@@ -1344,7 +1345,7 @@ Marie Manning. Copyright to materials created by others may be owned by those in
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. SUBJECT FILES</unittitle>
                <unitdate>(1929-45)</unitdate>
@@ -1728,7 +1729,7 @@ Marie Manning. Copyright to materials created by others may be owned by those in
                </did>
             </c02>
          </c01>
-<c01 level="series" id="ser-3cont">
+<c01 id="ser-3cont" level="series">
 <did>
 	<unittitle> SERIES III. WRITINGS (CONTINUED)</unittitle>
 </did>
@@ -1767,7 +1768,7 @@ Marie Manning. Copyright to materials created by others may be owned by those in
 </c02>
 </c01>
 
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

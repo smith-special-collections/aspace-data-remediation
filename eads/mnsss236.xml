@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss236</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss236</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Diana Davies Papers, 1960s-1996 (ongoing)</titleproper>
@@ -13,7 +12,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2014</date>
+         <date calendar="gregorian" era="ce">© 2014</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -36,7 +35,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
    <author encodinganalog="245$c">Finding aid prepared by Diana Davies and Maida Goodwin</author>
    <date encodinganalog="260$c">2005</date>
    
-       <p>&#169; 2014  Smith College. All rights reserved.</p>
+       <p>© 2014  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -45,14 +44,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Davies, Diana, 1938-</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Diana Davies Papers</unittitle><unitdate label="Dates:">1960s-1996 (ongoing)</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 309</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Diana Davies Papers</unittitle><unitdate label="Dates:">1960s-1996 (ongoing)</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 309</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">57 boxes</extent>
           <extent encodinganalog="300$a">(17 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -64,13 +62,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Musician; Photographer; Artist; Theater worker. Papers consist primarily of Davies' photographs of individuals and groups, musicians, artists, political activists in the civil rights, peace, anti-poverty, and feminist events (marches, demonstrations, conferences, etc.); celebrities, musicians, politicians, and street people.  Included is material related to her publication <title render="italic">Photojourney: Photographs</title>; fliers, broadsides; memorabilia; and artwork.
+      <abstract encodinganalog="520$a" label="Abstract:">Musician; Photographer; Artist; Theater worker. Papers consist primarily of Davies' photographs of individuals and groups, musicians, artists, political activists in the civil rights, peace, anti-poverty, and feminist events (marches, demonstrations, conferences, etc.); celebrities, musicians, politicians, and street people.  Included is material related to her publication <title render="italic">Photojourney: Photographs</title>; fliers, broadsides; memorabilia; and artwork.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc933.jpg" altrender="right">
-<daodesc><p>Rally in memory of Dr. Martin Luther King Jr.,<lb />  Central Park, New York City, April 5, 1968. &#169; Diana Davies.
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc933.jpg" linktype="simple" show="embed">
+<daodesc><p>Rally in memory of Dr. Martin Luther King Jr.,<lb/>  Central Park, New York City, April 5, 1968. © Diana Davies.
 </p></daodesc></dao>
        <p>Musician, theatre worker, and photographer Diana Davies became a photojournalist in the 1960s.  One of the principal documentarians of the second-wave women's movement the U.S., she also photographed in Africa, Central America, the Middle East, and Europe.  She documented the civil rights and peace movements, poor people's and welfare rights movements, and farmworkers' struggles.  Throughout her career, Davies has photographed various creators and performers of cultural expression, including musicians, writers, craftspersons, dancers, circus and theatre people, potters, and artists.  Her photographs of individuals run the gamut, from obscure street people to well-known public figures.  Davies' work has been published in books, journals, newspapers, and magazines, and is included in collections at the New York Public Library, the Smithsonian Institution, Howard University, and the Swarthmore Peace Collection.  Her book <title render="italic">Photojourney : photographs </title> was published in 1989.</p>
      <p>In the 1990s, Davies abandoned her career in photography (except for photographs of friends) in order to work as a graphic artist, painter and illustrator, with an emphasis on the subject of social change. Davies writes plays with social justice themes, having throughout her life participated in and supported all aspects of "people's theatre." As a committed peace and social justice activist she also works with organizations promoting social change, and helps feed and clothe the needy in her community.</p>
@@ -84,7 +82,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
 	<p>Negatives include negatives of the prints above, as well as some negatives for which the SSC does not own prints. Negatives are filed in numerical order. In cases where the Sophia Smith Collection owns the negative for a photograph, the corresponding negative number is written on the reverse side of the print.
 </p>
 </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized as follows:</p>
 	<list>
@@ -209,7 +207,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
 
 
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -277,10 +275,10 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
     <persname encodinganalog="600" source="lcnaf">Raye, Martha--Photographs</persname>
     <persname encodinganalog="600" source="lcnaf">Sarton, May, 1912- --Photographs</persname>
     <persname encodinganalog="600" source="lcnaf">Sontag, Susan, 1933- --Photographs</persname>
-    <title render="italic" encodinganalog="630" source="lcsh">Photojourney : photographs / by Diana Davies. </title>
+    <title encodinganalog="630" render="italic" source="lcsh">Photojourney : photographs / by Diana Davies. </title>
  </controlaccess>
 
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
   <head>Additional Information</head>
   <relatedmaterial id="add-related">
   <head>Related Material</head>
@@ -288,8 +286,8 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
   <extref href="http://www.smith.edu/libraries/libs/archives/">Smith College Archives</extref>.</p>
   </relatedmaterial>
 </descgrp>
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>Biographical materials</unittitle>
  </did>
@@ -300,7 +298,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>Published Material</unittitle>
 	<note><p>[See also <ref target="list-ser34">Oversized materials</ref>]</p>
@@ -414,7 +412,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
          <unittitle>"Sistervision" exhibit, Sophia Smith Collection, March - June              <unitdate>2000</unitdate>          </unittitle>
  </did>
@@ -485,9 +483,9 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
-         <unittitle>"Diana's Place": Matilda Joslin Gage Historical Society-- meeting place, Women's Creative Space, gallery, library, caf&#233;, used goods and books shop, Northampton, MA,              <unitdate>1985</unitdate>          </unittitle>
+         <unittitle>"Diana's Place": Matilda Joslin Gage Historical Society-- meeting place, Women's Creative Space, gallery, library, café, used goods and books shop, Northampton, MA,              <unitdate>1985</unitdate>          </unittitle>
  </did>
  <c02>
  <did>
@@ -518,7 +516,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>Women's Movement - Women's Lives</unittitle>
  </did>
@@ -832,7 +830,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <c03>
  <did>
  <container type="box">6</container>
- <unittitle>Laura Pattison, Women's Caf&#233; founder, activist, librarian</unittitle>
+ <unittitle>Laura Pattison, Women's Café founder, activist, librarian</unittitle>
  </did>
  </c03>
  <c03>
@@ -1110,7 +1108,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">6</container>
  <container type="folder">41</container>
- <unittitle>The Lesbian and Women's Caf&#233;. Gay Activists Alliance (GAA) Firehouse, NYC,<unitdate> 1970</unitdate></unittitle>
+ <unittitle>The Lesbian and Women's Café. Gay Activists Alliance (GAA) Firehouse, NYC,<unitdate> 1970</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1728,7 +1726,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle><title render="italic">Photojourney</title></unittitle>
  </did>
@@ -2065,7 +2063,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">9</container>
  <container type="folder">40</container>
- <unittitle>Alberta Hunter, jazz-blues singer, NYC caf&#233; performer,<unitdate> 1978</unitdate></unittitle>
+ <unittitle>Alberta Hunter, jazz-blues singer, NYC café performer,<unitdate> 1978</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2463,7 +2461,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">10</container>
  <container type="folder">47</container>
- <unittitle>Weeping woman, S&amp;#227;o Tom&#233; Island, off the coast of Africa,<unitdate> 1969</unitdate></unittitle>
+ <unittitle>Weeping woman, S&amp;#227;o Tomé Island, off the coast of Africa,<unitdate> 1969</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2538,7 +2536,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>Poverty - Poor Folk</unittitle>
  </did>
@@ -3006,7 +3004,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>Northampton State Hospital Squat and Squatters Housing Rights Material</unittitle>
  </did>
@@ -3088,7 +3086,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>Welfare Rights and Economic Human Rights Struggle</unittitle>
  </did>
@@ -3163,7 +3161,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser10">
+ <c01 id="list-ser10" level="series">
  <did>
          <unittitle>Poor People's Campaign,              <unitdate>1968</unitdate>          </unittitle>
  </did>
@@ -3203,7 +3201,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser11">
+ <c01 id="list-ser11" level="series">
  <did>
  <unittitle>Civil Rights Movement and African-American History</unittitle>
  </did>
@@ -3334,7 +3332,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser12">
+ <c01 id="list-ser12" level="series">
  <did>
  <unittitle>People's Struggles: The State of Society and the World</unittitle>
  </did>
@@ -3579,7 +3577,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser13">
+ <c01 id="list-ser13" level="series">
  <did>
  <unittitle>Common Stock - a workers' collective</unittitle>
  </did>
@@ -3600,7 +3598,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">18</container>
  <container type="folder">2</container>
- <unittitle>Caf&#233; performance by Joanie Schwartz - folksinger; Nancy Moniz - community activist, artist, and co-worker</unittitle>
+ <unittitle>Café performance by Joanie Schwartz - folksinger; Nancy Moniz - community activist, artist, and co-worker</unittitle>
  </did>
  </c02>
  <c02>
@@ -3632,7 +3630,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser14">
+ <c01 id="list-ser14" level="series">
  <did>
  <unittitle>Labor History</unittitle>
  </did>
@@ -3733,7 +3731,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser15">
+ <c01 id="list-ser15" level="series">
  <did>
  <unittitle>Prison Issues and Prisoner's Rights</unittitle>
  </did>
@@ -3872,7 +3870,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser16">
+ <c01 id="list-ser16" level="series">
  <did>
  <unittitle>Theatre and Public Art</unittitle>
  </did>
@@ -4599,7 +4597,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser17">
+ <c01 id="list-ser17" level="series">
  <did>
  <unittitle>Dance</unittitle>
  </did>
@@ -4681,7 +4679,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser18">
+ <c01 id="list-ser18" level="series">
  <did>
  <unittitle>Street Artists, Musicians and Buskers and Craftspeople: <title render="italic">The Busker Book</title> (a travelling scrapbook of Buskers)</unittitle>
  </did>
@@ -4952,7 +4950,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser19">
+ <c01 id="list-ser19" level="series">
  <did>
  <unittitle>Women and Music</unittitle>
  </did>
@@ -5086,7 +5084,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">25</container>
  <container type="folder">19</container>
- <unittitle>Zo&amp;#235; Lewis and Kate Wolf (NOT the folksinger with same name) - "The Rubber Band"<unitdate> 1995, </unitdate>Green River Caf&#233;, Greenfield, Mass.</unittitle>
+ <unittitle>Zo&amp;#235; Lewis and Kate Wolf (NOT the folksinger with same name) - "The Rubber Band"<unitdate> 1995, </unitdate>Green River Café, Greenfield, Mass.</unittitle>
  </did>
  </c02>
  <c02>
@@ -5195,7 +5193,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser20">
+ <c01 id="list-ser20" level="series">
  <did>
  <unittitle>Women's Music</unittitle>
  </did>
@@ -5312,7 +5310,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser21">
+ <c01 id="list-ser21" level="series">
  <did>
  <unittitle>Artists, Craftspeople, Architects, Photographers, Videographers, Filmmakers, Actors (film)</unittitle>
  </did>
@@ -5581,7 +5579,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser22">
+ <c01 id="list-ser22" level="series">
  <did>
  <unittitle>Writers</unittitle>
  </did>
@@ -5610,7 +5608,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">28</container>
  <container type="folder">4</container>
- <unittitle>Beatrice Hawley, poet, activist, co-founder Alice James Press and Common Stock Caf&#233;. Boston area,<unitdate> 1980</unitdate></unittitle>
+ <unittitle>Beatrice Hawley, poet, activist, co-founder Alice James Press and Common Stock Café. Boston area,<unitdate> 1980</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -5680,7 +5678,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">28</container>
  <container type="folder">14</container>
- <unittitle>Grace Paley and writer Robert Nichols (her husband) reading at the Green River Caf&#233;, Greenfield, Mass,<unitdate> 1993</unitdate></unittitle>
+ <unittitle>Grace Paley and writer Robert Nichols (her husband) reading at the Green River Café, Greenfield, Mass,<unitdate> 1993</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -5859,7 +5857,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser23">
+ <c01 id="list-ser23" level="series">
  <did>
  <unittitle>The Railroads, Hoboes and Subways</unittitle>
  </did>
@@ -5993,7 +5991,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser24">
+ <c01 id="list-ser24" level="series">
  <did>
  <unittitle>Western Mass Women and Community Groups</unittitle>
  </did>
@@ -6134,7 +6132,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">30</container>
  <container type="folder">18</container>
- <unittitle>Valley Arts and Music Alliance (VAMA) and Flywheel Arts Space Collectively organized and run community gallery, infoshop, performance space, caf&#233;. Photos, papers and designs by Diana Jo, for Flywheel-VAMA,<unitdate> 1998 </unitdate>-</unittitle>
+ <unittitle>Valley Arts and Music Alliance (VAMA) and Flywheel Arts Space Collectively organized and run community gallery, infoshop, performance space, café. Photos, papers and designs by Diana Jo, for Flywheel-VAMA,<unitdate> 1998 </unitdate>-</unittitle>
  </did>
  </c03>
  <c03>
@@ -6158,7 +6156,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser25">
+ <c01 id="list-ser25" level="series">
  <did>
  <unittitle>Women's Zines and Publications</unittitle>
  </did>
@@ -6191,7 +6189,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser26">
+ <c01 id="list-ser26" level="series">
  <did>
          <unittitle>Street Kids Project, Maine,              <unitdate>1993</unitdate>          </unittitle>
  </did>
@@ -6351,7 +6349,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser27">
+ <c01 id="list-ser27" level="series">
  <did>
          <unittitle>Mexico, Cuba, Portugal, Spain, late              <unitdate>1960s, early 1970s and 1990s</unitdate>          </unittitle>
  </did>
@@ -6453,7 +6451,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser28">
+ <c01 id="list-ser28" level="series">
  <did>
  <unittitle>Israel - Palestine (and related material from NYC)</unittitle>
  </did>
@@ -6500,7 +6498,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser29">
+ <c01 id="list-ser29" level="series">
  <did>
  <unittitle>Animals - Creatures (and more "best-friends")</unittitle>
  </did>
@@ -6648,7 +6646,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">35</container>
  <container type="folder">21</container>
- <unittitle>Alley cats who live behind "Joe's Caf&#233;" (pizza joint)<unitdate> 1993. </unitdate>Northampton, Mass</unittitle>
+ <unittitle>Alley cats who live behind "Joe's Café" (pizza joint)<unitdate> 1993. </unitdate>Northampton, Mass</unittitle>
  </did>
  </c02>
  <c02>
@@ -6876,7 +6874,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser30">
+ <c01 id="list-ser30" level="series">
  <did>
  <unittitle>Nature and Farms</unittitle>
  </did>
@@ -7356,7 +7354,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">38</container>
  <container type="folder">5</container>
- <unittitle>Weeds, trees, harbor, "Blue Goose Caf&#233;", Coastal, Rtes. <unitdate>1 and 3</unitdate></unittitle>
+ <unittitle>Weeds, trees, harbor, "Blue Goose Café", Coastal, Rtes. <unitdate>1 and 3</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -7510,7 +7508,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  <did>
  <container type="box">38</container>
  <container type="folder">27</container>
- <unittitle>Coastal scenes, cattails, bushes, "Red's Eats" caf&#233;, pond. Fall colors,<unitdate> 1990</unitdate></unittitle>
+ <unittitle>Coastal scenes, cattails, bushes, "Red's Eats" café, pond. Fall colors,<unitdate> 1990</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -7529,7 +7527,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser31">
+ <c01 id="list-ser31" level="series">
  <did>
  <unittitle>The Miscellany Box</unittitle>
  </did>
@@ -7586,7 +7584,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser32">
+ <c01 id="list-ser32" level="series">
  <did>
  <unittitle>Artwork and Design by Diana Jo Davies</unittitle>
  </did>
@@ -7689,13 +7687,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser33">
+ <c01 id="list-ser33" level="series">
  <did>
  <container type="box">41</container>
  <unittitle>Videotapes by Diana Jo Davies</unittitle>
  </did>
  </c01>
- <c01 level="series" id="list-ser34">
+ <c01 id="list-ser34" level="series">
  <did>
  <unittitle>Additional Material</unittitle>
  </did>
@@ -7707,7 +7705,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser35">
+ <c01 id="list-ser35" level="series">
  <did>
  <unittitle>Oversize prints - various themes (some are duplicates of smaller prints in the regular files)</unittitle>
  </did>
@@ -8019,7 +8017,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser36">
+ <c01 id="list-ser36" level="series">
  <did>
  <unittitle>"Oversize" published material and posters (from portfolios and files), work done for:</unittitle>
  </did>
@@ -8516,7 +8514,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser37">
+ <c01 id="list-ser37" level="series">
  <did>
  <unittitle>Found and created goods (oversize and odd objects)</unittitle>
  </did>
@@ -8544,7 +8542,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser38">
+ <c01 id="list-ser38" level="series">
  <did>
  <unittitle>Negatives</unittitle>
  </did>
@@ -8618,5 +8616,4 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss236.html">mnsss23
 </dsc>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss327.html">mnsss327</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss327.html">mnsss327</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Helaine Victoria Press Records, 1973-2001</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss327.html">mnsss32
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -39,7 +38,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss327.html">mnsss32
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -48,15 +47,14 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss327.html">mnsss32
  <origination label="Creator:">
      <corpname  encodinganalog="110" source="lcnaf">Helaine Victoria Press</corpname >
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Helaine Victoria Press Records</unittitle><unitdate label="Dates:">1973-2001</unitdate>
-        <unitdate type="bulk" encodinganalog="245$g">1970s-80s</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 209</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Helaine Victoria Press Records</unittitle><unitdate label="Dates:">1973-2001</unitdate>
+        <unitdate encodinganalog="245$g" type="bulk">1970s-80s</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 209</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">23 boxes</extent>
           <extent encodinganalog="300$a">(27.5 linear ft.) </extent>
   </physdesc>
-  <langmaterial label="Language of Material:" encodinganalog="546">
+  <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
     </langmaterial>
          <repository label="Location:">
@@ -67,7 +65,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss327.html">mnsss32
             </address>
          </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Non-profit organization for purpose of publishing and distributing postcards on women's history. Records include correspondence, administrative records, publications, photographs, memorabilia, samples and prototypes of women's history postcards (images circa 19th-20th century) with biographical sketches and quotations.  
+      <abstract encodinganalog="520$a" label="Abstract:">Non-profit organization for purpose of publishing and distributing postcards on women's history. Records include correspondence, administrative records, publications, photographs, memorabilia, samples and prototypes of women's history postcards (images circa 19th-20th century) with biographical sketches and quotations.  
     </abstract>
 </did>
 <bioghist id="bioghist">
@@ -82,7 +80,7 @@ Indiana, and products carried by bookstores nationwide.</p>
 
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -113,5 +111,4 @@ Northampton, Mass.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

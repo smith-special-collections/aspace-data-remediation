@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss297.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss297</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss297.xml//EN">mnsss297</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Planned Parenthood League of Massachusetts, 1859-2002 (bulk 1916-1960)</titleproper>
@@ -30,18 +31,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Planned Parenthood League of Massachusetts</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Planned Parenthood League of Massachusetts</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Planned Parenthood League of Massachusetts Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1859-2002 </unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1916-1960</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 359</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Planned Parenthood League of Massachusetts Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1859-2002 </unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1916-1960</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 359</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">123 boxes, 7 reels of microfilm</extent>
 		<extent encodinganalog="300$a">(50 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -59,7 +60,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Historical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2143.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2143.jpg" linktype="simple" show="embed">
 <daodesc><p>"Doctors Cecil Moore, Ilia Galeani and Lucille Lord-Heinstein, left to right,<lb />
              smile cheerfully outside Salem courthouse, where the battle to defend the sale<lb />
 	     of birth control devices was waged last week and where the decision is a 'test<lb />
@@ -115,7 +116,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
 
 <p>The PPLM Records provide a unique source for the study of the establishment and development of an organization largely run by women. SERIES III: CENTRAL ADMINISTRATIVE FILES and SERIES VI. LEGISLATIVE FILES provide the richest documentation in the collection. The former contains the central administrative files dating from the organizations inception in 1916 and the latter covers the Initiative and Referendum Campaigns of the 1940s.  The material reveals PPLM's connections and conflicts with the Catholic Church and physicians' publicity campaigns. Correspondence with various groups and individuals illustrates their strong support of PPLM's cause. </p>
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into ten series:</p>
 	<list>
@@ -459,8 +460,8 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
 <!-- Insert container list here:-->
 
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. CORRESPONDENCE</unittitle>
  </did>
@@ -2536,7 +2537,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. STAFF</unittitle>
  </did>
@@ -2725,7 +2726,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. CENTRAL ADMINISTRATIVE FILES</unittitle>
  </did>
@@ -6449,9 +6450,9 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
- <unittitle>SERIES IV RELATED ORGANIZATIONS</unittitle>
+ <unittitle>SERIES IV. RELATED ORGANIZATIONS</unittitle>
  </did>
  <c02>
  <did>
@@ -7353,7 +7354,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. CONFERENCE FILES</unittitle><note>
    <p> <ref target="list-ser4-bcfa_ppfa-conferences">[see also SERIES IV. RELATED ORGANIZATIONS - Birth Control Federation of America/PPFA - Conferences]</ref></p></note>
@@ -7773,7 +7774,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. LEGISLATIVE FILES</unittitle>
  </did>
@@ -9831,7 +9832,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. RESOURCE FILES</unittitle>
  </did>
@@ -11766,7 +11767,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. CLIPPINGS AND ARTICLES</unittitle><note> <p> <ref target="list-ser10">[see also SERIES X. MICROFILM]</ref></p></note>
  </did>
@@ -12252,7 +12253,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. OVERSIZE MATERIALS</unittitle>
  </did>
@@ -12490,7 +12491,7 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser10">
+ <c01 id="list-ser10" level="series">
  <did>
  <unittitle>SERIES X. MICROFILM</unittitle>
  </did>
@@ -13466,5 +13467,3 @@ PPLM efforts to stimulate the public to concern themselves with birth control an
 
   </archdesc>
 </ead>
-
-

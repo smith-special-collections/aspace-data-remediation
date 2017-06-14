@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss175.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss175</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss175.xml//EN">mnsss175</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Garrison Family Papers, 1694-2005 (bulk 1830-1950)</titleproper>
@@ -50,18 +51,18 @@
          
          <sponsor>Processing of the Garrison Family Papers was made possible by the generous support of the Bodman Family Foundation </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Garrison family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Garrison Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1694-2005</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Garrison Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1694-2005</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 60</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 60</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">302 boxes, 9 volumes</extent>
             <extent encodinganalog="300$a">(117.75 linear ft.)</extent>
@@ -73,9 +74,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">The Garrison Family Papers contain thousands of primary sources that document the family's involvement in politics, business, art, literature, religion, education, and most of the major reform movements of the 19th and early 20th centuries. These include abolition, anti-imperialism, anti-vaccination, conservation, free trade and tariff reform, immigration reform, pacifism, race, single tax, and temperance. Extensive correspondence, diaries, clippings, articles, speeches, photographs, memorabilia, and a wide variety of printed sources trace the activities of the Garrison, Coffin, Mott, and Wright families and their friends and associates in England, Massachusetts, Pennsylvania, and New York, among other places.  Although there are letters and other documents relating to abolitionist William Lloyd Garrison (1805-1879), the largest part of the material relates to his son, William Lloyd Garrison (1838-1909), Ellen Wright Garrison, and their descendents.
+         <abstract encodinganalog="520$a" label="Abstract:">The Garrison Family Papers contain thousands of primary sources that document the family's involvement in politics, business, art, literature, religion, education, and most of the major reform movements of the 19th and early 20th centuries. These include abolition, anti-imperialism, anti-vaccination, conservation, free trade and tariff reform, immigration reform, pacifism, race, single tax, and temperance. Extensive correspondence, diaries, clippings, articles, speeches, photographs, memorabilia, and a wide variety of printed sources trace the activities of the Garrison, Coffin, Mott, and Wright families and their friends and associates in England, Massachusetts, Pennsylvania, and New York, among other places.  Although there are letters and other documents relating to abolitionist William Lloyd Garrison (1805-1879), the largest part of the material relates to his son, William Lloyd Garrison (1838-1909), Ellen Wright Garrison, and their descendents.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -86,7 +87,7 @@
 <extref href="http://www.smith.edu/libraries/libs/ssc/atg/garrison.html">http://www.smith.edu/libraries/libs/ssc/atg/garrison.html#tree</extref>).</p>
 
          <p><title render="bold">The Garrison Family</title></p>
-         <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4520.jpg" altrender="right">
+         <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4520.jpg" linktype="simple" show="embed">
 <daodesc><p>Garrison family gathering, 1876</p></daodesc></dao><p> Generation 1: Abijah Garrison and Frances ("Fanny") Lloyd Garrison </p>
          <p> The Garrison Family Papers begin with Abijah Garrison (1773 -  ?) and Frances ("Fanny") Lloyd Garrison (1776-1823). Abijah was born in an isolated farming community in New Brunswick, Canada. By the 1790s he had become a seaman based in St. John. He married Frances Lloyd in 1798 and they settled on the Jemseg River in New Brunswick. They moved to St. John in 1801.  They had two daughters (Mary Ann and Caroline Eliza) and a son (James Holley). Mary Ann died in infancy and in 1805 the family moved to Newburyport,  Massachusetts. In December of that year a fourth child, William Lloyd, was born, followed by Elizabeth Knowlton in 1808. A man of intemperate habits, Abijah abandoned his wife and family shortly after Elizabeth's birth. He was never heard from again. </p>
          <p> Generation 2: William Lloyd Garrison and Helen Benson Garrison </p>
@@ -181,7 +182,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -269,7 +270,7 @@
          <persname encodinganalog="600" source="lcnaf">Garrison, William Lloyd, 1805-1879</persname>
          <persname encodinganalog="600" source="lcnaf">Wright, Martha Coffin Pelham, 1806-1875</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -426,8 +427,8 @@ The second subsection contains condolence letters written to family members on t
             </did>
 	    <scopecontent>	
 		<p>This series contains financial material related to twelve members of the Garrison Family. It is arranged alphabetically by person and contains tax information, probate and estate records, inventories, items related to real estate, ledgers, business diaries, expense logs and related correspondence. Financial/business correspondence related to property owned at Cape Cod is located in SERIES VI. SUBJECT FILES - Wianno. The largest amounts of material relate to both the WLG (1838)'s and WLG (1874)'s business and personal affairs. </p>
-		<p>WLG (1838)'s business material includes brokerage (1873) and mortgage (1889-1901) books and an investment ledger (1889-92), as well as a sales journal (1877-78). There is material related to trust accounts he handled for Mary E. Robinson, Theodore Dwight Weld, Eliza Church, and Theodore Grink&#233; Weld (1875-1903). The personal material includes correspondence (1903-10), estate matters (1892-1936), real estate (1903-10), personal securities (1903), expenses (1890-1904), and ledgers (1872-1900). </p>
-		<p>WLG (1874)'s business material consists of diaries (1898-1904), Perry Coffin &amp; Burr material, including correspondence (1900-57), trust accounts for Mary Randall (1902-07) and Theodore Grimk&#233; Weld (1905-23), and correspondence and legal papers for his partnership. There is considerable overlap with SERIES III. CORRESPONDENCE because WLG (1874) handled business affairs for family members and friends. His personal material includes estate items (1928), house construction and repair correspondence (1901-17), and personal ledgers (1907-38). </p>
+		<p>WLG (1838)'s business material includes brokerage (1873) and mortgage (1889-1901) books and an investment ledger (1889-92), as well as a sales journal (1877-78). There is material related to trust accounts he handled for Mary E. Robinson, Theodore Dwight Weld, Eliza Church, and Theodore Grinké Weld (1875-1903). The personal material includes correspondence (1903-10), estate matters (1892-1936), real estate (1903-10), personal securities (1903), expenses (1890-1904), and ledgers (1872-1900). </p>
+		<p>WLG (1874)'s business material consists of diaries (1898-1904), Perry Coffin &amp; Burr material, including correspondence (1900-57), trust accounts for Mary Randall (1902-07) and Theodore Grimké Weld (1905-23), and correspondence and legal papers for his partnership. There is considerable overlap with SERIES III. CORRESPONDENCE because WLG (1874) handled business affairs for family members and friends. His personal material includes estate items (1928), house construction and repair correspondence (1901-17), and personal ledgers (1907-38). </p>
 	  </scopecontent>
   </c01>
   <c01 level="series">
@@ -498,7 +499,7 @@ The second subsection contains condolence letters written to family members on t
 		<p>Lucretia Coffin Mott's file contains clippings and printed material (1873-1930), and  memorabilia which includes items related to the Motts' 50th wedding anniversary (1861).  Items related to Peter Pelham include a notice of his death, accounts of a shipment of  the Pelham's belongings to Florida (1824), and the settling of his estate (1827). Included in this subseries is a "Sketch of the life and character of  David Wright"  by Theodore M. Pomeroy (1898) and personal reminiscences of his life which he wrote in 1886. Martha Coffin Wright's biographical file includes a sketch written by Eliza Wright Osborne in the 1890s. In this sketch Osborne mentions a will written by Martha when she was a 15 years old. In 2001 her great-great grandson, James D. Livingston provided a copy, which is now included with the sketch. There are also certificates, obituaries, condolence letters, her final will (1864), and a document of disassociation from the Society of Friends (1825). In addition there are her account books (1829-52), drawings, collected verse and a small notebook entitled "Excerpts from the Portfolio of Josiah Landon, 1810" written in her hand.</p>
 		<p>The second subseries, Correspondence, is divided into two sections; Letters from the Wrights and Letters to the Wrights. It includes family letters between spouses, siblings, cousins, friends, parents and children.  They not only provide a view of nineteenth century social history and family life, but also give valuable insights into abolition, suffrage, women's rights and the people involved in those movements.  The letters are interspersed with drawings and full of wit and humor. It should be noted that although they are arranged alphabetically by author, many were evidently handed around before being sent and are authored by two or more people, and many of these letters are round robin and were written to a number of different people. Also, in order to save paper, some letters were written in the blank spaces of other letters and some are written with the script going in two or three directions. Many of these letters have been photocopied for preservation purposes, some have been transcribed and typed copies have been included with the handwritten counterparts. There are also hand written copies made by Martha Coffin Wright for some of the letters. </p>
 		<p>Of special note are letters written from Eagleswood School by Anna Coffin Temple Brown to Lucretia Coffin Mott and from Anna Davis Hallowell to Ellen Wright Garrison; Civil War letters  from William Pelham Wright (1861-63), from his friend Andrew Cowan to William and David Wright (1862-63), and from Marianna Pelham Mott while she was at  Gettysburg caring for her injured brother William (1863);  and European travel letters from Marianna Pelham Mott (1855-69), Thomas Mott (1855-56), and Eliza Wright Osborne (1889, 1903). The letters among Lucretia Coffin Mott, Martha Coffin Wright, Susan B. Anthony, Elizabeth Cady Stanton, Ellen Wright Garrison, Ida Husted Harper, and Victoria Claflin Woodhull provide a particularly detailed description of the seeds of the American women's movement, and the planning of the early women's right conventions, especially the first in 1848 and the third in 1856. </p>
-		<p>Of further interest are early Pelham family letters to Martha Coffin Wright (1824-65); letters from Putnam Catlin, father of artists Julius and George Catlin, to Martha Coffin Wright (1828-39); and letters from Henry Blackwell (1869), Matilda Joslyn Gage  (1870-72), Lucretia and Martha's cousins Mary Hussey Earle (1842-75) and Phebe Hussey Gardner (1843), Sara Jane Lippincott (Grace Greenwood) (1860-65), Wendell Phillips (1860), Parker Pillsbury (1869-73), Theodore Dwight Weld and Angelina Grimk&#233; Weld (1854-62), and a fugitive slave, L. M. Worden (1845-70). </p>
+		<p>Of further interest are early Pelham family letters to Martha Coffin Wright (1824-65); letters from Putnam Catlin, father of artists Julius and George Catlin, to Martha Coffin Wright (1828-39); and letters from Henry Blackwell (1869), Matilda Joslyn Gage  (1870-72), Lucretia and Martha's cousins Mary Hussey Earle (1842-75) and Phebe Hussey Gardner (1843), Sara Jane Lippincott (Grace Greenwood) (1860-65), Wendell Phillips (1860), Parker Pillsbury (1869-73), Theodore Dwight Weld and Angelina Grimké Weld (1854-62), and a fugitive slave, L. M. Worden (1845-70). </p>
 		<p>Writings, the third subseries, includes Hints to Young People On The Duties of Civil Life (1826) by James Mott, and miscellaneous writings of Lucretia Coffin Mott (1828-69) including her Discourse on Women (1850, 1869), a discourse at a Friends Meeting in New York (1866), and a statement to the Equal Rights Convention at Albany (1866). Some of these writings are copies of originals located at the Huntington Library, Swarthmore Peace Collection, and the Historical Society of Pennsylvania.  There are also original and typed copies of Martha Coffin Wright's diaries (1854-74) and her poetry (1844-64). Although the diaries are short entry, they contain references to such notables as Harriet Tubman, Elizabeth Cady Stanton, Susan B. Anthony, and Lucy Stone. Her miscellaneous writings include a draft of "Hints for Wives" which was read by Lucretia Coffin Mott at the Seneca Falls convention (1848). In addition, there are the Civil War writings of William Pelham Wright about the First New York Battery and a diary (1862). The former includes a list of officers, causalities and battles in which the Battery was engaged. </p>
 	  </scopecontent>
   </c01>
@@ -540,8 +541,8 @@ The second subsection contains condolence letters written to family members on t
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1830-2005)</unitdate>
                </unittitle>
@@ -3164,7 +3165,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. DIARIES <unitdate>(1854-1995)</unitdate>
 		</unittitle>
@@ -3454,7 +3455,7 @@ The second subsection contains condolence letters written to family members on t
             </c02>
          </c01>
 
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CORRESPONDENCE <unitdate>(1744-1996)</unitdate>
 		</unittitle>
@@ -14652,7 +14653,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. WRITINGS AND SPEECHES <unitdate>(1829-1999)</unitdate></unittitle>
             </did>
@@ -16344,7 +16345,7 @@ The second subsection contains condolence letters written to family members on t
             </c02>
          </c01>
 
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. FINANCIAL MATERIALS<unitdate> (1812-1993)</unitdate></unittitle> 
             </did>
@@ -16863,7 +16864,7 @@ The second subsection contains condolence letters written to family members on t
             </c02>
          </c01>
 
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. SUBJECT FILES <unitdate>(1810-1966)</unitdate></unittitle>
             </did>
@@ -19760,7 +19761,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. PHOTOGRAPHS <unitdate>(1839-1998)</unitdate></unittitle>
             </did>
@@ -23131,7 +23132,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII. MEMORABILIA <unitdate>(1694-1984)</unitdate></unittitle>
             </did>
@@ -24190,7 +24191,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>SERIES IX. WRIGHT FAMILY <unitdate>(1806-1970)</unitdate></unittitle>
 	    </did>
@@ -27422,7 +27423,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser10">
+         <c01 id="list-ser10" level="series">
             <did>
                <unittitle>SERIES X. STEPHENSON FAMILY<unitdate> (1818-1973)</unitdate></unittitle>
           </did>
@@ -27982,7 +27983,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser11">
+         <c01 id="list-ser11" level="series">
             <did>
                <unittitle>SERIES XI. SCRAPBOOKS <unitdate>(1833-1908)</unitdate></unittitle>
             </did>
@@ -28135,7 +28136,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser12">
+         <c01 id="list-ser12" level="series">
             <did>
                <unittitle>SERIES XII. ARTIFACTS <unitdate>(1833-1914)</unitdate></unittitle>
             </did>
@@ -28603,7 +28604,7 @@ The second subsection contains condolence letters written to family members on t
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serTN">
+         <c01 id="list-serTN" level="series">
             <did>
                <unittitle>TRANSCRIPTIONS AND NOTES</unittitle>
             </did>
@@ -28614,7 +28615,7 @@ The second subsection contains condolence letters written to family members on t
 		</did>
 		</c02>
 	</c01>
-         <c01 level="series" id="list-serRE">
+         <c01 id="list-serRE" level="series">
             <did>
                <unittitle>RESTRICTED MATERIALS</unittitle>
             </did>
@@ -28625,7 +28626,7 @@ The second subsection contains condolence letters written to family members on t
 		</did>
 		</c02>
 	</c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>
@@ -29123,7 +29124,7 @@ The second subsection contains condolence letters written to family members on t
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serBKS">
+         <c01 id="list-serBKS" level="series">
             <did>
                <unittitle>BOOKS ON SHELF</unittitle>
             </did>

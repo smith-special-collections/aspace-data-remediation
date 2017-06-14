@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr10.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr10</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr10.xml//EN">manoscmr10</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Mary Webb Papers, 1898-1926
@@ -51,18 +52,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Webb, Mary Gladys Meredith, 1881-1927</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Mary Webb Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1898-1926</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Mary Webb Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1898-1926</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 8</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 8 UUID:a17e8ae7-af72-4b90-8a7e-69002dd605bb</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(0.5 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">English poet and novelist acknowledged by the Institut Français in 1926 for "the best imaginative work in prose or verse descriptive of English life by an author who has not gained sufficient recognition." Includes 30 holographs and 58 typescript drafts of 80 poems as well as a holograph draft of a book review.
+         <abstract encodinganalog="520$a" label="Abstract:">English poet and novelist acknowledged by the Institut Français in 1926 for "the best imaginative work in prose or verse descriptive of English life by an author who has not gained sufficient recognition." Includes 30 holographs and 58 typescript drafts of 80 poems as well as a holograph draft of a book review.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language> and 
             <language langcode="fre">French</language>
          </langmaterial>
@@ -102,7 +103,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -163,8 +164,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I.  Review by Mary Webb,
                 <unitdate>n.d.</unitdate>
@@ -192,7 +193,7 @@
                </acqinfo>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. Poems of Mary Webb,
                 <unitdate>1898-1926, n.d.</unitdate>

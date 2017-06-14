@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss417.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss417</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss417.xml//EN">mnsss417</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Edith M. Lerrigo Papers, 1922-1989 (bulk 1930-1981)</titleproper>
@@ -32,18 +33,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Lerrigo, Edith Mary</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Lerrigo, Edith Mary</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Edith M. Lerrigo Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1922-1989</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1930-1981</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 608</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Edith M. Lerrigo Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1922-1989</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1930-1981</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 608</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">4 boxes</extent>
 		<extent encodinganalog="300$a">(2 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
 		<address>
@@ -74,7 +75,7 @@
 </p>
 <p>Lerrigo's years (1959-74) at the helm were particularly challenging ones for the organization as it struggled with the social upheaval of the era, including strong pressures to merge with the YMCA, to downplay the Association's Christian purpose, and adoption of the "One Imperative" to eliminate racism.  Lerrigo was unequivocal in her support of the YWCA's role as an important agent for social change.  Tributes at her death describe her as "strong and insightful leader" with "a firm grasp of the problem at hand and [a] creative spirit in approaching it."</p>
 
-<p>In addition to her work in the YWCA, Lerrigo served on the United Church of Christ's Council of Social Christian Action, the  Committee to  Study Ministry on the Campus of the Danforth Foundation, and on the Board and several committees of the National Council of Churches.   She was Co-Chair of the Consultation on Ecumenical Policies and Practices for the Conference of World YMCA and YWCA in Switzerland in 1962, and  active in the National Assembly of Voluntary Health and Social Welfare Organizations, the United Board for Christian Higher Education in Asia, and on the editorial board of the liberal Protestant Christian journal 	<title render="italic" encodinganalog="730">Christianity and Crisis</title> .</p>
+<p>In addition to her work in the YWCA, Lerrigo served on the United Church of Christ's Council of Social Christian Action, the  Committee to  Study Ministry on the Campus of the Danforth Foundation, and on the Board and several committees of the National Council of Churches.   She was Co-Chair of the Consultation on Ecumenical Policies and Practices for the Conference of World YMCA and YWCA in Switzerland in 1962, and  active in the National Assembly of Voluntary Health and Social Welfare Organizations, the United Board for Christian Higher Education in Asia, and on the editorial board of the liberal Protestant Christian journal 	<title encodinganalog="730" render="italic">Christianity and Crisis</title> .</p>
 
 <p>She received honorary degrees from Bates College (1961) and Keuka College (1963).</p>
 
@@ -88,7 +89,7 @@
 	<p>The Edith M. Lerrigo Papers consist of 2 linear ft. and are primarily related to her professional and public life, dating from 1922 to 1989.  Types of materials include correspondence; sermons, prayers, meditations and worship services; speech texts and outlines; photographs;  reports; subject files; and writings. </p>
 <p>The bulk of the papers date from the 1930s to 1981 and consist primarily of notes, outlines, and texts for Lerrigo's many speeches and presentations.</p>
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into six series:</p>
 	<list>
@@ -236,15 +237,15 @@
                </physdesc>
             </did>
             <scopecontent>
-               <p>This series consists of manuscript poems, prayers, and school essays; copies of articles by Lerrigo; and a compilation of articles Lerrigo wrote for 	<title render="italic" encodinganalog="730">The YWCA Magazine</title>  published by the YWCA as a retirement tribute.</p>
+               <p>This series consists of manuscript poems, prayers, and school essays; copies of articles by Lerrigo; and a compilation of articles Lerrigo wrote for 	<title encodinganalog="730" render="italic">The YWCA Magazine</title>  published by the YWCA as a retirement tribute.</p>
 </scopecontent>
  </c01>
 </dsc>
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS AND PROFESSIONAL ACTIVITIES</unittitle>
  </did>
@@ -402,7 +403,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. PHOTOGRAPHS</unittitle>
  </did>
@@ -435,7 +436,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. SERMONS, PRAYERS, MEDITATIONS, AND WORSHIP SERVICES</unittitle>
  </did>
@@ -474,11 +475,6 @@
  <unittitle>New Jersey<unitdate> 1934, n.d.</unitdate></unittitle>
  </did>
  </c02>
- </c01>
- <c01 level="series" id="list-ser4">
- <did>
- <unittitle>SERIES III. SERMONS, PRAYERS, MEDITATIONS, AND WORSHIP SERVICES (cont'd)</unittitle>
- </did>
  <c02>
  <did>
  <container type="box">2</container>
@@ -535,7 +531,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. SPEECHES AND PRESENTATIONS</unittitle>
  </did>
@@ -929,7 +925,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. SUBJECT FILES</unittitle>
  </did>
@@ -955,7 +951,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. WRITINGS</unittitle>
  </did>
@@ -984,7 +980,7 @@
  <did>
  <container type="box">4</container>
  <container type="folder">22</container>
- <unittitle>Compilation of articles written for <title render="italic" encodinganalog="630" source="lcsh">The YWCA Magazine</title> <unitdate>circa 1974</unitdate></unittitle>
+ <unittitle>Compilation of articles written for <title encodinganalog="630" render="italic" source="lcsh">The YWCA Magazine</title> <unitdate>circa 1974</unitdate></unittitle>
  </did>
  </c02>
  </c01>
@@ -994,5 +990,3 @@
 
   </archdesc>
 </ead>
-
-

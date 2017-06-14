@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss84.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss84</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss84.xml//EN">mnsss84</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Canadian American Women's Committee Records, 1941-1969
@@ -50,18 +51,18 @@
       </date>
 
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">Canadian American Women's Committee</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Canadian-American Women's Committee/Association Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1941-1969 </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Canadian-American Women's Committee/Association Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1941-1969 </unitdate>
 
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 355</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 355</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">13 boxes</extent>
             <extent encodinganalog="300$a">(5 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">The Canadian-American Women's Committee was founded as an international organization with the aim of developing appreciation and cooperation between the two countries through increased knowledge.  Records of the American Section and the Connecticut Branch include material on conferences, field study trips, affiliation with the National Council of Women, student exchanges, and administrative records.
+         <abstract encodinganalog="520$a" label="Abstract:">The Canadian-American Women's Committee was founded as an international organization with the aim of developing appreciation and cooperation between the two countries through increased knowledge.  Records of the American Section and the Connecticut Branch include material on conferences, field study trips, affiliation with the National Council of Women, student exchanges, and administrative records.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6233.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6233.jpg" linktype="simple" show="embed">
 <daodesc><p>Letter to May Hall James, January 5, 1944 <lb /><lb /></p></daodesc></dao>
          <p> Vera Beggs and Cairine Wilson believed that the practical international cooperation between Canada and the U.S. developed during World War I could not be trusted to extend into the future solely through treaties and joint boards. In 1941, they founded the Canadian-American Women's Committee, an international organization with the aim of developing appreciation and cooperation between the two countries through increased knowledge. The Committee was composed of two sections. The Canadian division had headquarters in Ottawa, while the its American counterpart was based in New York. Each operated separately to suit their activities to the situation of their respective countries, and joint international conferences of Committee leaders were held to determine general policies. In both countries, the Committee worked a great deal with national women's organizations. In addition, it sponsored educational conferences, field study trips for college students and teachers, student exchanges, teacher exchanges, and lecture tours. Though the Canadian Section disbanded in 1966 and the American section disbanded in 1969, the group established permanent student exchanges. </p>
       </bioghist>
@@ -107,7 +108,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -149,7 +150,7 @@
          <persname encodinganalog="600" source="lcnaf">Beggs, Vera W. (Vera Wadsworth), d. 1968</persname>
          <corpname encodinganalog="610" source="lcnaf">Canadian-American Women's Committee--History--Sources</corpname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -157,8 +158,8 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. SUBJECTS</unittitle>
             </did>
@@ -407,7 +408,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. AMERICAN SECTION</unittitle>
             </did>
@@ -572,7 +573,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CONNECTICUT BRANCH</unittitle>
             </did>
@@ -645,7 +646,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. STUDENT EXCHANGES</unittitle>
             </did>

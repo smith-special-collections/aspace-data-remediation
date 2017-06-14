@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss575.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss575</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss575.xml//EN">mnsss575</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Women of Color Resource Center Records, 1984-2011</titleproper>
@@ -38,15 +36,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <corpname encodinganalog="110" source="lcnaf">Women of Color Resource Center</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Women of Color Resource Center Records</unittitle><unitdate type="inclusive" label="Dates:">1984-2011</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 718</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Women of Color Resource Center Records</unittitle><unitdate label="Dates:" type="inclusive">1984-2011</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 718</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">5 boxes</extent>
         <extent encodinganalog="300$a">(5 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -57,7 +54,7 @@ repositorycode="mnsss">MS 718</unitid>
             </address>
          </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Women of color grassroots network; Welfare rights, reproductive rights, and women's health advocacy organization in Oakland, California The WCRC seeks to educate and empower women and girls of color, helping them to become effective leaders while at the same time advocating for public policies that help women of color, and bringing their concerns to the forefront of all social justice and women's rights movements.  The WCRC has also sought to build transnational relationships with sister organizations around the world. The records document the organization's advocacy for women and families of color and issues around race, gender, poverty and social justice activism in the U.S; global  women's issues and advocacy for women's rights, reproductive health and economic development, Records include publications, pamphlets and catalogs of the WCRC; programming materials, conference reports, background research files, and audiovisual material. [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith Collection if you would like one sent to you.]
          </abstract>
 </did>
@@ -178,6 +175,4 @@ record.</p>
 Oppression; the Third World Women's Alliance; and the Miriam Ching Yoon Louie Papers.</p>
       </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
-
+</ead><!-- END OF FILE -->

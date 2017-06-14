@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss296.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss296</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss296.xml//EN">mnsss296</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Mabel Cratty Papers 1904-1928 (bulk 1913-28)</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Cratty, Mabel, 1868-1928</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Cratty, Mabel, 1868-1928</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Mabel Cratty Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1904-1928</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1913-1928</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 600</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Mabel Cratty Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1904-1928</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1913-1928</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 600</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">2 boxes</extent>
 		<extent encodinganalog="300$a">(.75 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
 		<address>
@@ -75,7 +76,7 @@
 
     <scopecontent id="scope">
 	<head>Scope and Contents of the Collection</head>
-	<p>The Mabel Cratty Papers consist of .75 linear ft. and are primarily related to her work as General Secretary of the YWCA of the U.S.A. between 1906 and her death in 1928.  Types of materials include biographical materials, notebooks, "daily reminder" diaries, and a small amount of correspondence.  Included also is Margaret Burton's book 	<title render="italic" encodinganalog="630" source="lcsh">Mabel Cratty:  Leader in the Art of Leadership</title>  (1929), a compilation of Cratty's speeches and writings with a biographical sketch by Burton.</p>
+	<p>The Mabel Cratty Papers consist of .75 linear ft. and are primarily related to her work as General Secretary of the YWCA of the U.S.A. between 1906 and her death in 1928.  Types of materials include biographical materials, notebooks, "daily reminder" diaries, and a small amount of correspondence.  Included also is Margaret Burton's book 	<title encodinganalog="630" render="italic" source="lcsh">Mabel Cratty:  Leader in the Art of Leadership</title>  (1929), a compilation of Cratty's speeches and writings with a biographical sketch by Burton.</p>
 
 <p>The small amount of correspondence consists mainly of typed excerpts of letters by Mabel Cratty which appear to have been collected as part of memorial acitivities after her death.</p>
 
@@ -130,7 +131,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -142,7 +143,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">2</container>
- <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Mabel Cratty: Leader in the Art of Leadership</title>  by Margaret Burton (NY: The Woman's Press)<unitdate> 1929</unitdate></unittitle>
+ <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Mabel Cratty: Leader in the Art of Leadership</title>  by Margaret Burton (NY: The Woman's Press)<unitdate> 1929</unitdate></unittitle>
  </did>
  </c01>
  <c01>
@@ -203,5 +204,3 @@
 
   </archdesc>
 </ead>
-
-

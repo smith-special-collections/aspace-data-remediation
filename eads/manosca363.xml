@@ -1,7 +1,8 @@
-<ead>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
 
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca363.xml//EN" countrycode="us" mainagencycode="manosca">manosca363</eadid>
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca363.xml//EN">manosca363</eadid>
 <filedesc>
 <titlestmt>
 <titleproper encodinganalog="245$a">Vocational Office, 1879 - 1972</titleproper>
@@ -12,7 +13,7 @@
 <publisher encodinganalog="260$b">Smith College Archives</publisher>
 <address>
 <addressline>Northampton, MA</addressline>
-<addressline></addressline>
+<addressline/>
 </address>
 <date encodinganalog="260$c" normal="2014">2014</date>
 </publicationstmt>
@@ -31,22 +32,22 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<corpname source="lcnaf" encodinganalog="110">Smith College. Vocational Office.</corpname>
+<corpname encodinganalog="110" source="lcnaf">Smith College. Vocational Office.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Vocational Office Records</unittitle>
-<unitdate type="inclusive" label="Dates:">1879 - 1972</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 34.07</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Vocational Office Records</unittitle>
+<unitdate label="Dates:" type="inclusive">1879 - 1972</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 34.07</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">61 boxes</extent>
 <extent encodinganalog="300$a">( 25 linear ft.)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 <repository label="Location:">
 <corpname>Smith College Archives</corpname>
 <address>
 <addressline>Northampton, MA</addressline>
-<addressline></addressline>
+<addressline/>
 </address>
 </repository>
 <abstract encodinganalog="520$a" label="Abstract:">
@@ -57,8 +58,8 @@ The collection is comprised of general office records, fellowship records, recom
 <!-- Enter collection level metadata -->
 <bioghist id="bioghist">
 <head>Historical Note</head>
-<p>The first career center at Smith began as the Teachers Registration Bureau &#34;in which alumnae who are teachers or who expect to teach may be registered with full particulars as to their specialties, experience, etc.&#34;</p>  
-<p>In 1917, it was renamed the Appointment Bureau and put under the direction of Helen Wright &#40;Class of 1905&#41;. To support the Appointment Bureau, the College also established the Office of the Educational Consultant in cooperation with the Alumnae Association. Members of the Office of the Educational Consultant visited Smith alumnae at their places of employment and developed programming to cultivate students' interest in teaching and academic administration. </p>
+<p>The first career center at Smith began as the Teachers Registration Bureau "in which alumnae who are teachers or who expect to teach may be registered with full particulars as to their specialties, experience, etc."</p>  
+<p>In 1917, it was renamed the Appointment Bureau and put under the direction of Helen Wright (Class of 1905). To support the Appointment Bureau, the College also established the Office of the Educational Consultant in cooperation with the Alumnae Association. Members of the Office of the Educational Consultant visited Smith alumnae at their places of employment and developed programming to cultivate students' interest in teaching and academic administration. </p>
 <p>In 1925, the office went through a complete reorganization and expansion, and by 1927 it was known as the Personnel Office. The Personnel Office collected data pertaining to the training, academic standing, and the physical appearance of students. For a dollar, seniors could register with the office so that a dossier of complete information would be given to employers including qualifications, employment history, and faculty recommendations. The office also offered academic assessment and advising for students by addressing needs, charting progress and development, and providing post-graduate mentorship.  The expansion of the Personnel Office and greater student enrollment figures allowed for students to take part in programs outside the field of education. </p>
 <p>In 1933, the Personnel Office was discontinued due to budget cuts. However, with 1,824 students registered, the work was continued under the direction of Marjory P. Nield (Class of 1921) and the name was, again, changed to the Vocational Office.  The Vocational Office continued to provide guidance but placed greater emphasis on job placement. During World War II (1939-1945), the office responded to the demands of government agencies and facilitated placement of students into the armed services in addition to their usual programs.</p>
 <p>In the mid 70's the Vocational Office was reorganized into the Career Development Office. Today, the Lazarus Center for Career Development provides preparation in undergraduate and post-graduate opportunities as well as individual advising, access to resources, alumnae networking opportunities, and more.</p>
@@ -69,7 +70,7 @@ The collection is comprised of general office records, fellowship records, recom
 	<p>The files are organized into 61 boxes. Boxes 1 through 46 are arranged chronologically by class year. Boxes 47 through 61 are arranged alphabetically by subject; folders are arranged chronologically. The collection is divided into three series.</p>
     </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into three series:</p>
 	<list>
@@ -168,8 +169,8 @@ The collection is comprised of general office records, fellowship records, recom
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>Series I: Class Files</unittitle>
       </did>
@@ -509,7 +510,7 @@ The collection is comprised of general office records, fellowship records, recom
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>Series II:  General Files</unittitle>
       </did>
@@ -584,7 +585,7 @@ The collection is comprised of general office records, fellowship records, recom
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>Series III: World War II</unittitle>
       </did>

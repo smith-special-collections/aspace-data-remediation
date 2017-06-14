@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca38.xml//EN" countrycode="us" mainagencycode="manosca">manosca38</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca38.xml//EN">manosca38</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Julius Seelye Bixler Papers, 1926-1969
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -44,17 +45,17 @@
 <author>Gayla B. Spaulding</author>
 <date>2001</date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Bixler, Julius Seelye, 1894- </persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Julius Seelye Bixler Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1926-1969</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Julius Seelye Bixler Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1926-1969</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:78e49dc7-164f-4825-a0e2-f761cc965fd0</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.45 linear ft.)</extent>
@@ -65,7 +66,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Professor of Religion at Smith College and later President of Colby College.  Contains correspondence, biographical information, lecture notes, photographs, publications and writings spanning Bixler's career.
+<abstract encodinganalog="520$a" label="Abstract:">Professor of Religion at Smith College and later President of Colby College.  Contains correspondence, biographical information, lecture notes, photographs, publications and writings spanning Bixler's career.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -88,7 +89,7 @@
 <head>Scope and Contents of the Collection</head>
 <p>The Julius Seelye Bixler Papers contain publications spanning Bixler's career.  The publications are on the topics of religion, biblical literature and philosophy ranging in date from 1926 through 1969 and two undated publications.</p>
 </scopecontent>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -122,7 +123,7 @@
 <persname encodinganalog="600" source="lcnaf">Bixler, Julius Seelye, 1894-</persname>
 <corpname encodinganalog="610" source="lcsh">Smith College--Faculty.</corpname>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <bibliography>
 <head>Bibliography</head>
@@ -134,7 +135,7 @@
 <p><title render="italic">Education for Adversity</title>, 1952</p>
 </bibliography>
 </descgrp>
-<dsc type="in-depth" id="contlist">
+<dsc id="contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">681</container>

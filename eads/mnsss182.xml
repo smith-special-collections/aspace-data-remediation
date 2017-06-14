@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss182.html">mnsss182</eadid>
 
 	<filedesc>
@@ -33,21 +34,21 @@
 		<titleproper encodinganalog="245$a">Employment Collection, 1817-1991 (bulk 1920-1976) </titleproper>
 		<subtitle>Finding Aid</subtitle> 
 		<num>MS 456</num> 
-		<author encodinganalog="245$c"></author> 
+		<author encodinganalog="245$c"/> 
 		<date>Revised 2004</date> 
 		 
 		 
-		<p>&#169; 2005 Smith College. All rights reserved.</p> 
+		<p>© 2005 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
 <archdesc level="collection" relatedencoding="MARC21">
 <did id="main">
 	<head>Collection Overview</head>
-		<unittitle label="Title:" encodinganalog="245$a">Employment Collection</unittitle><unitdate label="Dates:">1817-1991</unitdate>
-			<unitdate type="bulk" encodinganalog="245$g">1920-1976</unitdate>
+		<unittitle encodinganalog="245$a" label="Title:">Employment Collection</unittitle><unitdate label="Dates:">1817-1991</unitdate>
+			<unitdate encodinganalog="245$g" type="bulk">1920-1976</unitdate>
 		
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 456</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 456</unitid>
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">67 boxes, 43 volumes</extent>
 			<extent encodinganalog="300$a">(30.5 linear ft.)</extent>
@@ -74,14 +75,14 @@
 
 <scopecontent id="scope">
 <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2715.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2715.jpg" linktype="simple" show="embed">
 <daodesc><p>Group of bakers, ca. 1880</p></daodesc></dao>
 <p>The Employment Collection is comprised primarily of printed materials and includes publications, pamphlets, periodicals, handbooks, statistics, bibliographies, biographies, reports, and newsletters pertaining to the employment of women.  There are also unpublished writings and correspondence, photographs, and ephemera. The collection dates from 1817 to 1991, with the bulk dating from 1920 to 1976.  Major topics include affirmative action, sex discrimination, labor organizing, married women, child labor, minority women, protective legislation, volunteer services, and specific occupations in relation to women.  A section on the status of women in labor is arranged by country, primarily England and the U.S., then by states in the U.S.  
 </p>
 <p>There is general material related to women in over eighty different occupations, including a large amount on women in academic occupations, as well as women in the armed services, aviation, government and politics, law, science, social work, and philanthropy.  There are also materials related to women domestic workers, immigrant workers, women in industry, jury duty, wartime work, Social Security, and day care.  There is a substantial amount of information on women labor leaders and union members, primarily in the Women's Trade Union League, United Electrical Workers, and the Working Women's Protective Union.  There are also numerous publications by the Women's Bureau of the United States Department of Labor.  Other items of interest include a photographic collection entitled "Women at Work: Views and Visions from the Pioneer Valley, 1870-1945"; a board game from 1890, "Round the World with Nellie Bly"; interviews of Samuel Gompers and Jane Addams about Hull House conducted by Lucy Robbins Lang; a payroll ledger from Ashuelot, NH, circa 1870s; and posters from Geraldine Ferraro's vice-presidential campaign.
 </p></scopecontent>
 
-      <arrangement id="scope-org" encodinganalog="351$a">
+      <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into fourteen series:</p>
 	<list>
@@ -140,7 +141,7 @@
 <!-- End collection level metadata -->
 
       <!-- Enter administrative information -->
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
 		<head>Terms of Access and Use</head>
@@ -207,7 +208,7 @@
 
 <!-- Enter additional information -->
 
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <otherfindaid id="add-otherfind">
 <head>Additional Finding Aids Available</head>
@@ -220,8 +221,8 @@
 <!-- End additional information -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. GENERAL</unittitle>
  </did>
@@ -516,7 +517,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. COUNTRIES</unittitle>
  </did>
@@ -1279,7 +1280,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. DOMESTIC SERVICE </unittitle>
  </did>
@@ -1395,7 +1396,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. INDUSTRIAL RELATIONS </unittitle>
  </did>
@@ -1613,7 +1614,7 @@
  <container type="box">18</container>
  <unittitle>Open Door International</unittitle>
  </did>
- <note><p>[see also <title render="italic">La Travailleuse Tranqu&#233;e</title> in 
+ <note><p>[see also <title render="italic">La Travailleuse Tranquée</title> in 
  <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss478_main.html">Periodicals Collection</extref>]</p></note>
  <c03>
  <did>
@@ -1686,7 +1687,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. OCCUPATIONS</unittitle>
  </did>
@@ -2681,7 +2682,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. ACADEMIC WOMEN</unittitle>
  </did>
@@ -3199,7 +3200,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. COLLEGES AND UNIVERSITIES</unittitle>
  </did>
@@ -3518,7 +3519,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. ARMED SERVICES AND AVIATION</unittitle>
  </did>
@@ -3689,7 +3690,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. GOVERNMENT AND POLITICS</unittitle>
  </did>
@@ -4463,7 +4464,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser10">
+ <c01 id="list-ser10" level="series">
  <did>
  <unittitle>SERIES X. LABOR LEADERS </unittitle>
  </did>
@@ -4610,7 +4611,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser11">
+ <c01 id="list-ser11" level="series">
  <did>
  <unittitle>SERIES XI. LAW</unittitle>
  </did>
@@ -4926,7 +4927,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser12">
+ <c01 id="list-ser12" level="series">
  <did>
  <unittitle>SERIES XII. SCIENCES</unittitle>
  </did>
@@ -5200,7 +5201,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser13">
+ <c01 id="list-ser13" level="series">
  <did>
  <unittitle>SERIES XIII. SOCIAL WORK AND PHILANTHROPY</unittitle>
  </did>
@@ -5394,7 +5395,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser14">
+ <c01 id="list-ser14" level="series">
  <did>
  <unittitle>SERIES XIV. TRADE UNIONS</unittitle>
  </did>
@@ -5947,7 +5948,7 @@
  </c02>
  <c02>
  <did>
- <unittitle>&quot;The Women's Bureau <unitdate>1920-50: </unitdate>Federal Reaction to Female Wage Earning,&quot; by Judith Anne Sealander (Ph.D. dissertation, Duke University), 1977</unittitle>
+ <unittitle>"The Women's Bureau <unitdate>1920-50: </unitdate>Federal Reaction to Female Wage Earning," by Judith Anne Sealander (Ph.D. dissertation, Duke University), 1977</unittitle>
  </did>
  </c02>
  <c02>
@@ -5967,5 +5968,3 @@
 
 </archdesc>
 </ead>
-
-

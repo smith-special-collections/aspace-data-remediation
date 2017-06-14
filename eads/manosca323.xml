@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca323.xml//EN" countrycode="us" mainagencycode="manosca">manosca323</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca323.xml//EN">manosca323</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Debate Society Records, 1901-2004</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2013">2013</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Debate Society</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Debate Society</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Debate Society Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1901-2004</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Debate Society Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1901-2004</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 80</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:e41a7e3f-67d4-4a33-8f87-b2bb4ac3ab74</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">1 box</extent>
 		<extent encodinganalog="300$a">(.03 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -104,7 +105,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">3012</container>
@@ -183,5 +184,3 @@
 
   </archdesc>
 </ead>
-
-

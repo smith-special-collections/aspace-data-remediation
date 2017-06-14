@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss391.html">mnsss391</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss391.html">mnsss391</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Annetta Thompson Mills Papers, 1857-1993</titleproper>
@@ -13,7 +12,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss391.html">mnsss39
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2006</date>
+         <date calendar="gregorian" era="ce">© 2006</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -36,7 +35,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss391.html">mnsss39
    <date encodinganalog="260$c">2006</date>
    
 
-       <p>&#169; 2006 Smith College. All rights reserved.</p>
+       <p>© 2006 Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -45,14 +44,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss391.html">mnsss39
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Mills, Annetta Thompson, 1853-1993</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Annetta Thompson Mills Papers</unittitle><unitdate label="Dates:">1857-1993</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 455</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Annetta Thompson Mills Papers</unittitle><unitdate label="Dates:">1857-1993</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 455</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">1 box</extent>
           <extent encodinganalog="300$a">(1.25 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -64,7 +62,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss391.html">mnsss39
             </address>
          </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Missionary; Teacher. Collection consists primarily of materials about the life of Annetta Thompson Mills and the history of the Yantai (Chefoo) School for the Deaf in Yantai, China.  NOTE: There is no container list online for this finding aid.  You may contact the Sophia Smith Collection if you want one sent to you.
+      <abstract encodinganalog="520$a" label="Abstract:">Missionary; Teacher. Collection consists primarily of materials about the life of Annetta Thompson Mills and the history of the Yantai (Chefoo) School for the Deaf in Yantai, China.  NOTE: There is no container list online for this finding aid.  You may contact the Sophia Smith Collection if you want one sent to you.
     </abstract>
 </did>
 <bioghist id="bioghist">
@@ -78,7 +76,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss391.html">mnsss39
 Sophia Smith Collection if you want one sent to you.</p>
 </scopecontent>
  
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -119,7 +117,7 @@ record.</p>
 
  </controlaccess>
 
-  <descgrp type="add" id="addinfo">
+  <descgrp id="addinfo" type="add">
       <head>Additional Information</head>
       <relatedmaterial id="add-related">
           <head>Related Material</head>
@@ -128,5 +126,4 @@ the Yale Divinity School China Collection; and the Presbyterian Historical Socie
       </relatedmaterial>
     </descgrp>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

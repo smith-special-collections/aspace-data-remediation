@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca312.html">manosca312</eadid>
 
 	<filedesc>
@@ -13,7 +14,7 @@
 			<address>
 				<addressline>Northampton, MA</addressline>
 			</address>
-			<date>&#169; 2008</date>
+			<date>© 2008</date>
 			<p>Smith College. All rights reserved.</p>
 		</publicationstmt>
 </filedesc>
@@ -36,7 +37,7 @@
 		<author>Eileen Crosby-Ballou</author> 
 		<date>2008</date> 
 		 
-		<p>&#169; 2008 Smith College. All rights reserved.</p> 
+		<p>© 2008 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -44,19 +45,19 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Nichols, Elizabeth A.</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Nichols, Elizabeth A.</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Elizabeth A. Nichols Papers
+		<unittitle encodinganalog="245$a" label="Title:">Elizabeth A. Nichols Papers
 			<unitdate label="Dates:">1989-1990</unitdate>
 			
 		</unittitle>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 80. Class of 1990.</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80. Class of 1990.</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">1 box</extent>
 			<extent encodinganalog="300$a">(.5 linear feet)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+		<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 		<repository label="Location:">
@@ -86,8 +87,8 @@
 <table>
 
   <tgroup cols="2">  
-     <colspec colnum="1" colname="1" colwidth="50"/> 
-     <colspec colnum="2" colname="2" colwidth="50"/> 
+     <colspec colname="1" colnum="1" colwidth="50"/> 
+     <colspec colname="2" colnum="2" colwidth="50"/> 
   <thead>
     <row>
       <entry colname="1">Lecturer/Professor</entry> 
@@ -226,7 +227,7 @@
 <!-- Insert container list here:-->
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">1</container>
@@ -386,5 +387,3 @@
 
 </archdesc>
 </ead>
-
-

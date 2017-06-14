@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss118.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss118</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss118.xml//EN">mnsss118</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Emma Elizabeth Walker Papers, 1899-1954
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Walker, Emma Elizabeth, 1864-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Emma Elizabeth Walker Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1899-1954</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Emma Elizabeth Walker Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1899-1954</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 169</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 169</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -73,16 +74,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Physician; Children's author; Anti-suffragist; Birth control advocate; and Public health advocate.  Papers consist primarily of Walker's writings and lectures, but also contain small amounts of biographical material and correspondence; plus information on women's health, the social and moral hygiene movements, turn-of-the-century childrearing practices, birth control and sexuality.
+         <abstract encodinganalog="520$a" label="Abstract:">Physician; Children's author; Anti-suffragist; Birth control advocate; and Public health advocate.  Papers consist primarily of Walker's writings and lectures, but also contain small amounts of biographical material and correspondence; plus information on women's health, the social and moral hygiene movements, turn-of-the-century childrearing practices, birth control and sexuality.
 
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6351.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6351.jpg" linktype="simple" show="embed">
 <daodesc><p>"Dr. Walker's Talks on Diet," <lb />from <title render="italic">Success Magazine</title>, June 1906</p></daodesc></dao>
          <p> Emma Elizabeth Walker was born in Springfield, Massachusetts, July 18, 1864. She grew up in Parkersburg, WV, received her A.B. from Smith College in 1887, and earned an M.D. from Johns Hopkins University in 1898. Later that year she opened her medical practice in New York City. For many years she was a clinical assistant surgeon in New York's Hospital for the Ruptured and Crippled. She authored Beauty Through Hygiene (1905), "Pretty Girl Questions" in Ladies Home Journal, and many articles and pamphlets for both popular and medical audiences. She lectured widely on the topics of personal and social hygiene and was a member of numerous medical and professional organizations.</p>
       </bioghist>
@@ -90,7 +91,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The Emma Elizabeth Walker Papers document her professional life.  They consist primarily of Walker's writings and lectures, but also contain small amounts of biographical material and correspondence.  In addition to documenting the work of a woman doctor at the turn of the century, the collection contains material relevant to women's health, the social and moral hygiene movements, turn-of-the-century childrearing practices, birth control and sexuality.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -127,7 +128,7 @@
          <subject encodinganalog="650" source="lcsh">Women--Health and hygiene--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women physicians--United States--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -137,7 +138,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

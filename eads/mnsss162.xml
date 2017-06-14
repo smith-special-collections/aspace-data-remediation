@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss162.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss162</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss162.xml//EN">mnsss162</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Candace Thurber Stevenson Papers, 1916-1965</titleproper>
@@ -47,18 +48,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Stevenson, Candace Thurber   </persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Candace Thurber Stevenson Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1916-65</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Candace Thurber Stevenson Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1916-65</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 155</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 155</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">7 boxes</extent>
             <extent encodinganalog="300$a">(2.5 linear ft.)</extent>
@@ -70,15 +71,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Poet and teacher. The papers include manuscripts of poems and stories; correspondence; materials related to writers' conferences and workshops; and Stevenson's book, <title>First the Blade</title>. Correspondence with editors, literary agents, readers, colleagues and friends reveal her personal life and career as a poet and writer.
+         <abstract encodinganalog="520$a" label="Abstract:">Poet and teacher. The papers include manuscripts of poems and stories; correspondence; materials related to writers' conferences and workshops; and Stevenson's book, <title>First the Blade</title>. Correspondence with editors, literary agents, readers, colleagues and friends reveal her personal life and career as a poet and writer.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6173.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6173.jpg" linktype="simple" show="embed">
 <daodesc><p>Cover design draft for Stevenson's <lb /><title render="italic">First the Blade</title>   ,undated</p></daodesc></dao> 
          <p> Candace Thurber was born in Brooklyn, NY in 1883.  Her mother supported the family by taking in boarders.  She graduated from the Packard Institute,  received her A.B. from  Smith College in 1904, and her M.A. from Columbia University.  After completing her education she taught English in a private school and  co-owned a children's bookstore in New York City.  In 1912 she married  Thomas Kennedy Stevenson,  They had one daughter, Caroline.  During her adult years Candace Stevenson lived in Missouri, New York City, and Vermont.  Many of her poems appeared on the editorial page of the New York Times.   She submitted many of her stories to magazines but endured much rejection.  She published a collection of her poems, <title render="italic">First the Blade</title>, in 1952.  Stevenson died July 30, 1968.</p>
       </bioghist>
@@ -101,7 +102,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -136,7 +137,7 @@
          <subject encodinganalog="650" source="lcsh">Poets, American--20th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women authors, American --20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -144,7 +145,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>
@@ -152,7 +153,7 @@
                <unittitle>Contents</unittitle>
             </did>
          </c01>
-         <c01 level="series" id="list-ser1">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
             </did>
@@ -210,7 +211,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CONFERENCES AND ORGANIZATIONS</unittitle>
             </did>
@@ -247,7 +248,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
             </did>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss122.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss122</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss122.xml//EN">mnsss122</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Women's Liberation Collection, 1959-2006
@@ -46,16 +47,16 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Women's Liberation Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1959-2006</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Women's Liberation Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1959-2006</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1966-78</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 408</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 408</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">26 boxes; 6 books</extent>
             <extent encodinganalog="300$a">(11 linear ft.)</extent>
@@ -67,8 +68,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">This collection documents the mid-20th century women's liberation movement in the United States. Materials include printed material, bibliographies, book reviews, books, catalogs, correspondence, position papers, publicity, questionnaires, reports, resolutions, speeches, photographs and audiotapes. There is also memorabilia and ephemera.  Also included are organizational files of the National Organization for Women, and local groups such as New York City's Redstockings and Berkeley's Women's History Research Library, among others. Individuals represented in the collection include Ti-Grace Atkinson, Shulamith Firestone, Betty Friedan, Germaine Greer, Kate Millett, Robin Morgan and Gloria Steinem. </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">This collection documents the mid-20th century women's liberation movement in the United States. Materials include printed material, bibliographies, book reviews, books, catalogs, correspondence, position papers, publicity, questionnaires, reports, resolutions, speeches, photographs and audiotapes. There is also memorabilia and ephemera.  Also included are organizational files of the National Organization for Women, and local groups such as New York City's Redstockings and Berkeley's Women's History Research Library, among others. Individuals represented in the collection include Ti-Grace Atkinson, Shulamith Firestone, Betty Friedan, Germaine Greer, Kate Millett, Robin Morgan and Gloria Steinem. </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -86,7 +87,7 @@
     newspaper clippings, pamphlets, photographs, position papers,
     posters, publicity, questionnaires, reports, resolutions,
     songbooks, and speeches.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4411.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4411.jpg" linktype="simple" show="embed">
 <daodesc><p>Campaign poster for Massachusetts primary,<lb /> Shirley Chisholm for President, 1972</p></daodesc></dao> 
          <p>Individuals represented in the collection include Ti-Grace
     Atkinson, Shulamith Firestone, Betty Friedan, Germaine Greer,
@@ -113,7 +114,7 @@
     women's liberation and the dramatic cultural shifts ushered
     in by feminists during their heyday in the 1970s.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -178,8 +179,8 @@
 	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
       </controlaccess>
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>INTERNATIONAL</unittitle>
  </did>
@@ -315,7 +316,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>UNITED STATES</unittitle>
  </did>
@@ -1833,7 +1834,7 @@
  <c03>
  <did>
  <container type="box">16</container>
- <unittitle>Gabrielle Burton, I'm Running Away&#8230; (Know, Inc.,<unitdate> 1972) </unitdate>[on shelf]</unittitle>
+ <unittitle>Gabrielle Burton, I'm Running Away… (Know, Inc.,<unitdate> 1972) </unitdate>[on shelf]</unittitle>
  </did>
  </c03>
  <c03>
@@ -2298,7 +2299,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -2328,7 +2329,7 @@
  <c03>
  <did>
  <container type="map-case">Flat file drawer 7</container>
- <unittitle>The Women's Street Theater, "This is a Cranky&#8230;," <unitdate>n.d.</unitdate></unittitle>
+ <unittitle>The Women's Street Theater, "This is a Cranky…," <unitdate>n.d.</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -2423,7 +2424,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serBK">
+ <c01 id="list-serBK" level="series">
  <did>
  <unittitle>BOOKS</unittitle>
  </did>
@@ -2466,7 +2467,7 @@
  <c02>
  <did>
  <container type="box">25</container>
- <unittitle><title render="italic">How To Go To Work When Your Husband Is Against It</title>&#8230;by Felice N. Schwartz,<unitdate> 1972</unitdate></unittitle>
+ <unittitle><title render="italic">How To Go To Work When Your Husband Is Against It</title>…by Felice N. Schwartz,<unitdate> 1972</unitdate></unittitle>
  </did>
  </c02>
  <c02>

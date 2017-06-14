@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss169.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss169</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss169.xml//EN">mnsss169</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Vivion Lenon Brewer Papers, 1947-1991</titleproper>
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Brewer, Vivion Lenon</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Vivion Lenon Brewer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1947-1991</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Vivion Lenon Brewer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1947-1991</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 20</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 20</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">10 boxes</extent>
             <extent encodinganalog="300$a">(3.5 linear ft.)</extent>
@@ -72,16 +73,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Co-founder, Women's Emergency Committee to Open Our Schools; volunteer; banker; and lawyer. A native of Arkansas, Vivion Brewer was an advocate of civil rights and integration and also participated in several women's organizations. This collection sheds some light on her personal and professional life, as well as offering insight into larger questions about the motives and experiences of white Southerners who opposed racism and segregation. Materials include writings, diaries, correspondence, photographs, and various records. Also included are her typescript memoir entitled "The Embattled Ladies of Little Rock;" and organizational material from the Women's Emergency Committee to Open Our Schools such as minutes.
+         <abstract encodinganalog="520$a" label="Abstract:">Co-founder, Women's Emergency Committee to Open Our Schools; volunteer; banker; and lawyer. A native of Arkansas, Vivion Brewer was an advocate of civil rights and integration and also participated in several women's organizations. This collection sheds some light on her personal and professional life, as well as offering insight into larger questions about the motives and experiences of white Southerners who opposed racism and segregation. Materials include writings, diaries, correspondence, photographs, and various records. Also included are her typescript memoir entitled "The Embattled Ladies of Little Rock;" and organizational material from the Women's Emergency Committee to Open Our Schools such as minutes.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p> Vivion Lenon Brewer was born on October 6, 1900 in Little Rock, Arkansas to Clara Mercer and Warren E. Lenon, a prominent local Democrat who served as Little Rock's mayor from 1903-1908.  After graduating from Little Rock High School, Brewer left the South to attend Smith College, where she majored in sociology.  She returned to Little Rock after her graduation from Smith in 1921 and, until 1923, worked as her father's secretary.   During the period 1924-26 Brewer worked briefly as a bookkeeper and a gift shop owner before she left to spend a year traveling through Europe.  In 1926 Brewer returned to Little Rock once again, resumed working in her father's bank by day, and began working toward her law degree at night.  She graduated from Arkansas Law School in 1928, the same year she was elected Vice President of the bank.  Despite passing the Arkansas bar exam in 1929, Brewer chose to continue at the bank rather than working as an attorney.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6180.jpg" altrender="left">
+<dao actuate="onLoad" altrender="left" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6180.jpg" linktype="simple" show="embed">
 <daodesc><p>Joe and Vivion Brewer, August 1959</p></daodesc></dao> 
          <p> In 1930 Vivion Lenon married Joseph Brewer, the nephew of Senator Joseph T. Robinson who had run for Vice President alongside Democratic Presidential candidate Al Smith in 1928.  The couple lived in Washington, D.C. for sixteen years as Joe Brewer held a succession of Federal government positions including secretary to his uncle, then the Senate Majority leader, and executive positions in the Department of Justice and Department of the Interior.  During her time in Washington, D.C., Vivion Brewer endured both a serious four-year-long illness and the birth and death of her only child in 1933.  She also became close to an African-American woman she employed and, through that friendship, gained new insights about the destructive impact of racism and segregation in the U.S.  In 1946, following Joe's return from military service during World War II, the Brewers decided to return to Arkansas.  Joe accepted a job as the personnel officer at the North Little Rock Veterans Administration Hospital and the couple settled on a piece of old Brewer family property in Scott, Arkansas.</p>
          <p> Over the next decade Vivion spent her time renovating the Brewer property and participating in organizations such as the American Association of University Women and the League of Women Voters.  It was not until 1958, when the crisis erupted over the issue of integrating Little Rock's high schools, that Brewer finally acted on the anti-racist impulses she had discovered in herself twenty years earlier.  When Governor Orval Faubus chose to close Little Rock public schools rather than integrate them, Brewer, along with several other prominent local women, organized the Women's Emergency Committee to Open Our Schools and became some of the most visible white advocates of integration.   After the Little Rock schools re-opened and the Women's Emergency Committee disbanded Brewer continued her activism by organizing educational programs for African-American children.   Smith College recognized her work by awarding her an honorary doctorate in 1961.  After Joe Brewer died in 1988 Vivion went to Pasadena, California to live with her niece.   She died there in June, 1991, at age 90.</p>
@@ -115,7 +116,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -214,8 +215,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
                <unitdate>(1958-91)</unitdate>
@@ -347,7 +348,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
                <unitdate>(1956-72)</unitdate>
@@ -449,7 +450,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. ORGANIZATIONS AND ACTIVITIES</unittitle>
                <unitdate>(1957-69)</unitdate>
@@ -727,7 +728,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. SUBJECT FILES</unittitle>
                <unitdate>(1947-72)</unitdate>
@@ -1110,7 +1111,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>
@@ -1156,7 +1157,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serBKS">
+         <c01 id="list-serBKS" level="series">
             <did>
                <unittitle>BOOKS ON SHELF</unittitle>
             </did>

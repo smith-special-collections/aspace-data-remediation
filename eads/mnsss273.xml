@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss273.html">mnsss273</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss273.html">mnsss273</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Abby Shute Merchant Papers, 1882-1982</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss273.html">mnsss27
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss273.html">mnsss27
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss273.html">mnsss27
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Merchant, Abby</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Abby Shute Merchant Papers</unittitle><unitdate label="Dates:">1912-1940</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 102</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Abby Shute Merchant Papers</unittitle><unitdate label="Dates:">1912-1940</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 102</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">1 box</extent>
           <extent encodinganalog="300$a">(.5 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,12 +66,12 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss273.html">mnsss27
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Playwright. Typescripts of plays, some with explanatory notes.  
+      <abstract encodinganalog="520$a" label="Abstract:">Playwright. Typescripts of plays, some with explanatory notes.  
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6430.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6430.jpg" linktype="simple" show="embed">
 <daodesc><p>Program cover for the Equity 48th Street <lb />production of <title render="italic">The New Englander</title>, 1924</p></daodesc></dao>
        <p>Abby Shute Merchant was born on February 3rd, 1882 in Gloucester, Massachusetts, to Lewis H. and Hannah van P.  Merchant.  After graduating from Gloucester High School, she earned an A.B. from Smith College in 1904.  She then worked as an editor, first at <title render="italic">Munsey's Magazine</title>, 1904-06, and for <title render="italic">Craftsman </title>in 1909.  She then edited a variety of titles for Street and Smith Publishers, 1909-12.  From 1913-15, she took "an advanced course in dramatic technique" with George Pierce Baker at Harvard where she met Mark W. Reed.  In 1915 and 1916 she was director and co-owner with J.A. Crafton and Mark Reed of The Prairie Playhouse, in Galesburg, Illinois, one of the first attempts to take the "little theatre movement" to rural regional theatres to use repertory techniques in community setting.  She returned to New York and worked as a playwright often working collaboratively with Mark Reed.  Abby and her sister Helen (Smith class of 1899) retired to Tryon, North Carolina circa 1949.   </p>
 
@@ -116,7 +114,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss273.html">mnsss27
 
  </controlaccess>
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -187,5 +185,4 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss273.html">mnsss27
  </c01>
 </dsc>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

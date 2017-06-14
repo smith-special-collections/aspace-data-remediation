@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss139.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss139</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss139.xml//EN">mnsss139</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Lorena Estelle Hermance, 1942-1985</titleproper>
@@ -56,18 +57,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Hermance, Lorena Estelle, 1898-1995</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Lorena Estelle Hermance Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1942-1985</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Lorena Estelle Hermance Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1942-1985</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 190</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 190</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes		  </extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -79,14 +80,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Officer, Women's Army Auxiliary Corps and communications worker. The majority of the papers document Hermance's service overseas with the WAAC during World War II. Of particular interest is a typescript of her journal, <title>As You Were</title>, as well as other short diary and biographical writings. Other material includes a series of letters to her sister, Julia Winslow, army memorabilia, and photographs. </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Officer, Women's Army Auxiliary Corps and communications worker. The majority of the papers document Hermance's service overseas with the WAAC during World War II. Of particular interest is a typescript of her journal, <title>As You Were</title>, as well as other short diary and biographical writings. Other material includes a series of letters to her sister, Julia Winslow, army memorabilia, and photographs. </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6271.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6271.jpg" linktype="simple" show="embed">
 <daodesc><p>Captain Lorena Hermance at AFHQ, Royal Palace, Caserta, Italy; undated</p></daodesc></dao>
          <p>Lorena Estelle Hermance was born January 29, 1898, in St. Joseph, Missouri.  Her maternal grandfather, Bennin Dittaway Elliott, served in the Ninth Missouri Cavalry during the Civil War, and her father, Edward S. Whitehead, was a drill sergeant with the St. Joseph National Guard.</p>
          <p>Married to William Rhoades Hermance, she bore one daughter, Clover, and divided her time between being a wife, mother, and a professional woman.  By 1942 she had spent more than twenty years in telephone communications.</p>
@@ -117,7 +118,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -159,8 +160,8 @@
          <geogname encodinganalog="651" source="lcsh">
                   United States--Armed Forces--Women--Personal narratives</geogname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. CORRESPONDENCE</unittitle>
             </did>
@@ -173,7 +174,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. BIOGRAPHICAL MATERIAL</unittitle>
             </did>
@@ -218,7 +219,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. MISCELLANEOUS</unittitle>
             </did>
@@ -256,7 +257,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. MEMORABILIA</unittitle>
             </did>

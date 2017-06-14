@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss261.html">mnsss261</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss261.html">mnsss261</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Therese Weil Lansburgh Papers, 1964-1977</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss261.html">mnsss26
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -39,7 +38,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss261.html">mnsss26
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -48,14 +47,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss261.html">mnsss26
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Lansburgh, Therese Weil,</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Therese Weil Lansburgh Papers</unittitle><unitdate label="Dates:">1964-1977</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 90</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Therese Weil Lansburgh Papers</unittitle><unitdate label="Dates:">1964-1977</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 90</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">6 boxes</extent>
           <extent encodinganalog="300$a">(2.5 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -67,7 +65,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss261.html">mnsss26
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Social worker; Children's welfare advocate; Lobbyist. Personal and professional papers documenting
+      <abstract encodinganalog="520$a" label="Abstract:">Social worker; Children's welfare advocate; Lobbyist. Personal and professional papers documenting
 Lansburgh's career as a social worker and champion for the rights of children, and
 especially for affordable day care and social service organizations in which she was
 involved.
@@ -85,7 +83,7 @@ involved.
        <p>The collection includes personal and professional papers documenting Lansburgh's career as a social worker and champion for the rights of children, and  especially for affordable day care.  Types of materials include biographical material and financial records; personal and professional correspondence; writings and speeches; and material pertaining to many of the social service organizations in which Lansburgh was involved, including minutes, press releases, correspondence, and programs of events.</p>
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -125,5 +123,4 @@ record.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

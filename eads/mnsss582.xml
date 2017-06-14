@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss582.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss582</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss582.xml//EN">mnsss582</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Catholics for Choice Records, 1973-2014</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Catholics for Choice</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Catholics for Choice</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Catholics for Choice Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1973-2014</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Catholics for Choice Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1973-2014</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">742</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">742</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">18 boxes 18</extent>
 		<extent encodinganalog="300$a">( linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>, <language langcode="spa">Spanish</language>, <language langcode="por">Portuguese</language>, <language langcode="fre">French</language>, <language langcode="ger">German</language>, <language langcode="pol">Polish</language>, <language langcode="swe">Swedish</language>, <language langcode="dut">Dutch</language>, <language langcode="ita">Italian</language>, <language langcode="hun">Hungarian</language>, <language langcode="nor">Norweigian</language>, <language langcode="dan">Danish</language></langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>, <language langcode="spa">Spanish</language>, <language langcode="por">Portuguese</language>, <language langcode="fre">French</language>, <language langcode="ger">German</language>, <language langcode="pol">Polish</language>, <language langcode="swe">Swedish</language>, <language langcode="dut">Dutch</language>, <language langcode="ita">Italian</language>, <language langcode="hun">Hungarian</language>, <language langcode="nor">Norweigian</language>, <language langcode="dan">Danish</language></langmaterial>
 
 
 	<repository label="Location:">
@@ -133,5 +134,3 @@
 
   </archdesc>
 </ead>
-
-

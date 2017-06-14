@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss64.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss64</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss64.xml//EN">mnsss64</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ellen Gates Starr Papers, 1659-1940
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Starr, Ellen Gates</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Ellen Gates Starr Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1659 - 1975</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ellen Gates Starr Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1659 - 1975</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1850-1970</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 151</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 151</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">26 boxes</extent>
             <extent encodinganalog="300$a">(12 linear ft.)</extent>
@@ -74,15 +75,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Labor organizer; religious writer; settlement house worker; and founder, Hull House, Chicago. Papers represent 4 generations of the Starr family, primarily Ellen Gates Starr. Of particular interest is correspondence with Jane Addams pertaining to the founding of Hull House, as well as photographs and biographical information about Jane Addams.  There is also extensive family correspondence and her writings on book binding and religion. Family material includes writings and letters of her aunt Eliza Allen Starr, sister Mary Houghton Starr Blaisdell, niece Josephine Starr, mother Susan Starr, and sea journals of her father, Caleb Allen Starr. Correspondents include Vida D. Scudder, Archibald MacLeish, Saint Frances Xavier Cabrini, Thornton Wilder, Thomas J. Cobden-Sanderson, Alice Hamilton, and Sidney Hillman.
+         <abstract encodinganalog="520$a" label="Abstract:">Labor organizer; religious writer; settlement house worker; and founder, Hull House, Chicago. Papers represent 4 generations of the Starr family, primarily Ellen Gates Starr. Of particular interest is correspondence with Jane Addams pertaining to the founding of Hull House, as well as photographs and biographical information about Jane Addams.  There is also extensive family correspondence and her writings on book binding and religion. Family material includes writings and letters of her aunt Eliza Allen Starr, sister Mary Houghton Starr Blaisdell, niece Josephine Starr, mother Susan Starr, and sea journals of her father, Caleb Allen Starr. Correspondents include Vida D. Scudder, Archibald MacLeish, Saint Frances Xavier Cabrini, Thornton Wilder, Thomas J. Cobden-Sanderson, Alice Hamilton, and Sidney Hillman.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1611.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1611.jpg" linktype="simple" show="embed">
 <daodesc><p>Ellen Gates Starr, undated </p></daodesc>
 	</dao>
          <p>Ellen Gates Starr was born near Laona, Illinois, the third of four children of Caleb Allen Starr and Susan Childs Gates Starr. She attended local schools and enrolled at Rockford Seminary, Rockford, Illinois, in 1877. She spent only one year at Rockford because her father could not afford the tuition. She taught at a country school in Mount Morris, Illinois, and in 1879 accepted a position at Miss Kirkland's School for Girls in Chicago where she taught a variety of subjects. Although religion was not part of her early upbringing, she spent much of her life in search of religious truth. She was greatly influenced by her aunt, Eliza Allen Starr, a devout Roman Catholic convert, writer, and lecturer.  In 1884 Ellen joined the Episcopal Church.</p>
@@ -116,7 +117,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -177,7 +178,7 @@
          <persname encodinganalog="600" source="lcnaf">Starr family</persname>
          <persname encodinganalog="600" source="lcnaf">Starr, Jeanne Josephine Stutz, 1866-1949</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -276,8 +277,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1659-1975)</unitdate>
                </unittitle>
@@ -732,7 +733,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1791-1975)</unitdate>
                </unittitle>
@@ -2271,7 +2272,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS AND ART WORK <unitdate>(1841-1935)</unitdate>
                </unittitle>
@@ -2484,7 +2485,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PHOTOGRAPHS <unitdate>(1862-1968)</unitdate>
                </unittitle>

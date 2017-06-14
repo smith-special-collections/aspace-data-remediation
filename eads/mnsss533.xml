@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <!-- Enter EAD filename before exporting -->
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss533.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss533</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss533.xml//EN">mnsss533</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Coalition of Indian-Controlled School Boards Oral
@@ -43,17 +41,16 @@ Del Orig for Subject Colls and OH colls  -->
            <corpname encodinganalog="110" source="lcnaf">Coalition of Indian-Controlled School
 Boards</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Coalition of Indian-Controlled School
-Boards Oral History Project Records</unittitle><unitdate type="inclusive" label="Dates:">1967-
+       <unittitle encodinganalog="245$a" label="Title:">Coalition of Indian-Controlled School
+Boards Oral History Project Records</unittitle><unitdate label="Dates:" type="inclusive">1967-
 2009</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 696</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 696</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">1 box</extent>
         <extent encodinganalog="300$a">(1.25 linear ft.) </extent>
 </physdesc>
 <!-- Encode additional languages with lang clip -->
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -64,7 +61,7 @@ repositorycode="mnsss">MS 696</unitid>
             </address>
          </repository>
            <!-- MRJ Edit as needed-->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Educational reformers; Indian rights organization. Oral history interviews
 with individuals who made "unrivaled contributions to Indian parental and community control of
 Indian education."  There are audio recordings, transcripts (some partial), and abstracts of the
@@ -236,5 +233,4 @@ collection except for materials created by Michael Gross and Bobbie Green Kilber
 	</list>
     </odd>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

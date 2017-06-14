@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca120.xml//EN" countrycode="us" mainagencycode="manosca">manosca120</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca120.xml//EN">manosca120</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>William Allan Neilson Personal Papers, 1852-1946
@@ -52,15 +53,15 @@
 <p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="collection">
+<archdesc level="collection" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Neilson, William Allan, 1869-1946. </persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">William Allan Neilson Personal Papers</unittitle>
+<unittitle encodinganalog="245$a" label="Title:">William Allan Neilson Personal Papers</unittitle>
 <unitdate encodinganalog="245$f" type="inclusive">1852-1946</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 32 </unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 32 </unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">47 boxes</extent>
 <extent encodinganalog="300$a">(25 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">The Neilson Personal Papers include extensive family material. His letters to his brother and sisters are particularly valuable. Other letters present Neilson's view of life at Bryn Mawr College under M. Carey Thomas, his experiences tutoring Helen Keller at Radcliffe College, and his first impressions of Smith College. The also collection reflects his strong interest in liberal politics.  Also included are writings of Elisabeth Muser Neilson and the Muser, Neilson and Allan family papers. Material relating to Margaret Farrard Thorp's 1956 biography, <title>Neilson of Smith</title> is included in the collection.  Other materials includes correspondence, manuscripts, press releases, lecture notes, texts of speeches, and photographs. </abstract>
+<abstract encodinganalog="520$a" label="Abstract:">The Neilson Personal Papers include extensive family material. His letters to his brother and sisters are particularly valuable. Other letters present Neilson's view of life at Bryn Mawr College under M. Carey Thomas, his experiences tutoring Helen Keller at Radcliffe College, and his first impressions of Smith College. The also collection reflects his strong interest in liberal politics.  Also included are writings of Elisabeth Muser Neilson and the Muser, Neilson and Allan family papers. Material relating to Margaret Farrard Thorp's 1956 biography, <title>Neilson of Smith</title> is included in the collection.  Other materials includes correspondence, manuscripts, press releases, lecture notes, texts of speeches, and photographs. </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English</language> and 
 <language langcode="ger">German</language>
@@ -230,7 +231,7 @@
 </item>
 </list>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -244,7 +245,7 @@
 <p>Please use the following format when citing materials from this collection:</p>
 <p>William Allan Neilson Personal Papers, Box #, Smith College Archives. </p>
 </prefercite>
-<altformavail id="altform" type="digital" encodinganalog="530">
+<altformavail encodinganalog="530" id="altform" type="digital">
 <head>Additional Formats</head>
 <p>Images from this collection are also available online as part of the <extref href="http://clio.fivecolleges.edu/smith/pres-neilson/">Five College Archives Digital Access Project</extref>.</p>
 </altformavail>
@@ -268,7 +269,7 @@
 <persname encodinganalog="700" source="lcnaf">Thorp, Margaret Farrand, 1891-</persname>
 <corpname encodinganalog="710" source="lcnaf">Smith College. Office of President.</corpname>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -293,8 +294,8 @@
 <p>For a more complete biographical sketch see the <title render="italic">Dictionary of American Biography Supplement 1946-1950</title>.</p>
 </bibliography>
 </descgrp>
-<dsc type="combined" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>Series I.  BIOGRAPHICAL MATERIAL <unitdate>1852-1982</unitdate>
 </unittitle>
@@ -1894,7 +1895,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>Series II. PHOTOGRAPHS AND PORTRAITS <unitdate>1883-1948</unitdate>
 </unittitle>
@@ -2095,7 +2096,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>Series III. ACADEMIC LIFE <unitdate>1898-1941</unitdate>
 </unittitle>
@@ -2672,7 +2673,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>Series IV. OTHER ACTIVITIES <unitdate>1891-1946</unitdate>
 </unittitle>
@@ -4857,7 +4858,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>Series V.  SPEECHES <unitdate>1901-1944</unitdate>
 </unittitle>
@@ -5428,7 +5429,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser6">
+<c01 id="list-ser6" level="series">
 <did>
 <unittitle>Series VI.  WRITINGS <unitdate>1894-1946</unitdate>
 </unittitle>

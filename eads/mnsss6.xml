@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss6.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss6</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss6.xml//EN">mnsss6</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Brewster Family Papers, 1882-1967
@@ -48,18 +49,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Brewster family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Brewster Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1882-1967</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Brewster Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1882-1967</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 21</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 21</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">10 boxes</extent>
             <extent encodinganalog="300$a">(4.38 linear ft.)</extent>
@@ -71,15 +72,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Traveler, author, English teacher, Smith graduate, and librarian. Papers are primarily those of Anna Gertrude Brewster and Mary Kate Brewster. Both sisters were devoted to theatre, particularly to the Academy of Music in Northampton. They also wrote several books and plays, some of which were published. Material documents world travel, and includes scrapbooks, photographs, diaries, correspondence, and the Brewster children's family newspaper.
+         <abstract encodinganalog="520$a" label="Abstract:">Traveler, author, English teacher, Smith graduate, and librarian. Papers are primarily those of Anna Gertrude Brewster and Mary Kate Brewster. Both sisters were devoted to theatre, particularly to the Academy of Music in Northampton. They also wrote several books and plays, some of which were published. Material documents world travel, and includes scrapbooks, photographs, diaries, correspondence, and the Brewster children's family newspaper.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1844.jpg" altrender="right">
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1844.jpg" linktype="simple" show="embed">
 <daodesc><p>Brewster family portrait, ca. 1883</p></daodesc></dao>
          <p>Civil War veteran Major Charles Harvey Brewster  (1833-1893) was a prosperous Northampton businessman.  He originally sold windows, doors, blinds and paints, and later transformed the enterprise into a successful florist shop.  He married Anna Williams (1843-1935) in 1868 and the couple had six children: Anna Gertrude, Mary Kate, Caroline Williams, Charles Russell, Harold, and Helen Campbell.</p>
          <p>Anna Gertrude (1869-1967) attended local schools and graduated from Smith College in 1893.  She began her teaching career soon after, holding positions in Brewster, Massachusetts and Nashua, New Hampshire before studying for a year at Oxford University (1906-07).  She taught English at Northampton High School from 1907 until her retirement in 1940, after which she taught at the Northampton School for Girls.  Anna Gertrude was a charter member of the Betty Allen Chapter of the DAR, served on the advisory board of the Young Women's City Club, and was a long-time Trustee of the Forbes Library.</p>
@@ -113,7 +114,7 @@
          <p>Series I includes general family information, articles about the Brewsters, photographs, and the children's newspaper.  It is followed by Series II and III, the papers of Mary Kate Brewster and Anna Gertrude Brewster, respectively.  In both series, diaries are arranged chronologically.  Correspondence is divided into two sub-categories, family and other.  Letters to and from Mary Kate during her two trips to Australia are filed separately.  Writings are arranged by type and then listed alphabetically by title.  Personal memorabilia appear at the end of each series.  Series IV consists of correspondence and memorabilia of other family members.
       </p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -167,7 +168,7 @@
          <persname encodinganalog="600" source="lcnaf">Brewster, Mary Kate, 1871-1957
 </persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -177,8 +178,8 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. GENERAL FAMILY INFORMATION</unittitle>
             </did>
@@ -212,7 +213,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. MARY KATE BREWSTER</unittitle>
             </did>
@@ -659,7 +660,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. ANNA GERTRUDE BREWSTER</unittitle>
             </did>
@@ -939,7 +940,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. OTHER FAMILY MEMBERS</unittitle>
             </did>

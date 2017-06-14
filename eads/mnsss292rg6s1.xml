@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s1.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg6s1</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s1.xml//EN">mnsss292rg6s1</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 06. Program: Series I. Departmant, Staff, and Committees</unittitle><unitdate type="inclusive" label="Dates:">1870-2002</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 06. Program: Series I. Departmant, Staff, and Committees</unittitle><unitdate label="Dates:" type="inclusive">1870-2002</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:b28ed807-7d99-4dc7-b852-0ec6db5aa000</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,7 +49,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a"> Records in this series document the work of national staff and committees responsible for development of the YWCA's overall program and general program materials.  Materials include minutes, reports, publications, correspondence, conference files, studies, and training materials.  Forms part of the YWCA of the U.S.A. Records. <extref href="mnsss292rg6_main.html">Record Group 6. Program</extref>.
+           <abstract encodinganalog="520$a" label="Abstract:"> Records in this series document the work of national staff and committees responsible for development of the YWCA's overall program and general program materials.  Materials include minutes, reports, publications, correspondence, conference files, studies, and training materials.  Forms part of the YWCA of the U.S.A. Records. <extref href="mnsss292rg6_main.html">Record Group 6. Program</extref>.
          </abstract>
 </did>
  
@@ -56,7 +57,7 @@
  	<head>Historical Note</head>
 
  <p>Organizational responsibility for development of the National Association program and program materials was especially fluid during the first twenty-five years of the YWCA of the USA.  Initially, the Association divided its staff into a Home Department (concerned with work in the U.S.) and a Foreign Department (concerned with U.S. staff working abroad.)  By 1909 the Association added a Department of Territorial Work to facilitate establishment of a single cohesive national organization out of the array of local, state, and regional organizations that made up the two predecessor organizations.</p>  
-		<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3405.jpg" altrender="right">
+		<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3405.jpg" linktype="simple" show="embed">
 <daodesc><p>YWCA Program Packet, Fall 1947</p></daodesc></dao> <p>Though the National Association incorporated in 1907, the Home Department did not have its first meeting until November of 1909.  This meeting brought together representatives of the Department's three committees--City, Student, and Association Extension-"to consider the questions of common importance."   One of the first topics of discussion was a change of the Department's name to something that would better describe its responsibility for "developing and perfecting" YWCA methods.  The group decided to change the its name to Department of Method at its second meeting in January 1910.  Also in 1910 the Department of Territorial Work was re-christened the Department of Field Work and charged with responsibility for communication between the National Association and Community Associations on "standards, policies, finances, and work desired and contemplated."  In theory, these two departments had quite separate responsibilities, but in practice, the staff seems to have been extraordinarily aware of the big picture needs of the Association and to have participated wherever and however they were needed.  From its earliest staff configurations, the National Association seems to have remained unsure about whether or not it was desirable to divide responsibility for "method" and "services."</p>
 	<p>The Method Department's duties included making studies "to reveal the needs of young women in different localities and groupings," making "continuous study of the Association as a cooperative instrument of service in any community," and testing the "adaptability of its policies to different localities by a series of experiments conducted by expert secretaries."  By 1913 those "expert secretaries" included specialists in city, and small town and country association work; in economics, education, physical education and hygiene, and religion; work in college and universities, Indian schools, secondary schools, church schools, "colored" schools; and work with "colored" women, girls, women in industry, and new immigrants.  Method Department staff traveled the country visiting Associations and reporting on their area of expertise, but also on any other aspects of YWCA program they felt warranted comment.  </p>
 	<p>The post-World War I staff reorganization and reduction placed specialist "subject" and "constituent group" staff in the newly-created Education and Research Division.  The intent was for staff of the Division to act as a resource "to their colleagues at headquarters," but not to work so much with staff of local Associations.  They were to carry out research; maintain the library and other resource files at headquarters (such as files on legislation and a clipping service); develop program materials and  training courses on "girls as growing personalities," citizenship, general and vocational education, religious and social education, "constructive" health; and to correlate all material related to the educational work of the Association.</p>  
@@ -275,8 +276,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. DEPARTMENT, STAFF, AND COMMITTEES</unittitle>
  </did>
@@ -1059,7 +1060,7 @@
  <did>
  <container type="box">349</container>
  <container type="folder">3</container>
- <unittitle><title render="italic">Program Planning Studies: A Handbook&#8230;</title>, 1940</unittitle>
+ <unittitle><title render="italic">Program Planning Studies: A Handbook…</title>, 1940</unittitle>
  </did>
  </c03>
  <c03>
@@ -2227,5 +2228,4 @@
 </dsc>
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

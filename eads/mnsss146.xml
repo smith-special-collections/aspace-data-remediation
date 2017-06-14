@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss146.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss146</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss146.xml//EN">mnsss146</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Frances Bemis Papers, 1921-1974
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Bemis, Frances, d. 1974</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Frances Bemis Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1921-1974</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Frances Bemis Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1921-1974</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 16</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 16</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">14 boxes</extent>
             <extent encodinganalog="300$a">(7 linear ft.)</extent>
@@ -72,14 +73,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Public relations specialist, radio producer, and fashion director. The Papers document Bemis's very active professional career, as well as the world of fashion in 1930s-50s New York City, giving a window into the celebrity and consumer culture of this time. Photographs make up a large portion, mainly of Bemis' fashion shows, special events, celebrities, and models.  Correspondents include doll-maker Madame Alexander, Svetlana Allilueva (daughter of Josef Stalin), and many of the writers, artists, and radio and television personalities. Other materials include personal writings, scrapbooks, correspondence, and scripts.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Public relations specialist, radio producer, and fashion director. The Papers document Bemis's very active professional career, as well as the world of fashion in 1930s-50s New York City, giving a window into the celebrity and consumer culture of this time. Photographs make up a large portion, mainly of Bemis' fashion shows, special events, celebrities, and models.  Correspondents include doll-maker Madame Alexander, Svetlana Allilueva (daughter of Josef Stalin), and many of the writers, artists, and radio and television personalities. Other materials include personal writings, scrapbooks, correspondence, and scripts.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3243.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3243.jpg" linktype="simple" show="embed">
 <daodesc><p>Frances Bemis, n.d.</p></daodesc></dao>
          <p>Frances Bemis was a public relations specialist,
     executive, writer, radio producer, and fashion director. She
@@ -195,7 +196,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -229,9 +230,9 @@
          
          <persname encodinganalog="600" source="lcnaf">Bemis, Frances,
                         d. 1974</persname>
-         <persname source="lcnaf" encodinganalog="600">Alexander, Madame</persname>
-         <persname source="lcnaf" encodinganalog="600">Huxtable, Ada Louise</persname>
-         <persname source="lcnaf" encodinganalog="600">McBride, Mary Margaret</persname>
+         <persname encodinganalog="600" source="lcnaf">Alexander, Madame</persname>
+         <persname encodinganalog="600" source="lcnaf">Huxtable, Ada Louise</persname>
+         <persname encodinganalog="600" source="lcnaf">McBride, Mary Margaret</persname>
          <subject encodinganalog="650" source="lcsh">Advertising--United States--History--20th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Celebrities--New
                         York (State)--New York--20th century</subject>
@@ -242,12 +243,12 @@
          <subject encodinganalog="650" source="lcsh">Fashion
                         shows--United States--History--20th
                         century--Sources</subject>
-         <subject source="lcsh" encodinganalog="650">Popular culture--United States--History--20th
+         <subject encodinganalog="650" source="lcsh">Popular culture--United States--History--20th
                         century--Sources</subject>
-         <subject source="lcsh" encodinganalog="650">Public relations--United States--History--20th
+         <subject encodinganalog="650" source="lcsh">Public relations--United States--History--20th
                         century--Sources</subject>
-         <subject source="lcsh" encodinganalog="650">Women executives--United States</subject>
-         <subject source="lcsh" encodinganalog="650">Women in advertising--United States--History--20th
+         <subject encodinganalog="650" source="lcsh">Women executives--United States</subject>
+         <subject encodinganalog="650" source="lcsh">Women in advertising--United States--History--20th
                         century--Sources</subject>
          <geogname encodinganalog="651" source="lcsh">New York
                         (N.Y.)--Social life and customs--20th
@@ -353,8 +354,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1935-74, n.d.)</unitdate>
                </unittitle>
@@ -458,7 +459,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1934-74, n.d.)</unitdate>
                </unittitle>
@@ -691,7 +692,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS <unitdate>(1933-circa 1970s), </unitdate>
                </unittitle>
@@ -779,7 +780,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PROFESSIONAL ACTIVITIES <unitdate>(1933-71, n.d.)</unitdate>
                </unittitle>
@@ -1949,7 +1950,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. SUBJECT FILES</unittitle>
             </did>

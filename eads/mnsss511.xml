@@ -1,8 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
-   <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss511.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss511</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+   <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss511.xml//EN">mnsss511</eadid>
 	<filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Joan E. Biren Papers, 1944-2011 (ongoing)</titleproper>
@@ -34,16 +33,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Biren, Joan E.</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Joan E. Biren Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1944-2011 (ongoing)</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 587</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Joan E. Biren Papers</unittitle><unitdate label="Dates:" type="inclusive">1944-2011 (ongoing)</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 587</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">145 boxes</extent>
         <extent encodinganalog="300$a">(circa 70 linear ft.) </extent>
 </physdesc>
 <!-- Encode additional languages with lang clip -->
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -54,7 +51,7 @@ repositorycode="mnsss">MS 587</unitid>
             </address>
          </repository>
            <!-- MRJ Edit as needed-->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Filmmaker; Photographer; Lesbian activist. Papers document Biren's professional and personal life.  Major topics include photography, film, lesbianism, Judaism, feminism, lesbian and gay rights, political movements, and anti-nuclear movements.  Biren was an avid collector of lesbian and social justice materials, and the Papers are rich in images, clippings, and other materials collected during events such as the 1993 March on Washington for  Lesbian, Gay and Bi Equal Rights and Justice.  Materials related to Biren's filmmaking include extensive raw footage, research materials, and transcripts of interviews, conference panels, and events.  Notable correspondents include Audre Lorde, Alison Bechdel, Tee Corrine, Barbara Smith, and John D'Emilio. 
         [NOTE: The contents list for this collection is not online yet but will be soon.  Check back again in a few weeks, or contact the Sophia Smith Collection if you would like a copy sent to you.]
          </abstract>
@@ -216,5 +213,4 @@ Lorde, Alison Bechdel, Tee Corrine, Barbara Smith, and John D'Emilio.</p>
           <extref href="http://www.smith.edu/libraries/libs/ssc/vof/vof-intro.html">Voices of Feminism Oral History Project</extref>.</p>
       </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

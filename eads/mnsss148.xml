@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss148.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss148</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss148.xml//EN">mnsss148</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Planned Parenthood Federation of America Records, 1928-2009 (PPFA II)
@@ -48,18 +49,18 @@
          <date>2001
       </date>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">Planned Parenthood Federation of America</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Planned Parenthood Federation of America Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1928-2009 (PPFA II)</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Planned Parenthood Federation of America Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1928-2009 (PPFA II)</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 371</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 371 UUID:2f166852-cfba-4cfc-b96d-4e28ebd7cc13</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">527 boxes</extent>
             <extent encodinganalog="300$a">(510.25 linear ft.)</extent>
@@ -71,15 +72,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">The records of the Planned Parenthood Federation of America provide substantial information about the history of the birth control and family planning movement nationally and internationally. They are a significant source of information on all aspects of the history of birth control and family planning, including women's health issues; sex education; women in poverty; international population planning and policy; and the legal, political and social aspects of contraception and abortion. Types of material include correspondence; memoranda; minutes; reports; financial records; legal records; publicity; publications; photographs; audio tapes; video tapes; and posters. The PPFA Records are divided into two portions, PPFA I and PPFA II, this being  section II.  The earlier records in <extref href="mnsss128_main.html">PPFA I</extref> are completely organized and open to research. PPFA II consists of records received since 1988, dating from the 1920s to the present, so there is some overlap in dates. This portion is unprocessed, and some parts are restricted (see Terms of Access and  Use below). </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">The records of the Planned Parenthood Federation of America provide substantial information about the history of the birth control and family planning movement nationally and internationally. They are a significant source of information on all aspects of the history of birth control and family planning, including women's health issues; sex education; women in poverty; international population planning and policy; and the legal, political and social aspects of contraception and abortion. Types of material include correspondence; memoranda; minutes; reports; financial records; legal records; publicity; publications; photographs; audio tapes; video tapes; and posters. The PPFA Records are divided into two portions, PPFA I and PPFA II, this being  section II.  The earlier records in <extref href="mnsss128_main.html">PPFA I</extref> are completely organized and open to research. PPFA II consists of records received since 1988, dating from the 1920s to the present, so there is some overlap in dates. This portion is unprocessed, and some parts are restricted (see Terms of Access and  Use below). </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
          <p>In 1921 Margaret Sanger founded the national lobbying organization, American Birth Control League (ABCL) which in 1942 became Planned Parenthood Federation of America (PPFA).  Between 1921 and 1942 the organization underwent two transformations.  In 1923 Sanger opened the Birth Control Clinical Research Bureau (BCCRB) for the purposes of dispensing contraceptives under the supervision of licensed physicians and studying their effectiveness.  The ABCL  provided institutional backing for clinics.  The BCCRB merged with the ABCL in 1939 to form the Birth Control Federation of American (BCFA).  In 1942 the name of the BCFA was changed to the Planned Parenthood Federation of America.</p>
-		 <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2224.jpg" altrender="right">
+		 <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2224.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Birth Control Federation of<lb /> America flyer, undated</p></daodesc></dao>
 
@@ -146,7 +147,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -217,7 +218,7 @@
          <subject encodinganalog="650" source="lcsh">Women--Health and hygiene--United States--20th century</subject>
          <subject encodinganalog="650" source="lcsh">Women's health services--United States--20th century</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -225,7 +226,7 @@
  <p>Related material can be found in the <extref href="mnsss43_main.html">Margaret Sanger Papers</extref>.</p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="analyticover" id="contlist">
+      <dsc id="contlist" type="analyticover">
          <c01 level="series">
             <did>
                <unittitle>

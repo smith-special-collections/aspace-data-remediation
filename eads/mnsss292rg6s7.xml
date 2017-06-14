@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s7.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg6s7</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s7.xml//EN">mnsss292rg6s7</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 06. Program: Series VII. War Work and Defense Services</unittitle><unitdate type="inclusive" label="Dates:">1870-2002</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 06. Program: Series VII. War Work and Defense Services</unittitle><unitdate label="Dates:" type="inclusive">1870-2002</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:a24ab4ce-f188-454c-8dd2-c358c300769f</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,14 +49,14 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
                   This series includes records related to the National Associations work during World War I and World War II, and with defense industries after WWII.  Forms part of the YWCA of the U.S.A. Records. <extref href="mnsss292rg6_main.html">Record Group 6. Program</extref>.
          </abstract>
 </did>
  
 <scopecontent id="scope">
       <head>Scope and Content</head>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1987.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1987.jpg" linktype="simple" show="embed">
 <daodesc><p>YWCA Land Service Poster, 1918</p></daodesc></dao>
 <p>Forms part of the YWCA of the U.S.A. Records--<extref href="mnsss292rg6_main.html">Record Group 6. Program.</extref></p>
 		<p>NOTE:  For the most part, the Microfilmed Records and the Original Format Records do not duplicate each other and both should be consulted.  This description covers materials in both formats.  See the
@@ -181,7 +182,7 @@
 
 	<p id="subseriesc"><title render="bold">SUBSERIES C.  DEFENSE SERVICES</title></p>
 
-	<p>After World War II, the YWCA continued its activities "on behalf of men and women of the Armed Forces and their families, and workers in defense industries."   A fundraising brochure titled "National Defense and the YWCA" cites the outbreak of war in Korea in the summer of 1950 as the point at which "it became evident&#8230;that the U.S. would for many years be forced to maintain a large army."  The YWCA's part in this effort consisted of continued participation in the USO, involvement in the successor organization to American War-Community Services, the United Community Defense Services (UCDS), and the United Defense Fund.  The National Association established a Defense Services Department in 1950 to coordinate these efforts. </p>
+	<p>After World War II, the YWCA continued its activities "on behalf of men and women of the Armed Forces and their families, and workers in defense industries."   A fundraising brochure titled "National Defense and the YWCA" cites the outbreak of war in Korea in the summer of 1950 as the point at which "it became evident…that the U.S. would for many years be forced to maintain a large army."  The YWCA's part in this effort consisted of continued participation in the USO, involvement in the successor organization to American War-Community Services, the United Community Defense Services (UCDS), and the United Defense Fund.  The National Association established a Defense Services Department in 1950 to coordinate these efforts. </p>
 	<p>UCDS, was formed in the fall of 1950 to "assist in the development of essential health and welfare services to people in communities which are unable to cope adequately with defense-created needs."  The YWCA was one of fifteen participating agencies working to help new residents in rapidly growing cities and towns adjacent to defense industries.  The aim was to fill gaps in services for a relatively brief period until the cities and towns were able to do so.</p>
 	<p>Formed during World War II, United Service Organizations, Inc., (USO), was a  cooperative national program of morale, recreation, and religious work for men in the armed forces and for men and women in defense industries.  It was an effort to "provide such activities, facilities, and leadership as will recreate in the community near the camp or industrial center the best of normal life and influence that prevails in the communities from which the men come."  It was also a united campaign to raise funds for financing the program. </p> 
 	<p>By the late 1950s, UCDS had disbanded and the YWCA's Defense Services Department became the USO Division. </p> 
@@ -326,8 +327,8 @@
 <!-- End additional information -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser7">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. WAR WORK AND DEFENSE SERVICES</unittitle>
  </did>
@@ -1430,7 +1431,7 @@
  </c04>
  </c03>
  </c02>
- <c02 level="subseries" id="list-ser7-subseriesb">
+ <c02 id="list-ser7-subseriesb" level="subseries">
  <did>
  <unittitle>Subseries B. World War II</unittitle>
  </did>
@@ -1853,7 +1854,7 @@
  </c07>
  <c07>
  <did>
- <unittitle></unittitle>	<note><p>[Pennsylvania, see Ohio]</p>
+ <unittitle/>	<note><p>[Pennsylvania, see Ohio]</p>
  	</note>
  </did>
  </c07>
@@ -2737,5 +2738,4 @@
 </dsc>
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss476.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss476</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss476.xml//EN">mnsss476</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Nancy Hamilton Papers, 1862-1992</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Hamilton, Nancy</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Hamilton, Nancy</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Nancy Hamilton Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1862-1992</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1952-1959</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 189</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Nancy Hamilton Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1862-1992</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1952-1959</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 189</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">14 boxes</extent>
 		<extent encodinganalog="300$a">(27 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">Eng</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">Eng</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -60,12 +61,12 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc974.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc974.jpg" linktype="simple" show="embed">
 <daodesc><p>Helen Keller, undated</p></daodesc></dao>
 		<p>Nancy Hamilton, Broadway actress, lyricist, author, scriptwriter, producer, and playwright was born in Sewickley, Pennsylvania, July 27, 1908, daughter of Charles Lee Hamilton and Margaret Miller Marshall.  She was educated at Miss Dickinson's School in Sewickley, at the Sorbonne, and received a B.A. from Smith College in 1930. Hamilton began writings songs and sketches while at Smith, acting in and directing <title render="italic">The Chocolate Soldier</title> in her senior year. She was Producing Director of the Dramatic Association Council at Smith.  After a period of amateur acting and producing in Pittsburgh and Montclair, New Jersey, she moved to New York City in 1932 and leased a large apartment with an assortment of women friends. For a short time she worked for Stern's Department Store and then for RKO Pictures as a spy checking audience reactions and reporting on vaudeville acts. She began her acting career as understudy to Katharine Hepburn in <title render="italic">The Warrior's Husband</title> and also had a walk on part in the play. She made her Broadway debut in 1934 in <title render="italic">New Faces</title>, not only appearing in the show but also writing many of the lyrics. When it closed she turned to play writing. She collaborated with Rosemary Casey and James Shute on <title render="italic">Return Engagement</title> which was made into a film entitled <title render="italic">Fools for Scandal</title>. During the next two years Hamilton wrote radio scripts for comic actress Beatrice Lillie, Fred Astaire, and Lois Long, and published articles and poems in <title render="italic">Stage Magazine</title> and <title render="italic">Harper's Bazaar</title>. She went on to write lyrics for three successful Broadway revues (a genre of musical theater that flourished in the 1930s): <title render="italic">One for The Money</title> (1939) ran for 132 performances, <title render="italic">Two for the Show</title> (1940) ran for 124 performances, and <title render="italic">Three to Make Ready</title> (1946) ran for 323 performances. These revues launched the careers of Alfred Drake, Keenan Wynn, Gene Kelley, Betty Hutton, Eve Arden, and Ray Bolger. Song lyrics written by Hamilton include "How High the Moon," "The House with the Little Red Barn," "The Old Soft Shoe," "I Hate the Spring," "The Old Gavotte," "Lovely Lazy Kind of Day," and "Clambake." In 1945 she spent six months with the American Theater Wing War Players touring the battle areas of France, Italy, Belgium, and the Netherlands.  In the mid-1950s Hamilton produced <title render="italic">Helen Keller In Her Story</title> (also known as <title render="italic">The Unconquered</title>), a documentary on the life of Helen Keller narrated by Katharine Cornell. It won an Academy Award in 1955 for the best documentary.</p> 
-	<p>Nancy Hamilton is known as one of the first women to succeed as a lyricist. Korey Rothman in her dissertation, "Somewhere There's Music: Nancy Hamilton, The Old Girls Network, and the American Musical Theatre of the 1930s and 1940s,"&#185; states that Hamilton is "&#8230;an important unsung figure of the twentieth century musical theater" and that she "&#8230;was part of a large network of women with whom she maintained overlapping professional and romantic relationships." She was the life-long partner of actress Katharine Cornell. Hamilton died in New York City, February 18, 1985, after a long illness.  </p>
+	<p>Nancy Hamilton is known as one of the first women to succeed as a lyricist. Korey Rothman in her dissertation, "Somewhere There's Music: Nancy Hamilton, The Old Girls Network, and the American Musical Theatre of the 1930s and 1940s,"¹ states that Hamilton is "…an important unsung figure of the twentieth century musical theater" and that she "…was part of a large network of women with whom she maintained overlapping professional and romantic relationships." She was the life-long partner of actress Katharine Cornell. Hamilton died in New York City, February 18, 1985, after a long illness.  </p>
 
-	<p>[&#185; PhD Dissertation, University of Maryland at College Park, 2005] </p>
+	<p>[¹ PhD Dissertation, University of Maryland at College Park, 2005] </p>
     </bioghist>
 
     <scopecontent id="scope">
@@ -75,7 +76,7 @@
 <p>Select film and audio clips from this collection have been digitized and are available to 
 <extref href="https://media.smith.edu/departments/ssc/hamilton/hamilton_playlist.html">view online</extref>.</p>
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into six series:</p>
 	<list>
@@ -159,7 +160,7 @@
 	<persname encodinganalog="600" source="lcnaf">Tyson, Katharine Keller -- Correspondence</persname>  
 	<persname encodinganalog="600" source="lcnaf">Tyson, Mildred Keller -- Correspondence</persname>  
 	<persname encodinganalog="600" source="lcnaf">Wood, Richard Carver -- Correspondence</persname>  
-	<title render="italic" encodinganalog="730">Helen Keller in her story (Motion picture: 1955) -- Sources</title> 
+	<title encodinganalog="730" render="italic">Helen Keller in her story (Motion picture: 1955) -- Sources</title> 
 	<persname encodinganalog="700" source="lcnaf">Keller, Helen, 1880-1968--Correspondence</persname> 
 
 	    </controlaccess>
@@ -173,11 +174,11 @@
 
 <table>
   <tgroup cols="4">  
-     <colspec colnum="1" colname="1" colwidth="10"/> 
-     <colspec colnum="2" colname="2" colwidth="50"/> 
-     <colspec colnum="3" colname="3" colwidth="100"/> 
-     <colspec colnum="4" colname="4" colwidth="20"/> 
-     <colspec colnum="5" colname="5" colwidth="8"/> 
+     <colspec colname="1" colnum="1" colwidth="10"/> 
+     <colspec colname="2" colnum="2" colwidth="50"/> 
+     <colspec colname="3" colnum="3" colwidth="100"/> 
+     <colspec colname="4" colnum="4" colwidth="20"/> 
+     <colspec colname="5" colnum="5" colwidth="8"/> 
 
    <tbody>
 
@@ -185,8 +186,8 @@
     <entry colname="1"><title render="bold">PICTURE</title></entry>
     <entry colname="2"><title render="bold">ELEMENTS</title></entry>
     <entry colname="3"><title render="bold">(Part I)</title></entry>
-    <entry colname="4"></entry>
-    <entry colname="5"></entry>
+    <entry colname="4"/>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1"> <lb /></entry>
@@ -209,252 +210,252 @@
     <entry colname="2">Arcan Ridge</entry>    
     <entry colname="3">Scene cuts:  HK walking in garden with dog (retakes); with two children and pumpkin, gifts; HK and another woman (Polly?) working in garden; interior: HK reading braille, and using braille machine.</entry>
     <entry colname="4">8:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan Ridge  </entry>
     <entry colname="3">HK in bed. reading Braille; HK and Polly Thompson; HK touching things; Polly packing  </entry>
     <entry colname="4">7:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Misc  </entry>
     <entry colname="3">HK being given award by woman in uniform (with sound); visiting classroom; signing with students; visiting Korean vets in  hospital; using braille(?) machine and signing with group at table  </entry>
     <entry colname="4">4:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Graham</entry>
     <entry colname="3">Sev takes of car on highway;  Martha Graham studio-complete-Maypole  </entry>
     <entry colname="4">6:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Graham</entry>
     <entry colname="3"> Martha Graham studio (cont'd): HK speaks to students (sound on disc 5);  Dance of Death (1st part) work print (probably scratched)  </entry>
     <entry colname="4">3:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Graham and other</entry>
     <entry colname="3">Martha Graham studio (cont'd) -performance; dancers with HK;  HK/Polly-- opening scene where HK wishes she could speak better, Polly interpreting  </entry>
     <entry colname="4">6:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Graham</entry>
     <entry colname="3">Walking on street to Martha Graham School of Contemporary Dance; in studio, performance retakes; talking with students; in elementary school class; on stage preparing to speak to audience</entry>
     <entry colname="4">6:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Swarthout</entry>
     <entry colname="3">HK reading Braille;   Piano (sound on disc 5), Gladys Swarthout singing while HK touches her face (sound disc 5);  HK, Polly and 2 men ("theater friends");    Swarthout looking awkward with HK touching her face (before Swarthout starts singing); Polly and HK at Arcan - close-ups  </entry>
     <entry colname="4">7:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Japan</entry>
     <entry colname="3">Japan outs: Ike's Japan; ship, Japanese schoolgirls (with sound, Japanese narration)</entry>
     <entry colname="4">6:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Japan</entry>
     <entry colname="3">HK in Japan, full frame (no sound)  </entry>
     <entry colname="4">9:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Australia  Japan</entry>
     <entry colname="3">Newsreel with sound - Australia, HK speaking with Polly (with sound); Japan    </entry>
     <entry colname="4">7:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Paris</entry>
     <entry colname="3">Paris street scenes; with puppy at fountain   </entry>
     <entry colname="4">1:00    </entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Paris</entry>
     <entry colname="3">Paris (cont'd) with sculptures;  street scenes; with young girl; reading book with Polly; at Eiffel Tower   </entry>
     <entry colname="4">8:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Japan  Australia  Paris</entry>
     <entry colname="3">Brief clips (outtakes)  from Australian newsreel (some clips with sound), Japan and Paris</entry>
     <entry colname="4">7:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">S Africa</entry>
     <entry colname="3">Newsreel composite -- South Africa visit (with sound), beginning with Polly on a ship</entry>
     <entry colname="4">5:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">S Africa</entry>
     <entry colname="3">Continuation of newsreel composite -- South Africa vist (with sound), beginning with Polly on a ship</entry>
     <entry colname="4">6:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Deliverence</entry>
     <entry colname="3">Deliverance-clips from film </entry>
     <entry colname="4">3:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Deliverence</entry>
     <entry colname="3">Deliverance (cont'd)</entry>
     <entry colname="4">6:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Deliverence</entry>
     <entry colname="3">Deliverance - out takes  Baby trims from the movie</entry>
     <entry colname="4">10:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Fox Movietone News</entry>
     <entry colname="3">Fox Movietone News: "How Helen Keller Learned to Talk"- Annie Sullivan speaking with HK; receiving award  (with sound)  </entry>
     <entry colname="4">3:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Arcan Ridge and misc</entry>
     <entry colname="3">Takes: HK in garden and interior -  typing; with Polly; visiting classrooms; with Korean vets in hospital; HK in front of shops; Martha Graham studio; buying a hat; montage of HK with famous people (opticals/photographs, etc.); HK with Swarthout  </entry>
     <entry colname="4">8:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Paris; Misc</entry>
     <entry colname="3">Newsreel outtakes (with sound)-Paris, speaking at the Sorbonne, receiving medal;   M. Graham outtakes;  Arcan-braille machine; closeup of Braille  </entry>
     <entry colname="4">3:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Misc</entry>
     <entry colname="3">"  (cont'd) bust of Braille;  door knocker opening from Deliverance</entry>
     <entry colname="4">0:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Deliverance</entry>
     <entry colname="3">Cuts from Deliverance</entry>
     <entry colname="4">0:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Arcan Ridge and misc</entry>
     <entry colname="3">Car arriving; playing with dog in yard;   Unidentified man; HK at Japanese shrine with Polly and other woman; Hamilton on terrace; HK study; closeup of hands;  Braille clock;  HK with blind/deaf workers in factory; HK/Polly shopping for hat  </entry>
     <entry colname="4">7:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Misc</entry>
     <entry colname="3">Drummer at Martha Graham's (sound on disc 5); HK, Polly and 2 men ("theater friends"); Japan footage; Gladys Swarthout</entry>
     <entry colname="4">8:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">4</entry>
     <entry colname="2">Misc</entry>
     <entry colname="3">Small clips from newsreels (some with sound) and original footage- Paris, South Africa; Capitol building; Arcan-- inside house: clothes closet; shopping.</entry>
     <entry colname="4">4:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">4</entry>
     <entry colname="2">Misc</entry>
     <entry colname="3">S. Africa and Australia newsreel clips (with sound)-includes HK speaking. blind workers.   HK speaking to audience (no sound); shopping; visiting classroom  </entry>
     <entry colname="4">5:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">4</entry>
     <entry colname="2">Misc</entry>
     <entry colname="3">Still photos--HK, family and others (some famous), homes, plays, books, films, etc.</entry>
     <entry colname="4">9:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">4</entry>
     <entry colname="2">Misc</entry>
     <entry colname="3">Trees (Arcan?); stills of HK and others;   Shots of letters mailed to HK;   Paris and Japan scenes --with young girl in Paris,  Japanese train station;   Arcan (?) stone wall  </entry>
     <entry colname="4">7:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">4</entry>
     <entry colname="2">Misc</entry>
     <entry colname="3">Trims/outtakes: arriving at Library of Congress; dinner banquet; giving lecture at Lof C;  still photos of HK and others; with children at Arcan; Marths Grahem studio; theater friends; Arcan interior with Polly</entry>
     <entry colname="4">7:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">4</entry>
     <entry colname="2">Misc</entry>
     <entry colname="3">Various clips and outtakes -  Arcan Ridge exterior; door knocker opening to film;   HK reading Braille; with President Eisenhower at the White House (narration on Tape 5, track 7)</entry>
     <entry colname="4">5:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">4</entry>
     <entry colname="2">Misc 16mm</entry>
     <entry colname="3">Misc newsreel scenes spliced together-Australia-- HK and Polly speaking demo (only part with sound); Paris--: touching sculptures, with young girl;  visiting classroom; giving lecture at LOC.  Arcan Ridge-playing with dog, planting mint, with Polly;  with bird; reading;    </entry>
     <entry colname="4">5:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">4</entry>
     <entry colname="2">Misc 16mm</entry>
     <entry colname="3">Paris - with young girl;   Arcan ridge-whistling to  canary (sound on disc 5);  playing with dog. planting mint;;   Australia newsreel clips: "Human marvel brings hope to deaf children", visiting classroom, kids playing;   Library of Congress;   Paris - market, Eiffel Tower, with puppy at fountain,  and other scenes, feeling sculptures;   With kids in classroom;   arriving Australia  </entry>
     <entry colname="4">13:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">6</entry>
     <entry colname="2">Swarthout</entry>
     <entry colname="3">One of  4 reels from original --Gladys Swarthout singing with HK touching face  </entry>
     <entry colname="4">1:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">6</entry>
     <entry colname="2">Swarthout</entry>
     <entry colname="3">Sound only - GS singing</entry>
     <entry colname="4">1:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1"> </entry>
@@ -467,8 +468,8 @@
     <entry colname="1"><title render="bold">PICTURE</title></entry>
     <entry colname="2"><title render="bold">ELEMENTS</title></entry>
     <entry colname="3"><title render="bold">(Part II)</title></entry>
-    <entry colname="4"></entry>
-    <entry colname="5"></entry>
+    <entry colname="4"/>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1"> <lb /></entry>
@@ -482,147 +483,147 @@
     <entry colname="2">Graham</entry>
     <entry colname="3">Martha Graham studio - 2 dancers</entry>
     <entry colname="4">5:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Graham</entry>
     <entry colname="3">Martha Graham studio</entry>
     <entry colname="4">15:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Graham</entry>
     <entry colname="3">Martha Graham studio</entry>
     <entry colname="4">6:25</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Graham</entry>
     <entry colname="3">Martha Graham studio</entry>
     <entry colname="4">7:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan</entry>
     <entry colname="3">Arcan Ridge, small scenes (trims):  HK's house, 3 at table for lunch, front porch, HK reading, letters; Arcan interiors  </entry>
     <entry colname="4">9:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan</entry>
     <entry colname="3">Arcan Ridge exteriors</entry>
     <entry colname="4">1:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan</entry>
     <entry colname="3">Arcan Ridge, small scenes (trims):  HK in kitchen, sundeck, closet, exit from house;  exteriors of house; Polly/HK at breakfast; some close ups of HK and German shepherd; interior of house: HK and Polly;  end credits</entry>
     <entry colname="4">7:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan</entry>
     <entry colname="3">Arcan Ridge, small scenes (continued)</entry>
     <entry colname="4">0:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan</entry>
     <entry colname="3">Polly putting HK to bed;  trees; HK hands reading Braille Bible</entry>
     <entry colname="4">5:45</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan</entry>
     <entry colname="3">(continued)</entry>
     <entry colname="4">1:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan</entry>
     <entry colname="3">continued)</entry>
     <entry colname="4">0:15</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">1</entry>
     <entry colname="2">Arcan</entry>
     <entry colname="3">Arcan Ridge: downstairs; new talking Braille machine; trees</entry>
     <entry colname="4">2:15</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Japan</entry>
     <entry colname="3">Japanese footage (probably news footage)</entry>
     <entry colname="4">18:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Mixed</entry>
     <entry colname="3">Arcan Ridge (including stone wall); HK learning Braille, typing; trims of scene with children; hands signing  Roosevelt; end of Deliverance    </entry>
     <entry colname="4">3:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Mixed</entry>
     <entry colname="3">Outtakes-some of it newsreel: HK in Australia</entry>
     <entry colname="4">2:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Mixed</entry>
     <entry colname="3">HK with  bird cage</entry>
     <entry colname="4">9:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Mixed</entry>
     <entry colname="3">?</entry>
     <entry colname="4">6:45</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Mixed</entry>
     <entry colname="3">HK's Speech, beginning; HK and Polly; exterior Arcan at night;  HK close-ups;  Veterans in hospital footage</entry>
     <entry colname="4">5:30</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Mixed</entry>
     <entry colname="3">Still sequence - Swarthout - Lib. Congress, Paris  Swarthout; Library of Congress: HK lecturing/talking to people;  Paris; bay dock; Coolidg; Native Americans</entry>
     <entry colname="4">2:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">2</entry>
     <entry colname="2">Mixed</entry>
     <entry colname="3">(continued)</entry>
     <entry colname="4">6:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">3</entry>
     <entry colname="2">Mixed</entry>
     <entry colname="3">(continued...) HK's Speech, beginning; HK and Polly; exterior Arcan at night;  HK close-ups;  Veterans in hospital footage</entry>
     <entry colname="4">1:45</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1"> </entry>
@@ -636,8 +637,8 @@
     <entry colname="1"><title render="bold">SOUND</title></entry>
     <entry colname="2"><title render="bold">TRACK ELEMENTS</title></entry>
     <entry colname="3"><title render="bold">(Part I)</title></entry>
-    <entry colname="4"></entry>
-    <entry colname="5"></entry>
+    <entry colname="4"/>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1"> <lb /></entry>
@@ -728,14 +729,14 @@
     <entry colname="2">Swarthout </entry>
     <entry colname="3">Gladys Swarthout singing</entry>
     <entry colname="4">1:00</entry>
-    <entry colname="5"></entry>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1"><title render="bold">SOUND</title></entry>
     <entry colname="2"><title render="bold">TRACK ELEMENTS</title></entry>
     <entry colname="3"><title render="bold">(Part II)</title></entry>
-    <entry colname="4"></entry>
-    <entry colname="5"></entry>
+    <entry colname="4"/>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1"> <lb /></entry>
@@ -912,8 +913,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS AND CORRESPONDENCE</unittitle>
  </did>
@@ -1046,9 +1047,9 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
- <unittitle>SERIES II. <title render="italic">HELEN KELLER IN HER STORY</title></unittitle>
+ <unittitle>SERIES II. HELEN KELLER IN HER STORY</unittitle>
  </did>
  <c02>
  <did>
@@ -1504,7 +1505,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. SUBJECT FILES</unittitle>
  </did>
@@ -1775,7 +1776,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. PHOTOGRAPHS AND NEGATIVES</unittitle>
   <note><p>[see also <ref target="list-ser6">SERIES VI. OVERSIZE MATERIALS</ref>]</p></note>
@@ -1913,7 +1914,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. AUDIOVISUAL MATERIALS</unittitle>
  </did>
@@ -2009,7 +2010,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. OVERSIZE MATERIALS</unittitle>
  </did>
@@ -2058,7 +2059,7 @@
  <c02>
  <did>
  <container type="box">14</container>
- <unittitle>Promotion for <title render="italic">Helen Keller In Her Story: </title>"Never has a film been so Widely Acclaimed &#8230;," n.d</unittitle>
+ <unittitle>Promotion for <title render="italic">Helen Keller In Her Story: </title>"Never has a film been so Widely Acclaimed …," n.d</unittitle>
  </did>
  </c02>
  <c02>
@@ -2097,5 +2098,3 @@
 
   </archdesc>
 </ead>
-
-

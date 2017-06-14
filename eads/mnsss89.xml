@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss89.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss89</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss89.xml//EN">mnsss89</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Economics Collection, 1858- 1990
@@ -48,15 +49,15 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Economics Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1858- 1990  </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Economics Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1858- 1990  </unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 432</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 432</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes; 1 volume</extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -68,19 +69,19 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Collection contains printed materials on economics as it relates to women in the U.S. Types of material include articles, newsletters, pamphlets, resource manuals, court hearings, and symposium proceedings. Includes women in the workforce, as economic equals, and as consumers.  Material published by the U. S. Department of Labor, Joint Economic Committee, the U. S. Department of Housing and Urban Development, and the United Nations.
+         <abstract encodinganalog="520$a" label="Abstract:">Collection contains printed materials on economics as it relates to women in the U.S. Types of material include articles, newsletters, pamphlets, resource manuals, court hearings, and symposium proceedings. Includes women in the workforce, as economic equals, and as consumers.  Material published by the U. S. Department of Labor, Joint Economic Committee, the U. S. Department of Housing and Urban Development, and the United Nations.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1143.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1143.jpg" linktype="simple" show="embed">
 <daodesc><p>Cover of Welfare Rights Handbook, March 1970</p></daodesc></dao> 
          <p> The Economics Collection contains printed materials on economics as it relates to women in the U.S.  The collection dates from the mid-nineteenth century to the present, although the majority of the material dates from the 1970s.  Types of material include articles, newsletters, pamphlets, resource manuals, court hearings, and symposium proceedings. Topics covered are women in the workforce, women as economic equals, and women as consumers.  There are also smaller amounts of material on women and development programs, insurance, pensions, credit discrimination, poverty and welfare, and information/statistics from the U. S. Department of Labor (Women's Bureau). There is also material relating to women published by the Joint Economic Committee, the U. S. Department of Housing and Urban Development, and the United Nations (project achievement reports for U.N. development programs).  Nineteenth century materials include books and a pamphlet, "An Appeal to the Women of America" by Desdemona Marke (1858), regarding a protective tariff.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -121,7 +122,7 @@
          <subject encodinganalog="650" source="lcsh">Women--Economic conditions--United States</subject>
          <subject encodinganalog="650" source="lcsh">Women--Employment--United States--History--20th century</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

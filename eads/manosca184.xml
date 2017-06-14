@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca184.html">manosca184</eadid>
 
@@ -14,7 +15,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2006</date>
+<date>© 2006</date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -36,7 +37,7 @@
 <num>RG 80</num> 
 <author>Elisha Winkler</author> 
 <date>2004</date> 
-<p>&#x00A9; 2006 Smith College. All rights reserved.</p> 
+<p>© 2006 Smith College. All rights reserved.</p> 
 </titlepage> 
 </frontmatter> 
 
@@ -44,17 +45,17 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<corpname source="lcnaf" encodinganalog="110">Smith College. Class of 1892.</corpname>
+<corpname encodinganalog="110" source="lcnaf">Smith College. Class of 1892.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Class of 1892 Records</unittitle> <unitdate label="Dates:">1874-1954, 1970</unitdate>
+<unittitle encodinganalog="245$a" label="Title:">Class of 1892 Records</unittitle> <unitdate label="Dates:">1874-1954, 1970</unitdate>
 
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 80</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:68a6f2e7-d338-44ac-bda8-df8c0c8dd7f3</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">9 boxes</extent>
 <extent encodinganalog="300$a">(3 linear ft. and 9 linear inches)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -132,7 +133,7 @@ This collection contains black and white photographs, correspondence, letters, d
 
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">1466</container>
@@ -1564,5 +1565,3 @@ This collection contains black and white photographs, correspondence, letters, d
 
 </archdesc>
 </ead>
-
-

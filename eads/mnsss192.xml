@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss192.html">mnsss192</eadid>
 
 	<filedesc>
@@ -33,27 +34,27 @@
 		<titleproper encodinganalog="245$a">Countries collection, 1540-2006 (bulk 1920-1970)</titleproper>
 		<subtitle>Finding Aid</subtitle> 
 		<num>MS 445</num> 
-		<author encodinganalog="245$c"></author> 
+		<author encodinganalog="245$c"/> 
 		<date>Revised 2004</date> 
 		 
 		 
-		<p>&#169; 2005 Smith College. All rights reserved.</p> 
+		<p>© 2005 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
 <archdesc level="collection" relatedencoding="MARC21">
 <did id="main">
 	<head>Collection Overview</head>
-		<unittitle label="Title:" encodinganalog="245$a">Countries collection</unittitle><unitdate label="Dates:">1540-2006</unitdate>
-			<unitdate type="bulk" encodinganalog="245$g">1920-1970</unitdate>
+		<unittitle encodinganalog="245$a" label="Title:">Countries collection</unittitle><unitdate label="Dates:">1540-2006</unitdate>
+			<unitdate encodinganalog="245$g" type="bulk">1920-1970</unitdate>
 		
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 445</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 445</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">64 boxes</extent>
 			<extent encodinganalog="300$a">(32 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">English, French, German, Spanish, Russian, Arabic</langmaterial>
+		<langmaterial encodinganalog="546" label="Language of Material:">English, French, German, Spanish, Russian, Arabic</langmaterial>
 
          <repository label="Location:">
             <corpname>Sophia Smith Collection</corpname>
@@ -145,7 +146,7 @@
 <!-- Insert container list here:-->
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -289,7 +290,7 @@
  <did>
  <container type="box">2</container>
  <container type="folder">6a</container>
- <unittitle>Problema de la Coordinaci&#243;n de Organizaciones Voluntarias,<unitdate> 1967</unitdate></unittitle>
+ <unittitle>Problema de la Coordinación de Organizaciones Voluntarias,<unitdate> 1967</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -336,7 +337,7 @@
  <did>
  <container type="box">2</container>
  <container type="folder">14</container>
- <unittitle>Asociaci&#243;n Femenina de Acci&#243;n Rural (AFAR),<unitdate> 1962</unitdate></unittitle>
+ <unittitle>Asociación Femenina de Acción Rural (AFAR),<unitdate> 1962</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -651,28 +652,28 @@
  <did>
  <container type="box">5</container>
  <container type="folder">11</container>
- <unittitle>Brasil-Estados Unidos Movimento de Desenvolvimento e Organiza&#231;&#227;o de Comunidade (BEMDOC),<unitdate> 1966</unitdate></unittitle>
+ <unittitle>Brasil-Estados Unidos Movimento de Desenvolvimento e Organização de Comunidade (BEMDOC),<unitdate> 1966</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">12</container>
- <unittitle>Centro de Prote&#231;&#227;o &#192; Inf&#226;ncia e Maternidade (CEPIM),<unitdate> 1964</unitdate></unittitle>
+ <unittitle>Centro de Proteção À Infância e Maternidade (CEPIM),<unitdate> 1964</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">13</container>
- <unittitle>Movimento Brasiliero de Correspond&#234;cia,<unitdate> 1956-68, n.d.</unitdate></unittitle>
+ <unittitle>Movimento Brasiliero de Correspondêcia,<unitdate> 1956-68, n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">14</container>
- <unittitle>Federa&#231;&#227;o de Ob ras Sociais (FOS),<unitdate> 1963-65</unitdate></unittitle>
+ <unittitle>Federação de Ob ras Sociais (FOS),<unitdate> 1963-65</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -686,14 +687,14 @@
  <did>
  <container type="box">5</container>
  <container type="folder">16</container>
- <unittitle>Legi&#227;o Brasileira de Assist&#234;ncia,<unitdate> 1967</unitdate></unittitle>
+ <unittitle>Legião Brasileira de Assistência,<unitdate> 1967</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">17</container>
- <unittitle>Organizac&#226;o das Volunt&#225;rias,<unitdate> 1965-67</unitdate></unittitle>
+ <unittitle>Organizacâo das Voluntárias,<unitdate> 1965-67</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -745,28 +746,28 @@
  <did>
  <container type="box">5</container>
  <container type="folder">23</container>
- <unittitle>A&#231;&#227;o Democr&#225;tica Feminina Ga&#250;cha,<unitdate> 1965-69</unitdate></unittitle>
+ <unittitle>Ação Democrática Feminina Gaúcha,<unitdate> 1965-69</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">24</container>
- <unittitle>Associa&#231;&#227;o Brasileira de Mulheres Universit&#225;rias,<unitdate> 1962</unitdate></unittitle>
+ <unittitle>Associação Brasileira de Mulheres Universitárias,<unitdate> 1962</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">25</container>
- <unittitle>Associa&#231;&#227;o Crist&#227; Feminina,<unitdate> 1968</unitdate></unittitle>
+ <unittitle>Associação Cristã Feminina,<unitdate> 1968</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">26</container>
- <unittitle>Associ&#231;&#227;o de Pais e Amigos dos Excepcionais ded S&#227;o Paulo (APAE),<unitdate> 1967, n.d.</unitdate></unittitle>
+ <unittitle>Associção de Pais e Amigos dos Excepcionais ded São Paulo (APAE),<unitdate> 1967, n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -787,7 +788,7 @@
  <did>
  <container type="box">5</container>
  <container type="folder">29</container>
- <unittitle>Federa&#231;&#227;o Brasileira Pelo Progresso Feminino,<unitdate> 1966</unitdate></unittitle>
+ <unittitle>Federação Brasileira Pelo Progresso Feminino,<unitdate> 1966</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -808,21 +809,21 @@
  <did>
  <container type="box">5</container>
  <container type="folder">32</container>
- <unittitle>Movimento de Arregimenta&#231;&#227;o Feminina,<unitdate> 1954-59, n.d.</unitdate></unittitle>
+ <unittitle>Movimento de Arregimentação Feminina,<unitdate> 1954-59, n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">33</container>
- <unittitle>Uni&#227;o Civica Feminina,<unitdate> 1960s</unitdate></unittitle>
+ <unittitle>União Civica Feminina,<unitdate> 1960s</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">5</container>
  <container type="folder">34</container>
- <unittitle>Rio de Janiero and S&#227;o Paulo women's clubs bulletins,<unitdate> 1956, 1963</unitdate></unittitle>
+ <unittitle>Rio de Janiero and São Paulo women's clubs bulletins,<unitdate> 1956, 1963</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -992,14 +993,14 @@
  <did>
  <container type="box">6</container>
  <container type="folder">8</container>
- <unittitle>Fr&#233;mont, Thais Lacoste,<unitdate> 1929-61</unitdate></unittitle>
+ <unittitle>Frémont, Thais Lacoste,<unitdate> 1929-61</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">6</container>
  <container type="folder">9</container>
- <unittitle>Gameliu, M&#232;re</unittitle>
+ <unittitle>Gameliu, Mère</unittitle>
  </did>
  </c03>
  <c03>
@@ -1020,7 +1021,7 @@
  <did>
  <container type="box">6</container>
  <container type="folder">12</container>
- <unittitle>Lacoste, Sir Alexandre (father of Thais Fr&#233;mont),<unitdate> 1923-54</unitdate></unittitle>
+ <unittitle>Lacoste, Sir Alexandre (father of Thais Frémont),<unitdate> 1923-54</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1154,14 +1155,14 @@
  <did>
  <container type="box">7</container>
  <container type="folder">3</container>
- <unittitle><title render="italic">Dans le Melee</title>, un num&#233;ro special sur la condition feminine, <unitdate>8 Mar 1980</unitdate></unittitle>
+ <unittitle><title render="italic">Dans le Melee</title>, un numéro special sur la condition feminine, <unitdate>8 Mar 1980</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">7</container>
  <container type="folder">4</container>
- <unittitle><title render="italic">La Revue des Fermi&#232;res</title>,<unitdate> 1944</unitdate></unittitle>
+ <unittitle><title render="italic">La Revue des Fermières</title>,<unitdate> 1944</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1187,7 +1188,7 @@
  <did>
  <container type="box">7</container>
  <container type="folder">7</container>
- <unittitle>F&#233;d&#233;ration des Femmes Canadiennes-Fran&#231;aises<unitdate>. 1931-36, n.d.</unitdate></unittitle>
+ <unittitle>Fédération des Femmes Canadiennes-Françaises<unitdate>. 1931-36, n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1640,7 +1641,7 @@
  <did>
  <container type="box">10</container>
  <container type="folder">16</container>
- <unittitle><title render="italic">Action Feminine</title>, Movement Familial Chr&#233;tien: pamphlets (in French),<unitdate> 1964-66</unitdate></unittitle>
+ <unittitle><title render="italic">Action Feminine</title>, Movement Familial Chrétien: pamphlets (in French),<unitdate> 1964-66</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1668,14 +1669,14 @@
  <did>
  <container type="box">10</container>
  <container type="folder">20</container>
- <unittitle><title render="italic">Les Premi&#232;res Le&#231;ons deMusique en Sol-Fa pour les Congolais</title> by Alice D. Cobble,<unitdate> 1949</unitdate></unittitle>
+ <unittitle><title render="italic">Les Premières Leçons deMusique en Sol-Fa pour les Congolais</title> by Alice D. Cobble,<unitdate> 1949</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">10</container>
  <container type="folder">21</container>
- <unittitle><title render="italic">Le Statut Juridique de la femme indig&#232;ne au Congo Belge</title>,<unitdate> 1950</unitdate></unittitle>
+ <unittitle><title render="italic">Le Statut Juridique de la femme indigène au Congo Belge</title>,<unitdate> 1950</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -2163,7 +2164,7 @@
  <did>
  <container type="box">13</container>
  <container type="folder">12</container>
- <unittitle>Publication: <title render="italic">Sju &#197;rtionden</title>,<unitdate> 1965</unitdate></unittitle>
+ <unittitle>Publication: <title render="italic">Sju Årtionden</title>,<unitdate> 1965</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -2212,14 +2213,14 @@
  <did>
  <container type="box">14</container>
  <container type="folder">1</container>
- <unittitle>Bougl&#233;, Marie-Louise,<unitdate> 1938</unitdate></unittitle>
+ <unittitle>Bouglé, Marie-Louise,<unitdate> 1938</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">14</container>
  <container type="folder">2</container>
- <unittitle>Brunschvieg, C&#233;cile L&#233;on, <unitdate>n.d.</unitdate></unittitle>
+ <unittitle>Brunschvieg, Cécile Léon, <unitdate>n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2247,7 +2248,7 @@
  <did>
  <container type="box">14</container>
  <container type="folder">6</container>
- <unittitle>De Sta&#235;l, Mme.,<unitdate> 1816-1883</unitdate></unittitle>
+ <unittitle>De Staël, Mme.,<unitdate> 1816-1883</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2296,7 +2297,7 @@
  <did>
  <container type="box">14</container>
  <container type="folder">13</container>
- <unittitle>Parturier, Fran&#231;oise,<unitdate> 1971</unitdate></unittitle>
+ <unittitle>Parturier, Françoise,<unitdate> 1971</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -2311,7 +2312,7 @@
  <did>
  <container type="box">14</container>
  <container type="folder">16</container>
- <unittitle>Congr&#232;s National des Droits Civils et du Suffrage des Femmes,<unitdate> 1908</unitdate></unittitle>
+ <unittitle>Congrès National des Droits Civils et du Suffrage des Femmes,<unitdate> 1908</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -2325,7 +2326,7 @@
  <did>
  <container type="box">14</container>
  <container type="folder">18</container>
- <unittitle>Exhibition, "Les Fran&#231;aises a Ravensbr&#252;ck,"<unitdate> 1959</unitdate></unittitle>
+ <unittitle>Exhibition, "Les Françaises a Ravensbrück,"<unitdate> 1959</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -2336,7 +2337,7 @@
  <did>
  <container type="box">14</container>
  <container type="folder">19</container>
- <unittitle><title render="italic">Cahier de Recherches</title>, "Femmes et Institutions litt&#233;raires," No. <unitdate>13, 1984</unitdate></unittitle>
+ <unittitle><title render="italic">Cahier de Recherches</title>, "Femmes et Institutions littéraires," No. <unitdate>13, 1984</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2357,14 +2358,14 @@
  <did>
  <container type="box">15</container>
  <container type="folder">2</container>
- <unittitle><title render="italic">j'ai tu&#233; emma s.</title> by Emma Santos,<unitdate> 1976</unitdate></unittitle>
+ <unittitle><title render="italic">j'ai tué emma s.</title> by Emma Santos,<unitdate> 1976</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">15</container>
  <container type="folder">3</container>
- <unittitle><title render="italic">La Participation des femmes &#224; la vie civique</title> by Marie-Th&#233;r&#232;se Renard,<unitdate> 1965</unitdate></unittitle>
+ <unittitle><title render="italic">La Participation des femmes à la vie civique</title> by Marie-Thérèse Renard,<unitdate> 1965</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2378,14 +2379,14 @@
  <did>
  <container type="box">15</container>
  <container type="folder">5</container>
- <unittitle><title render="italic">Sorci&#232;res, La Nourriture</title>, <unitdate>n.d.</unitdate></unittitle>
+ <unittitle><title render="italic">Sorcières, La Nourriture</title>, <unitdate>n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">15</container>
  <container type="folder">6</container>
- <unittitle><title render="italic">T&#233;moignage d'une Infirmi&#232;re</title> by Lucile Sumpt,<unitdate> 1934</unitdate></unittitle>
+ <unittitle><title render="italic">Témoignage d'une Infirmière</title> by Lucile Sumpt,<unitdate> 1934</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2406,7 +2407,7 @@
  <did>
  <container type="box">15</container>
  <container type="folder">9</container>
- <unittitle><title render="italic">Women of Paris</title> by Andr&#233; Maurois, translated by Norman Denny,<unitdate> 1958</unitdate></unittitle>
+ <unittitle><title render="italic">Women of Paris</title> by André Maurois, translated by Norman Denny,<unitdate> 1958</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -2425,28 +2426,28 @@
  <did>
  <container type="box">15</container>
  <container type="folder">11</container>
- <unittitle>Conseil National des Femmes Fran&#231;aise,<unitdate> 1931-69</unitdate></unittitle>
+ <unittitle>Conseil National des Femmes Française,<unitdate> 1931-69</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">16</container>
  <container type="folder">1</container>
- <unittitle>F&#233;d&#233;ration Anarchiste,<unitdate> 1947, n.d.</unitdate></unittitle>
+ <unittitle>Fédération Anarchiste,<unitdate> 1947, n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">16</container>
  <container type="folder">2</container>
- <unittitle>Ligue Fran&#231;aise pour le Droits des Femmes,<unitdate> 1921-60, n.d.</unitdate></unittitle>
+ <unittitle>Ligue Française pour le Droits des Femmes,<unitdate> 1921-60, n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">16</container>
  <container type="folder">3</container>
- <unittitle>Mouvement Mondial des M&#232;res,<unitdate> 1955-61</unitdate></unittitle>
+ <unittitle>Mouvement Mondial des Mères,<unitdate> 1955-61</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2739,7 +2740,7 @@
  </c04>
  <c04>
  <did>
- <unittitle>St&#246;cker, Helene</unittitle>
+ <unittitle>Stöcker, Helene</unittitle>
  </did>
  <c05>
  <did>
@@ -2794,7 +2795,7 @@
  <did>
  <container type="box">18</container>
  <container type="folder">8</container>
- <unittitle>Der Internationale Kongress f&#252;r Frauenwerke und Frauenbestrebungen, Berlin, <unitdate>Sep 1896: </unitdate>proceedings</unittitle>
+ <unittitle>Der Internationale Kongress für Frauenwerke und Frauenbestrebungen, Berlin, <unitdate>Sep 1896: </unitdate>proceedings</unittitle>
  </did>
  </c03>
  <c03>
@@ -2819,7 +2820,7 @@
  <did>
  <container type="box">19</container>
  <container type="folder">1</container>
- <unittitle><title render="italic">Ausblick vom M&#252;nsterturm</title> by Elle Heuss-Knapp,<unitdate> 1952</unitdate></unittitle>
+ <unittitle><title render="italic">Ausblick vom Münsterturm</title> by Elle Heuss-Knapp,<unitdate> 1952</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -2854,7 +2855,7 @@
  <did>
  <container type="box">19</container>
  <container type="folder">6</container>
- <unittitle><title render="italic">Frauen in Dresden: Dokumente, Geschichten, Portr&#228;ts</title>,<unitdate> 1994</unitdate></unittitle>
+ <unittitle><title render="italic">Frauen in Dresden: Dokumente, Geschichten, Porträts</title>,<unitdate> 1994</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -2913,7 +2914,7 @@
  <did>
  <container type="box">20</container>
  <container type="folder">5</container>
- <unittitle>Ligue F&#233;minine d'Action Sociale,<unitdate> 1948-57, n.d.</unitdate></unittitle>
+ <unittitle>Ligue Féminine d'Action Sociale,<unitdate> 1948-57, n.d.</unitdate></unittitle>
  </did>
  </c04>
  </c03>
@@ -2977,7 +2978,7 @@
  <did>
  <container type="box">20</container>
  <container type="folder">16</container>
- <unittitle>K&#233;thly, Anna,<unitdate> 1940-57</unitdate></unittitle>
+ <unittitle>Kéthly, Anna,<unitdate> 1940-57</unitdate></unittitle>
  </did>
  </c04>
  </c03>
@@ -3010,14 +3011,14 @@
  <did>
  <container type="box">20</container>
  <container type="folder">20-22</container>
- <unittitle><title render="italic">N&#337;k Lapja</title>, Women's International Democratic Federation, Hungary,<unitdate> 1950-51</unitdate></unittitle>
+ <unittitle><title render="italic">Nők Lapja</title>, Women's International Democratic Federation, Hungary,<unitdate> 1950-51</unitdate></unittitle>
  </did>
  </c04>
  <c04>
  <did>
  <container type="box">20</container>
  <container type="folder">23</container>
- <unittitle><title render="italic">N&#337;munk&#225;s (Woman Worker) Supplement</title>, <unitdate>Jun 1913</unitdate></unittitle>
+ <unittitle><title render="italic">Nőmunkás (Woman Worker) Supplement</title>, <unitdate>Jun 1913</unitdate></unittitle>
  </did>
  </c04>
  </c03>
@@ -3685,7 +3686,7 @@
  <did>
  <container type="box">24</container>
  <container type="folder">22</container>
- <unittitle>Manouch&#233;hrian, Mehrangiz,<unitdate> 1955</unitdate></unittitle>
+ <unittitle>Manouchéhrian, Mehrangiz,<unitdate> 1955</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -5173,7 +5174,7 @@
  <did>
  <container type="box">34</container>
  <container type="folder">20</container>
- <unittitle><title render="italic">Brecha: Un peri&#243;dico realizado por mujeres</title>,<unitdate> 1963-64</unitdate></unittitle>
+ <unittitle><title render="italic">Brecha: Un periódico realizado por mujeres</title>,<unitdate> 1963-64</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -5187,7 +5188,7 @@
  <did>
  <container type="box">34</container>
  <container type="folder">22</container>
- <unittitle><title render="italic">La Situaci&#243;n Jur&#237;dica de la Mujer Miexicana</title>, Alianza de Mujeres de Mexico,<unitdate> 1953</unitdate></unittitle>
+ <unittitle><title render="italic">La Situación Jurídica de la Mujer Miexicana</title>, Alianza de Mujeres de Mexico,<unitdate> 1953</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -5258,7 +5259,7 @@
  <did>
  <container type="box">34</container>
  <container type="folder">31</container>
- <unittitle><title render="italic">Petit Guide de la Jeune M&#232;re</title>, in French and Arabic, <unitdate>n.d.</unitdate></unittitle>
+ <unittitle><title render="italic">Petit Guide de la Jeune Mère</title>, in French and Arabic, <unitdate>n.d.</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -5355,7 +5356,7 @@
  <did>
  <container type="box">35</container>
  <container type="folder">10</container>
- <unittitle><title render="italic">Opz&#255;, radikaal feministicsh maanblad</title>, <unitdate>Nov 1972</unitdate></unittitle>
+ <unittitle><title render="italic">Opzÿ, radikaal feministicsh maanblad</title>, <unitdate>Nov 1972</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -5542,7 +5543,7 @@
  <did>
  <container type="box">36</container>
  <container type="folder">8</container>
- <unittitle><title render="italic">perspectives nig&#233;riennes</title>, <unitdate>Apr 1969</unitdate></unittitle>
+ <unittitle><title render="italic">perspectives nigériennes</title>, <unitdate>Apr 1969</unitdate></unittitle>
  </did>
  </c04>
  </c03>
@@ -5925,7 +5926,7 @@
  <did>
  <container type="box">39</container>
  <container type="folder">10</container>
- <unittitle>Sociedad de Ayuda al Ni&#241;o Enfermo (SANE),<unitdate> 1964-65</unitdate></unittitle>
+ <unittitle>Sociedad de Ayuda al Niño Enfermo (SANE),<unitdate> 1964-65</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -6048,7 +6049,7 @@
  <did>
  <container type="box">40</container>
  <container type="folder">6</container>
- <unittitle><title render="italic">Ster, organ r&#243;wnouprawnienia kobiet</title>,<unitdate> 1911-23</unitdate></unittitle>
+ <unittitle><title render="italic">Ster, organ równouprawnienia kobiet</title>,<unitdate> 1911-23</unitdate></unittitle>
  </did>
  </c05>
  </c04>
@@ -6184,7 +6185,7 @@
  <did>
  <container type="box">41</container>
  <container type="folder">2</container>
- <unittitle>"El Savador: Resumen del studio sobre la condicion de la Mujer Trabajadora en las Republicas Americanas, 1952-53&#8230;," Comision Interamericana de Mujeres,<unitdate> May 1957</unitdate></unittitle>
+ <unittitle>"El Savador: Resumen del studio sobre la condicion de la Mujer Trabajadora en las Republicas Americanas, 1952-53…," Comision Interamericana de Mujeres,<unitdate> May 1957</unitdate></unittitle>
  </did>
  </c04>
  </c03>
@@ -6387,14 +6388,14 @@
  <did>
  <container type="box">41</container>
  <container type="folder">26</container>
- <unittitle><title render="italic">Desde la Noche y la Niebla (Mujeres en las C&#225;rceles Franquistas)</title> by do&#241;a Juana Jimenez,<unitdate> 1978</unitdate></unittitle>
+ <unittitle><title render="italic">Desde la Noche y la Niebla (Mujeres en las Cárceles Franquistas)</title> by doña Juana Jimenez,<unitdate> 1978</unitdate></unittitle>
  </did>
  </c05>
  <c05>
  <did>
  <container type="box">41</container>
  <container type="folder">27</container>
- <unittitle><title render="italic">Familia Espa&#241;ola</title>, number 32<unitdate>Jun 1962</unitdate></unittitle>
+ <unittitle><title render="italic">Familia Española</title>, number 32<unitdate>Jun 1962</unitdate></unittitle>
  </did>
  </c05>
  </c04>
@@ -6402,7 +6403,7 @@
  <did>
  <container type="box">42</container>
  <container type="folder">1-3</container>
- <unittitle>Women's Organizations: Secci&#243;n Femenina de Falange Espa&#241;ola Tradicionalista y de las Juntas Ofensiva Nacional Sindicalista (FET y de las JONS),<unitdate> 1951-63, n.d.</unitdate></unittitle>
+ <unittitle>Women's Organizations: Sección Femenina de Falange Española Tradicionalista y de las Juntas Ofensiva Nacional Sindicalista (FET y de las JONS),<unitdate> 1951-63, n.d.</unitdate></unittitle>
  </did>
  </c04>
  </c03>
@@ -6478,7 +6479,7 @@
  <did>
  <container type="box">42</container>
  <container type="folder">11</container>
- <unittitle>Br&#228;ndstr&#246;m, Elsa,<unitdate> 1920s</unitdate></unittitle>
+ <unittitle>Brändström, Elsa,<unitdate> 1920s</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -6607,7 +6608,7 @@
  <did>
  <container type="box">43</container>
  <container type="folder">9</container>
- <unittitle>Frederika-Bremer-F&#246;rbundet,<unitdate> 1928-58, n.d.</unitdate></unittitle>
+ <unittitle>Frederika-Bremer-Förbundet,<unitdate> 1928-58, n.d.</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -6659,14 +6660,14 @@
  <did>
  <container type="box">43</container>
  <container type="folder">15</container>
- <unittitle><title render="italic">Bericht &#252;ber die Verhandlungen des Schweizerischen Kogresses f&#252;r die Interessen der Frau</title>,<unitdate> 1897</unitdate></unittitle>
+ <unittitle><title render="italic">Bericht über die Verhandlungen des Schweizerischen Kogresses für die Interessen der Frau</title>,<unitdate> 1897</unitdate></unittitle>
  </did>
  </c05>
  <c05>
  <did>
  <container type="box">43</container>
  <container type="folder">16</container>
- <unittitle><title render="italic">Berufsfibel f&#252;r M&#228;dchen</title>,<unitdate> 1961</unitdate></unittitle>
+ <unittitle><title render="italic">Berufsfibel für Mädchen</title>,<unitdate> 1961</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -6692,7 +6693,7 @@
  <did>
  <container type="box">44</container>
  <container type="folder">2</container>
- <unittitle>Soci&#233;t&#233; Coop&#233;rative de Cautionnement des femmes Suisses (SAFFA),<unitdate> 1928-56</unitdate></unittitle>
+ <unittitle>Société Coopérative de Cautionnement des femmes Suisses (SAFFA),<unitdate> 1928-56</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -6967,14 +6968,14 @@
  <did>
  <container type="box">45</container>
  <container type="folder">6</container>
- <unittitle>Les Annales de Turque, special edition "La plu m&#233;ritoire des femmes turques," <unitdate>Mar 1935</unitdate></unittitle>
+ <unittitle>Les Annales de Turque, special edition "La plu méritoire des femmes turques," <unitdate>Mar 1935</unitdate></unittitle>
  </did>
  </c05>
  <c05>
  <did>
  <container type="box">45</container>
  <container type="folder">7</container>
- <unittitle>&#199;iftlik, <unitdate>Oct 1961</unitdate></unittitle>
+ <unittitle>Çiftlik, <unitdate>Oct 1961</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -7007,7 +7008,7 @@
  <did>
  <container type="box">45</container>
  <container type="folder">11</container>
- <unittitle>Kadin Eserleri K&#252;t&#252;phanesi ve Bilgi Merkezi Merkezi Vakfi (Women's Library),<unitdate> 2006</unitdate></unittitle>
+ <unittitle>Kadin Eserleri Kütüphanesi ve Bilgi Merkezi Merkezi Vakfi (Women's Library),<unitdate> 2006</unitdate></unittitle>
  </did>
  </c05>
  </c04>
@@ -8105,7 +8106,7 @@
  <did>
  <container type="box">49</container>
  <container type="folder">11</container>
- <unittitle><title render="italic">Women of Yugoslavia</title> by Olga Kova&#269;i&#263;,<unitdate> 1947</unitdate></unittitle>
+ <unittitle><title render="italic">Women of Yugoslavia</title> by Olga Kovačić,<unitdate> 1947</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -8204,7 +8205,7 @@
  <did>
  <container type="box">60</container>
  <container type="folder">5</container>
- <unittitle>"African Women Speak," Regional Seminar of World Union of Catholic Women's Organizations, Lom&#233;, Togo, <unitdate>Jul 1958</unitdate></unittitle>
+ <unittitle>"African Women Speak," Regional Seminar of World Union of Catholic Women's Organizations, Lomé, Togo, <unitdate>Jul 1958</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -8469,7 +8470,7 @@
  <did>
  <container type="box">62</container>
  <container type="folder">9</container>
- <unittitle>"Rapport sur la Traite des Femmes et des Enfants dans les Territoires du Levant sous Mandat Fran&#231;ais,"<unitdate> 1930</unitdate></unittitle>
+ <unittitle>"Rapport sur la Traite des Femmes et des Enfants dans les Territoires du Levant sous Mandat Français,"<unitdate> 1930</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -8596,13 +8597,13 @@
  <c04>
  <did>
  <container type="box">64</container>
- <unittitle>Canada:<title render="italic"> En Lutte!: Supplement pour la journ&#233;e international des femmes</title>, <unitdate>24 Feb-3</unitdate>Mar 1981</unittitle>
+ <unittitle>Canada:<title render="italic"> En Lutte!: Supplement pour la journée international des femmes</title>, <unitdate>24 Feb-3</unitdate>Mar 1981</unittitle>
  </did>
  </c04>
  <c04>
  <did>
  <container type="box">64</container>
- <unittitle>France: Women's Organizations: Union F&#233;minine Civique et Sociale, <title render="italic">La Femme dans la vie Sociale</title>, miscellaneous issues,<unitdate> 1957-68</unitdate></unittitle>
+ <unittitle>France: Women's Organizations: Union Féminine Civique et Sociale, <title render="italic">La Femme dans la vie Sociale</title>, miscellaneous issues,<unitdate> 1957-68</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -8656,7 +8657,7 @@
  <c04>
  <did>
  <container type="box">64</container>
- <unittitle>Spain: Seccion Femenina de F.E.T.y de las J.O.N.S. Sintesis de su organizaci&#243;n, <unitdate>n.d.</unitdate></unittitle>
+ <unittitle>Spain: Seccion Femenina de F.E.T.y de las J.O.N.S. Sintesis de su organización, <unitdate>n.d.</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -8668,7 +8669,7 @@
  <c04>
  <did>
  <container type="box">64</container>
- <unittitle>Turkey: "Turkish Women of To-day" by Ira Nelson Morris, <title render="italic">Pictorial Review</title>, <unitdate>Nov 1923</unitdate>; <title render="italic">L'Illustration de Turquie</title>, No. 31-32, <unitdate>1 May 1935</unitdate>; <title render="italic">Gen&#231;lik Kadinlar Semineri</title>, <unitdate>1961</unitdate></unittitle>
+ <unittitle>Turkey: "Turkish Women of To-day" by Ira Nelson Morris, <title render="italic">Pictorial Review</title>, <unitdate>Nov 1923</unitdate>; <title render="italic">L'Illustration de Turquie</title>, No. 31-32, <unitdate>1 May 1935</unitdate>; <title render="italic">Gençlik Kadinlar Semineri</title>, <unitdate>1961</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -8742,7 +8743,7 @@
  <c04>
  <did>
  <container type="map-case">flat file drawer 1</container>
- <unittitle>Congo: Poster for Radio Congo Belge "Le Cours to Fran&#231;ais&#8230;nous ecouton chaque jour aux emission africaines de Radio Congo Belge," <unitdate>n.d.</unitdate></unittitle>
+ <unittitle>Congo: Poster for Radio Congo Belge "Le Cours to Français…nous ecouton chaque jour aux emission africaines de Radio Congo Belge," <unitdate>n.d.</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -8754,7 +8755,7 @@
  <c04>
  <did>
  <container type="map-case">flat file drawer 1</container>
- <unittitle>France: marriage certificates<unitdate>1540, 1549</unitdate>; Anarchist Federation poster; <title render="italic">La Vie Fran&#231;aise</title> <unitdate>20 Jun 1919</unitdate></unittitle>
+ <unittitle>France: marriage certificates<unitdate>1540, 1549</unitdate>; Anarchist Federation poster; <title render="italic">La Vie Française</title> <unitdate>20 Jun 1919</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -8820,5 +8821,3 @@
 
 </archdesc>
 </ead>
-
-

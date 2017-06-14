@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s3.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg6s3</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s3.xml//EN">mnsss292rg6s3</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 06. Program: Series III. Public Advocacy</unittitle><unitdate type="inclusive" label="Dates:">1870-2002</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 06. Program: Series III. Public Advocacy</unittitle><unitdate label="Dates:" type="inclusive">1870-2002</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:604e2560-a92d-4cb7-9671-3b356d67fa0a</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,7 +49,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
                        Records in this series document the formulation of the National Association's public advocacy program, its lobbying efforts on behalf of legislation, and efforts to "interpret" the program to its membership and the general public at local, regional, and national levels.  Materials include general historical materials, committee and subcommittee records, mailings to Associations, publications, program materials, reference files on program issues, reports, surveys, and training materials.  Forms part of the YWCA of the U.S.A. Records. <extref href="mnsss292rg6_main.html">Record Group 6. Program</extref>.
          </abstract>
 </did>
@@ -57,7 +58,7 @@
  	<head>Historical Note</head>
 
 	<p> The Public Advocacy activities of the YWCA represent the Association as a social force and have been described as "prayer in motion."  They encompass "[a]ny issue affecting our common life which requires collective citizen action, legislation, or the development of public policy or efforts to change or improve the conditions or quality of life for all citizens, or correct inequities." </p>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3144.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3144.jpg" linktype="simple" show="embed">
 <daodesc><p>Cover of pamphlet by Joseph Camp, 1948</p></daodesc></dao><p>In a January 1911 report to the Department of Method, Economic Secretary Blanche Geary, spurred a new type of activity for the National Association when she pointed out that "preventative work for the girl who is not self-supporting is to a large degree futile if it is not coupled with a determined effort to secure her [a] minimum living wage."  When Geary's argument was put before the membership later that year at the Third National Convention the YWCA went on record as in "sympathy with the great purpose of securing the determination by law of a minimum living wage for women."  With this resolution, the National YWCA began to make use of its influence as a Christian organization in the public policy sphere.</p> 
 	<p>From this point, part of the goal of the Department of Method was to make each Association, club, and committee within the YWCA "a force for social and industrial righteousness."  Most of the National Association's earliest public advocacy activities were related to employment issues in the "economic" sphere.  World War I prompted the YWCA to expand its longstanding efforts to foster international understanding (known as its "World Fellowship" work) to include public policy efforts in support of international peace. </p>
 	<p>At the 1920 YWCA National Convention (the first held after passage of the Nineteenth Amendment to the U.S. Constitution guaranteeing women the franchise), the membership voted to "make a study of social and economic conditions affecting women, and of the possibilities of improving such conditions through legislation and that it use resources and influence to help secure such legislation as shall promote the welfare of young women."   The National Board's recommendation for adoption of the "Social Ideals of the Churches" of the Federal Council of Churches of Christ in America as the social platform of the YWCA, reads in part:  "To secure the practical application of these Social Ideals, there will be needed intelligent public opinion, social reform and wise legislation.  Through the experience of the last five years [World War I] women have discovered their potential power in public affairs, and with the granting of the franchise there has come to them the responsibility for active participation in the life of the body politic.  Many women are not as yet prepared to meet these responsibilities.  Many have need of guidance in adjusting their private life to the challenging demands of full citizenship.  There is necessity for careful study  of the contribution which women can bring to national and international problems."  The result was a resolution to use YWCA resources "to further the preparation of women for responsible citizenship and to direct their energies toward the achievement of social righteousness."</p>
@@ -212,7 +213,7 @@
 <extref href="mnsss292rg10_main.html">RECORD GROUP 10.  AUDIOVISUAL MATERIALS</extref> includes footage of YWCA participation in a few demonstrations, television coverage and public service announcements related to the Week Without Violence campaigns of the 1990s, and Institute for Public Leadership training sessions from the late 1980s and early 1990s.</p>
 
 </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization</head>
 	<p>This Record Group is divided into seven Series: </p>
 	<list>
@@ -330,8 +331,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser3">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PUBLIC ADVOCACY</unittitle>
  </did>
@@ -1347,7 +1348,7 @@
  <did>
  <container type="box">402</container>
  <container type="folder">4</container>
- <unittitle>YWCA Campaign 2000&#8230;We Vote and Our Voices are Heard</unittitle>
+ <unittitle>YWCA Campaign 2000…We Vote and Our Voices are Heard</unittitle>
  </did>
  </c05>
  </c04>
@@ -5408,5 +5409,4 @@
 </dsc>
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

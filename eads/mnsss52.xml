@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss52.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss52</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss52.xml//EN">mnsss52</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Frances Fox Piven Papers, 1957-2011
@@ -52,18 +53,18 @@
          <sponsor>Processing of the Frances Fox Piven Papers was made possible by the generous support of the National Endowment for the Humanities and Smith College President Ruth J. Simmons
             </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Piven, Frances Fox</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Frances Fox Piven Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1957 - 2011 [ongoing]</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Frances Fox Piven Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1957 - 2011 [ongoing]</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 238</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 238</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">157 boxes</extent>
             <extent encodinganalog="300$a">(123.25 linear ft. )</extent>
@@ -75,16 +76,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Professor, political science and political activist.  The material in the Frances Fox Piven Papers, which includes correspondence, organization files, speeches, and writings, reflects her involvement as both an academic and activist concerned with community development, poverty, the welfare state and urban reform. Organizations documented include the American Civil Liberties Union, Mobilization for Youth, and the National Welfare Rights Organization. Correspondents include June Jordan, Michael Harrington, and Senator Paul Wellstone.
+         <abstract encodinganalog="520$a" label="Abstract:">Professor, political science and political activist.  The material in the Frances Fox Piven Papers, which includes correspondence, organization files, speeches, and writings, reflects her involvement as both an academic and activist concerned with community development, poverty, the welfare state and urban reform. Organizations documented include the American Civil Liberties Union, Mobilization for Youth, and the National Welfare Rights Organization. Correspondents include June Jordan, Michael Harrington, and Senator Paul Wellstone.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-         <p>Widely recognized as one of America's most thoughtful and provocative commentators on America's social welfare system, Frances Fox Piven, political scientist, activist, and educator, was born in Calgary, Alberta in 1932.  She came to the U.S. in 1933 and was naturalized in 1953, the same year she received her B.A. in City Planning from the University of Chicago.  She also received her M.A. (1956) and Ph.D. (1962) from the University of Chicago.  While married to Herman Piven, she had a daughter, Sarah.  After a brief stint in New York as a city planner, she became a research associate at one of the country's first anti-poverty agencies, Mobilization for Youth -- a comprehensive, community-based service organization on New York City's Lower East Side. At its height the organization coordinated more than fifty experimental programs designed to reduce poverty and crime. A 1965 paper entitled "Mobilizing the Poor:  How It Can Be Done," launched Piven and her co-author, Columbia University professor Richard Cloward, into an ongoing national conversation on the welfare state.  Piven and Cloward's collaborative work came to influence both careers, and the two eventually married.   Their early work together provided a theoretical base for the National Welfare Rights Organization (NWRO), the first in a long line of grass-roots organizations in which Piven acted as founder, advisor, and/or planner. Piven taught in the Columbia University School of Social Work from 1966 to 1972.  From 1972 to 1982 she was a professor of political science at Boston University.  In 1982 she joined the Graduate Center, City University of New York.  She has co-authored with Richard Cloward <title render="italic" encodinganalog="630" source="lcsh">Regulating the Poor:  The Functions of Public Welfare</title>  (1971); <title render="italic" encodinganalog="630" source="lcsh">The Politics of Turmoil:  Essays on Poverty, Race and the Urban Crisis</title>  (1974); <title render="italic" encodinganalog="630" source="lcsh">Poor People's Movements</title>  (1977); <title render="italic" encodinganalog="630" source="lcsh">The New Class War</title>  (1982); <title render="italic" encodinganalog="630" source="lcsh">The Mean Season</title>  (1987); <title render="italic" encodinganalog="630" source="lcsh">Why Americans Don't Vote</title>  (1988); and <title render="italic" encodinganalog="630" source="lcsh">The Breaking of the American Social Compact </title> (1997), as well as dozens of articles, both with Cloward and independently, in scholarly and popular publications.</p>
-         <p>Piven is known equally for her contributions to social theory and for her social activism. Over the course of her career, she has served on the boards of the ACLU and the Democratic Socialists of America, and has also held offices in several professional associations, including the American Political Science Association and the Society for the Study of Social Problems.  In the 1960s, Piven worked with welfare-rights groups to expand benefits; in the eighties and nineties she campaigned relentlessly against welfare cutbacks.  A veteran of the war on poverty and subsequent welfare-rights protests both in New York City and on the national stage, she has been instrumental in formulating the theoretical underpinnings of those movements.  In <title render="italic" encodinganalog="630" source="lcsh">Regulating the Poor</title> , Piven and Cloward argued that any advances the poor have made throughout history were directly proportional to their ability to disrupt institutions that depend upon their cooperation. This academic commentary proved useful to George Wiley and the NWRO as well as a great many other community organizers and urban theorists. Since 1994, Piven has led academic and activist opposition to the "Personal Responsibility and Work Opportunity Reconciliation Act of 1996," (known as the Personal Responsibility Act), appearing in numerous public forums, from television's <title render="italic" encodinganalog="630" source="lcsh">Firing Line</title>  to the U.S. Senate, to discuss the history of welfare and the potential impact of welfare reform initiatives.</p>
+         <p>Widely recognized as one of America's most thoughtful and provocative commentators on America's social welfare system, Frances Fox Piven, political scientist, activist, and educator, was born in Calgary, Alberta in 1932.  She came to the U.S. in 1933 and was naturalized in 1953, the same year she received her B.A. in City Planning from the University of Chicago.  She also received her M.A. (1956) and Ph.D. (1962) from the University of Chicago.  While married to Herman Piven, she had a daughter, Sarah.  After a brief stint in New York as a city planner, she became a research associate at one of the country's first anti-poverty agencies, Mobilization for Youth -- a comprehensive, community-based service organization on New York City's Lower East Side. At its height the organization coordinated more than fifty experimental programs designed to reduce poverty and crime. A 1965 paper entitled "Mobilizing the Poor:  How It Can Be Done," launched Piven and her co-author, Columbia University professor Richard Cloward, into an ongoing national conversation on the welfare state.  Piven and Cloward's collaborative work came to influence both careers, and the two eventually married.   Their early work together provided a theoretical base for the National Welfare Rights Organization (NWRO), the first in a long line of grass-roots organizations in which Piven acted as founder, advisor, and/or planner. Piven taught in the Columbia University School of Social Work from 1966 to 1972.  From 1972 to 1982 she was a professor of political science at Boston University.  In 1982 she joined the Graduate Center, City University of New York.  She has co-authored with Richard Cloward <title encodinganalog="630" render="italic" source="lcsh">Regulating the Poor:  The Functions of Public Welfare</title>  (1971); <title encodinganalog="630" render="italic" source="lcsh">The Politics of Turmoil:  Essays on Poverty, Race and the Urban Crisis</title>  (1974); <title encodinganalog="630" render="italic" source="lcsh">Poor People's Movements</title>  (1977); <title encodinganalog="630" render="italic" source="lcsh">The New Class War</title>  (1982); <title encodinganalog="630" render="italic" source="lcsh">The Mean Season</title>  (1987); <title encodinganalog="630" render="italic" source="lcsh">Why Americans Don't Vote</title>  (1988); and <title encodinganalog="630" render="italic" source="lcsh">The Breaking of the American Social Compact </title> (1997), as well as dozens of articles, both with Cloward and independently, in scholarly and popular publications.</p>
+         <p>Piven is known equally for her contributions to social theory and for her social activism. Over the course of her career, she has served on the boards of the ACLU and the Democratic Socialists of America, and has also held offices in several professional associations, including the American Political Science Association and the Society for the Study of Social Problems.  In the 1960s, Piven worked with welfare-rights groups to expand benefits; in the eighties and nineties she campaigned relentlessly against welfare cutbacks.  A veteran of the war on poverty and subsequent welfare-rights protests both in New York City and on the national stage, she has been instrumental in formulating the theoretical underpinnings of those movements.  In <title encodinganalog="630" render="italic" source="lcsh">Regulating the Poor</title> , Piven and Cloward argued that any advances the poor have made throughout history were directly proportional to their ability to disrupt institutions that depend upon their cooperation. This academic commentary proved useful to George Wiley and the NWRO as well as a great many other community organizers and urban theorists. Since 1994, Piven has led academic and activist opposition to the "Personal Responsibility and Work Opportunity Reconciliation Act of 1996," (known as the Personal Responsibility Act), appearing in numerous public forums, from television's <title encodinganalog="630" render="italic" source="lcsh">Firing Line</title>  to the U.S. Senate, to discuss the history of welfare and the potential impact of welfare reform initiatives.</p>
 
          <p>In corollary activity, Piven's study of voter registration and participation patterns found fruition in the 1983 founding of the HumanSERVE (Human Service Employees Registration and Voter Education) Campaign. The Campaign's registration reform effort culminated in the 1994 passage of the National Voter Registration Act, or the "Motor-Voter" bill, designed to increase voter registration, especially among low-income groups.</p>
          <p>Michael Harrington, whose book The Other America helped focus the nation's attention on poverty in the early 1960s, has said that Piven is "one of the few academics who bridge the world of scholarship and the world of activism."  Of this mix, Piven herself has said:  "One informs the other, energizes the other . . . There are dimensions of political life that can't be seen if you stay on the sidelines or close to the top . . ."  The larger significance of both activism and academics in Piven's life can be gleaned from her remark that such work "also has to do with comradeship and friendship, . . . with being part of the social world in which you live and trying to make some imprint on it, . . . with the real satisfaction of throwing in with the ordinary people who have always been the force for humanitarian social change."</p>
@@ -124,7 +125,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -544,8 +545,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1970- )</unitdate>
                </unittitle>
@@ -639,7 +640,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE, <unitdate>1962-</unitdate>
                </unittitle>
@@ -884,7 +885,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. TEACHING, <unitdate>1963-</unitdate>
                </unittitle>
@@ -1816,7 +1817,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. COMMUNITY SERVICE <unitdate>(circa 1964-  )</unitdate>
                </unittitle>
@@ -3740,7 +3741,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. WRITINGS <unitdate>(circa 1962-  )</unitdate>
                </unittitle>
@@ -5383,7 +5384,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. SPEECHES <unitdate>(1967-1997)</unitdate>
                </unittitle>
@@ -5409,7 +5410,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. SUBJECT FILES <unitdate>(circa 1950- )</unitdate>
                </unittitle>
@@ -5595,7 +5596,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII. AUDIOVISUAL MATERIAL <unitdate>(1987- )</unitdate>
                </unittitle>

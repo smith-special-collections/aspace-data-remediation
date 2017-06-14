@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manoscmr" url="http://asteria.fivecolleges.edu/findaids/mortimer/manoscmr14.html">manoscmr14</eadid>
 
 	<filedesc>
@@ -36,7 +37,7 @@
 		<author encodinganalog="245$c">Melvin Carlson, Jr.</author> 
 		<date>2005</date>  
 		 
-		<p>&#169; 2006 Smith College. All rights reserved.</p> 
+		<p>© 2006 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -44,16 +45,16 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Chase, Mary Ellen, 1887-1973</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Chase, Mary Ellen, 1887-1973</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Mary Ellen Chase Literary Manuscripts</unittitle><unitdate label="Dates:">1937-1968</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr"> MS 33</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Mary Ellen Chase Literary Manuscripts</unittitle><unitdate label="Dates:">1937-1968</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr"> MS 33</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">7 boxes</extent>
 			<extent encodinganalog="300$a">(3 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+		<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
           <repository label="Location:">
@@ -90,7 +91,7 @@ Chase's popularity and skill at public speaking earned her many invitations to l
 <p>The majority of Chase's literary manuscripts are located in other repositories.  See the section entitled "Related Material" for assistance in finding other literary manuscripts.  The Smith College Archives has files related to Chase's teaching career in the English Department of Smith College.  </p>
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -226,8 +227,8 @@ Chase's popularity and skill at public speaking earned her many invitations to l
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>SERIES I.  PERSONAL PAPERS <unitdate>(1947-1968)</unitdate></unittitle>
       </did>
@@ -430,7 +431,7 @@ Chase's popularity and skill at public speaking earned her many invitations to l
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>SERIES II.  BOOKS<unitdate>(1937-1968)</unitdate></unittitle>
       </did>
@@ -810,7 +811,7 @@ Chase's popularity and skill at public speaking earned her many invitations to l
                                  <unitdate>, 1940-[1941]</unitdate>
                               </unittitle>
                          </did>
-   			<note><p>On tp: of the 1st notebook:  "Actual writing of this novel began on 12th November 1940 at 16 Paradise Pond &#8230;" Laid in: "The original manuscript began November 12, 1941 in Northampton.  Finished September 2, 1942 at Windswept, Petit Manan Point, Maine."  Dates incorrect on MEC's note in that her novel was published in 1941.</p>
+   			<note><p>On tp: of the 1st notebook:  "Actual writing of this novel began on 12th November 1940 at 16 Paradise Pond …" Laid in: "The original manuscript began November 12, 1941 in Northampton.  Finished September 2, 1942 at Windswept, Petit Manan Point, Maine."  Dates incorrect on MEC's note in that her novel was published in 1941.</p>
    			</note>
                      </c03>
                         <c03>
@@ -825,7 +826,7 @@ Chase's popularity and skill at public speaking earned her many invitations to l
                    </c03>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>SERIES III.   ARTICLES AND OTHER WRITINGS <unitdate> (1933-1966)</unitdate></unittitle>
          	</did>
@@ -839,7 +840,7 @@ Chase's popularity and skill at public speaking earned her many invitations to l
             <did>
                <container type="box">6</container>
                <container type="folder">71</container>
-               <unittitle>An Ancient Democracy to a Modern: an address &#8230; January 11, 1942 given at the &#8230; New York Society for Ethical Culture.  TMs, mimeograph with corrections.  7 leaves
+               <unittitle>An Ancient Democracy to a Modern: an address … January 11, 1942 given at the … New York Society for Ethical Culture.  TMs, mimeograph with corrections.  7 leaves
                   <unitdate>, 1942</unitdate>
                </unittitle>
             </did>
@@ -1221,7 +1222,7 @@ Chase's popularity and skill at public speaking earned her many invitations to l
          </c03>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser4">
+   <c01 id="list-ser4" level="series">
       <did>
          <unittitle>SERIES IV.  BOOK REVIEW BY MARY ELLEN CHASE <unitdate>(1954-1966)</unitdate></unittitle>
       </did>
@@ -1289,7 +1290,7 @@ Chase's popularity and skill at public speaking earned her many invitations to l
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser5">
+   <c01 id="list-ser5" level="series">
       <did>
          <unittitle>SERIES V.  OVERSIZE</unittitle>
       </did>
@@ -1424,5 +1425,3 @@ Chase's popularity and skill at public speaking earned her many invitations to l
 
 </archdesc>
 </ead>
-
-

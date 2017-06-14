@@ -1,8 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
-   <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss483.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss483</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+   <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss483.xml//EN">mnsss483</eadid>
   <filedesc>
    <titlestmt>
     <titleproper encodinganalog="245$a">SisterSong Women of Color
@@ -28,8 +27,7 @@ DB/Textworks 7.01. Encoded by Margaret Jessup.
      <date normal="yyyy-mm-dd">2009-09-28</date>
   </creation>
   <langusage>Finding aid written in
-    <language encodinganalog="546" langcode="eng"
-scriptcode="latn">English.</language>
+    <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
    </langusage>
   </profiledesc>
  </eadheader>
@@ -40,17 +38,15 @@ scriptcode="latn">English.</language>
       <persname encodinganalog="100" source="lcnaf">SisterSong Women of Color
  Reproductive Justice Collective</persname>
     </origination>
-    <unittitle label="Title:" encodinganalog="245$a">SisterSong Women of Color
- Reproductive Justice Collective Records</unittitle><unitdate type="inclusive"
- label="Dates:">1996-2010 (ongoing)</unitdate>
-    <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 550</unitid>
+    <unittitle encodinganalog="245$a" label="Title:">SisterSong Women of Color
+ Reproductive Justice Collective Records</unittitle><unitdate label="Dates:" type="inclusive">1996-2010 (ongoing)</unitdate>
+    <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 550</unitid>
   <physdesc label="Quantity:">
       <extent encodinganalog="300$a">16 boxes</extent>
       <extent encodinganalog="300$a">(11.25 linear ft.) </extent>
   </physdesc>
   <!-- Encode additional languages with lang clip -->
-   <langmaterial label="Language of Material:" encodinganalog="546">
+   <langmaterial encodinganalog="546" label="Language of Material:">
     <language langcode="eng">English</language>
   </langmaterial>
      <repository label="Location:">
@@ -61,7 +57,7 @@ scriptcode="latn">English.</language>
        </address>
      </repository>
       <!-- MRJ Edit as needed-->
-      <abstract label="Abstract:" encodinganalog="520$a">
+      <abstract encodinganalog="520$a" label="Abstract:">
       Reproductive rights advocacy and healthcare reform  organization. Conference
 materials, background information, and video recordings from the SisterSong National Membership Meetings.
 
@@ -147,10 +143,9 @@ Collection for more information about this collection.] -->
 	<item>
 	<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss205_main.html">Loretta Ross Papers</extref></item>
 	<item>Luz Rodriguez Papers</item>
-	<item>Nkenge Tour&#233; Papers</item>
+	<item>Nkenge Touré Papers</item>
 	<item>Black Women's Health Imperative Records</item>
    </list></p>
     </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

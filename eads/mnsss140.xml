@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss140.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss140</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss140.xml//EN">mnsss140</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Lydia Bell Moscrip Papers, 1900-1920</titleproper>
@@ -46,18 +47,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Moscrip, Lydia Bell </persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Lydia Bell Moscrip Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1900-1920</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Lydia Bell Moscrip Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1900-1920</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 195</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 195</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box		  </extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -69,8 +70,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Suffragist, and Red Cross relief worker, World War I. The papers of Lydia Bell Moscrip (dates unknown) consist primarily of printed material and memorabilia relating to her New York suffrage activities and her World War I activities. There is a small amount of personal correspondence.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Suffragist, and Red Cross relief worker, World War I. The papers of Lydia Bell Moscrip (dates unknown) consist primarily of printed material and memorabilia relating to her New York suffrage activities and her World War I activities. There is a small amount of personal correspondence.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -86,7 +87,7 @@
 
 	<p>Suffrage items consist of flyers and pamphlets of the New York State Suffrage Party; two undated clippings, including an editorial by Anna Howard Shaw; and a commemorative booklet celebrating Susan B. Anthony's eightieth birthday.  World War I material consists of Liberty Loan flyers and advertisements, Red Cross membership cards and service flag, food rationing campaign items and recipes, knitting patters, and miscellaneous items.  The correspondence includes descriptions of the 1918 influenza epidemic and its effect on the Moscrip family life.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -123,7 +124,7 @@
          <subject encodinganalog="650" source="lcsh">Women--Suffrage--New York (State)--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">World War, 1914-1918--War work--Red Cross</subject>
       </controlaccess>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

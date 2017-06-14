@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss12.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss12</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss12.xml//EN">mnsss12</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Dori Jacobson's Women's Rights Portfolio, 1977-1986
@@ -49,17 +50,17 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Jacobson, Dori</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Dori Jacobson's Women's Rights Portfolio</unittitle><unitdate encodinganalog="245$f" type="inclusive">1977-1986</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 279</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Dori Jacobson's Women's Rights Portfolio</unittitle><unitdate encodinganalog="245$f" type="inclusive">1977-1986</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 279</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -71,9 +72,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Photographer and feminist. Includes photos of individual women and events, including women's rights actions in Illinois, the Equal Rights Amendment movement in Illinois, the National Organization for Women,  New York anti-pornography rally, abortion rights and antinuclear events, and the March for Women's Lives, Washington, D.C.
+         <abstract encodinganalog="520$a" label="Abstract:">Photographer and feminist. Includes photos of individual women and events, including women's rights actions in Illinois, the Equal Rights Amendment movement in Illinois, the National Organization for Women,  New York anti-pornography rally, abortion rights and antinuclear events, and the March for Women's Lives, Washington, D.C.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -90,7 +91,7 @@
          <p>The photographs are arranged chronologically.
       </p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -139,7 +140,7 @@
          <subject encodinganalog="650" source="lcsh">Women photographers--United States</subject>
          <persname encodinganalog="600" source="lcnaf">Jacobson, Dori</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

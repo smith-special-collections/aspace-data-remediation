@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss143.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss143</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss143.xml//EN">mnsss143</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Florence Cross Kitchelt Papers, 1900-1959
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Kitchelt, Florence Ledyard Cross, 1874-1961</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Florence Cross Kitchelt Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1900-1959</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Florence Cross Kitchelt Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1900-1959</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 86</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 86</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -72,14 +73,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Settlement house worker and social worker. Kitchelt's journals describe settlement work in New York and New Haven, CT. Correspondence includes descriptive letters to her parents; letters from settlement friends; letters from Sadie Rubin, an inmate at the New York State Reformatory for Women; and from members of the Laureate Literary Society, which Kitchelt founded and directed. Other materials include autobiographical pieces, articles, verses, and notes.  </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Settlement house worker and social worker. Kitchelt's journals describe settlement work in New York and New Haven, CT. Correspondence includes descriptive letters to her parents; letters from settlement friends; letters from Sadie Rubin, an inmate at the New York State Reformatory for Women; and from members of the Laureate Literary Society, which Kitchelt founded and directed. Other materials include autobiographical pieces, articles, verses, and notes.  </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6272.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6272.jpg" linktype="simple" show="embed">
 <daodesc><p>Journal kept at The College Settlement, <lb />95 Rivington St., New York City, 1900</p></daodesc></dao> 
          <p>Florence Ledyard Cross Kitchelt was born in Rochester, New
     York, on 17 December 1874. She graduated from Wells College
@@ -124,7 +125,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -172,7 +173,7 @@
          <subject encodinganalog="650" source="lcsh">Women social
                         reformers--United States--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -181,8 +182,8 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. WRITINGS</unittitle>
             </did>
@@ -284,7 +285,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -384,7 +385,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SUBJECTS</unittitle>
             </did>

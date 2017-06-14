@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss62.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss62</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss62.xml//EN">mnsss62</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Mildred Louise (Boie) Saunders Papers, 1914-1997 (bulk 1928-1960)
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Saunders, Mildred Louise (Boie), 1907-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Mildred Louise Boie Saunders Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1914-1997</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Mildred Louise Boie Saunders Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1914-1997</unitdate>
             <unitdate encodinganalog="245$g" type="bulk"> 1928-1960</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 247</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 247</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -74,16 +75,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Poet; editor; professor, English; and Red Cross worker, World War II.  Collection is primarily personal correspondence, including  a lifetime of letters to her twin sister, which read as a personal journal and document her career, romances, family relations, experiences in psychoanalysis, and world events.  Other material includes photographs; writings; a travel diary from a trip to Europe; and reports to the Red Cross from Italy and Egypt during World War II.
+         <abstract encodinganalog="520$a" label="Abstract:">Poet; editor; professor, English; and Red Cross worker, World War II.  Collection is primarily personal correspondence, including  a lifetime of letters to her twin sister, which read as a personal journal and document her career, romances, family relations, experiences in psychoanalysis, and world events.  Other material includes photographs; writings; a travel diary from a trip to Europe; and reports to the Red Cross from Italy and Egypt during World War II.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p>Mildred Louise Boie (called Louise) and her twin sister, Maurine Boie, were born in Plainville, Minnesota on May 20, 1907.  Louise attended Mankato Teachers College, then earned her B.S. degree in Education from the University of Minnesota in 1927.  From 1927 to 1929, she worked in the creative department for the Harrison-Guthrie Advertising Agency in Minneapolis, and also edited a magazine for the C. &amp; C. Publishing Company.  In 1930 Louise went to England for a year, where she studied modern English literature at Newnham College, University of Cambridge, and wrote articles for the London Morning Post and the Spectator.  When she returned to the United States she took a position as instructor and head of extension classes in English at the University of Minnesota until 1934, when she received her Masters degree in English from the University.  Her thesis is entitled Louisa May Alcott.  Also in 1934, Louise was awarded the M.P. Sears and F.Z. Gilbert Fellowship in creative work from Radcliffe College and spent the next year studying there.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6161.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6161.jpg" linktype="simple" show="embed">
 <daodesc><p>Mildred Louise Boie Saunders <lb />and others on balcony, circa 1940s </p></daodesc></dao> 
          <p>From 1935 to 1937, Louise served as assistant professor of English at Smith College.  She left Smith in 1937 to be associate editor of poetry for the Atlantic Monthly in Boston, under editor Ted Weeks.  She remained there until 1940 when she took a position as publicity head for the American Unitarian Association and Service Committee, organizing humanitarian work in Europe and America, and serving as editor for their publication, the Christian Register.  During this time Louise also edited books for Bacon Press.  Sometime in the late 1930s, while living in Boston, Louise began psychoanalysis with Dr. Leslia Dalrymple.</p>
          <p>Feeling that she needed something more stimulating and rewarding in her life, in 1943 Louise applied for overseas work with the American Red Cross and, until 1946, was stationed at various United States Army bases in France, Italy, and Egypt, where she assisted in civilian relief.  She was awarded the Bronze Star by the United States Army for her service.  While overseas, Louise wrote several articles and short stories about her experiences which were published in various journals, including Ladies Home Journal, Glamour, and Radcliffe Quartery.  In 1946, her book of poems, Better Than Laughter was published by the University of Minnesota Press.</p>
@@ -118,7 +119,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -163,15 +164,15 @@
          <subject encodinganalog="650" source="lcsh">Women in the professions--United States--History--20th century--Sources</subject>
          <persname encodinganalog="700" source="lcnaf">LaBarre, Maurine Boie, 1907-</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
             <p>The archives of the University of Minnesota in Minneapolis also has some of Louise's published writings and copies of both Louise's and Maurine's masters theses.  The archives at Bryn Mawr College hold some of the papers of Maurine (Boie) LaBarre.</p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. Biographical</unittitle>
             </did>
@@ -245,7 +246,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. Photographs</unittitle>
             </did>
@@ -323,7 +324,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. Writings (Mildred Louise Boie)</unittitle>
             </did>
@@ -426,7 +427,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. Correspondence</unittitle>
             </did>
@@ -739,7 +740,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>Series V. Oversize Material</unittitle>
             </did>

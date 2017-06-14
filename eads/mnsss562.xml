@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss562.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss562</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss562.xml//EN">mnsss562</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Roberta Cantow Papers, 1965-2010 (ongoing)</titleproper>
@@ -38,16 +36,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Cantow, Roberta</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Roberta Cantow Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1965-2010 (ongoing)</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 559</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Roberta Cantow Papers</unittitle><unitdate label="Dates:" type="inclusive">1965-2010 (ongoing)</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 559</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">13 boxes</extent>
         <extent encodinganalog="300$a">(12.5 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -58,7 +54,7 @@ repositorycode="mnsss">MS 559</unitid>
             </address>
          </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Filmmaker. Biographical information, personal writings, artwork, photographs, awards, and psychic readings (audio tapes), photographs, correspondence, email, publicity, and other documents pertaining to the production and distribution of Cantow's films, as well as Cantow's thoughts on issues and circumstances covered in the films, including: the documentary <title render="italic">Clotheslines</title>, <title render="italic">Dr. Clown</title> (about Patch Adams, M.D.) <title render="italic">The Book of Laughs</title>, <title render="italic">If This Ain't Heaven</title>, and <title render="italic">Illuminada</title>.       [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith Collection if you would like one sent to you.]
          </abstract>
 
@@ -133,6 +129,4 @@ Periodic additions to the collection are expected.</p>
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
-
+</ead><!-- END OF FILE -->

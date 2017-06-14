@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s6.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg6s6</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s6.xml//EN">mnsss292rg6s6</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 06. Program: Series VI. Publications</unittitle><unitdate type="inclusive" label="Dates:">1870-2002</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 06. Program: Series VI. Publications</unittitle><unitdate label="Dates:" type="inclusive">1870-2002</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:576e84ae-5cdc-4d79-8242-17428cd66de8</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,7 +49,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
                  This series documents the YWCA's extensive publications program including its Womans Press.   Materials include Publications Department minutes, correspondence, reports, catalogs, and advertising. The series also includes some of the voluminous output of publications.  Forms part of the YWCA of the U.S.A. Records. <extref href="mnsss292rg6_main.html">Record Group 6. Program</extref>.
          </abstract>
 </did>
@@ -57,8 +58,8 @@
  	<head>Historical Note</head>
 
  <p>Early in its history, the YWCA of the U.S.A. established a Publication Department to publish its monthly magazine, then known as the Association Monthly; to produce study materials, programs, and other publications for the National Convention and for conferences; and to facilitate and oversee publication, promotion, and distribution of "technical" publications written by and for the Association's departments and divisions.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3891.jpg" altrender="right">
-<daodesc><p>Cover of April 1919 issue of "The  Womans Press" </p></daodesc></dao>	<p>In the spring of 1916 the Publication Department and Committee started discussing a plan for enlarging the publishing venture.  The idea was to finance the Association's "technical" publications through sales of more general interest material which could "Christianize the Woman's Movement."  In the spring of 1917 they consulted with National Association staff, librarians, teachers, and social workers "to discover what sort of books they looked for&#8230;but did not find."  These groups cited a real need for "books on vocations, written for girls; books on personal efficiency; biographies; collections of poetry; stories which will help the modern-day woman to adjust herself to the world in which she lives; and reprints in attractive form of books or parts of books which every girl ought to read."  (Association Monthly, June 1917)  The Department settled on a new name, The Womans Press, to reflect the more general character of the venture.  (For its first 28 years, 1917-45, the name was usually printed without an apostrophe.)  The first two titles under the new imprint, Mobilizing Woman-Power by Harriot Stanton Blatch and The Young Woman Citizen by Mary Austin went on sale in 1918.</p> 
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3891.jpg" linktype="simple" show="embed">
+<daodesc><p>Cover of April 1919 issue of "The  Womans Press" </p></daodesc></dao>	<p>In the spring of 1916 the Publication Department and Committee started discussing a plan for enlarging the publishing venture.  The idea was to finance the Association's "technical" publications through sales of more general interest material which could "Christianize the Woman's Movement."  In the spring of 1917 they consulted with National Association staff, librarians, teachers, and social workers "to discover what sort of books they looked for…but did not find."  These groups cited a real need for "books on vocations, written for girls; books on personal efficiency; biographies; collections of poetry; stories which will help the modern-day woman to adjust herself to the world in which she lives; and reprints in attractive form of books or parts of books which every girl ought to read."  (Association Monthly, June 1917)  The Department settled on a new name, The Womans Press, to reflect the more general character of the venture.  (For its first 28 years, 1917-45, the name was usually printed without an apostrophe.)  The first two titles under the new imprint, Mobilizing Woman-Power by Harriot Stanton Blatch and The Young Woman Citizen by Mary Austin went on sale in 1918.</p> 
 	<p>In addition to their work on  production and distribution of technical publications (which were generally written by staff most closely involved with the subject), the Publications Department selected authors and editors for the new general interest books, oversaw their design, publication, publicity, and distribution; produced the monthly magazine (re-christened The Womans Press) and Convention publications; and administered the Woman's Bookshop in the National headquarters.</p>
 	<p>The hard-cover general interest titles included religious books, such as collections of prayers and meditations, books on How to Use the Bible, and Christianity's relation to  communism, peace, work, citizenship, and social morality.  The Association also published poetry collections, women's memoirs and  biographies, and books on women in history.  Many titles reflected the staff's areas of expertise, presenting topics such as group work, adolescent girls' development, race relations, international understanding, health, jobs, citizenship, leadership, and sex education.  Recreation and creative expression were promoted through volumes about nature study, flower arranging, parties, festivals, and Decorating the Small Apartment.</p> 
 	<p>The impressive catalog of "technical" publications on a myriad of topics made up one of the most important contributions of the National Association to Community and Student Associations.  The publications were clear, comprehensive, attractive, and eminently useful.</p>
@@ -232,8 +233,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser6">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. PUBLICATIONS</unittitle>
  </did>
@@ -474,7 +475,7 @@
  <c04>
  <did>
  <container type="box">664</container>
-                  <unittitle>Pi-Z, and those beginning "YWCA&#8230;"                      1901-70                   </unittitle>
+                  <unittitle>Pi-Z, and those beginning "YWCA…"                      1901-70                   </unittitle>
  </did>
  </c04>
  </c03>
@@ -792,7 +793,7 @@
  <did>
  <container type="box">670</container>
  <container type="folder">7</container>
- <unittitle>Bertha Cond?&#233; <title render="italic">The Human Element in the making of a Christian</title>, 1917</unittitle>
+ <unittitle>Bertha Cond?é <title render="italic">The Human Element in the making of a Christian</title>, 1917</unittitle>
  </did>
  </c03>
  <c03>
@@ -1855,5 +1856,4 @@
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

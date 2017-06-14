@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss258.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss258</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss258.xml//EN">mnsss258</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Bertha F. Johnson Papers, 1879-1957</titleproper>
@@ -30,9 +31,9 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Johnson, Bertha F.</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Johnson, Bertha F.</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Bertha F. Johnson Papers</unittitle><unitdate type="inclusive" label="Dates:">1879-1957</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Bertha F. Johnson Papers</unittitle><unitdate label="Dates:" type="inclusive">1879-1957</unitdate>
 	
 	
 	
@@ -40,7 +41,7 @@
 		<extent encodinganalog="300$a">1 box</extent>
 		<extent encodinganalog="300$a">(.25 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -114,7 +115,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -161,5 +162,3 @@
 
   </archdesc>
 </ead>
-
-

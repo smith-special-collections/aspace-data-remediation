@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss53.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss53</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss53.xml//EN">mnsss53</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Marie Munk Papers, 1901-1976
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Munk, Marie, 1885-1978</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Marie Munk Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1901-1976</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Marie Munk Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1901-1976</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 111</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 111</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">13 boxes</extent>
             <extent encodinganalog="300$a">(4.5 linear ft.)</extent>
@@ -73,9 +74,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Lawyer, judge, and marriage counselor. The Marie Munk papers include correspondence, writings, and memorabilia. The collection documents her work on domestic relations, marriage counseling, juvenile delinquency, and women's rights.  Of special interest are manuscripts, written in both English and German, on the position of women before and after World War I; her experiences as a judge in pre-Hitler Germany; and an oral history conducted at Smith College in 1971.
+         <abstract encodinganalog="520$a" label="Abstract:">Lawyer, judge, and marriage counselor. The Marie Munk papers include correspondence, writings, and memorabilia. The collection documents her work on domestic relations, marriage counseling, juvenile delinquency, and women's rights.  Of special interest are manuscripts, written in both English and German, on the position of women before and after World War I; her experiences as a judge in pre-Hitler Germany; and an oral history conducted at Smith College in 1971.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language> and 
             <language langcode="ger">German</language>
          </langmaterial>
@@ -109,7 +110,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -222,8 +223,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1901-1975)</unitdate>
                </unittitle>
@@ -352,7 +353,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1914-1977)</unitdate>
                </unittitle>
@@ -1065,7 +1066,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS <unitdate>(1915-1964)</unitdate>
                </unittitle>
@@ -1251,7 +1252,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. SUBJECTS <unitdate>(1918-1959)</unitdate>
                </unittitle>
@@ -1356,7 +1357,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. ORGANIZATIONS <unitdate>(1931-1974)</unitdate>
                </unittitle>

@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss549.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss549</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss549.xml//EN">mnsss549</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Amy Richards Papers, 1995-2012</titleproper>
@@ -37,15 +35,13 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Richards, Amy, 1970-</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Amy Richards Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1995-2012</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 702</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Amy Richards Papers</unittitle><unitdate label="Dates:" type="inclusive">1995-2012</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 702</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">5 boxes</extent>
         <extent encodinganalog="300$a">(5 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +51,7 @@ repositorycode="mnsss">MS 702</unitid>
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Author; Activist; Co-founder, Third Wave Foundation; Feminist; Organizer. Papers
 include Richards' correspondence re: speaking engagements, research materials for her book, Opting
 In, and printed materials on various topics including the Third Wave Feminist movement, grassroots

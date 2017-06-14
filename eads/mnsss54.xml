@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss54.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss54</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss54.xml//EN">mnsss54</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Helen Begley Nixon Papers, 1945-1951
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Nixon, Helen Begley, 1900-1990</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Helen Begley Nixon Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1945-1951</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Helen Begley Nixon Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1945-1951</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 113</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 113</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Red Cross official; Relief worker, World War II; Refugee relief organizer, Vietnam; and President, International Women's Association, Vietnam. The papers document the lives of women in Korea; in Germany after World War II; and in Vietnam, as well as orphanages, and refugees.  Material includes correspondence, photographs, and memorabilia; approximately one quarter of the collection is in German, and some is in Vietnamese, Korean, and French.
+         <abstract encodinganalog="520$a" label="Abstract:">Red Cross official; Relief worker, World War II; Refugee relief organizer, Vietnam; and President, International Women's Association, Vietnam. The papers document the lives of women in Korea; in Germany after World War II; and in Vietnam, as well as orphanages, and refugees.  Material includes correspondence, photographs, and memorabilia; approximately one quarter of the collection is in German, and some is in Vietnamese, Korean, and French.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6162.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6162.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Helen Begley Nixon distributing care <lb />packages to Vietnamese refugees, circa 1960s</p></daodesc></dao> 
          <p>Helen Begley Nixon was born on March 13, 1900, in Holyoke, Massachusetts, daughter of Mr. and Mrs Thomas E. Begley. She graduated from Holyoke High School in 1917. Following graduation from Smith College in 1921, she taught English and history at the Allegheny County Academy in Cumberland, Maryland for five years. Between 1926 and 1948 she was director of the Red Cross in Holyoke, and Red Cross civilian relief representative in the American military governments of France, Belgium, Austria, and Germany. From 1946 to 1948 she was Chief Advisor of the Women's Bureau of the American military government in Korea where she helped reestablish the Korean Red Cross. From 1948 to 1953 Nixon was Cultural Officer for the Public Affairs Division of Women's Affairs for the U.S. High Commissioner in Germany, Cecil Lyon.  She administered adult education and community organizing. Beginning circa 1955 to 1957, Nixon was the Refugee Settlement Advisor of the International Cooperation Administration Mission. the U.S. Great Britain, and France, plus seven voluntary agencies (CARE, Church World Service, Catholic Relief Services, International Research Council) who gave money, food, clothing, farm tools, and drugs to Vietnam.  Her job was to resettle 650,000 refugees. She also established the first International Women's Association in Vietnam and served as it's first president. She also served on the Board of the Family Welfare School for Young Women.  In 1957 she returned to the United States, and circa 1961 became an agency social worker with the Jicarilla Tribe in Dulce, New Mexico.</p>
@@ -108,7 +109,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -151,7 +152,7 @@
          <subject encodinganalog="650" source="lcsh">World War, 1939-1945--War work--Red Cross--Sources</subject>
          <subject encodinganalog="650" source="lcsh">World War, 1939-1945--Women--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>
@@ -165,7 +166,7 @@
                <unittitle>Biographical information</unittitle>
             </did>
          </c01>
-         <c01 level="series" id="list-ser1">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. KOREA</unittitle>
             </did>
@@ -202,7 +203,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. GERMANY</unittitle>
             </did>
@@ -276,7 +277,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. VIETNAM</unittitle>
             </did>

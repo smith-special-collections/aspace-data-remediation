@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss96.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss96</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss96.xml//EN">mnsss96</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">International Council of Women Records, 1888-1959
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">International Council of Women </corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">International Council of Women Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1888-1959</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">International Council of Women Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1888-1959</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 352</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 352</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -72,16 +73,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">A small collection, including correspondence, minutes and committee reports; records of international  conferences; constitutions; membership lists; and publications, including biographical information on ICW leaders.  Topics include fine arts, health, education, housing, suffrage, laws, social welfare, trades and professions, The United Nations, and peace.
+         <abstract encodinganalog="520$a" label="Abstract:">A small collection, including correspondence, minutes and committee reports; records of international  conferences; constitutions; membership lists; and publications, including biographical information on ICW leaders.  Topics include fine arts, health, education, housing, suffrage, laws, social welfare, trades and professions, The United Nations, and peace.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
          <p> The International Council of Women (ICW), founded in 1888, was one of the first international women's organizations.  The second international conference of the National Woman Suffrage Association, called by Susan B. Anthony,  May Wright Sewall, and other suffragists, created the ICW.  The aim of the conference was to form a National Council of Women in each self-governing country of the world.  The councils would bring women from many countries together to work for women, not only in the cause of suffrage, but on many fronts.  The United States National Council formed immediately, but progress elsewhere was slow.  By 1893, Canada had formed a national body.  In Great Britain the National Union of Women Workers federated with the National Council of Women in 1898 and later changed its name to the  International Council of Women.  By 1938 the number of councils affiliated with the ICW, which had developed into one of the best known and most consulted of women's international organizations, had risen to thirty-six.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6238.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6238.jpg" linktype="simple" show="embed">
 <daodesc><p>Flyer for International Council of Women  on <lb />objectives and history of the organization, 1950</p></daodesc></dao> 
          <p> In the early years of its existence, the ICW  promoted National Councils and gained acceptance in the international community, but it's primary activity was planning the regular congresses.  The ICW, regarded by members of other women's groups as the most  conservative of women's international organizations, took pride in it's reputation, viewing it as a consequence of maintaining a broad program.  It's early refusal to take a position on suffrage contributed to the formation of more radical organizations, such as  the International Alliance of Women.  In 1899, the Council began to take on more substantive issues, forming an International Standing Committee on Peace and International Arbitration.  Other standing committees were soon established, and through them, the ICW became involved in issues from suffrage to health.</p>
          <p> World War II caused great disorganization in the Council's work.  Some national councils discontinued their work altogether; in others the leadership and organization were disrupted.  In 1946, the ICW met in Philadelphia to re-focus its efforts and recover its former unity.  The Conference issued a statement condemning war and all crimes against humanity, as well as demanding a more active role for women in the national and international arena.</p>
@@ -113,7 +114,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -158,7 +159,7 @@
          <persname encodinganalog="600" source="lcnaf">Stetten, Alice Mayer, 1887-1972.--Correspondence</persname>
          <persname encodinganalog="600" source="lcnaf">Willard, Frances Elizabeth, 1839-1898</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <bibliography>
             <head>Bibliography</head>
@@ -215,8 +216,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. ORGANIZATION AND ADMINISTRATION</unittitle>
             </did>
@@ -289,7 +290,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. COMMITTEES</unittitle>
             </did>
@@ -454,7 +455,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CONFERENCES AND MEETINGS</unittitle>
             </did>
@@ -606,7 +607,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PUBLICATIONS</unittitle>
             </did>
@@ -650,7 +651,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. NATIONAL COUNCILS</unittitle>
             </did>

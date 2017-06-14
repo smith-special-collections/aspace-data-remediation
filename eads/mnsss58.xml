@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss58.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss58</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss58.xml//EN">mnsss58</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Bertha C. Reynolds Papers, 1907-1994
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Reynolds, Bertha Capen, 1885-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Bertha Capen Reynolds Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1907-1994</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Bertha Capen Reynolds Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1907-1994</unitdate>
             <unitdate encodinganalog="245$g" type="bulk"> 1925-1979</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 128</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 128</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">22 boxes, 2 volumes, microfilm</extent>
             <extent encodinganalog="300$a">(8.75 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Social worker and professor. Reynolds' professional career is well documented, including her years as associate director of the Smith College School for Social Work; as case supervisor at National Maritime Union; and as a teacher of social work.  She also published numerous texts on the practice of social work.  Material includes correspondence, published and unpublished writings, lectures, oral histories, and memorabilia.
+         <abstract encodinganalog="520$a" label="Abstract:">Social worker and professor. Reynolds' professional career is well documented, including her years as associate director of the Smith College School for Social Work; as case supervisor at National Maritime Union; and as a teacher of social work.  She also published numerous texts on the practice of social work.  Material includes correspondence, published and unpublished writings, lectures, oral histories, and memorabilia.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -88,7 +89,7 @@
       Rachel A. Levine<lb />
       Literary Executor
       </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3042.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3042.jpg" linktype="simple" show="embed">
 <daodesc><p>Bertha Capen Reynolds, n.d.</p></daodesc></dao>
 <p>It is thanks to the Centennial Committee of a small core of professional colleagues convened by Jack Kamaiko; to Vida S. Grayson, oral historian, Smith College School for Social Work; and to Dorothy Green, research associate, and Susan Grigg, director, Sophia Smith Collection, that Bertha Capen Reynolds and her writings are being resurrected from virtual oblivion.  The centennial programs are to commemorate her birth and her achievements as scholar, teacher, and writer like no other; and to introduce recent generations of students and practitioners, and those to follow, to her rich, thought-provoking, trail? blazing contributions to the social work literature and to the teaching and practice of social work.  It would be logical for these people to ask, as some have, why they had not known about so eminent a person during the course of their education and training.</p>
 
@@ -364,7 +365,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -405,7 +406,7 @@
          <subject encodinganalog="650" source="lcsh">Social work education--United States--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Social workers--United States--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -496,8 +497,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. CORRESPONDENCE
           <unitdate>(1933-1978)</unitdate>
@@ -992,7 +993,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. PROFESSIONAL ACTIVITIES
           <unitdate>(1919-1975)</unitdate>
@@ -1857,7 +1858,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. WRITINGS <unitdate>(1918-1975)</unitdate>
                </unittitle>
@@ -2359,7 +2360,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. SUBJECT FILES <unitdate>(1922-1979)</unitdate>
                </unittitle>
@@ -2685,7 +2686,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V. BIOGRAPHICAL MATERIAL, PHOTOGRAPHS, AND MEMORABILIA <unitdate>(1907-1979)</unitdate>
                </unittitle>
@@ -3116,7 +3117,7 @@
             </c02>
          </c01>
           
-         <c01 level="series" id="list-serBks">
+         <c01 id="list-serBks" level="series">
             <did>
                <unittitle>BOOKS ON SHELF</unittitle>
             </did>
@@ -3135,7 +3136,7 @@
 	     </c02>
 	</c01>
 
-         <c01 level="series" id="list-serMF">
+         <c01 id="list-serMF" level="series">
             <did>
                <unittitle>MICROFORMS</unittitle>
             </did>
@@ -3150,7 +3151,7 @@
 	    </c02>
 	</c01>
 
-         <c01 level="series" id="list-serOH">
+         <c01 id="list-serOH" level="series">
             <did>
                <unittitle>ORAL HISTORIES</unittitle>
             </did>
@@ -3205,7 +3206,7 @@
 	    </c02>
 	</c01>
 
-         <c01 level="series" id="list-serAdd">
+         <c01 id="list-serAdd" level="series">
             <did>
                <unittitle>ADDITIONS TO COLLECTION</unittitle>
             </did>
@@ -3380,7 +3381,7 @@
                <c03>
                   <did>
                      <container type="box">21</container>
-                     <unittitle>&quot;Socialism and Religion&quot;: article or book chapter by Archibald Robinson, 
+                     <unittitle>"Socialism and Religion": article or book chapter by Archibald Robinson, 
  			<unitdate>n.d.</unitdate>
               </unittitle>
                   </did>

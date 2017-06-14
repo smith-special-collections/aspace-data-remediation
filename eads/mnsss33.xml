@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss33.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss33</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss33.xml//EN">mnsss33</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Florence Hollis and Rosemary Ross Reynolds Papers, 1863-1987
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100">Hollis, Florence and Rosemary Ross Reynolds</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Florence Hollis and Rosemary Ross Reynolds Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1863-1987</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Florence Hollis and Rosemary Ross Reynolds Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1863-1987</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1930-1986</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 210</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 210 UUID:e76bd5ba-dc07-4741-9a6f-b899f831b07a</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">63 boxes</extent>
             <extent encodinganalog="300$a">(25.4 linear ft.)</extent>
@@ -74,16 +75,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Social worker and  professor.  The bulk of the papers were created by Hollis, but include the papers of her longtime companion, Rosemary Reynolds. The papers provide information about broad changes in the social work profession and document some of the new trends in the field, particularly from the 1970s onward. Material includes correspondence, student papers, case records, writings and speeches, published articles, audio tapes, recordings, video tapes, agency records and photographs. Correspondents include Charlotte Towle, Lucille Austin, Florence Day, Eileen Younghusband, Anni Hofer, Ruth Zobrist, Inga Gottfarb, Frank March, and Gordon Hamilton. Oral histories of both Hollis and Reynolds are included.
+         <abstract encodinganalog="520$a" label="Abstract:">Social worker and  professor.  The bulk of the papers were created by Hollis, but include the papers of her longtime companion, Rosemary Reynolds. The papers provide information about broad changes in the social work profession and document some of the new trends in the field, particularly from the 1970s onward. Material includes correspondence, student papers, case records, writings and speeches, published articles, audio tapes, recordings, video tapes, agency records and photographs. Correspondents include Charlotte Towle, Lucille Austin, Florence Day, Eileen Younghusband, Anni Hofer, Ruth Zobrist, Inga Gottfarb, Frank March, and Gordon Hamilton. Oral histories of both Hollis and Reynolds are included.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p>Florence May Hollis was born on January 11, 1907, to Bertha Hoerig Hollis and Louis Herbert Hollis of Philadelphia, Pennsylvania.  After graduation from the Philadelphia High School for Girls, where she was chosen as class valedictorian, Hollis entered Wellesley College where she majored in sociology and psychology.  During her Junior Month Program, which included exposure to both social work theory and field work, Hollis began her commitment to social service work.  After completing her B.A. in 1928, she began an apprenticeship at the Family Society of Philadelphia and took courses at the Pennsylvania School of Social Work.  A fellowship awarded her by the Family Society took her to Smith College School for Social Work, where she studied casework under Bertha Reynolds.  There Hollis earned a Master of Social Science degree in 1931.  Her thesis, "Emotional Factors in the Attitudes of Clients Toward Relief:  Seven Case Studies," was published later that year.</p>
-  <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6164.jpg" altrender="right">
+  <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6164.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Rosemary Reynolds and Florence Hollis travelling in Europe, circa 1957</p></daodesc></dao> 
          <p>In September 1931, Hollis took a post as district superintendent at the Family Society of Philadelphia.  She remained there until 1933, when she assumed the position of district secretary at the Institute of Family Service (Associated Charities) in Cleveland, where she was responsible for administration and supervision of case workers.  During her tenure in Cleveland, she received an invitation to assume Bertha Reynold's position as associate director of the Smith School for Social Work.  She declined, firm in her commitment to the Cleveland agency and to long-term casework.  She was also a member of the Cleveland 'think group,' which included Florence Day and Rosemary Reynolds as members.  During this period Hollis and Reynolds strengthened a friendship and professional association which was to become central to them both.</p>
@@ -140,7 +141,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -348,8 +349,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. BIOGRAPHICAL</unittitle>
             </did>
@@ -1006,7 +1007,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. CORRESPONDENCE</unittitle>
             </did>
@@ -1420,7 +1421,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. EMPLOYMENT AND PROFESSIONAL WORK</unittitle>
             </did>
@@ -1712,7 +1713,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. TEACHING</unittitle>
             </did>
@@ -3251,7 +3252,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V. CASE RECORDS</unittitle>
             </did>
@@ -5887,7 +5888,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>Series VI. WRITING AND SPEECHES</unittitle>
             </did>
@@ -7326,7 +7327,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>Series VII. TYPOLOGY RESEARCH</unittitle>
             </did>
@@ -8111,7 +8112,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>Series VIII. NOTES ON SELECTED DOCUMENTS</unittitle>
             </did>
@@ -8300,7 +8301,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>Series IX. PHOTOGRAPHS</unittitle>
             </did>
@@ -8483,7 +8484,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser10">
+         <c01 id="list-ser10" level="series">
             <did>
                <unittitle>Series X. ROSEMARY REYNOLDS PAPERS</unittitle>
             </did>
@@ -8984,7 +8985,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS AND TAPES</unittitle>
             </did>

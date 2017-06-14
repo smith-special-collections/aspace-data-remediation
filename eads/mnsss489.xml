@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss489.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss489</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss489.xml//EN">mnsss489</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Lisa Leghorn Papers, 1966-1982</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Leghorn, Lisa</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Leghorn, Lisa</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Lisa Leghorn Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1966-1982</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Lisa Leghorn Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1966-1982</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mu">MS 270</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mu">MS 270 UUID:d7351b56-2a66-4802-b255-a6d929762a3c</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">3 boxes</extent>
 		<extent encodinganalog="300$a">(1.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">
+	<langmaterial encodinganalog="546" label="Language of Material:">
 <language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
@@ -118,7 +119,7 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -295,5 +296,3 @@
 
   </archdesc>
 </ead>
-
-

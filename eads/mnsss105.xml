@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss105.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss105</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss105.xml//EN">mnsss105</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Miscellaneous Subjects Collection, 1856-2011
@@ -47,15 +48,15 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Miscellaneous Subjects Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1856-2011</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Miscellaneous Subjects Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1856-2011</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 392</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 392</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">15 boxes</extent>
             <extent encodinganalog="300$a">(6.25 linear ft.)</extent>
@@ -67,20 +68,20 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Includes small amounts of mostly printed material on subjects related to women, including aging and aged women, alcoholism, anarchism, costume, fascism, friendship, girls, Nazism, physically handicapped women, postage stamps, rural women, sex, sex education, female sexuality, single women, taxation, tobacco, and witchcraft.  Material includes printed material, books, cassette tapes, correspondence, position papers, questionnaires, reports, memorabilia, and stamps.
+         <abstract encodinganalog="520$a" label="Abstract:">Includes small amounts of mostly printed material on subjects related to women, including aging and aged women, alcoholism, anarchism, costume, fascism, friendship, girls, Nazism, physically handicapped women, postage stamps, rural women, sex, sex education, female sexuality, single women, taxation, tobacco, and witchcraft.  Material includes printed material, books, cassette tapes, correspondence, position papers, questionnaires, reports, memorabilia, and stamps.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1923.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1923.jpg" linktype="simple" show="embed">
 <daodesc><p>"Godey's Fashions for June 1871" from <lb />
 <title render="italic">A Century of Fashion</title> by Ella Matson Andrews</p></daodesc></dao>
          <p>The Miscellaneous Subjects Collection consists of material from several disparate topical areas that were viewed as too small or too esoteric to constitute their own subject collections.  Subjects include aging and aged women, alcoholism, anarchism, costume, fascism, friendship, girls, Nazism, physically handicapped women, postage stamps, rural women, sex and sexuality, single women, taxation, and tobacco.  The collection spans the period from 1856 to 2011.  Types of material include articles, books, correspondence, leaflets, newspaper clippings, pamphlets, periodicals, position papers, questionnaires, reports, memorabilia, and stamps.  The costume files include a collection of early twentieth century paper dolls and books on women's fashion.  Other particularly interesting material includes documents relating to Mary Ware Dennett's approach to sex education for children and the obscenity charges she faced in 1929-30; the N.O.W. questionnaire on sexuality that Shere Hite used as the basis for her book on women's sexuality in the 1970s; and postage stamps featuring women.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -136,7 +137,7 @@
       </controlaccess>
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>

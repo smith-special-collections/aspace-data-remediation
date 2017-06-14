@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss427.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss427</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss427.xml//EN">mnsss427</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Dolores Alexander Papers, 1945-1998</titleproper>
@@ -35,15 +36,15 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Alexander, Dolores, 1931-</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Dolores Alexander Papers</unittitle><unitdate type="inclusive" label="Dates:">1945-1998 </unitdate><unitdate type="bulk" encodinganalog="245$g">1960s-70s</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Dolores Alexander Papers</unittitle><unitdate label="Dates:" type="inclusive">1945-1998 </unitdate><unitdate encodinganalog="245$g" type="bulk">1960s-70s</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 582</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 582</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">21 boxes</extent>
         <extent encodinganalog="300$a">(25.5 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +56,7 @@
          </repository>
 
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Writer; Reporter; Lesbian activist. The Dolores Alexander Papers consist of correspondence, writings, and other documents pertaining to Alexander's work as a writer (freelance and as employed by Time, Inc.); files pertaining to Alexander's activism in NOW, Women Against Pornography, and to broader feminist and lesbian issues; files documenting the history of Mother Courage Restaurant in New York; books and audiovisual materials on the subject of achieving financial independence, and Alexander's personal financial information and records. A small amount of biographical information is also included.        </abstract>
 
 </did>
@@ -130,5 +131,3 @@
 
 </archdesc>
 </ead>
-
-

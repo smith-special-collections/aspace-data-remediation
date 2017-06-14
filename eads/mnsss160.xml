@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss160.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss160</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss160.xml//EN">mnsss160</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Florence Seaver Slocomb Papers, 1876-1930</titleproper>
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Slocomb, Florence Seaver, 1867-1955</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Florence Seaver Slocomb Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1876-1930</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Florence Seaver Slocomb Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1876-1930</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 144</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 144</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Woman's club leader and suffragist.  The papers document Slocomb's broad involvement in a variety of civic affairs, social causes and political movements. Scrapbooks and newspaper clippings make up about half of the collection.  The rest consists of a small amount of correspondence, articles, speeches, and one photograph.  Materials document her World War I service, women's club activities, and campaigns for suffrage, pure food, and jury service for women.
+         <abstract encodinganalog="520$a" label="Abstract:">Woman's club leader and suffragist.  The papers document Slocomb's broad involvement in a variety of civic affairs, social causes and political movements. Scrapbooks and newspaper clippings make up about half of the collection.  The rest consists of a small amount of correspondence, articles, speeches, and one photograph.  Materials document her World War I service, women's club activities, and campaigns for suffrage, pure food, and jury service for women.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6274.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6274.jpg" linktype="simple" show="embed">
 <daodesc><p>Florence Seaver Slocomb, 1906</p></daodesc></dao> 
          <p> Florence Seaver was born in Massachusetts on April 26, 1867.  Her father, Nathanial Seaver was a Unitarian minister who served various churches including those in Leicester, Millbury, and Pittsfield, Massachusetts.  She graduated from Smith College in 1889 and went on to teach high school in North Easton, Massachusetts.  In 1895 she married George Albert Slocomb, a well-known Worcester physician.  She became active in the Unitarian church and was a prominent figure in the Worcester Women's Club where she advocated for the causes of women's education and prison reform.  By the turn-of-the-century, she was well-known for her work for woman suffrage and for pure food.  She provided wartime service through War Camp Community Service in 1919-1920 and was appointed a member of the Woman's Committee, Council of National Defense. With the passage of the 19th amendment in 1920, she became active in the League of Women Voters.  In 1924 she was appointed to the Council of Women and Children in Industry and, in 1926 was the first woman from Worcester County elected to the Massachusetts State Legislature.  In the 1930s she was a staunch advocate for jury service for women.  She also lectured and wrote for various magazines.  She died in 1955.</p>
       </bioghist>
@@ -89,7 +90,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The papers consist of an assortment of materials that document Slocomb's broad involvement in a variety of civic affairs, social causes and political movements. Scrapbooks and newspaper clippings make up about half of the collection.  The rest consists of a small amount of correspondence, articles, speeches, and one photograph.  Articles, announcements, bulletins, certificates, pamphlets, programs, and reports document her WWI service, women's club activities, and campaigns for suffrage, pure food, and jury service for women.  The scrapbooks contain some biographical information.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -127,7 +128,7 @@
          <subject encodinganalog="650" source="lcsh">Women--Societies and clubs--United States--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women--Suffrage--Massachusetts--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -136,7 +137,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>Clippings</unittitle>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss22.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss22</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss22.xml//EN">mnsss22</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Portia Willis Fitzgerald Papers, 1868-1966
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Fitzgerald, Portia Willis</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Portia Willis Fitzgerald Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1868-1966</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Portia Willis Fitzgerald Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1868-1966</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1910-1935</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 380</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 380</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Woman's club leader, suffragist and lecturer. Much of the collection appears to have been part of a scrapbook. Writings and speeches primarily relate to her father (Colonel and U.S. Representative Benjamin A. Willis), the League of Nations, suffrage, the Institute of Human Relations, and women's clubs. Correspondents include Gertrude Atherton, Carrie Chapman Catt, and Florence G. Tuttle.
+         <abstract encodinganalog="520$a" label="Abstract:">Woman's club leader, suffragist and lecturer. Much of the collection appears to have been part of a scrapbook. Writings and speeches primarily relate to her father (Colonel and U.S. Representative Benjamin A. Willis), the League of Nations, suffrage, the Institute of Human Relations, and women's clubs. Correspondents include Gertrude Atherton, Carrie Chapman Catt, and Florence G. Tuttle.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3230.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3230.jpg" linktype="simple" show="embed">
 <daodesc><p>Portia Willis Fitzgerald, 1915</p></daodesc></dao>
          <p>"The Prettiest Suffragette in New York State," Portia Willis was born to a well-connected and politically active New York City family, circa 1887.  The distinguished Civil War service of her father, Colonel Benjamin A. Willis, led to his election to the U.S. House of Representatives.  Her mother, Lillie Evelynn Macauley Willis was prominent in the New York City social scene.</p>
          <p>Portia Willis attended the Anne Brown School and took courses at Columbia University and Harvard.  She became active in the women's suffrage movement in the early 1910s as a speaker and writer campaigning for New York State suffrage.  She was an organizer of the New York State Suffrage Association.  Her visible participation in suffrage publicity events, including piloting an airplane that bombarded Long Island with suffrage leaflets, sparked as many references to her beauty as to her cause in the press.  Between 1911 and 1917 she took a very active part in the campaign, conducting a lecture tour through New York State, making speeches for the woman suffrage amendment in Massachusetts in 1914, and in New Jersey and Washington, D.C. the following year.  She was grand marshal for three suffrage parades.  In 1931 New York State placed her name on the suffrage "Honor Rolls" at the State Capitol in Albany.</p>
@@ -112,7 +113,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -203,8 +204,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
             </did>
@@ -297,7 +298,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -384,7 +385,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS AND SPEECHES</unittitle>
             </did>
@@ -406,7 +407,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. MEMORABILIA AND PRINTED MATERIAL</unittitle>
             </did>

@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryenfcoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryenfcoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss455.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss455</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss455.xml//EN">mnsss455</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Sister Singers Network Records, 1981-2003</titleproper>
@@ -35,16 +36,16 @@
         <origination label="Creator:">
            <corpname encodinganalog="110" source="lcnaf">Sister Singers Network</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Sister Singers Network Records</unittitle><unitdate type="inclusive" label="Dates:">1981-2007</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Sister Singers Network Records</unittitle><unitdate label="Dates:" type="inclusive">1981-2007</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 569</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 569</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">10 box</extent>
         <extent encodinganalog="300$a">(6.5 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +56,7 @@
             </address>
          </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Women's music organization. Collection documents the activities of the Sister Singers Network, primarily at music festivals, as well as each member group. Types of material include correspondence, programs, publicity and directories.
  
                  </abstract>

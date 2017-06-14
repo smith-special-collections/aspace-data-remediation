@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss116.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss116</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss116.xml//EN">mnsss116</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Thomas Thompson Trust Records, 1844-2001 </titleproper>
@@ -45,18 +46,18 @@
          
          <sponsor>Processing of the Thomas Thompson Trust was made possible by the generous support of the Trust and Marilyn Schultz Blackwell (Smith Class of 1969). </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">Thomas Thompson Trust </corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Thomas Thompson Trust Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1844-2001</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Thomas Thompson Trust Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1844-2001</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 358</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 358</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">105 boxes</extent>
             <extent encodinganalog="300$a">(51.5 linear ft.)</extent>
@@ -68,15 +69,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Charitable organization.  Records consist largely of charity case records of poor women from Brattleboro and some from Rhinebeck, New York. Files contain correspondence from clients as well as case notes by the local agent.  Collection contains the correspondence and papers of Richards M. Bradley, a trustee who oversaw the trust from 1901 to 1943.  Also included are the records of the Brattleboro Mutual Aid Association and the Brattleboro Memorial Hospital (includes blueprints and design).  BMAA records include annual reports, unpublished reports, and correspondence related to specific programs.
+         <abstract encodinganalog="520$a" label="Abstract:">Charitable organization.  Records consist largely of charity case records of poor women from Brattleboro and some from Rhinebeck, New York. Files contain correspondence from clients as well as case notes by the local agent.  Collection contains the correspondence and papers of Richards M. Bradley, a trustee who oversaw the trust from 1901 to 1943.  Also included are the records of the Brattleboro Mutual Aid Association and the Brattleboro Memorial Hospital (includes blueprints and design).  BMAA records include annual reports, unpublished reports, and correspondence related to specific programs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc240.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc240.jpg" linktype="simple" show="embed">
 <daodesc><p>Baby Clinic, 1928</p></daodesc></dao>
          <p> The 1869 will of wealthy businessman Thomas Thompson established a trust fund "for or towards the relief and support of poor seamstresses, needle-women and shop girls, who may be in the temporary need from want of employment, sickness, or misfortune, in the towns of Brattleboro, Vermont and Rhinebeck, Dutchess County, New York, the amount being equally divided between the two towns." Thompson's will also required that surplus funds be distributed to other charities in the same towns.  Finally, the will declared that the Trust itself would not go into effect until the death of his wife, Elizabeth Rowell Thompson, who died in 1899.</p>
          <p> In 1901 the Thomas Thompson Trust (TTT) began to carry out its duties, directed throughout the twentieth century by several Boston-based businessmen and a series of local agents.  One businessman in particular, Richards M. Bradley, a native of Brattleboro, was the guiding force of TTT for its first four decades. The first local agent, Augusta Wells, administered the Trust for most of its first twenty years.  Florence Hemenway Wells succeeded her adoptive mother, serving as the Trust's local agent from 1921 until the early-1960s.  By then, most of the work of the Trust had been taken over by government agencies.</p>
@@ -129,7 +130,7 @@
          <head>Arrangement of the Collection</head>
          <p>Note: every effort was made to honor the original filing system, when discernible, of the TTT Records. Because both originals and multiple copies were created by the Trustees in Boston and the local agents in Brattleboro and Rhinebeck, there is some duplication of materials throughout the series.  For the most part, these records have been arranged in chronological order except where noted.</p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -181,7 +182,7 @@
          <persname encodinganalog="600" source="lcnaf">Thompson, Thomas, 1798-1869</persname>
          <persname encodinganalog="600" source="lcnaf">Wells, Florence Hemenway, 1878-1967</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -313,8 +314,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. HISTORY <unitdate>(1899-1961, n.d.)</unitdate>
                </unittitle>
@@ -437,7 +438,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. ADMINISTRATION <unitdate>(1867-1952, n.d.)</unitdate>
                </unittitle>
@@ -1043,7 +1044,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. FINANCIAL RECORDS <unitdate>(1901-69)</unitdate>
                </unittitle>
@@ -1474,7 +1475,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. LEGAL RECORDS <unitdate>(1844-1946)</unitdate>
                </unittitle>
@@ -1650,7 +1651,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. AGENCIES/SERVICE PROGRAMS <unitdate>(1907-77)</unitdate>
                </unittitle>
@@ -2977,7 +2978,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. INSURANCE PROGRAMS--Thompson Benefit Associations <unitdate>(1926-59)</unitdate>
                </unittitle>
@@ -3233,7 +3234,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. CLIENT RECORDS <unitdate>(1901-69)</unitdate>
                </unittitle>
@@ -3627,7 +3628,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII. PHOTOGRAPHS/SCRAPBOOKS <unitdate>(1902-62, n.d.)</unitdate>
                </unittitle>
@@ -3647,7 +3648,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>SERIES IX. OVERSIZE MATERIALS <unitdate>(1901-2001)</unitdate>
                </unittitle>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss30.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss30</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss30.xml//EN">mnsss30</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Mary Cromwell Jarrett Papers, 1900-1966
@@ -50,20 +51,20 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Jarrett, Mary C. (Mary Cromwell)</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Mary C. Jarrett Papers</unittitle>
+         <unittitle encodinganalog="245$a" label="Title:">Mary C. Jarrett Papers</unittitle>
 	<unitdate encodinganalog="245$f" type="inclusive">1900 - 1961</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1900-1961</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 83</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 83</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">6 boxes</extent>
             <extent encodinganalog="300$a">(2.8 linear ft.)</extent>
@@ -75,15 +76,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Psychiatric social worker, founder and associate director, Smith College School for Social Work, professor, social work researcher. The papers primarily document Jarrett's professional life. Material relates to the initial formulation of the theory of psychiatric social work and to its use at the Smith College School for Social Work. Includes Jarrett's research, writings, and correspondence. Also of note is material relating to Jarrett's work at the United States Public Health Service and the Welfare Council of New York City.
+         <abstract encodinganalog="520$a" label="Abstract:">Psychiatric social worker, founder and associate director, Smith College School for Social Work, professor, social work researcher. The papers primarily document Jarrett's professional life. Material relates to the initial formulation of the theory of psychiatric social work and to its use at the Smith College School for Social Work. Includes Jarrett's research, writings, and correspondence. Also of note is material relating to Jarrett's work at the United States Public Health Service and the Welfare Council of New York City.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc156.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc156.jpg" linktype="simple" show="embed">
 <daodesc><p>Mary C. Jarrett, n.d.</p></daodesc></dao>
          <p>Mary Cromwell Jarrett was a psychiatric social worker, educator, and the founding director of the Smith College School for Social Work.  She was born in Baltimore, Maryland circa 1876, earned an A.B. from Goucher College in 1900, and for the next several years held teaching and tutoring positions at schools in Pennsylvania and Maryland.</p>
          <p>From 1903 to 1913, Jarrett was employed by the Boston Children's Aid Society, and it was there that she first ventured into the field of social work, specializing in delinquent children and unmarried mothers, as well as serving as a probation officer in Juvenile Court.  Jarrett went on to become Chief of Social Service at the Boston Psychopathic Hospital (1913-19), where, in collaboration with Dr. Elmer Ernest Southard, she first defined the relevance of social work to psychiatry.  As an outgrowth of this work, she subsequently developed an apprentice course to train social workers in providing aid to shell-shocked soldiers returning from World War I.</p>
@@ -119,7 +120,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -165,7 +166,7 @@
          <persname encodinganalog="600" source="lcnaf">Clark, Mary Vida</persname>
          <persname encodinganalog="600" source="lcnaf">Jarrett, Mary C. (Mary Cromwell)</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -255,8 +256,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
             </did>
@@ -307,7 +308,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -369,7 +370,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS
           </unittitle>
@@ -426,7 +427,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PROFESSIONAL ACTIVITIES
                </unittitle>
@@ -1147,7 +1148,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. SUBJECTS
                </unittitle>

@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr26.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr26</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr26.xml//EN">manoscmr26</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Helle Collection of Plath Family Photographs, 1910-1963</titleproper>
@@ -30,16 +31,16 @@
   <archdesc level="collection" relatedencoding="MARC21">
     <did id="main">
 	<head>Collection Overview</head>
-	<unittitle label="Title:" encodinganalog="245$a">Helle Collection of Plath Family Photographs</unittitle>
-	<unitdate type="inclusive" label="Dates:">1910-1963</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Helle Collection of Plath Family Photographs</unittitle>
+	<unitdate label="Dates:" type="inclusive">1910-1963</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr">MS 273</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 273 UUID:7e29f8da-442d-4ac2-9299-c6ff2d255c9b</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">1 box</extent>
 		<extent encodinganalog="300$a">(.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Mortimer Rare Book Room</corpname>
@@ -79,7 +80,7 @@
 
 	<p>Series III. Other photographs contains one postcard of Berck-Plage.</p>
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into three series:</p>
 	<list>
@@ -139,8 +140,8 @@
 <!-- End additional information -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. Photographs of Otto Plath and Siblings</unittitle>
  </did>
@@ -153,7 +154,7 @@
 	<note><p>Caption on verso by June Johnson Helle: Otto Plath.<lb />
 <lb />
 Subject: Full view of Otto Plath (1885-1940) wearing a band uniform and holding an oboe.<lb />
- &#169; Estate of Otto Plath</p>
+ © Estate of Otto Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -167,7 +168,7 @@ Subject: Full view of Otto Plath (1885-1940) wearing a band uniform and holding 
 	<note><p>Caption on verso by June Johnson Helle: Otto Plath (Indicated) with U/College group.
 <lb />
 Subject: Otto Plath (1885-1940), third from left in the front row. Some men hold steins and various musical instruments.<lb />
- &#169; Estate of Otto Plath</p>
+ © Estate of Otto Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -180,7 +181,7 @@ Subject: Otto Plath (1885-1940), third from left in the front row. Some men hold
 	<note><p>Caption on verso by ?Otto Plath: Otto Plath graduates Nwestern 1910.<lb />
 <lb />
 Subject: Full view of Otto Plath (1885-1940) wearing a cap and gown.<lb />
- &#169; Estate of Otto Plath</p>
+ © Estate of Otto Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -192,7 +193,7 @@ Subject: Full view of Otto Plath (1885-1940) wearing a cap and gown.<lb />
 	</physdesc>
 	<note><p><lb />
 Subject: Head and shoulders view of Otto Plath (1885-1940) wearing a cap and gown.<lb />
- &#169; Estate of Otto Plath</p>
+ © Estate of Otto Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -205,7 +206,7 @@ Subject: Head and shoulders view of Otto Plath (1885-1940) wearing a cap and gow
 	<note><p>Blind stamped on folder: J T Long / Seattle
 <lb />
 Subject: Head and shoulders view of Otto Plath (1885-1940) wearing a suit and tie.<lb />
- &#169; Estate of Otto Plath</p>
+ © Estate of Otto Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -218,7 +219,7 @@ Subject: Head and shoulders view of Otto Plath (1885-1940) wearing a suit and ti
 	<note><p>Blind stamped on recto: Stafford / 69th &amp; Halsted / Chicago<lb />
 Caption on verso by June Johnson Helle: Frieda and Hugo Plath / sister and brother / 1917.
 Subjects: Full view of Frieda Plath Heinrichs and Hugo Plath, wearing a uniform, seated on a table.<lb />
- &#169; Estate of Frieda Plath Heinrichs</p>
+ © Estate of Frieda Plath Heinrichs</p>
 	</note>
 	 </did>
 </c02>
@@ -232,7 +233,7 @@ Subjects: Full view of Frieda Plath Heinrichs and Hugo Plath, wearing a uniform,
 	<note><p>Caption on verso by June Johnson Helle: Otto Plath with a colleague. Stamped on verso: Films Developed Free S. N. Wood Photo Finisher 46 Cornhill, Boston
 <lb />
 Subject: Full view of Otto Plath (1885-1940) with an unidentified colleague. Both men are wearing suits and standing in a back yard near a house.<lb />
- &#169; Unknown</p>
+ © Unknown</p>
 	</note>
 	 </did>
 </c02>
@@ -246,12 +247,12 @@ Subject: Full view of Otto Plath (1885-1940) with an unidentified colleague. Bot
 Stamped on folder: Sargent Studio / 154 Boylston Street / Boston
 <lb />
 Subject: Head and shoulders view of Otto Plath (1885-1940) wearing a checked coat and tie.<lb />
- &#169; Estate of Otto Plath</p>
+ © Estate of Otto Plath</p>
 	</note>
 	 </did>
 </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. Photographs of Sylvia Plath and her family</unittitle>
   </did>
@@ -266,7 +267,7 @@ Caption on verso by Aurelia Plath: April 1933 / Sylvia - 5 months<lb />
 Caption on verso by June Johnson Helle: Aurelia and Sylvia Plath
 <lb />
 Subject: Sylvia Plath (1932-1963) and her mother, Aurelia Schober Plath (1906-1994). Three quarter view of Aurelia sitting on a chair outside near a chain fence holding Sylvia on her lap. Aurelia is wearing a dark coat with fur trim and hat.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -280,7 +281,7 @@ Subject: Sylvia Plath (1932-1963) and her mother, Aurelia Schober Plath (1906-19
 Caption on verso by June Johnson Helle: Sylvia Plath
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) wearing a bonnet and laughing.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -295,7 +296,7 @@ Baby Sylvia Plath <unitdate>[May 1933]</unitdate></unittitle>
 Caption on verso by June Johnson Helle: Sylvia Plath
 <lb />
 Subject: Three quarter view of baby Sylvia Plath (1932-1963), gazing up at the unidentified person who holds her on his/her lap.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -311,7 +312,7 @@ Caption on verso by June Johnson Helle: Aurelia, her mother (Mrs.Schober), and S
 Note: Possibly taken by Otto Plath at the Arnold Arboretum
 <lb />
 Subject: Aurelia Greenwood Schober (1887-1956) (left), Aurelia Schober Plath (1906-1994) (right), and Sylvia Plath (1932-1963). Baby Sylvia sits on a blanket in front of her grandmother and mother kneeling behind her on the grass.<lb />
- &#169; Estate of Otto Plath</p>
+ © Estate of Otto Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -329,7 +330,7 @@ Stamped on verso: A 19<lb />
 Note: Possibly taken by Aurelia Greenwood Schober at the Arnold Arboretum.
 <lb />
 Subject: Sylvia Plath (1932-1963), Aurelia Schober Plath (1906-1994), and Otto Plath (1885-1940). Three quarter view of Otto Plath sitting next to Aurelia with baby Sylvia on her lap.<lb />
- &#169; Estate of Aurelia Greenwood Schober</p>
+ © Estate of Aurelia Greenwood Schober</p>
 	</note>
 	 </did>
 </c02>
@@ -345,7 +346,7 @@ Baby Sylvia Plath<unitdate>July 1934</unitdate></unittitle>
 Caption on verso by June Johnson Helle: Sylvia Plath
 <lb />
 Subject: Full view of baby Sylvia Plath (1932-1963) sitting in a pan on the lawn near a sandbox.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -362,7 +363,7 @@ Caption on verso by June Johnson Helle: Warren and Sylvia Plath
 Stamp on verso: Knox Photo Medford, Mass. 808
 <lb />
 Subject: Warren Plath (1935- ) and Sylvia Plath (1932-1963) dressed in warm clothes standing near a tree in Winthrop, Massachusetts.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -378,7 +379,7 @@ Caption on verso by June Johnson Helle: Warren and Sylvia Plath
 Stamp on verso: Knox Photo Medford, Mass. 808
 <lb />
 Subject: Sylvia Plath (1932-1963) pushing her brother, Warren Plath (1935- ), in a stroller on a sidewalk in Winthrop, Massachusetts.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -394,7 +395,7 @@ Sylvia Plath and her mother at Winthrop Beach<unitdate>ca. July 1936</unitdate><
 Stamp on verso: Knox photo Medford, Mass. 813
 <lb />
 Subject: Nearly full view of Sylvia Plath (1932-1963) and her mother, Aurelia Schober Plath (1906-1994), sitting in the grass at Winthrop Beach. Both are wearing dresses and a house is in the background.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -410,7 +411,7 @@ Sylvia Plath with her mother and aunt at Point Shirley, Winthrop, Massachusetts<
 Note: Probably taken by Sylvia Plath's grandfather, Frank Schober (1880-1965).
 <lb />
 Subject: Head and shoulder view of Sylvia Plath (1932-1963), Aurelia Schober Plath (1906-1994), and Dorothy Schober Benotti (1911-1981) on the beach at Point Shirley in Winthrop, Massachusetts. Aurelia's uncle Henry Schober may be in the background.<lb />
- &#169; Estate of Frank Schober</p>
+ © Estate of Frank Schober</p>
 	</note>
 	 </did>
 </c02>
@@ -427,7 +428,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath
 Stamp on verso: 867
 <lb />
 Subject: Full view of Sylvia Plath (1932-1963) standing in the water at Winthrop Beach. She is wearing a bathing suit and a large bow in her hair.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -439,10 +440,10 @@ Subject: Full view of Sylvia Plath (1932-1963) standing in the water at Winthrop
 12.2 x 20.2 cm.
 	</physdesc>
 	<note><p>Caption on recto by Aurelia Plath: To Aunt Frieda &amp; Uncle Walter / from Sylvia &amp; / Warren, May 1937.<lb />
-Caption on verso by June Johnson Helle: Sylvia and Warren Plath. Sylvia is 4&#189; / Warren is 2.
+Caption on verso by June Johnson Helle: Sylvia and Warren Plath. Sylvia is 4½ / Warren is 2.
 <lb />
 Subject: Head and shoulder view of Sylvia Plath (1932-1963) and Warren Plath (1935- ). Sylvia is wearing a bow in her hair.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -458,7 +459,7 @@ Stamp on verso: 696
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) on a swing in her grandparent's yard at Winthrop, Massachusetts, with Warren Plath 
 (1935- ) in the foreground.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -474,7 +475,7 @@ Caption on verso by June Johnson Helle: Aurelia and Sylvia Plath.
 Stamp on verso: 696
 <lb />
 Subject: Head and shoulders view of Sylvia Plath (1932-1963) and Aurelia Schober Plath (1906-1994) sitting on the front steps of their home in Winthrop, Massachusetts. Sylvia is holding a doll.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -489,7 +490,7 @@ Subject: Head and shoulders view of Sylvia Plath (1932-1963) and Aurelia Schober
 Stamp on verso: 242
 <lb />
 Subject: Full view of Warren Plath (1935- ) lying on top of Sylvia Plath (1932-1963) on a sled in the snow.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -503,7 +504,7 @@ Subject: Full view of Warren Plath (1935- ) lying on top of Sylvia Plath (1932-1
 	<note><p>Caption on recto by Aurelia Plath: July 1939-Sylvia 6 yrs 9 months
 <lb />
 Subject: Full view of Sylvia Plath (1932-1963) wearing a one-piece bathing suit with an anchor design on the front.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -518,7 +519,7 @@ Subject: Full view of Sylvia Plath (1932-1963) wearing a one-piece bathing suit 
 Caption on verso by Aurelia Plath: Sylvia and Warren Aug. / 7 yrs. 9 mos. 5 yrs. 3 mos.
 <lb />
 Subject: Full view of Sylvia Plath (1932-1963) and Warren Plath (1935- ) on a beached sailboat.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -534,7 +535,7 @@ Caption on verso by June Johnson Helle: Sylvia, dressed as a nurse-taken during 
 Stamped on verso: 867
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) in the backyard with her doll wearing a nurses uniform and her hair in braids.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -550,7 +551,7 @@ Wedding photograph of Joseph and Dorothy Benotti with Warren and Sylvia Plath<un
 Stamp on verso: 540F
 <lb />
 Subject: Full view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) standing in front of Joseph Benotti (1911-1996) and Dorothy Schober Benotti (1911-1981) on their wedding day.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -563,10 +564,10 @@ Subject: Full view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) standin
 	</physdesc>
 	<note><p> Caption on recto by Aurelia Schober Plath: August 1941<lb />
 Caption on verso by June Johnson Helle: Warren and Sylvia Plath.
-Stamped on verso: 821C Genuine VELOX Photo Paper. ?Doll Dev., 8 prints, one hold-?pal album, The Baldwin Studio, St. Louis, MO 20&#162;
+Stamped on verso: 821C Genuine VELOX Photo Paper. ?Doll Dev., 8 prints, one hold-?pal album, The Baldwin Studio, St. Louis, MO 20¢
 <lb />
 Subject: Three quarter view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) holding Mitzi (cat) on the front porch of their house in Winthrop, Massachusetts. Sylvia's hair is in braids and the cat is wearing one of Sylvia's doll bonnets<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -581,7 +582,7 @@ Subject: Three quarter view of Warren Plath (1935- ) and Sylvia Plath (1932-1963
 Stamped on verso: 51
 <lb />
 Subject: Full view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) flanking Frank Richard Schober (1919- ) and Louise Bowman Schober (1920- ) on their wedding day. <lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -592,11 +593,11 @@ Subject: Full view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) flankin
 	<physdesc>Black and white photograph, trimmed. 
 6.5 x 9 cm.
 	</physdesc>
-	<note><p>Caption on recto by Aurelia Schober Plath: Frank &amp; Louise Schober / Warren-7&#189; Sylvia-9&#189; / Winthrop, Mass. / 1942.<lb />
-Caption on verso by Aurelia Schober Plath: My brother Frank Schober and his bride, Louise. Warren age 7 years / Sylvia " 9&#189; " / (Sylvia wants you to know her dress was made of pale pink organza and that the slip under it is pretty enough to be a dress too.)
+	<note><p>Caption on recto by Aurelia Schober Plath: Frank &amp; Louise Schober / Warren-7½ Sylvia-9½ / Winthrop, Mass. / 1942.<lb/>
+Caption on verso by Aurelia Schober Plath: My brother Frank Schober and his bride, Louise. Warren age 7 years / Sylvia " 9½ " / (Sylvia wants you to know her dress was made of pale pink organza and that the slip under it is pretty enough to be a dress too.)
 <lb />
 Subject: Full view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) flanking Frank Richard Schober (1919- ) and Louise Bowman Schober (1920- ) on their wedding day.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -613,7 +614,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath. Martha Johnson wrote the n
 9Blind stamp on verso: VELOX
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) holding a jug on the front porch of her home in Wellesley, Massachusetts.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -629,7 +630,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath age 13.
 Stamp on verso: VELOX
 <lb />
 Subject: Full view of Sylvia Plath (1932-1963) and Warren Plath (1935- ) on the front porch of their home in Wellesley, Massachusetts. Sylvia wears a scarf and kneels next to a cocker spaniel. A Christmas wreath hangs on the front door.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -645,7 +646,7 @@ Caption on verso by June Johnson Helle: Aurelia Plath
 Stamp on verso: 880Z VELOX
 <lb />
 Subject: Three quarter view of Aurelia Plath (1906-1994) standing outside the front door at her home in Wellesley, Massachusetts. <lb />
- &#169; Warren Plath</p>
+ © Warren Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -662,7 +663,7 @@ Caption on verso by June Johnson Helle: Age 14
 Stamped on verso: 007Z VELOX
 <lb />
 Subject: Sylvia Plath (1932-1963) sunbathing on a blanket in her backyard in Wellesley, Massachusetts.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -678,7 +679,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath and "friend."
 Stamped on verso: 309
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) holding her uncle's cocker spaniel near the back fence in Wellesley, Massachusetts.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -689,11 +690,11 @@ Subject: Three quarter view of Sylvia Plath (1932-1963) holding her uncle's cock
 	<physdesc>Black and white photograph. 
 6.5 x 9 cm.
 	</physdesc>
-	<note><p>Caption on verso: This doesn't do Sylvia justice but is excellent of Warren (age 11&#189;)
+	<note><p>Caption on verso: This doesn't do Sylvia justice but is excellent of Warren (age 11½)
 Stamped on verso: 309 VELOX
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) and Warren Plath (1935- ) holding his uncle's cocker spaniel, in the side yard at Wellesley, Massachusetts.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -709,7 +710,7 @@ Caption on verso by June Johnson Helle: Warren and Sylvia Plath (Ages 13 &amp; 1
 Stamp on verso: 618
 <lb />
 Subject: Warren Plath (1935- ) wearing a suit and tie standing near a birch tree in the yard at Wellesley, Massachusetts. Sylvia Plath (1932-1963) is seated with a flower in her hair.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -719,12 +720,12 @@ Subject: Warren Plath (1935- ) wearing a suit and tie standing near a birch tree
  <unittitle>Anonymous. Sylvia Plath in the garden<unitdate> May 1947</unitdate></unittitle>
 	<physdesc>Black and white photograph. 6.5 x 9 cm.
 	</physdesc>
-	<note><p>Caption on verso by Aurelia Schober Plath: May 1947 Sylvia, 14&#189; years old<lb />
+	<note><p>Caption on verso by Aurelia Schober Plath: May 1947 Sylvia, 14½ years old<lb/>
 Caption on verso by June Johnson Helle: Sylvia Plath
 Stamped on verso: 618 VELOX
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) kneeling next to a bush in the garden at Wellesley, Massachusetts.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -740,7 +741,7 @@ Caption on verso by June Johnson Helle: Aurelia Plath
 Stamped on verso: 618 VELOX
 <lb />
 Subject: Full view of Aurelia Schober Plath (1906-1994) seated in the yard at her home in Wellesley, Massachusetts. She is wearing a floral hat.<lb />
- &#169; Unlnown</p>
+ © Unlnown</p>
 	</note>
 	 </did>
 </c02>
@@ -755,7 +756,7 @@ Subject: Full view of Aurelia Schober Plath (1906-1994) seated in the yard at he
 Stamped on verso: 243
 <lb />
 Subject: Full view of Sylvia Plath (1932-1963) seated in the lawn at her home in Wellesley, Massachusetts. She is drinking from a glass and has a pad of drawing paper nearby.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -770,7 +771,7 @@ Subject: Full view of Sylvia Plath (1932-1963) seated in the lawn at her home in
 Stamped on verso: 994W VELOX
 <lb />
 Subject: Head and shoulders view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) sitting near the front walk of their home in Wellesley, Massachusetts, with petunias in the background.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -785,7 +786,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath's home.
 Stamped on verso: G625
 <lb />
 Subject: Plath family residence at 26 Elmwood Road, Wellesley, Massachusetts. Unidentified man and car in the front yard.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -800,7 +801,7 @@ Subject: Plath family residence at 26 Elmwood Road, Wellesley, Massachusetts. Un
 Stamped on verso: 058A
 <lb />
 Subject: Three quarter view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) sitting on the lawn at their home in Wellesley, Massachusetts. Warren is wearing a suit and tie while Sylvia is wearing a checked dress<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -816,7 +817,7 @@ Caption on verso by June Johnson Helle: Warren and Aurelia Plath
 Stamped on verso: Z96
 <lb />
 Subject: Three quarter view of Warren Plath (1935- ) wearing a band uniform and Aurelia Schober Plath (1906-1994) in a checked jacket sitting in the yard at home in Wellesley, Massachusetts<lb />
- &#169; Estate of Aurelia Greenwood Schober</p>
+ © Estate of Aurelia Greenwood Schober</p>
 	</note>
 	 </did>
 </c02>
@@ -827,11 +828,11 @@ Subject: Three quarter view of Warren Plath (1935- ) wearing a band uniform and 
 	<physdesc>Black and white photograph. 
 9 x 13 cm.
 	</physdesc>
-	<note><p>Caption on verso by Aurelia Schober Plath: Sept. 1949 / Sylvia-almost 17 / Warren - [almost] 14&#189;. Taken in the rear of our house. This does not do either Sylvia or Warren justice, but is excellent of me. So-here's to the expansion of my own ego as I send this to you.
+	<note><p>Caption on verso by Aurelia Schober Plath: Sept. 1949 / Sylvia-almost 17 / Warren - [almost] 14½. Taken in the rear of our house. This does not do either Sylvia or Warren justice, but is excellent of me. So-here's to the expansion of my own ego as I send this to you.
 Stamped on verso: 568
 <lb />
 Subject: Full view of Sylvia Plath (1932-1963), Aurelia Schober Plath (1906-1994), and Warren Plath (1935- ) in the yard at their home in Wellesley. All are wearing suits.<lb />
- &#169; Estate of Aurelia Greenwood Schober</p>
+ © Estate of Aurelia Greenwood Schober</p>
 	</note>
 	 </did>
 </c02>
@@ -845,7 +846,7 @@ Subject: Full view of Sylvia Plath (1932-1963), Aurelia Schober Plath (1906-1994
 	<note><p>Caption on verso by June Johnson Helle: Sylvia Plath
 <lb />
 Subject: Head and shoulders view of Sylvia Plath (1932-1963). According to Letters Home (page 47), this was Plath's high school graduation portrait.<lb />
- &#169; Estate of Sylvia Plath</p>
+ © Estate of Sylvia Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -861,7 +862,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath - almost 18.
 Stamped on verso: 642S Kodak Velox Paper
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) sitting on the front stair at her home in Wellesley, Massachusetts. Plath is wearing a suit and hat.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -877,7 +878,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath Age 18
 Stamped on verso: Kodak Velox Paper
 <lb />
 Subject: Head and shoulders view of Sylvia Plath (1932-1963) sitting on the front stair at her home in Wellesley, Massachusetts. She is wearing a zippered jacket.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -892,7 +893,7 @@ Subject: Head and shoulders view of Sylvia Plath (1932-1963) sitting on the fron
 Caption on verso by June Johnson Helle: Age 20
 <lb />
 Subject: Head portrait of Sylvia Plath (1932-1963) wearing a necklace.<lb />
- &#169; Estate of Sylvia Plath</p>
+ © Estate of Sylvia Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -907,7 +908,7 @@ Subject: Head portrait of Sylvia Plath (1932-1963) wearing a necklace.<lb />
 Caption on recto by Aurelia below Greetings: from / Aunt Aurelia
 <lb />
 Subject: Partial front view of the Plath family home at 26 Elmwood Road, Wellesley, Massachusetts.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -921,7 +922,7 @@ Subject: Partial front view of the Plath family home at 26 Elmwood Road, Wellesl
 Inscription on recto under greeting Merry Christmas 1955: to June, Glenn and Anita / Aunt Aurelia
 <lb />
 Subject: Full view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) standing in the yard at Wellesley, Massachusetts, September 1955. Sylvia is wearing a suit and black tam<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -937,7 +938,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath - almost 23 years old
 Stamped on verso: Kodak Velox Paper
 <lb />
 Subject: Three quarter view of Sylvia Plath (1932-1963) standing in the front yard of her home in Wellesley, Massachusetts. She is wearing a black tam, patterned jersey, dark skirt, and holds a handbag.<lb />
- &#169; Estate of Aurelia Schober Plath</p>
+ © Estate of Aurelia Schober Plath</p>
 	</note>
 	 </did>
 </c02>
@@ -952,7 +953,7 @@ Caption on verso by Aurelia: Warren and Aurelia, December 31, 1955 / Wellesley, 
 Stamped on verso: Kodak Velox Paper
 <lb />
 Subject: Nearly full view of Warren Plath (1935- ) and Aurelia Schober Plath (1906-1994) sitting on the floor in front of a Christmas tree. Warren is wearing a jacket and tie.<lb />
- &#169; Unknown</p>
+ © Unknown</p>
 	</note>
 	 </did>
 </c02>
@@ -967,7 +968,7 @@ Caption on verso by June Johnson Helle: Warren &amp; Sylvia Plath / Sylvia is al
 Stamped on verso: Kodak Velox Paper
 <lb />
 Subject: Head and shoulder view of Warren Plath (1935- ) and Sylvia Plath (1932-1963) in Paris.<lb />
- &#169; Estate of Ted Hughes</p>
+ © Estate of Ted Hughes</p>
 	</note>
 	 </did>
 </c02>
@@ -981,7 +982,7 @@ Subject: Head and shoulder view of Warren Plath (1935- ) and Sylvia Plath (1932-
 Caption on verso by June Johnson Helle: Aurelia Plath - Taken by Ted Hughes
 <lb />
 Subject: Full view of Aurelia Schober Plath (1906-1994) standing on the front stairs of her home in Wellesley, Massachusetts. Photograph has been trimmed. Sylvia Plath's left hand and handbag are still visible.<lb />
- &#169; Estate of Ted Hughes</p>
+ © Estate of Ted Hughes</p>
 	</note>
 	 </did>
 </c02>
@@ -996,7 +997,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath and baby Frieda
 Stamped on verso: C670 Kodak Vellox Paper
 <lb />
 Subject: Side view of Sylvia Plath (1932-1963) and Frieda Rebecca Hughes (1960- ). Plath's hair is in a ponytail. <lb />
- &#169; Estate of Ted Hughes</p>
+ © Estate of Ted Hughes</p>
 	</note>
 	 </did>
 </c02>
@@ -1011,7 +1012,7 @@ Caption on verso by June Johnson Helle: Sylvia Plath and daughter Frieda
 Stamped on verso Kodak Velox Paper
 <lb />
 Subject: Head and shoulders view of Sylvia Plath (1932-1963) holding Frieda Rebecca Hughes (1960- ) on her lap. Plath's hair is in braids on her head and Frieda is holding a teddy bear.<lb />
- &#169; Estate of Ted Hughes</p>
+ © Estate of Ted Hughes</p>
 	</note>
 	 </did>
 </c02>
@@ -1026,7 +1027,7 @@ Caption on verso by June Johnson Helle: At Cape Cod
 Stamped on verso: This is a Kodacolor Print Made by Kodak / April 1961
 <lb />
 Subject: Full view of Aurelia Schober Plath (1906-1994) at Cape Cod in the winter sitting on a porch.<lb />
- &#169; Unknown</p>
+ © Unknown</p>
 	</note>
 	 </did>
 </c02>
@@ -1040,19 +1041,19 @@ Subject: Full view of Aurelia Schober Plath (1906-1994) at Cape Cod in the winte
 Stamped on verso: Kodak Paper
 <lb />
 Subject: Three-quarter view of Aurelia Schober Plath (1906-1994) at Cape Cod in the summer sitting on a lawn chair. Pen markings cover up her knees.<lb />
- &#169; Unknown</p>
+ © Unknown</p>
 	</note>
 	 </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. Other photographs</unittitle>
  </did>
  <c02>
  <did>
  <container type="Helle">60</container>
- <unittitle>Carte Postale of Berck-Plage-L'H&#244;pital Vincent<unitdate>n.d</unitdate></unittitle>
+ <unittitle>Carte Postale of Berck-Plage-L'Hôpital Vincent<unitdate>n.d</unitdate></unittitle>
    </did>
    </c02>
  </c01>
@@ -1061,5 +1062,3 @@ Subject: Three-quarter view of Aurelia Schober Plath (1906-1994) at Cape Cod in 
 
   </archdesc>
 </ead>
-
-

@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss443.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss443</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss443.xml//EN">mnsss443</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Native American Women's Health Education Resource Center Records, 1986-2011</titleproper>
@@ -32,19 +33,19 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Native American Women's Health Education Resource Center</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Native American Women's Health Education Resource Center</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Native American Women's Health Education Resource Center Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1985-2011</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Native American Women's Health Education Resource Center Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1985-2011</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS526</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS526</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">31 boxes</extent>
 		<extent encodinganalog="300$a">(15 linear ft.)</extent>
 	</physdesc>
 
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language></langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language></langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
 		<address>
@@ -61,7 +62,7 @@
     <bioghist id="bioghist">
 	<head>Historical Note</head>
 	<p>In 1985 Charon Asetoyer, Clarence Rockboy, Everdale Song Hawk, Jackie Rouse, and Lorenzo Dion, a group of Native Americans living on or near the 40,000 acre Yankton Sioux Reservation in southeastern South Dakota, came together to form the Native American Community Board (NACB).  NACB's goals are to improve the quality of life by addressing issues of health, education, land and water rights, and economic development of indigenous people.  It is an independent non-profit, non-governmental organization that is not part of federally supported tribal government.  NACB provides awareness of pertinent health issues; promotes community involvement in economic development; promotes better educational systems; coordinates urban, tribal, and state child welfare issues; and engages in activities to promote survival of culture and way of life, working on the local, national and international levels to reach these goals.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6386.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6386.jpg" linktype="simple" show="embed">
 <daodesc><p>Entrance of the Native American Women's <lb />Health Education Resource Center, circa 1989</p></daodesc></dao> 
 <p>At the time of its formation, the unemployment rate on the reservation was eighty-five percent, seventy percent of adults over age forty suffered from diabetes, the infant mortality rate was five times the national average, and life expectancy on the reservation was just forty-five years.</p>
 	<p>After its 1986 incorporation as a non-profit, tax-exempt organization, NACB's first project was "Women and Children in Alcohol," a fetal alcohol syndrome program -- operated out of Asetoyer and Rockboy's basement --  which served to define the direction of the organization's subsequent health work.  The project aimed to address, in Charon Asetoyer's words, "fetal alcohol syndrome and all of the residual issues related to it, because you get into children's issues, you get into education, you get into women's issues and needs. And you get into how women were treated who were chemically dependent and how their rights were being violated." (Voices of Feminism oral history, 2006, p. 27)</p>
@@ -131,7 +132,7 @@ Files on interns and staff which contain recommendations and evaluations are clo
     <processinfo id="admin-process">
 	<p>Processed by Maida Goodwin, 2011</p> 
     </processinfo>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into thirteen series:</p>
 	<list>
@@ -415,8 +416,8 @@ were retained.</p>
     </odd>
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. GENERAL, HISTORY, AND PHOTOGRAPHS</unittitle>
  </did>
@@ -480,7 +481,7 @@ were retained.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. NATIVE AMERICAN COMMUNITY BOARD (NACB)</unittitle>
  </did>
@@ -640,7 +641,7 @@ were retained.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. NAWHERC ADMINISTRATION</unittitle>
  </did>
@@ -923,7 +924,7 @@ were retained.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. FINANCIAL MATERIALS</unittitle>
  </did>
@@ -1156,7 +1157,7 @@ were retained.</p>
  <did>
  <container type="box">7</container>
  <container type="folder">7</container>
- <unittitle>Choices&#8230;A Domestic Violence Shelter Assistance Program, <unitdate>n.d.</unitdate></unittitle>
+ <unittitle>Choices…A Domestic Violence Shelter Assistance Program, <unitdate>n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1217,7 +1218,7 @@ were retained.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. LAKE ANDES WOMEN'S LODGE</unittitle>
  </did>
@@ -1303,7 +1304,7 @@ were retained.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. ORGANIZATIONS</unittitle>
  </did>
@@ -2039,7 +2040,7 @@ were retained.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. PROGRAMS</unittitle>
  </did>
@@ -2358,7 +2359,7 @@ were retained.</p>
  <did>
  <container type="box">14</container>
  <container type="folder">15</container>
- <unittitle>Video: "Fetal Alcohol Syndrome&#8230;A Global Issue," sales <unitdate>1987-88</unitdate></unittitle>
+ <unittitle>Video: "Fetal Alcohol Syndrome…A Global Issue," sales <unitdate>1987-88</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -2756,7 +2757,7 @@ were retained.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. PUBLICATIONS </unittitle>
  	<note><p>[see also <ref target="list-ser7">SERIES VII. PROGRAMS</ref>, and <ref target="list-ser9">SERIES IX. STUDIES AND REPORTS</ref>]</p>
@@ -2947,7 +2948,7 @@ were retained.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. STUDIES AND REPORTS</unittitle>
  </did>
@@ -3246,7 +3247,7 @@ were retained.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser10">
+ <c01 id="list-ser10" level="series">
  <did>
  <unittitle>SERIES X. SUBJECT FILES</unittitle>
  </did>
@@ -3783,7 +3784,7 @@ were retained.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser11">
+ <c01 id="list-ser11" level="series">
  <did>
  <unittitle>SERIES XI. YANKTON SIOUX TRIBE (YST)</unittitle>
  </did>
@@ -4237,7 +4238,7 @@ were retained.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser12">
+ <c01 id="list-ser12" level="series">
  <did>
  <unittitle>SERIES XII. RESTRICTED MATERIALS</unittitle>
  </did>
@@ -4269,7 +4270,7 @@ were retained.</p>
  	</accessrestrict>
  </c02>
  </c01>
- <c01 level="series" id="list-ser13">
+ <c01 id="list-ser13" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -4304,5 +4305,3 @@ were retained.</p>
 
   </archdesc>
 </ead>
-
-

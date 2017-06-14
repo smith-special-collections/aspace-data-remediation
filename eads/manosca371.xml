@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca371.xml//EN" countrycode="us" mainagencycode="manosca">manosca371</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca371.xml//EN">manosca371</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Martha Acklesberg Papers, 1972 - 1971</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2014">2014</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Martha Ackelsberg</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Martha Ackelsberg</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Martha Ackelsberg Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1972 - 2001</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Martha Ackelsberg Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1972 - 2001</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:0198c26d-bc47-4a42-bdd8-29becf55c3db</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">1 half document box</extent>
 		<extent encodinganalog="300$a">(.25 linear feet)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -59,9 +60,9 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-	<p>Martha Ackelsberg received her undergraduate degree in Social Studies in 1968 at Radcliffe College, going on to receive her Ph.D. from Princeton University in Politics in 1976. In 1972, Professor Ackelsberg joined the Smith Government Department where she has remained to the time of writing.  She was appointed Five College 40th Anniversary Professor in 2006 and William R. Kenan, Jr. Professor in 2007 for her work at Smith and her occasional work at other universities including&#58; Hampshire College, the University of Massachusetts Amherst, the School of Social Sciences of the University of Sussex, the Bunting Institute of Radcliffe College, the Center for European Studies at Harvard University, the Institute for Research on Women at Columbia University, the Walt Whitman Center for the Culture and Politics of Democracy at Rutgers University, and the interdisciplinary Human Security Seminar co-sponsored by CUNY Graduate Center and the National Center for Research on Women. During the 2010 &#45; 2011 academic year, she served as resident director of PRESHCO &#40;Programa de Estudios Hispanicos-Cordoba&#41;, where she now serves as campus co-coordinator.</p>
+	<p>Martha Ackelsberg received her undergraduate degree in Social Studies in 1968 at Radcliffe College, going on to receive her Ph.D. from Princeton University in Politics in 1976. In 1972, Professor Ackelsberg joined the Smith Government Department where she has remained to the time of writing.  She was appointed Five College 40th Anniversary Professor in 2006 and William R. Kenan, Jr. Professor in 2007 for her work at Smith and her occasional work at other universities including: Hampshire College, the University of Massachusetts Amherst, the School of Social Sciences of the University of Sussex, the Bunting Institute of Radcliffe College, the Center for European Studies at Harvard University, the Institute for Research on Women at Columbia University, the Walt Whitman Center for the Culture and Politics of Democracy at Rutgers University, and the interdisciplinary Human Security Seminar co-sponsored by CUNY Graduate Center and the National Center for Research on Women. During the 2010 - 2011 academic year, she served as resident director of PRESHCO (Programa de Estudios Hispanicos-Cordoba), where she now serves as campus co-coordinator.</p>
 
-<p>In her biography, Professor Ackelsberg described the focus of her work as U+0022the nature and structure of political communities, and, in particular, patterns of power and participation within themU+0022. Her courses and research explore urban politics, political participation, feminist theory, and the role of wealth in the politics of the United States and Spain, which marginalizes women from political power.  She has written several books on the subject including Free Women of Spain&#58; Anarchism and Struggle for the Emancipation of Women and Resisting Citizenship&#58; Feminist Essays on Politics, Community, and Democracy. </p>
+<p>In her biography, Professor Ackelsberg described the focus of her work as U+0022the nature and structure of political communities, and, in particular, patterns of power and participation within themU+0022. Her courses and research explore urban politics, political participation, feminist theory, and the role of wealth in the politics of the United States and Spain, which marginalizes women from political power.  She has written several books on the subject including Free Women of Spain: Anarchism and Struggle for the Emancipation of Women and Resisting Citizenship: Feminist Essays on Politics, Community, and Democracy. </p>
 
 <p>Outside of her academic work, Martha Ackelsberg has served on the Sustainable Northampton Steering Committee and the Community Advisory Committee for the Village Hill developments as an advisor on issues of housing affordability.  She sings in Amandla, a community chorus based in Greenfield, Massachusetts.</p>
 
@@ -124,7 +125,7 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">1</container>
@@ -157,5 +158,3 @@
 
   </archdesc>
 </ead>
-
-

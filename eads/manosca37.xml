@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::manosca//TEXT us::manosca::manosca37.xml//EN" countrycode="us" mainagencycode="manosca">manosca37</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca37.xml//EN">manosca37</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Senda Berenson Papers, 1897-1985
@@ -37,7 +38,7 @@
       <titlepage>
          <publisher>Smith College Archives
         <lb/>
-            <extptr actuate="onload" show="embed" entityref="manoscalogo"/>
+            <extptr actuate="onLoad" entityref="manoscalogo" show="embed"/>
          </publisher>
          <titleproper>Senda Berenson Papers, 1897-1985
       </titleproper>
@@ -49,17 +50,17 @@
          <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="recordgrp">
+   <archdesc level="recordgrp" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Berenson, Senda, 1868-1954. </persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Senda Berenson Papers,
+         <unittitle encodinganalog="245$a" label="Title:">Senda Berenson Papers,
       <unitdate encodinganalog="245$f" type="inclusive">1897-1985</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">(bulk 1897-1915)</unitdate>
          </unittitle>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:d584d986-6cb8-4224-ab87-4643d097a6c3</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -70,7 +71,7 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Director of the Gymnasium and Instructor of Physical Culture, introduced the first rules of women's basketball and organized the first women's college basketball game. Contains biographical articles, news-clippings, notebooks, correspondence, lecture notes, photographs, and published writings.
+         <abstract encodinganalog="520$a" label="Abstract:">Director of the Gymnasium and Instructor of Physical Culture, introduced the first rules of women's basketball and organized the first women's college basketball game. Contains biographical articles, news-clippings, notebooks, correspondence, lecture notes, photographs, and published writings.
       </abstract>
          <langmaterial label="Language of Material:">
             <language langcode="eng">English</language>
@@ -111,7 +112,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -135,7 +136,7 @@
 			<p>The Senda Berenson Papers were donated over a period of time to the Smith College Archives from a variety of sources.</p> 
 		</acqinfo>
 	</descgrp>
-         <altformavail encodinganalog="530" type="digital" id="admin-altform">
+         <altformavail encodinganalog="530" id="admin-altform" type="digital">
             <head>Additional Formats</head>
             <p>Portions of this collection have been digitized and are available on the Web as part of the <extref href="http://clio.fivecolleges.edu/smith/berenson/">Five College Archives Digital Access Project</extref>.
         </p>
@@ -149,7 +150,7 @@
          <corpname encodinganalog="610" source="lcsh">Smith College--Sports.</corpname>
          <subject encodinganalog="650" source="lcsh">Basketball--United States--History--Sources.</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Materials</head>
@@ -163,8 +164,8 @@
             </list>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I:  Biography</unittitle>
             </did>
@@ -255,7 +256,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II:  Correspondence, Incoming</unittitle>
             </did>
@@ -395,7 +396,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III:  Correspondence, Outgoing</unittitle>
             </did>
@@ -463,7 +464,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV:  Lecture Notes</unittitle>
             </did>
@@ -477,7 +478,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V:  Photographs</unittitle>
             </did>
@@ -527,7 +528,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>Series VI:  Writings</unittitle>
             </did>

@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss360.html">mnsss360</eadid>
 
 	<filedesc>
@@ -37,7 +38,7 @@
 		<date>2004</date> 
 		 
 		 
-		<p>&#169; 2006 Smith College. All rights reserved.</p> 
+		<p>© 2006 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,16 +46,16 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Harman, Jane</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Harman, Jane</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Jane Harman Papers</unittitle><unitdate label="Dates:">1960-1998 (ongoing)</unitdate><unitdate type="bulk" encodinganalog="245$g">1993-1998</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 387</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Jane Harman Papers</unittitle><unitdate label="Dates:">1960-1998 (ongoing)</unitdate><unitdate encodinganalog="245$g" type="bulk">1993-1998</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 387</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">270 boxes</extent>
 			<extent encodinganalog="300$a">(110 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+		<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 
          <repository label="Location:">
             <corpname>Sophia Smith Collection</corpname>
@@ -73,7 +74,7 @@
 
 <bioghist id="bioghist">
 <head>Biographical Note</head>
-<p>Jane Lakes Harman was born on June 28, 1945 in New York, New York, to Dr. and Mrs. Adolf and Lucille (n&#233;e Geier) Lakes.  Her father, born in Poland, emigrated from Germany to the United States in the 1930s to escape Nazi Germany.  Her mother, whose family had emigrated from Russia, was born in the United States and was the first in her family to attend college.  The Lakes family moved to Los Angeles in 1949, where Dr. Lakes cultivated a successful medical career.  Harman attended public school in Los Angeles and graduated from University High School in 1962.</p>
+<p>Jane Lakes Harman was born on June 28, 1945 in New York, New York, to Dr. and Mrs. Adolf and Lucille (née Geier) Lakes.  Her father, born in Poland, emigrated from Germany to the United States in the 1930s to escape Nazi Germany.  Her mother, whose family had emigrated from Russia, was born in the United States and was the first in her family to attend college.  The Lakes family moved to Los Angeles in 1949, where Dr. Lakes cultivated a successful medical career.  Harman attended public school in Los Angeles and graduated from University High School in 1962.</p>
 <p>Fulfilling her mother's dream, Harman attended Smith College, graduating in 1966 with a Bachelor of Arts degree in government with honors.  An active resident of Tyler House during all four years at college, Harman was President of the Young Democrats Club during her senior year.  After finishing at Smith, Harman went on to attend Harvard University School of Law and graduated in 1969 with her Juris Doctorate (J.D.).  Later that year she married her first husband, Richard Frank.  They have two children, Brian, born in 1973, and Hilary, born in 1975.</p>
 <p>The stimulus for Harman's career in government and politics came in 1960 when she was an usher at the 1960 Democratic Convention, the convention at which John F. Kennedy was nominated as the Democratic candidate for President.  Before launching this aspect of her career, she first established herself as a practicing lawyer in 1970 as an Associate at the law firm of Surrey &amp; Morse in Washington, D.C.  She left private practice in 1972 to become a Legislative Assistant to Senator John V. Tunney (D - California), assisting in his work on the Senate Public Works Committee.  Harman then took on the position of Chief Legislative Assistant and oversaw legal activities on three of the Senator's committees, Commerce, Judiciary and District of Columbia.  In 1973 she moved on to become Chief Counsel and Staff Director for the Committee on the Judiciary, Subcommittee on Representation of Citizen Interests.  She held this position until 1975 when she became the Chief Counsel and Staff Director for the Committee on the Judiciary, Subcommittee on Constitutional Rights.  </p>
 <p>Leaving the Senate in 1977, she moved over to the White House as the Deputy Secretary to the Cabinet in the Carter administration, assisting Secretary to the Cabinet Jack Watson.  The year 1978 brought a much publicized change to Harman's life.  She chose to leave her job at the White House and spend more time with her children.  The headline in an article from The Atlanta Journal and Constitution (Atlanta, Georgia) on June 25, 1978 declared, "Woman Quitting Carter Inner-Circle To Be With Family."  Later that year she and her husband Richard Frank, then Administrator of the National Oceanic and Atmospheric Administration, divorced.</p>
@@ -101,7 +102,7 @@
 
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into nine series:</p>
 	<list>
@@ -267,7 +268,7 @@
 		<list>
 		<defitem>
 		<label>Defense Conversion Committee of the Speaker's Working Group on Policy Development</label>
-<item></item>
+<item/>
 		</defitem>
 		</list>
 	</p>
@@ -464,9 +465,9 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <head>Contents List</head>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1960-1998)</unitdate>, </unittitle>
  </did>
@@ -534,7 +535,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. PROFESSIONAL ACTIVITIES <unitdate>(1972-92)</unitdate>, </unittitle>
 </did>
@@ -721,7 +722,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. POLITICAL ACTIVITIES <unitdate>(1973-98)</unitdate>, </unittitle>
 </did>
@@ -1791,7 +1792,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. LEGISLATIVE FILES <unitdate>(1993-98)</unitdate>, </unittitle>
 </did>
@@ -2801,7 +2802,7 @@
  <did>
  <container type="box">55</container>
  <container type="folder">18</container>
- <unittitle>California vs. El Ni&#241;o</unittitle>
+ <unittitle>California vs. El Niño</unittitle>
  </did>
  </c05>
  <c05>
@@ -5813,7 +5814,7 @@
  <did>
  <container type="box">90</container>
  <container type="folder">5</container>
- <unittitle>"El Ni&#241;o"</unittitle>
+ <unittitle>"El Niño"</unittitle>
  </did>
  </c05>
  <c05>
@@ -10607,7 +10608,7 @@
  <did>
  <container type="box">171</container>
  <container type="folder">14</container>
- <unittitle>El Ni&#241;o</unittitle>
+ <unittitle>El Niño</unittitle>
  </did>
  </c04>
  <c04>
@@ -11404,7 +11405,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. CONSTITUENT SERVICES <unitdate>(1993-98)</unitdate>, </unittitle>
 </did>
@@ -13307,7 +13308,7 @@
  <did>
  <container type="box">198</container>
  <container type="folder">11</container>
- <unittitle>We the People&#8230;The Citizen and the Constitution</unittitle>
+ <unittitle>We the People…The Citizen and the Constitution</unittitle>
  </did>
  </c04>
  </c03>
@@ -14928,7 +14929,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. MEDIA ACTIVITIES <unitdate>(1994-98)</unitdate>, </unittitle>
 </did>
@@ -15050,7 +15051,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. OFFICE ADMINISTRATION <unitdate>(1993-98)</unitdate>, </unittitle>
  </did>
@@ -15838,7 +15839,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. PHOTOGRAPHS <unitdate>(1960-98)</unitdate>, </unittitle>
  </did>
@@ -16064,7 +16065,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. AUDIOVISUAL MATERIALS <unitdate>(1992-98)</unitdate>, </unittitle>
  </did>
@@ -17610,7 +17611,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -17796,5 +17797,3 @@
 
 </archdesc>
 </ead>
-
-

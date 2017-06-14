@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rgOM.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rgOM</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rgOM.xml//EN">mnsss292rgOM</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records. Oversized Materials.</titleproper>
@@ -32,9 +33,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Oversized Materials</unittitle>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Oversized Materials</unittitle>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:b1fd47c5-118f-4db3-abcb-9c195b94ae65</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -45,7 +46,7 @@
             </address>
 </repository>
 <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
            This record group includes oversized materials documeting the work of the YWCA from the 1890s to the present. Forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>.
          </abstract>
 </did>
@@ -120,8 +121,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>BOXED ITEMS</unittitle>
  </did>
@@ -309,7 +310,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>FLAT FILES</unittitle>
  </did>
@@ -796,7 +797,7 @@
  <did>
  <container type="box">65</container>
  <container type="folder">3</container>
- <unittitle>Posters: "Y-Teen Week, Teens for Peace, Teens for Justice, Teens for Freedom, Teens for Dignity&#8230;for all people. The YWCA is for Teens!" 1974(2); "Fuel YWCA Programs with Teen Energy, Join Y-Teens," n.d. (2); "Teen Women the Force is With You at the YWCA," n.d. (2)</unittitle>
+ <unittitle>Posters: "Y-Teen Week, Teens for Peace, Teens for Justice, Teens for Freedom, Teens for Dignity…for all people. The YWCA is for Teens!" 1974(2); "Fuel YWCA Programs with Teen Energy, Join Y-Teens," n.d. (2); "Teen Women the Force is With You at the YWCA," n.d. (2)</unittitle>
  </did>
  </c05>
  </c04>
@@ -1077,5 +1078,4 @@
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

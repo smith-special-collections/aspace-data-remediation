@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss38.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss38</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss38.xml//EN">mnsss38</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ina Ruth Hillis Lackey Papers, 1909-1988
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Lackey, Ina Ruth Hillis, 1909-1999</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Ina Ruth Hillis Lackey Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1909-1988</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ina Ruth Hillis Lackey Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1909-1988</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1909-1988</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 292</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 292</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">YWCA overseas secretary, YWCA official, USO regional director. Papers document some of her YWCA work, primarily in Brazil, and include circular letters sent annually to friends and relatives plus photographs of YWCA activities.
+         <abstract encodinganalog="520$a" label="Abstract:">YWCA overseas secretary, YWCA official, USO regional director. Papers document some of her YWCA work, primarily in Brazil, and include circular letters sent annually to friends and relatives plus photographs of YWCA activities.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -145,7 +146,7 @@
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
          <p>The Ina Ruth Hillis Lackey papers consist of 5 linear inches of correspondence and biographical material, including clippings and photographs.  The inclusive dates are 1909 to 1988, the major part spanning from the last year (1957) of her twelve year tenure as YWCA secretary in Racife, Brazil, to 1988, when she donated the papers.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6226.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6226.jpg" linktype="simple" show="embed">
 <daodesc><p>Ina Ruth Lackey at "ACF Social Center Festo," <lb />Y.W.C.A. center (most likely in Reclife, Brazil), 1971</p></daodesc></dao> 
          <p>The papers are divided into two series, CORRESPONDENCE and BIOGRAPHICAL MATERIAL.  The CORRESPONDENCE section contains 5 letters, 1958-1969, to and from Hillis Lackey related to her work in Recife;  a letter describing her life and philosophy of service (1987);  a letter to the Collection after donating the papers (1988);  and, primarily, circular letters sent by her once or twice a year between 1975 and 1988 to friends and family members (200 of them, she estimates in one of the letters) to update them on her personal life, travel and retirement plans, and post-retirement activities, voluntary and paid.  There are 33 of these letters, since most had both an English and a Portuguese version.  The letters portray a vigorous woman in her 60s and 70s for whom retirement is an extension of her YWCA career in the service of those in need--in her family, her church, and the communities in which she has lived.</p>
          <p>The BIOGRAPHICAL MATERIAL contains 17 clippings (4 in Portuguese) spanning from 1959, when Ruth Hillis became executive director of the Corpus Christi YWCA, to 1984, when she was retired and living in Albuquerque.  The clippings are primarily about her appointment to and tenure in YWCA directorships in Corpus Christi, Albuquerque, and Racine, and about a stint in Brazil in 1964, when she developed and opened a community center in a particularly impoverished section of Recife.</p>
@@ -163,7 +164,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -205,8 +206,8 @@
          <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association National Board</corpname>
          <persname encodinganalog="600" source="lcnaf">Young Women's Christian Association of the U.S.A.</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. CORRESPONDENCE</unittitle>
             </did>
@@ -235,7 +236,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. BIOGRAPHICAL MATERIAL</unittitle>
             </did>

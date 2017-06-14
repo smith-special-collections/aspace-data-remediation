@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss543.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss543</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss543.xml//EN">mnsss543</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Nancy Maas Papers, 1964-2013</titleproper>
@@ -37,16 +35,13 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Maas, Nancy</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Nancy Maas Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1964-2013</unitdate><unitdate type="bulk"
-encodinganalog="245$g">1964-1966</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 708</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Nancy Maas Papers</unittitle><unitdate label="Dates:" type="inclusive">1964-2013</unitdate><unitdate encodinganalog="245$g" type="bulk">1964-1966</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 708</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">1 box</extent>
         <extent encodinganalog="300$a">(.25 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -56,7 +51,7 @@ repositorycode="mnsss">MS 708</unitid>
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Peace Corps volunteer; Art historian; Artist; Professor, African Art History. The
 papers include seventy letters written by Maas to her parents during her time in the Peace Corps in
 Bolivia, circa 1960s, which are particularly descriptive of the country, early Peace Corps life and

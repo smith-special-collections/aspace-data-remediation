@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss518.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss518</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss518.xml//EN">mnsss518</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Tucker Pamella Farley Papers, 1969-2010</titleproper>
@@ -37,16 +35,15 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Farley, Tucker Pamella</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Tucker Pamella Farley
-Papers</unittitle><unitdate type="inclusive" label="Dates:">1969-2010</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 676</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Tucker Pamella Farley
+Papers</unittitle><unitdate label="Dates:" type="inclusive">1969-2010</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 676</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">3 boxes</extent>
         <extent encodinganalog="300$a">(2.25 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -57,7 +54,7 @@ repositorycode="mnsss">MS 676</unitid>
             </address>
          </repository>
            <!-- MRJ Edit as needed-->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Author; Labor organizer; Lesbian activist; Professor, English; Professor, Women's
 Studies. The papers contain materials from her academic career and study groups. Most material is related to Marxist Feminist Group 1 (MF 1) which include an extensive amount of discussion notes, minutes, planning materials, and publications. The group's topics ranged significantly over the years, and have included socialism, homophobia, racism, and postmodernism.  Some records also exist of her participation in early women's studies courses, research, and conferences. The collection contains draft and published writings by Farley on the subjects of women in literature, women's self-narratives, and the history of women's studies.
 
@@ -139,5 +136,4 @@ Mass.</p>
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

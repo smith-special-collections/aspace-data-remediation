@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss83.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss83</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss83.xml//EN">mnsss83</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Birth Control Collection, 1923-2000
@@ -46,15 +47,15 @@
       </num>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Birth Control Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1923-2000 </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Birth Control Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1923-2000 </unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 451</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 451</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box; 27 volumes</extent>
             <extent encodinganalog="300$a">(3.5 linear ft.)</extent>
@@ -66,21 +67,21 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">This small collection is comprised of mostly books, plus some pamphlets, flyers, and other.  Documents uses and misuses of contraception; family planning; sex in marriage; sex instruction; histories of the treatment of contraception by the church; population problems; fertility; and sterility.
+         <abstract encodinganalog="520$a" label="Abstract:">This small collection is comprised of mostly books, plus some pamphlets, flyers, and other.  Documents uses and misuses of contraception; family planning; sex in marriage; sex instruction; histories of the treatment of contraception by the church; population problems; fertility; and sterility.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5132page1.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5132page1.jpg" linktype="simple" show="embed">
 <daodesc><p>Article "Poor Black Women," one of a series on <lb />female liberation chosen by Boston-area women <lb />and published by New England Free Press, 1968</p></daodesc></dao> 
          <p> This small collection is comprised of mostly books, plus one box of pamphlets, flyers, and other publications dating from 1923 to 2000, with the bulk of the materials dating from the 1930s. Topics relate primarily to uses and misuses of contraception; family planning; sex in marriage; sex instruction; histories of the treatment of contraception by the church; population problems; fertility; and sterility.</p>
 
 
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -124,7 +125,7 @@
          <subject encodinganalog="650" source="lcsh">Women's health services--United States--History--20th century</subject>
          <subject encodinganalog="650" source="lcsh">Women--Health and hygiene</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>General</unittitle>

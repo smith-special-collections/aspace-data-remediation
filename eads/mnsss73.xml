@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss73.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss73</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss73.xml//EN">mnsss73</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Hyla S. Watters Papers, 1892-1991
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Watters, Hyla S., 1893-1987</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Hyla S. Watters Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1892-1991</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Hyla S. Watters Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1892-1991</unitdate>
             <unitdate encodinganalog="245$g" type="bulk"> 1911-1961</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 239</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 239</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -74,10 +75,10 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Medical missionary and physician. The papers document her life as a student at Smith College and her work as a medical missionary in China and Liberia. China material describes medical work; Chinese culture and daily life; the Lindberghs' visit in 1931; the Japanese invasion; the Communist invasion; and a trip to the Holy Land.
+         <abstract encodinganalog="520$a" label="Abstract:">Medical missionary and physician. The papers document her life as a student at Smith College and her work as a medical missionary in China and Liberia. China material describes medical work; Chinese culture and daily life; the Lindberghs' visit in 1931; the Japanese invasion; the Communist invasion; and a trip to the Holy Land.
       Material includes correspondence; diaries; medical school records and internships; writings; oral history notes; and memorabilia document her college years and missionary work.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -86,7 +87,7 @@
 <p>Hyla Stowell Watters, also known as Hyla Doc, was born on October 13, 1893 Dobbs Ferry, New York to Dr. Philip M. Watters and Ada S. Watters. Her father served as a Methodist clergyman to several churches in New York while Hyla was growing up and attending school, and later as President of the Gammon Theological Seminary in Atlanta, Georgia starting in 1914.
 </p>
 <p> Her mother was a schoolteacher but gave up her professional life upon marrying her father. She stayed at home with their three children: Philip S. Watters (later to become Reverend Watters, pastor of Memorial Methodist Church in White Plains, New York), Florence 'Sally' Watters (later to become a missionary in India), and lastly Hyla S. Watters. Hyla Doc always said her mother was her greatest inspiration.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6224.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6224.jpg" linktype="simple" show="embed">
 <daodesc><p>China Christian Advocate, Shanghai, May 1936</p></daodesc></dao> 
 <p>Her childhood was spent very happily. Her family often vacationed by camping in Lake Champlain, New York. Her parents were extremely nurturing and encouraging. When she was 8 she read a story called "Who will open the door for little Ling Ti?" and knew that she wanted to go to China. She and her friends started the Girls Foreign Missions (G.F.M.) to imitate the W.F.M.S. that her mother belonged to (Women's Foreign Missionary Society). Her Father announced the meetings in Church along with those of the WFMS's.</p>
 <p>Upon graduating from Yonkers High School in 1911, Hyla Doc attended Smith College as the class of 1915. With a degree in philosophy, she taught for a  year at Atlanta University before deciding to pursue her lifelong dream of becoming a doctor and going to China. She received her MD from Cornell Medical College in 1921, interned at Bellevue Hospital in New York and Morristown Hospital in New Jersey, and lastly was awarded the Diploma in Tropical Medicine and Hygiene by the London School of Tropical Medicine in 1924.</p>
@@ -195,7 +196,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -239,7 +240,7 @@
          <subject encodinganalog="650" source="lcsh">Women missionaries--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women physicians--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -247,8 +248,8 @@
         Memoirs published as "Hyla Doc: Surgeon in China Through War and Revolution, 1924-1949," edited by Elsie L. Landstrom.</p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. CORRESPONDENCE</unittitle>
             </did>
@@ -332,7 +333,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. BIOGRAPHICAL MATERIAL</unittitle>
             </did>
@@ -385,7 +386,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
             </did>
@@ -406,7 +407,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. MEMORABILIA</unittitle>
             </did>

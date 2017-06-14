@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca309.xml//EN" countrycode="us" mainagencycode="manosca">manosca309</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca309.xml//EN">manosca309</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Pro-Life Alliance Records, 1990-1997</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2013">2013</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Pro-Life Alliance</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Pro-Life Alliance</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Pro-Life Alliance Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1990-1997</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Pro-Life Alliance Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1990-1997</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 80</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:bf4d8c19-a230-47f7-a047-5bc98f6bba4d</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">3 boxes</extent>
 		<extent encodinganalog="300$a">(1.3 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -58,12 +59,12 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Historical Note</head>
-	<p>The Smith College Senate chartered the Pro-Life Alliance in 1990, and the organization held its first meeting the following fall. The organization became inactive during the autumn of 1997. Clea Emerson-Farley, Class of 1997 and club secretary, compiled the majority of these files. The Pro-Life Alliance organized an annual Pro-Life 5-College Conference, actively attended pro-life conferences at other universities (such as Harvard and Brown), participated in Boston's annual Respect Life Walk, distributed pro-life literature throughout the Smith community, and brought in speakers such as journalist Kathleen Howley from the 	<title render="italic" encodinganalog="630" source="lcsh">Boston Globe</title> and Teresa Donovan, an active member of the Massachusetts Citizens for Life.</p>
+	<p>The Smith College Senate chartered the Pro-Life Alliance in 1990, and the organization held its first meeting the following fall. The organization became inactive during the autumn of 1997. Clea Emerson-Farley, Class of 1997 and club secretary, compiled the majority of these files. The Pro-Life Alliance organized an annual Pro-Life 5-College Conference, actively attended pro-life conferences at other universities (such as Harvard and Brown), participated in Boston's annual Respect Life Walk, distributed pro-life literature throughout the Smith community, and brought in speakers such as journalist Kathleen Howley from the 	<title encodinganalog="630" render="italic" source="lcsh">Boston Globe</title> and Teresa Donovan, an active member of the Massachusetts Citizens for Life.</p>
     </bioghist>
 
     <scopecontent id="scope">
 	<head>Scope and Contents of the Collection</head>
-	<p>The Pro-Life Alliance files are primarily composed of pro-life literature, including pamphlets, flyers, and newsletters from various national organizations. Some of the files contain information regarding the organization's activities on campus; however, these files are not particularly detailed or comprehensive. In relation to the group's work on campus, the folder containing issues of 	<title render="italic" encodinganalog="630" source="lcsh">The Sophian</title>  proves to be informative as it contains a series of letters to the editor, both from the organization itself explaining its stance, and responses from the student body. The treasurer's notebook provides interesting insight into the activities of the club, as it contains many letters from students and club correspondence.</p>
+	<p>The Pro-Life Alliance files are primarily composed of pro-life literature, including pamphlets, flyers, and newsletters from various national organizations. Some of the files contain information regarding the organization's activities on campus; however, these files are not particularly detailed or comprehensive. In relation to the group's work on campus, the folder containing issues of 	<title encodinganalog="630" render="italic" source="lcsh">The Sophian</title>  proves to be informative as it contains a series of letters to the editor, both from the organization itself explaining its stance, and responses from the student body. The treasurer's notebook provides interesting insight into the activities of the club, as it contains many letters from students and club correspondence.</p>
     </scopecontent>
 
 <!-- End collection level metadata -->
@@ -103,7 +104,7 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">3017.2</container>
@@ -225,7 +226,7 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
       <did>
          <container type="box">3017.2</container>
          <container type="folder">14</container>
-         <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Sophian</title>  articles
+         <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Sophian</title>  articles
             <unitdate>1996</unitdate>
          </unittitle>
       </did>
@@ -241,7 +242,7 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
    </c01>
    <c01>
       <did>
-         <unittitle>	<title render="italic" encodinganalog="730">Related organizations:</title> </unittitle>
+         <unittitle>	<title encodinganalog="730" render="italic">Related organizations:</title> </unittitle>
       </did>
 </c01>
       <c01>
@@ -300,7 +301,7 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
       </c01>
       <c01>
          <did>
-            <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Related publications:</title> </unittitle>
+            <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Related publications:</title> </unittitle>
          </did>
 </c01>
          <c01>
@@ -325,7 +326,7 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
             <did>
                <container type="box">3017.3</container>
                <container type="folder">9</container>
-               <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Life Cycle</title> 
+               <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Life Cycle</title> 
                   <unitdate>1989-1994</unitdate>
                </unittitle>
             </did>
@@ -334,7 +335,7 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
             <did>
                <container type="box">3017.3</container>
                <container type="folder">10</container>
-               <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Massachusetts Citizens for Life</title> 
+               <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Massachusetts Citizens for Life</title> 
                   <unitdate>1994-1997</unitdate>
                </unittitle>
             </did>
@@ -352,7 +353,7 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
             <did>
                <container type="box">3017.3</container>
                <container type="folder">12</container>
-               <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">National Right to Life News</title> 
+               <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">National Right to Life News</title> 
                   <unitdate>1994-1995</unitdate>
                </unittitle>
             </did>
@@ -361,7 +362,7 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
             <did>
                <container type="box">3017.3</container>
                <container type="folder">13</container>
-               <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">National Right to Life News</title> 
+               <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">National Right to Life News</title> 
                   <unitdate>1996</unitdate>
                </unittitle>
             </did>
@@ -390,5 +391,3 @@ Records contain budget proposals, pamphlets, flyers, minutes, photographs, clipp
 
   </archdesc>
 </ead>
-
-

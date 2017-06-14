@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss163.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss163</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss163.xml//EN">mnsss163</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Grace Stuart Papers, 1962-1964</titleproper>
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Stuart, Grace Croll, 1898-1971</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Grace Stuart Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1962-64</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Grace Stuart Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1962-64</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 157</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 157</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -73,9 +74,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Author and clergy member's spouse. This collection consists of Stuart's writings, including an unpublished, semi-autobiographical manuscript entitled, "The Minister's Wife".  Also included are miscellaneous writings on being a dog owner and her experience as a college instructor.  Other themes include experiences of women writers, the impact of World War II on English civilians outside of metropolitan areas and the experiences of Anglican clergy and their families.
+         <abstract encodinganalog="520$a" label="Abstract:">Author and clergy member's spouse. This collection consists of Stuart's writings, including an unpublished, semi-autobiographical manuscript entitled, "The Minister's Wife".  Also included are miscellaneous writings on being a dog owner and her experience as a college instructor.  Other themes include experiences of women writers, the impact of World War II on English civilians outside of metropolitan areas and the experiences of Anglican clergy and their families.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -83,7 +84,7 @@
          <head>Biographical Note</head>
 <p>Born Agnes Grace Croll in Sheffield, Yorkshire, England, 1898.  She studied first at the University of Sheffield where she received a degree in English Literature and French, circa 1919. She hoped to study to be a qualified teacher at Oxford University but this was delayed because of attacks of severe rheumatoid arthritis from which she had suffered from the age of 19. She took a post teaching English at a school in Manchester but it was not for her. She studied psychology but mainly through intense individual scholarship and contact with major figures in the field of psychology and psychoanalysis. She earned a living primarily through teaching for the Worker's Educational Association, writing and broadcasting. Much of her earnings went into subsidising the work of her husband and the life of the Unitarian Church. 
 </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6275.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6275.jpg" linktype="simple" show="embed">
 <daodesc><p>First page of "Under the Paw" radio broadcast, London, 1962</p></daodesc></dao> 
 <p>She married Gordon L. Stuart, circa 1930. He became minister of the main Unitarian Church in Birmingham with a large and influential congregation and it is the influence and, in her view mis-used, wealth of the members of that church that is largely the subject of her unpublished manuscript, "The Minister's Wife." 
 </p>
@@ -99,7 +100,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> This small collection consists of Stuart's writings from the 1960s, including an unpublished, semi-autobiographical manuscript entitled, "The Minister's Wife," and notes about trying to get it published.  Also included are miscellaneous writings on being a dog owner and her experience as a college instructor.  "The Minister's Wife" might be described as proto-feminist in that Stuart describes some frustration at the ways traditional gender ideology limited her without any explicit discussion about women's oppression as a larger structural and cultural phenomenon.  The book also details the financial plight of the clergy and ways in which congregations oppress their ministers and their ministers' wives.  Other major themes addressed by the collection include experiences of women writers, the impact of World War II on English civilians outside of metropolitan areas and the experiences of Anglican clergy and their families.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -135,7 +136,7 @@
          <subject encodinganalog="650" source="lcsh">Spouses of clergy--England--Reminiscences</subject>
          <subject encodinganalog="650" source="lcsh">Women authors, English--20th century--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

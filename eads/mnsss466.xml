@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss466.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss466</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss466.xml//EN">mnsss466</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Constance Ray Harvey Papers, 1930-1960</titleproper>
@@ -35,16 +36,16 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Harvey, Constance Ray</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Constance Ray Harvey Papers</unittitle><unitdate type="inclusive" label="Dates:">1930-1960</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Constance Ray Harvey Papers</unittitle><unitdate label="Dates:" type="inclusive">1930-1960</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 214</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 214</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">1 box</extent>
         <extent encodinganalog="300$a">(.25 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English, </language> <language langcode="fre">French</language>
 
 </langmaterial>
@@ -56,7 +57,7 @@
             </address>
          </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Diplomat. This small collection documents Harvey's service with the Department of State, 1930-1952. Materials include correspondence, Department of State memoranda, photographs, one speech (in French), and two articles.
  
                  </abstract>

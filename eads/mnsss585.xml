@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss585.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss585</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss585.xml//EN">mnsss585</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Nanette K. Gartrell Papers</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Gartrell, Nanette</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Gartrell, Nanette</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Nanette K. Gartrell Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1949-2015</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Nanette K. Gartrell Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1949-2015</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">745</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">745 UUID:df61eabf-9afa-4320-8f28-73b6a356a655</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">3 bankers boxes</extent>
 		<extent encodinganalog="300$a">(3 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language></langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language></langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
 		<address>
@@ -149,5 +150,3 @@ Periodic additions to collection are expected and may not be reflected in this r
 
   </archdesc>
 </ead>
-
-

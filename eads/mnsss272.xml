@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss272.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss272</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss272.xml//EN">mnsss272</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Marion Barnes Meisel Papers</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Meisel, Marion</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Meisel, Marion</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Marion Barnes Meisel Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1895-1983</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Marion Barnes Meisel Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1895-1983</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 284</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 284</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">2 boxes</extent>
 		<extent encodinganalog="300$a">(.75 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -61,7 +62,7 @@
 
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5012.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5012.jpg" linktype="simple" show="embed">
 <daodesc><p>Marion Meisel, circa 1920</p></daodesc></dao>
 	<p>Marion Barnes Meisel was born Mary Hall Barnes in 1874 to James Jethro Barnes and Cornelia V. Hall Barnes in Atlanta, Georgia.  She was the second oldest and only girl of four children.  Her father was a prominent figure, serving as a City Councilman and Sheriff in Atlanta in the late nineteenth century.  Little is known about Meisel's childhood.</p>
 
@@ -81,7 +82,7 @@
 	<p>The bulk of the papers date from 1917 to 1950 and consist of poems written by Meisel, as well as her photographic works.  The photographs are primarily portraits, with some landscapes and artistic pieces.  The bulk of the photographs are unidentified and undated.  There are also scrapbook pages and photographs of Marion and her cats.</p>
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -143,8 +144,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -163,7 +164,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -208,7 +209,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
  </did>
@@ -309,7 +310,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV: PHOTOGRAPHS</unittitle>
  </did>
@@ -432,5 +433,3 @@
 
   </archdesc>
 </ead>
-
-

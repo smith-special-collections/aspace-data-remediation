@@ -1,14 +1,12 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss571.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss571</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss571.xml//EN">mnsss571</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="245$a">Nkenge Tour&#233; Papers, circa 1968-2014</titleproper>
+        <titleproper encodinganalog="245$a">Nkenge Touré Papers, circa 1968-2014</titleproper>
         <subtitle>Finding Aid</subtitle>
      </titlestmt>
      <publicationstmt>
@@ -36,18 +34,16 @@ Encoded by Margaret Jessup.
        <head>Collection Overview</head>
 
         <origination label="Creator:">
-           <persname encodinganalog="100" source="lcnaf">Tour&#233;, Nkenge</persname>
+           <persname encodinganalog="100" source="lcnaf">Touré, Nkenge</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Nkenge Tour&#233; Papers</unittitle><unitdate
-type="inclusive" label="Dates:">circa 1968-2014</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 563</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Nkenge Touré Papers</unittitle><unitdate label="Dates:" type="inclusive">circa 1968-2014</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 563</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">11 boxes</extent>
         <extent encodinganalog="300$a">(5.25 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -58,8 +54,8 @@ repositorycode="mnsss">MS 563</unitid>
             </address>
          </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
-            Political activist; Health reformer; Feminist; Civil rights activist. The papers consist of extensive files pertaining to Nkenge Tour&#233;'s activism in health reform and civil and political rights for African American women.  SisterSong Women of Color Reproductive Justice Collective and the D.C. Rape Crisis Center are well-documented, as are many conferences and workshops in which Tour&#233; participated.  Tour&#233;'s international work in these fields is also represented, and there is a small amount of material about the Black Panthers. Tapes of Tour&#233;'s
+           <abstract encodinganalog="520$a" label="Abstract:">
+            Political activist; Health reformer; Feminist; Civil rights activist. The papers consist of extensive files pertaining to Nkenge Touré's activism in health reform and civil and political rights for African American women.  SisterSong Women of Color Reproductive Justice Collective and the D.C. Rape Crisis Center are well-documented, as are many conferences and workshops in which Touré participated.  Touré's international work in these fields is also represented, and there is a small amount of material about the Black Panthers. Tapes of Touré's
 radio program, <title render="italic">In Our Voices</title>, are also included.   
          </abstract>
 
@@ -68,24 +64,24 @@ radio program, <title render="italic">In Our Voices</title>, are also included.
 
 <bioghist id="bioghist">
        <head>Biographical Note</head>
-    	<p>Nkenge Tour&#233; is a self-proclaimed "Diva of Decent."  She was born Anita Stroud on March 5, 1951 to parents Juanita King and John Stroud.  She has two younger brothers. Stroud grew up in public housing in Baltimore, Maryland, in a female-headed household.</p> 
+    	<p>Nkenge Touré is a self-proclaimed "Diva of Decent."  She was born Anita Stroud on March 5, 1951 to parents Juanita King and John Stroud.  She has two younger brothers. Stroud grew up in public housing in Baltimore, Maryland, in a female-headed household.</p> 
 
 	<p>At Eastern High School in the late 1960's, Stroud and a few girls founded an underground student activist group called the Black Voice to protest institutionalized racism in her majority white school. This time period marked the beginning of Stroud's activist life, as well as her first experiences with police brutality at the age of seventeen.  The members of the Black Voice were forcibly arrested for their role in organizing what became a large-scale student strike of local schools.  Stroud was given the option to receive her high school diploma only if she apologized for her activism.  She refused, and later earned a GED.  In her latter high school years, Stroud became involved with Baltimore's Soul School and the Black Panther Party, which she went on to join.  She was a member of the Party from 1970-1973, working in several chapters, including Washington, D.C.  </p>
 
-	<p>She married John Wesley Stevens, also a Party member, and they took the names Nkenge and Patrice Tour&#233;. They had two daughters, Trina Stevens and Kianga Stroud. When many of the members of the D.C. Black Panthers chapter went to California to work on the mayoral and City Council campaigns of Bobby Seale and Elaine Brown in 1973, Tour&#233; and her husband stayed behind in D.C.  They founded Save the People (STP) and ran the Education for Liberation Bookstore on 9th and H.  Save The People was asked to sell <title render="italic">The Black Panther</title>, the Party's newspaper in the party's absence as well as continue providing free meals, health care, and education to the community.  </p>  
+	<p>She married John Wesley Stevens, also a Party member, and they took the names Nkenge and Patrice Touré. They had two daughters, Trina Stevens and Kianga Stroud. When many of the members of the D.C. Black Panthers chapter went to California to work on the mayoral and City Council campaigns of Bobby Seale and Elaine Brown in 1973, Touré and her husband stayed behind in D.C.  They founded Save the People (STP) and ran the Education for Liberation Bookstore on 9th and H.  Save The People was asked to sell <title render="italic">The Black Panther</title>, the Party's newspaper in the party's absence as well as continue providing free meals, health care, and education to the community.  </p>  
 
-	<p>In 1974 she became the second Black woman to join the staff of the D.C. Rape Crisis Center. Tour&#233; worked at the Center for thirteen years, serving as General Administrator and Director of Community Education.  She wrote anti-sexual assault curricula for students, spoke widely, worked on their rape crisis hotline, and appeared regularly in the media.  She pioneered DC's Anti-Rape Week and Coalition for a Hassle Free Zone, an anti-street harassment campaign.  Nkenge and Patrice Tour&#233; were divorced in 1979.</p>
+	<p>In 1974 she became the second Black woman to join the staff of the D.C. Rape Crisis Center. Touré worked at the Center for thirteen years, serving as General Administrator and Director of Community Education.  She wrote anti-sexual assault curricula for students, spoke widely, worked on their rape crisis hotline, and appeared regularly in the media.  She pioneered DC's Anti-Rape Week and Coalition for a Hassle Free Zone, an anti-street harassment campaign.  Nkenge and Patrice Touré were divorced in 1979.</p>
 
-	<p>Tour&#233; was one of the co-founders of the Women's Section of the National Black United Front, defending women's rights within Black Nationalist politics and ensuring their issues were represented.  In 1982, Tour&#233; co-founded the International Council of African Women (ICAW) with Loretta Ross to prepare a delegation of American women to attend the 1985 United Nations Conference on Women in Nairobi, Kenya.  ICAW was the primary source providing information, support, and encouragement to African American women to organize delegations and attend the "Herstoric" conference.  She was President of the D.C. Chapter of the National Black Women's Health Project (now Black Women's Health Imperative) from 1987-1994. </p> 
+	<p>Touré was one of the co-founders of the Women's Section of the National Black United Front, defending women's rights within Black Nationalist politics and ensuring their issues were represented.  In 1982, Touré co-founded the International Council of African Women (ICAW) with Loretta Ross to prepare a delegation of American women to attend the 1985 United Nations Conference on Women in Nairobi, Kenya.  ICAW was the primary source providing information, support, and encouragement to African American women to organize delegations and attend the "Herstoric" conference.  She was President of the D.C. Chapter of the National Black Women's Health Project (now Black Women's Health Imperative) from 1987-1994. </p> 
 
-	<p>Since leaving the D.C. Rape Crisis Center in 1988, Tour&#233; has hosted her own weekly radio show, "In Our Voices," which serves as a platform for the voices and issues of women on D.C. radio station WPFW.  She and guests discuss issues from the perspective that any issue is a women's issue.  Also at WPFW, Tour&#233; served as the Executive Producer of Sophie's Parlor, the oldest women's music and politics collective in the United States.  Since 1990 she has been working with women substance abusers, women living with HIV/AIDS, women and children residing in transitional housing, and babies born with HIV.  Tour&#233; has been a weekend volunteer and served on the board of My Sister's Place, a shelter for battered women and their children, and on the board of the National Center for Human Rights Education.  She has been active with SisterSong Women of Color Reproductive Justice Collective.  </p>
+	<p>Since leaving the D.C. Rape Crisis Center in 1988, Touré has hosted her own weekly radio show, "In Our Voices," which serves as a platform for the voices and issues of women on D.C. radio station WPFW.  She and guests discuss issues from the perspective that any issue is a women's issue.  Also at WPFW, Touré served as the Executive Producer of Sophie's Parlor, the oldest women's music and politics collective in the United States.  Since 1990 she has been working with women substance abusers, women living with HIV/AIDS, women and children residing in transitional housing, and babies born with HIV.  Touré has been a weekend volunteer and served on the board of My Sister's Place, a shelter for battered women and their children, and on the board of the National Center for Human Rights Education.  She has been active with SisterSong Women of Color Reproductive Justice Collective.  </p>
 
-	<p>Tour&#233; has received numerous awards for her ongoing hard work and commitment to human rights and justice for women of color in the D.C. area and worldwide. Her writings on these subjects can be read in a number of publications including <title render="italic">Aegis </title>and <title render="italic">Vital Signs</title>.  She has also spoken widely at rallies, speak outs, and conferences.  She is committed to ending all forms of violence against women--psychological, cultural, racial, economic, state, sexual, and physical. She has described herself as both passionate and compassionate, a mother, grandmother, feminist, and warrior for her people.</p>
+	<p>Touré has received numerous awards for her ongoing hard work and commitment to human rights and justice for women of color in the D.C. area and worldwide. Her writings on these subjects can be read in a number of publications including <title render="italic">Aegis </title>and <title render="italic">Vital Signs</title>.  She has also spoken widely at rallies, speak outs, and conferences.  She is committed to ending all forms of violence against women--psychological, cultural, racial, economic, state, sexual, and physical. She has described herself as both passionate and compassionate, a mother, grandmother, feminist, and warrior for her people.</p>
 </bioghist>
 
 <scopecontent id="scope">
       <head>Scope and Contents of the Collection</head>
-	<p>    The Nkenge Tour&#233; papers consist of 5.25 linear ft. of files pertaining to Tour&#233;'s activism in health reform and civil and political rights for African American women.  The files are primarily related to her professional and public life.  Types of material include brochures, correspondence, news clippings, newsletters, notes, photographs, posters, publications, journal and newspaper articles, and audiocassettes.  The papers are arranged in seven series:</p>
+	<p>    The Nkenge Touré papers consist of 5.25 linear ft. of files pertaining to Touré's activism in health reform and civil and political rights for African American women.  The files are primarily related to her professional and public life.  Types of material include brochures, correspondence, news clippings, newsletters, notes, photographs, posters, publications, journal and newspaper articles, and audiocassettes.  The papers are arranged in seven series:</p>
 
    <list>
 	<item>I.  BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS</item>
@@ -105,7 +101,7 @@ radio program, <title render="italic">In Our Voices</title>, are also included.
 	<item>OVERSIZE MATERIALS</item>
    </list>
 
-	<p>The bulk of the papers date from 1980 to 2004 and focus on Tour&#233;'s organizational work, conference attendance, and radio broadcasting.  Tour&#233;'s thirteen years at the D.C. Rape Crisis Center are well documented, as is the founding of the International Council of African Women (ICAW), her work with SisterSong Women of Color Reproductive Justice Collective, and her role in organizing the 2004 March for Women's Lives.  There is a small amount of material on the Black Panther Party, including a scrapbook of photographs and news clippings from the late 1960's, the time of the beginning of Tour&#233;'s activism.  There is extensive material on Tour&#233;'s shows on Washington, D.C.'s WPFW radio, including many scripts from and audiocassettes of her long-running show "In Our Voices."   Her attendance and presentations at many conferences is well documented.   The papers also contain several essays and many original speeches and workshop outlines. </p>
+	<p>The bulk of the papers date from 1980 to 2004 and focus on Touré's organizational work, conference attendance, and radio broadcasting.  Touré's thirteen years at the D.C. Rape Crisis Center are well documented, as is the founding of the International Council of African Women (ICAW), her work with SisterSong Women of Color Reproductive Justice Collective, and her role in organizing the 2004 March for Women's Lives.  There is a small amount of material on the Black Panther Party, including a scrapbook of photographs and news clippings from the late 1960's, the time of the beginning of Touré's activism.  There is extensive material on Touré's shows on Washington, D.C.'s WPFW radio, including many scripts from and audiocassettes of her long-running show "In Our Voices."   Her attendance and presentations at many conferences is well documented.   The papers also contain several essays and many original speeches and workshop outlines. </p>
 
 
 </scopecontent>
@@ -117,12 +113,12 @@ radio program, <title render="italic">In Our Voices</title>, are also included.
 
 
  <userestrict encodinganalog="540" id="admin-use">
-             <p>The Sophia Smith Collection owns copyright to unpublished works in this collection created by Nkenge Tour&#233;.  Permission must be obtained to publish reproductions or quotations beyond "fair use."  Copyright to materials authored by others may be owned by those individuals or their heirs or assigns.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights</p>
+             <p>The Sophia Smith Collection owns copyright to unpublished works in this collection created by Nkenge Touré.  Permission must be obtained to publish reproductions or quotations beyond "fair use."  Copyright to materials authored by others may be owned by those individuals or their heirs or assigns.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights</p>
 </userestrict>
 <prefercite id="admin-cite">
         <head>Preferred Citation</head>
           <p>Please use the following format when citing materials from this collection:</p>
-          <p>Nkenge Tour&#233; Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+          <p>Nkenge Touré Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
 </prefercite>
 
 <accruals encodinganalog="584" id="admin-accruals">
@@ -131,7 +127,7 @@ record.</p>
 </accruals>
 
 <acqinfo id="admin-acqinfo">
-          <p>Nkenge Tour&#233; began donating her Papers to the Sophia Smith Collection in 2007.  Periodic additions are expected and may not be reflected in this finding aid.</p>
+          <p>Nkenge Touré began donating her Papers to the Sophia Smith Collection in 2007.  Periodic additions are expected and may not be reflected in this finding aid.</p>
 </acqinfo>
 
 <processinfo id="admin-process">
@@ -147,7 +143,7 @@ record.</p>
 	<extref href="https://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss560_main.html">Black Women's Health Imperative</extref></item>
 	<item>
 	<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss205_main.html">Loretta J. Ross Papers</extref></item>
-	<item>Interview with Nkenge Tour&#233; in the 
+	<item>Interview with Nkenge Touré in the 
 	<extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss291_main.html">Voices of Feminism Oral History Project</extref></item>
     </list>
 
@@ -165,7 +161,7 @@ record.</p>
 	<subject encodinganalog="650" source="lcsh">Reproductive rights -- United States -- History -- Sources</subject>
 	<subject encodinganalog="650" source="lcsh">Women's health services -- United States -- History -- Sources</subject>
 	<subject encodinganalog="650" source="lcsh">Women in radio broadcasting -- United States -- History</subject>
-	<persname encodinganalog="600" source="lcnaf">Tour&#233;, Nkenge</persname> 
+	<persname encodinganalog="600" source="lcnaf">Touré, Nkenge</persname> 
 	<corpname encodinganalog="610" source="lcsh">Black Women's Health Imperative -- History</corpname> 
 	<corpname encodinganalog="610" source="lcsh">D.C. Rape Crisis Center -- History</corpname> 
 	<corpname encodinganalog="610" source="lcsh">National Black Women's Health Network</corpname> 
@@ -229,15 +225,15 @@ record.</p>
 
 		<item>27. 10/11/89: Women's Health Roundtable</item>
 
-		<item>28. 11/89: Rape &#38; Incest</item>
+		<item>28. 11/89: Rape &amp; Incest</item>
 
 		<item>29. circa 1989: Black Women Filmmakers</item>
 
-		<item>30. 1/9/90: Campaign for Democracy &#38; Independence </item>
+		<item>30. 1/9/90: Campaign for Democracy &amp; Independence </item>
 
 		<item>31. 3/5/93: Black Women Sheroes</item> 
 
-		<item>32. 10/16/98: "The Whipper Woman &#38; Open Mike"</item>
+		<item>32. 10/16/98: "The Whipper Woman &amp; Open Mike"</item>
 
 		<item>33. 10/30/98: "Interview Dr. Grace Cornish, 10 bad choices that ruin Black women's lives"</item>
 
@@ -286,15 +282,15 @@ record.</p>
 
 	<item>4. "Closing Comments," n.d.</item>
 
-	<item>5. "Comments: At Rally Against New Diagnostic Categories&#8230;," 5/12/86</item>
+	<item>5. "Comments: At Rally Against New Diagnostic Categories…," 5/12/86</item>
 
-	<item>6. "Dispelling the Myths &#38; Rethinking the Issues," 5/24/87</item>
+	<item>6. "Dispelling the Myths &amp; Rethinking the Issues," 5/24/87</item>
 
 	<item>7. "Focus on Women of Color," 12/8/84</item>
 
 	<item>8. "Friends of Azania," 2/26/84</item>
 
-	<item>9. "From Cries &#38; Whispers to Action - Black Women &#38; AIDS," n.d.</item>
+	<item>9. "From Cries &amp; Whispers to Action - Black Women &amp; AIDS," n.d.</item>
 
 	<item>10. "Geraldine Smith," n.d.</item>
 
@@ -308,13 +304,13 @@ record.</p>
 
 	<item>15. "Organizing Now and For the Future," 4/25/1981</item>
 
-	<item>16. "Peace &#38; Bread Workshops," n.d.</item>
+	<item>16. "Peace &amp; Bread Workshops," n.d.</item>
 
 	<item>17. "Plenary Session: In Celebration of Our Common Language," 3/11/84</item>
 
 	<item>18. "Preparations for Kenya," 12/8/84</item>
 
-	<item>19. "Prog. Jan. 19, 84&#8230;," 1/19/84</item>
+	<item>19. "Prog. Jan. 19, 84…," 1/19/84</item>
 
 	<item>20. "Racism, Sexism, Violence: the Connection," n.d.</item>
 
@@ -365,7 +361,7 @@ record.</p>
 
 	<item>6. "Outline: Organizing Against Sexual Assault in the Black Community," n.d.</item>
 
-	<item>7. "Outline: Rape &#38; Raising Consciousness," n.d.</item>
+	<item>7. "Outline: Rape &amp; Raising Consciousness," n.d.</item>
 
 	<item>8. "Outline: Talking w/teens about sexuality," n.d.</item>
 
@@ -379,7 +375,7 @@ record.</p>
 
 	<item>2. "Issues for Women of Color," n.d.</item>
 
-	<item>3. "The Nexus of Racism &#38; Sexual Violence in the African American Community," n.d.</item>
+	<item>3. "The Nexus of Racism &amp; Sexual Violence in the African American Community," n.d.</item>
 
 	<item>4. "Organ. Efforts," n.d.</item>
 
@@ -389,7 +385,7 @@ record.</p>
 
 	<item>7. "Outline- Kenya: World Decade for Women," n.d.</item>
 	
-	<item>8. "Outline - Overview/History of Conference &#38; Decade," 7/14/84</item>
+	<item>8. "Outline - Overview/History of Conference &amp; Decade," 7/14/84</item>
 
 	<item>9. "Outstanding Black Women," n.d.</item>
 
@@ -407,13 +403,13 @@ record.</p>
 
 	<item>16. "Workshop Outlines," n.d.</item>
 
-	<item>17. "Workshop Topic: The Impact of the International Decade for Women&#8230;," n.d.</item>
+	<item>17. "Workshop Topic: The Impact of the International Decade for Women…," n.d.</item>
 </list>
 </odd>
     <odd id="odd-app5">
 	<head>Appendix IId. Writings</head>
 	<list>
-	<item>1. "Dialogue with Dessie," pg. 9, FAAR &#38; NCN newsletter (<title render="italic">Aegis</title>), July/August 1978</item>
+	<item>1. "Dialogue with Dessie," pg. 9, FAAR &amp; NCN newsletter (<title render="italic">Aegis</title>), July/August 1978</item>
 
 	<item>2. "Report on the First National Third World Women's Conference on Violence," pg. 70, <title render="italic">Aegis</title>, Summer/Autumn 1980</item>
 
@@ -439,7 +435,7 @@ record.</p>
 
 	<item>13. "Is There a Place in Our Movement?," n.d.</item>
 
-	<item>14. "The question of sexism&#8230;," n.d.</item>
+	<item>14. "The question of sexism…," n.d.</item>
 
 	<item>15. "So was it Just Another Liberal Fem. Affair?," n.d.</item>
 
@@ -452,8 +448,8 @@ record.</p>
     </odd>
 
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS</unittitle>
  </did>
@@ -588,7 +584,7 @@ record.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -607,7 +603,7 @@ record.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. CONFERENCES</unittitle>
  </did>
@@ -654,7 +650,7 @@ record.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ACTIVITIES AND ORGANIZATIONS</unittitle>
  </did>
@@ -1185,7 +1181,7 @@ record.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. SPEECHES AND WRITINGS</unittitle>
  </did>
@@ -1231,7 +1227,7 @@ record.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. SUBJECT FILES</unittitle>
  </did>
@@ -1463,7 +1459,7 @@ record.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. AUDIOVISUAL MATERIALS</unittitle>
  </did>
@@ -1647,7 +1643,7 @@ record.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. OVERSIZE MATERIALS</unittitle>
  </did>
@@ -1707,6 +1703,4 @@ record.</p>
  </c01>
 </dsc>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
-
+</ead><!-- END OF FILE -->

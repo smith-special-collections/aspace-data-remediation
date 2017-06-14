@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss40.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss40</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss40.xml//EN">mnsss40</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">The Lesbian Calendar Records, 1985-1994
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">Lesbian Calendar</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Lesbian Calendar Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1912-1994</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Lesbian Calendar Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1912-1994</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1985-1990</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 335</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 335</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">13 boxes</extent>
             <extent encodinganalog="300$a">( 5 linear ft.)</extent>
@@ -73,16 +74,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Lesbian business and publication.  Originally a one page fold-out monthly calendar of lesbian and women's events, The Calendar quickly grew into a more lengthy newsletter. The collection includes the administrative records from its inception; some records of LOGS (Lesbians of Greater Springfield); and subject files. The latter include memorabilia, posters, catalogs, and artwork that document the local lesbian community, as well as the national and international gay, lesbian, bisexual, and transgender movement, and feminism.
+         <abstract encodinganalog="520$a" label="Abstract:">Lesbian business and publication.  Originally a one page fold-out monthly calendar of lesbian and women's events, The Calendar quickly grew into a more lengthy newsletter. The collection includes the administrative records from its inception; some records of LOGS (Lesbians of Greater Springfield); and subject files. The latter include memorabilia, posters, catalogs, and artwork that document the local lesbian community, as well as the national and international gay, lesbian, bisexual, and transgender movement, and feminism.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
          <p>The Lesbian Calendar, founded in 1987, has its origins in Lesbians of Greater Springfield (LOGS), an organization and publication founded in Springfield, MA by Marie Louise Francoise (formerly Marie Patten) in 1985. After only one year in print, Francoise discontinued LOGS. In 1987, she relocated to Northampton, MA, a town later dubbed "Lesbianville, USA" by a 20/20 news report. There she joined with Pamela Kimmell to launch a new publication, <title render="italic">The Calendar</title>, later that year. Although there was editorial continuity between the two publications, there are significant differences between them. The <title render="italic">LOGS</title> newsletter was several pages in length and included a calendar of events, poems, short articles, and political viewpoints that often revolved around themes such as parenting and "wimmin of color." LOGS also functioned as an organization that hoped to provide area "womyn" with "alternatives to the limited social resources available" in Springfield. After its first year of existence LOGS, both the newsletter and the organization, disbanded as a result of internal personal and political divisions. Perhaps to avoid the pitfalls of divisive differences of opinion, <title render="italic">The Calendar</title> had a policy not to print literary or political submissions from its inception. Originally, a one page fold-out monthly calendar of lesbian and women's events, advertisements, and announcements, <title render="italic">The Calendar</title> quickly grew into a more lengthy newsletter that included detailed descriptions of events, classified ads, and for a brief period in 1987-88, letters to and from the community. In 1994, it adopted a new name, <title render="italic">The Lesbian Calendar</title> (TLC). TLC Productions publishes the newsletter and sponsors many area events. The organizers co-founded the Northampton Area Lesbian and Gay Business Guild. Patten left TLC in the early 1990s but as of 1999, Kimmell remained the editor.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6170.jpg" altrender="center">
+<dao actuate="onLoad" altrender="center" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6170.jpg" linktype="simple" show="embed">
 <daodesc>
 <p><title render="italic">The Calendar's</title> masthead, August 1987</p></daodesc></dao> 
       </bioghist>
@@ -108,7 +109,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -151,7 +152,7 @@
          <corpname encodinganalog="610" source="lcnaf">Lesbians of Greater Springfield (Mass.)--History--Sources</corpname>
          <corpname encodinganalog="630" source="lcnaf">Lesbian Calendar</corpname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -204,8 +205,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. LESBIANS OF GREATER SPRINGFIELD (LOGS)</unittitle>
                <unitdate>(1973, 1985-86)</unitdate>
@@ -314,7 +315,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. THE CALENDAR</unittitle>
                <unitdate>(1987-93)</unitdate>
@@ -423,7 +424,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SUBJECT FILES</unittitle>
                <unitdate>(1912-94)</unitdate>
@@ -1235,7 +1236,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

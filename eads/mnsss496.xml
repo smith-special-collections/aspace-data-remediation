@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss496.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss496</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss496.xml//EN">mnsss496</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Helen Caldicott Papers, 1961-
@@ -27,8 +25,7 @@ mainagencycode="mnsss">mnsss496</eadid>
          <date normal="yyyy-mm-dd">July 26, 2010</date>
     </creation>
     <langusage>Finding aid written in
-        <language encodinganalog="546" langcode="eng"
-scriptcode="latn">English.</language>
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
       </langusage>
     </profiledesc>
   </eadheader>
@@ -38,17 +35,16 @@ scriptcode="latn">English.</language>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Caldicott, Helen</persname>
         </origination>
-        <unittitle label="Title:" encodinganalog="245$a">Helen Caldicott
- Papers</unittitle><unitdate type="inclusive" label="Dates:">1961-1996
+        <unittitle encodinganalog="245$a" label="Title:">Helen Caldicott
+ Papers</unittitle><unitdate label="Dates:" type="inclusive">1961-1996
  (ongoing)</unitdate>
-       <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 223</unitid>
+       <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 223</unitid>
    <physdesc label="Quantity:">
            <extent encodinganalog="300$a">43 boxes</extent>
            <extent encodinganalog="300$a">(52.5 linear ft.) </extent>
    </physdesc>
 
-   <langmaterial label="Language of Material:" encodinganalog="546">
+   <langmaterial encodinganalog="546" label="Language of Material:">
         <language langcode="eng">English</language>
    </langmaterial>
          <repository label="Location:">
@@ -59,7 +55,7 @@ scriptcode="latn">English.</language>
              </address>
           </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Pediatrician, antinuclear activist, Co-founder of Women's Party for Survival and Women's Action for Nuclear Disarmament. Papers include correspondence, memorabilia, publicity, photographs, writings, research files, and audiovisual materials.  Also included are organizational records of Physicians for Social Responsibility and Women's Action for Nuclear Disarmament
 
         [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith
@@ -130,5 +126,4 @@ Collection if you would like one sent to you.]
             <p>Associated material located in Women's Action for New Directions Records.</p>
         </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

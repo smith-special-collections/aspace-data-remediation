@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss157.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss157</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss157.xml//EN">mnsss157</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Schwimmer-Lloyd Collection, 1912-1950</titleproper>
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Schwimmer, Rosika, 1877-1948</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Schwimmer-Lloyd Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1912-1950</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Schwimmer-Lloyd Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1912-1950</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 141</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 141</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes, 1 poster</extent>
             <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Suffragist; feminist; pacifist; organizer, Ford Peace Expedition; and diplomat.  The collection documents primarily the peace activism of Rosika Schwimmer, but also include some material on co-activist and friend, Lola Maverick Lloyd. Biographical materials are included for a number of friends and associates including Lola Maverick Lloyd, Jane Addams, Carrie Chapman Catt, Henry Ford, Charlotte Perkins Gilman, Harvey O'Connor, Eleanor Roosevelt, and Franciska Schwimmer. Other materials include clippings, correspondence, writings, personal memorabilia, subject files, and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">Suffragist; feminist; pacifist; organizer, Ford Peace Expedition; and diplomat.  The collection documents primarily the peace activism of Rosika Schwimmer, but also include some material on co-activist and friend, Lola Maverick Lloyd. Biographical materials are included for a number of friends and associates including Lola Maverick Lloyd, Jane Addams, Carrie Chapman Catt, Henry Ford, Charlotte Perkins Gilman, Harvey O'Connor, Eleanor Roosevelt, and Franciska Schwimmer. Other materials include clippings, correspondence, writings, personal memorabilia, subject files, and photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6307.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6307.jpg" linktype="simple" show="embed">
 <daodesc><p>Letter from Mary Curtis of the U.S. Sanitary <lb />Commission to Mary Wead, Febuary 21, 1865</p></daodesc></dao>
          <p> Rosika Schwimmer (1877-1948) was born in Budapest, Hungary, the oldest child of Max B. Schwimmer, a grocer and horse dealer, and Bertha Katscher Schwimmer, member of a distinguished Jewish literary family. She married in 1911 but divorced two years later.  An accomplished linguist, fluent in more than half a dozen languages, Schwimmer initially devoted herself to the cause of woman suffrage.  She attended the 1904 Berlin meeting of the International Council of Women at which the International Women's Suffrage Alliance was founded.  She settled in London in 1911 as press secretary of the Alliance.  With the outbreak of World War I, Schwimmer focused her efforts on peace. In 1914 she traveled to the U.S. to speak with President Wilson and Secretary of State William Jennings Bryan on behalf of the Alliance's endorsement of neutral mediation of the war.  Her flamboyant personality and ardent peace advocacy provided the spark that kindled sentiment for the Woman's Peace Party.  She was also influential in organizing the 1915 Congress of Women at The Hague and establishing the International Committee of Women for Permanent Peace (later Women's International League for Peace and Freedom (WILPF)).  The Ford Peace Ship, the ocean liner sponsored by Henry Ford that sailed to Europe in 1915-16 carrying an unofficial mediation commission, brought its passengers, including Schwimmer, a notoriety that led to her resignation from WILPF in 1918.  Upon her return to Hungary, Schwimmer was appointed ambassador to Switzerland.  In 1921 she returned to the U.S. where her attempts to resume her career and gain citizenship were thwarted by accusations that she was a spy.  Her final citizenship application was denied in 1924 when she refused to affirm her willingness to bear arms in defense of the United States.  She remained in the U.S. as an alien for the rest of her life, supported by her old friend and co-worker for peace, Lola Maverick Lloyd.</p>
          <p> Lola Maverick Lloyd (1875-1944) graduated from Smith College in 1897.  A pioneer suffragist and pacifist, in 1915 she co-founded with Jane Addams the Women's Peace Party, and later the Women's International League for Peace and Freedom.  She was also a delegate to the Congress of Women at the Hague in 1915 and sailed on Henry Ford's Peace Ship.  Lloyd and Schwimmer co-chaired the Campaign for World Government.</p>
@@ -114,7 +115,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -157,7 +158,7 @@
          <subject encodinganalog="650" source="lcsh">World War, 1914-1918--Protest movements--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women and peace--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -166,7 +167,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>
@@ -174,7 +175,7 @@
                <unittitle>Contents: finding aid</unittitle>
             </did>
          </c01>
-         <c01 level="series" id="list-ser1">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS (Rosika Schwimmer)</unittitle>
             </did>
@@ -280,7 +281,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. FRIENDS AND ASSOCIATES</unittitle>
             </did>
@@ -493,7 +494,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SUBJECT FILES</unittitle>
             </did>
@@ -594,7 +595,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PEACE</unittitle>
             </did>
@@ -745,7 +746,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. OVERSIZE MATERIALS</unittitle>
             </did>
@@ -757,7 +758,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serBKS">
+         <c01 id="list-serBKS" level="series">
             <did>
                <unittitle>BOOKS ON SHELF</unittitle>
             </did>

@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca29.xml//EN" countrycode="us" mainagencycode="manosca">manosca29</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca29.xml//EN">manosca29</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Southern Mountain Workship Files, 1944-1960
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -42,17 +43,17 @@
 <subtitle>Finding Aid</subtitle>
 <num>RG 80</num>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <corpname encodinganalog="100" source="lcnaf">Smith College.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Southern Mountain Workship Files</unittitle><unitdate encodinganalog="245$f" type="inclusive">1944-1960</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 80</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Southern Mountain Workship Files</unittitle><unitdate encodinganalog="245$f" type="inclusive">1944-1960</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:d385c57a-df02-49bc-8107-e2dbf3e3b872</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.51 linear ft.)</extent>
@@ -63,7 +64,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Work stipend.  Contains correspondence, reports, newspaper clippings, press releases and photographs.
+<abstract encodinganalog="520$a" label="Abstract:">Work stipend.  Contains correspondence, reports, newspaper clippings, press releases and photographs.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -173,7 +174,7 @@ following students:</p>
 <p>The files are arranged by type of material.  Included are Press Releases (1944-1959) and Newspaper Clippings (1949-1958) describing the program and activities of the students who were awarded the workship. There is also Correspondence (1949-1972) between the administrators of the Conference of Southern Workers and Smith College, and various parties interested in the work of the SMW.  In addition, there is correspondence of individual students involved with the program. There are also Reports (1946-1959) which document the activities of the women and the projects with which they were involved.  These reports provide insights into the work accomplished by the program.  Photographs (1950-1954) include press photographs and a small number of informal photographs of students at work.
 </p>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -198,7 +199,7 @@ following students:</p>
 <corpname encodinganalog="710" source="lcnaf">Southern Mountain Workship.</corpname>
 <corpname encodinganalog="710" source="lcnaf">Conference of Southern Mountain Workers.</corpname>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -206,7 +207,7 @@ following students:</p>
 </p>
 </relatedmaterial>
 </descgrp>
-<dsc type="in-depth" id="contlist">
+<dsc id="contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">3109</container>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss159.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss159</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss159.xml//EN">mnsss159</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Slavery/Anti-Slavery Collection, 1791-1968</titleproper>
@@ -53,15 +54,15 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Slavery/Anti-Slavery Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1791-1968 </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Slavery/Anti-Slavery Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1791-1968 </unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 390</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 390</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -73,16 +74,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">This collection primarily documents abolitionist activism.  Materials include correspondence; addresses; essays; sermons; deeds from the sales of female slaves; photographs of emancipated slaves; and numerous articles on the escaped slave William Wells Brown.  A substantial portion of the collection documents abolitionist John Brown and his descendents. Other individuals represented in the collection include Jonathon Edwards, Elizabeth Cady Stanton, Lucretia Mott, members of the Garrison family, Angelina Grimke, Daniel Webster, Emma Willard, Maria Weston Chapman, and Henry B. Blackwell. Also represented are various anti-slavery societies.
+         <abstract encodinganalog="520$a" label="Abstract:">This collection primarily documents abolitionist activism.  Materials include correspondence; addresses; essays; sermons; deeds from the sales of female slaves; photographs of emancipated slaves; and numerous articles on the escaped slave William Wells Brown.  A substantial portion of the collection documents abolitionist John Brown and his descendents. Other individuals represented in the collection include Jonathon Edwards, Elizabeth Cady Stanton, Lucretia Mott, members of the Garrison family, Angelina Grimke, Daniel Webster, Emma Willard, Maria Weston Chapman, and Henry B. Blackwell. Also represented are various anti-slavery societies.
 
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1407.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1407.jpg" linktype="simple" show="embed">
 <daodesc><p>Slave Children from New Orleans, circa 1864<lb />
 	    On reverse: "...The nett proceeds from the<lb />
 	    sale of these photographs will be devoted<lb />
@@ -90,11 +91,11 @@
 	    department of the Gulf, now under the<lb />
 	    command of Major General Banks."<lb />
 	    Photo by Charles Paxson, New York. </p></daodesc></dao>
-         <p> This collection consists primarily of material that documents abolitionist activism from 1791 to 1865.  Original source material includes abolitionist publications, annual reports, correspondence, addresses, conference proceedings, essays, newspaper clippings, photographs, and sermons.  Individuals represented in the collection include Jonathon Edwards, Elizabeth Cady Stanton, Lucretia Mott, members of the Garrison family, Angelina Grimk&#233;, Daniel Webster, Emma Willard, Maria Weston Chapman, and Henry B. Blackwell.</p>
+         <p> This collection consists primarily of material that documents abolitionist activism from 1791 to 1865.  Original source material includes abolitionist publications, annual reports, correspondence, addresses, conference proceedings, essays, newspaper clippings, photographs, and sermons.  Individuals represented in the collection include Jonathon Edwards, Elizabeth Cady Stanton, Lucretia Mott, members of the Garrison family, Angelina Grimké, Daniel Webster, Emma Willard, Maria Weston Chapman, and Henry B. Blackwell.</p>
          <p> Included in the collection are records of the Providence (R.I.) Anti-Slavery Society, 1833-43; the proceedings of the Anti-slavery Convention of American Women in Philadelphia in 1838; the eighth annual report of the Boston Female Anti-slavery Society from 1841; Jonathan Edwards's 1791 sermon "The Injustice and Impolicy of the Slave Trade and the Slavery of the Africans"; deeds from the sales of female slaves from 1820 and 1858; photographs of emancipated slaves; and numerous articles by W. Edward Farrison on the escaped slave William Wells Brown.</p>
          <p> A substantial portion of the collection relates to abolitionist John Brown and his descendents. that document abolitionist John Brown and his descendents.  These include articles, newspaper clippings, photographs, and  letters from the Garrison family to Brown's widow and sons and various essays examining myths about John Brown and the historical reality of his motivations and actions.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -147,7 +148,7 @@
          <persname encodinganalog="600" source="lcnaf">Stanton, Elizabeth Cady, 1815-1902</persname>
          <persname encodinganalog="600" source="lcnaf">Webster, Daniel, 1782-1852</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -156,7 +157,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>GENERAL</unittitle>

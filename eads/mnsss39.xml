@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss39.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss39</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss39.xml//EN">mnsss39</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Martha J. Lamb Papers, 1838-1969
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Lamb, Martha J. (Martha Joanna), 1829-1893</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Martha J. Lamb Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1838-1969</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Martha J. Lamb Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1838-1969</unitdate>
             <unitdate encodinganalog="245$g" type="bulk"> 1862-1893</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 88</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 88</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">12 boxes</extent>
             <extent encodinganalog="300$a">(4.5 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Author, historian, editor. The Lamb Papers consist of extensive personal and some professional correspondence; copies of all major articles and published books; diaries; research notes and reviews for her <title render="italic">History of the City of New York</title>; and copies of her <title render="italic">Magazine of American History</title>. Topics reflected in writings include women's rights, social reform, politics, and personal remembrances. Notable correspondents include Louisa May Alcott, Presidents Rutherford B. Hayes and Theodore Roosevelt, and John Jay.
+         <abstract encodinganalog="520$a" label="Abstract:">Author, historian, editor. The Lamb Papers consist of extensive personal and some professional correspondence; copies of all major articles and published books; diaries; research notes and reviews for her <title render="italic">History of the City of New York</title>; and copies of her <title render="italic">Magazine of American History</title>. Topics reflected in writings include women's rights, social reform, politics, and personal remembrances. Notable correspondents include Louisa May Alcott, Presidents Rutherford B. Hayes and Theodore Roosevelt, and John Jay.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -84,7 +85,7 @@
          <head>Biographical Note</head>
          <p>Martha J. Nash was born in Plainfield, Massachusetts on 13 August 1826, the third of the four children of Arvin Nash and Lucinda Vinton.  Her mother died when Martha was a child and her father remarried and with his second wife had two more children.  Martha Nash was educated at several schools in Massachusetts:  in Goshen, at the Williston Seminary in Easthampton (1844-45), and at the Northampton High School.  She did especially well in mathematics and taught that subject at schools in Newark, New Jersey and Maumee, Ohio.</p>
          <p>On 8 September 1852 she married Charles A. Lamb in Maumee.  He was a mechanic who had two daughters from an earlier marriage.  The Lambs moved to Chicago in 1857 and Martha became involved in charity work.  She was a founder of the Home for the Friendless and the Half-Orphan Asylum.  In 1863 she served as secretary of Chicago's first Sanitary Fair, held to raise money for soldiers' relief.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc877.jpg" altrender="left">
+<dao actuate="onLoad" altrender="left" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc877.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Martha Lamb, n.d.</p></daodesc></dao>
          <p>Shortly after the Civil War, Martha Lamb's marriage ended in divorce and it became necessary for her to support herself financially.  She moved to New York City after 1866 and acted upon her belief that a woman "with any brains or any sort of intellectual capacity" should work at a significant occupation.  She decided to follow her literary aspirations (first manifested in 1847 when she published an article in her local newspaper, <title render="italic">The Daily Hampshire Gazette</title>, Northampton, Massachusetts) and published a series of children's stories in 1869 and 1870.  In the 1870s she also wrote <title render="italic">Spicy</title>, a romance novel featuring the Sanitary Fair and the Chicago Fire; several Christmas annuals; and articles on a wide array of subjects for Harper's and other periodicals.  She also edited <title render="italic">The Homes of America</title>.  In the course of this writing she realized writing history was her true calling and she began extensive research for <title render="italic">History of the City of New York: Its Origin, Rise, and Progress</title>.  The first volume on the colonial period was published in 1877; the second volume appeared in 1880.  Although she was not trained as a professional historian and favored a narrative rather than analytical approach, her work was praised by the renowned contemporary historian, George Bancroft.  In 1883, Lamb purchased the <title render="italic">Magazine of American History</title>, a financially struggling monthly founded in 1877.  She devoted herself to editing the magazine for the last decade of her life, producing over fifty signed articles and more that were unsigned.  She also published articles by others, original documents, book reviews, and other standard components of a professional historical journal at a time when there was little precedent for such an endeavor.  The magazine ceased publication shortly after her death in 1893.</p>
@@ -117,7 +118,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -164,7 +165,7 @@
          <subject encodinganalog="650" source="lcsh">Women historians--United States--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women authors, American--19th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -230,8 +231,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
                <unitdate>(1840s-1969)</unitdate>
@@ -526,7 +527,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
                <unitdate>(1838-1915)</unitdate>
@@ -1105,7 +1106,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
                <unitdate>(1847-91, n.d.)</unitdate>
@@ -1469,7 +1470,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. ORGANIZATION FILES</unittitle>
                <unitdate>(1863-88)</unitdate>

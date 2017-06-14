@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca129.html">manosca129</eadid>
 
@@ -14,7 +15,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2006</date>
+<date>© 2006</date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -36,7 +37,7 @@
 <num>RG 52</num> 
 <author>Elisha Winkler</author> 
 <date>2004</date> 
-<p>&#x00A9; 2006 Smith College. All rights reserved.</p> 
+<p>© 2006 Smith College. All rights reserved.</p> 
 </titlepage> 
 </frontmatter> 
 
@@ -44,18 +45,18 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<corpname source="lcnaf" encodinganalog="110">Smith College. Dept. of East Asian Studies.</corpname>
+<corpname encodinganalog="110" source="lcnaf">Smith College. Dept. of East Asian Studies.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Department of East Asian Studies Records</unittitle>
+<unittitle encodinganalog="245$a" label="Title:">Department of East Asian Studies Records</unittitle>
 <unitdate label="Dates:">1970s-[ongoing]</unitdate>
 
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 52</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 52 UUID:277cd120-ebdd-4e6e-bd78-318f12bbbadc</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(1 linear inch)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -116,7 +117,7 @@ This collection is in three folders and contains black and white photographs, ne
 
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">1145</container>
@@ -178,5 +179,3 @@ This collection is in three folders and contains black and white photographs, ne
 
 </archdesc>
 </ead>
-
-

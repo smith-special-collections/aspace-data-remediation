@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Margaret Sanger Papers, 1761-1995
@@ -52,19 +51,19 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Sanger, Margaret, 1879-1966</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Margaret Sanger Papers </unittitle><unitdate encodinganalog="245$f" type="inclusive">1761-1995</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Margaret Sanger Papers </unittitle><unitdate encodinganalog="245$f" type="inclusive">1761-1995</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1900-1966</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 138</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 138</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">226 boxes</extent>
             <extent encodinganalog="300$a">(112.75 linear ft.)</extent>
@@ -76,15 +75,15 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Birth control advocate and nurse. Sanger, a sex reform activist, fought for women's rights to use contraceptives and founded both the national and international Planned Parenthood Federations. Papers include correspondence, writings, organizational and  conference materials documenting her leadership of the American and international birth control movements. Also included are records of activities and events related to Sanger's personal life, tributes, travels, art work, family materials, audio and video recordings, and dozens of photographs. (NOTE: The papers are divided into two distinct portions: those microfilmed by the Margaret Sanger Papers Project, consisting of 39.5 linear feet; and the unfilmed portion consisting of 73.5 linear feet. There is no container listing for the microfilmed portion included here. For more information see Scope and Contents note.)
+         <abstract encodinganalog="520$a" label="Abstract:">Birth control advocate and nurse. Sanger, a sex reform activist, fought for women's rights to use contraceptives and founded both the national and international Planned Parenthood Federations. Papers include correspondence, writings, organizational and  conference materials documenting her leadership of the American and international birth control movements. Also included are records of activities and events related to Sanger's personal life, tributes, travels, art work, family materials, audio and video recordings, and dozens of photographs. (NOTE: The papers are divided into two distinct portions: those microfilmed by the Margaret Sanger Papers Project, consisting of 39.5 linear feet; and the unfilmed portion consisting of 73.5 linear feet. There is no container listing for the microfilmed portion included here. For more information see Scope and Contents note.)
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc62.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc62.jpg" linktype="simple" show="embed">
 <daodesc><p>Margaret Sanger, 1916</p></daodesc></dao>
          <p>Margaret Louise Higgins was born in Corning, New York, on September 15, 1879, the sixth of eleven children and the third of four daughters born to Anne Purcell Higgins and Michael Hennessey Higgins, a stone mason.  Her two elder sisters worked to supplement the family income, and financed her education at Claverack College, a private coeducational preparatory school in the Catskills.   After leaving Claverack, Higgins took a job teaching first grade to immigrant children, but decided after a short time that the work did not suit her temperament.  She returned to Corning where her mother, then only forty-nine years old, was dying of tuberculosis.  Margaret Higgins blamed her mother's untimely death, as well as her sisters' need to sacrifice their own ambitions to support the family, on her parents' high fertility.  Though she loved and admired her father, she resented his demand that she take her mother's place managing the household.  Shortly after her Anne Higgins's death, Margaret Higgins left Corning for White Plains, New York, where she entered nursing school.</p>
          <p>In 1902, after completing two years of practical nursing training and gaining acceptance to a three-year degree program, Higgins met and married William Sanger, an architect and aspiring artist.  By 1910 Margaret Sanger had survived her own bout with tuberculosis and given birth to three children (Stuart, 1903; Grant, 1908; and Peggy, 1910), but was chafing inside her role as a traditional housewife and mother in Hastings-on-Hudson, New York.  Later that year the family moved to Manhattan where, through her work as a home nurse on the Lower East Side and her political involvements with the International Workers of the World and anarchist Emma Goldman, Margaret Sanger was drawn into the burgeoning struggle for women's right to control their sexuality and fertility.  By 1912 Sanger was widely recognized as a writer and speaker about sex reform.  Later that year she became a regular contributor to the socialist newspaper The Call, where she published a series of articles on sexual hygiene.  One of these, an article about syphilis published in February 1913, was targeted by the U.S. Post Office under the Comstock Act of 1873, which banned the distribution of sexually-related material through the U.S. mail.  This repression of her writings, combined with her exposure to the damages done to women by repeated childbirths and self-induced abortions, led to Sanger's decision to devote herself entirely to the birth control movement.  By 1914 she had separated from her husband, written a pamphlet entitled Family Limitation which coined the term "birth control," traveled to Europe to research new contraceptive methods, and set out to establish a system of advice centers where women throughout the U.S. could obtain reliable birth control information.</p>
@@ -143,10 +142,10 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
          <odd>
             <head>SERIES IV. ORGANIZATION AND CONFERENCE FILES</head>
             <table>
-               <tgroup cols="3" align="left">
-                  <colspec colnum="1" colname="1" align="left" colwidth="25"/>
-                  <colspec colnum="2" colname="2" align="left" colwidth="25"/>
-                  <colspec colnum="3" colname="3" align="left" colwidth="250"/>
+               <tgroup align="left" cols="3">
+                  <colspec align="left" colname="1" colnum="1" colwidth="25"/>
+                  <colspec align="left" colname="2" colnum="2" colwidth="25"/>
+                  <colspec align="left" colname="3" colnum="3" colwidth="250"/>
                   <tbody valign="top">
                      <row>
                         <entry colname="1" morerows="0">Box</entry>
@@ -175,10 +174,10 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
          <odd>
             <head>SERIES V. COUNTRIES AND REGIONS</head>
             <table>
-               <tgroup cols="3" align="left">
-                  <colspec colnum="1" colname="1" align="left" colwidth="25"/>
-                  <colspec colnum="2" colname="2" align="left" colwidth="25"/>
-                  <colspec colnum="3" colname="3" align="left" colwidth="250"/>
+               <tgroup align="left" cols="3">
+                  <colspec align="left" colname="1" colnum="1" colwidth="25"/>
+                  <colspec align="left" colname="2" colnum="2" colwidth="25"/>
+                  <colspec align="left" colname="3" colnum="3" colwidth="250"/>
                   <tbody valign="top">
                      <row>
                         <entry colname="1" morerows="0">67</entry>
@@ -197,10 +196,10 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
          <odd>
             <head>SERIES X. OVERSIZE</head>
             <table>
-               <tgroup cols="3" align="left">
-                  <colspec colnum="1" colname="1" align="left" colwidth="25"/>
-                  <colspec colnum="2" colname="2" align="left" colwidth="25"/>
-                  <colspec colnum="3" colname="3" align="left" colwidth="250"/>
+               <tgroup align="left" cols="3">
+                  <colspec align="left" colname="1" colnum="1" colwidth="25"/>
+                  <colspec align="left" colname="2" colnum="2" colwidth="25"/>
+                  <colspec align="left" colname="3" colnum="3" colwidth="250"/>
                   <tbody valign="top">
                      <row>
                         <entry colname="1" morerows="0">125</entry>
@@ -219,10 +218,10 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
          <odd>
             <head>MICROFILMED PORTION--Subseries V. Miscellany</head>
             <table>
-               <tgroup cols="3" align="left">
-                  <colspec colnum="1" colname="1" align="left" colwidth="25"/>
-                  <colspec colnum="2" colname="2" align="left" colwidth="25"/>
-                  <colspec colnum="3" colname="3" align="left" colwidth="250"/>
+               <tgroup align="left" cols="3">
+                  <colspec align="left" colname="1" colnum="1" colwidth="25"/>
+                  <colspec align="left" colname="2" colnum="2" colwidth="25"/>
+                  <colspec align="left" colname="3" colnum="3" colwidth="250"/>
                   <tbody valign="top">
                      <row>
                         <entry colname="1" morerows="0">87 </entry>
@@ -235,7 +234,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
          </odd>
       </odd>
 <!-- end odd level 1 --><!-- Appendix ends here  -->
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -320,7 +319,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
          <persname encodinganalog="600" source="lcnaf">Wells, H.G. (Herbert George), 1866-1946</persname>
 	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
       </controlaccess>
-       <descgrp type="add" id="addinfo">
+       <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -549,9 +548,9 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <head> Contents list (unfilmed portion)</head>
-         <c01 level="series" id="list-ser1">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>1889-1995, n.d.</unitdate>
                </unittitle>
@@ -1754,7 +1753,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. WRITINGS AND SPEECHES <unitdate>(1840-1980, n.d.)</unitdate>
                </unittitle>
@@ -1975,7 +1974,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. THIRD PARTY CORRESPONDENCE AND RELATED MATERIAL <unitdate>(1877-1983)</unitdate>
                </unittitle>
@@ -3613,7 +3612,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. ORGANIZATION AND CONFERENCE FILES <unitdate>(1903-1966)</unitdate>
                </unittitle>
@@ -5662,7 +5661,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. COUNTRIES AND REGIONS <unitdate>(1885-1983)</unitdate>
                </unittitle>
@@ -6919,7 +6918,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. SUBJECT FILES <unitdate>(1761-1969)</unitdate>
                </unittitle>
@@ -7741,7 +7740,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. PRINTED MATERIAL <unitdate>(1863-1981)</unitdate>
                </unittitle>
@@ -9510,14 +9509,14 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </c03>
             </c02>
          </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. AUDIOVISUAL MATERIALS</unittitle>
  </did>
  <note><p>Research copies of audiovisual materials available in separate box.</p></note>
  <c02>
  <did>
- <container type="box"></container>
+ <container type="box"/>
  <unittitle>Sound recordings-originals, do not use</unittitle>
  </did>
  <c03>
@@ -9708,7 +9707,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
  </c03>
  </c02>
  </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>SERIES IX. PHOTOGRAPHS <unitdate>(1850-1966)</unitdate>
                </unittitle>
@@ -10630,7 +10629,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser10">
+         <c01 id="list-ser10" level="series">
             <did>
                <unittitle>SERIES X. OVERSIZE MATERIALS</unittitle>
             </did>
@@ -10963,11 +10962,11 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
                </did>
             </c02>
          </c01>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES XI. MICROFILM</unittitle>
  </did>
- <c02 level="subseries" id="list-sub1a">
+ <c02 id="list-sub1a" level="subseries">
  <did>
  <unittitle>SUBSERIES I: CORRESPONDENCE</unittitle>
  </did>
@@ -12191,7 +12190,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
  </c04>
  </c03>
  </c02>
- <c02 level="subseries" id="list-sub1b">
+ <c02 id="list-sub1b" level="subseries">
  <did>
  <unittitle>SUBSERIES II. ORGANIZATIONAL RECORDS/CONFERENCE MATERIALS</unittitle>
  </did>
@@ -13089,7 +13088,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
  </c04>
  </c03>
  </c02>
- <c02 level="subseries" id="list-sub1c">
+ <c02 id="list-sub1c" level="subseries">
  <did>
  <unittitle>SUBSERIES III. LEGAL/GOVERNMENTAL MATERIAL</unittitle>
  </did>
@@ -13258,7 +13257,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
  </c04>
  </c03>
  </c02>
- <c02 level="subseries" id="list-sub1d">
+ <c02 id="list-sub1d" level="subseries">
  <did>
  <unittitle>SUBSERIES IV. WRITINGS</unittitle>
  </did>
@@ -13842,7 +13841,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss43.html">mnsss43<
  </did>
  </c03>
  </c02>
- <c02 level="subseries" id="list-sub1e">
+ <c02 id="list-sub1e" level="subseries">
  <did>
  <unittitle>SUBSERIES V. MISCELLANY</unittitle>
  </did>

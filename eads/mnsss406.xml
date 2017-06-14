@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss406.html">mnsss406</eadid>
 
 	<filedesc>
@@ -36,7 +37,7 @@
 		<author encodinganalog="245$c">Indus Chadha</author> 
 		<date encodinganalog="260$c">2007</date> 
 				 
-		<p>&#169; 2007 Smith College. All rights reserved.</p> 
+		<p>© 2007 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -44,16 +45,16 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Wright, Alice Morgan</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Wright, Alice Morgan</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Alice Morgan Wright Papers</unittitle><unitdate label="Dates:">1873-1994</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 176</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Alice Morgan Wright Papers</unittitle><unitdate label="Dates:">1873-1994</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 176</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">11 boxes</extent>
 			<extent encodinganalog="300$a">(4 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">
+		<langmaterial encodinganalog="546" label="Language of Material:">
 			<language langcode="eng">English</language>
 		</langmaterial>
 
@@ -73,12 +74,12 @@
 <!-- Enter collection level metadata -->
 <bioghist id="bioghist">
 <head>Biographical Note</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2196.jpg" altrender="right">
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2196.jpg" linktype="simple" show="embed">
 <daodesc><p>Alice Morgan Wright and friend, n.d.</p></daodesc></dao>
 <p>Alice Morgan Wright, sculptor, suffragist, and animal welfare advocate, the daughter of Henry Romeyn Wright, a prosperous wholesale grocer, and Emma Jane Morgan, was born on October 10, 1881, in Albany, New York. She attended the St. Agnes School in Albany (now the Doane Stuart School) and then graduated from Smith College in 1904.</p>
 
 
-<p>Wright worked for the Collegiate Equal Suffrage League and began studying sculpture at the Art Student League in New York City. In 1909 the League awarded her both the Gutzon Borglum and the Augustus Saint-Gaudens prizes for her outstanding art work. She went on to study art at the Acad&#233;mie des Beaux-Arts and at the Acad&#233;mie Colarossi in Paris. While in Europe, Wright involved herself in both the British and French suffrage movements. She organized a meeting in Paris at which English suffragist Emmeline Pankhurst spoke in 1910 and arranged for Pankhurst to make an appearance in Albany during her tour of the United States in 1911.</p> 
+<p>Wright worked for the Collegiate Equal Suffrage League and began studying sculpture at the Art Student League in New York City. In 1909 the League awarded her both the Gutzon Borglum and the Augustus Saint-Gaudens prizes for her outstanding art work. She went on to study art at the Académie des Beaux-Arts and at the Académie Colarossi in Paris. While in Europe, Wright involved herself in both the British and French suffrage movements. She organized a meeting in Paris at which English suffragist Emmeline Pankhurst spoke in 1910 and arranged for Pankhurst to make an appearance in Albany during her tour of the United States in 1911.</p> 
 <p>During a suffrage demonstration, Wright was arrested and spent two months in London's Holloway Gaol. During this time she modeled a small bust of Emmeline Pankhurst, her prison-mate, with art supplies she had smuggled into the prison. When she returned to Paris she organized a petition drive demanding the release of jailed British suffragists. By 1913 Wright's art work had won several prizes, and had been exhibited in New York, Paris, and London. After returning home in 1914, she became the recording secretary of the New York State Women's Suffrage Party, and only returned full time to her sculpture after the passage of the Nineteenth Amendment.
 </p>
 <p>Wright's lifelong companion was Edith J. Goode, whom she met at Smith, and together they worked tirelessly for peace and justice. Wright's love of animals increasingly drew her to the cause of animal protection, and although she was heralded as one of the leading young American sculptors, art increasingly took a backseat to her reform activities. By 1945 she was devoting all her time to the cause, founding the National Humane Education Association, and working with various other animal protection organizations. Russell Sage College awarded her an honorary degree in 1947. Wright died in Albany at the age of 93, on April 8, 1975.</p>
@@ -89,7 +90,7 @@
 <p>The Alice Morgan Wright Papers include biographical material, correspondence, writings, postcards, scrapbooks, artwork and photographs of her work as a sculptor; subject files, and memorabilia.   Wright's career as a sculptor and her activism are well-documented; personal material is more fragmentary.   Topics include art, women's suffrage, women's rights, women companions, birth control, world peace, animal welfare, the International Police Force and the United Nations, and Navajo Indians.  Her postcards provide a vivid and interesting account of Wright's travels, especially her years as an art student in Paris. Also included are reminiscences of the Pankhursts and of Wright's confinement in Holloway Gaol where she spent two months after her arrest at a suffrage demonstration in England.</p> 
 <p> Notable correspondents include Florence E. Allen, Emily Greene Balch, Mary Ellen Chase, Helen Keller, Stella Newsome, Ada Comstock Notestein, Emmeline Pankhurst, Alice Paul, Emmeline Pethink-Lawrence, Adlai S. Stevenson, Elisabeth Telling, Mary E. Woolley, Edith J. Goode (Wright's lifelong partner), and her mother, Emma Morgan Wright.</p>
 </scopecontent>
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into six series:</p>
 	<list>
@@ -187,7 +188,7 @@
 <!-- end controlled access terms -->
 
 <!-- Enter additional information -->
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -283,8 +284,8 @@ Additional papers pertaining to Alice Morgan Wright are housed at the Albany Ins
 <!-- End series descriptions -->
 
 <!-- Insert container list here -->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -407,7 +408,7 @@ Additional papers pertaining to Alice Morgan Wright are housed at the Albany Ins
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -585,7 +586,7 @@ Additional papers pertaining to Alice Morgan Wright are housed at the Albany Ins
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. SCRAPBOOKS </unittitle>
  </did>
@@ -623,7 +624,7 @@ Additional papers pertaining to Alice Morgan Wright are housed at the Albany Ins
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ARTWORK </unittitle>
  </did>
@@ -722,7 +723,7 @@ Additional papers pertaining to Alice Morgan Wright are housed at the Albany Ins
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. SUBJECT FILES </unittitle>
  </did>
@@ -854,7 +855,7 @@ Additional papers pertaining to Alice Morgan Wright are housed at the Albany Ins
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. PHOTOGRAPHS </unittitle>
  </did>
@@ -972,7 +973,7 @@ Additional papers pertaining to Alice Morgan Wright are housed at the Albany Ins
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
     <did>
  	<unittitle>OVERSIZE MATERIALS (Flat file)</unittitle>
  </did>
@@ -1015,5 +1016,3 @@ Additional papers pertaining to Alice Morgan Wright are housed at the Albany Ins
 
 </archdesc>
 </ead>
-
-

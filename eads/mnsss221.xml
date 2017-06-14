@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss221.html">mnsss221</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss221.html">mnsss221</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Jane Burr Papers, circa 1860s-1958</titleproper>
@@ -17,7 +16,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss221.html">mnsss22
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005, revised 2008</date>
+         <date calendar="gregorian" era="ce">© 2005, revised 2008</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -42,7 +41,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss221.html">mnsss22
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2008  Smith College. All rights reserved.</p>
+       <p>© 2008  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -51,13 +50,12 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss221.html">mnsss22
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Burr, Jane, 1882-1958</persname>
  </origination>
-	<unittitle label="Title:" encodinganalog="245$a">Jane Burr Papers</unittitle><unitdate type="inclusive" label="Dates:">circa 1860s-1958</unitdate> <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 25</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Jane Burr Papers</unittitle><unitdate label="Dates:" type="inclusive">circa 1860s-1958</unitdate> <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 25</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">1 box</extent>
           <extent encodinganalog="300$a">(.5 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -69,13 +67,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss221.html">mnsss22
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Journalist; Poet; Playwright. Papers include articles, photographs, and correspondence from Havelock Ellis,
+      <abstract encodinganalog="520$a" label="Abstract:">Journalist; Poet; Playwright. Papers include articles, photographs, and correspondence from Havelock Ellis,
 Margaret Sanger, H.G. Wells, Agnes Smedley, Fannie Hurst, Roger Baldwin, and Max Eastman, among others.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6330.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6330.jpg" linktype="simple" show="embed">
 <daodesc><p>Jane Burr atop the Savoy Hotel with Houses <lb />of Parliament in distance, London, 1922 </p></daodesc></dao> 
        	<p>Rosalind Mae Guggenheim, better known as Jane Burr, was born in Cleburne, Texas, December 27, 1882, the daughter of Bertha Kaufman and Leopold Guggenheim.  She married Horatio G. Winslow in 1911 and they divorced in 1925.  During the 1910s and 20s, she resided in New York City and was part of the Greenwich Village crowd of radicals, artists, and writers. She wrote articles on women's rights, marriage, dress reform, birth control, and changing sexual attitudes. In 1922 she traveled around the world studying and writing articles about the condition of women for United Press.  In London she caused a stir by wearing her famous "knickerbockers." Jane Burr published a number of novels, poems and plays.  Some of her better known works include City Dust (1917), The Glorious Hope (1918), The Passionate Spectator (1921), Marble and Mud (1935), The Queen is Dead (1938), and Fourteen Radio Plays (1945).  Beginning in the 1940s she lived in Woodstock, New York where she opened her farmhouse as an inn for writers and ran an antique shop from her barn. Jane Burr died in 1958.</p>
 </bioghist>
@@ -84,7 +82,7 @@ Margaret Sanger, H.G. Wells, Agnes Smedley, Fannie Hurst, Roger Baldwin, and Max
        <p>The Jane Burr Papers include articles by and about Burr, photographs of Burr and her family, and about 150 letters to her.  There is personal correspondence from Havelock Ellis from 1892-1935, mostly about their common interest in sex reform and the position of women: marriage, divorce, birth control; and a freer attitude toward sex. Other correspondents include Margaret Sanger, H.G. Wells, Agnes Smedley, Fannie Hurst, Roger Baldwin, and Max Eastman.  Burr's letters to Margaret Grierson, Director of the Sophia Smith Collection, contain detailed descriptions of her papers and provide valuable biographical context.  Descriptions written on the back of the photographs of family and places provide additional biographical information.  There are a number of photographs of Burr's home town, Cleburne, Texas.</p>
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -136,7 +134,7 @@ Smith Collection.</p>
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -431,8 +429,4 @@ Smith Collection.</p>
 <!-- End container list -->
 
   </archdesc>
-</ead>
-
-
-
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss29.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss29</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss29.xml//EN">mnsss29</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ruth V. Hemenway Papers, 1924-1979
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Hemenway, Ruth V., 1894-1974</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Ruth V. Hemenway Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1924-1979</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ruth V. Hemenway Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1924-1979</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 77</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 77</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
@@ -73,9 +74,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Medical missionary, teacher, and physician.  Twenty diaries provide a detailed record of the eighteen years Hemenway spent as a medical missionary in China. They describe medical and surgical cases, customs and rural culture, and the political upheaval of pre-WWII China. The diaries are rich with poignant and perceptive pictures of Chinese village life, of modernized urban life, and China during wartime. The diaries also reflect her own personal struggle with isolation and discrimination.
+         <abstract encodinganalog="520$a" label="Abstract:">Medical missionary, teacher, and physician.  Twenty diaries provide a detailed record of the eighteen years Hemenway spent as a medical missionary in China. They describe medical and surgical cases, customs and rural culture, and the political upheaval of pre-WWII China. The diaries are rich with poignant and perceptive pictures of Chinese village life, of modernized urban life, and China during wartime. The diaries also reflect her own personal struggle with isolation and discrimination.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -89,7 +90,7 @@
          <head>Scope and Contents of the Collection</head>
          <p>The Ruth Hemenway Papers consist of a small amount of printed biographical material, an oil painting, photographs, and twenty original diaries, 1924-41. The diaries provide a detailed record of her eighteen years as medical missionary to China and include photographs and drawings. They describe medical and surgical cases, customs and rural culture, and the political upheaval of pre-war China. They also contain valuable insights into the strengths and weaknesses of the Western missionary endeavor in China which Hemenway had joined even though she was skeptical of the goal to convert China. They are rich with poignant and perceptive pictures of Chinese village life in southeastern China, of modernized urban life in the Kuomintang-controlled Yangtze Valley on the eve of the Japanese invasion of 1937, and the besieged wartime capital of Chunking in western China.  They also reflect her own personal struggle with isolation and discrimination. A portion of her 1928 diary describes her travels through Europe, the Mediterranean, Indian Ocean and China Sea on her way back to China after a furlough home. Hemenway indexed the diaries. Excerpts of Hemenway's diaries were edited by Fred W. Drake in Ruth V. Hemenway, M.D.: A Memoir of Revolutionary China, 1924-1941, published by The University of Massachusetts Press, Amherst, Massachusetts, in 1977.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -126,7 +127,7 @@
          <persname encodinganalog="600" source="lcnaf">Hemenway, Ruth V., 1894-1974</persname>
          <geogname encodinganalog="651" source="lcsh">China--History--1912-1949-Sources</geogname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

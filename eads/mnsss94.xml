@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss94.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss94</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss94.xml//EN">mnsss94</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Isabel Howland Papers, 1888-1903
@@ -48,19 +49,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Howland, Isabel, 1859-1942</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">
+         <unittitle encodinganalog="245$a" label="Title:">
 Isabel Howland Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1888-1903</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 78</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 78</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -72,15 +73,15 @@ Isabel Howland Papers</unittitle><unitdate encodinganalog="245$f" type="inclusiv
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Suffragist and social Reformer.  Papers consist of correspondence plus other materials related to her position as corresponding secretary of the Association for the Advancement of Women and of the New York State Woman Suffrage Association.  Subjects include women's suffrage, women's rights, and other reform movements such as temperance and anti-slavery.
+         <abstract encodinganalog="520$a" label="Abstract:">Suffragist and social Reformer.  Papers consist of correspondence plus other materials related to her position as corresponding secretary of the Association for the Advancement of Women and of the New York State Woman Suffrage Association.  Subjects include women's suffrage, women's rights, and other reform movements such as temperance and anti-slavery.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6232.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6232.jpg" linktype="simple" show="embed">
 <daodesc><p>Isabel Howland, undated</p></daodesc></dao> 
          <p> Isabel Howland was born to a Quaker family in Sherwood, New York in 1859.  She earned a B.A. from Cornell University in 1881.  The niece of suffragist, abolitionist and educator Emily Howland, Isabel was involved in similar causes.  She was corresponding secretary of the Association for the Advancement of Women in the 1880s and involved in the New York State Woman Suffrage Association.  From 1884 to 1885, she accompanied her aunt Emily Howland on  European travels.  She lived in Paris for much of the 1930s to care for her invalid brother, Herbert.  She died in 1942.</p>
       </bioghist>
@@ -100,7 +101,7 @@ Isabel Howland Papers</unittitle><unitdate encodinganalog="245$f" type="inclusiv
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -149,8 +150,8 @@ Isabel Howland Papers</unittitle><unitdate encodinganalog="245$f" type="inclusiv
          <subject encodinganalog="650" source="lcsh">Suffragists--United States--Correspondence</subject>
          <subject encodinganalog="650" source="lcsh">Women--Suffrage--United States--History--19th century--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
             </did>
@@ -177,7 +178,7 @@ Isabel Howland Papers</unittitle><unitdate encodinganalog="245$f" type="inclusiv
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE (to Isabel Howland unless otherwise noted)</unittitle>
             </did>

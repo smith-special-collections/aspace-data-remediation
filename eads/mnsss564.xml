@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss564.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss564</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss564.xml//EN">mnsss564</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Swanee Hunt Papers, 1968-2013 (ongoing)</titleproper>
@@ -38,16 +36,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Hunt, Swanee</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Swanee Hunt Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1968-2013 (ongoing)</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 721</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Swanee Hunt Papers</unittitle><unitdate label="Dates:" type="inclusive">1968-2013 (ongoing)</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 721</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">99 boxes</extent>
         <extent encodinganalog="300$a">(155 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>, <language langcode="ger">German</language>
 
 </langmaterial>
@@ -59,7 +55,7 @@ repositorycode="mnsss">MS 721</unitid>
             </address>
          </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Ambassador; Clergy member; Composer; Feminist; Foundation executive; Marriage counselor; Philanthropist; Political activist; Professor; Photographer; Reproductive health advocate; Rancher. The papers well document Ambassador Hunt's service as the American Ambassador in
 Austria during a most volatile period and her efforts to provide programming to assist, especially women, in the aftermath of the break up of the Soviet Union and during the Bosnian War.  Materials include correspondence, speeches, conference programs, internal memos, daily schedules, and newspaper articles.  Also well represented within the papers are the activities of the Hunt Alternatives Fund including correspondence, financial records and annual reports.  Monthly reports, as well as income and expenses, document the family property in Colorado, the Columbine Ranch, over
 several years.          [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith
@@ -166,8 +162,4 @@ record.</p>
           <p>Additional papers of Swanee Hunt are at the Denver Public Library</p>
       </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
-
-
-
+</ead><!-- END OF FILE -->

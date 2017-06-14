@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg2.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg2</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg2.xml//EN">mnsss292rg2</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 02. Predecessor Organizations and National Board</unittitle><unitdate type="inclusive" label="Dates:">1871-2002 </unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records: Record Group 02. Predecessor Organizations and National Board</unittitle><unitdate label="Dates:" type="inclusive">1871-2002 </unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:6a65dd3e-0711-4a5f-92f1-24b7e9098994</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,7 +49,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             This record group contains records of the two national YWCA organizations that merged to form the YWCA of the U.S.A. in 1906-07;  plus records of the YWCA of the U.S.A. National Board, Executive Committee, National Coordinating Board, Board of Trustees, and National Nominating Committee.  Predecessor organization records include conference and convention reports, publications, minutes, and correspondence.  YWCA of the U.S.A. National Board Records include minutes, reports, rosters, publications, memoranda, biographical, and financial records. Forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. 
          </abstract>
 </did>
@@ -60,7 +61,7 @@
 <extref href="mnsss292rg2_list.html">Contents List</extref> for a folder-level inventory of the Original Format Records.  See the
 <extref href="mnsss292mf.html">Microfilmed Records Reel Lists</extref> for a detailed inventory of the microfilm.  Links to the lists for both formats are provided in the <extref href="mnsss292rg2_series.html">Series Descriptions</extref>.</p>
 
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3058.jpg" altrender="left">
+	<dao actuate="onLoad" altrender="left" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3058.jpg" linktype="simple" show="embed">
 <daodesc><p>YWCA National Board meeting with Grace Dodge at <lb />head of table, 1912</p></daodesc></dao> 
 
 	<p>This record group contains records of the two national YWCA organizations that merged to form the YWCA of the U.S.A. in 1906-07;  plus records of the YWCA of the U.S.A. National Board, Executive Committee, National Coordinating Board, Board of Trustees, and National Nominating Committee.  Predecessor organization records include conference and convention reports, publications, minutes, and correspondence.  YWCA of the U.S.A. National Board Records include minutes, reports, rosters, publications, memoranda, biographical, and financial records.</p> 
@@ -163,7 +164,7 @@
 <!-- Series descriptions -->
 <dsc type="analyticover">
  	<head>Series Descriptions</head>
-<c01 level="series" id="ser1">
+<c01 id="ser1" level="series">
 	<did>
 		<unittitle>SERIES I.  PREDECESSOR ORGANIZATIONS
                </unittitle>    
@@ -232,7 +233,7 @@
 <extref href="mnsss292rg8.html#list-ser4">SERIES IV.  COMMUNITY ASSOCIATIONS FILES in RECORD GROUP 8. COMMUNITY ASSOCIATIONS</extref>  and in the <extref href="mnsss292rg7.html#list-ser11">SERIES XI.  STUDENT ASSOCIATIONS AND REGISTERED STUDENT GROUPS in RECORD GROUP 7.  STUDENT WORK</extref>.</p>
             </scopecontent>
  </c01>
-<c01 level="series" id="ser2">
+<c01 id="ser2" level="series">
 	<did>
 		<unittitle>SERIES II.  NATIONAL BOARD</unittitle>
          </did>
@@ -283,7 +284,7 @@
 <extref href="mnsss292rg10_main.html">RECORD GROUP 10.  AUDIOVISUAL MATERIAL</extref>.  Also included are some Board orientation tapes.</p>
         </scopecontent>
  </c01>
-<c01 level="series" id="ser3">
+<c01 id="ser3" level="series">
 	<did>
 		<unittitle>SERIES III.  NATIONAL COORDINATING BOARD</unittitle>
 	</did>
@@ -301,7 +302,7 @@
 <extref href="mnsss292rg4_main.html">RECORD GROUP 4.  NATIONAL CONVENTIONS AND CONFERENCES</extref> </p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser4">
+<c01 id="ser4" level="series">
 	<did>
 		<unittitle>SERIES IV.  BOARD OF TRUSTEES</unittitle>
 	</did>
@@ -338,7 +339,7 @@
         </scopecontent>
  </c01>
 
-<c01 level="series" id="ser5">
+<c01 id="ser5" level="series">
 	<did>
 		<unittitle>SERIES V.  NATIONAL NOMINATING COMMITTEE</unittitle>
 	</did>
@@ -371,8 +372,8 @@ include all of its membership is reflected in a nominating process that struggle
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. PREDECESSOR ORGANIZATIONS</unittitle>
  </did>
@@ -862,7 +863,7 @@ include all of its membership is reflected in a nominating process that struggle
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. NATIONAL BOARD</unittitle>
  </did>
@@ -1245,7 +1246,7 @@ include all of its membership is reflected in a nominating process that struggle
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. NATIONAL COORDINATING BOARD</unittitle>
  </did>
@@ -1359,7 +1360,7 @@ include all of its membership is reflected in a nominating process that struggle
  </c03>
  </c02>
 </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. BOARD OF TRUSTEES</unittitle>
  </did>
@@ -1463,7 +1464,7 @@ include all of its membership is reflected in a nominating process that struggle
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. NATIONAL NOMINATING COMMITTEE</unittitle>
  </did>
@@ -1704,5 +1705,4 @@ include all of its membership is reflected in a nominating process that struggle
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

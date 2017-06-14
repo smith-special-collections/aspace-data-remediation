@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr5.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr5</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr5.xml//EN">manoscmr5</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Leslie Stephen Photograph Album, 1856-1894
@@ -51,18 +52,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Stephen, Leslie, 1832-1904, compiler</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Leslie Stephen Photograph Album</unittitle><unitdate encodinganalog="245$f" type="inclusive">1856-1894</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Leslie Stephen Photograph Album</unittitle><unitdate encodinganalog="245$f" type="inclusive">1856-1894</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 5</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 5 UUID:0ce35369-2d13-4c60-b1de-8585310476a0</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes, oversize</extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">English literary critic, author, man of letters, father of Virginia Woolf and Vanessa Bell, and first editor of the Dictionary of National Biography. Contains 73 photographs taken between 1856 and 1894 and mounted on 16 leaves.
+         <abstract encodinganalog="520$a" label="Abstract:">English literary critic, author, man of letters, father of Virginia Woolf and Vanessa Bell, and first editor of the Dictionary of National Biography. Contains 73 photographs taken between 1856 and 1894 and mounted on 16 leaves.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -133,14 +134,14 @@
          <p>The material is divided into seven series following the order in which they were mounted by Leslie Stephen. The appendix contains a listing of the photographs in chronological order, a listing of the people pictured, and a short list of the places photographed.
       </p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <prefercite id="admin-cite">
             <head>Preferred Citation</head>
             <p>Please use the following format when citing materials from this collection:</p>
             <p>Leslie Stephen Photograph Album, Mortimer Rare Book Room, Smith College.</p>
          </prefercite>
-         <altformavail id="altform" type="digital" encodinganalog="530">
+         <altformavail encodinganalog="530" id="altform" type="digital">
             <head>Additional Formats</head>
             <p>Images from this collection are also available in the online exhibition <extref href="http://www.smith.edu/libraries/libs/rarebook/exhibitions/stephen/">Leslie Stephen's Photograph Album</extref>.</p>
          </altformavail>
@@ -171,7 +172,7 @@
          <persname encodinganalog="600" source="lcnaf">Loppé, Gabriel.</persname>
          <persname encodinganalog="600" source="lcnaf">Rejlander, O. G. (Oscar Gustav), 1813-1875.</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <separatedmaterial id="add-separated">
             <head>Separated Material</head>
@@ -181,78 +182,11 @@
       </descgrp>
             
 <!-- Begin series descriptions -->
-<dsc type="analyticover">
-<c01 level="series">
-            <did>
-               <unittitle>Series I.  The Jackson family,
-                <unitdate>1875-1883.</unitdate> Leaves: 16, 17 &amp; 24.
-             </unittitle>
-            </did>
-            <scopecontent>
-               <p>This series pictures Julia Duckworth Stephen's parents Maria Pattle Jackson and Dr. John Jackson, and her two aunts Lady Somers and Louisa Pattle Bayley.</p>
-            </scopecontent>
-  </c01>
-<c01 level="series">
-            <did>
-               <unittitle>Series II.  The Stephen family and friends,
-                <unitdate>1860-1890.</unitdate> Leaves: 25, 28, 29 &amp; 30.
-             </unittitle>
-            </did>
-            <scopecontent>
-               <p>This series pictures Leslie Stephen, his mother (Lady Jane Catherine Venn Stephen), his sister (Caroline Emelia Stephen), his brother (Sir James Fitzjames Stephen), his nephew (James Kenneth Stephen), and a family friend James Russell Lowell, an American writer and godfather of Virginia Woolf.</p>
-            </scopecontent>
-  </c01>
-<c01 level="series">
-            <did>
-               <unittitle>Series III.  The Jackson-Duckworth family,
-                <unitdate>1856-1871.</unitdate> Leaves: 31, 32, 33 &amp; 34.
-             </unittitle>
-            </did>
-            <scopecontent>
-               <p>This series pictures Julia Duckworth Stephen, her first husband Herbert Duckworth, and their children George, Stella and Gerald. It also contains pictures of Saxonbury, the house of the Jackson family, and Orchard Leigh, the Duckworth family seat.</p>
-            </scopecontent>
-  </c01>
-<c01 level="series">
-            <did>
-               <unittitle>Series IV.  Leslie Stephen's early adulthood and marriage to Harriet Marian (Minny) Thackeray Stephen, with friend,
-                <unitdate>1860-1875.</unitdate> Leaf 35.
-             </unittitle>
-            </did>
-            <scopecontent>
-               <p>This series pictures Leslie Stephen with his first wife Harriet Marian (Minny) Thackeray Stephen, their daughter, Laura Makepeace Stephen, and the Swiss alpine guide, Melchoir Anderegg.</p>
-            </scopecontent>
-  </c01>
-<c01 level="series">
-            <did>
-               <unittitle>Series V.  Leslie Stephen's marriage to Julia Duckworth Stephen and their young children,
-                <unitdate>1879-1886.</unitdate> Leaf: 36.
-             </unittitle>
-            </did>
-            <scopecontent>
-               <p>This series depicts Leslie Stephen and his second wife, Julia Duckworth Stephen, and their four young children, Vanessa (later married Clive Bell), Thoby, Virginia (later married Leonard Woolf) and Adrian.</p>
-            </scopecontent>
-  </c01>
-<c01 level="series">
-            <did>
-               <unittitle>Series VI.  Julia and Leslie Stephen, their children, and friends at Talland House, St. Ives, Cornwall,
-                <unitdate>1880-1894.</unitdate>
-             </unittitle>
-		<physdesc>
-                	<extent>Leaves: 37-38.</extent>
-                </physdesc>
-            </did>
-            <scopecontent>
-               <p>This series pictures Julia and Leslie Stephen with their children George, Stella and Gerald (all Duckworth) and Vanessa, Thoby, Virginia and Adrian (all Stephen) with their family dog Shag at Talland house. Also present are friends Horatio Brown and Henry James.</p>
-            </scopecontent>
-            <relatedmaterial>
-               <p>Note: Leaf 37- This leaf, labeled 'In the holidays' on the contents page, includes photographs of Julia and Leslie Stephen and their children at Talland House, St Ives, Cornwall, England, where they spent their summer holidays from 1892 through 1894. The leaf was donated to the Mortimer Rare Book Room, Smith College, by Quentin and Anne Olivier Bell. It had been detached from the album.</p>
-            </relatedmaterial>
-  </c01>
-</dsc>
+
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
 		<container type="box">1</container>
@@ -276,15 +210,18 @@
 		</unittitle>
 	  </did>
 	</c01>
-         <c01 level="series" id="list-ser1">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I.  The Jackson family,
-                <unitdate>1875-1883.</unitdate>
+                <unitdate>1875-1883</unitdate>
              </unittitle>
 		<physdesc>
 			<extent>Leaves: 16, 17 &amp; 24.</extent>
 		</physdesc>
             </did>
+		         <scopecontent>
+            <p>This series pictures Julia Duckworth Stephen's parents Maria Pattle Jackson and Dr. John Jackson, and her two aunts Lady Somers and Louisa Pattle Bayley.</p>
+        </scopecontent>
             <c02>
                <did>
                   <container type="box">1</container>
@@ -363,7 +300,7 @@
 	</note>
                 </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II.  The Stephen family and friends,
                 <unitdate>1860-1890.</unitdate>
@@ -372,6 +309,9 @@
 			<extent>Leaves: 25, 28, 29 &amp; 30.</extent>
 		</physdesc>
             </did>
+		 <scopecontent>
+            <p>This series pictures Leslie Stephen, his mother (Lady Jane Catherine Venn Stephen), his sister (Caroline Emelia Stephen), his brother (Sir James Fitzjames Stephen), his nephew (James Kenneth Stephen), and a family friend James Russell Lowell, an American writer and godfather of Virginia Woolf.</p>
+        </scopecontent>
             <c02>
                <did>
                   <container type="box">1</container>
@@ -485,7 +425,7 @@
                        	</note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III.  The Jackson-Duckworth family,
                 <unitdate>1856-1871.</unitdate>
@@ -494,6 +434,9 @@
 			<extent>Leaves: 31, 32, 33 &amp; 34.</extent>
 		</physdesc>
             </did>
+		         <scopecontent>
+            <p>This series pictures Julia Duckworth Stephen, her first husband Herbert Duckworth, and their children George, Stella and Gerald. It also contains pictures of Saxonbury, the house of the Jackson family, and Orchard Leigh, the Duckworth family seat.</p>
+        </scopecontent>
             <c02>
                <did>
                   <container type="box">1</container>
@@ -823,7 +766,7 @@
                   	</note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV.  Leslie Stephen's early adulthood and marriage to Harriet Marian (Minny) Thackeray Stephen, with friend,
                 <unitdate>1860-1875.</unitdate>
@@ -832,6 +775,9 @@
                		<extent>Leaf 35.</extent>
                	</physdesc>
             </did>
+		         <scopecontent>
+            <p>This series pictures Leslie Stephen with his first wife Harriet Marian (Minny) Thackeray Stephen, their daughter, Laura Makepeace Stephen, and the Swiss alpine guide, Melchoir Anderegg.</p>
+        </scopecontent>
             <c02>
                <did>
                   <container type="box">1</container>
@@ -987,7 +933,7 @@
                       	</note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V.  Leslie Stephen's marriage to Julia Duckworth Stephen and their young children,
                 <unitdate>1879-1886.</unitdate>
@@ -996,6 +942,9 @@
                		<extent>Leaf: 36.</extent>
                	</physdesc>
             </did>
+		         <scopecontent>
+            <p>This series depicts Leslie Stephen and his second wife, Julia Duckworth Stephen, and their four young children, Vanessa (later married Clive Bell), Thoby, Virginia (later married Leonard Woolf) and Adrian.</p>
+        </scopecontent>
             <c02>
                <did>
                   <container type="box">1</container>
@@ -1180,7 +1129,7 @@
     
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>Series VI.  Julia and Leslie Stephen, their children, and friends at Talland House, St. Ives, Cornwall,
                 <unitdate>1880-1894.</unitdate>
@@ -1189,6 +1138,12 @@
                 	<extent>Leaves: 37-38.</extent>
                 </physdesc>
             </did>
+		 <scopecontent>
+            <p>This series pictures Julia and Leslie Stephen with their children George, Stella and Gerald (all Duckworth) and Vanessa, Thoby, Virginia and Adrian (all Stephen) with their family dog Shag at Talland house. Also present are friends Horatio Brown and Henry James.</p>
+        </scopecontent>
+        <relatedmaterial>
+            <p>Note: Leaf 37- This leaf, labeled 'In the holidays' on the contents page, includes photographs of Julia and Leslie Stephen and their children at Talland House, St Ives, Cornwall, England, where they spent their summer holidays from 1892 through 1894. The leaf was donated to the Mortimer Rare Book Room, Smith College, by Quentin and Anne Olivier Bell. It had been detached from the album.</p>
+        </relatedmaterial>
             <c02>
                <did>
                   <container type="box">1</container>
@@ -1622,7 +1577,7 @@
                       	</note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>Series VII.  Julia and Leslie Stephens in Switzerland,
                 <unitdate>1889.</unitdate>

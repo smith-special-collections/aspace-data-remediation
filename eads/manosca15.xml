@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca15.xml//EN" countrycode="us" mainagencycode="manosca">manosca15</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca15.xml//EN">manosca15</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Ada Louise Comstock Papers, 1897-1950
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,17 +51,17 @@
 <date>2001
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Comstock, Ada Louise. </persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Ada Louise Comstock Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1897-1950</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Ada Louise Comstock Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1897-1950</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:6544a4eb-5668-4350-ab40-37dce2d133f7</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">6 boxes</extent>
 <extent encodinganalog="300$a">(3.375 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Acting President of Smith College, Dean of the College of Smith College, Professor of English at Smith College, and President of Radcliffe College.  Contains biographical material, correspondence, materials related to professional and volunteer work, and photographs.</abstract>
+<abstract encodinganalog="520$a" label="Abstract:">Acting President of Smith College, Dean of the College of Smith College, Professor of English at Smith College, and President of Radcliffe College.  Contains biographical material, correspondence, materials related to professional and volunteer work, and photographs.</abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
 </langmaterial>
@@ -124,7 +125,7 @@
 </list>
 
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -161,7 +162,7 @@
 <persname encodinganalog="700" source="lcnaf">Peloubet, Harriet Louise.</persname>
 <persname encodinganalog="700" source="lcnaf">Solomon, Barbara Miller.</persname>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -175,8 +176,8 @@
 </relatedmaterial>
 </descgrp>
 
-<dsc type="combined" id="contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>Series I:  Biographical Materials</unittitle>
 </did>
@@ -257,7 +258,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>Series II:  Correspondence</unittitle>
 </did>
@@ -338,7 +339,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>Series III:  Employment</unittitle>
 </did>
@@ -401,7 +402,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>Series IV:  Photographs</unittitle>
 </did>
@@ -455,7 +456,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>Series V:  Speeches, Writings, and Publications</unittitle>
 </did>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss123.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss123</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss123.xml//EN">mnsss123</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ausonia Club Oral History Project, 1965-1987
@@ -47,15 +48,15 @@
       </author>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Ausonia Club Oral History Project</unittitle><unitdate encodinganalog="245$f" type="inclusive">1965-1987</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ausonia Club Oral History Project</unittitle><unitdate encodinganalog="245$f" type="inclusive">1965-1987</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 412</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 412</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes		  </extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -67,8 +68,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">The mission of the Ausonia Club was to preserve Italian traditions in America, as well as offer support to the community. This collection includes interviews of the six female Ausonia Club members, as well as two male relatives. For each subject there are audiotapes and transcripts of the interviews, some in Italian with English translations. There is also a small amount of biographical material, correspondence, and photographs.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">The mission of the Ausonia Club was to preserve Italian traditions in America, as well as offer support to the community. This collection includes interviews of the six female Ausonia Club members, as well as two male relatives. For each subject there are audiotapes and transcripts of the interviews, some in Italian with English translations. There is also a small amount of biographical material, correspondence, and photographs.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language> and 
             <language langcode="ita">Italian</language>
          </langmaterial>
@@ -86,7 +87,7 @@
          <p>The interviews reveal the life stories of this group of Italian-American women in all their variety, from their experiences as immigrants (including their continuing ties to Italy), to their family responsibilities, education, and above all, work experiences in the United States.  Ida Rescia captured the centrality of work--for most of them both within and outside of the home:  "...I arrived on Thursday, Monday I went to work and...I always continued to work...."  The interviews also document the importance of the Ausonia Club and the life-long friendships maintained within it.  The collection is arranged alphabetically by interviewee. The transcriptions of the interviews with Tranquilla De Bastiani and Ida Rescia are indexed.
     </p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -131,7 +132,7 @@
          <subject encodinganalog="650" source="lcsh">Women immigrants--Northampton (Mass.)--Interviews</subject>
          <geogname encodinganalog="651" source="lcsh">Northampton (Mass.)--History--Sources</geogname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="related">
             <head>Related Material</head>
@@ -139,7 +140,7 @@
             <extref href="mnsss324_main.html">Ausonia Club Records</extref>.</p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>INTERVIEWS (Tapes)</unittitle>

@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss307.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss307</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss307.xml//EN">mnsss307</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Florence Guertin Tuttle Papers, 1917-1948</titleproper>
@@ -30,15 +31,15 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Florence Guertin Tuttle</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Florence Guertin Tuttle</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Florence Guertin Tuttle Papers</unittitle><unitdate type="inclusive" label="Dates:">1917-1948</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Florence Guertin Tuttle Papers</unittitle><unitdate label="Dates:" type="inclusive">1917-1948</unitdate>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">8 boxes</extent>
 		<extent encodinganalog="300$a">(3.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	 <repository label="Location:">
             <corpname>Sophia Smith Collection</corpname>
@@ -56,7 +57,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6218.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6218.jpg" linktype="simple" show="embed">
 <daodesc><p>Florence and Frank Tuttle in <lb />Palm Beach, FL, circa 1909</p></daodesc></dao>
 <p>	Florence Guertin Tuttle was born in Brooklyn, New York in 1869 to Lucy Henry, a descendent of Patrick Henry, and Pierre Guertin, a merchant and French-Canadian immigrant.  Educated at a small private school, the Nassau Institute, Guertin was an avid reader and a prolific writer of poems and stories.  As a young adult, Guertin was involved in one of the first women's clubs, the Avitas Club, where she was exposed to speakers such as Charlotte Perkins Gilman. In her late twenties she married Frank Day Tuttle (Yale class of 1887) and the couple settled in Brooklyn Heights, New York.  Their sons, Day and Guertin Tuttle, were born in 1902 and 1904.  When the children were small, Tuttle devoted part of her time to many causes including women's suffrage, the Woman's Peace Party and birth control.  In 1915 she published The Awakening of Woman: Suggestions from the Psychic Side of Feminism and in 1917 a collection of stories entitled Give My Love to Maria.</p>
 <p>Devastated by the horrors of World War I, Tuttle became a strong advocate for internationalism. In this new role she became Chair of the Women's Pro-League Council in 1920 and attended numerous meetings of the Council of the League of Nations in Geneva. There she befriended many important people such as First Lady Edith Bolling Wilson and Carrie Chapman Catt.  During this time she also wrote Women and World Federation (1919) as well as numerous articles and leaflets on world cooperation, economic causes of war, and the League of Nations.  In 1932 she was selected by Carrie Chapman Catt to be a delegate to the Disarmament Conference in Geneva. Tuttle was in great demand as a speaker about peace and internationalism.  She became the Executive Chairman of the Greater New York Branch of the League of Nations Non-Partisan Association in 1924 and published two more books, including Alternatives to War (1931) before her death in 1951. </p>
@@ -64,7 +65,7 @@
     	<head>Scope and Contents of the Collection</head>
     <p>	The Florence Guertin Tuttle Papers include writings, speeches, research materials, and organizational records.  Documents pertain to Tuttle's involvement in organizations such as the American Association for International Cooperation, the American Union Against Militarism, the Woman's Peace Party, and the League of Nations, among others, from the 1910s to the 1940s.  Major themes include peace, internationalism, birth control rights, suffrage, women's clubs, and women writers. There is a small amount of biographical material, photographs, memorabilia, and family correspondence; and Tuttle's unpublished autobiography (1948).  Notable correspondents include Virginia Gildersleeve, Florence Lamont, Anna Garlin Spencer, and Portia Willis (Berg) Fitzgerald.</p>
         </scopecontent>    
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
         	<head>Organization of the Collection</head>
         	<p>This collection is organized into four series:</p>
         	<list>
@@ -163,7 +164,7 @@
 	  <item><title render="italic">Covenant of the League of Nations with Amendments in Force</title>, 1926</item>
 	  <item><title render="italic">Report of Exhibit (</title>held for Leaders of Young People to Suggest Ways and Means of Cultivating and Stimulating Ideas of International Friendship and Good Will), 1925</item>
 	  <item><title render="italic">Training in Summer Camps for World Co-operation</title>, Educational Department, 1926</item>
-	  <item><title render="italic">Essential Facts in regard to The League of Nations, The World Court and the International Labor Organization</title>, Educational Publications No. 2, 1926<title render="italic"></title></item>
+	  <item><title render="italic">Essential Facts in regard to The League of Nations, The World Court and the International Labor Organization</title>, Educational Publications No. 2, 1926<title render="italic"/></item>
 	  <item><title render="italic">Essential Facts in regard to The League of Nations, The World Court and the International Labor Organization</title>, The Educational Committee, 1934</item>
 	  <item><title render="italic">	World Peace Primer</title>, H.S. Thurber Co., 1925</item>
 	  <item><title render="italic">Willful Crimes by the Fakers Viz: The League of Nations</title> (A Writ of Habeas Corpus for the Emperor of Germany, William the Second) by Countess Ida von Claussen, 1924</item>
@@ -179,17 +180,17 @@
 	  <item><title render="italic">The Fifteenth Ordinary Session of the Assembly</title>, Geneva:<title render="italic"> </title>President Sandler, September 14th, 1934 at 10 a.m. </item>
 	  <item>Speech delivered by M. Motta, Federal Councilor, First Delegate of the Swiss	Confederation, Before the Sixth Committee on the Application of the U.S.S.R. to the League of Nations</item>
 	  <item><title render="italic">	League of Nations Information Section No. 7062</title>, Sep 17 1934</item>
-	  <item><title render="italic">League of Nations: The Fifteenth Ordinary Session of the Assembly, Verbatim Report of the Seventh  Meeting Held at the Salle Du Conseil G&#233;n&#233;ral, Geneva, on Monday, September 17th, 1934 at 11 a.m. </title>President: M. R.J. Sandler</item>
-	  <item><title render="italic">League of Nations: The Fifteenth Ordinary Session of the Assembly, Verbatim Report of the Twelfth  Meeting Held at the Salle Du Conseil G&#233;n&#233;ral,Geneva on Thursday, September 27th, 1934 at 10  a.m. </title>President: M. R.J. Sandler<title render="italic"></title></item>
+	  <item><title render="italic">League of Nations: The Fifteenth Ordinary Session of the Assembly, Verbatim Report of the Seventh  Meeting Held at the Salle Du Conseil Général, Geneva, on Monday, September 17th, 1934 at 11 a.m. </title>President: M. R.J. Sandler</item>
+	  <item><title render="italic">League of Nations: The Fifteenth Ordinary Session of the Assembly, Verbatim Report of the Twelfth  Meeting Held at the Salle Du Conseil Général,Geneva on Thursday, September 27th, 1934 at 10  a.m. </title>President: M. R.J. Sandler<title render="italic"/></item>
 	  <item><title render="italic">	League of Nations Information Section No. 7112</title>, Geneva, Sep 28 1934</item>
-	  <item>Unnamed, Assembly Transcript(?) Reads: "The President: Interpretation: I therefore declare that the admission of the Union of Soviet Socialist Republics to the League of Nations has been decided by the Assembly with the necessary majority&#8230;"</item>
+	  <item>Unnamed, Assembly Transcript(?) Reads: "The President: Interpretation: I therefore declare that the admission of the Union of Soviet Socialist Republics to the League of Nations has been decided by the Assembly with the necessary majority…"</item>
 	  <item><title render="italic">Fifteenth Assembly: Opening Speech by the President of the Council of the League of Nations</title></item>
 	</list>
 </odd>
 <!-- End additional information -->
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -282,7 +283,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -416,7 +417,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS AND SPEECHES</unittitle>
  </did>
@@ -501,7 +502,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ORGANIZATIONS AND CONFERENCES</unittitle>
  </did>
@@ -918,7 +919,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serov">
+ <c01 id="list-serov" level="series">
  <did>
  <unittitle>SERIES V. OVERSIZE MATERIALS</unittitle>
  </did>
@@ -941,5 +942,3 @@
 
   </archdesc>
 </ead>
-
-

@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <!-- Enter EAD filename before exporting -->
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss505.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss505</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss505.xml//EN">mnsss505</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Activist Life Oral History Project, 2008</titleproper>
@@ -34,16 +32,15 @@ Encoded by Margaret Jessup.
     <did id="main">
        <head>Collection Overview</head>
 
-       <unittitle label="Title:" encodinganalog="245$a">Activist Life Oral History
-Project</unittitle><unitdate type="inclusive" label="Dates:">2008</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 641</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Activist Life Oral History
+Project</unittitle><unitdate label="Dates:" type="inclusive">2008</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 641</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">3 boxes</extent>
         <extent encodinganalog="300$a">(1.25 linear ft.) </extent>
 </physdesc>
 <!-- Encode additional languages with lang clip -->
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -54,7 +51,7 @@ repositorycode="mnsss">MS 641</unitid>
             </address>
          </repository>
            <!-- MRJ Edit as needed-->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
 A collection of life histories of women who have dedicated their lives to social and political activism. Fifteen interviews, conducted by Smith College students, document both the diversity and the persistence of women's activism, as organizers and as cultural workers, in a variety of social movements such as women's health, economic justice, LGBT liberation, peace, education, and environmental sustainability.
         </abstract>
         <!-- OR   [NOTE: There is no contents list for this finding aid.  Contact the Sophia Smith
@@ -93,7 +90,7 @@ education and employment; activism and politics; family, identity, relationships
 	<item>Merle Feld </item>
 	<item>Barbara Hammer</item>
 	<item>Sue Hyde</item>
-	<item>Lesl&#233;a Newman</item>
+	<item>Lesléa Newman</item>
 	<item>Jane Pincus</item>
 	<item>Letty Cottin Pogrebin</item>
 	<item>Tiik Pollet</item>
@@ -118,7 +115,7 @@ Collection for more information about this collection.] -->
  <!-- MRJ: Edit CR info as necessary -->
 
 <userestrict encodinganalog="540" id="admin-use">
-             <p>The Sophia Smith Collection owns copyright to the interviews, except for the interviews with the following women: Merle Feld, Barbara Hammer, and Lesl&#233;a Newman. These women have retained copyright to their interviews. Permission must be obtained to publish reproductions or quotations beyond "fair use." Requests for permission to publish quotations should be addressed to the Sophia Smith Collection and should include identification of the specific passages to be quoted, anticipated use of the passages, and identification of the user. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.</p>
+             <p>The Sophia Smith Collection owns copyright to the interviews, except for the interviews with the following women: Merle Feld, Barbara Hammer, and Lesléa Newman. These women have retained copyright to their interviews. Permission must be obtained to publish reproductions or quotations beyond "fair use." Requests for permission to publish quotations should be addressed to the Sophia Smith Collection and should include identification of the specific passages to be quoted, anticipated use of the passages, and identification of the user. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.</p>
 </userestrict>
 <prefercite id="admin-cite">
         <head>Preferred Citation</head>
@@ -159,7 +156,7 @@ Northampton, Mass.</p>
 	<persname encodinganalog="600" source="lcnaf">Feld, Merle</persname> 
 	<persname encodinganalog="600" source="lcnaf">Hammer, Barbara</persname> 
 	<persname encodinganalog="600" source="lcnaf">Hyde, Sue</persname> 
-	<persname encodinganalog="600" source="lcnaf">Newman, Lesl&#233;a</persname> 
+	<persname encodinganalog="600" source="lcnaf">Newman, Lesléa</persname> 
 	<persname encodinganalog="600" source="lcnaf">Pincus, Jane</persname> 
 	<persname encodinganalog="600" source="lcnaf">Pogrebin, Letty Cottin</persname> 
 	<persname encodinganalog="600" source="lcnaf">Pollet, Tiik</persname> 
@@ -168,9 +165,8 @@ Northampton, Mass.</p>
 </controlaccess>
 <relatedmaterial id="add-related">
           <p>In addition to their oral histories, the Sophia Smith Collection contains the
-          <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss233_main.html">Frances Crowe Papers</extref>, the Lesl&#233;a Newman Papers, the Letty Cottin Pogrebin Papers, and the
+          <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss233_main.html">Frances Crowe Papers</extref>, the Lesléa Newman Papers, the Letty Cottin Pogrebin Papers, and the
           <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss485_main.html">Christine Shelton Papers</extref>. </p>
       </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

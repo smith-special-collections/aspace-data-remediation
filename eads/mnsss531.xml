@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss531.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss531</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss531.xml//EN">mnsss531</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Jeanne L. Noble Papers, 1955-2002</titleproper>
@@ -31,17 +32,17 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Noble, Jeanne, L.</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Noble, Jeanne, L.</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Jeanne L. Noble Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1955-2002</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Jeanne L. Noble Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1955-2002</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 488</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 488</unitid>
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">36 boxes</extent>
 		<extent encodinganalog="300$a">(15.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -92,7 +93,7 @@
 <p>Types of materials include appointment books, audiotapes, awards, clippings, correspondence, essays, magnetic disks, memorabilia, notes, photographs, proposals, publications, reports, speeches, and videotapes.</p>
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into nine series:</p>
 	<list>
@@ -259,7 +260,7 @@
 	</physdesc>
 	</did>
 	<scopecontent>
-		<p>This series consists primarily of audio and video recordings of Delta Sigma Theta or National Council of Negro Women meetings, conventions, and performances.  Original audiovisual materials are closed to research. Researchers interested in accessing audiovisual materials for which there is no use copy should contact the Sophia Smith Collection to discuss options.  There are also 3 &#189; inch computer disks (3 &#189;") which appear to contain files from the 1990s.</p>
+		<p>This series consists primarily of audio and video recordings of Delta Sigma Theta or National Council of Negro Women meetings, conventions, and performances.  Original audiovisual materials are closed to research. Researchers interested in accessing audiovisual materials for which there is no use copy should contact the Sophia Smith Collection to discuss options.  There are also 3 ½ inch computer disks (3 ½") which appear to contain files from the 1990s.</p>
 	</scopecontent>
 </c01>
 
@@ -291,8 +292,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS</unittitle>
  </did>
@@ -549,7 +550,7 @@
  </did>
  </c02>
 </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -631,7 +632,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PROFESSIONAL ACTIVITIES</unittitle>
  </did>
@@ -2471,7 +2472,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV . SPEECHES</unittitle>
  </did>
@@ -3236,7 +3237,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. WRITINGS</unittitle>
  </did>
@@ -3405,7 +3406,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. SUBJECT FILES</unittitle>
  </did>
@@ -3747,7 +3748,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. AUDIOVISUAL MATERIALS AND COMPUTER MEDIA</unittitle>
  </did>
@@ -3875,7 +3876,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. ARTIFACTS</unittitle>
  </did>
@@ -3944,7 +3945,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -4039,5 +4040,3 @@
 
   </archdesc>
 </ead>
-
-

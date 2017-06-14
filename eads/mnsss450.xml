@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss450.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss450</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss450.xml//EN">mnsss450</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Francesca Rheannon Papers, 2001-2006 (ongoing)</titleproper>
@@ -35,16 +36,16 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Rheannon, Francesca</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Francesca Rheannon Papers</unittitle><unitdate type="inclusive" label="Dates:">2001-2006 (ongoing)</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Francesca Rheannon Papers</unittitle><unitdate label="Dates:" type="inclusive">2001-2006 (ongoing)</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 543</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 543</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">2 boxes</extent>
         <extent encodinganalog="300$a">(1.25 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English, </language>
 <language langcode="spa">Spanish</language>
 
@@ -57,7 +58,7 @@
             </address>
          </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Social worker; Public health specialist; Broadcast journalist; Radio producer. Papers consist of  audio CDs, transcriptions, and research materials pertaining to "Voices of HIV", a five-part radio series produced by Francesca Rheannon and Luis Melendez for WFCR 88.5 (Amherst, Mass.), 2006. The bilingual radio project that looks at how HIV and AIDS are affecting the Latino communities of Western New England and includes interviews with Latino/a men and women infected with HIV/AIDS. Audio CDs of broadcasts of Writer's Voice, many of which are unedited, are included. 
                  </abstract>
 </did>
@@ -67,7 +68,7 @@
      <p>Francesca Rheannon was born in Brooklyn, New York, February 27, 1949 to Frances Alenikoff, modern dancer and choreographer, and Josephus A.H.M. Teunissen (AKA "Guido"), a Dutch citizen and WWII resistance fighter who found refuge for Jews and himself sheltered a young Jewish man named Claus Bock.  Her family moved to Mexico at age 9 months and lived Cuenavaca, Mexico until re-entering the U.S. when Francesca was 4.  She grew up mostly in Paterson New Jersey after her mother married Rabbi Martin Freedman.  She attended the Dwight School for Girls in Englewood, New Jersey, graduated high school 1966, then attended Bard College.  She transferred to the University of Wisconsin-Madison, earning a B.A. in history in 1972. From 1973 to 1976, she was a doctoral fellow in political economy at American University in Washington, DC.  Rheannon earned her M.Ed. from the University of Massachusetts-Amherst in 1990, and her M.S.W. from the University of Connecticut in 1992.  She has taught at American University, Essex Community College in Essex, MD, University of Wisconsin, University of Massachusetts, and Keene State College in Keene, NH. From 1988 to 1998, Rheannon served as Director of Western MassCOSH in Springfield, MA, which seeks "to end unsafe working conditions by mobilizing members and give them training, technical assistance and community/labor alliances." </p> 
 
 
-	<p>In the early 2000s, Rheannon became involved in broadcast journalism and production, reporting via the radio stations WFCR and WMUA on a range of topical subjects including HIV/AIDS (notably Voices of HIV, a five-part news series examining how HIV and AIDS have affected Latino communities in Western New England), and political, economic and social  issues in Northampton, MA and the surrounding area.  Rheannon has published articles, essays and reports in a number of professional journals, primarily in New Solutions: A Journal of Environmental and Occupational Health Policy.  She currently collaborates on the show &#161;Tertulia! on WFCR and produces and hosts the radio program, Writer's Voice, which airs on WMUA 91.1 and on Pacifica affiliate, WXOJ-LP, in Northampton.  Writer's Voice is a public radio program  featuring author interviews and readings, as well as news, commentary and tips related to writing and publishing. Host Rheannon also talks with editors, agents, publicists and others about issues of interest to writers.</p>
+	<p>In the early 2000s, Rheannon became involved in broadcast journalism and production, reporting via the radio stations WFCR and WMUA on a range of topical subjects including HIV/AIDS (notably Voices of HIV, a five-part news series examining how HIV and AIDS have affected Latino communities in Western New England), and political, economic and social  issues in Northampton, MA and the surrounding area.  Rheannon has published articles, essays and reports in a number of professional journals, primarily in New Solutions: A Journal of Environmental and Occupational Health Policy.  She currently collaborates on the show ¡Tertulia! on WFCR and produces and hosts the radio program, Writer's Voice, which airs on WMUA 91.1 and on Pacifica affiliate, WXOJ-LP, in Northampton.  Writer's Voice is a public radio program  featuring author interviews and readings, as well as news, commentary and tips related to writing and publishing. Host Rheannon also talks with editors, agents, publicists and others about issues of interest to writers.</p>
 
 </bioghist>
 <scopecontent id="scope">

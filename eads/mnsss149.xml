@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss149.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss149</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss149.xml//EN">mnsss149</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">American Council of Railroad Women
@@ -49,18 +50,18 @@
       </author>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">American Council of Railroad Women</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">American Council of Railroad Women Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1944-1977</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">American Council of Railroad Women Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1944-1977</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 345</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 345</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">18 boxes</extent>
             <extent encodinganalog="300$a">(10 linear ft.)</extent>
@@ -72,16 +73,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">An organization of women holding supervisory positions in railroad personnel and service. The records provide insight into the attitudes and motivations of a group of professional women organized for their mutual benefit at a time when most women had "jobs" rather than "careers." Material includes correspondence, minutes, reports, publications, photographs, scrapbooks, and other material which document its history and activities from its founding until 1977.
+         <abstract encodinganalog="520$a" label="Abstract:">An organization of women holding supervisory positions in railroad personnel and service. The records provide insight into the attitudes and motivations of a group of professional women organized for their mutual benefit at a time when most women had "jobs" rather than "careers." Material includes correspondence, minutes, reports, publications, photographs, scrapbooks, and other material which document its history and activities from its founding until 1977.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
          <p> In 1944, a small group of women holding supervisory positions in railroad personnel and service held informal meetings in Chicago to discuss their changing roles in the railroad industry during wartime.  Over the course of several meetings, they decided that they needed a permanent organization, and in September 1944 twenty-eight women voted to form the National Association of Railroad Women. (The name was changed to American Association of Railroad Women in 1952.)  Unprepared by the railroads for promotions to management positions previously held by men, the women organized themselves "to provide a medium of exchange of ideas and experiences relative to our work; to discuss improvements in service and to plan for the better utilization of womanpower in railroading."</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6273.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6273.jpg" linktype="simple" show="embed">
 <daodesc><p>Fall Meeting of the American Council of Railroad <lb />Women in their silver anniversary year, 1968</p></daodesc></dao> 
          <p> Membership eligibility was originally limited to women holding personnel or passenger service positions.  Later, it was extended to include women employed in the United States and Canada as corporate officers, assistants and secretaries to presidents, lawyers, magazine editors, engineers, traffic representatives, personnel supervisors, public relations staffs, special representatives, and special investigators.</p>
          <p> The council's annual spring and fall meetings include the transaction of business, educational sessions, and entertainment.  Throughout its history, the council consistently sought the approval of, and received support from, railroad management, which has contributed senior executives to the sessions as speakers and seminar leaders.  Early reports and discussions covered such topics as "education of the travelling public" and "new and improved methods and equipment for cleaning both the exteriors and interiors of trains."  Later meetings reflected the evolving membership interests, emphasizing legislative lobbying (including support for the Equal Rights Amendment), and such professional development topics as corporate decision making.</p>
@@ -128,7 +129,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -278,8 +279,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I.  CONSTITUTION AND BYLAWS, <unitdate>1945, 1948, 1956, 1971</unitdate>
                </unittitle>
@@ -309,7 +310,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II.  CODEBOOKS, <unitdate>1955-73</unitdate>
                </unittitle>
@@ -363,7 +364,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III.  MINUTES, <unitdate>1945-76</unitdate>
                </unittitle>
@@ -665,7 +666,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV:  MEETING FILES,  <unitdate>1947-77</unitdate>
                </unittitle>
@@ -815,7 +816,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V:  OFFICERS' CORRESPONDENCE,   <unitdate>1951-77</unitdate>
                </unittitle>
@@ -970,7 +971,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>Series VI:  MEMBERSHIP APPLICATIONS AND CORRESPONDENCE,              <unitdate>1947-77</unitdate>
                </unittitle>
@@ -2270,7 +2271,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>Series VII:  COMMITTEES,  <unitdate>1949-77</unitdate>
                </unittitle>
@@ -2379,7 +2380,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>Series VIII:  PUBLICATIONS, <unitdate>1967-77</unitdate>
                </unittitle>
@@ -2428,7 +2429,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>Series IX:  PHOTOGRAPHS, <unitdate>1968</unitdate>
                </unittitle>
@@ -2458,7 +2459,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser10">
+         <c01 id="list-ser10" level="series">
             <did>
                <unittitle>Series X:  HISTORY, <unitdate>1944-68</unitdate>
                </unittitle>

@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292.xml//EN">mnsss292</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records, 1860-2002</titleproper>
@@ -33,13 +34,13 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">YWCA of the U.S.A. Records</unittitle><unitdate type="inclusive" label="Dates:">1860-2002</unitdate><unitdate type="bulk" encodinganalog="245$g">1906-2000</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 324</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records</unittitle><unitdate label="Dates:" type="inclusive">1860-2002</unitdate><unitdate encodinganalog="245$g" type="bulk">1906-2000</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 324</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">1132 boxes; 382 reels microfilm; oversize materials</extent>
         <extent encodinganalog="300$a">(570 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -49,8 +50,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-           <abstract label="Abstract:" encodinganalog="520$a">
-            Social service, women's advocacy, civic improvement, community service, and educational and intercultural exchange organization. The bulk of the materials date from 1906 to 1970 and focus on the administration of the National Association, its programs and publications, and its relations with its member YWCAs all over the country.  Major topics include:  employed women, particularly those in industry, interracial relations in the U.S., religion, work with immigrant women, development of girls, and of a youth movement, health and sex education for women, international relations, international work, philanthropy, housing, women in rural America, effective administration of organizations, group work, social work, women&#226;&#8482;s war work, citizenship training, leadership training, and college women.  This collection is organized into ten <ref target="odd-desc">record groups</ref>.
+           <abstract encodinganalog="520$a" label="Abstract:">
+            Social service, women's advocacy, civic improvement, community service, and educational and intercultural exchange organization. The bulk of the materials date from 1906 to 1970 and focus on the administration of the National Association, its programs and publications, and its relations with its member YWCAs all over the country.  Major topics include:  employed women, particularly those in industry, interracial relations in the U.S., religion, work with immigrant women, development of girls, and of a youth movement, health and sex education for women, international relations, international work, philanthropy, housing, women in rural America, effective administration of organizations, group work, social work, womenâ™s war work, citizenship training, leadership training, and college women.  This collection is organized into ten <ref target="odd-desc">record groups</ref>.
 
          </abstract>
 </did>
@@ -59,7 +60,7 @@
        <head>Historical Note</head>
      <p>The Young Women's Christian Association of the United States of America is the U.S.  national affiliate of the World YWCA.  Incorporated in 1907, it is an association made up of autonomous member Associations in cities and towns, and on college campuses throughout the country.  The YWCA movement emerged during a surge in evangelical Protestant revivalism and women's activism in the mid-nineteenth century.  Though the language used to describe its purpose has changed over time-from doing "what it could toward the full and proper development of whatever excellencies of character" its members possessed to  "helping women lead larger lives" to "the empowerment of women"-its purpose, has been remarkably steady.  At its height in the 1910s through the 1930s, the national YWCA encompassed programming tinged with radical politics-labor activism, social Christianity, desegregation-and also provided the resources more commonly associated with its name, such as Christian-oriented club work, wholesome accommodations for women, and physical education. In its current incarnation, it is among the more progressively-oriented social service providers to women and families in need and bears no formal ties to organized religion. </p>
 
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3403.jpg" altrender="center">
+<dao actuate="onLoad" altrender="center" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3403.jpg" linktype="simple" show="embed">
 <daodesc><p>Group sing at the YWCA  26th National Convention, 1973</p></daodesc></dao> 
 
 
@@ -261,7 +262,7 @@
 	<item>personal papers of some long-term staff members</item>
 	</list></p>
 </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into ten record groups:</p>
    <list type="simple">
@@ -480,7 +481,7 @@
 		<item><extref href="mnsss413_main.html">Grace Loucks Elliott</extref></item>
 		<item><extref href="mnsss244_main.html">Polly Babcock Feustal</extref></item>
 		<item><extref href="mnsss152_main.html">Harriet Bliss Ford</extref></item>
-		<item><extref href="mnsss414_main.html">Elizabeth Steel Genn&#233;</extref></item>
+		<item><extref href="mnsss414_main.html">Elizabeth Steel Genné</extref></item>
 		<item><extref href="mnsss17_main.html">Virginia Heim George</extref></item>
 		<item>Jewel Freeman Graham</item>
 		<item><extref href="mnsss415_main.html">Dorothy Irene Height</extref></item>
@@ -510,7 +511,7 @@
 	    </list></p> 
 <p> See also:</p>
 <p><extref href="mnsss503_main.html">Southern Women, the Student YWCA, and Race (1920-1944) Collection</extref></p>
-	<p><title render="italic" encodinganalog="630" source="lcsh">Today: Magazine of the YWCA of India</title> for 1963-79 is housed in the Periodicals Collection of the Sophia Smith Collection.</p>
+	<p><title encodinganalog="630" render="italic" source="lcsh">Today: Magazine of the YWCA of India</title> for 1963-79 is housed in the Periodicals Collection of the Sophia Smith Collection.</p>
 	<p>Records of the YWCA's USO work are in the Social Welfare History Archives at the University of Minnesota </p>
 	<p>Records of various YWCA International Institutes are in the Social Welfare History Archives, and the Immigration History Research Center at the University of Minnesota.</p>
 	<p>A number of women with YWCA connections, including several national staff members, were interviewed as part of the Schlesinger Library's
@@ -537,4 +538,3 @@
 <!-- End additional information -->
 </archdesc>
 </ead>
-

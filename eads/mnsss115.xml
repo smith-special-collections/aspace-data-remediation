@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss115.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss115</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss115.xml//EN">mnsss115</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Temperance Collection, 1832-1987</titleproper>
@@ -50,15 +51,15 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Temperance Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1832-1987 </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Temperance Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1832-1987 </unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 440</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 440</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes</extent>
             <extent encodinganalog="300$a">(2.5 linear ft.)</extent>
@@ -70,17 +71,17 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Collection encompasses a broad social movement in which American women played a prominent role.  Materials include information on the Women's Christian Temperance Union; photographs; biographies and autobiographies; postcards; songbooks; and stamps.  Also included are publications from various organizations.
+         <abstract encodinganalog="520$a" label="Abstract:">Collection encompasses a broad social movement in which American women played a prominent role.  Materials include information on the Women's Christian Temperance Union; photographs; biographies and autobiographies; postcards; songbooks; and stamps.  Also included are publications from various organizations.
 
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
          <p> The Temperance Collection encompasses a broad social movement in which American women played a prominent role from the early decades of the nineteenth century into the twentieth century.  They participated in a variety of organizational settings on the local, state, national and international level.  While the Women's Christian Temperance Union (WCTU) is generally regarded to be the leading temperance organization from its beginnings in 1873, other local and national groups were active at different points in the Prohibition movement.  That diversity is evident in this collection.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6178.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6178.jpg" linktype="simple" show="embed">
 <daodesc><p>Temperance postcard, April 1906</p></daodesc></dao> 
          <p> While the bulk of the material comes from the late-nineteenth and early twentieth century, the Temperance Collection also contains material from as early as 1835.  There is also a significant amount of material from the post-Volstead Act (the Eighteenth Amendment) period, reflecting the fight to ward off the immediate challenges to national prohibition once it became law in 1920.  This struggle, much like the earlier temperance crusade, was carried out and led by women.</p>
          <p> Numerous secondary works address the American temperance movement and the critical role played by women in that movement.  See, for example, Ruth Bordin, Woman and Temperance: The Quest for Power and Liberty, 1873-1900  (Rutgers University Press, 1990) and Janet Zollinger Giele, Two Paths to Women's Equality: Temperance, Suffrage, and the Origins of Modern Feminism (Twayne, 1995).</p>
@@ -106,7 +107,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -202,8 +203,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. ORGANIZATIONS <unitdate>(1835-1933, n.d.)</unitdate>
                </unittitle>
@@ -520,7 +521,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS <unitdate>(1880s-1980s, n.d.)</unitdate>
                </unittitle>
@@ -612,7 +613,7 @@
                   </did>
                </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. MEMORABILIA <unitdate>(1916-40, n.d.)</unitdate>
                </unittitle>
@@ -642,7 +643,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. OVERSIZE MATERIAL <unitdate>(1894-1918)</unitdate>
                </unittitle>
@@ -662,7 +663,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serBKS">
+         <c01 id="list-serBKS" level="series">
             <did>
                <unittitle>BOOKS ON SHELF</unittitle>
             </did>

@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss513.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss513</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss513.xml//EN">mnsss513</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Southworth-Dickinson Family Papers, 1792-2005</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<famname source="lcnaf" encodinganalog="100 3">Southworth-Dickinson family</famname>
+		<famname encodinganalog="100 3" source="lcnaf">Southworth-Dickinson family</famname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Southworth-Dickinson Family Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1792-2005</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Southworth-Dickinson Family Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1792-2005</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 212</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 212</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">157 boxes</extent>
 		<extent encodinganalog="300$a">(78.5  linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -91,7 +92,7 @@
 	<p>The nineteenth century papers discuss such pivotal events in American history as the abolitionist movement and the Civil War. There are also significant items concerning the events surrounding the Spanish-American War and World War I. The papers are also notable for description of trips to the Caribbean, Latin America, Asia, and the South Pacific. Family members also discuss European travels to England, Italy, France, Germany, and the Middle-East.</p>
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into seven series:</p>
 	<list>
@@ -223,7 +224,7 @@
  
 <c01 level="series">
 	<did>
-		<unittitle>SERIES I. SOUTHWORTH FAMILY <unitdate></unitdate></unittitle>
+		<unittitle>SERIES I. SOUTHWORTH FAMILY <unitdate/></unittitle>
 	</did>	<scopecontent>
 			<p>This series contains six subseries: <title render="bold">Generation 1</title>, <title render="bold">Generation 2</title>, <title render="bold">Generation 3</title>, <title render="bold">Generation 4</title>, <title render="bold">Generation 5</title>, and <title render="bold">Generation 6</title>. The series begins with the memoir of Constant Southworth, continues with the eldest members of the Southworth line represented in this collection, Dr. Abiah Southworth, and continues into the 21st century. <title render="bold">Generation 2 and 3</title> include members of the related Shepard, Boltwood, Thurston, and Terry families.</p>
 <p>Among those represented in <title render="bold">Generation 3</title> is Rev. George Champlin Shepard, who, in a letter of January 1833, discusses the anti-slavery movement. Among the papers of Anne E. Shepard, Edward Southworth's first wife, is a letter of 18 [?] January 1837 from her cousin Hannah, discussing the Grimke sisters and abolition.</p>
@@ -255,7 +256,7 @@
  
 <c01 level="series">
 	<did>
-		<unittitle>SERIES III. DICKINSON FAMILY <unitdate></unitdate></unittitle>
+		<unittitle>SERIES III. DICKINSON FAMILY <unitdate/></unittitle>
 	</did>	<scopecontent>
 			<p>This series is divided into thee subseries, <title render="bold">Generation 1</title>, <title render="bold">Generation 2</title>, and <title render="bold">Generation 3</title>. This series chiefly contains the papers of Edward Dickinson, his son Dr. Dwight Dickinson, and Edward's granddaughter Mayotta. Among Edwards' letters are numerous items from his son Dwight, a naval surgeon, written during Dwight's voyages to the Caribbean, South America, and Japan in the 1860 and 70s. Also among Dwight's papers are his numerous diaries spanning the late nineteenth and early twentieth century as well as correspondence, including discussion of his father's death in 1880 and letters from brother and banker Edward F. Dickinson discussing the violence of football, 1896; the explosion of the battleship Maine and possible war with Spain, February 1898; Edward's diet and his distrust of doctors 1898; and his opinion of Teddy Roosevelt, October 1898.</p>
 	<p>Dwight's correspondence also contains many letters between him and his wife Syria Elana "Sea" Browne, discussing their engagement and wedding and Dwight's work with the navy, including descriptions of Cuba, 1870, and Costa Rica, 1880. Letters from Dwight's son Spencer concern his desire for a new "wheel" [bicycle], 1898; his experiences at Harvard Engineer Camp at Squam Lake, N.H.; and his trip to Nome, Alaska, 1906, while in the navy.</p>
@@ -266,7 +267,7 @@
  
 <c01 level="series">
 	<did>
-		<unittitle>SERIES IV.  BROWNE FAMILY <unitdate></unitdate></unittitle>
+		<unittitle>SERIES IV.  BROWNE FAMILY <unitdate/></unittitle>
 	</did>	<scopecontent>
 			<p>This series mostly consists of the correspondence of Lucy Mitchell Browne and her children. Included in Lucy's correspondence are letters of 1894 from son J. Mitchell Browne, writing from California, discussing the death of "Lupy," a Native American who died from consumption; railroad strikes; and the "modern young woman." A letter from Nina to Lucy mentions the Keeley treatment for a family member's alcohol abuse. Correspondence between Lucy and daughter Sylvia discusses Sylvia's marriage to Dwight Dickinson, herbal medicine, worker strikes, and Lucy's trip to Deer Isle, Maine, with Joseph Fremont Banks. A letter from Lucy Mitchell Browne to Lucy Serena (Croghan) Browne describes a typhoid outbreak in Oakland, Calif., 1893; and a letter from Spencer Browne to Spencer Dickinson discusses (with illustrations) amusement park rides, 1894.</p>
 		</scopecontent>
@@ -274,7 +275,7 @@
  
 <c01 level="series">
 	<did>
-		<unittitle>SERIES V. DEANE FAMILY <unitdate></unitdate></unittitle>
+		<unittitle>SERIES V. DEANE FAMILY <unitdate/></unittitle>
 	</did>	<scopecontent>
 			<p>This series chiefly contains the papers of Rebecca Dennis (Padelford) Deane, her son Melvin, and Melvin's son, John Gilmore. Letters from Rebecca to Melvin discuss family news and include frequent admonitions against Melvin eating poor food and not leading a religious life. John Gilmore Deane's correspondence chiefly concerns his service in the 6th Maine battery as a lieutenant during the Civil War, including description of camp life in the Army of the Potomac and John's participation in the major battles in the East. Letters mention John passing by Robert E. Lee's house in [October?] 1862, conscription in the North, 1863, and the siege at Petersburg, 1864. Also included are two letters not written by John, one from an unknown Confederate soldier writing from Tennessee, 1863, and a letter from a soldier apparently from the 35th U.S. Colored Troops, writing in December 1865 from South Carolina and mentioning "old master."</p>
 		</scopecontent>
@@ -282,7 +283,7 @@
  
 <c01 level="series">
 	<did>
-		<unittitle>SERIES VI. SOUTHWORTH MANUFACTURING COMPANY RECORDS <unitdate></unitdate></unittitle>
+		<unittitle>SERIES VI. SOUTHWORTH MANUFACTURING COMPANY RECORDS <unitdate/></unittitle>
 	</did>	<scopecontent>
 			<p>This series chiefly contains incoming correspondence from various individuals and paper manufacturers to company founders Wells, his brother Edward, and their cousin John H. Southworth. Also included are many loose financial items, account books, and ledgers concerning daily operation of the company. Correspondence mostly concerns routine financial matters, but also includes discussion of larger political and economic events, such as a letter of 13 February 1844 mentioning the possible election of Henry Clay to the presidency. Also included, in items from 1862-65, is a report on how the Civil War was affecting the paper industry.</p>
 <p>Post-Civil War papers include items about the company as well as correspondence between family members concerning individual financial and estate issues and the Southworth family's claim to lands in Michigan.
@@ -292,7 +293,7 @@
  
 <c01 level="series">
 	<did>
-		<unittitle>SERIES VII. MISCELLANEOUS MATERIALS <unitdate></unitdate></unittitle>
+		<unittitle>SERIES VII. MISCELLANEOUS MATERIALS <unitdate/></unittitle>
 	</did>	<scopecontent>
 			<p>This series contains miscellaneous correspondence written by and to non-family members, genealogical information, and an unidentified family scrapbook.</p>
 		</scopecontent>
@@ -302,8 +303,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. SOUTHWORTH FAMILY</unittitle>
  </did>
@@ -2576,7 +2577,7 @@
 </c02>
 </c01>
  
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. "THE CHRONICLE"</unittitle>
  </did>
@@ -2753,7 +2754,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III: DICKINSON FAMILY</unittitle>
  </did>
@@ -3417,7 +3418,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. BROWNE FAMILY</unittitle>
  </did>
@@ -3565,7 +3566,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V: DEANE FAMILY</unittitle>
  </did>
@@ -3676,9 +3677,9 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
- <unittitle>SERIES VI. SOUTHWORTH MANUFACTURING RECORDS</unittitle>
+ <unittitle>SERIES VI. SOUTHWORTH MANUFACTURING COMPANY RECORDS</unittitle>
  </did>
  <c02>
  <did>
@@ -3863,7 +3864,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. MISCELLANEOUS MATERIALS</unittitle>
  </did>
@@ -3902,5 +3903,3 @@
 
   </archdesc>
 </ead>
-
-

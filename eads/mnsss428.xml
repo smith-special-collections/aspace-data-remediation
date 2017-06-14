@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss428.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss428</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss428.xml//EN">mnsss428</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Arise for Social Justice Records, 1956-2010 (bulk 1985-2010)</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Arise for Social Justice</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Arise for Social Justice</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Arise for Social Justice Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1956-2010 </unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1985-2010</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 458</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Arise for Social Justice Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1956-2010 </unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1985-2010</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 458</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">32 boxes</extent>
 		<extent encodinganalog="300$a">(30.25 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English, </language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English, </language>
 <language langcode="spa">Spanish</language>
 
 </langmaterial>
@@ -65,7 +66,7 @@
 		<p>Arise for Social Justice is a Springfield, Massachusetts-based low-income rights organization founded by a small group of women on public assistance in 1985.  It is an organization led by  low-income members who believe that "we as poor people have a right to speak for ourselves, and that as we do, we learn how to build political power for ourselves."  Its many and varied programs and alliances seek to educate, organize, unite, and empower low-income people to know their rights and stand up for them; to promote involvement in the political process; to promote self-esteem; to educate the community at large to its common interest in social and economic justice; and to educate low-income people to fight oppression in all its manifestations.</p>
 
 	<p>The founding members of Arise, Michaelann Bewsee, Cindy Montoya, Hollee Patterson, Karen Rock, Pam Scott, and Terrill Winston, were initially brought together through the Boston-based group Coalition for Basic Human Needs.  Montoya and Rock, who lived in Northampton, Massachusetts, soon formed a separate group in that city.  The remaining Springfield women were later joined by Terrill's sister Marsha Burnett and Darlene Nellis among others.</p>  
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6562.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6562.jpg" linktype="simple" show="embed">
 <daodesc><p>Drawing made for use in Arise for Social Justice <lb />publications and flyers, circa 1992. Artist unknown.</p></daodesc></dao> 
 	<p>Though the members initially conceived of the group as a welfare rights organization "because all of us were recipients," they "soon realized that all people who live below the poverty line are suffering from discrimination, violation of rights, and threats to their survival and that the working poor and recipients were being played off against each other instead of coming together for your common survival." <ref target="bioghist-notes">1</ref>  "By the time we wrote our by-laws we had become a low-income rights organization." <ref target="bioghist-notes">2</ref> In the mid-1990s, Arise added a significant element of "anti-oppression work" to its mission.</p>
 
@@ -135,7 +136,7 @@ They also helped with housing issues, evictions and problems with landlords; and
 		<p>The Arise for Social Justice Records consist of 30.25 linear feet of materials dating from 1956 to 2010.  Types of materials include brochures, conference files, correspondence, financial records, flyers, grant proposals and reports, minutes and agendas, speeches, organizations files, photographs, press releases, newsletters and other publications, reports, newspaper clippings,  notes, surveys, training materials, subject files, and memorabilia.  The bulk of the records date from 1985 to 2000.  They provide a remarkably detailed record of the activities, decision-making processes, and political foundation of the organization and its work in coalition with regional, state, national, and international groups.  In addition to materials documenting the work of Arise, the records contain a wealth of mailings, newsletters, and other resources produced by wide variety of organizations working for social and economic justice in late twentieth century America.    Because Arise also served as an information clearinghouse, the records are rich with resource lists and reference files on a wide variety of subjects compiled to provide background information and serve as source materials for future activities.  Major topics found in the records include criminal justice, economic justice, HIV/AIDS prevention, homelessness, housing, poverty, social justice, and welfare rights.</p>
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into twenty-five series:</p>
 	<list>
@@ -664,14 +665,14 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. ADMINISTRATION</unittitle>
  </did>
  <c02>
  <did>
- <container type="box"></container>
+ <container type="box"/>
  <unittitle>General</unittitle>
  </did>
  <c03>
@@ -1580,7 +1581,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. FINANCIAL MATERIALS</unittitle>
  </did>
@@ -2310,7 +2311,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. CHILDREN AND YOUTH</unittitle>
 	<note><p>[see also <ref target="list-ser4">SERIES IV. CRIMINAL JUSTICE</ref>, <ref target="list-ser9">SERIES IX. HEALTH CARE</ref>, and the <ref target="list-restricted">restricted materials</ref>] </p>
@@ -2590,7 +2591,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. CRIMINAL JUSTICE</unittitle>
 	<note><p>[see also <ref target="list-ser2">SERIES II. FINANCIAL MATERIALS</ref> and <ref target="list-ser23">SERIES XXIII. VIOLENCE</ref>] </p>
@@ -3188,7 +3189,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. EDUCATION AND TRAINING</unittitle>
  </did>
@@ -3516,7 +3517,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. 	ELDERLY</unittitle>
  </did>
@@ -3587,7 +3588,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. ENVIRONMENT AND SOCIAL JUSTICE</unittitle>
  </did>
@@ -3634,7 +3635,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. FOOD/HUNGER</unittitle>
 	<note><p><ref target="list-ser8">[see also Restricted materials] </ref></p>
@@ -3911,7 +3912,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. HEALTH CARE</unittitle>
  </did>
@@ -4509,7 +4510,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser10">
+ <c01 id="list-ser10" level="series">
  <did>
  <unittitle>SERIES X. HIV/AIDS PREVENTION AND EDUCATION</unittitle>
  </did>
@@ -5020,7 +5021,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser11">
+ <c01 id="list-ser11" level="series">
  <did>
  <unittitle>SERIES XI. HOMELESSNESS</unittitle>
 	<note><p>[see also <ref target="list-ser9">SERIES IX. HEALTH CARE</ref>, <ref target="list-ser12">SERIES XII. HOUSING</ref>, <ref target="list-ser18">SERIES XVIII. POVERTY/ECONOMIC JUSTCE</ref>, AND <ref target="list-ser24">SERIES XXIV. WELFARE</ref>]</p>
@@ -5642,7 +5643,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser12">
+ <c01 id="list-ser12" level="series">
  <did>
  <unittitle>SERIES XII. HOUSING</unittitle>
 	<note><p>[see also <ref target="list-ser2">SERIES II. FINANCIAL MATERIALS</ref>, <ref target="list-ser11">SERIES XI. HOMELESSNESS</ref>, and <ref target="list-ser18">SERIES XVIII. POVERTY/ECONOMIC JUSTICE</ref>]</p>
@@ -7013,7 +7014,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser13">
+ <c01 id="list-ser13" level="series">
  <did>
  <unittitle>SERIES XIII. IMMIGRANTS AND REFUGEES</unittitle>
  </did>
@@ -7072,7 +7073,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser14">
+ <c01 id="list-ser14" level="series">
  <did>
  <unittitle>SERIES XIV. JOBS AND LABOR</unittitle>
 	<note><p>[see also <ref target="list-ser11">SERIES XI. HOMELESSNESS</ref>, <ref target="list-ser15">SERIES XV. PEACE</ref>, <ref target="list-ser18">SERIES XVIII. POVERTY/ECONOMIC JUSTICE</ref>, <ref target="list-ser20">SERIES XX. SOLIDARITY</ref>, and <ref target="list-ser24">SERIES XXIV. WELFARE</ref>]</p>
@@ -7189,7 +7190,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser15">
+ <c01 id="list-ser15" level="series">
  <did>
  <unittitle>SERIES XV. PEACE</unittitle>
 	<note><p>[see also <ref target="list-ser18">SERIES XVIII. POVERTY/ECONOMIC JUSTICE</ref>, <ref target="list-ser20">SERIES XX. SOLIDARITY</ref>, and <ref target="list-ser23">SERIES XXIII. VIOLENCE</ref>]</p>
@@ -7273,7 +7274,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser16">
+ <c01 id="list-ser16" level="series">
  <did>
  <unittitle>SERIES XVI. PEER SUPPORT</unittitle>
  </did>
@@ -7440,7 +7441,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser17">
+ <c01 id="list-ser17" level="series">
  <did>
  <unittitle>SERIES XVII. POLITICAL PARTICIPATION</unittitle>
  </did>
@@ -7641,7 +7642,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser18">
+ <c01 id="list-ser18" level="series">
  <did>
  <unittitle>SERIES XVIII. POVERTY/ECONOMIC JUSTICE</unittitle>
 	<note><p>[see also <ref target="list-ser11">SERIES XI. HOMELESSNESS</ref>, <ref target="list-ser12">SERIES XII. HOUSING</ref>, <ref target="list-ser15">SERIES XV. PEACE</ref>, and <ref target="list-ser24">SERIES XXIV. WELFARE</ref>]</p>
@@ -8371,7 +8372,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser19">
+ <c01 id="list-ser19" level="series">
  <did>
  <unittitle>SERIES XVIX. RACISM</unittitle>
  </did>
@@ -8418,7 +8419,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser20">
+ <c01 id="list-ser20" level="series">
  <did>
  <unittitle>SERIES XX. SOLIDARITY</unittitle>
  </did>
@@ -8715,7 +8716,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser21">
+ <c01 id="list-ser21" level="series">
  <did>
  <unittitle>SERIES XXI. SPRINGFIELD AND PIONEER VALLEY</unittitle>
  </did>
@@ -8997,7 +8998,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser22">
+ <c01 id="list-ser22" level="series">
  <did>
  <unittitle>SERIES XXII. SUBSTANCE ABUSE</unittitle>
  </did>
@@ -9030,7 +9031,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser23">
+ <c01 id="list-ser23" level="series">
  <did>
  <unittitle>SERIES XXIII. VIOLENCE</unittitle>
 	<note><p> [see also <ref target="list-ser4">SERIES IV. CRIMINAL JUSTICE</ref> and <ref target="list-ser3">SERIES III. CHILDREN AND YOUTH</ref>]</p>
@@ -9307,7 +9308,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser24">
+ <c01 id="list-ser24" level="series">
  <did>
  <unittitle>SERIES XXIV. WELFARE</unittitle>
 	<note><p>[see also <ref target="list-ser11">SERIES XI. HOMELESSNESS</ref>, <ref target="list-ser12">SERIES XII. HOUSING</ref>, and <ref target="list-ser18">SERIES XVIII. POVERTY/ECONOMIC JUSTICE</ref>]</p>
@@ -10003,7 +10004,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser25">
+ <c01 id="list-ser25" level="series">
  <did>
  <unittitle>SERIES XXV. PHOTOGRAPHS AND MEMORABILIA</unittitle>
  </did>
@@ -10022,7 +10023,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
  </did>
 </c02>
 </c01>
-<c01 level="series" id="list-restricted">
+<c01 id="list-restricted" level="series">
 <did>
 <unittitle>RESTRICTED MATERIALS</unittitle>
 	</did>
@@ -10178,7 +10179,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
 </c03>
 </c02>
 </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
 <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
 </did>
@@ -10249,7 +10250,7 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
 <did>
 <container type="box">32</container>
 <container type="folder">10</container>
- <unittitle>SERIES XXIV. WELFARE: Clippings, 1997-98; issues of <title render="italic">Welfare Mothers Voice</title>, 1994-95<title render="italic"></title><unitdate>1994-98</unitdate></unittitle>
+ <unittitle>SERIES XXIV. WELFARE: Clippings, 1997-98; issues of <title render="italic">Welfare Mothers Voice</title>, 1994-95<title render="italic"/><unitdate>1994-98</unitdate></unittitle>
 </did>
 </c02>
 <c02>
@@ -10266,5 +10267,3 @@ Grant proposals and reports in <ref target="list-ser2">SERIES II.  FINANCIAL MAT
 
   </archdesc>
 </ead>
-
-

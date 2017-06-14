@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss523.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss523</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss523.xml//EN">mnsss523</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Sisters Inc. Records, 1996-2008</titleproper>
@@ -38,16 +36,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
      <corpname  encodinganalog="110" source="lcnaf">Sisters Inc.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Sisters Inc. Records</unittitle><unitdate
-type="inclusive" label="Dates:">1996-2008</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 670</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Sisters Inc. Records</unittitle><unitdate label="Dates:" type="inclusive">1996-2008</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 670</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">4 boxes</extent>
         <extent encodinganalog="300$a">(2.5 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -58,7 +54,7 @@ repositorycode="mnsss">MS 670</unitid>
             </address>
          </repository>
            <!-- MRJ Edit as needed-->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Community service organization. The Sisters Inc. (sometimes known as Sisters Ink) a community-based organization in the rural hill towns of Western Massachusetts operated from 1996-2008 in support of girls as they entered adolescence. Founded by Ellen Pulleyblank Coffey and Deborah Coffey, the organization was directed by Kelly Anderson for most of its tenure.  Programs included:  an art-based mentoring program for girls ages 9-12, a music based program for teen girls, a mother-daughter reading group, self-defense workshops, and annual art exhibits, lectures, and public events. The records consist of administrative and programming material; fundraising files, board and committee minutes, reports, conference and research files. Records of programming for girls, particularly the mentoring program, are documented with writings, information sheets, and surveys that detail participants and activities. 
          </abstract>
        
@@ -124,6 +120,4 @@ record.</p>
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
-
+</ead><!-- END OF FILE -->

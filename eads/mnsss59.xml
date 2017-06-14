@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss59.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss59</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss59.xml//EN">mnsss59</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ellen Swallow Richards Papers, 1882-1910
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Richards, Ellen H. (Ellen Henrietta), 1842-1911</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Ellen Henrietta Swallow Richards Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1882 - 1910</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Ellen Henrietta Swallow Richards Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1882 - 1910</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 130</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 130</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Chemist and professor.  Richards taught analysis of water, sewage, and air, and devised the first water purity tests. Involved in home economics movement, Richards introduced ideas of nutritious lunches in schools and systematic domestic science instruction. Materials include photographs, correspondence, notes and writings.
+         <abstract encodinganalog="520$a" label="Abstract:">Chemist and professor.  Richards taught analysis of water, sewage, and air, and devised the first water purity tests. Involved in home economics movement, Richards introduced ideas of nutritious lunches in schools and systematic domestic science instruction. Materials include photographs, correspondence, notes and writings.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1087.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1087.jpg" linktype="simple" show="embed">
 <daodesc><p>Ellen Swallow Richards gathering the scum on <lb />Jamaca Pond, Boston, Ma., 1901</p></daodesc></dao>
          <p>Ellen Swallow was born 3 December 1842 in Dunstable, Massachusetts. She received a B.S. from Vassar College in 1870. She earned another B.S. from M.I.T. in 1873 and, in the same year, an M.A. from Vassar. She studied for a doctorate at M.I.T., but never received it, reportedly because "the heads of the department did not wish a woman to receive the first D.S. in chemistry."  In 1875 she married M.I.T. chemistry professor, Robert H. Richards, and devoted the next ten years to advocating for scientific education for women. Richards was the first woman elected to the American Institute of Mining and Metallurgical Engineers and in 1882 she helped found the Association of Collegiate Alumnae (later the American Association of University Women). She was also a leader in the effort to improve physical education in colleges. She wrote three books: The Chemistry of Cooking and Cleaning (1882 and 1887), Food Materials and Their Adulteration (1885), and The Cost of Food, a Study in Dietaries (1901).  In 1884, M.I.T. set up a chemical laboratory for the study of sanitation, the first of its kind, with William Nichols in charge and Ellen Richards as his assistant.  During this time, Richards devised the first water purity tests and, beginning in 1887, she was put in charge of the laboratory; she ran it during the groundbreaking study of water pollution in Massachusetts that modernized sewage treatment ("The Great Sanitary Survey"), commissioned by the State Board of Health.  After teaching gratis in the women's laboratory at M.I.T for eight years, when women were admitted to M.I.T. on an equal footing with men Richards was appointed to the faculty as instructor in sanitary chemistry.  She also taught analysis of water, sewerage, and air in the department of sanitary engineering, established in 1890.  From about 1890, she increasingly concentrated on what came to be known as the "home economics movement." Among her many accomplishments, she introduced the idea of nutritious lunches in schools; worked for public support for systematic domestic science instruction; and carried on important work for the Society to Encourage Studies at Home, founded in 1873 to "help women who needed guidance and encouragement in acquiring knowledge which they could not go to school to get."   Ellen Swallow Richards died in Boston on 30 March 1911.</p>
       </bioghist>
@@ -104,7 +105,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -190,8 +191,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1911-74)</unitdate>
                </unittitle>
@@ -213,7 +214,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1899-1910)</unitdate>
                </unittitle>
@@ -626,7 +627,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS <unitdate>(1882-1907)</unitdate>
                </unittitle>

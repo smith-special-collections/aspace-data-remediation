@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca380.xml//EN" countrycode="us" mainagencycode="manosca">manosca380</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca380.xml//EN">manosca380</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">John Spencer Bassett Papers, 1895 - 1990</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2014">2014</date>
 	  </publicationstmt>
@@ -31,29 +32,29 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Bassett, John Spencer, 1867 - 1928</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Bassett, John Spencer, 1867 - 1928</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">John Spencer Bassett Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1867 - 1928</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1895 - 1990</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">42</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">John Spencer Bassett Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1867 - 1928</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1895 - 1990</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">42 UUID:ab7d164a-b336-4ce6-b91e-dc3c9d576d26</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">4 boxes</extent>
 		<extent encodinganalog="300$a">(1.5 linear feet)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
 		Professor of History. Contains professional papers, correspondence, news clippings and photographs belonging to John Spencer Bassett.
 	</abstract>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language>
          </langmaterial>
     </did>
@@ -64,7 +65,7 @@
 <head>Biographical Note</head>
 
 <!--when image gets uploaded, add path here-->
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ca_2177_bassett.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ca_2177_bassett.jpg" linktype="simple" show="embed">
 <daodesc><p><lb />John Spencer Bassett, Professor of History [Smith College Press Board, 1928]</p></daodesc></dao>
 
 <p>John Spencer Bassett was born in 1867 in Tarboro, NC, to Mary Jane Wilson and Richard Baxter Bassett, a builder and abolitionist. After graduating high school, pneumonia forced him to take a two year break before entering the Davis Military Academy in 1885. In 1888, Bassett graduated from Trinity College (now Duke University) and took a deanship there before leaving to become a history fellow at Johns Hopkins University. He received his PhD in American History at Johns Hopkins in 1894 after completing his dissertation titled <title render="italic">The Constitutional Beginnings of North Carolina, 1663-1729</title>. In 1892, Bassett married Jessie Lewellin, an elementary school principal. Together, they had four children, two who survived to adulthood: Richard Horace and Margaret Byrd. </p>
@@ -87,7 +88,7 @@
 		<p>The collection contains the professional and personal files of John Spencer Bassett. The collection contains his publications, of which the collection has twelve articles and four books, professional photographs, and a manuscript of an unpublished works called <title render="italic">The Historians</title>. Much of the collection is composed of correspondence with members of the academic community, with Smith College and with his family.</p> 
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -111,8 +112,8 @@
 <p> This guide to topics within this collection was prepared by Madison White, Class of 2016.</p>
 <table>
 <tgroup cols="2">  
-<colspec colnum="1" colname="1" colwidth="50"/> 
-<colspec colnum="2" colname="2" colwidth="50"/> 
+<colspec colname="1" colnum="1" colwidth="50"/> 
+<colspec colname="2" colnum="2" colwidth="50"/> 
 <thead>
 <row>
 <entry colname="1">Subject</entry> 
@@ -122,135 +123,135 @@
 
 <tbody>
 <row>	 <entry colname="1">Admissions</entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">American Antiquarian Society</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
 <row>	 <entry colname="1">American Historical Association</entry>	<entry colname="2">box 2, folder 2</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Columbia University Summer School</entry>	<entry colname="2">box 1, folder 2</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
 <row>	 <entry colname="1">Critics</entry>	<entry colname="2">box 2, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 2, folder 2</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 2, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 2, folder 2</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 2, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Civil War Celebrations</entry>	<entry colname="2">box 4, folder 3</entry>	</row>
 <row>	 <entry colname="1">Concerts, Theatre, Opera</entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Current Events Club</entry>	<entry colname="2">box 3, folder 1</entry>	</row>
 <row>	 <entry colname="1">Departmental Appointments</entry>	<entry colname="2">box 1, folder 2</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Fashion</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
 <row>	 <entry colname="1">Finances</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Harvard University</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Lectures</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Margaret Byrd</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
 <row>	 <entry colname="1">"The Mirror"</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
 <row>	 <entry colname="1">Philip's Academy, Andover, MA</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
 <row>	 <entry colname="1">President Burton</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">President Seelye</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
 <row>	 <entry colname="1">Publications</entry>	<entry colname="2">box 2, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 2, folder 2</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 2, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 2, folder 2</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 2, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Richard's Art</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
 <row>	 <entry colname="1">Robert Frost</entry>	<entry colname="2">box 4, folder 8</entry>	</row>
 <row>	 <entry colname="1">Smith College Courses</entry>	<entry colname="2">box 1, folder 2</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Smith College Studies in History</entry>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Social Events</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
 <row>	 <entry colname="1">Sports and Athletics</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
 <row>	 <entry colname="1">Travel</entry>	<entry colname="2">box 1, folder 2</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 8</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Trinity College</entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 1</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 4</entry>	</row>
 <row>	 <entry colname="1">Trinity College Controversy</entry>	<entry colname="2">box 2, folder 1</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 2, folder 2</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 2, folder 3</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 2, folder 4</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 2, folder 2</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 2, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 2, folder 4</entry>	</row>
 <row>	 <entry colname="1">W.E.B. Du Bois</entry>	<entry colname="2">box 2, folder1 </entry>	</row>
 <row>	 <entry colname="1">Woodstock, NY</entry>	<entry colname="2">box 4, folder 8</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 3, folder 6</entry>	</row>
-<row>	 <entry colname="1"></entry>	<entry colname="2">box 4, folder 3</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 3, folder 6</entry>	</row>
+<row>	 <entry colname="1"/>	<entry colname="2">box 4, folder 3</entry>	</row>
 </tbody>
 </tgroup>
 </table>
@@ -297,7 +298,7 @@
 	<corpname encodinganalog="610" source="lcsh">League of Nations</corpname> 
 	<subject encodinganalog="650" source="lcsh">Scholarly publishing</subject>
 	<corpname encodinganalog="610" source="lcsh">Smith College--Faculty</corpname> 
-	<title render="italic" encodinganalog="630" source="lcsh">South Atlantic quarterly</title> 
+	<title encodinganalog="630" render="italic" source="lcsh">South Atlantic quarterly</title> 
 	<corpname encodinganalog="610" source="lcsh">Trinity College (Durham, N.C.)--Faculty</corpname> 
 	<subject encodinganalog="650" source="lcsh">United States--Politics and government--1865-1933</subject>
 
@@ -338,8 +339,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>Series I: General</unittitle>
       </did>
@@ -398,7 +399,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>Series II: Trinity College Controversy </unittitle>
             <unitdate>1903</unitdate>
@@ -441,7 +442,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>Series III: Family Life</unittitle>
       </did>
@@ -536,7 +537,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser4">
+   <c01 id="list-ser4" level="series">
       <did>
          <unittitle>Series IV: Professional Life</unittitle>
       </did>
@@ -601,5 +602,3 @@
 
   </archdesc>
 </ead>
-
-

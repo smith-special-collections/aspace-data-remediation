@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr7.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr7</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr7.xml//EN">manoscmr7</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Frances Hooper Papers on Virginia Woolf, 1915-1986
@@ -51,18 +52,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Hooper, Frances M. (Frances Milliken), 1892-1986, collector</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Frances Hooper Papers on Virginia Woolf</unittitle><unitdate encodinganalog="245$f" type="inclusive">1915-1986</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Frances Hooper Papers on Virginia Woolf</unittitle><unitdate encodinganalog="245$f" type="inclusive">1915-1986</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 6</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 6 UUID:298c846e-3a5b-445b-97a1-48b3dab3e749</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Journalist, book collector, author, advertising executive, and owner of a printing press. Contains correspondence, notes, scholarly articles, reviews, and background material that Frances Hooper used to acquire her important collection of books and manuscripts by Virginia Woolf. Early material includes printed articles by Virginia Woolf, catalog cards from the Library of Congress, and artifacts removed from the books in the collection.
+         <abstract encodinganalog="520$a" label="Abstract:">Journalist, book collector, author, advertising executive, and owner of a printing press. Contains correspondence, notes, scholarly articles, reviews, and background material that Frances Hooper used to acquire her important collection of books and manuscripts by Virginia Woolf. Early material includes printed articles by Virginia Woolf, catalog cards from the Library of Congress, and artifacts removed from the books in the collection.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -126,7 +127,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -159,7 +160,7 @@
          <persname encodinganalog="600" source="lcnaf">Woolf, Virginia, 1882-1941.</persname>
          <subject encodinganalog="650" source="lcsh">Novelists, English--20th century--Biography--Sources.</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -245,8 +246,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. Correspondence,
                 <unitdate>1930-1986</unitdate>
@@ -732,7 +733,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II.  Personal Papers,
                 <unitdate>1943-1983</unitdate>
@@ -820,7 +821,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. Library Papers,
                 <unitdate>1915-1982</unitdate>
@@ -891,7 +892,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. Writings Of Others,
                 <unitdate>1927-1985</unitdate>
@@ -1181,7 +1182,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V. Reviews,
                 <unitdate>1930-1985</unitdate>
@@ -1644,7 +1645,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>Series VI. Subject Files,
                 <unitdate>1925-1980</unitdate>
@@ -1813,7 +1814,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>Series VII. Photographs,
                 <unitdate>1927-1985</unitdate>
@@ -1841,7 +1842,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>Series Oversize,
                 <unitdate>1947-1985</unitdate>

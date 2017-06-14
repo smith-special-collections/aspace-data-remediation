@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss299.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss299</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss299.xml//EN">mnsss299</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Kate Hillis Boyd Papers, 1915-34, n.d. (bulk 1918-22)</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Boyd, Kate Hillis, 1885-1976</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Boyd, Kate Hillis, 1885-1976</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Kate Hillis Boyd Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1915-1934</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1918-22</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 597</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Kate Hillis Boyd Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1915-1934</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1918-22</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 597</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">1 box</extent>
 		<extent encodinganalog="300$a">(.25 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -60,7 +61,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6439.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6439.jpg" linktype="simple" show="embed">
 <daodesc><p>Kate Hillis Boyd's certificate of identification issued by <lb />the War Work Council of the YWCA, September 18, 1919</p></daodesc></dao>
 
 	<p>Kate Hillis Boyd was born May 14, 1885 to Kate (Gordon) and Joseph Fulton Boyd.</p>
@@ -137,7 +138,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -196,5 +197,3 @@
 
   </archdesc>
 </ead>
-
-

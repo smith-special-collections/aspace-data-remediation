@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca158.html">manosca158</eadid>
 
@@ -44,17 +45,17 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<persname source="lcnaf" encodinganalog="100 1">Kimball, Elizabeth McGrew</persname>
+<persname encodinganalog="100 1" source="lcnaf">Kimball, Elizabeth McGrew</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Elizabeth McGrew Kimball Papers</unittitle> <unitdate label="Dates:">1900-1973</unitdate>
+<unittitle encodinganalog="245$a" label="Title:">Elizabeth McGrew Kimball Papers</unittitle> <unitdate label="Dates:">1900-1973</unitdate>
 
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:037e410c-3e01-4757-b85b-46c1ec82d0a5</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.25 linear ft.)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -131,7 +132,7 @@ This collection includes correspondence, photographs, newspaper clippings and pu
 
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">889</container>

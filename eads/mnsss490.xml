@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss490.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss490</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss490.xml//EN">mnsss490</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Women's Music Archives Collection</titleproper>
@@ -30,16 +31,16 @@
   <archdesc level="collection" relatedencoding="MARC21">
     <did id="main">
 	<head>Collection Overview</head>
-	<unittitle label="Title:" encodinganalog="245$a">Women's Music Archives Collection</unittitle>
-	<unitdate type="inclusive" label="Dates:">1972-2005</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Women's Music Archives Collection</unittitle>
+	<unitdate label="Dates:" type="inclusive">1972-2005</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mu">MS 552</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mu">MS 552</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">79 boxes</extent>
 		<extent encodinganalog="300$a">(circa 75 linear feet)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -58,14 +59,14 @@
     <bioghist id="bioghist">
 	<head>Historical Note</head>
 	<p>During a summer 1975 visit to Maine, friends introduced Lucia "Kim" Kimber and Kathy Lewis to recordings made by Meg Christian, Alix Dobkin, and The Deadly Nightshade.  "We were instantly hooked," wrote Kimber in 1985.  Two months later, Kimber and Lewis attended
-the First Boston Women's Music Festival with a small tape deck on which they recorded the two-day long festival held at Harvard University.  "That was a mind boggling experience, not only for the music, but it was the first time that I had ever been in an auditorium with 500 women in one spot&#8230;.  It was the first time that we ever heard music that was aimed particularly at women's issues, and it was composed by women and performed by women."  (Lucia Kimber oral history with Amanda Izzo, 2009)  Enthralled with the experience, Kimber and Lewis began attending and recording (with the artists' permission) every women's music concert they could get to.  They also began collecting studio recordings, books, catalogs, clippings, flyers, posters, programs, memorabilia, newsletters, and other materials related to women's music, including information on artists, production companies, festivals, and the women's music and comedy concert circuit.</p>
+the First Boston Women's Music Festival with a small tape deck on which they recorded the two-day long festival held at Harvard University.  "That was a mind boggling experience, not only for the music, but it was the first time that I had ever been in an auditorium with 500 women in one spot….  It was the first time that we ever heard music that was aimed particularly at women's issues, and it was composed by women and performed by women."  (Lucia Kimber oral history with Amanda Izzo, 2009)  Enthralled with the experience, Kimber and Lewis began attending and recording (with the artists' permission) every women's music concert they could get to.  They also began collecting studio recordings, books, catalogs, clippings, flyers, posters, programs, memorabilia, newsletters, and other materials related to women's music, including information on artists, production companies, festivals, and the women's music and comedy concert circuit.</p>
 
 	<p>Lewis and Kimber first met Ruth Dworin at the 4th National Women's Music Festival in Champaign-Urbana in 1977.  Dworin was also making recordings of festival concerts and owned a women's music production company in Toronto called Womanly Way Productions.  After meeting at several more events, the three women decided to establish a formal entity to collect and preserve women's music materials.  In the fall of 1978 they created the Women's Music Archives as a non-profit organization based at Kimber's home in Fairfield, Connecticut.</p>
 
 	<p>According to the WMA's 1980 Catalog, "The primary function of the Women's Music Archives is to collect and preserve, for herstorical listening and research purposes, all types of materials related to women's music."  The bulk of the collection focused on "woman-identified, woman-made music, primarily, though not exclusively feminist and lesbian in orientation" that "evolved as a definite entity" beginning in the early 1970s.  As the collection grew, Kimber, Lewis, and Dworin added earlier recordings by women "that spoke to the issues which were of vital concern and interest to women."  Their Archives was conceived as a means to preserve part of the flourishing and self-affirming lesbian-feminist culture of the day.  </p>
 
 	<p>In a 1980 article about the Archives for <title render="italic">Sojourner</title>, Kimber wrote:</p>
-	<p>Women derive strength and comfort from many various sources such as feminist literature, women's support groups, communal living situations, and women's art forms such as painting, sculpture, photography, and music&#8230;.  It is certain&#8230;that women's music provides a kind of strength, support and inspiration which is found nowhere else and most certainly is not found in popular music which bombards us constantly over the airways today. </p>
+	<p>Women derive strength and comfort from many various sources such as feminist literature, women's support groups, communal living situations, and women's art forms such as painting, sculpture, photography, and music….  It is certain…that women's music provides a kind of strength, support and inspiration which is found nowhere else and most certainly is not found in popular music which bombards us constantly over the airways today. </p>
 
 	<p>In addition to the Women's Music Archives, Kimber also participated in the "scene" through deep involvement in the North East Women's Musical Retreat (NEWMR), an organization which produced regional outdoor music festivals on Labor Day weekend from 1981 to 2000.</p>
 
@@ -91,7 +92,7 @@ the First Boston Women's Music Festival with a small tape deck on which they rec
 	<p>The Reference Materials Series includes bibliographies and research guides, special issues of newsletters and periodicals, pamphlets, directories, and transcripts of interviews with Meg Christian, Holly Near, Susan Freundlich, Margie Adam, Rosemary Schonfeld, and Janna Runnals.</p>
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into nine series:</p>
 	<list>
@@ -309,8 +310,8 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. HISTORICAL MATERIALS</unittitle>
  </did>
@@ -367,7 +368,7 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. ARTIST FILES</unittitle>
  </did>
@@ -1358,7 +1359,7 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  <c02>
  <did>
  <container type="box">3</container>
- <unittitle>F&#243;ta, Jamie<unitdate> 1993-97, n.d.</unitdate></unittitle>
+ <unittitle>Fóta, Jamie<unitdate> 1993-97, n.d.</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -3425,7 +3426,7 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. FESTIVALS, RETREATS, CONFERENCES</unittitle>
  </did>
@@ -3841,7 +3842,7 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ORGANIZATIONS</unittitle>
  </did>
@@ -4286,7 +4287,7 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. AUDIOVISUAL MATERIALS</unittitle>
  </did>
@@ -4295,58 +4296,58 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  <note><p>[This series is unprocessed. Contact the Sophia Smith Collection for more information]</p></note>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5a">
+ <c02 id="list-sub5a" level="subseries">
  <did>
  <unittitle>Subseries I. Festivals, Retreats, and Conferences: audition tapes</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5b">
+ <c02 id="list-sub5b" level="subseries">
  <did>
  <unittitle>Subseries II. Festivals, Retreats, and Conferences: live recordings</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5c">
+ <c02 id="list-sub5c" level="subseries">
  <did>
  <unittitle>Subseries III. Record Companies: demo tapes</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5d">
+ <c02 id="list-sub5d" level="subseries">
  <did>
  <unittitle>Subseries IV. 45rpm records</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5e">
+ <c02 id="list-sub5e" level="subseries">
  <did>
  <unittitle>Subseries V. LP vinyl albums</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5f">
+ <c02 id="list-sub5f" level="subseries">
  <did>
  <unittitle>Subseries VI. Commercial compact discs: popular, folk, rock</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5g">
+ <c02 id="list-sub5g" level="subseries">
  <did>
  <unittitle>Subseries VII. Commercial compact discs: classical</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5h">
+ <c02 id="list-sub5h" level="subseries">
  <did>
  <unittitle>Subseries VIII. Commercial audiocassettes</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5i">
+ <c02 id="list-sub5i" level="subseries">
  <did>
  <unittitle>Subseries IX. Videotapes</unittitle>
  </did>
  </c02>
- <c02 level="subseries" id="list-sub5j">
+ <c02 id="list-sub5j" level="subseries">
  <did>
  <unittitle>Subseries X. Reel-to-reel tapes</unittitle>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. SONGBOOKS AND SCORES</unittitle>
  </did>
@@ -4356,7 +4357,7 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. REFERENCE MATERIALS</unittitle>
  </did>
@@ -4366,7 +4367,7 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. ARTIFACTS AND MEMORABILIA</unittitle>
  </did>
@@ -4376,7 +4377,7 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. OVERSIZE MATERIALS</unittitle>
  </did>
@@ -4393,5 +4394,3 @@ be used.  Contact the Sophia Smith Collection for more information.</p>
 
   </archdesc>
 </ead>
-
-

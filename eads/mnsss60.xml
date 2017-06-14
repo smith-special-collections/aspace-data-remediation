@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss60.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss60</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss60.xml//EN">mnsss60</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Florence Rose Papers, 1832-1970
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Rose, Florence, 1903-1969</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Florence Rose Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1832 - 1970</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Florence Rose Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1832 - 1970</unitdate>
             <unitdate encodinganalog="245$g" type="bulk"> 1920-1969</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 134</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 134</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">37 boxes</extent>
             <extent encodinganalog="300$a">(15 linear ft.)</extent>
@@ -74,15 +75,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Public relations specialist; executive secretary; Director, Meals for Millions; birth control activist; and lobbyist. Major subjects reflected in the Rose papers include the birth control movement in the U.S., relations between African-Americans and Planned Parenthood, the politics of American hunger relief and prevention efforts in developing countries, and the life and legacy of Margaret Sanger. Individuals represented in the papers include Margaret Sanger, Pearl S. Buck, Havelock Ellis, Carrie Chapman Catt, Morris Ernst, Clarence Gamble, Charlotte Perkins Gilman, Harriet Pilpel, Emma Goldman, and H.G. Wells. Types of material include correspondence, organizational records, photographs, published and unpublished writings, and speeches.
+         <abstract encodinganalog="520$a" label="Abstract:">Public relations specialist; executive secretary; Director, Meals for Millions; birth control activist; and lobbyist. Major subjects reflected in the Rose papers include the birth control movement in the U.S., relations between African-Americans and Planned Parenthood, the politics of American hunger relief and prevention efforts in developing countries, and the life and legacy of Margaret Sanger. Individuals represented in the papers include Margaret Sanger, Pearl S. Buck, Havelock Ellis, Carrie Chapman Catt, Morris Ernst, Clarence Gamble, Charlotte Perkins Gilman, Harriet Pilpel, Emma Goldman, and H.G. Wells. Types of material include correspondence, organizational records, photographs, published and unpublished writings, and speeches.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1759.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1759.jpg" linktype="simple" show="embed">
 <daodesc><p>Florence Rose working at home while<lb />
             recovering from an accident, circa 1941</p></daodesc></dao>
          <p>Florence Rose, born in New York City on June 20, 1903, was the youngest of three children and the only daughter of Jewish Hungarian immigrants, Charles and Katie Rosebaum.  Rose was raised along with her brothers Felix and Leon in Brooklyn.  In addition to secretarial training, her education included study at both Hunter College and Columbia University, but it is not clear whether she ever completed a degree.</p>
@@ -122,7 +123,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -186,7 +187,7 @@
          <subject encodinganalog="650" source="lcsh">Population policy--History--20th century</subject>
          <subject encodinganalog="650" source="lcsh">Suicide victims--United States--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -254,8 +255,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1903-1970)</unitdate>
                </unittitle>
@@ -482,7 +483,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1923-1968)</unitdate>
                </unittitle>
@@ -947,7 +948,7 @@
                      <did>
                         <container type="box">6</container>
                         <container type="folder">4</container>
-                        <unittitle>Cyon, Fran&#231;oise,
+                        <unittitle>Cyon, Françoise,
                 <unitdate>1936-45</unitdate>
                         </unittitle>
                      </did>
@@ -1804,7 +1805,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. ORGANIZATIONS AND ACTIVITIES <unitdate>(1921-1968)</unitdate>
                </unittitle>
@@ -4424,7 +4425,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. SUBJECT FILES <unitdate>(1832-1968)</unitdate>
                </unittitle>

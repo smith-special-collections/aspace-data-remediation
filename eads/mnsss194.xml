@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss194.html">mnsss194</eadid>
 
 	<filedesc>
@@ -37,7 +38,7 @@
 		<date>2004</date> 
 		 
 		 
-		<p>&#169; 2005 Smith College. All rights reserved.</p> 
+		<p>© 2005 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,17 +46,17 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Long, Margaret, 1893-</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Long, Margaret, 1893-</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Margaret Long Papers</unittitle><unitdate label="Dates:">1893-1954</unitdate>
+		<unittitle encodinganalog="245$a" label="Title:">Margaret Long Papers</unittitle><unitdate label="Dates:">1893-1954</unitdate>
 
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 95</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 95</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">2 boxes</extent>
 			<extent encodinganalog="300$a">(1 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">
+		<langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
 
@@ -92,7 +93,7 @@
 <p>The first series consists of obituaries; brief, undated reminiscences about her youth and Smith classmates; and a line-a-day diary completed by Long and Reed from 1899 to 1907, some time of which they lived together in Baltimore. SERIES II. CORRESPONDENCE makes up the bulk of the collection and consists of letters from Dorothy Reed to Margaret Long, nicknamed "Patsy." It documents their friendship at Smith and Johns Hopkins and the early years of Reed's medical career, first at the New York Infirmary for Women and Children and then at New York City's Babies' Hospital. It becomes more sporadic after Reed's marriage to Charles Mendenhall. The letters illuminate student life at Smith and Johns Hopkins as well as the early career of a preeminent woman physician. Later letters from Mendenhall trace the enjoyment and difficulties of raising children, particularly for an ambitious professional. Other correspondents include Louise Griswold and Smith friend Mary Goodman. Long's letters to Goodman in the 1940s detail her research techniques and growing interest in the history of white settlement in the West. SERIES III. PUBLICATIONS consists of six volumes of family history, travel writings, and poetry.</p>
 
 </scopecontent>
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into three series:</p>
 	<list>
@@ -169,7 +170,7 @@
 
 <!-- Enter additional information -->
 
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -184,8 +185,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -211,7 +212,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  <note>
@@ -240,7 +241,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PUBLICATIONS</unittitle>
  </did>
@@ -285,5 +286,3 @@
 
 </archdesc>
 </ead>
-
-

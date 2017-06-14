@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss166.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss166</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss166.xml//EN">mnsss166</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Wead Family Papers, 1862-1936</titleproper>
@@ -47,18 +48,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Wead family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Wead Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1862-1936</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Wead Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1862-1936</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 171</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 171</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -70,9 +71,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Librarian and U.S. Sanitary Commission volunteer. The Wead Family papers consist primarily of correspondence to and from Mary Wead in the course of her work with the U.S. Sanitary Commission during the Civil War.  Correspondents with both Mary and Eunice Wead include Louisa Lee Schuyler, leader in 19th century welfare work; author Amy Lowell; and Letitia Campbell of the Freedman's Union Commission.  There is a small amount of correspondence to other Wead family members.
+         <abstract encodinganalog="520$a" label="Abstract:">Librarian and U.S. Sanitary Commission volunteer. The Wead Family papers consist primarily of correspondence to and from Mary Wead in the course of her work with the U.S. Sanitary Commission during the Civil War.  Correspondents with both Mary and Eunice Wead include Louisa Lee Schuyler, leader in 19th century welfare work; author Amy Lowell; and Letitia Campbell of the Freedman's Union Commission.  There is a small amount of correspondence to other Wead family members.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -85,7 +86,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The Wead Family papers consist primarily of correspondence to and from Mary Wead in the course of her work with the U.S. Sanitary Commission during the Civil War.  There are also bills received for materials she purchased for the Union Army.   Correspondents with both Mary and Eunice Wead include Louisa Lee Schuyler, leader in 19th century welfare work; author Amy Lowell; and Letitia Campbell of the Freedman's Union Commission.  There is a small amount of correspondence to other Wead family members (circa 1911-36).</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -127,7 +128,7 @@
          <corpname encodinganalog="610" source="lcnaf">United States Sanitary Commission--History--Sources</corpname>
          <geogname encodinganalog="651" source="lcsh">United States--History--Civil War, 1861-1865--Women</geogname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -135,7 +136,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

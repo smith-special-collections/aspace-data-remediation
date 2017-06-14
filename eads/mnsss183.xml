@@ -1,6 +1,7 @@
-<ead>
-   <eadheader findaidstatus="edited-full-draft" langencoding="iso639-2b" audience="internal" id="head">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss183.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss183</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="edited-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss183.xml//EN">mnsss183</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Patricia Beck Papers, 1936-1986 (bulk 1940-78)</titleproper>
@@ -41,19 +42,19 @@
          <author encodinganalog="245$c">Sarah E. Keen</author>
          <date>2004</date>
          
-         <p>&#169; 2005 Smith College. All rights reserved.</p>
+         <p>© 2005 Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
    <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
-            <persname source="lcnaf" encodinganalog="100 1">Beck, Patricia, 1924-1978</persname>
+            <persname encodinganalog="100 1" source="lcnaf">Beck, Patricia, 1924-1978</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Patricia Beck Papers</unittitle><unitdate label="Dates:">1936-1986</unitdate>
-            <unitdate type="bulk" encodinganalog="245$g">1940-78</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Patricia Beck Papers</unittitle><unitdate label="Dates:">1936-1986</unitdate>
+            <unitdate encodinganalog="245$g" type="bulk">1940-78</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 14</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 14</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">24 boxes</extent>
             <extent encodinganalog="300$a">(9.5 linear ft.)</extent>
@@ -67,7 +68,7 @@
             </repository>
          <abstract encodinganalog="520$a" label="Abstract:">
 Author, poet. Papers include Beck's personal diaries, kept continuously from age 14 until her death in 1978; manuscripts of 59 short stories, 2 semi-autobiographical novels, and poems; correspondence; and photographs and slides of artwork.  The diaries, used as basis for her writings, contain insight into her relationships, daily activities, books and movies, her dreams, travel descriptions (including time spent in Civil War Spain), and periodic depressive episodes (which led to brief hospitalizations and her eventual suicide).  Manuscripts include criticisms by Bernard Malamud and Theodore Roethke.  Notable orrespondents include Frank Capra, Erich and Henny Fromm, Dorothy and Granville Hicks, Bernard and Ann Malamud, Karl Polanyi, and Allan and Barbara Seager.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did><!-- Enter collection level metadata -->
@@ -76,7 +77,7 @@ Author, poet. Papers include Beck's personal diaries, kept continuously from age
          <p>Patricia Beck was born on April 8, 1924, in "Hell's Kitchen," New York, New York, to Margaret and Fred "Whitey" Beck.  Her father, a bookmaker on racing grounds, died in July of 1926 when Pat was two years old.  Pat was the third of four children, though an older sister Peggy died at the age of one.  Her older sister Vera was in the army and later became a lawyer.  Her younger brother Fred was a musician.</p>
          <p>In the early 1930s the Beck family lived in Great Neck, Long Island, and, in 1933, Pat's mother married Paul Swiderski, a boxer, who Pat called "Pops."  From 1934 to 1938 Pat's family spent much of the time living in various locations in Europe, including Spain, England, and France.  At the outbreak of the Spanish Civil War, the family decided to return to the United States and take up residence again in Great Neck, Long Island, and then Asbury Park, New Jersey.  Beck worked at the Allenhurst (New Jersey) Beach Club as a lifeguard and swimming instructor and graduated from Asbury Park High School in 1943.  In the fall of 1943 she began attending Bennington College in Bennington, Vermont, where she studied writing, art, and psychology.  From her sophomore year until his departure from the college, Beck's academic counselor was poet Theodore Roethke.  She also studied with W. H. Auden and Allan Seager.</p>
          <p>In the middle of Beck's first year at Bennington College, her mother died from cancer, two weeks before her divorce from Paul Swiderski would have become final.  The death affected Beck greatly and depression forced her to leave school in 1946.  From July to August, she resided in the psychiatric unit at Albany Hospital in Albany, New York, and underwent shock therapy for her depression.  After her release she spent some time in Buzzards Bay, Massachusetts, and then went to live in Bennington again.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1913.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1913.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Pages from Patricia Beck's diary, 6-7 May, 1949</p></daodesc></dao>
          <p>On June 28, 1952, Beck married Thomas Maulding, a blind pianist and entertainer.  She moved to New York City to live with him but she and Tom often traveled back to Vermont to visit friends.  In 1954 Beck and Maulding purchased a home on Pleasant Street in North Bennington, Vermont, which they named "Birdland."  Pat and Tom did not have any children but by 1956 Beck became more insistent that they try to conceive.  In September of 1958 she discovered that she was pregnant but she miscarried due to Tom's forcing her to have intercourse though her doctor had advised against it.  Tom soon left and did not return to live in the home until December of that year.  He eventually moved out in 1959 and Beck asked for a divorce in August 1959.</p>
@@ -92,7 +93,7 @@ Author, poet. Papers include Beck's personal diaries, kept continuously from age
          <p>SERIES II. CORRESPONDENCE is divided into two subseries, Personal and Professional.  The Personal correspondence from family and friends includes such notables as: Frank Capra, Erich and Henny Fromm, Dorothy and Granville Hicks, Bernard and Ann Malamud, Karl Polanyi, and Allan and Barbara Seager.  The correspondence provides further insight into Beck's personal relationships, revealing that those relationships that began on a professional basis often grew to become much more.  The correspondence with Bernard Malamud includes only brief discussions of her writing and the correspondence with other notables pertains largely to Beck's friendships with them.  Professional correspondence includes rejection letters, with which Beck had once lined her walls, and letters with the magazine Yankee and the Fox Chase Agency.</p>
          <p>SERIES III. WRITINGS is divided into four subseries, Book manuscripts, Poetry, Short stories, and Notes.  Beck wrote two semi-autobiographical novels, Like Gone and Under the Shadow of a War, but neither was published as was none of her poetry.  Only a few of her short stories were ever published and these are listed first in Short stories.  Her unpublished stories are listed alphabetically.  Beck's loose notes for her writings are arranged chronologically and her notebooks are arranged by title or type of notes.</p>
       </scopecontent>
-      <arrangement id="scope-org" encodinganalog="351$a">
+      <arrangement encodinganalog="351$a" id="scope-org">
          <head>Organization of the Collection</head>
          <p>This collection is organized into three series:</p>
          <list>
@@ -110,7 +111,7 @@ Author, poet. Papers include Beck's personal diaries, kept continuously from age
             </item>
          </list>
       </arrangement><!-- End collection level metadata --><!-- Enter administrative information -->
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -154,8 +155,8 @@ Author, poet. Papers include Beck's personal diaries, kept continuously from age
          <persname encodinganalog="600" source="lcnaf">Roethke, Theodore, 1908-1963</persname>
          <genreform encodinganalog="655" source="aat">Diaries</genreform>
       </controlaccess><!-- end controlled access terms --><!-- Enter additional information --><!-- End additional information --><!-- Insert container list here:-->
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
             </did>
@@ -446,7 +447,7 @@ Author, poet. Papers include Beck's personal diaries, kept continuously from age
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -714,7 +715,7 @@ Author, poet. Papers include Beck's personal diaries, kept continuously from age
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
             </did>
@@ -1548,7 +1549,7 @@ Author, poet. Papers include Beck's personal diaries, kept continuously from age
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

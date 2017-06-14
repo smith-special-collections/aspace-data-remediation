@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss145.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss145</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss145.xml//EN">mnsss145</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Sara Tinsley Rees Papers, 1875-1929
@@ -46,19 +47,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Rees, Sarah Tinsley, 1882-1929</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Sarah Tinsley Rees Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1875-1929</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Sarah Tinsley Rees Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1875-1929</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1911-1919</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 235</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 235</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">6 boxes</extent>
             <extent encodinganalog="300$a">(2.5 linear ft.)</extent>
@@ -70,8 +71,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Missionary and Red Cross worker. Rees worked as a missionary in Japan and Russia, and as a nurse's aid during World War I.  Correspondence includes her many letters from Japan and Siberia, plus letters from her family in the U.S. to Rees. Other materials include memorabilia and photographs. </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Missionary and Red Cross worker. Rees worked as a missionary in Japan and Russia, and as a nurse's aid during World War I.  Correspondence includes her many letters from Japan and Siberia, plus letters from her family in the U.S. to Rees. Other materials include memorabilia and photographs. </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -126,7 +127,7 @@
       </bioghist>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3887.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3887.jpg" linktype="simple" show="embed">
 <daodesc><p>Sarah Tinsley Rees and her "Tuesday Bible Class,"<lb />
 Kanazawa, Japan, 1914<lb /></p></daodesc></dao>
          <p>The Sarah Tinsley Rees Papers consist of two linear feet
@@ -184,7 +185,7 @@ Kanazawa, Japan, 1914<lb /></p></daodesc></dao>
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -231,8 +232,8 @@ Kanazawa, Japan, 1914<lb /></p></daodesc></dao>
          <geogname encodinganalog="651" source="lcsh">United
                         States--History--1865-1921--Sources</geogname>
       </controlaccess>
-      <dsc type="in-depth" id="contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. CORRESPONDENCE</unittitle>
             </did>
@@ -351,7 +352,7 @@ Kanazawa, Japan, 1914<lb /></p></daodesc></dao>
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. BIOGRAPHY AND
           MEMORABILIA</unittitle>
@@ -443,7 +444,7 @@ Kanazawa, Japan, 1914<lb /></p></daodesc></dao>
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. PHOTOGRAPHS</unittitle>
             </did>

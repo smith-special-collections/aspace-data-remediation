@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss136.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss136</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss136.xml//EN">mnsss136</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Headmistresses Association of the East Records, 1910-1983
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">Headmistresses Association of the East</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Headmistresses Association of the East Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1910 - 1990</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Headmistresses Association of the East Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1910 - 1990</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 369</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 369</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">20 boxes</extent>
             <extent encodinganalog="300$a">(9.25 linear ft.)</extent>
@@ -72,14 +73,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Professional organization. The purpose of this organization was to provide an  opportunity for the furtherance of mutual acquaintance among heads of secondary or elementary schools for the exchange of  ideas and advancement of standards.  The collection provides insight into the  educational and social philosophy of private education in America. Materials include correspondence, proceedings, membership  applications, memoranda, and reports.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Professional organization. The purpose of this organization was to provide an  opportunity for the furtherance of mutual acquaintance among heads of secondary or elementary schools for the exchange of  ideas and advancement of standards.  The collection provides insight into the  educational and social philosophy of private education in America. Materials include correspondence, proceedings, membership  applications, memoranda, and reports.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6355.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6355.jpg" linktype="simple" show="embed">
 <daodesc><p>Section of letter to potential members of the newly-formed <lb />Headmistress's Association of the East, November 16, 1910</p></daodesc></dao>
          <p>The Headmistresses Association of the East (HMAE) was
     founded in 1911 by a group of headmistresses of schools in
@@ -137,7 +138,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -265,8 +266,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. ORGANIZATION <unitdate>(1910-1970)</unitdate>
                </unittitle>
@@ -290,7 +291,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. MEETINGS <unitdate>(1910-1980)</unitdate>
                </unittitle>
@@ -389,7 +390,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. COMMITTEES AND OFFICERS <unitdate>(1914-1972)</unitdate>
                </unittitle>
@@ -710,7 +711,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. MEMBERSHIP <unitdate>(1914-1983)</unitdate>
                </unittitle>

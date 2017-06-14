@@ -1,9 +1,10 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss48.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss48</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss48.xml//EN">mnsss48</eadid>
       <filedesc>
          <titlestmt>
-            <titleproper encodinganalog="245$a">Olive Beaupr&#233; Miller Papers, 1864-1992
+            <titleproper encodinganalog="245$a">Olive Beaupré Miller Papers, 1864-1992
         </titleproper>
             <subtitle>Finding Aid</subtitle>
             <author encodinganalog="245$c">Finding aid prepared by mnsss.</author>
@@ -39,7 +40,7 @@
         <lb />
             
          </publisher>
-         <titleproper encodinganalog="245$a">Olive Beaupr&#233; Miller Papers, 1864-1992
+         <titleproper encodinganalog="245$a">Olive Beaupré Miller Papers, 1864-1992
       </titleproper>
          <subtitle>Finding Aid</subtitle>
          <num>MS 104
@@ -48,19 +49,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
-            <persname encodinganalog="100" source="lcnaf">Miller, Olive Beaupr&#233;</persname>
+            <persname encodinganalog="100" source="lcnaf">Miller, Olive Beaupré</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Olive Beaupr&#233; Miller Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1864-1992</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Olive Beaupré Miller Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1864-1992</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1894-1958</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 104</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 104</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">13 boxes</extent>
             <extent encodinganalog="300$a">(5 linear ft.)</extent>
@@ -72,15 +73,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Publisher; Children's author; Teacher of English; and Christian Scientist. Founder of the publishing company, The Book House for Children, the first collection of children's literature graded to meet developing needs and abilities of children at different ages. Materials include published and unpublished writings, including creative short stories of her youth and extensively researched historical novels of her later years; correspondence; literary manuscripts; memorabilia; drawings; photographs; and autobiographies of maternal grandfather, Lorenzo Dow Brady, and husband, Harry Edward Miller.
+         <abstract encodinganalog="520$a" label="Abstract:">Publisher; Children's author; Teacher of English; and Christian Scientist. Founder of the publishing company, The Book House for Children, the first collection of children's literature graded to meet developing needs and abilities of children at different ages. Materials include published and unpublished writings, including creative short stories of her youth and extensively researched historical novels of her later years; correspondence; literary manuscripts; memorabilia; drawings; photographs; and autobiographies of maternal grandfather, Lorenzo Dow Brady, and husband, Harry Edward Miller.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-         <p>Olive Kennon Beaupr&#233; was born in Aurora, Illinois on September 11, 1883 to William S. and Julia (Brady) Beaupr&#233;.  She received her B.A. from Smith College in 1904 and returned to Aurora to work as an English teacher at East Aurora High School for two years.  In spring of 1906 Olive met Harry Edward Miller, a salesman for D. Appleton and Company.  Soon after meeting Olive, Harry went to work for Lamson Brothers, a Chicago-based grain brokerage firm.  Olive and Harry were married October 2, 1907.  Olive took her first trip to Europe in 1908, accompanied by her friend Alene Williams and a tour group, and later by Harry.  After returning to the United States, Harry was transferred by Lamson Brothers, to Streator, Illinois, where he and Olive joined the Christian Science Church.  In 1912 the Millers moved again when Harry was transferred to Chicago, Illinois.  Their daughter, Virginia Beaupr&#233; Miller, was born December 30, 1912.</p>
+         <p>Olive Kennon Beaupré was born in Aurora, Illinois on September 11, 1883 to William S. and Julia (Brady) Beaupré.  She received her B.A. from Smith College in 1904 and returned to Aurora to work as an English teacher at East Aurora High School for two years.  In spring of 1906 Olive met Harry Edward Miller, a salesman for D. Appleton and Company.  Soon after meeting Olive, Harry went to work for Lamson Brothers, a Chicago-based grain brokerage firm.  Olive and Harry were married October 2, 1907.  Olive took her first trip to Europe in 1908, accompanied by her friend Alene Williams and a tour group, and later by Harry.  After returning to the United States, Harry was transferred by Lamson Brothers, to Streator, Illinois, where he and Olive joined the Christian Science Church.  In 1912 the Millers moved again when Harry was transferred to Chicago, Illinois.  Their daughter, Virginia Beaupré Miller, was born December 30, 1912.</p>
          <p>Olive began writing rhymes and stories to entertain her child, and was encouraged by Harry to publish some of her writings.  In 1917, the same year the Millers moved to Winnetka, Illinois, P.F. Volland Company published "Sunny Rhymes for Happy Children."   P.F. Volland Company published two more of Olive's works, "Come Play with Me" and "Whisk Away on a Sunbeam," in 1918.  Olive also published selected stories and poetry in The Christian Science Monitor that year.</p>
          <p>In 1919 Olive founded The Book House for Children publishing company with Harry, who had resigned from his job with Lamson Brothers.  Olive assumed the title of Editor and published all of her subsequent material either solely through The Book House or through other publishing companies in conjunction with The Book House.  On May 8 of the same year Olive had her second child John who died shortly after birth.  Olive published the first volume of the My Book House series in 1920 and set to work on the next five volumes.  My Book House became the first collection of children's literature which was graded to meet the developing needs and abilities of children at different ages.</p>
          <p>The Millers returned to Europe with Virginia in 1923 to collect material in France and Holland for her next series of children's books.  The first two volumes of My Travelship:  "Nursery Friends from France" and "Little Pictures of Japan," were published in 1925, followed by "Tales Told in Holland" in 1926.  In December of 1927 the Millers went to the Eastern Mediterranean where Olive collected material for more books, traveling through Egypt, Palestine, and Arabia.</p>
@@ -91,8 +92,8 @@
       </bioghist>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-         <p>The Olive Beaupr&#233; Miller Papers consist of five linear feet (twelve document boxes) of notes and research materials, published and unpublished writings, business documents, correspondence, literary manuscripts and typescripts, memorabilia, drawings, and photographs, dating from 1864-1992.  The bulk of the material dates from 1894-1958.</p>
-         <p>The Biographical series fills one box and includes clippings, articles, and unpublished biographical sketches of Olive and other Beaupr&#233; and Miller family members. There is also miscellaneous correspondence, Smith College Alumnae material, and photographs. Biographical and genealogical material of other family members appear after material about Olive.  Olive transcribed stories that her aunt, Mary Marsh Beaupr&#233;, dictated about her uncle, Arthur Matthias Beaupr&#233;, who served as Consul-General to Guatemala and U.S. Minister to Colombia, the Netherlands, Luxemburg, and Cuba.  There are also typescripts of autobiographies by her maternal grandfather, Lorenzo Dow Brady, and her husband, Harry Edward Miller.</p>
+         <p>The Olive Beaupré Miller Papers consist of five linear feet (twelve document boxes) of notes and research materials, published and unpublished writings, business documents, correspondence, literary manuscripts and typescripts, memorabilia, drawings, and photographs, dating from 1864-1992.  The bulk of the material dates from 1894-1958.</p>
+         <p>The Biographical series fills one box and includes clippings, articles, and unpublished biographical sketches of Olive and other Beaupré and Miller family members. There is also miscellaneous correspondence, Smith College Alumnae material, and photographs. Biographical and genealogical material of other family members appear after material about Olive.  Olive transcribed stories that her aunt, Mary Marsh Beaupré, dictated about her uncle, Arthur Matthias Beaupré, who served as Consul-General to Guatemala and U.S. Minister to Colombia, the Netherlands, Luxemburg, and Cuba.  There are also typescripts of autobiographies by her maternal grandfather, Lorenzo Dow Brady, and her husband, Harry Edward Miller.</p>
          <p>Miller's writings and related papers make up aproximately one third of the collection.  The Writings series consists of both unpublished and published works.  The unpublished writings are arranged chronologically, and separated into two parts: the creative short stories and paper dolls of her youth and typescripts of extensively researched historical novels of her later years.  Olive's writings and research materials provide a clear chronological progression of her development as a writer and researcher.  Her writing displays a strong sense of personal style which can be traced from her childhood writings on. The Paper dolls and drawings are included with the childhood writings because they were an integral part of Olive's early story-making endeavors. She considered the drawings her way of creating stories before she learned the alphabet.</p>
          <p>Also of interest in the Writings series is the correspondence between Edwin Read, Jr. and Margaret Pratt concerning sales tactics and the sales women for The Book House.  The collection includes a signed, first edition copy of Engines and Brass Bands. Business documents and correspondence relating to published works are filed in the Writings series under each work.</p>
          <p>The Notes and Research series is arranged by subject and encompasses approximately two-thirds of the collection (seven boxes). Olive's class notes, mostly of Smith College literature classes, fill one and a half boxes. There are three boxes of material from her last unpublished work, America, Johannes.  Much of this is historical accounts of the first Dutch settlers in the United States.  There are two boxes of research material for various writings which focus on the history of the Midwest, including maps and brochures from historic sites.  In addition, there are notebooks which Olive kept of lists, plot summaries, and reviews of the books she read, dating from 1904 to 1962.  Similar summaries are found among the research notes.</p>
@@ -118,7 +119,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -127,19 +128,19 @@
             </p>
             </accessrestrict>
             <userestrict encodinganalog="540" id="admin-use">
-               <p>The Sophia Smith Collection owns copyright to unpublished works of Olive Beaupr&#233; Miller. Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
+               <p>The Sophia Smith Collection owns copyright to unpublished works of Olive Beaupré Miller. Copyright to materials created by others may be owned by those individuals or their heirs or assigns. It is the responsibility of the researcher to identify and satisfy the holders of all copyrights. Permission must be obtained from the Sophia Smith Collection to publish reproductions or quotations beyond "fair use."
            </p>
             </userestrict>
          </descgrp>
          <prefercite id="admin-cite">
             <head>Preferred Citation</head>
             <p>Please use the following format when citing materials from this collection:</p>
-            <p>Olive Beaupr&#233; Miller Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+            <p>Olive Beaupré Miller Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
          </prefercite>
          <descgrp type="admininfo">
             <head>History of the Collection</head>
             <acqinfo id="admin-acqinfo">
-               <p>Olive Beaupr&#233; Miller's papers were donated to the Sophia Smith Collection in several installments from 1977 to 1994 by her daughter, Virginia Beaupr&#233; (Miller) Read.  The first edition of Engines and Brass Bands was donated by Esther Booth Wiley, Class of 1934.</p>
+               <p>Olive Beaupré Miller's papers were donated to the Sophia Smith Collection in several installments from 1977 to 1994 by her daughter, Virginia Beaupré (Miller) Read.  The first edition of Engines and Brass Bands was donated by Esther Booth Wiley, Class of 1934.</p>
             </acqinfo>
              <processinfo id="admin-process">
                <p>Processed 1995.</p>
@@ -162,13 +163,13 @@
          <persname encodinganalog="600" source="lcnaf">Brady, Lorenzo Dow, 1810-1892</persname>
          <persname encodinganalog="600" source="lcnaf">Miller, Harry Edward, 1878-1952</persname>
          <subject encodinganalog="650" source="lcsh">Women in the professions--United States--History--20th century--Sources</subject>
-         <famname encodinganalog="600" source="lcnaf">Beaupr&#233; family</famname>
-         <persname encodinganalog="600" source="lcnaf">Beaupr&#233;, Arthur, 1853-</persname>
-         <persname encodinganalog="600" source="lcnaf">Miller, Olive Beaupr&#233;</persname>
-         <persname encodinganalog="600" source="lcnaf">Miller, Olive Beaupr&#233;. My book house.</persname>
+         <famname encodinganalog="600" source="lcnaf">Beaupré family</famname>
+         <persname encodinganalog="600" source="lcnaf">Beaupré, Arthur, 1853-</persname>
+         <persname encodinganalog="600" source="lcnaf">Miller, Olive Beaupré</persname>
+         <persname encodinganalog="600" source="lcnaf">Miller, Olive Beaupré. My book house.</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I: BIOGRAPHICAL</unittitle>
             </did>
@@ -181,7 +182,7 @@
             </c02>
             <c02>
                <did>
-                  <unittitle>Olive Beaupr&#233; Miller</unittitle>
+                  <unittitle>Olive Beaupré Miller</unittitle>
                </did>
                <c03>
                   <did>
@@ -232,7 +233,7 @@
                <did>
                   <container type="box">1</container>
                   <container type="folder">5</container>
-                  <unittitle>Lorenzo Dow Brady, Arthur Matthia Beaupr&#233;, and William S. Beaupr&#233;: biographical sketches and typescripts, <unitdate>ca. 1864-1927</unitdate>
+                  <unittitle>Lorenzo Dow Brady, Arthur Matthia Beaupré, and William S. Beaupré: biographical sketches and typescripts, <unitdate>ca. 1864-1927</unitdate>
                   </unittitle>
                </did>
             </c02>
@@ -240,7 +241,7 @@
                <did>
                   <container type="box">1</container>
                   <container type="folder">6</container>
-                  <unittitle>Arthur Matthias Beaupr&#233;: photographs, correspondence, typescript by Olive Beaupr&#233; Miller as dictated and edited by Mary Marsh Beaupr&#233;,<unitdate> 1902-41</unitdate>
+                  <unittitle>Arthur Matthias Beaupré: photographs, correspondence, typescript by Olive Beaupré Miller as dictated and edited by Mary Marsh Beaupré,<unitdate> 1902-41</unitdate>
                   </unittitle>
                </did>
             </c02>
@@ -256,7 +257,7 @@
                <did>
                   <container type="box">1</container>
                   <container type="folder">8</container>
-                  <unittitle>Photographs: Olive Beaupr&#233; Miller,<unitdate> 1900-43</unitdate>
+                  <unittitle>Photographs: Olive Beaupré Miller,<unitdate> 1900-43</unitdate>
                   </unittitle>
                </did>
                <note>
@@ -266,7 +267,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II: WRITINGS</unittitle>
             </did>
@@ -583,7 +584,7 @@
                      <did>
                         <container type="box">5</container>
                         <container type="folder">43</container>
-                        <unittitle>Packet of letters to Olive Beaupr&#233; Miller on 30th anniversary of <title>My Book House</title>,<unitdate> 1950</unitdate>
+                        <unittitle>Packet of letters to Olive Beaupré Miller on 30th anniversary of <title>My Book House</title>,<unitdate> 1950</unitdate>
                         </unittitle>
                      </did>
                   </c04>
@@ -607,7 +608,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III: NOTES AND RESEARCH MATERIALS</unittitle>
             </did>
@@ -936,14 +937,14 @@
             <c02>
                <did>
                   <unittitle>
-                     <title>Olive Beaupr&#233; Miller and The Book House for Children</title>, Dorothy Loring Taylor <unitdate>(1986)</unitdate>
+                     <title>Olive Beaupré Miller and The Book House for Children</title>, Dorothy Loring Taylor <unitdate>(1986)</unitdate>
                   </unittitle>
                </did>
             </c02>
             <c02>
                <did>
                   <unittitle>
-                     <title>Engines and Brass Bands</title>, Olive Beaupr&#233; Miller <unitdate>(1933)</unitdate>
+                     <title>Engines and Brass Bands</title>, Olive Beaupré Miller <unitdate>(1933)</unitdate>
                   </unittitle>
                </did>
             </c02>
@@ -955,7 +956,7 @@
             <c02 id="list-flatfile">
                <did>
                   <container type="map-case">Flat file</container>
-                  <unittitle>3 oversize photographs of Olive Beaupr&#233; Miller,<unitdate> 1943</unitdate>
+                  <unittitle>3 oversize photographs of Olive Beaupré Miller,<unitdate> 1943</unitdate>
                   </unittitle>
                </did>
             </c02>

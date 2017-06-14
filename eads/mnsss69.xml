@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss69.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss69</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss69.xml//EN">mnsss69</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Frances Porter Ticknor Papers, 1938-1990
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Ticknor, Frances</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Frances Ticknor Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1938-1990</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Frances Ticknor Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1938-1990</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 266</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 266</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">YWCA overseas official. The collection consists primarily of approximately 75 letters Ticknor wrote home to her family from Europe, Lebanon, and Egypt, describing her life and work overseas with the YWCA. In addition there are letters from friends; reports to the YWCA;        and 39 photographs of her travels.
+         <abstract encodinganalog="520$a" label="Abstract:">YWCA overseas official. The collection consists primarily of approximately 75 letters Ticknor wrote home to her family from Europe, Lebanon, and Egypt, describing her life and work overseas with the YWCA. In addition there are letters from friends; reports to the YWCA;        and 39 photographs of her travels.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6219.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6219.jpg" linktype="simple" show="embed">
 <daodesc><p>Frances Ticknor in Egypt, circa 1947</p></daodesc></dao> 
          <p>Frances Porter Ticknor was born July 19, 1912 in New Prague, Minnesota to Allen Harold and Edith Knowlton Porter.  The family moved to Champaign, Illinois, where her father ran a bakery business.  Following graduation from the University of Illinois in 1934, with a major in sociology and a minor in psychology, she did case work for emergency relief in Champaign-Urbana, IL. From 1935 to 1940 she was Girl Reserve Secretary and Camp Director for the YWCA in Rochester, Minnesota.  In that capacity she attended the YWCA World Council Meeting in Muskoka, Ontario, Canada, in 1938 and also visited European YWCA camps in Belgium and the Netherlands as guest and visiting leader.  She was YWCA delegate to the first World Christian Youth Conference in Amsterdam in 1939.  Between 1940 and 1945, Ticknor served as YWCA Secretary for work with younger girls and as a camp director.  Immediately after World War II she went abroad to help recovery in Belgium under the auspices of the National Board of the YWCA, which included three years work in Lebanon and Egypt.  In 1948 she married Winton A. Ticknor and became a full time homemaker. They had five children and from 1955 onward lived in Lancaster, OH.  She died June 12, 2007.</p>
       </bioghist>
@@ -104,7 +105,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -141,8 +142,8 @@
          <geogname encodinganalog="651" source="lcsh">Lebanon--Social conditions--20th century--Sources</geogname>
          <geogname encodinganalog="651" source="lcsh">Syria--Social conditions--20th century--Sources</geogname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL</unittitle>
             </did>
@@ -155,7 +156,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -205,7 +206,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. YWCA</unittitle>
             </did>

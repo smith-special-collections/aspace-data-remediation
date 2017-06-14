@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss544.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss544</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss544.xml//EN">mnsss544</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Morrow Family papers, 1839-1966 </titleproper>
@@ -38,15 +36,13 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Morrow family</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Morrow Family Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1839-1966</unitdate><unitdate type="bulk"> 1873-1955</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 108</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Morrow Family Papers</unittitle><unitdate label="Dates:" type="inclusive">1839-1966</unitdate><unitdate type="bulk"> 1873-1955</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 108</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">222 boxes</extent>
         <extent encodinganalog="300$a">(142.5 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -56,7 +52,7 @@ repositorycode="mnsss">MS 108</unitid>
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Author; Philanthropist; President, Smith College. Collection consists primarily of the papers of Elizabeth Cutter Morrow, although her husband Dwight W. Morrow, and daughters Elisabeth Reeve Morrow (Morgan); Anne Spencer Morrow (Lindbergh); and Constance Cutter Morrow (Morgan), and extended family members are also represented.  The papers include personal and professional papers and material pertaining to Smith College. Correspondence is extensive. Of interest are documents describing Elizabeth Cutter Morrow's World War II activities.
          </abstract>
 
@@ -80,7 +76,7 @@ repositorycode="mnsss">MS 108</unitid>
 
 	<p><title render="underline">Dwight Whitney Morrow (1873-1931)</title></p>
 
-	<p>Dwight Whitney Morrow was born in Huntington, West Virginia in 1873.  While enrolled at Amherst College, he met Elizabeth Cutter, who, after an extended courtship and engagement, became his wife in 1903.  In 1899 he received an L.L.B. from Columbia University and joined Simpson Thacher, rising to partner before joining J.P. Morgan &#38; Company as a partner in 1914. His college roommate, Calvin Coolidge, appointed him ambassador to Mexico (1927-30), during which time he helped soothe the relationship between the United States and Mexico, and helped negotiate the peace which ended the Cristero Rebellion (1926-29). After his ambassadorship he served as a United States Senator from New Jersey until his death at home on 5 October 1931 at 58 years of age.</p> 
+	<p>Dwight Whitney Morrow was born in Huntington, West Virginia in 1873.  While enrolled at Amherst College, he met Elizabeth Cutter, who, after an extended courtship and engagement, became his wife in 1903.  In 1899 he received an L.L.B. from Columbia University and joined Simpson Thacher, rising to partner before joining J.P. Morgan &amp; Company as a partner in 1914. His college roommate, Calvin Coolidge, appointed him ambassador to Mexico (1927-30), during which time he helped soothe the relationship between the United States and Mexico, and helped negotiate the peace which ended the Cristero Rebellion (1926-29). After his ambassadorship he served as a United States Senator from New Jersey until his death at home on 5 October 1931 at 58 years of age.</p> 
 
 	<p>For more information, consult the 
 	<extref href="http://asteria.fivecolleges.edu/findaids/amherst/ma28_main.html">Dwight W. Morrow papers at Amherst College</extref>. </p>
@@ -150,71 +146,71 @@ repositorycode="mnsss">MS 108</unitid>
 <table>
 
   <tgroup cols="3">  
-     <colspec colnum="1" colname="1" colwidth="10"/> 
-     <colspec colnum="2" colname="2" colwidth="10"/> 
-     <colspec colnum="3" colname="3" colwidth="10"/> 
+     <colspec colname="1" colnum="1" colwidth="10"/> 
+     <colspec colname="2" colnum="2" colwidth="10"/> 
+     <colspec colname="3" colnum="3" colwidth="10"/> 
   <thead>
     <row>
       <entry colname="1">Category</entry> 
       <entry colname="2">Sub-category</entry> 
-      <entry colname="3"></entry> 
+      <entry colname="3"/> 
     </row>
   </thead>
   <tbody>
     <row>
       <entry colname="1">Biographical</entry> 
-      <entry colname="2"></entry> 
-      <entry colname="3"></entry> 
+      <entry colname="2"/> 
+      <entry colname="3"/> 
     </row>
     <row>
-      <entry colname="1"></entry> 
+      <entry colname="1"/> 
       <entry colname="2">General</entry> 
-      <entry colname="3"></entry> 
+      <entry colname="3"/> 
     </row>
     <row>
-      <entry colname="1"></entry> 
+      <entry colname="1"/> 
       <entry colname="2">Education</entry> 
-      <entry colname="3"></entry> 
+      <entry colname="3"/> 
     </row>
     <row>
-      <entry colname="1"></entry> 
+      <entry colname="1"/> 
       <entry colname="2">Travel</entry> 
-      <entry colname="3"></entry> 
+      <entry colname="3"/> 
     </row>
     <row>
       <entry colname="1">Correspondence</entry> 
-      <entry colname="2"></entry> 
-      <entry colname="3"></entry> 
+      <entry colname="2"/> 
+      <entry colname="3"/> 
     </row>
     <row>
-      <entry colname="1"></entry> 
+      <entry colname="1"/> 
       <entry colname="2">Family</entry> 
-      <entry colname="3"></entry> 
+      <entry colname="3"/> 
     </row>
     <row>
-      <entry colname="1"></entry> 
-      <entry colname="2"></entry> 
+      <entry colname="1"/> 
+      <entry colname="2"/> 
       <entry colname="3">Outgoing</entry> 
     </row>
     <row>
-      <entry colname="1"></entry> 
-      <entry colname="2"></entry> 
+      <entry colname="1"/> 
+      <entry colname="2"/> 
       <entry colname="3">Incoming</entry> 
     </row>
     <row>
-      <entry colname="1"></entry> 
+      <entry colname="1"/> 
       <entry colname="2">Friends and associations</entry> 
-      <entry colname="3"></entry> 
+      <entry colname="3"/> 
     </row>
     <row>
       <entry colname="1">Organizations</entry> 
-      <entry colname="2"></entry> 
-      <entry colname="3"></entry> 
+      <entry colname="2"/> 
+      <entry colname="3"/> 
     </row>
     <row>
       <entry colname="1">Speeches and writings</entry> 
-      <entry colname="2"></entry> 
-      <entry colname="3"></entry> 
+      <entry colname="2"/> 
+      <entry colname="3"/> 
     </row>
   </tbody>
   </tgroup>
@@ -321,7 +317,7 @@ repositorycode="mnsss">MS 108</unitid>
       </relatedmaterial>
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -2986,7 +2982,7 @@ repositorycode="mnsss">MS 108</unitid>
  <did>
  <container type="box">31</container>
  <container type="folder">5</container>
- <unittitle>Estatutos de la Asociaci&#243;n Amigos de Taxco,<unitdate> 1933</unitdate></unittitle>
+ <unittitle>Estatutos de la Asociación Amigos de Taxco,<unitdate> 1933</unitdate></unittitle>
  </did>
  </c07>
  <c07>
@@ -3012,7 +3008,7 @@ repositorycode="mnsss">MS 108</unitid>
  <did>
  <container type="box">31</container>
  <container type="folder">9</container>
- <unittitle>Map of Mexico, <unitdate>n.d. </unitdate>&#160;</unittitle>
+ <unittitle>Map of Mexico, <unitdate>n.d. </unitdate> </unittitle>
  </did>
  </c07>
  <c07>
@@ -3165,7 +3161,7 @@ repositorycode="mnsss">MS 108</unitid>
  <did>
  <container type="box">32</container>
  <container type="folder">4</container>
- <unittitle>Book reviews by ECM, <unitdate>n.d. </unitdate>&#160;</unittitle>
+ <unittitle>Book reviews by ECM, <unitdate>n.d. </unitdate> </unittitle>
  </did>
  </c06>
  <c06>
@@ -6578,7 +6574,7 @@ repositorycode="mnsss">MS 108</unitid>
  <did>
  <container type="box">71</container>
  <container type="folder">6-7</container>
- <unittitle>Grierson, Margaret,<unitdate> 1940-53</unitdate>&#160;</unittitle>
+ <unittitle>Grierson, Margaret,<unitdate> 1940-53</unitdate> </unittitle>
  </did>
  </c06>
  <c06>
@@ -8019,7 +8015,7 @@ repositorycode="mnsss">MS 108</unitid>
  <did>
  <container type="box">90</container>
  <container type="folder">24</container>
- <unittitle>"The Maguey," <title render="italic">Harper's</title>, <unitdate>Nov 1930 </unitdate>&#160;</unittitle>
+ <unittitle>"The Maguey," <title render="italic">Harper's</title>, <unitdate>Nov 1930 </unitdate> </unittitle>
  </did>
  </c05>
  <c05>
@@ -8171,7 +8167,7 @@ repositorycode="mnsss">MS 108</unitid>
  </c05>
  <c05>
  <did>
-                     <unittitle><title render="italic">Casa Ma&#241;ana</title> (1932)                  </unittitle>
+                     <unittitle><title render="italic">Casa Mañana</title> (1932)                  </unittitle>
  </did>
  <c06>
  <did>
@@ -9462,7 +9458,7 @@ repositorycode="mnsss">MS 108</unitid>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serOS">
+ <c01 id="list-serOS" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -9524,7 +9520,7 @@ repositorycode="mnsss">MS 108</unitid>
  <did>
  <container type="box">99</container>
  <container type="folder">3</container>
- <unittitle>"Casa Ma&#241;ana" article, <title render="italic">House and Garden</title>, <unitdate>Dec 1938</unitdate></unittitle>
+ <unittitle>"Casa Mañana" article, <title render="italic">House and Garden</title>, <unitdate>Dec 1938</unitdate></unittitle>
  </did>
  </c05>
  <c05>
@@ -9842,5 +9838,4 @@ repositorycode="mnsss">MS 108</unitid>
 </dsc>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

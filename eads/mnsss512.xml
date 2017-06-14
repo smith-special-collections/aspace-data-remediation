@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss512.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss512</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss512.xml//EN">mnsss512</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Eastman-Goodale-Dayton Family Papers, 1861-2013</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<famname source="lcnaf" encodinganalog="100 3">Eastman-Goodale-Dayton family</famname>
+		<famname encodinganalog="100 3" source="lcnaf">Eastman-Goodale-Dayton family</famname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Eastman-Goodale-Dayton Family Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1861-2013</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Eastman-Goodale-Dayton Family Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1861-2013</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">53</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">53</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">17 boxes</extent>
 		<extent encodinganalog="300$a">(6.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
 		<address>
@@ -62,7 +63,7 @@
 	<p>The principal family members represented in the Eastman-Goodale-Dayton Family Papers are sisters Elaine Goodale Eastman (9 Oct 1863-22 Dec 1953) and Dora Read Goodale (29 October 1866-12 Dec 1953). Their mother, Deborah (Dora) Hill Read Goodale (1839-1910), teacher and writer, married Henry S. Goodale (1836 -1906), teacher, farmer, and writer, in 1862. They settled at "Sky Farm" on Fray Mountain in the town of Mt. Washington, Massachusetts, not far from where Henry was born in South Egremont. Henry's father, Chester Goodale, a successful businessman who operated a marble quarry, had settled in the Berkshires around 1820. Besides Elaine and Dora, the Goodales had two other children, Rose Sterling Goodale (Dayton) (1870 -1965) and Robert (1878-?).</p>
 
 	<p>Following in the footsteps of their parents, who published poems and essays in local and national publications, both Dora and Elaine were writers from early childhood. Beginning in the late 1870s their poetry was published widely in newspapers and magazines such as <title render="italic">St. Nicholas </title>and <title render="italic">Scribner's Monthly. </title>They published three books of poetry between 1878 and 1881, achieving wide renown as child-prodigies. Elaine also published <title render="italic">Journal of a Farmer's Daughter </title>in 1881. In the early years, Elaine and Dora were educated at home by their mother who had taught school before her marriage, and they were briefly enrolled in a New York City boarding school in 1881. </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5687.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5687.jpg" linktype="simple" show="embed">
 <daodesc><p>Page from "The Coming of the Birds," a poem by Elaine <lb />Goodale reproduced in facsimile, illustrated by Alexander <lb />Pope, Estes and Lauriat Publishers, Boston, undated</p></daodesc></dao> 
 	<p>Henry was not a particularly successful farmer and the resulting financial hardships, coupled with incompatible temperaments, led to the Goodales' separation in 1882. Henry moved to New York City where he managed The Windermere Hotel on 57th Street, an apartment house for financially independent working women. </p>
 
@@ -88,7 +89,7 @@
 	<head>Scope and Contents of the Collection</head>
 	<p>The Eastman-Goodale-Dayton Family papers consist of biographical materials, correspondence, unpublished writings and printed materials, organization and subject files, photographs, memorabilia, and scrapbooks. Some members of the family and time periods are better documented than others due to the identity of the major donors, and the circumstances influencing what was saved, or lost, in the case of the Amherst cottage fire in 1897. The bulk of the collection, given by Elaine Eastman in her later years when she was living in Northampton, best documents her life, and that of her immediate family, as well as her writing and continued interest in Native American policy, from the late 1920s until her death. Her scrapbooks provide some information about earlier decades in her life, mostly her writings, and those of other family members. Because Elaine and Charles had gone their separate ways in 1921 and never reconciled, there is little related to Charles. A second major acquisition, given in 1999 and 2002, consists of correspondence and other items saved by Rose Goodale Dayton. A third acquisition, purchased from a book dealer in 2010, significantly augmented the books and other writings authored by family members, including Charles Eastman.</p>
 
-	<p>The Henry Goodale and Deborah Read Hill Goodale material consists of a small amount of correspondence and writings (1861-98). The Dora Read Goodale papers include biographical information, extensive correspondence, primarily with her sister Rose, and her manuscript and published writings (1892-1950). The bulk of the papers are those of Elaine Goodale Eastman and consist of biographical materials, correspondence, and writings; her controversy with the Daughters of the American Revolution (1928-29); involvement with the Women's International League for Peace and Freedom; and writings, photographs and organizations related to Native Americans. In addition to Elaine's writings on Native Americans and her miscellaneous writings, of particular interest are photographs of South Dakota in the 1890s, particularly of the Pine Ridge Agency, Native Americans, Wounded Knee, and American troops. Additional material relates to the family of Rose Goodale Dayton. While there are some courtship letters from Rose to her fianc&#233;, there is more about other members of her extended family as she was the recipient of many of the letters, including the sole letter from Charles Eastman. There is also a short journal written by Deborah Goodale's mother, Eleanor Rogers (Lyon) Read (1866-68).</p>
+	<p>The Henry Goodale and Deborah Read Hill Goodale material consists of a small amount of correspondence and writings (1861-98). The Dora Read Goodale papers include biographical information, extensive correspondence, primarily with her sister Rose, and her manuscript and published writings (1892-1950). The bulk of the papers are those of Elaine Goodale Eastman and consist of biographical materials, correspondence, and writings; her controversy with the Daughters of the American Revolution (1928-29); involvement with the Women's International League for Peace and Freedom; and writings, photographs and organizations related to Native Americans. In addition to Elaine's writings on Native Americans and her miscellaneous writings, of particular interest are photographs of South Dakota in the 1890s, particularly of the Pine Ridge Agency, Native Americans, Wounded Knee, and American troops. Additional material relates to the family of Rose Goodale Dayton. While there are some courtship letters from Rose to her fiancé, there is more about other members of her extended family as she was the recipient of many of the letters, including the sole letter from Charles Eastman. There is also a short journal written by Deborah Goodale's mother, Eleanor Rogers (Lyon) Read (1866-68).</p>
 
 	<p>The bulk of the papers date from the 1920s to the 1950s, though there is significant late nineteenth--early twentieth century material, especially in the writings and scrapbooks, but also in correspondence.</p>
 
@@ -96,7 +97,7 @@
 
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into six series:</p>
 	<list>
@@ -278,7 +279,7 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
 			<extent>.75 linear ft.</extent>
 		</physdesc></did>
 	<scopecontent>
-		<p>There are ten scrapbooks in this series that overlap with each other in terms of subject matter and date span. Most, if not all, were apparently compiled by Elaine Goodale Eastman, who donated them. Most of the items in the scrapbooks have to do with the writings of the family, primarily Dora and Elaine, but Deborah Hill Read Goodale, Henry Goodale, and Rose Goodale Dayton are also represented. The scrapbooks have been numbered in an arbitrary manner. Two of the scrapbooks relate to Elaine&#198;s and Dora&#198;s childhood writings. There are four scrapbooks that contain mostly writings by Elaine relating to her career teaching and advocating for Native Americans, but also on other topics such as homemaking, children, and her organizational involvement. There is one scrapbook that mostly contains writings by others about Native Americans. Dora&#198;s post-childhood writings are collected in two of the scrapbooks. Finally, there is one scrapbook of miscellaneous writings, mostly poems, by Elaine, Dora, Rose, and their parents.</p>
+		<p>There are ten scrapbooks in this series that overlap with each other in terms of subject matter and date span. Most, if not all, were apparently compiled by Elaine Goodale Eastman, who donated them. Most of the items in the scrapbooks have to do with the writings of the family, primarily Dora and Elaine, but Deborah Hill Read Goodale, Henry Goodale, and Rose Goodale Dayton are also represented. The scrapbooks have been numbered in an arbitrary manner. Two of the scrapbooks relate to ElaineÆs and DoraÆs childhood writings. There are four scrapbooks that contain mostly writings by Elaine relating to her career teaching and advocating for Native Americans, but also on other topics such as homemaking, children, and her organizational involvement. There is one scrapbook that mostly contains writings by others about Native Americans. DoraÆs post-childhood writings are collected in two of the scrapbooks. Finally, there is one scrapbook of miscellaneous writings, mostly poems, by Elaine, Dora, Rose, and their parents.</p>
 	</scopecontent>
 </c01>
  
@@ -296,8 +297,8 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -457,7 +458,7 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -1106,7 +1107,7 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
  </did>
@@ -1668,7 +1669,7 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ORGANIZATION AND SUBJECT FILES OF ELAINE G. EASTMAN</unittitle>
  </did>
@@ -1901,7 +1902,7 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. PHOTOGRAPHS</unittitle>
  </did>
@@ -1981,7 +1982,7 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. SCRAPBOOKS</unittitle>
  </did>
@@ -2055,7 +2056,7 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
  </did>
 </c02>
 </c01>
-<c01 level="series" id="list-OV">
+<c01 id="list-OV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
 </did>
@@ -2092,5 +2093,3 @@ This series includes the courtship correspondence of Rose Goodale and Redington 
 
   </archdesc>
 </ead>
-
-

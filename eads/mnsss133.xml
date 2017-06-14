@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss133.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss133</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss133.xml//EN">mnsss133</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Associated Charities of Brattleboro Records, 1915 - 1974
@@ -46,18 +47,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">Associated Charities of Brattleboro</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Associated Charities of Brattleboro Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1915 - 1974</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Associated Charities of Brattleboro Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1915 - 1974</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 334</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 334</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -69,8 +70,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Charitable organization. The Associated Charities, chartered by the state of Vermont in 1915, was formed by a group of women in the late 1800s and envisioned as a ''rainy day fund'' for less fortunate people. The records consist of two volumes: a Minute Book and an Account Book.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Charitable organization. The Associated Charities, chartered by the state of Vermont in 1915, was formed by a group of women in the late 1800s and envisioned as a ''rainy day fund'' for less fortunate people. The records consist of two volumes: a Minute Book and an Account Book.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -97,10 +98,10 @@
          <p>The records of the Associated Charities of Brattleboro
     consist of 2 volumes: a Minute Book, 1915-1958, and an
     Account Book, 1953-1974 (closed).</p>
-      <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6227.jpg" altrender="center">
+      <dao actuate="onLoad" altrender="center" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6227.jpg" linktype="simple" show="embed">
 <daodesc><p>Pages from minute book of The Associated Charities of Brattleboro, Vermont, 1915</p></daodesc></dao></scopecontent>
  
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -136,7 +137,7 @@
          <subject encodinganalog="650" source="lcsh">Women--United
                         States--Charities--History--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss34.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss34</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss34.xml//EN">mnsss34</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Mary Metlay Kaufman Papers, 1917-1994
@@ -52,18 +53,18 @@
          <sponsor>Processing of the Mary Metlay Kaufman Papers was made possible by the generous support of the National Endowment for the Humanities and Smith College President Ruth J. Simmons.
             </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Kaufman, Mary Metlay, 1912-1995</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Mary Metlay Kaufman Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1917 - 1994</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Mary Metlay Kaufman Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1917 - 1994</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1946-1986</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 300</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 300</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">102 boxes</extent>
             <extent encodinganalog="300$a">(49 linear ft.)</extent>
@@ -75,15 +76,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Lawyer, professor, and political activist. Major themes reflected in the papers include international law, anti-communism, civil rights, the anti-Vietnam war and anti-nuclear movements. The papers also document Kaufman's close associations with other prominent civil rights attorneys and her involvement in international war crimes tribunals. Material includes trial records and research; correspondence; published and unpublished writings; speeches; and teaching materials.
+         <abstract encodinganalog="520$a" label="Abstract:">Lawyer, professor, and political activist. Major themes reflected in the papers include international law, anti-communism, civil rights, the anti-Vietnam war and anti-nuclear movements. The papers also document Kaufman's close associations with other prominent civil rights attorneys and her involvement in international war crimes tribunals. Material includes trial records and research; correspondence; published and unpublished writings; speeches; and teaching materials.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3474.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3474.jpg" linktype="simple" show="embed">
 <daodesc><p>Mary Kaufman giving the commencement speech<lb />at Hampshire College, Amherst, Mass., 1976</p></daodesc>
 	</dao>
          <p>Mary Metlay was born November 9, 1912 in Atlanta, Georgia, the daughter of Nathan and Etta (Kirschner) Metlay who had emigrated from Russia.  In 1917, the Metlay family moved to Brooklyn, New York.  Kaufman described her family's influence on her social consciousness and activism:</p>
@@ -136,7 +137,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -205,7 +206,7 @@
          <persname encodinganalog="600" source="lcnaf">Rabinowitz, Victor</persname>
          <persname encodinganalog="600" source="lcnaf">Thompson, Robert</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -262,7 +263,7 @@
             </did>
             <scopecontent>
                <p>This series includes files generated from Kaufman's early work for government labor agencies, her participation in the Nuremberg War Crimes Tribunal, her private practice and consultative work, and Mass Defense Office cases.  The series is arranged roughly chronologically, although the Smith Act cases and related appeals, circa 1948-65, are grouped together.</p>
-               <p>The "General files" at the beginning of the series include materials related to her bar certification and early job applications.  These are followed by correspondence, memoranda, and briefs from her tenures with the National Labor Relations Board, the National War Labor Board, and the National Wage Stabilization Board, 1939-46.  The Nuremberg War Crimes Tribunal files include court documents and briefs providing an overview of the case against the international chemical cartel, I.G. Farben. "The documents involving Nuremberg point to the mechanisms of imperialism, the relationship between big business and government and to the influence of cold war politics on the second tier of war crimes trials&#8230;." (from "Description of my files," Sophia Smith Collection).  Also included is a small amount of correspondence and notes, and judgements from other Nuremberg tribunals. A set of 120 bound volumes containing the complete I.G. Farben trial transcript and indices was transferred to the Yale University Law Library.</p>
+               <p>The "General files" at the beginning of the series include materials related to her bar certification and early job applications.  These are followed by correspondence, memoranda, and briefs from her tenures with the National Labor Relations Board, the National War Labor Board, and the National Wage Stabilization Board, 1939-46.  The Nuremberg War Crimes Tribunal files include court documents and briefs providing an overview of the case against the international chemical cartel, I.G. Farben. "The documents involving Nuremberg point to the mechanisms of imperialism, the relationship between big business and government and to the influence of cold war politics on the second tier of war crimes trials…." (from "Description of my files," Sophia Smith Collection).  Also included is a small amount of correspondence and notes, and judgements from other Nuremberg tribunals. A set of 120 bound volumes containing the complete I.G. Farben trial transcript and indices was transferred to the Yale University Law Library.</p>
                <p>The Smith Act, passed by Congress in 1940, made it a crime to teach or advocate the violent overthrow of the United States government.  Kaufman's Smith Act case files document her participation in some of the most significant political trials of the Cold War period.  Kaufman served on the defense team of the first Smith Act trial of the C.P.U.S.A. national leaders in U.S. v. Eugene Dennis, et al., in New York City, 1948-49. From 1952 to 1956 she represented several of the same defendants in appellate proceedings and went on to lead the defense teams in the trials of second tier and state-level party leaders in New York, St. Louis, and Denver.</p>
                <p>The Smith Act "General" files contain material pertaining to more than one Smith Act case and include correspondence between lawyers handling Smith Act cases around the country, publicity produced by the Defense Committee, and background information on government informers who testified repeatedly in different Smith Act trials.  After the General files, the individual Smith Act cases are arranged chronologically.</p>
                <p>Filed at the end of the Smith Act cases are the case files of several appeals that emerged out of U.S. v. Dennis, et al.  These include Robert Thompson's contempt appeal and appeals for the reinstatement of his veteran's benefits after they were revoked when he was convicted as a Communist.  Kaufman also worked on the defense for attorneys Harry Sacher and Abraham Isserman who were found guilty of contempt during the Dennis trial.  She also represented the Trustees of the Bail Fund of the Civil Rights Congress of New York in several matters, including their appeal on a contempt charge for refusing to name individuals who had contributed to the fund.</p>
@@ -356,8 +357,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
             </did>
@@ -437,7 +438,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1940-82)</unitdate>
                </unittitle>
@@ -565,7 +566,7 @@
             </c02>   
 
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. LEGAL PRACTICE
                </unittitle>
@@ -2609,7 +2610,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. TEACHING</unittitle>
             </did>
@@ -2783,7 +2784,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. ORGANIZATIONS AND CONFERENCES</unittitle>
             </did>
@@ -3762,7 +3763,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. WRITINGS</unittitle>
             </did>
@@ -3854,7 +3855,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. SPEECHES</unittitle>
             </did>
@@ -4204,7 +4205,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII. RESEARCH AND SUBJECT FILES</unittitle>
             </did>

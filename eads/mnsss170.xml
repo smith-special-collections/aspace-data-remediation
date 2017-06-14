@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss170.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss170</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss170.xml//EN">mnsss170</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Grace Lathrop Collin, 1894-1913
@@ -46,18 +47,18 @@
          <date>2003</date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Collin, Grace Lathrop</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Grace Lathrop Collin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1894-1913</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Grace Lathrop Collin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1894-1913</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 41</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 41</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -69,14 +70,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Author and columnist. Grace Collin wrote a daily drama/women's column in the New York Evening Sun, as well as short stories.  Her papers consist primarily of correspondence from Collin to Smith College classmate Mary Aimee Goodman. The correspondence is centered around her work and publications, her involvement with the Smith College Club of New York, and her travels.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Author and columnist. Grace Collin wrote a daily drama/women's column in the New York Evening Sun, as well as short stories.  Her papers consist primarily of correspondence from Collin to Smith College classmate Mary Aimee Goodman. The correspondence is centered around her work and publications, her involvement with the Smith College Club of New York, and her travels.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6309.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6309.jpg" linktype="simple" show="embed">
 <daodesc><p>Letter from Grace Collin to Mary <lb />Aimee Goodman, written from Ottawa <lb />House, Cushing's Island, Maine, 1896</p></daodesc></dao>
          <p> Grace Lathrop Collin was born in Elmira, N.Y. on March 22,1874 to Emily Lathrop Ripley and Charles A. Collin, a law professor. Her family resided in Ithaca, N.Y., when she attended Ithaca High School and later graduated from Smith College in 1896.  She did graduate study at Harvard University and eventually earned a M.A. in English and Drama from Columbia University. Collin went on to pursue a career in writing and had a daily drama/women's column in the New York Evening Sun. Her short stories were published in both Harper's and Ainslee's Magazine.  In 1903 a collection of her short stories about New England's diminishing patrician communities was published entitled Putnum Place.  Collins remained active in the Smith College Club of New York and the Association of College Alumnae. She died of illness in November 1913 at age 39.</p>
       </bioghist>
@@ -84,7 +85,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The papers consist primarily of correspondence (originals and typed copies) from Collin to Smith College classmate Mary Aimee Goodman (class of 1896).  There are also a few letters to Miriam W. Webb, and a single letter addressed to Mary Aimee Goodman from Grace's father, Charles A. Collin.  Grace Collin's early correspondence (1894-1902) is centered around her work and publications, her involvement with the Smith College Club of New York, and her travels.  Later letters (1902-1913) focus on her frustration as a professional writer in a male dominated field, her successes, family, and her role in helping to establish the Elizabeth King Memorial Fund for Smith College students.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -116,7 +117,7 @@
          <subject encodinganalog="650" source="lcsh">Authors, American--20th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women authors, American--20th century--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box"/>

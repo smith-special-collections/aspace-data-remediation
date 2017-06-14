@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss336.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss336</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss336.xml//EN">mnsss336</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Sorosis Records, 1856-1972</titleproper>
@@ -30,15 +31,15 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Sorosis</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Sorosis</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Sorosis Records</unittitle><unitdate type="inclusive" label="Dates:">1856-1972</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Sorosis Records</unittitle><unitdate label="Dates:" type="inclusive">1856-1972</unitdate>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">31 boxes</extent>
 		<extent encodinganalog="300$a">(12.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
             <corpname>Sophia Smith Collection</corpname>
@@ -57,7 +58,7 @@
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
 
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5187.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5187.jpg" linktype="simple" show="embed">
 <daodesc><p>Title page of Constitution and <lb />By-Laws of Sorosis, 1869</p></daodesc></dao>
 
 <p>Sorosis is an organization of professional and literary women founded in New York City in 1868. Columnist "Jennie June" (Jane C. Croly) and other women journalists were denied tickets to a New York Press Club event honoring Charles Dickens. The presenters claimed that the presence of the women would make the occasion "promiscuous." Offended, the female journalists founded their own press club, naming it Sorosis after a botanical term referring to plants with a grouping of flowers that bore fruit. The term was meant to symbolize women's determination to transform supposedly delicate and feeble ladies into important members of public society. Jane Croly organized a group of her friends, many of whom were writers, into the club to "promote agreeable and useful relations among women," particularly those who had found "expression in outward life and work." The club's mission was to "establish a freemasonry among women of similar pursuits....[to afford] an opportunity for discussion...the results of which promise to exert an important influence on the future of women and the welfare of society." Historian Karen J. Blair states that the members tended to be "career women who had become keenly aware of sexism in their struggle for professional success."1 </p>
@@ -78,7 +79,7 @@
 	<p>The Records document the club's advocacy of temperance, prison reform, and peace, as well as their programs in art, drama, education, and music. Included are bound copies of Executive Committee minutes (1884-1907, 1937-1965); and committee reports (1886-1947). There are also biographical materials, writings, and photographs of first president Jane C. Croly (1829-1901); material relating to the Women's Congress in New York City (1873-1877); and the Association for the Advancement of Women (established by Sorosis in 1873).</p>
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into eight series:</p>
 	<list>
@@ -123,7 +124,7 @@
 	<p>Sorosis Records, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
     </prefercite>
     <altformavail id="admin-altform">
-	<p>The following records are also available on microfiche in 	<title render="italic" encodinganalog="730">History of Women</title>  located in the William Allen Neilson Library: Minutes, 1868-1937; Executive Committee Minutes, 1884-1907; 	<title render="italic" encodinganalog="730">Report of the 21st Anniversary of Sorosis celebrated by a Convention of Clubs held in New York City, March 1889</title>; <title render="italic" encodinganalog="730">Selections from the Writings of the Presidents of Sorosis, A Souvenir of the Breakfast at Sherry's, March 30, 1893</title>. </p>
+	<p>The following records are also available on microfiche in 	<title encodinganalog="730" render="italic">History of Women</title>  located in the William Allen Neilson Library: Minutes, 1868-1937; Executive Committee Minutes, 1884-1907; 	<title encodinganalog="730" render="italic">Report of the 21st Anniversary of Sorosis celebrated by a Convention of Clubs held in New York City, March 1889</title>; <title encodinganalog="730" render="italic">Selections from the Writings of the Presidents of Sorosis, A Souvenir of the Breakfast at Sherry's, March 30, 1893</title>. </p>
     </altformavail>
     <accruals id="admin-accruals">
 	<p>Periodic additions to this collection are expected and may not be reflected in this record.</p>
@@ -162,7 +163,7 @@
 
 <!-- Enter additional information -->
     <relatedmaterial id="add-related">
-	<p>The following records are also available on microfiche in 	<title render="italic" encodinganalog="730">History of Women</title>  located in the William Allen Neilson Library: Minutes, 1868-1937; Executive Committee Minutes, 1884-1907; 	<title render="italic" encodinganalog="730">Report of the 21st Anniversary of Sorosis celebrated by a Convention of Clubs held in New York City, March 1889</title>; <title render="italic" encodinganalog="730">Selections from the Writings of the Presidents of Sorosis, A Souvenir of the Breakfast at Sherry's, March 30, 1893</title>. </p>
+	<p>The following records are also available on microfiche in 	<title encodinganalog="730" render="italic">History of Women</title>  located in the William Allen Neilson Library: Minutes, 1868-1937; Executive Committee Minutes, 1884-1907; 	<title encodinganalog="730" render="italic">Report of the 21st Anniversary of Sorosis celebrated by a Convention of Clubs held in New York City, March 1889</title>; <title encodinganalog="730" render="italic">Selections from the Writings of the Presidents of Sorosis, A Souvenir of the Breakfast at Sherry's, March 30, 1893</title>. </p>
     </relatedmaterial>
 
 <!-- End additional information -->
@@ -255,8 +256,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. MEETINGS</unittitle>
  </did>
@@ -380,7 +381,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. ADMINISTRATION AND ORGANIZATION</unittitle>
  </did>
@@ -615,7 +616,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. HISTORY</unittitle>	<note><p><ref target="list-Committees-History">[see also SERIES II. ADMINISTRATION AND ORGANIZATION-Committees-History]</ref></p>
  	</note>
@@ -748,7 +749,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. OFFICERS</unittitle>
  </did>
@@ -863,7 +864,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. MEMBERS</unittitle>
  </did>
@@ -968,7 +969,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. PUBLICATIONS</unittitle>
  </did>
@@ -1022,7 +1023,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. RELATED ORGANIZATIONS</unittitle>
  </did>
@@ -1071,7 +1072,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. MEMORABILIA</unittitle>
  </did>
@@ -1242,5 +1243,3 @@
 
   </archdesc>
 </ead>
-
-

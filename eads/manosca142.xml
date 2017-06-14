@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca142.html">manosca142</eadid>
 
@@ -14,7 +15,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2006</date>
+<date>© 2006</date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -36,7 +37,7 @@
 <num>RG 42</num> 
 <author>Nanci A. Young</author> 
 <date>2006</date> 
-<p>&#x00A9; 2006 Smith College. All rights reserved.</p> 
+<p>© 2006 Smith College. All rights reserved.</p> 
 </titlepage> 
 </frontmatter> 
 
@@ -44,17 +45,17 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<persname source="lcnaf" encodinganalog="100 1">Plath, Sylvia</persname>
+<persname encodinganalog="100 1" source="lcnaf">Plath, Sylvia</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Sylvia Plath Hughes Papers</unittitle> <unitdate label="Dates:">1950-2001</unitdate>
-<unitdate type="bulk" encodinganalog="245$g">1952-1963</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Sylvia Plath Hughes Papers</unittitle> <unitdate label="Dates:">1950-2001</unitdate>
+<unitdate encodinganalog="245$g" type="bulk">1952-1963</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:1babfffe-2bfb-4123-8214-b7ea2bcdc9ce</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.5 linear inches)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -140,7 +141,7 @@ Professor of English at Smith College and poet, novelist, and essayist. Contains
 
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">872</container>
@@ -268,5 +269,3 @@ Professor of English at Smith College and poet, novelist, and essayist. Contains
 
 </archdesc>
 </ead>
-
-

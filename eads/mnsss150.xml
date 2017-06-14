@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss150.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss150</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss150.xml//EN">mnsss150</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Mary van Kleeck Papers, 1849-1998
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2004  Smith College. All rights reserved.</p>
+         <p>© 2004  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">van Kleeck, Mary</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Mary van Kleeck Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1883-1972</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Mary van Kleeck Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1883-1972</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 165</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 165</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">126 boxes, 56 volumes</extent>
             <extent encodinganalog="300$a">(66.75 linear ft.)</extent>
@@ -72,8 +73,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Social reformer, Lecturer, Social researcher, Writer, Social worker.  Papers include correspondence, biographical material, clippings, speeches, writings, research notes, subject and organization files, primarily from van Kleeck's professional life.  There is a significant amount of material relating to Smith College, her work in social and charitable agencies such as ACLU, National Woman's Party, Bryn Mawr Summer School for Student Workers, Hospites (a refugee rescue organization), the Women's International Democratic Federation, the Women's Trade Union League, and the National Research Council.  Also the Russell Sage Foundation's Department of Industrial Studies where she conducted investigations of the Rocky Mountain Fuel Company, United Mine Workers, and the coal industry, and her work with Mary Anderson at the Women's Bureau and Mary Fledderus at the International Industrial Relations Institute, 1925-47.  </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Social reformer, Lecturer, Social researcher, Writer, Social worker.  Papers include correspondence, biographical material, clippings, speeches, writings, research notes, subject and organization files, primarily from van Kleeck's professional life.  There is a significant amount of material relating to Smith College, her work in social and charitable agencies such as ACLU, National Woman's Party, Bryn Mawr Summer School for Student Workers, Hospites (a refugee rescue organization), the Women's International Democratic Federation, the Women's Trade Union League, and the National Research Council.  Also the Russell Sage Foundation's Department of Industrial Studies where she conducted investigations of the Rocky Mountain Fuel Company, United Mine Workers, and the coal industry, and her work with Mary Anderson at the Women's Bureau and Mary Fledderus at the International Industrial Relations Institute, 1925-47.  </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -81,7 +82,7 @@
          <head>Biographical Note</head>
          <p> Mary Abby Van Kleeck was born on June 26, 1883 in Glenham, New York, to Eliza Mayer and Episcopalian minister Robert Boyd Van Kleeck.  (Mary van Kleeck changed the capitalization of her last name in the 1920s.) Following her father's death in 1892, her family moved to Flushing, New York, where van Kleeck attended Flushing High School.  She entered Smith College in the fall of 1900, became involved in the Smith College Association for Christian Work, and began a lifelong affiliation with the YWCA.  Van Kleeck earned an A.B. from Smith College in 1904.</p>
          <p> In the fall of 1905 van Kleeck began working as a fellow for the College Settlement Association on Rivington Street on New York's Lower East Side.  She worked with several women reformers, attended sociology classes at Columbia, and researched factory women and child labor.  Her work with the College Settlement Association, and later as the industrial secretary of the Alliance Employment Bureau, caught the attention of the Russell Sage Foundation.  The Foundation began supporting her research, and in 1910, hired her as the head of its Committee on Women's Work.  Van Kleeck's pioneering research into the fields of artificial flower-making, millinery, and bookbinding, helped pass legislation limiting night work for female workers and led to an extension of van Kleeck's role at the Russell Sage Foundation.  Beginning in 1914, she taught at the New York School of Philanthropy and in the 1920s, at Smith College's School for Social Work.  In 1916, the Foundation's Committee of Women's Work expanded to create the Division of Industrial Studies, later renamed Department of Industrial Studies (DIS).  Mary van Kleeck was asked to serve as director of the new division, a title she would hold for over forty years, except for a brief period of time during World War I.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5190.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5190.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Mary van Kleeck on a city street, circa 1937</p></daodesc></dao>
          <p> As one of the most influential figures in women's employment, van Kleeck joined the Army's Ordinances Department in early 1918, creating standards for the employment of women in war industries.  She served on the War Labor Policies Board, and with strong backing from the Women's Trade Union League, she was named the director of the U.S. Department of Labor's Women in Industry Service, the precursor of the U.S. Women's Bureau.  Van Kleeck held the position only briefly, before handing it over to the assistant director, Mary Anderson, and returning to the Russell Sage Foundation in New York to care for her dying mother.  Although van Kleeck was slated to be the first director of the Women's Bureau, Mary Anderson took over van Kleeck's position before the official creation date of the Women's Bureau, and therefore Anderson became its first director.</p>
@@ -91,22 +92,22 @@
          <p> Mary van Kleeck fought hard for social insurance legislation during the 1930s.  In 1931 she and fellow members of the Taylor Society's Industrial Code Committee advocated a minimum living wage, a shorter work day and week, and unemployment insurance for industry in the United States.  Van Kleeck blamed the economic depression on the lack of coordination between supply and demand as well as inadequate care for laborers.  She supported the Wagner Employment Bill, which created the United States Employment Service, and worked on a New York state unemployment survey that helped connect the unemployed with businesses needing employees. While van Kleeck worked hard with government officials to bring about legislative remedies to economic problems, she did not hesitate to criticize government policies when she disagreed with them.  She resigned from the Labor Department's Federal Advisory Committee of the United States Employment Service in August 1933 after one day, citing her objections to New Deal policies that she believed interfered with workers' right to strike.</p>
          <p> In addition to working through government to promote social change, Mary van Kleeck served on the committees and boards of secular and religious humanitarian organizations such as the Church League for Industrial Democracy; the Episcopal League for Social Action; and Hospites, a refugee relocation organization that provided employment and financial assistance for social workers fleeing Nazi Germany in the 1930s. A lifelong Episcopalian, van Kleeck hoped that introducing Christian values into the workplace would solve much of industry's problems. Mary van Kleeck believed that she had a Christian duty to promote social change and that churches and church-based organizations should play a role in remediating struggles of the worker.</p>
          <p> Mary van Kleeck remained dedicated to the rights of workers in the mid-to-late 1930s.  Concern for workers' liberties led Mary van Kleeck to leadership roles in the American Civil Liberties Union (ACLU), where she served on the Board of Directors and several committees from 1935 until 1940 when a conflict with the board over membership requirements prompted her to resign.  A big supporter of trade unions, strikes and labor parties, she participated in a variety of ACLU activities, including opposing oaths of allegiance by schoolteachers in the mid 1930s.  In 1934 van Kleeck continued her pursue her interest in the status of mine workers, publishing Miners and Management: A Study of the Collective Agreement between the United Mine Workers of America and the Rocky Mountain Fuel Company.  Van Kleeck registered with the American Labor Party in 1936, impressed by its commitment to the protection of civil liberties and advocacy of social and economic planning.  That same year, van Kleeck published Creative America: Its Resources for Social Security, a treatise emphasizing the need for socio-economic planning in the U.S. In 1939 she fought the deportation of Frank Borisch, secretary of the National Miners' Union who was convicted of belonging to an organization that advocated the overthrow of the government.</p>
-         <p> Mary van Kleeck opposed the United States' entry into World War II, believing that the conflict was an imperialist endeavor.  Once it became clear that the United States would participate, however, van Kleeck urged women's participation at all levels of government administration.  She also advocated an expansion of the social security program.  She believed that post-war peace plans must include a worldwide defense of human rights.  Mary van Kleeck spent the rest of the decade encouraging community organization, nuclear disarmament, and the peacetime use of atomic energy.  In 1944 she co-authored with Mary F. Fledd&#233;rus, Technology and Livelihood, a report of the effect of technological innovations on employment and standards of living from World War I to the early 1940s.  In this report, van Kleeck maintained that innovation did not always improve one's livelihood; in fact, increased efficiency often increased unemployment or underemployment.  Therefore, she supported unions and welfare funds as a necessity to gain and maintain decent standards of living for workers.</p>
-         <p> In 1948, after her retirement, she supported Henry A. Wallace's campaign for president and unsuccessfully ran for the New York State Senate as the American Labor Party candidate. Because of her interactions with various organizations that had been declared subversive by the Attorney General Herbert Brownell, Jr., she was subpoenaed by Joseph McCarthy's Senate Permanent Subcommittee on Investigations of the Committee on Government Operations in 1953 and was denied a visa several times in the 1950s. Mary van Kleeck spent the last few decades of her life out of the public sphere with her close friend and colleague, Mary L. Fledd&#233;rus. Mary van Kleeck died on June 8, 1972, in Kingston, New York, of heart failure while undergoing surgery for a broken hip.</p>
+         <p> Mary van Kleeck opposed the United States' entry into World War II, believing that the conflict was an imperialist endeavor.  Once it became clear that the United States would participate, however, van Kleeck urged women's participation at all levels of government administration.  She also advocated an expansion of the social security program.  She believed that post-war peace plans must include a worldwide defense of human rights.  Mary van Kleeck spent the rest of the decade encouraging community organization, nuclear disarmament, and the peacetime use of atomic energy.  In 1944 she co-authored with Mary F. Fleddérus, Technology and Livelihood, a report of the effect of technological innovations on employment and standards of living from World War I to the early 1940s.  In this report, van Kleeck maintained that innovation did not always improve one's livelihood; in fact, increased efficiency often increased unemployment or underemployment.  Therefore, she supported unions and welfare funds as a necessity to gain and maintain decent standards of living for workers.</p>
+         <p> In 1948, after her retirement, she supported Henry A. Wallace's campaign for president and unsuccessfully ran for the New York State Senate as the American Labor Party candidate. Because of her interactions with various organizations that had been declared subversive by the Attorney General Herbert Brownell, Jr., she was subpoenaed by Joseph McCarthy's Senate Permanent Subcommittee on Investigations of the Committee on Government Operations in 1953 and was denied a visa several times in the 1950s. Mary van Kleeck spent the last few decades of her life out of the public sphere with her close friend and colleague, Mary L. Fleddérus. Mary van Kleeck died on June 8, 1972, in Kingston, New York, of heart failure while undergoing surgery for a broken hip.</p>
       </bioghist>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
 <p>The Mary van Kleeck Papers consist of nearly sixty-seven linear feet of material, dating from 1849 to 1998, and are primarily related to her professional and public life.  Types of material include biographical information and memorabilia, correspondence, speeches, writings, lectures, photographs, research notes, memoranda, reports, journal and newspaper articles, as well as organization and subject files.</p>
  
-<p>These papers are primarily composed of documents and materials produced by the professional and public activities of Mary van Kleeck, the bulk of which span the years from 1917 to 1960. They include relatively little about her personal life.  She spent several years organizing her papers, and the lack of biographical material was a deliberate choice.  Most of the biographical materials that are included in the collection have come from other sources-family members of van Kleeck and Mary L. Fledd&#233;rus, researchers (especially Guy Alchon), and the federal government through Freedom of Information Act (FOIA) requests made by Eleanor M. Lewis of the Sophia Smith Collection and researcher Guy Alchon.  </p>
+<p>These papers are primarily composed of documents and materials produced by the professional and public activities of Mary van Kleeck, the bulk of which span the years from 1917 to 1960. They include relatively little about her personal life.  She spent several years organizing her papers, and the lack of biographical material was a deliberate choice.  Most of the biographical materials that are included in the collection have come from other sources-family members of van Kleeck and Mary L. Fleddérus, researchers (especially Guy Alchon), and the federal government through Freedom of Information Act (FOIA) requests made by Eleanor M. Lewis of the Sophia Smith Collection and researcher Guy Alchon.  </p>
 	
 <p>Mary van Kleeck was involved in a wide variety of social, political and economic studies and organizations over the course of her lifetime, and she saved much of the correspondence, business, research, and printed materials related to her interests.  The papers offer a rich cache of information about a variety of subjects, people, and organizations in the first half of the twentieth century, especially radical/left groups, from the international to local level.  Her work at the Russell Sage Foundation and the International Industrial Relations Institute (IRI) compose the largest portions of the organizational records.  The internal workings of the Department of Industrial Studies of the Russell Sage Foundation, as well as the businesses and subjects van Kleeck researched there, are well-documented within this collection, especially those companies that formed the basis of the Foundation's landmark studies, such as Colorado Fuel and Iron Company, Dutchess Bleachery, Filene Store, Rock Island Arsenal, and the Rocky Mountain Fuel Company.  There is a wealth of information in the background research, field notes, correspondence, drafts, and final versions of the Russell Sage Foundation studies. Other subject areas are well-covered in the Foundation records,  including the hundreds of businesses studied regarding employee representation in the workplace and the effect of the National Recovery Administration on industry.  The records of the International Industrial Relations Institute include detailed notes, correspondence, subject files, speeches and debates from the many conferences and congresses that the organization held during van Kleeck's tenure, as well as materials related to the administration and publications of the IRI.</p>
 
-<p>Mary van Kleeck served on numerous boards and special committees, including the American Association of Social Workers, American Association of University Women, American Civil Liberties Union, National Woman's Party, Bryn Mawr Summer School for Student Workers, International Labor Office of the League of Nations, and the National Research Council.  The collection documents this work thoroughly.  There is a significant amount of material relating to Smith College, both during the years she spent as a student and her later service to the institution.  Other groups that are well-represented in the collection include the Young Women's Christian Association, the Women's Trade Union League, and Taylor Society.  Of particular interest is her work with Mary Anderson at the Women's Bureau in the Department of Labor, and with Mary Fledd&#233;rus at the International Industrial Relations Institute.</p> 
+<p>Mary van Kleeck served on numerous boards and special committees, including the American Association of Social Workers, American Association of University Women, American Civil Liberties Union, National Woman's Party, Bryn Mawr Summer School for Student Workers, International Labor Office of the League of Nations, and the National Research Council.  The collection documents this work thoroughly.  There is a significant amount of material relating to Smith College, both during the years she spent as a student and her later service to the institution.  Other groups that are well-represented in the collection include the Young Women's Christian Association, the Women's Trade Union League, and Taylor Society.  Of particular interest is her work with Mary Anderson at the Women's Bureau in the Department of Labor, and with Mary Fleddérus at the International Industrial Relations Institute.</p> 
 
 <p>In addition to organizational records, van Kleeck kept subject files on a wide variety of topics, especially U.S and international labor, protective legislation, trade unions, employer- employee relations, social research, social welfare, social work and social security, and the coal industry.  Other major subjects addressed throughout the collection include race relations, Christian socialism, peace, women's rights and the Equal Rights Amendment, social settlements, New Deal legislation and policies, the social and economic organization of the Soviet Union, unemployment, and employment during World War I and World War II.</p>  
 	
-<p>Significant correspondents include Mary Anderson, Susan B. Anthony II, Mary Beard, Elizabeth Christman, Eleanor Coit, Dorothy Douglas, Mary Fledd&#233;rus, Pauline Goldmark, Margaret Grierson, Alice Hamilton, John L. Lewis, Mabel Leslie, William Allan Neilson, Gifford Pinchot, Frances Perkins, Eleanor and Franklin D. Roosevelt, Rose Schneiderman, Florence Simms, William Spofford, M. Carey Thomas, Lillian Wald, and Max Yergan.</p>
+<p>Significant correspondents include Mary Anderson, Susan B. Anthony II, Mary Beard, Elizabeth Christman, Eleanor Coit, Dorothy Douglas, Mary Fleddérus, Pauline Goldmark, Margaret Grierson, Alice Hamilton, John L. Lewis, Mabel Leslie, William Allan Neilson, Gifford Pinchot, Frances Perkins, Eleanor and Franklin D. Roosevelt, Rose Schneiderman, Florence Simms, William Spofford, M. Carey Thomas, Lillian Wald, and Max Yergan.</p>
       </scopecontent>
       <arrangement encodinganalog="351$a" id="scope-org">
          <head>Organization of the Collection</head>
@@ -138,7 +139,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -231,7 +232,7 @@
          <persname encodinganalog="600" source="lcnaf">Wald, Lillian D., 1867-1940--Correspondence</persname>
          <persname encodinganalog="600" source="lcnaf">Yergan, Max--Correspondence</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -340,9 +341,9 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <head>Contents List</head>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS<unitdate>(1878-1985)</unitdate>
                </unittitle>
@@ -526,7 +527,7 @@
  <did>
  <container type="box">7</container>
  <container type="folder">10</container>
- <unittitle>Mary L. Fledd&#233;rus<unitdate> 1938-66</unitdate></unittitle>
+ <unittitle>Mary L. Fleddérus<unitdate> 1938-66</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -888,7 +889,7 @@
  <did>
  <container type="box">14</container>
  <container type="folder">14-15</container>
- <unittitle>Mary Fledd&#233;rus<unitdate> 1938-44, 1993-98</unitdate></unittitle>
+ <unittitle>Mary Fleddérus<unitdate> 1938-44, 1993-98</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -1223,7 +1224,7 @@
  <did>
  <container type="box">19</container>
  <container type="folder">7</container>
- <unittitle>Fledd&#233;rus, J. Dyck<unitdate> 1989</unitdate></unittitle>
+ <unittitle>Fleddérus, J. Dyck<unitdate> 1989</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1311,7 +1312,7 @@
  <did>
  <container type="box">19</container>
  <container type="folder">20</container>
- <unittitle>Fledd&#233;rus, J. Dyck<unitdate> 1989</unitdate></unittitle>
+ <unittitle>Fleddérus, J. Dyck<unitdate> 1989</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -1352,7 +1353,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE<unitdate>(1849-1981)</unitdate>
                </unittitle>
@@ -1703,7 +1704,7 @@
  <did>
  <container type="box">23</container>
  <container type="folder">27</container>
- <unittitle>Bru&#233;re, Henry, Department of Labor<unitdate> 1929-30</unitdate></unittitle>
+ <unittitle>Bruére, Henry, Department of Labor<unitdate> 1929-30</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2029,7 +2030,7 @@
  <did>
  <container type="box">24</container>
  <container type="folder">26</container>
- <unittitle>Emery, Andr&#233;e M.<unitdate> 1932</unitdate></unittitle>
+ <unittitle>Emery, Andrée M.<unitdate> 1932</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2086,7 +2087,7 @@
  </c03>
  <c03 id="list-fleddrus">
  <did>
- <unittitle>Fledd&#233;rus, Mary L.</unittitle>
+ <unittitle>Fleddérus, Mary L.</unittitle>
  </did>
  <c04>
  <did>
@@ -2734,7 +2735,7 @@
  <did>
  <container type="box">27</container>
  <container type="folder">17</container>
- <unittitle>L&#252;bbe, Erich<unitdate> 1928-29</unitdate></unittitle>
+ <unittitle>Lübbe, Erich<unitdate> 1928-29</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -3967,7 +3968,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS AND SPEECHES<unitdate>(1906-1961)</unitdate>
                </unittitle>
@@ -4029,7 +4030,7 @@
  <c03>
  <did>
  <container type="box">32</container>
- <unittitle><title render="italic"></title>4<title render="italic">Miners and Management: A Study of the Collective Agreement between the United Mine Workers of America and the Rocky Mountain Fuel Company</title><unitdate> 1934</unitdate></unittitle>
+ <unittitle><title render="italic"/>4<title render="italic">Miners and Management: A Study of the Collective Agreement between the United Mine Workers of America and the Rocky Mountain Fuel Company</title><unitdate> 1934</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -4164,7 +4165,7 @@
  <c03>
  <did>
  <container type="box">34</container>
- <unittitle>"Statement Prepared&#8230;for <title render="italic">Good Housekeeping Magazine</title>," <unitdate>23 Dec. 1918</unitdate></unittitle>
+ <unittitle>"Statement Prepared…for <title render="italic">Good Housekeeping Magazine</title>," <unitdate>23 Dec. 1918</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -4475,7 +4476,7 @@
  <c03>
  <did>
  <container type="box">34</container>
- <unittitle>"Beziehungen Zwischen Sozialer Forschung und Sozialer Arbeit in den Vereinigten Staaten," <title render="italic">Sl&#228;tter des Deutschen Roten Kreuzes</title><unitdate> 1928</unitdate></unittitle>
+ <unittitle>"Beziehungen Zwischen Sozialer Forschung und Sozialer Arbeit in den Vereinigten Staaten," <title render="italic">Slätter des Deutschen Roten Kreuzes</title><unitdate> 1928</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -4518,7 +4519,7 @@
  <did>
  <container type="box">34</container>
  <container type="folder">9</container>
- <unittitle>"Die Weltwirtschaftliche Grundlegung f&#252;r Bestgestaltung der Arbeit in Betrieben," <title render="italic">Neue Nachbarschaft, </title><unitdate>Jan. 1930</unitdate></unittitle>
+ <unittitle>"Die Weltwirtschaftliche Grundlegung für Bestgestaltung der Arbeit in Betrieben," <title render="italic">Neue Nachbarschaft, </title><unitdate>Jan. 1930</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -4591,7 +4592,7 @@
  <c03>
  <did>
  <container type="box">34</container>
- <unittitle>Le Congr&#232;s D'Am&#233;nagement &#201;conomique et Social, <title render="italic">Bulletin International du Service Social</title><unitdate>Dec. 1931</unitdate></unittitle>
+ <unittitle>Le Congrès D'Aménagement Économique et Social, <title render="italic">Bulletin International du Service Social</title><unitdate>Dec. 1931</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -4806,7 +4807,7 @@
  <c03>
  <did>
  <container type="box">35</container>
- <unittitle>"I am Supporting the American Labor Party&#8230;," [written for <title render="italic">The New Republic</title>]<unitdate>21 Oct. 1936</unitdate></unittitle>
+ <unittitle>"I am Supporting the American Labor Party…," [written for <title render="italic">The New Republic</title>]<unitdate>21 Oct. 1936</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -6449,7 +6450,7 @@
  <c03>
  <did>
  <container type="box">37</container>
- <unittitle>"Closing remarks," notes, National Defense Management Conference, Washington, DC, 15 Nov. 1940; printed, "Closure-Responsibility of Management Engineers in National Defense," <title render="italic">Management and Defense: Proceedings&#8230;</title><unitdate>Nov. 1940</unitdate></unittitle>
+ <unittitle>"Closing remarks," notes, National Defense Management Conference, Washington, DC, 15 Nov. 1940; printed, "Closure-Responsibility of Management Engineers in National Defense," <title render="italic">Management and Defense: Proceedings…</title><unitdate>Nov. 1940</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -6662,7 +6663,7 @@
  <c03>
  <did>
  <container type="box">38</container>
- <unittitle>"World Production for Living Standards," dialogue with Mary Fledd&#233;rus, Labor Day Conference of World Fellowship, Inc., Conway, NH<unitdate>4 Sept. 1944</unitdate></unittitle>
+ <unittitle>"World Production for Living Standards," dialogue with Mary Fleddérus, Labor Day Conference of World Fellowship, Inc., Conway, NH<unitdate>4 Sept. 1944</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -7439,7 +7440,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. SUBJECT FILES<unitdate>(1900-1961)</unitdate>
                </unittitle>
@@ -9462,7 +9463,7 @@
  <note>
  <p>[see also
  <ref target="list-ser1">SERIES I. BIOGRAPHICAL MATERIALS--Personal history--Passport application</ref>;
- <ref target="list-fleddrus">SERIES II-. CORRESPONDENCE--Mary Fledd&#233;rus</ref>]</p>
+ <ref target="list-fleddrus">SERIES II-. CORRESPONDENCE--Mary Fleddérus</ref>]</p>
  </note>
  </did>
  </c02>
@@ -9559,7 +9560,7 @@
  <did>
  <container type="box">60</container>
  <container type="folder">16</container>
- <unittitle>B&#246;hme, Dr. Hildegard<unitdate> 1939-45</unitdate></unittitle>
+ <unittitle>Böhme, Dr. Hildegard<unitdate> 1939-45</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -9580,7 +9581,7 @@
  <did>
  <container type="box">60</container>
  <container type="folder">19</container>
- <unittitle>Kuczynski, Dr. J&#252;rgen<unitdate> 1935-44</unitdate></unittitle>
+ <unittitle>Kuczynski, Dr. Jürgen<unitdate> 1935-44</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -10065,7 +10066,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. ORGANIZATION AND CONFERENCE FILES <unitdate>(1897-1961)</unitdate>
                </unittitle>
@@ -11255,7 +11256,7 @@
  <did>
  <container type="box">73</container>
  <container type="folder">21</container>
- <unittitle>Mary Fledd&#233;rus, <title render="italic">International Unemployment</title><unitdate> 1932-33</unitdate></unittitle>
+ <unittitle>Mary Fleddérus, <title render="italic">International Unemployment</title><unitdate> 1932-33</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -11269,14 +11270,14 @@
  <did>
  <container type="box">74</container>
  <container type="folder">1</container>
- <unittitle>K. L&#248;nberg-Holm and C. Theodore Larson, <title render="italic">Design for Increasing Productivity</title><unitdate> 1939-40</unitdate></unittitle>
+ <unittitle>K. Lønberg-Holm and C. Theodore Larson, <title render="italic">Design for Increasing Productivity</title><unitdate> 1939-40</unitdate></unittitle>
  </did>
  </c04>
  <c04>
  <did>
  <container type="box">74</container>
  <container type="folder">2</container>
- <unittitle>Mary van Kleeck and Mary Fledd&#233;rus, <title render="italic">On Economic Planning</title><unitdate> 1935-37</unitdate></unittitle>
+ <unittitle>Mary van Kleeck and Mary Fleddérus, <title render="italic">On Economic Planning</title><unitdate> 1935-37</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -15342,7 +15343,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. BOOKS FROM VAN KLEECK'S LIBRARY<unitdate>(1912-1961)</unitdate>
                </unittitle>
@@ -15354,281 +15355,280 @@
  <unittitle>Supplementary information</unittitle>
  </did>
  </c02>
- </c01>
- <c01>
+ <c02>
  <did>
  <unittitle>On shelf</unittitle>
  </did>
- <c02>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Alfred, Helen, <title render="italic">Public Ownership in the U.S.A.</title><unitdate> 1961</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">America's Interests after the European War</title><unitdate> 1915</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>American Association for the Advancement of Science, <title render="italic">Summarized Proceedings, 1934-40</title></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
- <unittitle><title render="italic">Amerikareise deutscher Gewerkschaftsf&#252;hrer</title><unitdate> 1926</unitdate></unittitle>
+ <unittitle><title render="italic">Amerikareise deutscher Gewerkschaftsführer</title><unitdate> 1926</unitdate></unittitle>
  </did>
- </c02>
+ </c03>
  <c02>
  <did>
  <container type="box">111</container>
  <unittitle>Bingham, Alfred M. and Selden Rodman, eds., <title render="italic">Challenge to the New Deal</title><unitdate> 1934</unitdate></unittitle>
  </did>
  </c02>
- <c02>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Bloch, Louis, <title render="italic">Labor Agreements in Coal Mines</title><unitdate> 1931</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Charity Organization Bulletin</title><unitdate> 1911-12</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Congressional Hearings on Social Insurance 1935: H.R. 2827</title></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Cordell, William H. and Kathryn Coe Cordell, <title render="italic">American Points of View, 1935</title><unitdate>1936</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Ferris, Helen, and Virginia Moore, <title render="italic">Girls Who Did: Stories of Real Girls and their Careers</title><unitdate> 1927</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Friedman, Elisha M., <title render="italic">America and the New Era: A Symposium on Social Reconstruction</title><unitdate> 1920</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Glenn, John M., Lilian Brandt, and F. Emerson Andrews, <title render="italic">Russell Sage Foundation, 1907-46</title>, 2 vols.<unitdate>1947</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Hewes, Amy and Henriette Walter, <title render="italic">Munition Makers</title><unitdate> 1917</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Hurlin, Ralph G., and William A. Berridge, eds., <title render="italic">Employment Statistics for the United States</title><unitdate> 1926</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Johnson, Charles S., ed., <title render="italic">Ebony and Topaz : A Collectanea</title><unitdate> 1927</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>--------. <title render="italic">The Negro in American Civilization: A Study of Negro Life and Race Relations in the Light of Social Research</title><unitdate> 1930</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>La Dame, Mary, <title render="italic">Securing Employment for the Handicapped</title><unitdate> 1927</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>--------. <title render="italic">The Filene Store: A Study of Employes' Relation to Management in a Retail Store</title><unitdate> 1930</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Loeb, Harold, <title render="italic">Full Production Without War, </title><unitdate>1946</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
- <unittitle>L&#246;nberg-Holm, K., and C. Theodore Larson, <title render="italic">Planning for Productivity</title><unitdate> 1940</unitdate></unittitle>
+ <unittitle>Lönberg-Holm, K., and C. Theodore Larson, <title render="italic">Planning for Productivity</title><unitdate> 1940</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>National Commission on Law Observance and Enforcement, <title render="italic">Reports: The Causes of Crime</title><unitdate> 1931</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Nevins, Allan, <title render="italic">Henry White: Thirty Years of American Diplomacy, </title><unitdate>1930</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Odencrantz, Louise C., <title render="italic">Italian Women in Industry</title><unitdate> 1919</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Page, Kirby, ed., <title render="italic">Recent Gains in American Civilization</title><unitdate> 1928</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Peters, Clarence A., comp., <title render="italic">American Capitalism vs. Russian Communism</title><unitdate> 1946</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Proceedings of the Conference on Canadian-American Affairs</title><unitdate> 1937</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Proceedings of the Industrial Relations Association of America</title><unitdate> 1920</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Proceedings of the National Conference of Social Work</title><unitdate> 1924, 1934, 1935, 1940, 1946, 1948</unitdate></unittitle>
  </did>
- </c02>
- <c02 id="list-nysc">
+ </c03>
+ <c03 id="list-nysc">
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Proceedings of the New York State Conference of Charities and Correction</title><unitdate> 1916</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Rational Organization and Industrial Relations: A Symposium of Views from Management, Labour, and the Social Sciences</title><unitdate> 1929</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Report of the First International Conference of Industrial Welfare Workers, </title><unitdate>1922</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
- <unittitle><title render="italic">Report of First Triennial Congress&#8230;on the Subject of Fundamental Relationships between all Sections of the Industrial Community, </title>2 vols<unitdate> 1928</unitdate></unittitle>
+ <unittitle><title render="italic">Report of First Triennial Congress…on the Subject of Fundamental Relationships between all Sections of the Industrial Community, </title>2 vols<unitdate> 1928</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <unittitle><title render="italic">Russell Sage Foundation Industrial Studies Pamphlets 1-7</title><unitdate> 1914-22:</unitdate></unittitle>
  </did>
- <c03>
+ <c04>
  <did>
  <container type="box">111</container>
  <unittitle>"Industrial Investigations of the Russell Sage Foundation,"<unitdate>1916</unitdate></unittitle>
  </did>
- </c03>
- <c03>
+ </c04>
+ <c04>
  <did>
  <container type="box">111</container>
  <unittitle>"Investigations of Industries in New York City, 1905-15," <unitdate>1916</unitdate></unittitle>
  </did>
- </c03>
- <c03>
+ </c04>
+ <c04>
  <did>
  <container type="box">111</container>
  <unittitle>"Wages in the Millinery Trade,"<unitdate> 1914</unitdate></unittitle>
  </did>
- </c03>
- <c03>
+ </c04>
+ <c04>
  <did>
  <container type="box">111</container>
  <unittitle>"Women as Munition Makers,"<unitdate>1917</unitdate></unittitle>
  </did>
- </c03>
- <c03>
+ </c04>
+ <c04>
  <did>
  <container type="box">111</container>
  <unittitle>"Industrial Disputes and the Canadian Act,"<unitdate> 1917</unitdate></unittitle>
  </did>
- </c03>
- <c03>
+ </c04>
+ <c04>
  <did>
  <container type="box">111</container>
  <unittitle>"Munition Workers in England and France,"<unitdate> 1917</unitdate></unittitle>
  </did>
- </c03>
- <c03>
+ </c04>
+ <c04>
  <did>
  <container type="box">111</container>
  <unittitle>The Coal Miners' Insecurity,"<unitdate> 1922</unitdate></unittitle>
  </did>
+ </c04> 
  </c03>
- </c02>
- <c02>
+ <c03>
  <did>
  <container type="box">111</container>
- <unittitle>Schrader, Karl and Franz Josef Furtw&#228;ngler, <title render="italic">Das Werkt&#228;tige Indien: Sein Werden und sein Kampf</title><unitdate> 1928</unitdate></unittitle>
+ <unittitle>Schrader, Karl and Franz Josef Furtwängler, <title render="italic">Das Werktätige Indien: Sein Werden und sein Kampf</title><unitdate> 1928</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Second International Conference of Social Work</title><unitdate> 1933</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Selekman, Ben, <title render="italic">Employes' Representation in Steel Works</title><unitdate> 1924</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>--------. <title render="italic">Sharing Management with the Workers</title>: <title render="italic">A Study of the Partnership Plan of the Dutchess Bleachery, Wappingers Falls, New York</title><unitdate> 1924</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>--------. <title render="italic">Postponing Strikes</title><unitdate> 1927</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Seventeenth New York State Conference on Charities and Correction</title>, Poughkeepsie<unitdate> 1916 </unitdate></unittitle>
@@ -15637,69 +15637,70 @@
  <ref target="list-nysc">[see <title render="italic">Proceedings of the New York State Conference of Charities and Correction</title>, 1916]</ref></p>
  </note>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Social Work Yearbook 1929</title></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle><title render="italic">Toward Interracial Cooperation: What was said and done at the first National Interracial Conference, held under the auspices of the Commission on the Church and Race Relations of the Federal Council of the Churches and the Commission on Inter-racial Cooperation, Cincinnati, Ohio</title><unitdate>Mar. 25-27, 1925.</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Ward, Henry F., and Richard Henry Edwards, <title render="italic">Christianizing Community Life</title><unitdate> 1917</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>Wieck Edward A., <title render="italic">The American Miners' Association: A Record of the Origin of Coal Miners' Unions in the United States</title><unitdate> 1940</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>--------. <title render="italic">Preventing Fatal Explosions in Coal Mines</title><unitdate> 1942</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>--------. "The Miners' Case and the Public Interest,"<unitdate> 1947</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>World Social Economic Congress, <title render="italic">International Employment: A Study of Fluctuations in Employment and Unemployment in Several Countries, 1910-30</title><unitdate> 1931</unitdate> (2 copies)</unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>World Economic Conference, <title render="italic">World Social Economic Planning: The Necessity for Planned Adjustment of Productive Capacity and Standards of Living, </title><unitdate>1931</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>World Economic Conference, <title render="italic">World Social Economic Planning: The Necessity for Planned Adjustment of Productive Capacity and Standards of Living, Addendum, </title><unitdate>1931</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">111</container>
  <unittitle>World Power Conference, <title render="italic">Power Resources of the World (Potential and Developed)</title><unitdate> 1929</unitdate></unittitle>
  </did>
- </c02>
+ </c03>
+	 </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. AUDIOVISUAL MATERIALS [Advance notice is required to hear or view materials without a use copy.]<unitdate>(1929-1999)</unitdate>
                </unittitle>
@@ -15711,7 +15712,7 @@
  <c03>
  <did>
  <container type="box">112-114</container>
- <unittitle>J. Dyck Fledd&#233;rus<unitdate>24 Feb 1989, </unitdate>New York City (6 audiocassettes-3 masters and 3 use copies)</unittitle>
+ <unittitle>J. Dyck Fleddérus<unitdate>24 Feb 1989, </unitdate>New York City (6 audiocassettes-3 masters and 3 use copies)</unittitle>
  <note>
  <p>
  <ref target="list-recol">[see also SERIES I. BIOGRAPHICAL MATERIALS--Recollections and interviews]</ref></p>
@@ -15783,7 +15784,7 @@
  <c03>
  <did>
  <container type="box">112-114</container>
- <unittitle>J. Dyck Fledd&#233;rus, Eleanor Flexner and Caroline Ware<unitdate>Jun 1989, </unitdate>telephone interviews (2 audiocassettes-1 master and 1 use copy)</unittitle>
+ <unittitle>J. Dyck Fleddérus, Eleanor Flexner and Caroline Ware<unitdate>Jun 1989, </unitdate>telephone interviews (2 audiocassettes-1 master and 1 use copy)</unittitle>
  </did>
  </c03>
  <c03>
@@ -16021,7 +16022,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -16336,7 +16337,7 @@
  <c03>
  <did>
  <container type="box">126</container>
- <unittitle>Mary van Kleeck, Mary Fl&#233;dderus, and others riding down into the Grand Canyon<unitdate>n.d.</unitdate></unittitle>
+ <unittitle>Mary van Kleeck, Mary Flédderus, and others riding down into the Grand Canyon<unitdate>n.d.</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -16552,7 +16553,7 @@
  <c02>
  <did>
  <container type="box">126</container>
- <unittitle>Textile Industry: "Average Number of Wage-Earners in Cotton Goods Industry&#8230;1914 vs. 1919," <unitdate>1920</unitdate></unittitle>
+ <unittitle>Textile Industry: "Average Number of Wage-Earners in Cotton Goods Industry…1914 vs. 1919," <unitdate>1920</unitdate></unittitle>
  </did>
  </c02>
  <c02>

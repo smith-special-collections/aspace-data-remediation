@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss325.html">mnsss325</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss325.html">mnsss325</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Betsko-Koenig Women Playwrights Collection, 1955-1990</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss325.html">mnsss32
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -39,22 +38,21 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss325.html">mnsss32
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
  <did id="main">
  	<head>Collection Overview</head>
-   <unittitle label="Title:" encodinganalog="245$a">Betsko-Koenig Women Playwrights
+   <unittitle encodinganalog="245$a" label="Title:">Betsko-Koenig Women Playwrights
 Collection</unittitle><unitdate label="Dates:">1955-1990</unitdate>
 
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 427</unitid>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 427</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">8 boxes</extent>
           <extent encodinganalog="300$a">(8 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -66,7 +64,7 @@ Collection</unittitle><unitdate label="Dates:">1955-1990</unitdate>
             </address>
          </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Source material for book, <title render="italic">Interviews with Contemporary Women Playwrights</title> compiled by Kathleen Betsko and Rachel Koenig (1987), featuring thirty women playwrights, including Rosalyn Drexler, Beth Henley, Marsha Norman, Ntozake Shange, Megan Terry, and Kathleen Betsko. Materials include audio tapes, edited and unedited interview transcripts, biographical materials, play scripts, reviews, programs, correspondence, and photographs. 
+      <abstract encodinganalog="520$a" label="Abstract:">Source material for book, <title render="italic">Interviews with Contemporary Women Playwrights</title> compiled by Kathleen Betsko and Rachel Koenig (1987), featuring thirty women playwrights, including Rosalyn Drexler, Beth Henley, Marsha Norman, Ntozake Shange, Megan Terry, and Kathleen Betsko. Materials include audio tapes, edited and unedited interview transcripts, biographical materials, play scripts, reviews, programs, correspondence, and photographs. 
     </abstract>
 </did>
 
@@ -75,7 +73,7 @@ Collection</unittitle><unitdate label="Dates:">1955-1990</unitdate>
        <p>The Betsko-Koenig Women Playwrights Collection consists of 8 linear feet of audio tapes, edited and unedited transcripts, and related material on 30 women playwrights. The edited transcripts were published as <title render="italic">Interviews with Contemporary Women Playwrights</title> compiled by Kathleen Betsko and Rachel Koenig (Beech Tree Books, 1987). The inclusive dates are 1955 to 1986. The papers are arranged by individual playwright including co-author Kathleen Betsko. The authors collected related material, which includes plays, reviews, clippings, other interviews, programs, flyers, and correspondence. All related material follows each transcript. Material specifically related to the publication of the book, including photographs of the subjects, is located with Kathleen Betsko's file. The audio tapes and those transcripts that are closed to research have been separated and are in the first and last boxes, respectively.</p>
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -122,7 +120,7 @@ be obtained from the Sophia Smith Collection as owners of the physical property.
     <title encodinganalog="630" source="lcsh">Interviews With Contemporary Women Playwrights. compiled by Kathleen Betsko and Rachel Koenig(1987)--Sources</title> 
  </controlaccess>
 <!-- INSERT CONTAINER LIST HERE -->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <head>Contents List</head>
  <c01>
  <did>
@@ -2019,5 +2017,4 @@ be obtained from the Sophia Smith Collection as owners of the physical property.
 </dsc>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

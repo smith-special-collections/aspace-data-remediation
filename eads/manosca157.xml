@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca157.html">manosca157</eadid>
 
@@ -14,7 +15,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2006</date>
+<date>© 2006</date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -36,7 +37,7 @@
 <num>RG 42</num> 
 <author>Melvin Carlson, Jr.</author> 
 <date>2005</date> 
-<p>&#x00A9; 2006 Smith College. All rights reserved.</p> 
+<p>© 2006 Smith College. All rights reserved.</p> 
 </titlepage> 
 </frontmatter> 
 
@@ -44,17 +45,17 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<persname source="lcnaf" encodinganalog="100 1">Kennedy, Ruth Lee, 1895-</persname>
+<persname encodinganalog="100 1" source="lcnaf">Kennedy, Ruth Lee, 1895-</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Ruth Lee Kennedy Papers</unittitle><unitdate label="Dates:">1900-1988</unitdate>
-<unitdate type="bulk" encodinganalog="245$g">1930-1988</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Ruth Lee Kennedy Papers</unittitle><unitdate label="Dates:">1900-1988</unitdate>
+<unitdate encodinganalog="245$g" type="bulk">1930-1988</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:ef2e971b-c278-4e12-99bb-17f2defdde21</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">4 boxes</extent>
 <extent encodinganalog="300$a">(3 linear ft.)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -88,7 +89,7 @@ The papers of Ruth Lee Kennedy contain papers related to her career at Smith Col
 
 <scopecontent id="scope">
 <head>Scope and Contents of the Collection</head>
-<p>The Ruth Lee Kennedy papers contain biographical materials, some items from her youth and early years as a teacher of Spanish literature and language and portraits and photographs of Kennedy and her family.  There are extensive files of correspondence received by Professor Kennedy related to her professional activities among Spanish literature scholars in the United States and Europe as well as from other academicians.  There are a few letters of Professor Kennedy's.  Correspondents include, but are not limited to: Maria Araujo-Fernandez, Jamie Asensio, J. B. Avalle-Arce, Hannah E. Bergman, Alice H. Bushee, John Brooks, Courtney Bruerton, James A. Castaneda, Jill Ker Conway, J. P. Wickersham Crawford, William J. Entwistle, William L. Fichter, Robert A. Folchi, Otis H. Green, Guillermo Guastavino,   John Hull, Lloyd Kasten, L. Klaiber, Irving A. Leonard, George E. McSpadden, G. Mara&#241;&#243;n, Thomas C. Mendenhall, Sylvanus Griswold Morley,  Joaquina Navarro, Emilio Navarro Sanz,  Tomas Navarro Tomas, Jack H. Parker, Manuel Penedo Rey, Agapito Rey,  Miguel Romera Navarro, Nina Scott, Lesley B. Simpson, Gerald Wade, Bruce W. Wardropper, Margaret Wilson and Maria Eugenia Zornoga de Marques.  The correspondence is arranged by date.</p>  
+<p>The Ruth Lee Kennedy papers contain biographical materials, some items from her youth and early years as a teacher of Spanish literature and language and portraits and photographs of Kennedy and her family.  There are extensive files of correspondence received by Professor Kennedy related to her professional activities among Spanish literature scholars in the United States and Europe as well as from other academicians.  There are a few letters of Professor Kennedy's.  Correspondents include, but are not limited to: Maria Araujo-Fernandez, Jamie Asensio, J. B. Avalle-Arce, Hannah E. Bergman, Alice H. Bushee, John Brooks, Courtney Bruerton, James A. Castaneda, Jill Ker Conway, J. P. Wickersham Crawford, William J. Entwistle, William L. Fichter, Robert A. Folchi, Otis H. Green, Guillermo Guastavino,   John Hull, Lloyd Kasten, L. Klaiber, Irving A. Leonard, George E. McSpadden, G. Marañón, Thomas C. Mendenhall, Sylvanus Griswold Morley,  Joaquina Navarro, Emilio Navarro Sanz,  Tomas Navarro Tomas, Jack H. Parker, Manuel Penedo Rey, Agapito Rey,  Miguel Romera Navarro, Nina Scott, Lesley B. Simpson, Gerald Wade, Bruce W. Wardropper, Margaret Wilson and Maria Eugenia Zornoga de Marques.  The correspondence is arranged by date.</p>  
 
 <p>The papers also include lecture and research notes.  Professor Kennedy's notes are usually written in pencil in very small handwritten letters on small pieces of paper and assembled in small bundles-the back of an envelope, half sheets of letter sized paper or other small sheets.  Often the content of a given group of papers is unclear; an anonymous individual has very helpfully identified many of the bundles of papers with precise notes as to the content of a particular bundle. The lecture and research notes are arranged in very broad subject topics that in no way limit the contents of the file.</p>
 
@@ -165,8 +166,8 @@ The papers are arranged in the following series:
 
 
 
-<dsc type="in-depth" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>Series I: General</unittitle>
 </did>
@@ -327,7 +328,7 @@ The papers are arranged in the following series:
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>Series II: Photographs</unittitle>
 </did>
@@ -470,7 +471,7 @@ The papers are arranged in the following series:
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>Series III: Correspondence</unittitle>
 </did>
@@ -799,7 +800,7 @@ The papers are arranged in the following series:
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>Series IV: Publications</unittitle>
 </did>
@@ -1174,7 +1175,7 @@ The papers are arranged in the following series:
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>Series V: Lecture and Research Notes, including related teaching activities</unittitle>
 </did>
@@ -1330,5 +1331,3 @@ The papers are arranged in the following series:
 
 </archdesc>
 </ead>
-
-

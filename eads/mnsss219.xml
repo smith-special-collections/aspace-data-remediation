@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss219.html">mnsss219</eadid>
     <filedesc>
       <titlestmt>
@@ -35,7 +36,7 @@
 
    <date encodinganalog="260$c">2007</date>
    
-       <p>&#169; 2007 Smith College. All rights reserved.</p>
+       <p>© 2007 Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -44,14 +45,13 @@
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Bryant, Louise Stevens, 1885-1956</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Louise Stevens Bryant Papers</unittitle><unitdate label="Dates:">1885-1963</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 24</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Louise Stevens Bryant Papers</unittitle><unitdate label="Dates:">1885-1963</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 24</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">14 boxes; 14 volumes</extent>
           <extent encodinganalog="300$a">(7 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -64,12 +64,12 @@
             </repository>
 
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Public health specialist; Editor; Publicist. Papers contain Bryant's diaries, notebooks, and professional reports concerning public health and social work issues; subject files; and correspondence from Havelock Ellis and others generated from Bryant's work arranging the U.S. publication of Ellis's <title render="italic">Studies in the Psychology of Sex</title>. Thre is also a typescript biography of Bryant written by her companion, Lura Beam, and excerpts from their correspondence. 
+      <abstract encodinganalog="520$a" label="Abstract:">Public health specialist; Editor; Publicist. Papers contain Bryant's diaries, notebooks, and professional reports concerning public health and social work issues; subject files; and correspondence from Havelock Ellis and others generated from Bryant's work arranging the U.S. publication of Ellis's <title render="italic">Studies in the Psychology of Sex</title>. Thre is also a typescript biography of Bryant written by her companion, Lura Beam, and excerpts from their correspondence. 
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6327.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6327.jpg" linktype="simple" show="embed">
 <daodesc><p>Louise Stevens Bryants' publicity <lb />photo for Girl Scouts, 1919-23</p></daodesc></dao> 
        <p>Public health specialist, editor, and publicist Louise Stevens Bryant (1885-1956) received a B.S. from Smith College in 1908 and a PhD in Medical Science from the University of Pennsylvania.  She promoted dispensary development and edited a pioneer medical study and publicity program in the field of human fertility.  She was associated at various times with the Russell Sage Foundation, the Girl Scouts of America, the Pennsylvania School for Social Service and Health, and the War Industries Board.  She was the American representative of Havelock Ellis and wrote books and many articles on applied psychology and maternal health.  She was the editor and publicist of the United Hospital Fund and National Committee on Maternal Health, New York City, from 1923 to 1937, and publicist for the American Association of University Women from 1938 to 1952.  Her other interests included art, poetry, and animals.  In 1909, she married Arthur Bryant, whom she divorced in 1912. Her longtime companion was Lura Beam.</p>
 </bioghist>
@@ -78,7 +78,7 @@
        <p>The Louise Stevens Bryant Papers consist of personal and professional material. They include a typescript of <title render="italic">Bequest from a Life</title> (privately printed), a biography of Bryant written by her companion, Lura Beam, and excerpts from correspondence to Beam from Bryant. The collection also contains Bryant's diaries, notebooks, and professional reports concerning public health and social work issues; subject files; and correspondence, including letters from Havelock Ellis and others generated from Bryant's work negotiating the U.S. publication of Ellis's Studies in the Psychology of Sex."  There is related material about Louise Stevens Bryant in the Smith College Archives.  The Lura Beam Papers are housed in the Schlesinger Library at Harvard University.  </p>
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -110,7 +110,7 @@
 
 
 <!-- Enter administrative information -->
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -158,8 +158,8 @@ Northampton, Mass.</p>
     <persname encodinganalog="600" source="lcnaf">Ellis, Havelock, 1859-1939</persname> 
     <persname encodinganalog="700" source="lcnaf">Beam, Lura Ella, 1887-</persname> 
  </controlaccess>
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -435,7 +435,7 @@ Northampton, Mass.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. PERSONAL ACTIVITIES</unittitle>
  </did>
@@ -579,7 +579,7 @@ Northampton, Mass.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. CORRESPONDENCE</unittitle>
  </did>
@@ -897,7 +897,7 @@ Northampton, Mass.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. PROFESSIONAL ACTIVITIES</unittitle>
  </did>
@@ -1296,7 +1296,7 @@ Northampton, Mass.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -1313,7 +1313,7 @@ Northampton, Mass.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serBks">
+ <c01 id="list-serBks" level="series">
  <did>
  <unittitle>BOOKS ON SHELF</unittitle>
  </did>
@@ -1401,5 +1401,4 @@ Northampton, Mass.</p>
 </dsc>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

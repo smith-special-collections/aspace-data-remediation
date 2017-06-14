@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss465.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss465</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss465.xml//EN">mnsss465</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Ann Hartman Papers, 1975-1998 (ongoing)</titleproper>
@@ -35,16 +36,16 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Hartman, Ann</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Ann Hartman Papers</unittitle><unitdate type="inclusive" label="Dates:">1975-1998 (ongoing)</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Ann Hartman Papers</unittitle><unitdate label="Dates:" type="inclusive">1975-1998 (ongoing)</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 289</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 289</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">15 boxes</extent>
         <extent encodinganalog="300$a">(17 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +56,7 @@
             </address>
          </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Dean, Smith College School for Social Work; Professor, social work; Political activist; Editor. The Ann Hartman Papers consist of professional papers, including activities in professional organizations as editor for the journal Social Work and secretary for the National Association of Social Workers; course material from Smith and the University of Michigan; published writings and miscellaneous research files, including interview tapes for College Settlement House research; correspondence from the University of Michigan, 1975-82; and social work books, including Florence Hollis publications. Biographical information includes an oral history transcript.
  
                  </abstract>

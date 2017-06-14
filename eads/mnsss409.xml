@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss409.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss409</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss409.xml//EN">mnsss409</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Gladys Gilkey Calkins Papers, 1895-1988</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Calkins, Gladys Gilkey</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Calkins, Gladys Gilkey</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Gladys Gilkey Calkins Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1895-1988</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Gladys Gilkey Calkins Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1895-1988</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 598</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 598</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">2 boxes</extent>
 		<extent encodinganalog="300$a">(.75 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -61,11 +62,11 @@
 	<head>Biographical Note</head>
 	<p>Gladys Fay Gilkey was born November 25, 1897, in Watertown, Massachusetts, to James Henry and Mary (Johnson) Gilkey.  Her two brothers, Charles W. Gilkey and James Gordon Gilkey , were both "distinguished" clergymen.  Gilkey's father left his job in a bank to join the "back to the land" movement, relocating the family to a farm in Ithaca, New York.  Ultimately unsuccessful in this venture, he went to work in the treasurer's office at Cornell University.</p>
 
-<p>After high school in Ithaca, Gladys studied for a year at the University of  Chicago in 1916, then transferred to Cornell.  Gilkey's long association with the YWCA began there when the Student YWCA Secretary encouraged her to attend  a Summer Student Conference at Silver Bay in 1917.  "Not only was I exposed to new acquaintances&#8230;but to the stimulus of exchanging ideas in lively, open discussion groups!  From then on discussion groups and conferences on women's concerns were a continuing part of my days&#8230;."</p>
+<p>After high school in Ithaca, Gladys studied for a year at the University of  Chicago in 1916, then transferred to Cornell.  Gilkey's long association with the YWCA began there when the Student YWCA Secretary encouraged her to attend  a Summer Student Conference at Silver Bay in 1917.  "Not only was I exposed to new acquaintances…but to the stimulus of exchanging ideas in lively, open discussion groups!  From then on discussion groups and conferences on women's concerns were a continuing part of my days…."</p>
 
 <p>After earning her AB in 1919, Gilkey taught history for a year at Ithaca High School, a job she was required to resign after she married James Birdsall Calkins on July 20, 1920.  The couple had three daughters, Fay, Harriet, and Gladys.  During her early marriage, Gladys volunteered in the Boston and Rochester YWCAs.  She also served on national YWCA committees, such as those planning the 1932, 1934, and 1936 Conventions, and the Leadership Committee (1936-41).</p>
 
-<p>Birdsall lost his job as a "development engineer" in 1932 and, unable to find work during the height of the Great Depression, the family pulled its savings out of their bank (just before it failed) and went to Europe for six months.  "We came back...with a few pennies left, [and] our world immeasurably widened&#8230;.  Somewhere along the way we had become staunch Democrats."</p> 
+<p>Birdsall lost his job as a "development engineer" in 1932 and, unable to find work during the height of the Great Depression, the family pulled its savings out of their bank (just before it failed) and went to Europe for six months.  "We came back...with a few pennies left, [and] our world immeasurably widened….  Somewhere along the way we had become staunch Democrats."</p> 
 
 <p>With Birdsall still unable to find work, Gladys got a part-time job at the Rochester (New York) General Hospital School of Nursing, 1934-36, as a student counselor.   Gladys was elected to the YWCA National Board in 1936 and served two terms, including a term as President, 1943-49. </p> 
 
@@ -147,7 +148,7 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <unittitle>Biographical materials</unittitle>
@@ -298,5 +299,3 @@
 
   </archdesc>
 </ead>
-
-

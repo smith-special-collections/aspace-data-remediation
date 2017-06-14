@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss36.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss36</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss36.xml//EN">mnsss36</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Helen Paull Kirkpatrick Papers, 1930-1998
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Kirkpatrick, Helen Paull</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Helen Paull Kirkpatrick Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1930 - 1998</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Helen Paull Kirkpatrick Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1930 - 1998</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 103</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 103</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">13 boxes</extent>
             <extent encodinganalog="300$a">(5 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Journalist. The Kirkpatrick papers include extensive correspondence to her family while serving as a foreign correspondent in Europe.  Included are her views of Europe just before the outbreak of World War II; the air raids in London; Allied Headquarters in North Africa; campaigns in Algiers, Italy, and Corsica; the armistice in Paris; post-war Germany and Europe; the Nuremberg Trials; and the Council of Foreign Ministers in Moscow. Notable correspondents include Adlai Stevenson, Katharine Graham, Dean Acheson, Stewart Alsop, Styles Bridges, J. William Fulbright, General George C. Marshall, and Abe Ribicoff. Materials include broadcast scripts, lectures, published writings, diaries, photographs, and scrapbooks.
+         <abstract encodinganalog="520$a" label="Abstract:">Journalist. The Kirkpatrick papers include extensive correspondence to her family while serving as a foreign correspondent in Europe.  Included are her views of Europe just before the outbreak of World War II; the air raids in London; Allied Headquarters in North Africa; campaigns in Algiers, Italy, and Corsica; the armistice in Paris; post-war Germany and Europe; the Nuremberg Trials; and the Council of Foreign Ministers in Moscow. Notable correspondents include Adlai Stevenson, Katharine Graham, Dean Acheson, Stewart Alsop, Styles Bridges, J. William Fulbright, General George C. Marshall, and Abe Ribicoff. Materials include broadcast scripts, lectures, published writings, diaries, photographs, and scrapbooks.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1005.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1005.jpg" linktype="simple" show="embed">
 <daodesc><p>Helen Kirkpatrick, February 1944. Photo by <lb />
             Ernie Marquardt Jr., Army Pictorial Service</p></daodesc></dao> 
          <p>Helen Kirkpatrick was born October 18, 1909, in Rochester, NY, daughter of Lyman B. and Lyde Paull Kirkpatrick. She graduated from the Master's School, Dobbs Ferry, New York, in 1927 and from Smith College in 1931. In 1932, following postgraduate work at the University of Geneva, she became an assistant buyer at R. H. Macy &amp; Co. in New York City.  She married Victor H. Polacheck, Jr. in 1934. They were divorced in 1936. Between 1935 and 1937 Kirkpatrick worked in Geneva and England. During that time she was a writer, then editor, of Research Bulletin published by the Foreign Policy Association; research assistant for the Geneva Research Center (Foreign Policy Association)  editing their  "Geneva: A Monthly Review of International Affairs"; and correspondent for the New York Herald Tribune, Manchester Guardian, and London Daily Telegraph. Together with Victor Gordon-Lennox of the Daily Telegraph and Graham Hutton of the Economist she started the weekly Whitehall News Letter, which analyzed current state of European affairs. She was diplomatic correspondent for London Sunday Times in 1938 during the Munich crisis. Kirkpatrick expanded her views into two books, This Terrible Peace (1938) and Under the British Umbrella (1939).</p>
@@ -111,7 +112,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -158,7 +159,7 @@
          <persname encodinganalog="600" source="lcnaf">Ribicoff, Abraham, 1910- --Correspondence</persname>
          <persname encodinganalog="600" source="lcnaf">Stevenson, Adlai E. (Adlai Ewing), 1835-1914--Correspondence</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -237,8 +238,8 @@ llege in 1955. Arranged chronologically, it contains printed material, correspon
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1931-1979)</unitdate>
                </unittitle>
@@ -347,7 +348,7 @@ llege in 1955. Arranged chronologically, it contains printed material, correspon
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PROFESSIONAL AND CIVIC
           ACTIVITIES <unitdate>(1935-1981)</unitdate>
@@ -921,7 +922,7 @@ llege in 1955. Arranged chronologically, it contains printed material, correspon
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CORRESPONDENCE <unitdate>(1930-1982)</unitdate>
                </unittitle>
@@ -977,7 +978,7 @@ llege in 1955. Arranged chronologically, it contains printed material, correspon
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PHOTOGRAPHS AND
           SCRAPBOOKS <unitdate>(1930-1964)</unitdate>
@@ -1334,7 +1335,7 @@ llege in 1955. Arranged chronologically, it contains printed material, correspon
                         <container type="box">11</container>
                         <unittitle>Ambassador Milton Katz, Minister Barry
                 Bingham, ECA Capt. Pierre Lancelot - French Naval
-                Attach&#233;,
+                Attaché,
                 <unitdate>1950</unitdate>
                         </unittitle>
                      </did>

@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca27.xml//EN" countrycode="us" mainagencycode="manosca">manosca27</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca27.xml//EN">manosca27</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Old Letters Club Records, 1926-1937
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -45,17 +46,17 @@
 </author>
 <date>2000</date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Old Letters Club</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Old Letters Club Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1926-1937</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 80</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Old Letters Club Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1926-1937</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:6023499f-7108-4e36-b6b6-5e8211b3d25d</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -66,7 +67,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Club to collect historical letters.  Contains letters written between 1776 and 1871.
+<abstract encodinganalog="520$a" label="Abstract:">Club to collect historical letters.  Contains letters written between 1776 and 1871.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -89,7 +90,7 @@
 <p>The collection is not arranged chronologically; instead, the club's original method of arrangement by donor and then accession is maintained.
 </p>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -117,7 +118,7 @@
 <subject encodinganalog="650" source="lcsh">Letters--United States.</subject>
 <geogname encodinganalog="651" source="lcsh">United States--History--1775-1865--Sources.</geogname>
 </controlaccess>
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">1</container>

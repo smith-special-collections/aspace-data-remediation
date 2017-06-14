@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss31.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss31</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss31.xml//EN">mnsss31</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">High Commissioner for Germany. Women's Affairs Branch Records, 1949-1985
@@ -46,18 +47,18 @@
       </num>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">United States. Office of High Commissioner for Germany. Women's Affairs Branch</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">High Commissioner for Germany. Women's Affairs Branch Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1949-1985</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">High Commissioner for Germany. Women's Affairs Branch Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1949-1985</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 368</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 368</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(1.6 linear ft.)</extent>
@@ -69,9 +70,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">International organization.  In 1949, the Office of the United States sent a Women's Affairs Specialist to Germany to assist in organizing associations for German women. The records document efforts to promote women's participation in the public sphere of postwar Germany. The papers include official correspondence of the National Office, the Women's Affairs Branch, the Council of Hessian Women's Organizations, and the Buero fuer Staatsbuergerliche Frauenarbeit of the Regional Branch in Hessen.
+         <abstract encodinganalog="520$a" label="Abstract:">International organization.  In 1949, the Office of the United States sent a Women's Affairs Specialist to Germany to assist in organizing associations for German women. The records document efforts to promote women's participation in the public sphere of postwar Germany. The papers include official correspondence of the National Office, the Women's Affairs Branch, the Council of Hessian Women's Organizations, and the Buero fuer Staatsbuergerliche Frauenarbeit of the Regional Branch in Hessen.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -95,7 +96,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -132,8 +133,8 @@
          <subject encodinganalog="650" source="lcsh">Women--International cooperation--History--20th century--Sources</subject>
          <corpname encodinganalog="610" source="lcnaf">United States. Office of High Commissioner for Germany. Women's Affairs Branch</corpname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I NATIONAL OFFICE</unittitle>
             </did>
@@ -181,7 +182,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II REGIONAL BRANCH (HESSEN)</unittitle>
             </did>

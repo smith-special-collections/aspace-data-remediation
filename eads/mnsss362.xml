@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss362</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss362</eadid>
 
 	<filedesc>
 		<titlestmt>
@@ -38,7 +37,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
 		<author encodinganalog="245$c">Margaret Jessup</author> 
 		<date encodinganalog="260$c">2006</date> 
 				 
-		<p>&#169; 2006 Smith College. All rights reserved.</p> 
+		<p>© 2006 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -46,16 +45,16 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Billings, Florence, 1879-1959</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Billings, Florence, 1879-1959</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Florence Billings Papers</unittitle><unitdate label="Dates:">1915-1959</unitdate><unitdate type="bulk" encodinganalog="245$g">1919-1928</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 17</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Florence Billings Papers</unittitle><unitdate label="Dates:">1915-1959</unitdate><unitdate encodinganalog="245$g" type="bulk">1919-1928</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 17</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">2 boxes</extent>
 			<extent encodinganalog="300$a">(1 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">
+		<langmaterial encodinganalog="546" label="Language of Material:">
 			<language langcode="eng">English</language>
 		</langmaterial>
          <repository label="Location:">
@@ -66,7 +65,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
             </address>
          </repository>
 
-		<abstract encodinganalog="520$a" label="Abstract:">Near East Relief worker, Turkey; World War I Relief worker. Correspondence, journal entries, reports, travel notes, articles, thesis, clippings, photographs, and memorabilia document the work of Florence Billings and her colleague Annie T. Allen with the Near East Relief in Turkey and Greece, 1920-22; Billings' travels in and writings about, the Middle East; and a small amount on relief work in World War I France and travels in Europe. Photographs include Turkish leaders  such as Mustafa Kema (Ataturk), Refet Pasha, Prime Minister Fethy Bey, feminist Halid&#233; Edib, and numerous scenes of Turkish villages and country side.
+		<abstract encodinganalog="520$a" label="Abstract:">Near East Relief worker, Turkey; World War I Relief worker. Correspondence, journal entries, reports, travel notes, articles, thesis, clippings, photographs, and memorabilia document the work of Florence Billings and her colleague Annie T. Allen with the Near East Relief in Turkey and Greece, 1920-22; Billings' travels in and writings about, the Middle East; and a small amount on relief work in World War I France and travels in Europe. Photographs include Turkish leaders  such as Mustafa Kema (Ataturk), Refet Pasha, Prime Minister Fethy Bey, feminist Halidé Edib, and numerous scenes of Turkish villages and country side.
 		</abstract>
 </did>
 
@@ -74,13 +73,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
 
 <bioghist id="bioghist">
 <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2871.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2871.jpg" linktype="simple" show="embed">
 <daodesc><p>Officials entering Constantinople, 1922. Individuals identified, from left:  Adnem Bey, Halide Hanoum, Refet Pasha</p></daodesc></dao>
 	<p>Florence Frances Billings was born in Hatfield, Massachusetts on June 14, 1879, daughter of Frederick Dickinson and Frances Amelia (Hunt) Billings. She had three sisters:  Charlotte, Emily, and Anna Hunt Billings (Smith Class of 1891).  Her grandfather, Charles Morris Billings of Hatfield, was an abolitionist and member of the Underground Railroad and her grandmother, Charlotte White Billings, was a cousin of Sophia Smith (founder of Smith College).  In 1893 her family moved to Redlands, California where she resided on and off for the next sixty years although she spent many of those years living in Europe and in the Middle East.  Billings graduated from Redlands High School in 1899 and from Stanford University in 1903 with a B.A. in Latin.  She taught school for several years during which time she traveled to Europe, including Russia in 1912.  She went to Germany and taught English in a private school for a period.  She was on vacation in Brittany when World War I broke out and she immediately volunteered with the American Ambulance Hospital in Paris.  When the U.S. entered the war in 1917, she returned home briefly and signed up with the American Red Cross, then went back to France as a canteen and relief worker. Working just behind the front lines in Chalons-sur-Marne earned her the Croix de Guerre.</p>
 
 	<p>After the war, Billings went home for a short time before returning to Paris where she lived at the American Women's Club and continued relief work until November 1919, when she took a position at the American School for Girls in Brousa, Turkey.  After six months she volunteered for service in Brousa, Turkey with the Near East Relief (NER), an organization created in 1915 by the American Board of Commissioners for Foreign Missions.  They created NER in response to the growing desperation of hundreds of thousands of Armenian refugees in Turkey and the surrounding area resulting from massive deportations and massacres by the Turkish government in 1915 and 1916.  In Brousa, Billings worked under Annie Allen, the NER representative in Brousa.  Annie T. Allen, the daughter of pioneer missionary in the Middle East, the Reverand O.P. Allen, was born in Harpoot, Turkey, on December 21, 1868.  She graduated from Mount Holyoke College in 1890 and began her missionary work in Brousa for the Woman's Board of Missions in 1903.  Allen was to become Florence Billings' close friend and colleague.
 </p>
-	<p>Billings and Allen were in Brousa when the Greek army took that city in July 1920.  In 1921 they traveled into the interior of Turkey to Konea, where foreigners were seldom allowed, to relieve workers at a large center for Armenian refugees and orphans run by the NER. While they were in Konia, revolution broke out between the Turks and Nationalists and the women took refuge in the orphanage.  Later they toured villages destroyed by the retreating Greeks and reported on conditions.  In February 1922 Annie Allen died of typhoid, which she had contracted during their travels. Billings, now stationed at the American Hospital in Ankara, became the NER representative in charge.  For a time she was the only foreign woman living in the city. In 1922 and 1923 Billings was sent to Greece to visit the Turkish prisoners interned there and to report on their conditions to the NER Commission.  Billings was in Turkey during major social and political upheaval under the Nationalist leader Mustapha Kemal who Billings knew personally and with whom she had some influence. She also corresponded with expatriate Turk nationalist and feminist Halid&#233; Edib Adivar, who ran an orphanage for 800 Armenian refugee children in Antoura.  Billings was said to have been "instrumental in gathering together hundreds of Armenian and other war orphans and arranging for their transportation to Smyrna and other places of asylum." [see obituary, <title render="italic">Redlands Daily Facts</title>, Sept 10, 1959]
+	<p>Billings and Allen were in Brousa when the Greek army took that city in July 1920.  In 1921 they traveled into the interior of Turkey to Konea, where foreigners were seldom allowed, to relieve workers at a large center for Armenian refugees and orphans run by the NER. While they were in Konia, revolution broke out between the Turks and Nationalists and the women took refuge in the orphanage.  Later they toured villages destroyed by the retreating Greeks and reported on conditions.  In February 1922 Annie Allen died of typhoid, which she had contracted during their travels. Billings, now stationed at the American Hospital in Ankara, became the NER representative in charge.  For a time she was the only foreign woman living in the city. In 1922 and 1923 Billings was sent to Greece to visit the Turkish prisoners interned there and to report on their conditions to the NER Commission.  Billings was in Turkey during major social and political upheaval under the Nationalist leader Mustapha Kemal who Billings knew personally and with whom she had some influence. She also corresponded with expatriate Turk nationalist and feminist Halidé Edib Adivar, who ran an orphanage for 800 Armenian refugee children in Antoura.  Billings was said to have been "instrumental in gathering together hundreds of Armenian and other war orphans and arranging for their transportation to Smyrna and other places of asylum." [see obituary, <title render="italic">Redlands Daily Facts</title>, Sept 10, 1959]
 </p>
 	<p>Billings left the NER in 1923 but returned to the area several times.  She and her sisters traveled around the world in 1923, and between 1924 and 1928 she resided in Hatfield, Massachusetts, and sometimes in Europe.   She continued to travel throughout the Middle East visiting old friends and meeting several important government leaders, including Prime Minister Reza Khan Pahlavi, the soon-to-be Shah of Iran.   In 1927 she received her M.A. from Columbia University, completing her Masters thesis entitled "Causes of the Outbreak in Cilicia, Asia Minor, April 1909."   In the early 1930s Billings had settled permanently in Redlands, California near her sisters, and became active in local affairs, the American Association of University Women, and the Contemporary Club.  Florence Billings died on September 9, 1959.</p>
 
@@ -90,15 +89,15 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
 <head>Scope and Contents of the Collection</head>
 	<p>The Florence Billings Papers include correspondence, journal entries, reports for Near East Relief, travel notes, typescripts of articles and her thesis, clippings, photographs, and memorabilia.  There is a small amount on her relief work in World War I France and her travels in Europe, but the collection focus is on the work of Florence Billings and her colleague Annie T. Allen with the Near East Relief in Turkey and Greece from 1920-22 and Billings' subsequent travels in, and writings concerning, the Middle East.  </p>
 
-	<p>SERIES II. CORRESPONDENCE includes letters from Turkish feminist Halid&#233; Edib, and the American High Commissioner in Constantinople, Mark Bristol, to Billings.  In her correspondence to her sisters Billings writes from a trip to Russia in 1912 and later work in Turkey for NER.</p>
+	<p>SERIES II. CORRESPONDENCE includes letters from Turkish feminist Halidé Edib, and the American High Commissioner in Constantinople, Mark Bristol, to Billings.  In her correspondence to her sisters Billings writes from a trip to Russia in 1912 and later work in Turkey for NER.</p>
 
 	<p>SERIES III. WRITINGS includes handwritten drafts and typescripts of reports, articles, notes,  and journal entries that record the details of Billings' relief work as well as the political and social changes of Konea, Brousa, Constantinople, and other Turkish and Greek sites where Billings and Allen traveled.  In a draft typescript entitled "Constantinople to Konia" (Sep 1920 - Jan 1921), Billings writes of being trapped with women and children in an orphanage in Konia at the outbreak of the Turkish revolution and having to make her way through the streets amidst gunfire to collect bread from the bakery.  Her travel diary and notes outline Billings' journey through Turkey, Lebanon, Syria, Iraq, and Iran between 1924 and 1928 and the meetings she had with high level officials.  Billings' Masters thesis entitled "Causes of the Outbreak in Cilicia, Asia Minor, April 1909," examines the "real causes of the troubles between Moslems and non-Moslems in the Ottoman Empire," among them the "expansionist and protective policies of Europe." There are also drafts of articles she wrote on topics relating to the Middle East.</p>  
 
-	<p>Writings and correspondence to and from Annie T. Allen are found in SERIES IV, including  letters from Halid&#233; Edib, a typescript of her diary of her trip through the interior of Turkey with Florence Billings, and descriptions of being in Konia during the outbreak of revolution and their meeting with nationalist leader Mustapha Kamal Pasha.</p>  
+	<p>Writings and correspondence to and from Annie T. Allen are found in SERIES IV, including  letters from Halidé Edib, a typescript of her diary of her trip through the interior of Turkey with Florence Billings, and descriptions of being in Konia during the outbreak of revolution and their meeting with nationalist leader Mustapha Kamal Pasha.</p>  
 
-	<p>SERIES V. PHOTOGRAPHS includes portraits and group shots of Turkish officials and others  in Turkey.  Included are Mustafa Kemal, Halid&#233; Edib (identified as Halid&#233; Hanoum on photos), Refet Pasha, Prime Minister Fethy Bey, and various Near East Relief representatives. There are also numerous images of the Turkish country side, village scenes, and unidentified people.  Many of the photographs are unlabeled and undated but most, if not all were probably taken by Florence Billings, circa 1919-22.</p>  
+	<p>SERIES V. PHOTOGRAPHS includes portraits and group shots of Turkish officials and others  in Turkey.  Included are Mustafa Kemal, Halidé Edib (identified as Halidé Hanoum on photos), Refet Pasha, Prime Minister Fethy Bey, and various Near East Relief representatives. There are also numerous images of the Turkish country side, village scenes, and unidentified people.  Many of the photographs are unlabeled and undated but most, if not all were probably taken by Florence Billings, circa 1919-22.</p>  
 </scopecontent>
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into five series:</p>
 	<list>
@@ -159,7 +158,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
 <controlaccess id="subj">
 <head>Search Terms</head>
 
-	<persname encodinganalog="600" source="lcnaf">Adivar, Halid&#233; Edib, 1885-1964</persname>
+	<persname encodinganalog="600" source="lcnaf">Adivar, Halidé Edib, 1885-1964</persname>
 	<persname encodinganalog="600" source="lcnaf">Allen, Annie T., 1868-1922</persname>
 	<persname encodinganalog="600" source="lcnaf">Ataturk, Kemal, 1881-1938</persname>
 	<persname encodinganalog="600" source="lcnaf">Billings, Florence, 1879-1959</persname>
@@ -181,7 +180,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
 
 <!-- Enter additional information -->
 
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
   <head>Additional Information</head>
     <relatedmaterial id="add-related">
      <head>Related Material</head>
@@ -194,8 +193,8 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
 <!-- End additional information -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -233,7 +232,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -272,7 +271,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
  <did>
  <container type="box">1</container>
  <container type="folder">7</container>
- <unittitle>Halid&#233; Edib Adivar,<unitdate> 1923-28</unitdate></unittitle>
+ <unittitle>Halidé Edib Adivar,<unitdate> 1923-28</unitdate></unittitle>
 <note>
       <p>
          <ref target="list-ser4">[See also SERIES IV. ANNIE T. ALLEN - Correspondence]</ref>
@@ -311,7 +310,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
  </did>
@@ -389,7 +388,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ANNIE T. ALLEN</unittitle>
  </did>
@@ -415,14 +414,14 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
  <did>
  <container type="box">1</container>
  <container type="folder">24</container>
- <unittitle>To Allen (includes letters from Halid&#233; Edib, and letters of authorization to go to Konia),<unitdate> 1921-22, n.d.</unitdate></unittitle>
+ <unittitle>To Allen (includes letters from Halidé Edib, and letters of authorization to go to Konia),<unitdate> 1921-22, n.d.</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">1</container>
  <container type="folder">25</container>
- <unittitle>To Florence Billings re: Allen, on her death (includes Halid&#233; Edib),<unitdate> 1922</unitdate></unittitle>
+ <unittitle>To Florence Billings re: Allen, on her death (includes Halidé Edib),<unitdate> 1922</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -453,7 +452,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. PHOTOGRAPHS</unittitle>
  </did>
@@ -461,7 +460,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
  <did>
  <container type="box">2</container>
  <container type="folder">1</container>
- <unittitle>Individuals: includes Florence Billings, Mustafa Kemal Pasha, Halid&#233; Edib, Fethy Bey, and other Turkish and NER officials, <unitdate>circa 1919-22</unitdate></unittitle>
+ <unittitle>Individuals: includes Florence Billings, Mustafa Kemal Pasha, Halidé Edib, Fethy Bey, and other Turkish and NER officials, <unitdate>circa 1919-22</unitdate></unittitle>
  <note>
       <p>
          <ref target="list-serOV">[see also OVERSIZE MATERIALS]</ref>
@@ -474,7 +473,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
  <did>
  <container type="box">2</container>
  <container type="folder">2</container>
- <unittitle>Groups: includes Florence Billings, Mustafa Kemal Pasha, Halid&#233; Edib, Refet Pasha and others, Turkey, <unitdate>circa 1919-22</unitdate></unittitle>
+ <unittitle>Groups: includes Florence Billings, Mustafa Kemal Pasha, Halidé Edib, Refet Pasha and others, Turkey, <unitdate>circa 1919-22</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -512,5 +511,3 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss362.html">mnsss36
 
 </archdesc>
 </ead>
-
-

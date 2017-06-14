@@ -1,6 +1,7 @@
-<ead>
-   <eadheader audience="internal" id="head" findaidstatus="unverified-full-draft" langencoding="iso639-2b">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss179.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss179</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss179.xml//EN">mnsss179</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Nancy Cox-McCormack Cushman Papers, 1906-2000
@@ -49,7 +50,7 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2004  Smith College. All rights reserved.</p>
+         <p>©  2004  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
    <archdesc level="collection" relatedencoding="MARC21">
@@ -58,9 +59,9 @@
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Cushman, Nancy Cox-McCormack, b. 1885</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Nancy Cox-McCormack Cushman Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1906-2000</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Nancy Cox-McCormack Cushman Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1906-2000</unitdate>
          
-         <unitid encodinganalog="099" repositorycode="mnsss" label="Collection Number:" countrycode="us">MS 40</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 40</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">12 boxes</extent>
             <extent encodinganalog="300$a">(4.25 linear ft.)</extent>
@@ -72,15 +73,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract encodinganalog="520$a" label="Abstract:">Sculptor, author, and traveler.  This collection documents Cushman's professional life, artistic works, and her wide social network, particularly in Chicago in the 1910's and Europe in the 1920's. The subjects of Cushman's sculptures include Benito Mussolini, Ezra Pound, Italian architect Giacomo Boni, Spanish dictator Primo de Rivera, Mohandas K. Ghandi, Clarence Darrow, and Jane Addams.  All are represented to some extent in the collection as are other notables such as Stephen Vincent Ben&#233;t, Sarah Bernhardt, Lauro De Bosis, Alice Gerstenberg, Elizabeth Sparhawk Jones, Grace Hegger Lewis, Dorothy Shakespeare Pound, Eunice Tietjens, and Frank Lloyd Wright. Types of materials include correspondence, writings, photographs, clippings, biographical materials, artwork, and memorabilia.  </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Sculptor, author, and traveler.  This collection documents Cushman's professional life, artistic works, and her wide social network, particularly in Chicago in the 1910's and Europe in the 1920's. The subjects of Cushman's sculptures include Benito Mussolini, Ezra Pound, Italian architect Giacomo Boni, Spanish dictator Primo de Rivera, Mohandas K. Ghandi, Clarence Darrow, and Jane Addams.  All are represented to some extent in the collection as are other notables such as Stephen Vincent Benét, Sarah Bernhardt, Lauro De Bosis, Alice Gerstenberg, Elizabeth Sparhawk Jones, Grace Hegger Lewis, Dorothy Shakespeare Pound, Eunice Tietjens, and Frank Lloyd Wright. Types of materials include correspondence, writings, photographs, clippings, biographical materials, artwork, and memorabilia.  </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p> Nancy Cox-McCormack Cushman was an American  sculptor, writer, artist, and socialite. Although she created some altar panels and abstracts, her work consisted mostly of portrait sculpture, primarily in  bronze and terra cotta. Particularly productive between 1910 and 1953, her work included a broad range of well and lesser known people. These included Italian dictator Benito Mussolini, poet Ezra Pound, lawyer Clarence Darrow, social reformer Jane Addams,  Italian architect Giacomo Boni, Spanish dictator Miguel Primo de Rivera, and Indian politician Mohandas K. Ghandi. Through her work and social contacts, Cushman cultivated a wide variety of notable friends and associates including the family of author Stephen Vincent Benet; social reformer Louis de Koven Bowen; Italian poet and anti-fascist Lauro De Bosis; Ezra and Dorothy Pound; artist Elizabeth Sparhawk Jones; writer and journalist Clara Laughlin; Grace Hegger Lewis, wife of Sinclair Lewis;  opera singer Gladys Swarthout; and the family of architect Frank Lloyd Wright.  Her work received little critical attention during her lifetime or since, but local newspapers covered her work and travels extensively. </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1493.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1493.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Nancy Cox-McCormack Cushman working on a bust of Benito Mussolini, 1923</p></daodesc></dao>
          <p> Nancy Cox-McCormack Cushman was born Nancy Mal Cox in Nashville, Tennessee, August 15, 1885, the second of three children of cousins Herschell McCullough Cox and Nancy Morgan Cox. She was descended from one of the first families to settle in Virginia in the early 1600s. Her mother studied music and painting and although it is not clear what her father's occupation was, in a letter to Alice Gerstenberg, Cushman writes " Like many southerners of inheritance my family was artistic." Her mother died of tuberculosis when Nancy was three. All three children contracted polio, and Nancy's elder sister and younger brother both died of the disease shortly before the death of their mother. The results if the illness affected Nancy's health for the rest of her life.  Her father married Lillian Warren with whom he had one son, Henry Herschel Cox. In 1899, when Nancy was fourteen, her father was killed in a carriage accident on his way to view a newly acquired property. After a brief time in a boarding school in Arkansas, she and her stepmother moved to Nashville where Nancy was enrolled at Ward Seminary.  At Ward she worked in pastels and watercolors under the direction of artist Willie Betty Newman. Nancy, cut off from her father's family and unhappy with her stepfamily and her "irrational stepmother," ran away and married Mark McCormack in 1903. She admitted that it was an "escape" marriage and they were soon divorced. </p>
@@ -111,7 +112,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -164,7 +165,7 @@
          <persname encodinganalog="600" source="lcnaf">Primo de Rivera, Miguel, 1870-1930</persname>
          <persname encodinganalog="600" source="lcnaf">Wright, Frank Lloyd, 1867-1959</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -172,8 +173,8 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS AND MEMORABILIA</unittitle>
             </did>
@@ -787,7 +788,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -1645,7 +1646,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. ARTWORK, SPEECHES AND WRITINGS</unittitle>
             </did>
@@ -1870,7 +1871,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PHOTOGRAPHS</unittitle>
             </did>
@@ -1965,7 +1966,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serov">
+         <c01 id="list-serov" level="series">
             <did>
                <unittitle>Oversize Materials</unittitle>
             </did>

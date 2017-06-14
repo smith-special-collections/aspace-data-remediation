@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg9.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg9</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg9.xml//EN">mnsss292rg9</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -33,9 +34,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 09.  Photographs</unittitle><unitdate type="inclusive" label="Dates:">circa 1890s-2001</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 09.  Photographs</unittitle><unitdate label="Dates:" type="inclusive">circa 1890s-2001</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:1c815f19-9262-42c1-bbde-48beae0d7bff</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -46,7 +47,7 @@
             </address>
 </repository>
 <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             This Record Group includes photographic prints, negatives, slides and filmstrips documenting the work of the YWCA from the 1890s to the present. Forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>.
          </abstract>
 </did>
@@ -55,7 +56,7 @@
       <head>Scope and Contents</head>
 	<p>[Forms part of <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>]</p>
 </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization</head>
 	<p>This Record Group is divided into three Series: </p>
 	<list>
@@ -137,7 +138,7 @@
 <!-- series descriptions -->
 <dsc type="analyticover">
  	<head>Series Descriptions</head>
-<c01 level="series" id="ser1">
+<c01 id="ser1" level="series">
 	<did>
 		<unittitle>SERIES I.  PRINTS AND NEGATIVES
                </unittitle>    
@@ -156,7 +157,7 @@
    </list>
 
 <p>The National YWCA photographic print collection consists of 45 linear feet of images, taken within the United States and abroad from the late 19th century through the first few years of the 21st.  The majority of  the photographs were taken by professional photographers for publicity use.  A good portion of these document activities at Community YWCAs and were submitted to the National Association for use in its main serial The Association Monthly/Womans Press/YWCA Magazine. </p> 
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4671.jpg" altrender="center">
+	<dao actuate="onLoad" altrender="center" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4671.jpg" linktype="simple" show="embed">
 <daodesc><p>"Methodist teacher and Presb. nurses," Tsinan, China 1928</p></daodesc></dao>
 <p>In addition to these publicity photographs, there are also a significant number of personal snapshots donated to the National Board Archives by retired staff members.</p>
 <p>The World War I-era section is particularly strong, with subjects ranging from U.S. Hostess Houses and Overseas Staff to the "Women at Work" war effort on both sides of the Atlantic.  There is also a smaller collection of images documenting World War II, including scrapbook photos of Japanese Relocation Centers, United Community Defense Services trailer boom-towns and the history of the U.S.O.</p>  
@@ -166,7 +167,7 @@
 <p><title render="bold">Subseries A.  General and History </title>includes Anniversaries, Exhibits, photographs of YWCA symbols and logos, such as the blue triangle and the YWCA purpose statement, World YWCA photographs, and miscellaneous and unidentified photographs.  There is also a large file of photographs of individuals (arranged alphabetically) involved with the YWCA.  These include local, regional, and national YWCA Board, Committee, and Council members, as well as speakers and celebrities at YWCA conferences, conventions, and other events. </p>
 <p><title render="bold">Subseries B.  National Board and National Administrative Office</title> includes photographs of the National Board and staff; nationally-owned buildings and properties; fund-raising committees and events; and photographs taken for use in YWCA publicity materials, such as posters and brochures.</p>
 <p><title render="bold">Subseries C.  Conferences and Conventions </title>consists of photographs taken at conferences, and National Conventions, and at preparatory and planning meetings. </p>
-<p><title render="bold">Subseries D.  International Work </title>includes a small amount of photographs of YWCA of the U.S.A. Foreign/International Division staff, programs, and conferences.  The bulk of the Subseries is the Countries section which includes photographs of buildings, programs, staff, etc. taken at YWCAs in other countries.  These are arranged alphabetically by country and then chronologically.  Countries have been filed under their post-Independence names, for example, Rhodesia can be found under Zimbabwe and Ceylon under Sri Lanka.  Refugees from Smyrna in 1922 have been filed with Turkey rather than Greece, while Palestinian refugees can be found in Jordan: Aqabat Jaber and Baq&#225;a, Kalandia, Madaba, etc., folders.  </p>
+<p><title render="bold">Subseries D.  International Work </title>includes a small amount of photographs of YWCA of the U.S.A. Foreign/International Division staff, programs, and conferences.  The bulk of the Subseries is the Countries section which includes photographs of buildings, programs, staff, etc. taken at YWCAs in other countries.  These are arranged alphabetically by country and then chronologically.  Countries have been filed under their post-Independence names, for example, Rhodesia can be found under Zimbabwe and Ceylon under Sri Lanka.  Refugees from Smyrna in 1922 have been filed with Turkey rather than Greece, while Palestinian refugees can be found in Jordan: Aqabat Jaber and Baqáa, Kalandia, Madaba, etc., folders.  </p>
 <p>The Countries section is particularly strong in photographs from the following countries: </p>
 <list type="simple">
 	<item>Brazil 1950s and 1960s</item>
@@ -191,7 +192,7 @@
 <p>Because many of the photographs were published by the National Association, especially in its main serial, <title render="italic">The Association Monthly/Womans Press/YWCA Magazine</title> it is often possible to find related information about the photograph there.  See especially <extref href="mnsss292rg6s6.html">RECORD GROUP 6.  PROGRAM  SERIES VI. PUBLICATIONS</extref>.</p>
 </scopecontent>
  </c01>
-<c01 level="series" id="ser2">
+<c01 id="ser2" level="series">
 	<did>
 		<unittitle>SERIES II.  SLIDES</unittitle>
          </did>
@@ -207,7 +208,7 @@
 <p><title render="bold">Subseries G.  Community Associations</title> modest number images of Community Associations buildings, activities, services, and events, mostly undated.</p>
         </scopecontent>
  </c01>
-<c01 level="series" id="ser3">
+<c01 id="ser3" level="series">
 	<did>
 		<unittitle>SERIES III.  FILMSTRIPS</unittitle>
 	</did>
@@ -221,8 +222,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. PRINTS AND NEGATIVES</unittitle>
  </did>
@@ -2142,7 +2143,7 @@
  </c04>
  </c03>
  </c02>
- <c02 level="subseries" id="list-sub1a">
+ <c02 id="list-sub1a" level="subseries">
  <did>
  <unittitle>Subseries B. National Board and National Administrative Office</unittitle>
  </did>
@@ -9317,7 +9318,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. SLIDES</unittitle>
  </did>
@@ -10305,7 +10306,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. FILMSTRIPS</unittitle>
  </did>
@@ -10346,5 +10347,4 @@
 </dsc>
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

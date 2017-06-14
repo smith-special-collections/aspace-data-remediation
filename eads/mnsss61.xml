@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss61.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss61</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss61.xml//EN">mnsss61</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Mabel Milham Roys Papers, 1880-1956
@@ -50,20 +51,20 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Roys, Mabel Milham, 1878-1956</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">
+         <unittitle encodinganalog="245$a" label="Title:">
 Mabel Milham Roys Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1880-1956</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1904-1920</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 222</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 222</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">9 boxes</extent>
             <extent encodinganalog="300$a">(4.75 linear ft.)</extent>
@@ -75,15 +76,15 @@ Mabel Milham Roys Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">YWCA worker and missionary. Collection documents Chinese culture, social conditions, and  politics; and the family's social and domestic life.  Other subjects include student life at Smith College, early work as YWCA traveling secretary, work at Wells College, and other post-China activities. Materials include correspondence, writings, memorabilia, and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">YWCA worker and missionary. Collection documents Chinese culture, social conditions, and  politics; and the family's social and domestic life.  Other subjects include student life at Smith College, early work as YWCA traveling secretary, work at Wells College, and other post-China activities. Materials include correspondence, writings, memorabilia, and photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2607.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2607.jpg" linktype="simple" show="embed">
 <daodesc><p>Mabel Roys at Smith College, "Ivy Day," 1900</p></daodesc></dao>
          <p>Mabel Milham was born in St. Paul, Minnesota, in 1878 and received her early schooling there.  She began her studies at Smith College in 1896, and though she was apparently less well-to-do than most of her classmates, she managed to have an active social life.  Her interest in missionary work led her to join the Smith College Association for Christian Work.  She was active in its Missionary Society, attending student conferences and becoming president of the society during her senior year.</p>
          <p>After graduating Phi Beta Kappa, Mabel Milham held jobs as a student secretary for the National Board of the YWCA and traveling secretary for the Student Volunteer Movement, speaking on college campuses throughout the eastern half of the United States.  In 1902 she became state secretary of the Minnesota YWCA.  She met Dr. Charles K. Roys (Princeton '97) while both were traveling for the Student Volunteer Movement, and they married in June 1904.</p>
@@ -120,7 +121,7 @@ Mabel Milham Roys Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -160,8 +161,8 @@ Mabel Milham Roys Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
          <persname encodinganalog="600" source="lcnaf">Roys, Mabel Milham, 1878-1956</persname>
          <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association of the U.S.A.--History</corpname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I CORRESPONDENCE</unittitle>
             </did>
@@ -267,7 +268,7 @@ Mabel Milham Roys Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
                </did>
             </c02>	
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II BIOGRAPHICAL MATERIAL AND MEMORABILIA</unittitle>
             </did>
@@ -344,7 +345,7 @@ Mabel Milham Roys Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III WRITINGS AND SPEECHES</unittitle>
             </did>
@@ -437,7 +438,7 @@ Mabel Milham Roys Papers</unittitle><unitdate encodinganalog="245$f" type="inclu
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV PHOTOGRAPHS</unittitle>
             </did>

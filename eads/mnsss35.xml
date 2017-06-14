@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss35.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss35</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss35.xml//EN">mnsss35</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Dorothy Kenyon Papers, 1850-1998
@@ -52,18 +53,18 @@
          <sponsor>Processing of the Dorothy Kenyon Papers was made possible by the generous support of the National Endowment for the Humanities and Smith College President Ruth J. Simmons
             </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Kenyon, Dorothy, 1888-1972</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Dorothy Kenyon Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1850 - 1998</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Dorothy Kenyon Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1850 - 1998</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 85</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 85</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">69 boxes</extent>
             <extent encodinganalog="300$a">(29 linear ft.)</extent>
@@ -75,15 +76,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Lawyer, feminist, judge, and political activist.  The Kenyon collection illuminates the continuity of social activism around such issues as race, class, poverty, and gender from the 1930s-60s. Topics reflected include worldwide suffrage;  abortion rights; minority legal rights; the Equal Rights Amendment; and civil rights. Materials include writings, speeches, organizational records, photographs, memorabilia, and audio tapes of interviews and speeches. Significant correspondents include: Bella Abzug, Florence Allen, Roger Baldwin, Mary Dewson, India Edwards, Felix Frankfurter, Betty Friedan, Hubert Humphrey, Fiorello LaGuardia, Frieda Miller, Constance Baker Motley, Pauli Murray, Edmund Muskie, Eleanor Holmes Norton, Harriet Pilpel, Eleanor Roosevelt, Elihu Root, Anna Lord Strauss, and Harry Truman.
+         <abstract encodinganalog="520$a" label="Abstract:">Lawyer, feminist, judge, and political activist.  The Kenyon collection illuminates the continuity of social activism around such issues as race, class, poverty, and gender from the 1930s-60s. Topics reflected include worldwide suffrage;  abortion rights; minority legal rights; the Equal Rights Amendment; and civil rights. Materials include writings, speeches, organizational records, photographs, memorabilia, and audio tapes of interviews and speeches. Significant correspondents include: Bella Abzug, Florence Allen, Roger Baldwin, Mary Dewson, India Edwards, Felix Frankfurter, Betty Friedan, Hubert Humphrey, Fiorello LaGuardia, Frieda Miller, Constance Baker Motley, Pauli Murray, Edmund Muskie, Eleanor Holmes Norton, Harriet Pilpel, Eleanor Roosevelt, Elihu Root, Anna Lord Strauss, and Harry Truman.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1100.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1100.jpg" linktype="simple" show="embed">
 <daodesc><p>Dorothy Kenyon speaking before the PTA <lb />at PS 33 in New York City, 1970</p></daodesc></dao>
          <p>Dorothy Kenyon, born in New York City on February 17, 1888, was the oldest of three children and the only daughter of prominent patent attorney William H. Kenyon, and Cincinnati, Ohio native Maria Wellington (Stanwood) Kenyon.  Raised in the privileged environments of Manhattan's Upper West Side and her family's summer home in Lakeville, Connecticut, Kenyon excelled at the progressive Horace Mann High School from which she in graduated 1904.  At Smith College she majored in economics and history and participated in numerous activities ranging from music to championship tennis and hockey.  Kenyon was elected to Phi Beta Kappa in her junior year and graduated with an A.B. from Smith in 1908.</p>
          <p>Though she often claimed that she had made the decision to become a lawyer when she was still a small child, Kenyon also conceded that she had "misspent" the years from 1908-1913 as a "social butterfly."  It was only after a year in Mexico where she observed poverty and injustice at close range that Kenyon acquired her "slant to the left," decided upon her vocation, and transformed herself into a social activist.  Kenyon entered New York University Law School at the age of 26 in 1914 and obtained her J.D. degree and admission to the New York Bar in 1917.</p>
@@ -138,7 +139,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -215,7 +216,7 @@
 	<persname encodinganalog="700" source="lcnaf">Schneiderman, Rose, 1882-</persname> 
 	<persname encodinganalog="700" source="lcnaf">Woodsmall, Ruth, 1883-1963</persname> 
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <bibliography>
             <head>Bibliography</head>
@@ -4706,7 +4707,7 @@
                </physdesc>
             </did>
             <scopecontent>
-               <p>Dorothy Kenyon was a prolific writer and a much sought-after speaker.  This series contains published articles, unpublished drafts, speech notes and texts, and related correspondence and publicity.  It is arranged in five subseries: Correspondence, Articles and addresses, Book reviews, Encyclopedia entries, and Book-length manuscripts, with each of these arranged chronologically.  Correspondence includes primarily writing and speaking invitations and negotiations regarding honoraria and travel arrangements dating from 1946-1970.  Articles and addresses comprises the largest category in this series.  They date from 1925-71, are arranged chronologically, and include notes, drafts, and final versions of articles and speeches with related publicity enclosed. In keeping with her broad involvement in social justice activities, Kenyon wrote and spoke about a large number of subjects including anti-communism, civil liberties, education, internationalism, politics, racism, and women's rights, among many others.  See the <ref target="add-index">>Appendix </ref>for a listing of articles and addresses by subject.</p>
+               <p>Dorothy Kenyon was a prolific writer and a much sought-after speaker.  This series contains published articles, unpublished drafts, speech notes and texts, and related correspondence and publicity.  It is arranged in five subseries: Correspondence, Articles and addresses, Book reviews, Encyclopedia entries, and Book-length manuscripts, with each of these arranged chronologically.  Correspondence includes primarily writing and speaking invitations and negotiations regarding honoraria and travel arrangements dating from 1946-1970.  Articles and addresses comprises the largest category in this series.  They date from 1925-71, are arranged chronologically, and include notes, drafts, and final versions of articles and speeches with related publicity enclosed. In keeping with her broad involvement in social justice activities, Kenyon wrote and spoke about a large number of subjects including anti-communism, civil liberties, education, internationalism, politics, racism, and women's rights, among many others.  See the <ref target="add-index">&gt;Appendix </ref>for a listing of articles and addresses by subject.</p>
             </scopecontent>
  </c01>
   <c01 level="series">
@@ -4788,8 +4789,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1888-1980)</unitdate></unittitle>
             </did>
@@ -5371,7 +5372,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. FAMILY <unitdate>(1850-1998)</unitdate>
                </unittitle>
@@ -5679,7 +5680,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CORRESPONDENCE <unitdate>(1917-1971)</unitdate>
                </unittitle>
@@ -6445,7 +6446,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. SPEECHES AND WRITINGS <unitdate>(1925-1972)</unitdate>
                </unittitle>
@@ -6488,7 +6489,7 @@
                      </unittitle>
                      <note>
                         <p>
-                           <ref target="add-index">>[see Appendix for list of articles and addresses by subject]</ref>
+                           <ref target="add-index">&gt;[see Appendix for list of articles and addresses by subject]</ref>
                         </p>
                      </note>
                   </did>
@@ -6705,7 +6706,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. LEGAL PRACTICE <unitdate>(1936-1969)</unitdate>
                </unittitle>
@@ -7008,7 +7009,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. ACTIVITIES AND
           ORGANIZATIONS <unitdate>(1923-1971)</unitdate>
@@ -12603,7 +12604,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. SUBJECTS <unitdate>(1925-1971)</unitdate>
                </unittitle>
@@ -12897,7 +12898,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII. PHOTOGRAPHS <unitdate>(1888-1971)</unitdate>
                </unittitle>
@@ -14133,7 +14134,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>SERIES IX. AUDIOVISUAL MATERIAL <unitdate>(1948-1998)</unitdate>
                </unittitle>
@@ -14247,7 +14248,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser10">
+         <c01 id="list-ser10" level="series">
             <did>
                <unittitle>SERIES X. OVERSIZE MATERIAL <unitdate>(1938-1950)</unitdate>
                </unittitle>

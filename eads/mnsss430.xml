@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss430.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss430</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss430.xml//EN">mnsss430</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Ruth Berman and Connie Kurtz Papers, 1956-2006</titleproper>
@@ -35,15 +36,15 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Berman, Ruth, 1934-</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Ruth Berman and Connie Kurtz Papers</unittitle><unitdate type="inclusive" label="Dates:">1956-2006</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Ruth Berman and Connie Kurtz Papers</unittitle><unitdate label="Dates:" type="inclusive">1956-2006</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 520</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 520</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">13 boxes</extent>
         <extent encodinganalog="300$a">(19.5 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +56,7 @@
          </repository>
 
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Lesbian activists; Teacher, Health and Physical Education; Professor; Counselor. The Ruthie Berman and Connie Kurtz Papers include personal correspondence and emails, scrapbooks, photographs, and files related to gay and lesbian rights, same-sex marriage, and women's rights. The collection also includes audiovisual materials, production notes, and public relations materials pertaining to the documentary about the couple: Ruthie and Connie: Every Room in the House (2002).  
                  </abstract>
 
@@ -64,7 +65,7 @@
 
 <bioghist id="bioghist">
        <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2640.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2640.jpg" linktype="simple" show="embed">
 <daodesc><p>Ruth Berman and Connie Kurtz with their daughters, n.d.</p></daodesc></dao> 
      <p>Ruth Berman was born in Brooklyn, NY on March 30, 1934 to Jeanette Zahner and Milton Green.  She graduated from Thomas Jefferson High School in 1951 and went on to earn her B.S. (1955) and her M.S. (1958) in Health and Physical Education from Brooklyn College.  From 1971 to 1974, she was employed as a teacher and administrator at various middle schools and high schools in the New York City area , and at Brooklyn College as adjunct professor.</p>
 
@@ -141,4 +142,3 @@
 
 </archdesc>
 </ead>
-

@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manoscmr" url="http://asteria.fivecolleges.edu/findaids/mortimer/manoscmr15.html">manoscmr15</eadid>
 
 	<filedesc>
@@ -37,7 +38,7 @@
 		<date>2006</date> 
 		 
 		 
-		<p>&#169; 2006 Smith College. All rights reserved.</p> 
+		<p>© 2006 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,17 +46,17 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Walker, Anne, 1933-</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Walker, Anne, 1933-</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Anne Walker Artists' Book Collection</unittitle><unitdate label="Dates:">1974-2006</unitdate>
+		<unittitle encodinganalog="245$a" label="Title:">Anne Walker Artists' Book Collection</unittitle><unitdate label="Dates:">1974-2006</unitdate>
 
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr">MS 114</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 114 UUID:08c3658c-a076-4694-be40-9ed1441614c4</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">7 boxes</extent>
 			<extent encodinganalog="300$a">(3 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">English, French</langmaterial>
+		<langmaterial encodinganalog="546" label="Language of Material:">English, French</langmaterial>
 
 	          <repository label="Location:">
             <corpname>Mortimer Rare Book Room</corpname>
@@ -73,17 +74,17 @@
 
 <bioghist id="bioghist">
 <head>Biographical Note</head>
-<p>Anne Walker is a printmaker and painter; she lives in Paris. Walker was born in 1933 in Boston, Massachusetts, and graduated in 1955 from Smith College; she spent her junior year in Paris, working at the Acad&#233;mie de la Grande Chaumi&#232;re in Montparnasse. In 1956 she returned to Paris to study with Johnny Friedlaender at his atelier; her first etchings were done there. She has continued to make prints, created etchings, and a number of fine-press books. Walker's graphic work has been exhibited worldwide since 1956 and is in public and private collections in Europe and the United States. Her husband, Bertrand Dorny, is also an artist.</p>
+<p>Anne Walker is a printmaker and painter; she lives in Paris. Walker was born in 1933 in Boston, Massachusetts, and graduated in 1955 from Smith College; she spent her junior year in Paris, working at the Académie de la Grande Chaumière in Montparnasse. In 1956 she returned to Paris to study with Johnny Friedlaender at his atelier; her first etchings were done there. She has continued to make prints, created etchings, and a number of fine-press books. Walker's graphic work has been exhibited worldwide since 1956 and is in public and private collections in Europe and the United States. Her husband, Bertrand Dorny, is also an artist.</p>
 
 <p>In 1986 she took up painting, using gouache combined with pastel, a technique that has predominated in her work since then. With these materials she began exploring the format of the artist's book, which has allowed her to collaborate with poets and writers whom she admires-Michel Butor, Kenneth Koch and Peter Davison, to name a few. Much of her book work is concerned with the language of color and is characterized by a lyricism-sometimes playful, sometimes elegiac-that pairs well with literature.</p>   	
 
 <p>Anne Walker has written the following about her artists' books:</p> 
 
-<p>&#8220;I believe the desire to create images originates in an early passion for pictures and paintings. Some of my fondest memories are of my illustrated childhood books, read over and over again, as much for the pictures as for the words. My dream then was to be an illustrator of children's books. Growing up in the Newton suburbs outside of Boston, where I was born, I was close to the Museum of Fine Arts, where I was enrolled in a Saturday morning art class by parents who always encouraged my interest in drawing, but I soon stopped attending in order to roam the more interesting museum. It was a wonderful introduction to seeing: having little knowledge of art history, I was free to admire or dislike as I wandered. The Oriental art rooms particularly impressed me.&#8221;</p>
+<p>“I believe the desire to create images originates in an early passion for pictures and paintings. Some of my fondest memories are of my illustrated childhood books, read over and over again, as much for the pictures as for the words. My dream then was to be an illustrator of children's books. Growing up in the Newton suburbs outside of Boston, where I was born, I was close to the Museum of Fine Arts, where I was enrolled in a Saturday morning art class by parents who always encouraged my interest in drawing, but I soon stopped attending in order to roam the more interesting museum. It was a wonderful introduction to seeing: having little knowledge of art history, I was free to admire or dislike as I wandered. The Oriental art rooms particularly impressed me.”</p>
 
-<p>&#8220;Attending Smith College as a studio art major and taking my junior year abroad in Paris, where I was first exposed directly to the many forms of contemporary art, were essential in forming my vision as an artist. My first experiments were with printing techniques. I studied woodcutting at Smith with Seong Moy and etching with Johnny Friedlaender in Paris. Having taken up residence in Paris permanently, I could avail myself of the fine presses and printing studios to make numerous etchings and, most important, my first artist's books. These were made in collaboration with my poet friend Edward Kessler. Later, when I turned to using gouache and pastel, I began the series of 'painted books' which I continue to this day.&#8221;</p>
+<p>“Attending Smith College as a studio art major and taking my junior year abroad in Paris, where I was first exposed directly to the many forms of contemporary art, were essential in forming my vision as an artist. My first experiments were with printing techniques. I studied woodcutting at Smith with Seong Moy and etching with Johnny Friedlaender in Paris. Having taken up residence in Paris permanently, I could avail myself of the fine presses and printing studios to make numerous etchings and, most important, my first artist's books. These were made in collaboration with my poet friend Edward Kessler. Later, when I turned to using gouache and pastel, I began the series of 'painted books' which I continue to this day.”</p>
 
-<p>&#8220;When conceiving a book, I work in harmony with writers whom I know personally, both French and American. Also, words of certain departed poets who speak to me across time can stimulate the visual pattern behind a composition. It is a question of words evoking images or, in direct collaboration with a poet, images evoking words. Because creatively I'm devoted to inventing landscape equivalences, the accordion form of 'folded paintings' suits my concept of an overall, amost unending piece that becomes a book when folded and can be read page by page, but that can also be viewed as a long picture, like a scroll. In my books I seek to illuminate rather than to illustrate the text, which the author inscribes after I've made the painting. If the poet is no longer living, I print the text myself in simple block letters. The words in the books are placed over and within the painting becoming inseparable from it, a form of intermingling that I try to render among the elements in the accompanying image.&#8221;</p>
+<p>“When conceiving a book, I work in harmony with writers whom I know personally, both French and American. Also, words of certain departed poets who speak to me across time can stimulate the visual pattern behind a composition. It is a question of words evoking images or, in direct collaboration with a poet, images evoking words. Because creatively I'm devoted to inventing landscape equivalences, the accordion form of 'folded paintings' suits my concept of an overall, amost unending piece that becomes a book when folded and can be read page by page, but that can also be viewed as a long picture, like a scroll. In my books I seek to illuminate rather than to illustrate the text, which the author inscribes after I've made the painting. If the poet is no longer living, I print the text myself in simple block letters. The words in the books are placed over and within the painting becoming inseparable from it, a form of intermingling that I try to render among the elements in the accompanying image.”</p>
 
 </bioghist>
 
@@ -92,7 +93,7 @@
 <p>The Anne Walker Collection consists of a collection of her artists' books, letters and related items relative to the artistry of Ms. Walker. The majority of the artists' books were given to the Mortimer Rare Book Room as a gift from Walker in 2005 in celebration of her graduation from Smith College in 1956, with some of the others coming from other sources. The letters of Michel Butor were also donated by Walker. The other items in the collection are from various sources. </p>
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into three series:</p>
 	<list>
@@ -129,7 +130,7 @@
 	<descgrp>
 		<head>History of the Collection</head>
 		<acqinfo id="admin-acqinfo">
-			<p></p> 
+			<p/> 
 		</acqinfo>
 		<processinfo id="admin-process">
 			<p>Processed by Melvin Carlson, Jr., 2006</p> 
@@ -193,9 +194,9 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <head>Contents List</head>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. ARTISTS' BOOKS
 <unitdate>(1989-2005)</unitdate>, </unittitle>
@@ -218,7 +219,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">3</container>
- <unittitle>Butor, Michel. L'Arri&#232;re automne, <unitdate>2003.</unitdate> Text inscribed by Butor; signed by Butor and Walker. (14 leaves; 19.5 x 14.4 cm., in portfolio) No. 3 of 7.</unittitle>
+ <unittitle>Butor, Michel. L'Arrière automne, <unitdate>2003.</unitdate> Text inscribed by Butor; signed by Butor and Walker. (14 leaves; 19.5 x 14.4 cm., in portfolio) No. 3 of 7.</unittitle>
  </did>
  </c02>
  <c02>
@@ -351,7 +352,7 @@
  <did>
  <container type="box">4</container>
  <container type="folder">22</container>
- <unittitle>No&#235;l, Bernard. Le Reste du voyage,<unitdate> 1997. </unitdate>Text inscribed by No&#235;l; signed by No&#235;l and Walker. (7 leaves; 14.5 x 9.5 cm., in slipcase) No. 2 of 5.</unittitle>
+ <unittitle>Noël, Bernard. Le Reste du voyage,<unitdate> 1997. </unitdate>Text inscribed by Noël; signed by Noël and Walker. (7 leaves; 14.5 x 9.5 cm., in slipcase) No. 2 of 5.</unittitle>
  </did>
  </c02>
  <c02>
@@ -386,7 +387,7 @@
  <did>
  <container type="box">5</container>
  <container type="folder">27</container>
- <unittitle>Peyr&#233;, Yves. Pinc&#233;es d'or ou d'&#233;cume, <unitdate>2004.</unitdate> Text inscribed by Peyr&#233;; signed by Peyr&#233; and Walker. (9 leaves; 14 x 19 cm., in portfolio) No. 2 [of 7].</unittitle>
+ <unittitle>Peyré, Yves. Pincées d'or ou d'écume, <unitdate>2004.</unitdate> Text inscribed by Peyré; signed by Peyré and Walker. (9 leaves; 14 x 19 cm., in portfolio) No. 2 [of 7].</unittitle>
  </did>
  </c02>
  <c02>
@@ -444,7 +445,7 @@
 
 
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. GENERAL MATERIALS
 <unitdate>(1974-2006)</unitdate>, </unittitle>
@@ -492,7 +493,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>SERIES III. OVERSIZE
 <unitdate>(1994)</unitdate>, </unittitle>
@@ -501,7 +502,7 @@
  <c02>
  <did>
  <container type="box">7</container>
- <unittitle>Shelley, Percy Bysshe. Ode to the West Wind,<unitdate> 1994. </unitdate>Text inscribed and signed by Walker. (14 x 303 cm. forming a circle and folded; laid in wood case with Plexiglas cover designed by S&#252;n Evrard) No. 1 of 2.</unittitle>
+ <unittitle>Shelley, Percy Bysshe. Ode to the West Wind,<unitdate> 1994. </unitdate>Text inscribed and signed by Walker. (14 x 303 cm. forming a circle and folded; laid in wood case with Plexiglas cover designed by Sün Evrard) No. 1 of 2.</unittitle>
  </did>
  </c02>
  </c01>
@@ -510,5 +511,3 @@
 
 </archdesc>
 </ead>
-
-

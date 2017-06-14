@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss51.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss51</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss51.xml//EN">mnsss51</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Constance Baker Motley Papers, 1948-1988
@@ -52,18 +53,18 @@
          <sponsor>Processing of the Constance Baker Motley Papers was made possible by the generous support of the National Endowment for the Humanities and Smith College President Ruth J. Simmons
             </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Motley, Constance Baker, 1921-2005</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Constance Baker Motley Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1948-1988</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Constance Baker Motley Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1948-1988</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 110</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 110</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">16 boxes</extent>
             <extent encodinganalog="300$a">(6 linear ft.)</extent>
@@ -75,15 +76,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Judge, lawyer, civil rights advocate, and state senator.  The bulk of the Motley papers document her professional life; material includes speeches, interviews, photographs, and memorabilia.  The collection sheds light on the successes and failures of programs that emerged from the public policy applications of civil rights in such areas as the war on poverty and race discrimination; urban renewal; and in the New York State courts and political systems.  Notable correspondents include:  Bella Abzug, Brooke Astor, Shirley Chisholm, Hubert Humphrey, Lyndon B. Johnson, Florynce Kennedy, Dorothy Kenyon, Martin Luther King, Jr., John V. Lindsay, George McGovern, Floyd B. McKissick, James  Meredith, Pauli Murray,  A. Philip Randolph, and Robert F. Wagner.  Individuals represented in speeches and published sources include Jack Greenburg, Martin Luther King, Jr., and Thurgood Marshall.
+         <abstract encodinganalog="520$a" label="Abstract:">Judge, lawyer, civil rights advocate, and state senator.  The bulk of the Motley papers document her professional life; material includes speeches, interviews, photographs, and memorabilia.  The collection sheds light on the successes and failures of programs that emerged from the public policy applications of civil rights in such areas as the war on poverty and race discrimination; urban renewal; and in the New York State courts and political systems.  Notable correspondents include:  Bella Abzug, Brooke Astor, Shirley Chisholm, Hubert Humphrey, Lyndon B. Johnson, Florynce Kennedy, Dorothy Kenyon, Martin Luther King, Jr., John V. Lindsay, George McGovern, Floyd B. McKissick, James  Meredith, Pauli Murray,  A. Philip Randolph, and Robert F. Wagner.  Individuals represented in speeches and published sources include Jack Greenburg, Martin Luther King, Jr., and Thurgood Marshall.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2298.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2298.jpg" linktype="simple" show="embed">
 <daodesc><p>Constance Baker Motley, circa 1963</p></daodesc></dao>
          <p>Constance Juanita Baker was born on September 14th, 1921 in New Haven, Connecticut.  She was the ninth of twelve children of Rachel Huggins and Willoughby Alva Baker, both emigrants from Nevis, British West Indies.  Her childhood neighborhood, although ethnically diverse (comprised of West Indian, Irish, Italian, Jewish, and Polish families) was relatively free from racial rancor. Rachel Baker was a founder of the New Haven NAACP and Motley was exposed to African American history, especially the writings of W.E.B. DuBois, in her Sunday School.  While in high school, Motley became president of the New Haven Youth Council and was secretary of the New Haven Adult Community Council.  In 1939, she graduated with honors from Hillhouse High School.  Though she had already formed a desire to practice law, Motley lacked the means to attend college, and instead went to work for the National Youth Administration.  She also continued her involvement in community activities and it was through this work that she encountered local businessman and philanthropist Clarence Blakeslee, who, after hearing Motley speak at a New Haven community center, offered to pay for her education.  She spent a year at Fisk University in Nashville, Tennessee, then transferred to New York University in 1942, earning her A.B. in economics from its Washington Square College in 1943.  In February 1944 she began her legal studies at Columbia Law School.  She graduated in 1946, the same year she married Joel Wilson Motley, Jr., a real estate and insurance broker.  Their son, Joel Motley III, was born in 1952.</p>
          <p>In 1945 Constance Motley took a job as law clerk to Thurgood Marshall, chief counsel of the NAACP's Legal Defense and Educational Fund, Inc. (LDEF), and accompanied Marshall to court for most of his cases.  After earning her law degree, Motley continued to work for the LDEF.  In 1950 she was named assistant counsel and in 1961 she became associate counsel when Jack Greenberg succeeded Thurgood Marshall as head of the LDEF.  As counsel Motley was involved in almost every important civil rights case of the era.  She worked on litigation for the 1954 school desegregation case, <title render="italic">Brown v. the Board of Education of Topeka</title>, Kansas and subsequently fought for and won several other successful public school and university desegregation cases, including James Meredith's entry into the University of Mississippi in 1962.  The LDEF also represented Dr. Martin Luther King, Jr. and his followers in civil rights campaigns for desegregation of public transportation and accommodations throughout the South from 1961 to 1963.  Motley brought many of these civil rights cases to higher courts. Between 1961 and 1964, she argued ten civil rights cases before the U.S. Supreme Court, winning nine.  [For a complete list and summaries of Motley's NAACP cases see the Columbia University project database, described in the <ref target="scope">Scope and Contents</ref> note].  In his book, <title render="italic">Crusaders in the Courts</title> (1994), Jack Greenberg said of Motley's work with the NAACP:<lb />
@@ -118,7 +119,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -182,7 +183,7 @@
          <persname encodinganalog="600" source="lcnaf">Motley, Constance Baker, 1921-</persname>
          <persname encodinganalog="600" source="lcnaf">Randolph, A. Philip (Asa Philip), 1889-</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -258,8 +259,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1948-1986)</unitdate>
                </unittitle>
@@ -370,7 +371,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1964-87)</unitdate>
                </unittitle>
@@ -723,7 +724,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. PROFESSIONAL ACTIVITIES <unitdate>(1956-66)</unitdate>
                </unittitle>
@@ -1319,7 +1320,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. SPEECHES <unitdate>(1963-88)</unitdate>
                </unittitle>

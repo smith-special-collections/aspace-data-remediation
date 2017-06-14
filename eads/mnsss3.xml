@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss3.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss3</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss3.xml//EN">mnsss3</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Noel Phyllis Birkby Papers, 1932-1994
@@ -48,19 +49,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Birkby, Phyllis</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Phyllis Birkby Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1932-1994</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Phyllis Birkby Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1932-1994</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1960-1994</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 283</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 283</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">92 boxes, 10 flat file drawers, 14 storage tubes</extent>
             <extent encodinganalog="300$a">(50 linear ft.)</extent>
@@ -72,15 +73,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Architect; film maker; lesbian activist; feminist; founder, Women's School of Planning and Architecture; and professor. The Birkby papers include her own documentation of women's activities through various forms of documentation.  Materials include films, photographs, journals, writings, and correspondence with several notable feminists.
+         <abstract encodinganalog="520$a" label="Abstract:">Architect; film maker; lesbian activist; feminist; founder, Women's School of Planning and Architecture; and professor. The Birkby papers include her own documentation of women's activities through various forms of documentation.  Materials include films, photographs, journals, writings, and correspondence with several notable feminists.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1914.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1914.jpg" linktype="simple" show="embed">
 <daodesc><p>Phyllis Birkby, n.d.</p></daodesc></dao>
          <p>"I have not by any means been a linear oriented professional person."  --Noel Phyllis Birkby</p>
          <p>Noel Phyllis Birkby was born on December 16, 1932 in Nutley, New Jersey, to Harold S. and Alice Green Birkby.  As a child, she showed an interest in architecture and environmental design making drawings of cities and towns and constructing them in miniature in her mother's garden.  When she was in high school, career counselors discouraged her desire to study architecture while noting her aptitude for that pursuit, "Well, Miss Birkby, it appears that if you were a man, you should be studying architecture."  As a 16 year old in 1949, she "swallowed the implication that there just weren't any women architects" and elected to study art instead, entering the Women's College of the University of North Carolina in 1950.</p>
@@ -154,7 +155,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -215,7 +216,7 @@
          <subject encodinganalog="650" source="lcsh">Lesbian communities--United States--History--Sources</subject>
          <corpname encodinganalog="610" source="lcnaf">Women's School of Planning and Architecture </corpname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -752,8 +753,8 @@
 </dsc>
 <!-- End series descriptions -->
 <!-- Insert container list here -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL AND FINANCIAL MATERIAL
                </unittitle>
@@ -1163,7 +1164,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE
                </unittitle>
@@ -1601,7 +1602,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. ARCHITECTURE
                </unittitle>
@@ -3460,7 +3461,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. RESEARCH, SPEAKING, AND WRITING             </unittitle>
             </did>
@@ -4304,7 +4305,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. TEACHING
                </unittitle>
@@ -4916,7 +4917,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. SUBJECT FILES
                </unittitle>
@@ -6101,7 +6102,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. PHOTOGRAPHS
                </unittitle>
@@ -7481,7 +7482,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII. FILMS AND VIDEOTAPES
                </unittitle>
@@ -8977,7 +8978,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>SERIES IX. TAPE RECORDINGS
                </unittitle>

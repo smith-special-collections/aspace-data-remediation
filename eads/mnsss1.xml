@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss1.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss1</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss1.xml//EN">mnsss1</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Charlotte Bannon Papers, 1895-1961
@@ -42,18 +43,18 @@
          <num>MS 245
       </num>
          <author encodinganalog="245$c">Amy Hague</author>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Bannon, Charlotte, 1874-1961</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Charlotte Bannon Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1895-1961</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Charlotte Bannon Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1895-1961</unitdate>
          <unitdate encodinganalog="245$g" type="bulk">1918-1921</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 245</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 245</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25  linear ft.)</extent>
@@ -65,16 +66,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Red Cross relief worker, World War I.  Papers primarily consist of a typescript of letters Bannon wrote to family and friends from Paris between 1918 and 1921. Additional papers provide a small amount of information about her life before and after her Red Cross work in Paris. Materials also include photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">Red Cross relief worker, World War I.  Papers primarily consist of a typescript of letters Bannon wrote to family and friends from Paris between 1918 and 1921. Additional papers provide a small amount of information about her life before and after her Red Cross work in Paris. Materials also include photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language>
          </langmaterial>
 
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4273.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4273.jpg" linktype="simple" show="embed">
 <daodesc><p>Bannon's friend Madame Laure, 1903</p></daodesc></dao> 
          <p>Charlotte Bannon was born in Portsmouth, Ohio on 6 January 1874.  She prepared for college with tutors in Portsmouth and Northampton, Massachusetts.  She attended Smith College where she was noted for "songs...and histrionic ability," and was graduated in 1895.  From 1896 to 1904, Bannon taught Latin and history at Portsmouth High School.  She was superintendent of Keith's Bijou Theatre in Boston from 1909 to 1912, then spent a year working at the Academy of Music in Northampton.  During World War I she worked in the personnel office of the American Red Cross Department of Civilian Relief in Paris, assuming responsibility for newly arrived Red Cross workers.  In 1919 Bannon was appointed Associate Director of Personnel.  After the Armistice, Bannon traveled to other parts of France and Europe during vacations.  She returned to the United States in October 1921 where she managed the Lyric Theatre in Portsmouth until 1924 when she moved to Boston to manage a movie theatre.  Charlotte Bannon died on 15 March 1961.</p>
       </bioghist>
@@ -83,7 +84,7 @@
          <p>The Charlotte Bannon Papers consist primarily of a 259-page typescript of letters she wrote to family and friends from Paris between 1918 and 1921.  There are also a few letters to Bannon from others that were probably enclosures in her letters home included in the typescript.  Biographical material, one photograph of Bannon, one photograph of her friend Madame Laure, and photocopies of original photographs of Bannon in the Smith College Archives complete this small collection. </p>
          <p>Charlotte Bannon's enthusiastic letters are full of descriptive detail and tell a story common to many of the Americans who went overseas during World War I to do war work.  Motivated by the desire to serve their country, they were also looking for adventure and excitement.  Even those stationed away from the front lines, as Bannon was, usually found it.  Shortly after her arrival she complained that she had "prowled every night all over the Boulevards hoping for an air raid...but no such luck yet."  Soon, however, she was writing of air raids, a constant stream of visitors to her pension, and the cosmopolitan soldiers and other war workers she encountered on a daily basis.  Three months after her arrival she wrote that "the past week has been so full of thrills...I sometimes wonder how we'll ever get along without a war when peace comes."  The emphasis of these letters is on Bannon's social life because, she writes, the task of describing the events which take place in her office, the Red Cross, and on the international scene is too overwhelming.  Nevertheless, all of the above subjects appear in the letters on a regular basis.  She had frequent contact with friends from home, including members of the Smith College Relief Unit stationed at Grecourt and other parts of France.  These letters provide a very detailed picture of a three year period in a long life.  The additional papers provide a small amount of information about her life before and after her Red Cross work in Paris, but do not provide a very complete context for those years.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -117,7 +118,7 @@
          <persname encodinganalog="600" source="lcnaf">Bannon, Charlotte, 1874-1961</persname>
          <subject encodinganalog="650" source="lcsh">World War, 1914-1918--War work--France--Red Cross</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

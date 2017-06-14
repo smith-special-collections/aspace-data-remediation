@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss250.html">mnsss250</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss250.html">mnsss250</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Stella Bloch Hanau papers, 1890-1990</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss250.html">mnsss25
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss250.html">mnsss25
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss250.html">mnsss25
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Hanau, Stella, 1890-1972</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Stella Hanau papers</unittitle><unitdate label="Dates:">1890-1990</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 73</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Stella Hanau papers</unittitle><unitdate label="Dates:">1890-1990</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 73</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">9 boxes</extent>
           <extent encodinganalog="300$a">(4 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,13 +66,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss250.html">mnsss25
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Editor; Publicist; Birth control
+      <abstract encodinganalog="520$a" label="Abstract:">Editor; Publicist; Birth control
 activist. Correspondence with family and associates in the birth control movement and the Works Progress Administration (1930s); birth control and WPA publications edited by Hanau; biographical information, memorabilia, photographs, and material for her book, <title render="italic">The Provincetown: A Story of a Theatre</title> (1931).
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6419.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6419.jpg" linktype="simple" show="embed">
 <daodesc><p>Dance card, undated</p></daodesc></dao> 
        <p>Stella Bloch was born in New York, New York, on July 24, 1890.  Her father, Edward Bloch (1852-1933), and mother, Elizabeth Long (1861-1928), moved to New York from Alabama in 1882 after their cotton business sustained heavy losses.  In New York, Edward Bloch went into the silk business, although family lore indicates that he was not a good businessman.  Stella had three older brothers:  Alexander (1881-1983), Samson Friedrich (1885-1936), and Eugene Godfrey (1888-1974).  According to a biographical sketch by Stella's son, Richard Hanau, while Stella considered herself an agnostic, the family identified as Jewish though they did not attend temple or observe holidays.</p>
 	<p>After attending Wadleigh High School in Manhattan, Hanau earned a B.A. in English Literature from Barnard in 1911. While attending college she was secretary-treasurer for the Barnard chapter of the Collegiate Equal Suffrage League of New York, participated in the Intercollegiate Socialist Society, Deutscher Kreis, and the College Settlements Association.  She also joined a variety of theatre groups and participated in productions.  Just before college she met Hella Bernays, Sigmund Freud's niece, and the two became lifelong friends and collaborators.</p>
@@ -191,8 +189,8 @@ activist. Correspondence with family and associates in the birth control movemen
 </dsc>
 
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS</unittitle>
  </did>
@@ -394,7 +392,7 @@ activist. Correspondence with family and associates in the birth control movemen
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -912,7 +910,7 @@ activist. Correspondence with family and associates in the birth control movemen
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. ORGANIZATIONS</unittitle>
  </did>
@@ -1049,7 +1047,7 @@ activist. Correspondence with family and associates in the birth control movemen
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -1085,5 +1083,4 @@ activist. Correspondence with family and associates in the birth control movemen
 </dsc>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

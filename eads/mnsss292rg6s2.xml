@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s2.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg6s2</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s2.xml//EN">mnsss292rg6s2</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 06. Program: Series II. Training and Personnel</unittitle><unitdate type="inclusive" label="Dates:">1870-2002</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 06. Program: Series II. Training and Personnel</unittitle><unitdate label="Dates:" type="inclusive">1870-2002</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:57dccb96-655a-4278-b226-3b0d6d700b36</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,14 +49,14 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Records in this series document the overall coordination of training, and national training programs.  Materials include minutes; reports; correspondence; course catalogs; training handouts, packets, manuals, and kits; conference, programs and projects files; publications; studies; and subject files. Forms part of the YWCA of the U.S.A. Records. <extref href="mnsss292rg6_main.html">Record Group 6. Program</extref>.
 </abstract>
 </did>
  
    <bioghist id="bioghist">
  	<head>Historical Note</head>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3417.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3417.jpg" linktype="simple" show="embed">
 <daodesc><p>Cartoon for YWCA training, 1930 National Convention
 </p></daodesc></dao>
  <p>The establishment of the YWCA movement in the United States in the second half of the nineteenth century created an immediate need for women trained in "Association principles and methods" to staff the new Associations.  Much of the training sponsored by the YWCA of the U.S.A's predecessor organizations took place in three-week summer study conferences where current and potential secretaries were given the opportunity "to grasp the principles of the work as fully as possible."  Courses given included physical culture, recreational activities, Association principles and methods, and Bible study.  Other training opportunities took place during the year at three-day to one month long Institutes held at Community Associations.</p>
@@ -71,7 +72,7 @@
 	<p>The Association made regular studies of salary ranges and educational qualifications of staff in its Community and Student  Associations.  When the studies revealed in the 1950s and 1960s that one quarter of the professional staff in Community Associations were not college graduates, the National Association worked to encourage college completion through scholarships and policies promoting leaves for educational purposes.</p>
 	<p>In response to changing trends, especially among the volunteer work force, the Association committed itself to a renewed emphasis on leadership training for the 1980s.</p>  
 	<p>When the Max C. Fleishmann Foundation of Reno, Nevada, announced that it wanted to distribute all of its assets, the YWCA submitted a proposal for support of construction of a "leadership development center" located in the fast-growing southwestern U.S. Staff cuts in the mid-1970s had reduced staff in regional offices which left the membership feeling that National was out of touch with their concerns.  Location of the center away from New York was an attempt to address that problem. </p> 
-	<p>A site was selected in Phoenix, Arizona, causing some controversy among Association membership due to the apparent inconsistency of building in a state that had not ratified the Equal Rights Amendment, a YWCA public policy priority since 1973.  Citing the need for a "strong presence&#8230;in areas which most need the commitment of the YWCA to racial justice and equality for women," the YWCA went ahead with the construction.  Dedicated in 1983, the Leadership Development Center was a year-round, non-residential training center designed to take full advantage of state-of-the-art technology.  Though primarily for YWCA staff, it could also be rented by similar groups. </p>
+	<p>A site was selected in Phoenix, Arizona, causing some controversy among Association membership due to the apparent inconsistency of building in a state that had not ratified the Equal Rights Amendment, a YWCA public policy priority since 1973.  Citing the need for a "strong presence…in areas which most need the commitment of the YWCA to racial justice and equality for women," the YWCA went ahead with the construction.  Dedicated in 1983, the Leadership Development Center was a year-round, non-residential training center designed to take full advantage of state-of-the-art technology.  Though primarily for YWCA staff, it could also be rented by similar groups. </p>
 	<p>The logistics of administering an operation that was at such a distance from headquarters,   as well as the financial burdens of staffing and maintaining the facility, were always somewhat challenging for the shrinking national staff.  Part of the National Association's renewed emphasis on leadership training included, as part of Member Association accreditation, required attendance at training sessions in Phoenix.  At least some cash-strapped Community Associations objected to the expense involved in traveling to Arizona for training that had previously been offered regionally.  Logistical and financial conditions did not improve over time and the Association ultimately decided to sell the Center as part of the major restructuring of the National Association in 1999-2000.</p>
 	<p>Once again feeling the need of an independent association for discussion of professional and organizational issues, staff members established the National Association of YWCA Executives (NAYE), in 1985.  This group played a large role in the 1999-2000 reorganization of the structure of the National Association.</p>
  <chronlist>
@@ -254,8 +255,8 @@
 <!-- Record group and series list descriptions -->
 <!-- End Series descriptions -->
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser2">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. TRAINING AND PERSONNEL</unittitle>
  </did>
@@ -2666,5 +2667,4 @@
 </dsc>
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss403.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss403</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss403.xml//EN">mnsss403</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Dorothy Wrinch Papers, 1901-1983 (bulk 1919-1975)</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Wrinch, Dorothy, 1894-1976</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Wrinch, Dorothy, 1894-1976</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Dorothy Wrinch Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1901-1983</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1919-1975</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 178</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Dorothy Wrinch Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1901-1983</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1919-1975</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 178</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">35 boxes; oversize materials; 2 volumes</extent>
 		<extent encodinganalog="300$a">(13 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -60,7 +61,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Historical Note</head>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2481.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2481.jpg" linktype="simple" show="embed">
 <daodesc><p>Dorothy Wrinch with students at Smith College, 1965-1966</p></daodesc></dao>
 <p>	Dorothy Maud Wrinch was a chemist, biologist, and physicist most famous for her development of the cyclol theory.  Throughout her career, she used her background in mathematics to apply math to biology, and was an important early figure in molecular biology. </p> 
 
@@ -76,7 +77,7 @@
 	<head>Scope and Contents of the Collection</head>
 <p>The Dorothy Wrinch Papers contain original manuscripts; models; printed material; publications and writings; notebooks and scrapbooks; as well as extensive correspondence which illuminates her research and views on crystal structure, cyclols, peptides, mineral twins, x-ray methods, insulin, and polyhedra.  Also included are articles by colleagues and contemporaries, lecture notes, grant correspondence, models and photographs. There are also selected letters and writings by her daughter Pamela Wrinch Schenkman (1927-75).  </p>
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into eleven series:</p>
 	<list>
@@ -316,8 +317,8 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -407,7 +408,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
          <unittitle>SERIES II.  PHOTOGRAPHS              <unitdate>(1936-66, n.d.)</unitdate>          </unittitle>
  </did>
@@ -447,7 +448,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES  III.  CORRESPONDENCE <unitdate>(1924-75, n.d.)</unitdate>          </unittitle>
  </did>
@@ -1155,7 +1156,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
          <unittitle>SERIES IV. GRANTS              <unitdate>(1935-66)</unitdate>          </unittitle>
  </did>
@@ -1195,7 +1196,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
          <unittitle>SERIES V. PUBLICATIONS              <unitdate>(1919-66, n.d.)</unitdate>          </unittitle>
  </did>
@@ -1352,7 +1353,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
          <unittitle>SERIES VI. WRITINGS              <unitdate>(1936-70)</unitdate>          </unittitle>
  </did>
@@ -1685,7 +1686,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. MODELS AND STRUCTURES</unittitle>	<note><p><ref target="list-ser12">[see also OVERSIZE MATERIALS - Three-dimensional models]</ref></p>
  	</note>
@@ -1755,7 +1756,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. SMITH COLLEGE MATERIAL</unittitle>
  </did>
@@ -1814,7 +1815,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. MISCELLANEOUS</unittitle>
  </did>
@@ -1875,7 +1876,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser10">
+ <c01 id="list-ser10" level="series">
  <did>
          <unittitle>SERIES X. PAMELA WRINCH <unitdate>(1927-1975)</unitdate>          </unittitle>	<note><p><ref target="list-ser3-family-pam">[see also SERIES III.  CORRESPONDENCE - Family - Pamela Wrinch]</ref></p>
          	</note>
@@ -1941,7 +1942,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser11">
+ <c01 id="list-ser11" level="series">
  <did>
  <unittitle>SERIES XI. NOTEBOOKS</unittitle>	<note><p><ref target="list-ser12">[see also OVERSIZE MATERIAL - Data scrapbooks]</ref></p>
  	</note>
@@ -2233,7 +2234,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser12">
+ <c01 id="list-ser12" level="series">
  <did>
  <unittitle>OVERSIZE MATERIAL</unittitle>
  </did>
@@ -2258,7 +2259,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser13">
+ <c01 id="list-ser13" level="series">
  <did>
  <unittitle>BOOKS ON SHELF</unittitle>
  </did>
@@ -2269,7 +2270,7 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
  </c02>
  <c02>
  <did>
- <unittitle>Stoops, R. <title render="italic">Les Prot&#233;ines: Rapports et Discussions</title>. Brussels<unitdate>1953.</unitdate></unittitle>
+ <unittitle>Stoops, R. <title render="italic">Les Protéines: Rapports et Discussions</title>. Brussels<unitdate>1953.</unitdate></unittitle>
  </did>
  </c02>
  </c01>
@@ -2279,5 +2280,3 @@ This series includes photographs of Dorothy Wrinch, Otto Glaser, Pamela Wrinch, 
 
   </archdesc>
 </ead>
-
-

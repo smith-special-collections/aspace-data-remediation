@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca24.xml//EN" countrycode="us" mainagencycode="manosca">manosca24</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca24.xml//EN">manosca24</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Flying Club Records, 1934-1954
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -46,17 +47,17 @@
 <date>2001
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <corpname encodinganalog="110" source="lcnaf">Flying Club</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Flying Club Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1934-1954</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 80</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Flying Club Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1934-1954</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:646f700a-bcf0-4140-806a-20fa318888c8</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -67,7 +68,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Contains constitution, correspondence, flight training and financial records, photographs, publications, manuals and instructions.
+<abstract encodinganalog="520$a" label="Abstract:">Contains constitution, correspondence, flight training and financial records, photographs, publications, manuals and instructions.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -78,7 +79,7 @@
 <p>In 1934, Mary Kimball, an avid aviator, founded the Smith College Flying Club so that she and other young women would have the opportunity to learn more about aviation and to participate in intercollegiate air meets and activities while at Smith.  While the club attracted only twelve members at its founding, its membership increased and during its peak years, as many as forty young women could be seen attending lectures on flight theory and mechanics and participating in flying exercises and meets throughout New England.  In 1950, however, Flying Club members were prohibited from competing in air meets due to a violation of college policy.  While the club was allowed to continue its existence as long as members did not participate in competitions, membership declined and in 1954, the Flying Club was discontinued.  The club was the first organization of its kind to be formed and supported by a women's college in the East.
 </p>
 </bioghist>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -110,7 +111,7 @@
 <corpname encodinganalog="610" source="lcsh">Smith College--Societies, etc.</corpname>
 <subject encodinganalog="650" source="lcsh">Women air pilots--Massachusetts--Northampton.</subject>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <bibliography>
 <head>Flying Club Books, Publications,
@@ -151,7 +152,7 @@
   Air Lines, n.d.</p>
 </bibliography>
 </descgrp>
-<dsc type="in-depth" id="contlist">
+<dsc id="contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">3013</container>

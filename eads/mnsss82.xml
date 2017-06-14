@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss82.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss82</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss82.xml//EN">mnsss82</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Biography Collection, 1771-1995 (bulk 1920s-70s)
@@ -48,16 +49,16 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Biography Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1771-1995 </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Biography Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1771-1995 </unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1920-1970</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 393</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 393</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">17 boxes; 10 volumes</extent>
             <extent encodinganalog="300$a">(6.25 linear ft.)</extent>
@@ -69,15 +70,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">This collection consists of biographical material on both famous and lesser-known women and men.  For the most part, there is only a small amount of material on each individual.  Materials typically include published and unpublished biographical sketches, books, correspondence, diaries, genealogies, photographs, and published and unpublished writings.
+         <abstract encodinganalog="520$a" label="Abstract:">This collection consists of biographical material on both famous and lesser-known women and men.  For the most part, there is only a small amount of material on each individual.  Materials typically include published and unpublished biographical sketches, books, correspondence, diaries, genealogies, photographs, and published and unpublished writings.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1431.jpg" altrender="right">
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1431.jpg" linktype="simple" show="embed">
 <daodesc><p>Portrait of Kitty Merion, 1911</p></daodesc></dao>
          <p> This collection consists of biographical material related to both well-known and unknown women and men whose lives spanned the years from 1771-1970s. Notable individuals represented include Mary McLeod Bethune, Bernard Baruch, Lizzie Borden, Eleanor Butler and Sarah Ponsonby (The Ladies of Llangollen), Tennessee Claflin Cook, Grace Coolidge, Angela Davis, Mary Daly, Hannah Dustin, Dorothy Gish, Julia Ward Howe, Anne Hutchinson, Mother Jones, Helen Keller, Florynce Kennedy, Joan Little, Eleanor Roosevelt, Alice Roosevelt Longworth, Florence Luscomb, Rosa Luxemburg, Marie Antoinette, Margaret Mead, Pauli Murray, Anna Lord Strauss, Rose Pastor Stokes, Annie Sullivan Macy, and Victoria Woodhull.</p>
          <p> For the most part, there is only a small amount of material on each individual. Files are organized alphabetically by name.  Materials typically include published and unpublished biographical sketches, books, correspondence, diaries, genealogies, newspaper clippings, photographs, and published and unpublished writings.  The files of individuals such as Lizzie Borden and Angela Davis also include legal documents.  Davis' file (the largest in the collection) also contains memoranda, postcards, political buttons, leaflets, petitions, newsletters, trial bulletins, press releases, and political cartoons which document the movement organized to agitate for a fair trial and freedom for Davis and other political prisoners.</p>
@@ -106,7 +107,7 @@
          <p>Files arranged alphabetically by name.
       </p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -172,7 +173,7 @@
          <persname encodinganalog="600" source="lcnaf">Buck, Pearl S. (Pearl Sydenstricker), 1892-1973</persname>
 	<corpname encodinganalog="710" source="lcnaf">Sophia Smith Collection</corpname> 
       </controlaccess>
-       <descgrp type="add" id="addinfo">
+       <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -180,8 +181,8 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. INDIVIDUALS</unittitle>
             </did>
@@ -1549,7 +1550,7 @@ Oversize material]</ref></p></note>
             </c02>
 
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. COLLECTED BIOGRAPHIES AND BIBLIOGRAPHIES</unittitle>
             </did>
@@ -1585,7 +1586,7 @@ Oversize material]</ref></p></note>
          </c01>
 
 
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>
@@ -1605,7 +1606,7 @@ Oversize material]</ref></p></note>
 
          </c01>
 
-         <c01 level="series" id="list-serBKS">
+         <c01 id="list-serBKS" level="series">
             <did>
                <unittitle>BOOKS ON SHELF</unittitle>
                <note>

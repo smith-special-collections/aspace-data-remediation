@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca116.xml//EN" countrycode="us" mainagencycode="manosca">manosca116</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca116.xml//EN">manosca116</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Edna Rees Williams Papers, 1937-1992
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,17 +51,17 @@
 <date>2003
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Williams, Edna Rees, 1899-</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Edna Rees Williams Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1937-1992</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Edna Rees Williams Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1937-1992</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:2e1071ba-d78c-4522-a611-08d7676cddd1</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">4 boxes</extent>
 <extent encodinganalog="300$a">(1.6 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">English Professor, Smith College.  The majority of the Williams papers concerns her work with foreign students at Smith College.  In her capacity as Chair of the Committee on Foreign Students, Williams acted as a mentor and guide to many foreign students who studied at Smith.  Additional material relates to her personal life, published work, and the Smith community in general.  Types of material includes correspondence, photographs, books, articles, awards, slides, and an audio recording.
+<abstract encodinganalog="520$a" label="Abstract:">English Professor, Smith College.  The majority of the Williams papers concerns her work with foreign students at Smith College.  In her capacity as Chair of the Committee on Foreign Students, Williams acted as a mentor and guide to many foreign students who studied at Smith.  Additional material relates to her personal life, published work, and the Smith community in general.  Types of material includes correspondence, photographs, books, articles, awards, slides, and an audio recording.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -112,7 +113,7 @@
 </item>
 </list>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -151,8 +152,8 @@
 <subject encodinganalog="650" source="lcsh">English literature--Study and teaching (Higher)--Massachusetts--Northampton.</subject>
 <subject encodinganalog="650" source="lcsh">Students, Foreign--Massachusetts--Northampton.</subject>
 </controlaccess>
-<dsc type="combined" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>SERIES I. BIOGRAPHY</unittitle>
 </did>
@@ -220,7 +221,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>SERIES II. WRITINGS</unittitle>
 </did>
@@ -265,7 +266,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>SERIES III. FOREIGN STUDENTS</unittitle>
 </did>
@@ -373,7 +374,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>SERIES IV. CORRESPONDENCE</unittitle>
 </did>
@@ -605,7 +606,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>SERIES V. PHOTOGRAPHS</unittitle>
 </did>
@@ -655,7 +656,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser6">
+<c01 id="list-ser6" level="series">
 <did>
 <unittitle>SERIES VI. AUDIO-VISUAL MATERIAL</unittitle>
 </did>

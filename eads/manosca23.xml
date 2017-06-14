@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca23.xml//EN" countrycode="us" mainagencycode="manosca">manosca23</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca23.xml//EN">manosca23</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Ancient Order of Hibernians Records, 1890-1966
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -47,17 +48,17 @@
 <date>2001
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Ancient Order of Hibernians</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Ancient Order of Hibernians Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1890-1966</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 80</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Ancient Order of Hibernians Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1890-1966</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:106b3fec-1e37-461d-8d9f-2c71b298232a</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box </extent>
 <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -68,7 +69,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">The Ancient Order of Hibernians (A.O.H.) was a secret society devoted to "the maintenance of devilish wit and the promotion of hellish spirit in the college."  Contains correspondence, membership lists, photographs, songs and poems, and a scrapbook.
+<abstract encodinganalog="520$a" label="Abstract:">The Ancient Order of Hibernians (A.O.H.) was a secret society devoted to "the maintenance of devilish wit and the promotion of hellish spirit in the college."  Contains correspondence, membership lists, photographs, songs and poems, and a scrapbook.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -79,7 +80,7 @@
 <p>Founded at Smith College in 1890, the Ancient Order of Hibernians (A.O.H.) was a secret society devoted to "the maintenance of devilish wit and the promotion of hellish spirit in the college."  A spoof upon "The Hibernians," a fraternal order of Irish Roman Catholics promoting unity, friendship, and charity among its members, which began in Ireland during the 1500's, A.O.H.'s patron saint was St. Patrick, its color was green, and its emblem was the shamrock.  From its founding, the society enjoyed an intense rivalry with fellow secret society, the Orangemen, or O.O.  Both societies would compete for members and reputation and each society would attempt to "swipe" the other's "sacred book."  Membership in the A.O.H. was limited to twelve members from each class, and freshmen were selected and initiated in the fall of their first year at Smith.  New members of the A.O.H. were given special names upon initiation and were sworn into the club with the oath "I swear eternal hatred to the Orange and everlastin' loyalty to the Green, so help me St. Pat."  The A.O.H. flourished as one of Smith's most popular secret societies until 1948, when President Davis abolished secret societies at Smith, calling them "undemocratic."  Both the A.O.H. and Orangemen were forced to end all official activities, but records indicate that both organizations continued unofficially until the mid-1960s.  There is no documentation of either society's activities available for any time after the 1965-1966 academic year.
 </p>
 </bioghist>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -111,7 +112,7 @@
 <corpname encodinganalog="610" source="lcsh">Smith College--Societies, etc.</corpname>
 <corpname encodinganalog="710" source="lcnaf">Smith College.</corpname>
 </controlaccess>
-<dsc type="in-depth" id="contlist">
+<dsc id="contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">3011.1</container>

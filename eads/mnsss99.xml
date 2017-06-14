@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss99.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss99</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss99.xml//EN">mnsss99</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Baird Leonard Papers, 1909-1937
@@ -23,7 +24,7 @@
         <date>2003-06-12</date>
          </creation>
          <langusage>Finding aid written in
-	<language encodinganalog="546" scriptcode="latn" langcode="eng">English</language>
+	<language encodinganalog="546" langcode="eng" scriptcode="latn">English</language>
          </langusage>
       </profiledesc>
       <revisiondesc>
@@ -48,19 +49,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Leonard, Baird, d. 1941</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">
+         <unittitle encodinganalog="245$a" label="Title:">
 Baird Leonard Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1909-1937</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 93</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 93</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -72,15 +73,15 @@ Baird Leonard Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Columnist; Social critic; Poet; and Humorist.  Papers contain photographs, bookplates, drawings, scrapbook and correspondence with famous and lesser known writers and journalists. Includes original manuscripts and typescripts of columns, essays, articles, and verse; plus notebooks, reviews and clippings of her articles and columns.
+         <abstract encodinganalog="520$a" label="Abstract:">Columnist; Social critic; Poet; and Humorist.  Papers contain photographs, bookplates, drawings, scrapbook and correspondence with famous and lesser known writers and journalists. Includes original manuscripts and typescripts of columns, essays, articles, and verse; plus notebooks, reviews and clippings of her articles and columns.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6241.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6241.jpg" linktype="simple" show="embed">
 <daodesc><p>Drawing of Baird Leonard by <lb />O. Cushing, undated</p></daodesc></dao> 
          <p> Leola Baird Leonard (known professionally as Baird Leonard), was born 16 May 1888. She graduated from Smith College in 1909 and was a columnist, critic, poet, and humorist for Life magazine (1922-32), The New Yorker (1925), Harpers (1927-29), Judge (1932), and the New York Morning Telegraph (1912-24). She also published a book of poems entitled Simple Confession (1930). Her work was chiefly light and satiric verse and parodies.  Her column, "Mrs. Pepys' Diary," a parody on Samuel Pepys with a "jazzy" New York slant, was featured in Life.  She married Harry St. Clair Zogbaum.  Baird Leonard died in 1941.</p>
       </bioghist>
@@ -88,7 +89,7 @@ Baird Leonard Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive
          <head>Scope and Contents of the Collection</head>
          <p> The Baird Leonard Papers contain correspondence, writings, photographs, bookplates, drawings, and a scrapbook.  The papers also contain correspondence with other writers and journalists, including Frank Bacon, David Belasco, Louis Bromfield, Charles Dana Gibson, Oliver Herford, William Lyon Phelps, Robert E. Sherwood, Sara Teasdale, Hendrik Van Loon, Carl Van Vechten and Carolyn Wells.  The writings series includes original manuscripts and typescripts of columns, essays, articles, and verse; plus notebooks, reviews and clippings of her articles and columns.  There are also a few photographs,a scrapbook, and the original drawing by Charles Dana Gibson of "Mrs. Pepys" at her typewriter which headed her column.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -125,7 +126,7 @@ Baird Leonard Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive
          <geogname encodinganalog="651" source="lcsh">New York (N.Y.)--Social life and customs--20th century--Sources</geogname>
          <persname encodinganalog="600" source="lcnaf">Leonard, Baird, d. 1941</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss110.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss110</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss110.xml//EN">mnsss110</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Florence Rena Sabin Papers, 1872-1985</titleproper>
@@ -53,18 +54,18 @@
       </date>
 
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Sabin, Florence Rena, 1871-1953</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Florence Rena Sabin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1872-1985</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Florence Rena Sabin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1872-1985</unitdate>
 
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 136</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 136</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">33 boxes</extent>
             <extent encodinganalog="300$a">(12.25 linear ft.)</extent>
@@ -76,17 +77,17 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Physician; Professor; and Public health specialist.  Papers consist of
+         <abstract encodinganalog="520$a" label="Abstract:">Physician; Professor; and Public health specialist.  Papers consist of
       notes, awards, citations, photographs, printed material, photographs, and memorabilia and include both professional and personal material. Also correspondence with family and friends,  especially colleagues in medicine, research, and education; and a voluminous file of letters with her sister.
 
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2992.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2992.jpg" linktype="simple" show="embed">
 <daodesc><p>Florence Rena Sabin, n.d.</p></daodesc></dao>
          <p> Florence Rena Sabin was born November 9, 1871, in Central City, Colorado, the youngest of two daughters of Serena Miner and George K. Sabin. Her father was a mining engineer and she spent her early years in mining communities. Serena Sabin died when Florence was seven and she and her sister, Mary, lived with relatives in Chicago and Vermont. Sabin graduated from Smith College in 1893. In order to earn money for medical school, she taught mathematics in Denver for two years and was an assistant in the Zoology Department at Smith College from 1895 to1896. She entered Johns Hopkins Medical School in 1896 as a member of the fourth class to admit women.  Upon graduation she was awarded an internship with renowned teacher and physician Sir William Osler at Johns Hopkins Hospital. Under the direction of embryologist and head of the Department of Anatomy, Franklin P. Mall, she undertook a project which led to the construction of a three-dimensional model of the mid and lower brain. It was adapted for publication in 1901.</p>
          <p> After completing her internship in 1901, Sabin continued her anatomical and histological research with the help of a fellowship from a group of Baltimore women who aided women's education. In 1902, she became assistant in the department of anatomy, the first woman on the Hopkins medical faculty. She rose to full professor in 1917, the first woman at the university to achieve that rank. Sabin spent twenty-five years at Hopkins and during her early years there she concentrated her research mainly upon the origins of blood cells and the lymphatic system. She wrote a number of widely cited papers based upon her work. Sabin had many devoted students, many of whom followed scientific careers, and a number of them became leaders in the fields of anatomy, immunology, and hematology. In 1925, she became the first woman elected to membership in the National Academy of Sciences. She also was the first woman to receive full membership at the Rockefeller Institute in New York. At the institute she worked for thirteen years as head of a section that studied the cellular aspects of immunity. </p>
@@ -122,7 +123,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -191,7 +192,7 @@
          <subject encodinganalog="650" source="lcsh">Women medical students--United States--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women physicians--United States--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -290,8 +291,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1872-1985)</unitdate>
                </unittitle>
@@ -617,7 +618,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1881-1958)</unitdate>
                </unittitle>
@@ -1309,7 +1310,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SPEECHES AND WRITINGS <unitdate>(1897-1955)</unitdate>
                </unittitle>
@@ -1397,7 +1398,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PROFESSIONAL ACTIVITIES <unitdate>(1911-1952)</unitdate>
                </unittitle>
@@ -1921,7 +1922,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. SUBJECTS <unitdate>(1929-58)</unitdate>
                </unittitle>
@@ -2037,7 +2038,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. PHOTOGRAPHS AND MEMORABILIA <unitdate>(1893-1954)</unitdate>
                </unittitle>
@@ -2239,7 +2240,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

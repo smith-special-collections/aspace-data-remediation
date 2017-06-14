@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss324.html">mnsss324</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss324.html">mnsss324</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Ausonia Club Records, 1929-1993</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss324.html">mnsss32
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -39,7 +38,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss324.html">mnsss32
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss324.html">mnsss32
      <corpname  encodinganalog="110" source="lcnaf">Ausonia Club (Northampton,
  Mass.)</corpname >
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Ausonia Club Records</unittitle><unitdate label="Dates:">1929-1993</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 364</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Ausonia Club Records</unittitle><unitdate label="Dates:">1929-1993</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 364</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">1 box</extent>
           <extent encodinganalog="300$a">(1.25 linear ft.) </extent>
   </physdesc>
-  <langmaterial label="Language of Material:" encodinganalog="546">
+  <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
     </langmaterial>
          <repository label="Location:">
@@ -67,7 +65,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss324.html">mnsss32
             </address>
          </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Women's club. The records relate primarily to the club's mission of preserving Italian traditions in America, offering support to newly arrived women immigrants, and promoting an interest in Italian language and culture among the citizenry of Northampton,
+      <abstract encodinganalog="520$a" label="Abstract:">Women's club. The records relate primarily to the club's mission of preserving Italian traditions in America, offering support to newly arrived women immigrants, and promoting an interest in Italian language and culture among the citizenry of Northampton,
 Massachusetts.
     </abstract>
 </did>
@@ -88,7 +86,7 @@ Records</extref></p>
 
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -118,7 +116,7 @@ Mass.</p>
 
  </controlaccess>
 <!-- MRJ: PROOF -->
- 	<descgrp type="add" id="addinfo">
+ 	<descgrp id="addinfo" type="add">
 	<head>Additional Information</head>
       <relatedmaterial id="add-related">
           <head>Related Material</head>
@@ -128,5 +126,4 @@ Records</extref>, Sophia Smith Collection.</p>
       </relatedmaterial>
     </descgrp>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

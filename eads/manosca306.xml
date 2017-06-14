@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca306.xml//EN" countrycode="us" mainagencycode="manosca">manosca306</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca306.xml//EN">manosca306</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Alumnae College Records, 1933-2001</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2013">2013</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Alumnae College</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Alumnae College</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Alumnae College Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1933-2001</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Alumnae College Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1933-2001</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 90</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 90 UUID:7956d085-8572-4a2d-bd9b-1844ea1e587b</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">3 boxes</extent>
 		<extent encodinganalog="300$a">(1.3 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -104,7 +105,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">1308</container>
@@ -460,7 +461,7 @@
       <did>
          <container type="box">1310</container>
          <container type="folder">15</container>
-         <unittitle>Road Without End&#8230;The Experience of Exile
+         <unittitle>Road Without End…The Experience of Exile
             <unitdate>1974</unitdate>
          </unittitle>
       </did>
@@ -507,5 +508,3 @@
 
   </archdesc>
 </ead>
-
-

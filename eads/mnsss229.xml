@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss229.html">mnsss229</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss229.html">mnsss229</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Eleanor Gwinnell Coit Papers, 1913-1974</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss229.html">mnsss22
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss229.html">mnsss22
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss229.html">mnsss22
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Coit, Eleanor G.</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Eleanor Gwinnell Coit Papers</unittitle><unitdate label="Dates:">1913-1974</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 35</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Eleanor Gwinnell Coit Papers</unittitle><unitdate label="Dates:">1913-1974</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 35</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">27 boxes</extent>
           <extent encodinganalog="300$a">(13 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,13 +66,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss229.html">mnsss22
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">YWCA official.  Papers include correspondence, photographs, and  memorabilia; teaching material;
+      <abstract encodinganalog="520$a" label="Abstract:">YWCA official.  Papers include correspondence, photographs, and  memorabilia; teaching material;
 writings; records from her work with the American Labor Education Service, Committee of Correspondence, Adult Education Association, New York Education Council, the YWCA, and Church of All Nations.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5005.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5005.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Eleanor Coit, 1916</p></daodesc></dao>
        <p>Eleanor Gwinnell Coit (1894-1976) earned an A.B. from Smith College in 1916 and an A.M. from Columbia University in 1919. She worked for the industry department of the YWCA in New Jersey and Buffalo, New York in the 1910s-20s and became education director of the Affiliated Schools for Workers in 1929. Coit later became director of the organization (renamed the American Labor Education Service) in 1934 until it disbanded in 1962. In the late 1930s, she helped establish worker's education programs in 75 localities under the WPA. Coit was also involved in the Committee of Correspondence.</p>
@@ -87,7 +85,7 @@ memorabilia; teaching material; writings; records from her work with the America
 
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -128,5 +126,4 @@ Northampton, Mass.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

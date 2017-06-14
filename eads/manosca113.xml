@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca113.xml//EN" countrycode="us" mainagencycode="manosca">manosca113</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca113.xml//EN">manosca113</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Kate Sanborn Papers, 1878-1996
@@ -53,14 +54,14 @@
 <p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Sanborn, Kate, 1839-1917.</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Kate Sanborn Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1878-1996</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Kate Sanborn Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1878-1996</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:8c08e12e-6136-4a58-b83b-b66d6703bd42</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">1 box</extent>
 <extent encodinganalog="300$a">(.45 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">The Kate Sanborn Papers contain biographical material, personal correspondence, lecture notes, publications and photographs.  Among her publications are two verse collections, <title render="italic">Grandma's Garden</title> and <title render="italic">Purple and Gold</title> as well as a complete set of the <title render="italic">Round Table of English Literature</title> series. Photographs include portraits of Sanborn while she was a professor at Smith College and scenes of daily life at Breezy Meadows.
+<abstract encodinganalog="520$a" label="Abstract:">The Kate Sanborn Papers contain biographical material, personal correspondence, lecture notes, publications and photographs.  Among her publications are two verse collections, <title render="italic">Grandma's Garden</title> and <title render="italic">Purple and Gold</title> as well as a complete set of the <title render="italic">Round Table of English Literature</title> series. Photographs include portraits of Sanborn while she was a professor at Smith College and scenes of daily life at Breezy Meadows.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -109,7 +110,7 @@
 </item>
 </list>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -146,8 +147,8 @@
 <persname encodinganalog="700" source="lcnaf">Willard, Frances Elizabeth, 1839-1898.</persname>
 <persname encodinganalog="700" source="lcnaf">Dodge, Mary Mapes, 1830-1905.</persname>
 </controlaccess>
-<dsc type="combined" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>Series I. Biographical Materials
 </unittitle>
@@ -165,7 +166,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>Series II. Correspondence
 </unittitle>
@@ -199,7 +200,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>Series III. Lecture Notes</unittitle>
 </did>
@@ -216,7 +217,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>Series IV. Photographs
 </unittitle>
@@ -242,7 +243,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>Series V. Publications
 </unittitle>

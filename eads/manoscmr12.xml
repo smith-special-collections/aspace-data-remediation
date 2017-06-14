@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr12.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr12</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr12.xml//EN">manoscmr12</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Herbert Hitchen Irish Collection, 1908-1970
@@ -48,18 +49,18 @@
          <date>October 1995</date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Hitchen, Herbert, 1874-1979</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Herbert Hitchen Irish Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1908-1970</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Herbert Hitchen Irish Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1908-1970</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 10</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 10 UUID:5e929eee-97c6-4886-b59e-81d49eb8283d</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes</extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -71,8 +72,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Pastor of the Unitarian Church of Northampton, Massachusetts, 1958-1966, and an avid collector of Irish literature. Hitchen, born in Norland, Yorkshire, formed his collection around publications from the Cuala Press, a small press in Dublin owned by Elizabeth C. Yeats, as well as manuscript material from poets and playwrights such as Joseph Campbell, Lennox Robinson, Jack B. Yeats, Willam B. Yeats, and George Russell. Consists of broadsides, correspondence, photographs, catalogs, clippings, prospectuses, and publications concerned with modern Irish literature, mainly from the period known as the Irish Renaissance.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Pastor of the Unitarian Church of Northampton, Massachusetts, 1958-1966, and an avid collector of Irish literature. Hitchen, born in Norland, Yorkshire, formed his collection around publications from the Cuala Press, a small press in Dublin owned by Elizabeth C. Yeats, as well as manuscript material from poets and playwrights such as Joseph Campbell, Lennox Robinson, Jack B. Yeats, Willam B. Yeats, and George Russell. Consists of broadsides, correspondence, photographs, catalogs, clippings, prospectuses, and publications concerned with modern Irish literature, mainly from the period known as the Irish Renaissance.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -111,7 +112,7 @@
          <head>Arrangement of the Collection</head>
          <p>The Herbert Hitchen Irish Collection consists of 134 folders arranged in 2 boxes and one oversize box.  Box 1 contains folders 1-60.  Box 2 contains folders 61-128.  The Oversize box contains folders A-F. All material is arranged alphabetically within each series by main entry, and then chronologically.</p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -246,8 +247,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. Broadsides--Cuala Press,
                 <unitdate>1921-1937</unitdate>
@@ -467,7 +468,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. Catalogs,
                 <unitdate>1965-1970</unitdate>
@@ -546,7 +547,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. Clippings,
                 <unitdate>1927-1939</unitdate>
@@ -658,7 +659,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. Correspondence,
                 <unitdate>1927-1950</unitdate>
@@ -1344,7 +1345,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V. Photographs and Etchings,
                 <unitdate>1914-1941</unitdate>
@@ -1446,7 +1447,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>Series VI. Prospectuses</unittitle>
             </did>
@@ -1481,7 +1482,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>Series VII. Publications</unittitle>
             </did>
@@ -1614,7 +1615,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>Series VIII. Oversize,
                 <unitdate>1927-1930</unitdate>

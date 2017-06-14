@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss434.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss434</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss434.xml//EN">mnsss434</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Valerie Harms Papers, 1958-1994 (ongoing)</titleproper>
@@ -35,15 +36,15 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Harms, Valerie</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Valerie Harms Papers</unittitle><unitdate type="inclusive" label="Dates:">1958-2009 (ongoing)</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Valerie Harms Papers</unittitle><unitdate label="Dates:" type="inclusive">1958-2009 (ongoing)</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 288</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 288</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">16 boxes</extent>
         <extent encodinganalog="300$a">(16.25 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +56,7 @@
          </repository>
 
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Publisher, Magic Circle Press; Editor; Consultant; Instructor; Therapist. The Papers include personal and professional correspondence; articles; proposals; unpublished manuscripts, notes, and  research files for Harms' writings, including <title render="italic">Voices From Within: Women Prisoner's Poetry</title>, and her unpublished novels; copies of her books; Magic Circle Press material; conference and workshop material on the "Intensive Journal method"; and audio tapes from "Celebration with Nin" and the "Myth I" and II conferences.  
                  </abstract>
 
@@ -133,4 +134,3 @@
 
 </archdesc>
 </ead>
-

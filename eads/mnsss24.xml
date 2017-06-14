@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss24.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss24</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss24.xml//EN">mnsss24</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Carel Bailey Germain Papers, 1922-1998
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Germain, Carel B.</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Carel B. Germain Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1922-1998</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Carel B. Germain Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1922-1998</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1970-1995</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">301</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">301</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">40 boxes</extent>
             <extent encodinganalog="300$a">(14.4 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Professor of social work.  Germain taught graduate courses that focused on the ecological approach to social work theory and practice. Her subject files are voluminous and contain material on a wide range of topics relevant to the teaching and practice of social work. Material includes biographical information, writings, correspondence, and audio tapes of Germain teaching <title>Ego Psychology</title>.  Correspondents include Ann Hartman, Joan Laird, Alex Gitterman, and Anita Lightburn.
+         <abstract encodinganalog="520$a" label="Abstract:">Professor of social work.  Germain taught graduate courses that focused on the ecological approach to social work theory and practice. Her subject files are voluminous and contain material on a wide range of topics relevant to the teaching and practice of social work. Material includes biographical information, writings, correspondence, and audio tapes of Germain teaching <title>Ego Psychology</title>.  Correspondents include Ann Hartman, Joan Laird, Alex Gitterman, and Anita Lightburn.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3383.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3383.jpg" linktype="simple" show="embed">
 <daodesc><p>Carel and Bill Germain "in the kitchen-- <lb />where else?...our home on Beacon St., Boston," <lb />1969</p></daodesc></dao>
          <p>Carel Bailey was born in San Francisco on 23 October 1916 to Thomas J. and Lera Bailey.  She graduated from the University of California, Berkeley in 1937 with a degree in economics, and lived and worked in the Bay Area until moving east in 1958.  She married William Germain in 1941, and after raising twin daughters earned her MSW (1961) and DSW (1971) at the Columbia University School of Social Work.  Upon completion of her MSW degree, Germain embarked on a distinguished career as a professor and prolific author in the field of social work. She taught at the University of Maryland for several years and, after finishing her doctorate, was appointed with tenure, first to Columbia University and then to the University of Connecticut, where she taught until her retirement in 1987.  Germain offered graduate level courses that focused on the ecological approach to social work theory and practice.  Although she was also versed in the history of social work, she only once offered a course on the subject (in the Spring 1973 semester at Columbia).  Germain wrote seven books, the most important of which were The Life Model of Social Work Practice, 1980 (co-authored with Alex Gitterman) and Human Behavior in the Social Environment: An Ecological View, 1991.  She also published widely in professional journals and was in great demand as a speaker, guest lecturer, reviewer and author of chapters and introductions for social work anthologies and for books by colleagues.  She died in Avon, Connecticut on 3 August 1995.</p>
          <p>Germain is perhaps best known for her pioneering work in the "ecological" or "life model" approach to social work practice.  She first developed the concept of an "ecological perspective" while teaching at Columbia in the mid-seventies, and later elaborated upon it in collaboration with a colleague, Alex Gitterman.  Social work theory and practice had traditionally been based on a Freudian psychotherapeutic model in which diagnosis and treatment focused primarily on the psychology of the individual client and the dynamics of the immediate family.  Although clinical social workers had long been aware that people exist in a more extensive social and psychological matrix, the profession lacked a conceptual framework that linked broader environmental and cultural influences to difficulties faced by individual clients.  Using metaphors borrowed from the biological definition of ecology ("the relation between living organisms and their environment"), Germain laid the foundation for the needed structure.  As she and Gitterman wrote in the 19th Encyclopedia of Social Work, "The ecological perspective makes clear the need to view people and environments as a unitary system within a particular cultural and historical context.  Both person and environment can be fully understood only in terms of their relationship, in which each continually influences the other within a particular context.  Hence, all concepts derived from the ecological metaphor refer not to environment alone or person alone; rather, each concept expresses a particular person: environment relationship, whether it is positive, negative or neutral." (Germain and Gitterman, 1995)  Over time, Germain and Gitterman found that, in addition to its applicability to work with individuals and families, the ecological perspective was also relevant to larger groups, organizations, communities, and to political advocacy in general.  They elaborated on this expanded concept in The Life Model of Social Work Practice: Advances in Theory and Practice, 1996.</p>
@@ -123,7 +124,7 @@
          <p>Personal and professional correspondence (Series IV) is arranged alphabetically by the correspondent's last name or, where appropriate, by name of institution.  All writings (Series V) are in chronological order, and reviews of Germain's books are located at the end of the section relating to each volume.  To facilitate cross-referencing, there is an appendix at the end of the finding aid that lists articles and book titles alphabetically as well as chronologically.
       </p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -251,8 +252,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL</unittitle>
             </did>
@@ -370,7 +371,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. EDUCATION</unittitle>
             </did>
@@ -467,7 +468,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. PROFESSIONAL ACTIVITIES</unittitle>
             </did>
@@ -577,7 +578,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. CORRESPONDENCE</unittitle>
             </did>
@@ -763,7 +764,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. WRITINGS</unittitle>
             </did>
@@ -1572,7 +1573,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. SUBJECTS</unittitle>
             </did>
@@ -1985,7 +1986,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIAL</unittitle>
             </did>

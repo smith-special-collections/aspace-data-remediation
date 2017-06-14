@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss17.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss17</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss17.xml//EN">mnsss17</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Virginia Heim George Papers, 1925-1981
@@ -50,17 +51,17 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">George, Virginia Heim, 1908-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Virginia Heim George Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1925-1981</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">221</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Virginia Heim George Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1925-1981</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">221</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -72,9 +73,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">YWCA executive, YWCA overseas secretary, and USO official.  Most material in the George papers pertains to her foreign secretary work in South America and Czechoslovakia and her USO work in the Caribbean. Personal letters and travel diaries include descriptions of life in Brazil and the Caribbean and in post-war Czechoslovakia and West Germany.  Material also includes speeches, clippings and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">YWCA executive, YWCA overseas secretary, and USO official.  Most material in the George papers pertains to her foreign secretary work in South America and Czechoslovakia and her USO work in the Caribbean. Personal letters and travel diaries include descriptions of life in Brazil and the Caribbean and in post-war Czechoslovakia and West Germany.  Material also includes speeches, clippings and photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -148,7 +149,7 @@
       </bioghist>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2673.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2673.jpg" linktype="simple" show="embed">
 <daodesc><p>Virginia Heim (right) and others in<lb />
             Bogota, Columbia, circa 1966-71</p></daodesc></dao>
          <p>The Virginia Heim George Papers consist of one linear foot of correspondence, diaries, clippings, and photographs. The inclusive dates are 1925 to 1981, but the major portion of the material dates from 1940 to 1948, related to her foreign secretary work for the YWCA in South America and Czechoslovakia and her USO work in the Caribbean.</p>
@@ -167,7 +168,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -212,8 +213,8 @@
          <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association--South America--History--Sources</corpname>
          <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Association--World War, 1939-1945--War Work</corpname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. PERSONAL</unittitle>
             </did>
@@ -445,7 +446,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PROFESSIONAL</unittitle>
             </did>

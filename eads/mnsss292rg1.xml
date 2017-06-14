@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg1.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg1</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg1.xml//EN">mnsss292rg1</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -33,9 +34,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 01.  General and History</unittitle><unitdate type="inclusive" label="Dates:">1877-2003</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records: Record Group 01.  General and History</unittitle><unitdate label="Dates:" type="inclusive">1877-2003</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:85e0e5bc-ae36-4f6b-b8fb-1da7f8665b1f</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -47,7 +48,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
 	This record group contains reference files compiled from the National Board Library collection and National Board Archives providing general historical information about the YWCA of the U.S.A., its organizational structure, requirements for membership, and affiliation with the World YWCA.  Also included are biographical files on staff and board members and reference files on the World YWCA and national YWCAs in other countries.  Forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. 
          </abstract>
 </did>
@@ -61,7 +62,7 @@
 	<p>NOTE:  For the most part, the Microfilmed Records and the Original Format Records do not duplicate each other and both should be consulted.  This description covers materials in both formats.  See the
 <extref href="mnsss292rg1_list.html">Contents List</extref> for a folder-level inventory of the Original Format Records.  See the
 <extref href="mnsss292mf.html">Microfilmed Records Reel Lists</extref> for a detailed inventory of the microfilm.  Links to the lists for both formats are provided in the <extref href="mnsss292rg1_series.html">Series Descriptions</extref>.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1983.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1983.jpg" linktype="simple" show="embed">
 <daodesc><p>YWCA Poster, 1952</p></daodesc></dao> 
 	<p>This record group contains reference files compiled from the National Board Library collection and National Board Archives providing general historical information about the YWCA of the U.S.A., its organizational structure, requirements for membership, and affiliation with the World YWCA.  Also included are biographical files on staff and board members and reference files on the World YWCA and national YWCAs in other countries.  Historical notes for each series are not included in this record.  Where applicable, the Series Descriptions refer researchers to relevant Historical notes in other sections. </p>
 
@@ -170,7 +171,7 @@
 
 <dsc type="analyticover">
  	<head>Series Descriptions</head>
-<c01 level="series" id="ser1">
+<c01 id="ser1" level="series">
 	<did>
 		<unittitle>SERIES I.  GENERAL</unittitle>    
             </did>
@@ -207,7 +208,7 @@
 <extref href="mnsss292rg10_main.html">RECORD GROUP 10.  AUDIO-VISUAL MATERIALS</extref></p>
             </scopecontent>
  </c01>
-<c01 level="series" id="ser2">
+<c01 id="ser2" level="series">
 	<did>
 		<unittitle>SERIES II.  REORGANIZATIONS</unittitle>
          </did>
@@ -238,7 +239,7 @@
 	<extref href="mnsss292rg10_main.html">RECORD GROUP 10. AUDIOVISUAL MATERIALS</extref>.</p>
         </scopecontent>
  </c01>
-<c01 level="series" id="ser3">
+<c01 id="ser3" level="series">
 	<did>
 		<unittitle>SERIES III.  MEMBERSHIP OF INDIVIDUALS</unittitle>
 	</did>
@@ -272,7 +273,7 @@
 	<extref href="mnsss292rg4_main.html">RECORD GROUP 4</extref>.</p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser4">
+<c01 id="ser4" level="series">
 	<did>
 		<unittitle>SERIES IV.  ANNIVERSARIES</unittitle>
 	</did>
@@ -336,7 +337,7 @@ incorporated in 1907)</event>
         </scopecontent>
  </c01>
 
-<c01 level="series" id="ser5">
+<c01 id="ser5" level="series">
 	<did>
 		<unittitle>SERIES V.  BIOGRAPHICAL FILES</unittitle>
 	</did>
@@ -360,7 +361,7 @@ incorporated in 1907)</event>
          </scopecontent>
  </c01>
 
-<c01 level="series" id="ser6">
+<c01 id="ser6" level="series">
 	<did>
 		<unittitle>SERIES VI. 'FOREIGN' YWCAS REFERENCE FILES</unittitle>
 	</did>
@@ -390,11 +391,11 @@ incorporated in 1907)</event>
 	<extref href="mnsss292rg2_main.html">RECORD GROUP 2.  PREDECESSOR ORGANIZATIONS AND NATIONAL BOARD</extref>.</p>
 	<p>Records of the YWCA of the USA's International Work are in
 	<extref href="mnsss292rg5_main.html">RECORD GROUP 5.</extref> </p>
-	<p>The Sophia Smith Collection Periodicals Collection contains <title render="italic" encodinganalog="630" source="lcsh">Today: Magazine of the YWCA of India</title> for 1963-1979.</p>
+	<p>The Sophia Smith Collection Periodicals Collection contains <title encodinganalog="630" render="italic" source="lcsh">Today: Magazine of the YWCA of India</title> for 1963-1979.</p>
         </scopecontent>
  </c01>
 
-<c01 level="series" id="ser7">
+<c01 id="ser7" level="series">
 	<did>
 		<unittitle>SERIES VII.  WORLD YWCA REFERENCE FILES</unittitle>
 	</did>
@@ -426,8 +427,8 @@ incorporated in 1907)</event>
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. GENERAL</unittitle>
  </did>
@@ -693,7 +694,7 @@ incorporated in 1907)</event>
  <did>
  <container type="box">4</container>
  <container type="folder">9</container>
- <unittitle><title render="italic">Wherever She Is&#8230;</title>, [1960]</unittitle>
+ <unittitle><title render="italic">Wherever She Is…</title>, [1960]</unittitle>
  </did>
  </c03>
  </c02>
@@ -1201,7 +1202,7 @@ incorporated in 1907)</event>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. REORGANIZATIONS/STRUCTURE OF THE YWCA</unittitle>
  </did>
@@ -2038,7 +2039,7 @@ incorporated in 1907)</event>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. MEMBERSHIP OF INDIVIDUALS</unittitle>
  </did>
@@ -2332,7 +2333,7 @@ incorporated in 1907)</event>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ANNIVERSARIES</unittitle>
  </did>
@@ -2938,7 +2939,7 @@ incorporated in 1907)</event>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. BIOGRAPHICAL FILES</unittitle>
  </did>
@@ -6303,7 +6304,7 @@ incorporated in 1907)</event>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. 'FOREIGN' YWCAS REFERENCE FILES</unittitle>
  </did>
@@ -7074,7 +7075,7 @@ incorporated in 1907)</event>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. WORLD'S YWCA REFERENCE FILES</unittitle>
  </did>
@@ -7491,5 +7492,4 @@ incorporated in 1907)</event>
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

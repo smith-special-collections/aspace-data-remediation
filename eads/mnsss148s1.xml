@@ -1,8 +1,9 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <!-- Edit filename - 2 places -->
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss148s1.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss148s1</eadid>
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss148s1.xml//EN">mnsss148s1</eadid>
 	<filedesc>
 	  <titlestmt>
 <!-- Edit title and dates -->
@@ -37,14 +38,14 @@
             <corpname encodinganalog="110" source="lcnaf">Planned Parenthood Federation of America</corpname>
          </origination>
 <!-- Edit title and dates -->
-         <unittitle label="Title:" encodinganalog="245$a">Planned Parenthood Federation of America Records (PPFA II): SERIES I. Chronological Files</unittitle>
-	<unitdate type="inclusive" label="Dates:">1964-80</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 371</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Planned Parenthood Federation of America Records (PPFA II): SERIES I. Chronological Files</unittitle>
+	<unitdate label="Dates:" type="inclusive">1964-80</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 371 UUID:2c5703d5-c092-4f2d-a3c7-e5726db9384d</unitid>
 <!-- Edit quantity  -->
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">29.25 linear feet</extent>
          </physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">Eng</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">Eng</language>
 	</langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -54,12 +55,12 @@
 		</address>
 	</repository>
 <!-- Edit abstract for series -->
-         <abstract label="Abstract:" encodinganalog="520$a">This series consists primarily of carbon copies of outgoing correspondence, the bulk of which is from the         national office, 1960s-70s. The authors of this correspondence include PPFA staffers Alan Bloebaum, Hans Blaise, Eve Paul, Alan Guttmacher, John C. Robbins, Fred Jaffe, and Jerim Klapper. This Series forms part of the <extref href="mnsss148_main.html">PPFA II Records</extref></abstract> 
+         <abstract encodinganalog="520$a" label="Abstract:">This series consists primarily of carbon copies of outgoing correspondence, the bulk of which is from the         national office, 1960s-70s. The authors of this correspondence include PPFA staffers Alan Bloebaum, Hans Blaise, Eve Paul, Alan Guttmacher, John C. Robbins, Fred Jaffe, and Jerim Klapper. This Series forms part of the <extref href="mnsss148_main.html">PPFA II Records</extref></abstract> 
       </did>
 <!-- Replace with appropriate series desc, keep first paragraph -->
     <scopecontent id="scope">
 	<p>This Series forms part of the <extref href="mnsss148_main.html">PPFA II Records</extref></p>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1139.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1139.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Flyer from PPFA records, undated<lb /> (
 <extref href="http://www.smith.edu/libraries/libs/ssc/eadfiles/popups/ssc1139pop.jpg">view larger image</extref>)</p></daodesc></dao>
@@ -185,8 +186,8 @@
          </relatedmaterial>
 <!-- Insert series container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. CHRONOLOGICAL</unittitle>
  </did>
@@ -2430,5 +2431,4 @@
 </dsc>
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

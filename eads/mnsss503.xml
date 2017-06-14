@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss503.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss503</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss503.xml//EN">mnsss503</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Southern Women, the Student YWCA, and Race (1920-1944) Collection</titleproper>
@@ -29,16 +30,16 @@
   <archdesc level="collection" relatedencoding="MARC21">
     <did id="main">
 	<head>Collection Overview</head>
-	<unittitle label="Title:" encodinganalog="245$a">Southern Women, the Student YWCA, and Race (1920-1944) Collection</unittitle>
-	<unitdate type="inclusive" label="Dates:">1920-1944</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Southern Women, the Student YWCA, and Race (1920-1944) Collection</unittitle>
+	<unitdate label="Dates:" type="inclusive">1920-1944</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS # 679</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS # 679</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">5 boxes</extent>
 		<extent encodinganalog="300$a">(2 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -60,7 +61,7 @@
 
 	<p>This is a collection of fourteen audiotaped interviews (transferred to CD) with women who were involved with the Student Young Women's Christian Association in the southeastern United States between 1920 and 1944.  The interviews were conducted by Frances Sanders Taylor [Anton] in 1981 and 1982 as part of the research for her Stanford University doctoral dissertation, "'On the Edge of Tomorrow':  Southern Women, the Student YWCA, and Race, 1920-1944."  </p>
 
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4656.jpg" altrender="center">
+<dao actuate="onLoad" altrender="center" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4656.jpg" linktype="simple" show="embed">
 <daodesc>
 
 <p>Group at YWCA Student Conference, Waveland, Mississippi, 1931</p></daodesc></dao> 
@@ -166,7 +167,7 @@
 
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -416,5 +417,3 @@
 
   </archdesc>
 </ead>
-
-

@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss451.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss451</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss451.xml//EN">mnsss451</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Miriam Meyers Ritvo Papers, 1958-2003 (ongoing)</titleproper>
@@ -35,16 +36,16 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Ritvo, Miriam Meyers, 1916-</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Miriam Meyers Ritvo Papers</unittitle><unitdate type="inclusive" label="Dates:">1958-2003 (ongoing)</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Miriam Meyers Ritvo Papers</unittitle><unitdate label="Dates:" type="inclusive">1958-2003 (ongoing)</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 296</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 296</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">26 boxes</extent>
         <extent encodinganalog="300$a">(32.5 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +56,7 @@
             </address>
          </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Professor, education; Dean, Lesley College; Sociologist; Director, Management Development for the Commonwealth of Massachusetts. The papers consist of Ritvo's writings and teaching materials (syllabi, class exercises, etc.). Research files cover the contemporary women's movement and organizational sociology, as well as women in employment, management training, and women in higher education. </abstract>
 </did>
 

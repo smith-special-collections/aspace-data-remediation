@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss200.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss200</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss200.xml//EN">mnsss200</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Inventory to the Records of the Equal Rights Amendment Campaign Archives Project (ERACAP) (1970-1985)</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Equal Rights Amendment Campaign Archives Project</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Equal Rights Amendment Campaign Archives Project</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Equal Rights Amendment Campaign Archives Project (ERACAP) Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1970-1985</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Equal Rights Amendment Campaign Archives Project (ERACAP) Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1970-1985</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 310</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 310</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">46 boxes</extent>
 		<extent encodinganalog="300$a">(29.75 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -78,7 +79,7 @@
 
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into five series:</p>
 	<list>
@@ -166,8 +167,8 @@
 <table>
 
   <tgroup cols="2">  
-     <colspec colnum="1" colname="1" colwidth="35"/> 
-     <colspec colnum="2" colname="2" colwidth="65"/> 
+     <colspec colname="1" colnum="1" colwidth="35"/> 
+     <colspec colname="2" colnum="2" colwidth="65"/> 
   <thead>
     <row>
       <entry colname="1">Name</entry> 
@@ -293,8 +294,8 @@
 <table>
 
   <tgroup cols="2">  
-     <colspec colnum="1" colname="1" colwidth="50"/> 
-     <colspec colnum="2" colname="2" colwidth="50"/> 
+     <colspec colname="1" colnum="1" colwidth="50"/> 
+     <colspec colname="2" colnum="2" colwidth="50"/> 
   <thead>
     <row>
       <entry colname="1">Name</entry> 
@@ -1022,7 +1023,7 @@
  
 <c01 level="series">
 	<did>
-		<unittitle>SERIES III.  <title render="italic">WHO WILL PROTECT THE FAMILY?</title>  DOCUMENTARY FILES<unitdate>(1974-82)</unitdate></unittitle>
+		<unittitle>SERIES III.  WHO WILL PROTECT THE FAMILY? DOCUMENTARY FILES<unitdate>(1974-82)</unitdate></unittitle>
 	<physdesc>
 		<extent>2 linear ft.</extent>
 	</physdesc>
@@ -1054,7 +1055,7 @@
 	</physdesc>
 	</did>
 	<scopecontent>
-		<p>This large series forms the bulk of the collection and includes 30 hours of videotape for <title render="italic">Fighting for the Obvious</title> (over 100 tapes), a documentary about the ERA fight in Illinois, as well as several hundred &#190; inch Umatics and &#189; inch Betas from the PBS documentary <title render="italic">Who Will Protect the Family?</title>, which documents the ERA fight in North Carolina.</p>
+		<p>This large series forms the bulk of the collection and includes 30 hours of videotape for <title render="italic">Fighting for the Obvious</title> (over 100 tapes), a documentary about the ERA fight in Illinois, as well as several hundred ¾ inch Umatics and ½ inch Betas from the PBS documentary <title render="italic">Who Will Protect the Family?</title>, which documents the ERA fight in North Carolina.</p>
 
 	<p> A sample of original video footage for both documentaries has been reformatted and viewing copies are available as digital files and are <extref href="https://media.smith.edu/departments/ssc/eracap/eracap_playlist1.html">available online</extref> (on-campus access only).  See Appendix for descriptions of reformatted footage. </p>
 	</scopecontent>
@@ -1064,8 +1065,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
          <unittitle>SERIES I.  ERACAP ADMINISTRATION              <unitdate>(1981-85), .5 linear ft.</unitdate>          </unittitle>
  </did>
@@ -1180,7 +1181,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
          <unittitle>SERIES II.  NATIONAL ORGANIZATION FOR WOMEN AND THE ERA<unitdate>(1970-83)</unitdate></unittitle>
  </did>
@@ -1783,9 +1784,9 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
-         <unittitle>SERIES III. <title render="italic">WHO WILL PROTECT THE FAMILY?</title>  DOCUMENTARY <unitdate>(1974-82, n.d.)</unitdate></unittitle>
+         <unittitle>SERIES III. WHO WILL PROTECT THE FAMILY? DOCUMENTARY FILES<unitdate>(1974-82, n.d.)</unitdate></unittitle>
 	<note><p>[see also <ref target="list-serwho">SERIES V. -<title render="italic">Who Will Protect the Family?</title></ref>]</p>
 	</note>
  </did>
@@ -2272,7 +2273,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
          <unittitle>SERIES IV.  ERA DEFEAT              <unitdate>(1982-84, n.d.), .25 linear ft.</unitdate>          </unittitle>
  </did>
@@ -2314,7 +2315,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
          <unittitle>SERIES V.  AUDIOVISUAL MATERIALS<unitdate>(1978-82, n.d.)</unitdate></unittitle>
 </did>
@@ -2381,7 +2382,7 @@
 	<c02>
 	<did>
 	<container type="box">29-45</container>
-	<unittitle>Original &#190;" UMatic videotapes</unittitle>
+	<unittitle>Original ¾" UMatic videotapes</unittitle>
 	<note><p>[For full list of original tapes, contact the SSC]</p>
 	</note>
 	</did>
@@ -2390,7 +2391,7 @@
  	</accessrestrict>
 	</c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -2449,5 +2450,3 @@
 
   </archdesc>
 </ead>
-
-

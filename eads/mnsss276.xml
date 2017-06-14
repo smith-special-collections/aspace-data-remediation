@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss276.html">mnsss276</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss276.html">mnsss276</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Frances Mossiker Papers, 1957-1970</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss276.html">mnsss27
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss276.html">mnsss27
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss276.html">mnsss27
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Mossiker, Frances</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Frances Mossiker Papers</unittitle><unitdate label="Dates:">1957-1970</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 109</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Frances Mossiker Papers</unittitle><unitdate label="Dates:">1957-1970</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 109</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">6 boxes</extent>
           <extent encodinganalog="300$a">(3 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,14 +66,14 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss276.html">mnsss27
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Novelist. Papers
+      <abstract encodinganalog="520$a" label="Abstract:">Novelist. Papers
 include correspondence; writings; photographs and illustrations for her books; notes for
 broadcasts and speeches; awards; newspaper clippings; reviews; and publicity.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6432.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6432.jpg" linktype="simple" show="embed">
 <daodesc><p>Frances Mossiker, undated</p></daodesc></dao>
        <p>Frances (Fanny) Sanger Mossiker was born on 9 April 1906. She was a non-graduating member of Smith College, Class of 1927, where she earned Phi Beta Kappa in her junior year. She also studied at Barnard and the Sorbonne. She married Dallas businessman Jacob Mossiker in 1926 and settled with him in Texas.  Mossiker had a life-long interest in 17th and 18th century France and wrote several biographies and works of historical fiction with that as the backdrop: <title render="italic">The Queen's Necklace</title> (1961), <title render="italic">Napoleon and Josephine: A Biography of a Marriage </title>(1964), <title render="italic">The Affair of the Poisons</title> (1969), <title render="italic">More Than a Queen</title> (1971), and <title render="italic">Madame de Sevigne</title> (1983).  In 1961, she won two awards for <title render="italic">The Queen's Necklace</title>: the Carr Collins Award for best non-fiction book by a Texas author, and an award from Theta Sigma Phi, the National Fraternity for Women in Journalism. She won the Carr Collins Award again in 1964 for <title render="italic">Napoleon and Josephine</title>. She also published several translations.  Frances Mossiker died on 9 May 1985.</p>
 
@@ -87,7 +85,7 @@ broadcasts and speeches; awards; newspaper clippings; reviews; and publicity.
             <p>NOTE: There is no container list for this collection. Contact the Sophia Smith Collection for more information.</p>
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -121,7 +119,7 @@ Mass.</p>
 
  </controlaccess>
 <!-- MRJ: PROOF -->
- 	<descgrp type="add" id="addinfo">
+ 	<descgrp id="addinfo" type="add">
 	<head>Additional Information</head>
       <relatedmaterial id="add-related">
           <head>Related Material</head>
@@ -129,5 +127,4 @@ Mass.</p>
       </relatedmaterial>
     </descgrp>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

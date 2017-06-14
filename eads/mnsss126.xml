@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss126.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss126</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss126.xml//EN">mnsss126</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Florence Levin Lockshin Papers, 1924-1995</titleproper>
@@ -56,18 +57,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Lockshin, Florence Levin, 1910-1997</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Florence Levin Lockshin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1924-1995</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Florence Levin Lockshin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1924-1995</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 405</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 405</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">14 boxes		  </extent>
             <extent encodinganalog="300$a">(6.25 linear ft.)</extent>
@@ -79,8 +80,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Composer and pianist. The papers focus mainly on Lockshin's musical compositions and include scores; recordings of performances; plus files of correspondence, publicity and memorabilia related to performances of her work. There are also a series of unpublished poems written by Lockshin in her later life. Materials include writings, speech notes, correspondence, musical scores, and audio recordings.  </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Composer and pianist. The papers focus mainly on Lockshin's musical compositions and include scores; recordings of performances; plus files of correspondence, publicity and memorabilia related to performances of her work. There are also a series of unpublished poems written by Lockshin in her later life. Materials include writings, speech notes, correspondence, musical scores, and audio recordings.  </abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -92,7 +93,7 @@
          <p>In 1952, Lockshin moved to Northampton, Massachusetts, where she studied composition at Smith College (1952-55) under the tutelage of composer Alvin Etler.  From this point, Lockshin turned her attention to larger ensembles, composing primarily for orchestra or chorus and orchestra.  Her first such work was The Cycle (1956-57), a ballet commissioned by the Smith College Dance Department.
 
     </p>
-         <p>In 1959, Lockshin began to incorporate folk themes into her work in Annie Bradley's Tune, a piece based on a short melody sung to Lockshin's twin sons by their African-American nurse.  Paean Santa Maria de Guadalupe (1962) is based on a hymn Lockshin heard penitents sing as they approached the basilica in Mexico City.  When her husband's work as a management consultant took them to Arizona in the late 1960s, Lockshin's response to the music she heard there was the orchestral suite Scavarr (1969), based on Yuma and Mojave themes.  After retirement, Samuel Lockshin worked for the International Executive Service Corps as a volunteer business consultant in Columbia, Venezuela, and Panama.  &#161;Cumbia! Fantasy on a Columbian Folk Dance (1977) was inspired by music heard during the Lockshins' many trips to various countries in Central and South America.
+         <p>In 1959, Lockshin began to incorporate folk themes into her work in Annie Bradley's Tune, a piece based on a short melody sung to Lockshin's twin sons by their African-American nurse.  Paean Santa Maria de Guadalupe (1962) is based on a hymn Lockshin heard penitents sing as they approached the basilica in Mexico City.  When her husband's work as a management consultant took them to Arizona in the late 1960s, Lockshin's response to the music she heard there was the orchestral suite Scavarr (1969), based on Yuma and Mojave themes.  After retirement, Samuel Lockshin worked for the International Executive Service Corps as a volunteer business consultant in Columbia, Venezuela, and Panama.  ¡Cumbia! Fantasy on a Columbian Folk Dance (1977) was inspired by music heard during the Lockshins' many trips to various countries in Central and South America.
 
     </p>
          <p>Interest in women composers spurred by the women's movement, plus interest in all things American connected with the country's bicentennial in 1976, led to a series of performances of Lockshin's work during the 1960s and 70s.  Annie Bradley's Tune was the most-performed, both in the U.S. and in concerts of American music in Venezuela and Panama.
@@ -128,7 +129,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -224,8 +225,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL AND MISCELLANEOUS MATERIALS <unitdate>(1930-90, n.d.)</unitdate>
                </unittitle>
@@ -345,7 +346,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. SPEECHES AND WRITINGS <unitdate>(1961-91, n.d.)</unitdate>
                </unittitle>
@@ -470,7 +471,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. MUSICAL COMPOSITIONS <unitdate>(1924-95, n.d.)</unitdate>
                </unittitle>
@@ -1578,7 +1579,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Florence Levin Lockshin Musical Compositions</unittitle>
             </did>

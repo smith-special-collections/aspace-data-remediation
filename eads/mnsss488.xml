@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss488.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss488</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss488.xml//EN">mnsss488</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Ms. Foundation For Women Records, 1973-2008</titleproper>
@@ -26,8 +24,7 @@ mainagencycode="mnsss">mnsss488</eadid>
          <date normal="yyyy-mm-dd">July 26, 2010</date>
     </creation>
     <langusage>Finding aid written in
-        <language encodinganalog="546" langcode="eng"
-scriptcode="latn">English.</language>
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
       </langusage>
     </profiledesc>
   </eadheader>
@@ -37,15 +34,14 @@ scriptcode="latn">English.</language>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Ms. Foundation for Women  (U.S.)</persname>
         </origination>
-        <unittitle label="Title:" encodinganalog="245$a">Ms. Foundation For Women Records</unittitle><unitdate type="inclusive" label="Dates:">1973-2008</unitdate>
-       <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 583</unitid>
+        <unittitle encodinganalog="245$a" label="Title:">Ms. Foundation For Women Records</unittitle><unitdate label="Dates:" type="inclusive">1973-2008</unitdate>
+       <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 583</unitid>
    <physdesc label="Quantity:">
            <extent encodinganalog="300$a">185 Boxes</extent>
            <extent encodinganalog="300$a">(222.75 linear ft.) </extent>
    </physdesc>
 
-   <langmaterial label="Language of Material:" encodinganalog="546">
+   <langmaterial encodinganalog="546" label="Language of Material:">
         <language langcode="eng">English</language>
    </langmaterial>
          <repository label="Location:">
@@ -56,7 +52,7 @@ scriptcode="latn">English.</language>
              </address>
           </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Feminist advocacy organization. Records pertain to all aspects of the Foundation's work since its inception and include records of the Board, correspondence, emails, minutes, agendas, reports, grant applications and proposals, programs, brochures, pamphlets, publications, membership and publicity materials, photographs, posters, audiovisuals, and memorabilia.  Much of the collection consists of files documenting the Foundations' projects such as Take Our Daughters and Sons To Work Day; Free To Be...You and Me; Collaborative Fund  for Women's Economic Development; Reproductive Rights Coalition and Organizing Fund; Women and AIDS Fund; and the Gloria Awards: A National Salute to Women of Vision.
 
         [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith
@@ -67,7 +63,7 @@ Collection if you would like one sent to you.]
 
    <bioghist id="bioghist">
           <head>Historical Note</head>
-        <p>The Ms. Foundation for Women (MFW) was founded by Patricia T. Carbine, Letty Cottin Pogrebin, Gloria Steinem, and Marlo Thomas to redistribute profits from Ms. Magazine to the grassroots women's movement. In 1974, the Ms. Foundation establishes its first grant-making program with the proceeds from Free to Be&#8230;You and Me, a multimedia project created by Marlo Thomas, Letty Cottin Pogrebin, and others, and in 1976 the organization became the first to support efforts to combat domestic violence by funding creative, cutting-edge projects for women rarely funded by mainstream organizations. In 1984 Marie C. Wilson was appointed President of the Ms. Foundation; under her leadership, the Foundation moved from a budget of $400,000 to more than $10 million by 2004.  Sara K. Gould joined the Foundation in 1986 as the founding director of the Economic Development Program; she was appointed president in 2004 following Wilson's resignation.</p>  
+        <p>The Ms. Foundation for Women (MFW) was founded by Patricia T. Carbine, Letty Cottin Pogrebin, Gloria Steinem, and Marlo Thomas to redistribute profits from Ms. Magazine to the grassroots women's movement. In 1974, the Ms. Foundation establishes its first grant-making program with the proceeds from Free to Be…You and Me, a multimedia project created by Marlo Thomas, Letty Cottin Pogrebin, and others, and in 1976 the organization became the first to support efforts to combat domestic violence by funding creative, cutting-edge projects for women rarely funded by mainstream organizations. In 1984 Marie C. Wilson was appointed President of the Ms. Foundation; under her leadership, the Foundation moved from a budget of $400,000 to more than $10 million by 2004.  Sara K. Gould joined the Foundation in 1986 as the founding director of the Economic Development Program; she was appointed president in 2004 following Wilson's resignation.</p>  
 
 <p>The organization expanded greatly over the next twenty-five years, creating and funding such programs as the Institute for Women's Economic EmPOWERment, the only national training ground for economic development and justice organizers working on women's issues (1988); the Reproductive Rights Coalition and Organizing Fund; support organizations working on women's health issues at the state level (1989); the Gloria Awards: A National Salute to Women of Vision (1989); the Collaborative Fund  for Women's Economic Development, a pioneering form of grant making (1990); Take Our Daughters to Work Day, one of the most successful national public education campaigns ever launched (1993); the Collaborative Fund for Healthy Girls/Healthy Women, to assist community organizations working on cutting-edge programs to support girls' leadership (1996); the Women and AIDS Fund, to support organizations created by and for women affected by HIV and AIDS;  the Democracy Funding Circle, to provide resources to organizations developing a progressive vision and organizing to prevent the rollback of democratic rights gained through the women's and other social justice movements (1996); the Take Our Daughters and Sons to Work Day public education program (2003); Public Voices, Public Policy, an initiative aimed to actively support women of color who lead grassroots organizations, and get them involved in public-policy advocacy and action (2005); and the Katrina Women's Response Fund, to provide strategic support to meet the immediate needs of women of color and low-income women in the Gulf Coast, and ensure that their leadership and priorities were central to both short and long-term recovery and rebuilding efforts.</p>
    </bioghist>

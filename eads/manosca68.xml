@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca68.xml//EN" countrycode="us" mainagencycode="manosca">manosca68</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca68.xml//EN">manosca68</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>F. Warren Wright Papers, 1890-1966
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,17 +51,17 @@
 <date>1999
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Wright, Frederick Warren, 1885-</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">F. Warren Wright Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1890-1966</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<unittitle encodinganalog="245$a" label="Title:">F. Warren Wright Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1890-1966</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:928a0eff-ac3c-4bd2-8f27-42583791dede</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">11 boxes</extent>
 <extent encodinganalog="300$a">(5.5 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Professor, classics.  Contains biographical data, Classical Association of New England bulletins, correspondence, diaries, educational records, lectures, photographs, publications and research.
+<abstract encodinganalog="520$a" label="Abstract:">Professor, classics.  Contains biographical data, Classical Association of New England bulletins, correspondence, diaries, educational records, lectures, photographs, publications and research.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -93,7 +94,7 @@
 <p>The Wright Papers amount to approximately 5.5 linear feet, and include biographical data, Classical Association of New England bulletins, correspondence 1879-1953, diaries, educational records, Kiwanis Club material, lectures, photographs, publications and research, Smith College records, speeches and war service. Of these 5.5 feet, 1.5 feet is composed solely of letters between Professor Wright and his mother, Sarah Longley Wright between the years of 1894 and 1938. The Wright Papers also include files on William Arter Wright, Sarah Longley Wright and Louise Marion Fisher Wright. Among Louise Wright's files are sketch books, letters and photographs.
 </p>
 </scopecontent>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -130,7 +131,7 @@
 <persname encodinganalog="700" source="lcnaf">Wright, Sarah Longley.</persname>
 <corpname encodinganalog="710" source="lcnaf">Classical Association of New England.</corpname>
 </controlaccess>
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">1</container>

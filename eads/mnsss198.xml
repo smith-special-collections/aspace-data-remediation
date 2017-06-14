@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss198.html">mnsss198</eadid>
 
 	<filedesc>
@@ -33,11 +34,11 @@
 		<titleproper encodinganalog="245$a">Alice Weld Tallant Papers, 1896-1958</titleproper>
 		<subtitle>Finding Aid</subtitle> 
 		<num>MS 158</num> 
-		<author encodinganalog="245$c"></author> 
+		<author encodinganalog="245$c"/> 
 		<date>Revised 2005</date> 
 		 
 		 
-		<p>&#169; 2005 Smith College. All rights reserved.</p> 
+		<p>© 2005 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,16 +46,16 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Tallant, Alice Weld, 1875-1958</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Tallant, Alice Weld, 1875-1958</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Alice Weld Tallant Papers</unittitle><unitdate label="Dates:">1896-1958</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 158</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Alice Weld Tallant Papers</unittitle><unitdate label="Dates:">1896-1958</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 158</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">1 box</extent>
 			<extent encodinganalog="300$a">(.5 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">
+		<langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
 
@@ -75,7 +76,7 @@
 
 <bioghist id="bioghist">
 <head>Biographical Note</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1935.jpg" altrender="right">
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1935.jpg" linktype="simple" show="embed">
 <daodesc><p>Alice Weld Tallant in uniform in<lb />Coulommier, France, 1918</p></daodesc></dao>
 <p>Alice Weld Tallant was born in Boston on 14 July 1875. She attended private schools, and earned her A.B. from Smith College in 1897 and her M.D. from Johns Hopkins in 1902. She did graduate work at the hospital of the New York Lying-In Society and later at the Charite Hospital in Berlin. She interned and assisted at New England Hospital for Women and Children in Boston from 1902 to 1905.  Tallant worked as "Examiner for Gymnasium and Lecturer in Hygiene" at Bates College from 1903 to 1904. She was Professor of Obstetrics at the Women's Medical College of Pennsylvania and Obstetrician-in-Chief at College Hospital from 1905 to 1923.  From 1922-28, she was an obstetrician at the Philadelphia General Hospital. She went overseas with the Smith College Relief Unit in World War I, serving from July 1917 until February 1918. While there, she served in the 6th French army military evacuation hospital and was awarded the Croix de Guerre in 1918. In 1922, she wrote a textbook on obstetrical nursing.</p> 
 
@@ -143,7 +144,7 @@
 <!-- Enter additional information -->
 
 
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -157,11 +158,11 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <head>Contents List</head>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
- <unittitle></unittitle>
+ <unittitle/>
  </did>
  <c02>
  <did>
@@ -319,5 +320,3 @@
 
 </archdesc>
 </ead>
-
-

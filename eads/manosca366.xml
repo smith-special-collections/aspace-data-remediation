@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca366.xml//EN" countrycode="us" mainagencycode="manosca">manosca366</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca366.xml//EN">manosca366</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Samantha Lyon Papers, Class of 2008</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2014">2014</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Samantha Lyon</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Samantha Lyon</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Samantha Lyon Papers, Class of 2008</unittitle>
-	<unitdate type="inclusive" label="Dates:">2004 - 2008</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">2007 - 2008</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG80</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Samantha Lyon Papers, Class of 2008</unittitle>
+	<unitdate label="Dates:" type="inclusive">2004 - 2008</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">2007 - 2008</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG80</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">2 boxes, 26 DVDs</extent>
 		<extent encodinganalog="300$a">( 1.8 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -111,7 +112,7 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">1</container>
@@ -279,5 +280,3 @@
 
   </archdesc>
 </ead>
-
-

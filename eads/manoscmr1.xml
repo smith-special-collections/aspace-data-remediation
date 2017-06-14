@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr1.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr1</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr1.xml//EN">manoscmr1</eadid>
 
       <filedesc>
          <titlestmt>
@@ -52,17 +53,17 @@
       </date>
          
          <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003 Smith College Libraries. All rights reserved.</p>
+         <p>© 2003 Smith College Libraries. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Woolf, Virginia, 1882-1941</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Papers of Virginia Woolf</unittitle><unitdate encodinganalog="245$f" type="inclusive">1902-1956</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 1</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Papers of Virginia Woolf</unittitle><unitdate encodinganalog="245$f" type="inclusive">1902-1956</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 1 UUID:d39845b8-40bb-4a19-9e86-360a17dff822</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">6 boxes, 217 items</extent>
             <extent encodinganalog="300$a">(2.25 linear ft.)</extent>
@@ -75,9 +76,9 @@
             </address>
 
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Influential English writer best remembered for her innovative stream-of-consciousness novels. Papers include correspondence, reading notes, drafts of essays and short stories, corrected page proofs of novels and collected essays, printed ephemera, and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">Influential English writer best remembered for her innovative stream-of-consciousness novels. Papers include correspondence, reading notes, drafts of essays and short stories, corrected page proofs of novels and collected essays, printed ephemera, and photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -247,7 +248,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -359,8 +360,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. Correspondence of Virginia Woolf and Lytton Strachey</unittitle>
             </did>
@@ -2246,7 +2247,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. Letters by Virginia Woolf</unittitle>
             </did>
@@ -2593,7 +2594,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. Manuscripts by Virginia Woolf</unittitle>
             </did>
@@ -2798,7 +2799,7 @@
 		</note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. Hogarth Press Ephemera</unittitle>
             </did>
@@ -2929,7 +2930,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V. Manuscripts by Others,
                 <unitdate>1904-1926</unitdate>
@@ -3029,7 +3030,7 @@
                </note>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>Series VI. Photographs,
                 <unitdate>1902-1927</unitdate>

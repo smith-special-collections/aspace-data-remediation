@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss10.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss10</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss10.xml//EN">mnsss10</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Mina Kirstein Curtiss Papers, 1913-2005
@@ -14,7 +15,7 @@
             <address>
                <addressline>Northampton, MA</addressline>
             </address>
-            <date encodinganalog="260$c">&#169; 2003 </date>
+            <date encodinganalog="260$c">© 2003 </date>
             <p>Smith College. All rights reserved.</p>
          </publicationstmt>
       </filedesc>
@@ -48,17 +49,17 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Curtiss, Mina Kirstein, 1896-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Mina Kirstein Curtiss Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1913-2005</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 250</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Mina Kirstein Curtiss Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1913-2005</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 250</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">33 boxes</extent>
             <extent encodinganalog="300$a">(11 linear ft.)</extent>
@@ -70,15 +71,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	</repository>
-         <abstract label="Abstract:" encodinganalog="520$a">English professor, translator, and author. The bulk of the Curtiss papers focus on her writing career including correspondence with publishers and researchers, research material, artwork, and edited typescripts.  Other materials include an oral history, photographs, diaries, and extensive correspondence with many eminent figures from the literary world as well as Smith College associates, friends and family members. Correspondents include Dean Acheson, Jacques Barzun, Jill Ker Conway, Anne Morrow Lindbergh, William Allen Neilson, Orson Welles, and Rebecca West.
+         <abstract encodinganalog="520$a" label="Abstract:">English professor, translator, and author. The bulk of the Curtiss papers focus on her writing career including correspondence with publishers and researchers, research material, artwork, and edited typescripts.  Other materials include an oral history, photographs, diaries, and extensive correspondence with many eminent figures from the literary world as well as Smith College associates, friends and family members. Correspondents include Dean Acheson, Jacques Barzun, Jill Ker Conway, Anne Morrow Lindbergh, William Allen Neilson, Orson Welles, and Rebecca West.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1091.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1091.jpg" linktype="simple" show="embed">
 <daodesc><p>Mina Curtiss at Chapelbrook, Ashfield, Massachusetts, n.d.
 </p></daodesc></dao>
          <p>Mina Kirstein Curtiss was born in Boston, Massachusetts on October 13, 1896 to Louis Kirstein, an optician, and Rose Stein.  She had two younger brothers, Lincoln Kirstein, founder and general director of the New York City Ballet, and George Kirstein, publisher of the Liberal Weekly.  The family moved to Rochester, NY in 1901 and remained there until 1912, when they returned to Boston and Louis Kirstein became a partner in Filene's Department Store.  Curtiss was schooled at home by a governess until 1912, when she was sent to Northampton, Massachusetts to attend Miss Capen's School.  She graduated from Smith College in 1918 and went on to earn an MA in English from Columbia University in 1920.</p>
@@ -124,7 +125,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -194,7 +195,7 @@
          <corpname encodinganalog="610" source="lcnaf">Smith College--Students--History--Sources</corpname>
          <subject encodinganalog="650" source="lcsh">Women authors, American--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -317,8 +318,8 @@
 </dsc>
 <!-- End series descriptions -->
 <!-- Insert container list here --><!-- MOVE series desc to analyticcover -->   
-<dsc type="in-depth" id="list-contlist">
- 	<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ 	<c01 id="list-ser1" level="series">
  	  <did>
  	    <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  	  </did>
@@ -808,7 +809,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PHOTOGRAPHS</unittitle>
             </did>
@@ -836,7 +837,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CORRESPONDENCE</unittitle>
             </did>
@@ -1560,7 +1561,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. TEACHING</unittitle>
             </did>
@@ -1603,7 +1604,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. WRITINGS</unittitle>
             </did>
@@ -3324,7 +3325,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. SUBJECT FILES</unittitle>
             </did>
@@ -3380,7 +3381,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>
@@ -3425,82 +3426,6 @@
                   <unittitle>Certificate, Chevalier de la Legion d'Honneur <unitdate>24 Feb 1960</unitdate>
                   </unittitle>
                </did>
-            </c02>
-         </c01>
-      </dsc>
-      <dsc type="in-depth" id="app1">
-         <head>Appendix</head>
-         <c01>
-            <did>
-               <unittitle>16" Disc Recordings</unittitle>
-            </did>
-            <c02>
-               <did>
-                  <unittitle>
-                     <title>Answering Australia</title>
-                  </unittitle>
-               </did>
-               <c03>
-                  <did>
-                     <unittitle># 5 (2 identical discs; 1 disc is broken): <unitdate>30 Jan 1943 </unitdate>
-                     </unittitle>
-                  </did>
-               </c03>
-               <c03>
-                  <did>
-                     <unittitle>#? (1 disc): <unitdate>26 April 1943 </unitdate>
-                     </unittitle>
-                  </did>
-               </c03>
-            </c02>
-            <c02>
-               <did>
-                  <unittitle>
-                     <title>Answering You</title>
-                  </unittitle>
-               </did>
-               <note>
-                  <p>Scripts to <title>Answering You</title> #s 4, 5 and possibly #2 are located in Box 17, Folder 8.</p>
-               </note>
-               <note>
-                  <p>Script to <title>Answering You</title> #8 is located in Box 17 Folder 9</p>
-               </note>
-               <c03>
-                  <did>
-                     <unittitle>#2 (1 disc, Part 2; Part 1 is missing): <unitdate>16 Nov 1943 </unitdate>
-                     </unittitle>
-                  </did>
-               </c03>
-               <c03>
-                  <did>
-                     <unittitle>#4 (1 broken disc, Part 2; Part 1 is missing): <unitdate>10 Jan 1943 </unitdate>
-                     </unittitle>
-                  </did>
-               </c03>
-               <c03>
-                  <did>
-                     <unittitle>#5 (2 discs; Parts 1 &amp; 3): <unitdate>30 Jan 1943 </unitdate>
-                     </unittitle>
-                  </did>
-               </c03>
-               <c03>
-                  <did>
-                     <unittitle>#8 (1 disc, Part 2; Part 1 is missing): <unitdate>21 Apr 1943 </unitdate>
-                     </unittitle>
-                  </did>
-               </c03>
-               <c03>
-                  <did>
-                     <unittitle>#9 (3 discs, Parts 1-3): <unitdate>3 May 1943 </unitdate>
-                     </unittitle>
-                  </did>
-               </c03>
-               <c03>
-                  <did>
-                     <unittitle>#9 (1 disc, Part 2; Part 1 is missing): <unitdate>4 May 1943 </unitdate>
-                     </unittitle>
-                  </did>
-               </c03>
             </c02>
          </c01>
       </dsc>

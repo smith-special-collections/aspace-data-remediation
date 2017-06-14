@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca400.xml//EN" countrycode="us" mainagencycode="manosca">manosca400</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca400.xml//EN">manosca400</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Program for the Studies of Women and Gender records, 1970 - ongoing</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2015">2015</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Smith College. Women's Studies Program.</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Smith College. Women's Studies Program.</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Program for the Studies of Women and Gender records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1970 - ongoing</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Program for the Studies of Women and Gender records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1970 - ongoing</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 52</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 52 UUID:e547251c-4c5a-4d1d-b55c-e3fce2447736</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">5 record cartons</extent>
 		<extent encodinganalog="300$a">( 5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -80,7 +81,7 @@
 </p>
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into three series:</p>
 	<list>
@@ -147,8 +148,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>SERIES I: Administration</unittitle>
       </did>
@@ -1001,7 +1002,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>Series II: Faculty</unittitle>
       </did>
@@ -1478,7 +1479,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>Series III: Curriculum</unittitle>
       </did>
@@ -1961,5 +1962,3 @@
 
   </archdesc>
 </ead>
-
-

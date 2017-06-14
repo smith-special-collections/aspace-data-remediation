@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss46.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss46</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss46.xml//EN">mnsss46</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Dorothy Reed Mendenhall Papers, 1805-2003
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Mendenhall, Dorothy Reed, 1874-1964</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Dorothy Reed Mendenhall Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1805 - 2003</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Dorothy Reed Mendenhall Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1805 - 2003</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1890-1957</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 101</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 101</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">21 boxes</extent>
             <extent encodinganalog="300$a">(7.75 linear ft.)</extent>
@@ -74,15 +75,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Public health specialist, physician and instructor. The papers focus on the life of a woman who made pioneering contributions to the fields of pathology, public health, maternal infant health, pediatrics, and nutrition, as well as early 20th century women's medical education.  Mendenhall's Smith College years and her time at Johns Hopkins Medical School are well represented. Material includes research, writings, diaries and correspondence with her son, Thomas Corwin Mendenhall (president of Smith College). Other correspondents include patients and associates, such as Julia Lathrop, Grace Abbott, Katherine Lenroot, M. Carey Thomas, Margaret Long, William MacCallum, Dr. William Henry Welch, and Edmund Wilson.
+         <abstract encodinganalog="520$a" label="Abstract:">Public health specialist, physician and instructor. The papers focus on the life of a woman who made pioneering contributions to the fields of pathology, public health, maternal infant health, pediatrics, and nutrition, as well as early 20th century women's medical education.  Mendenhall's Smith College years and her time at Johns Hopkins Medical School are well represented. Material includes research, writings, diaries and correspondence with her son, Thomas Corwin Mendenhall (president of Smith College). Other correspondents include patients and associates, such as Julia Lathrop, Grace Abbott, Katherine Lenroot, M. Carey Thomas, Margaret Long, William MacCallum, Dr. William Henry Welch, and Edmund Wilson.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc948.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc948.jpg" linktype="simple" show="embed">
 <daodesc><p>Dorothy Reed Mendenhall, circa 1903</p></daodesc></dao>
          <p>Dorothy Mabel Reed Mendenhall, born in Columbus, Ohio on September 22, 1874, was the second daughter and third and youngest child of Grace Kimball and William Pratt Reed and an important link in a long lineage of prominence and privilege.  All four of Mendenhall's grandparents' families--the Kimballs, the Reeds, the Talcotts, and the Temples--traced their origins back to New England in the 1630s.  Mendenhall was particularly proud of the fact that the Reed family could document its direct descendence from Thomas Dudley and Dorothy Yorke and their daughter, the poet, Anne Bradstreet, who came to Massachusetts Bay on the Arabella in 1632, and that her Talcott relatives were direct descendents of John Talcott.  He had arrived had in Cambridge in 1632 and, in 1636, built the first house in Hartford, Connecticut.  Her great-grandfather Richard Kimball surveyed parts of the Northwest Territory after the American Revolution and was paid for his services with grants of land.  He, in turn, passed along forty acre plots of land in Cleveland, Canton, and Columbus, Ohio to his sons.  By the mid-nineteenth century the Kimballs, were prominent figures in Ohio politics and society.  Mendenhall's maternal grandfather, Hannibal Kimball, made his fortune in shoe and boot manufacturing.  Her father William Reed joined Hannibal Kimball in his business in 1858 and, in 1867, married his eldest daughter.  Mendenhall spent her early years living with her parents, her sister Elizabeth, her brother William Reed Jr., and numerous aunts, uncles and cousins on the Kimball estate on the East side of Columbus. When William Reed Sr. died from complications of diabetes and tuberculosis in 1880 he left an estate worth several hundred thousand dollars.</p>
          <p>Mendenhall's early education consisted of tutoring by her grandmother at home, drawing classes at the Columbus Art School, and, in the late 1880s, private teaching by her governess Anna Gunning, in Columbus and, later, in Berlin.  Her first formal education began in 1891 when she entered Smith College, where she earned her  B.L. in 1895.  During her last year of college Mendenhall's family began to experience serious financial troubles due to wreckless spending by her mother and brother, and her sister's chronic illness and bad marriage.  From this time on she played a central role in the management of the family finances.  It was in large part due to the need to earn money to support herself and her family that she decided to enter newly opened Johns Hopkins University Medical School (one of first to admit women) and pursue a medical career  She spent a year at the Massachusetts Institute of Technology in 1895-96 to complete required science courses and entered Johns Hopkins University Medical School in 1896 along with several other women students such as Florence Sabin and Gertrude Stein (who later dropped out).  During summer of 1898 she and her classmate Margaret Long became the first women to work for a U.S. Naval Hospital when they assisted in treating Spanish/American War casualties at Brooklyn Navy Yard Hospital.  Mendenhall excelled at Johns Hopkins and, after graduating fourth in her class in 1900, she was awarded a prestigious internship at Johns Hopkins Hospital, serving under Dr. William Osler.  The next year she became a Pathology fellow there   under the direction of Dr. William Welch.  During this period Mendenhall taught bacteriology, assisted at autopsies and undertook research on Hodgkin's disease.  She made her best recognized contribution to medical science when she discovered the cell that is a primary characteristic of Hodgkins disease and effectively disproved the common belief that the disease was a form of tuberculosis.  Mendenhall's findings, published in 1902, brought her international acclaim and the cell became known as the Reed cell (also called the Sternberg-Reed and Reed-Sternberg cell).  </p>
@@ -127,7 +128,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -187,7 +188,7 @@
          <subject encodinganalog="650" source="lcsh">Maternal health services--History--20th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Medical education--United States--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -281,8 +282,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL
           <unitdate>(1874-2003)</unitdate>
@@ -1402,7 +1403,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. FAMILY
           <unitdate>(1805-1938)</unitdate>
@@ -1609,7 +1610,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. CORRESPONDENCE
           <unitdate>(1891-1962)</unitdate>
@@ -1952,7 +1953,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PROFESSIONAL MATERIAL
           <unitdate>(1898-1956)</unitdate>
@@ -2205,7 +2206,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. PUBLICATIONS
           <unitdate>(1901-1937)</unitdate>

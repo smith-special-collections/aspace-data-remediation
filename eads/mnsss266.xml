@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss266.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss266</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss266.xml//EN">mnsss266</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Norman and Jeanne MacKenzie Papers, 1935-1964</titleproper>
@@ -30,14 +31,14 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">MacKenzie, Norman Ian and Jeanne </persname>
+		<persname encodinganalog="100 1" source="lcnaf">MacKenzie, Norman Ian and Jeanne </persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Norman Ian and Jeanne MacKenzie Papers</unittitle><unitdate type="inclusive" label="Dates:">1935-1964</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Norman Ian and Jeanne MacKenzie Papers</unittitle><unitdate label="Dates:" type="inclusive">1935-1964</unitdate>
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">2 boxes</extent>
 		<extent encodinganalog="300$a">(1 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -54,11 +55,11 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6422.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6422.jpg" linktype="simple" show="embed">
 <daodesc><p>Section of survey for married women graduates, part of <lb />MacKenzie's research for <title render="italic">Women of Australia</title>, undated</p></daodesc></dao>
 	<p>Norman Ian MacKenzie was born in London in on August 18, 1921. He graduated from the London School of Economics in 1943 (interrupted by war service in the Royal Air Force) with a B.Sc. (Economics). He was Assistant Editor of the <title render="italic">New Statesman</title> from 1943 to 1962. He taught at the University of Sussex, England from 1962 to 1983,  initially as Lecturer in Sociology, retiring as Professor of Education.  He edited <title render="italic">The Letters of Sidney and Beatrice Webb</title> (3 vols, 1978), as well as editing and writing books on various other subjects. Norman was commissioned by the Social Science Research Council of Australia to conduct a pioneering survey of the status and social and political roles of women in Australia in 1959-60, published as <title render="italic">Women in Australia</title> (1962). A revised edition was published as <title render="italic">Women and Society: An Australian Study</title> (with Sol Encel and Margaret Tebbutt) in 1975. He was awarded an Honorary Doctorate (D.Univ) by the Open University (1977) was an Honorary Fellow of LSE.</p>
 
-<p>Daisy Jeanne MacKenzie n&#233;e Sampson (but always known as Jeanne, pronounced Jean) was born in St. Helens, Lancashire, on January 30, 1922. She graduated from the London School of Economics in 1943 with a B.Sc. (Econ). She worked as a civil servant during World War II and subsequently as a reader for Hamish Hamilton (publishers) and as a marriage counselor.   She wrote <title render="italic">Australian Paradox</title> (1961), <title render="italic">A Victorian Courtship: The Story of Beatrice Potter and Sidney Webb</title> (1979) and <title render="italic">The Children of The Souls: A Tragedy of the First World War</title> (1986); and edited a literary anthology, <title render="italic">Cycling</title> (1981). </p>
+<p>Daisy Jeanne MacKenzie née Sampson (but always known as Jeanne, pronounced Jean) was born in St. Helens, Lancashire, on January 30, 1922. She graduated from the London School of Economics in 1943 with a B.Sc. (Econ). She worked as a civil servant during World War II and subsequently as a reader for Hamish Hamilton (publishers) and as a marriage counselor.   She wrote <title render="italic">Australian Paradox</title> (1961), <title render="italic">A Victorian Courtship: The Story of Beatrice Potter and Sidney Webb</title> (1979) and <title render="italic">The Children of The Souls: A Tragedy of the First World War</title> (1986); and edited a literary anthology, <title render="italic">Cycling</title> (1981). </p>
 
 <p>Norman and Jeanne married 25 October 1945.  The couple had two daughters, Janetta (1951-99) and Julia (b. 1956).  They co-authored <title render="italic">An Authentic and Faithful History of the Mysterious Murder of Maria Marten</title> (1948); biographies of H. G. Wells (<title render="italic">The Time Traveller: The Life of H. G. Wells</title>, 1973; the early Fabians (<title render="italic">The First Fabians</title>, 1977);  and <title render="italic">Dickens: A Life</title> (1979).  They also co-edited <title render="italic">The Diary of Beatrice Webb</title> (4 vols., 1982-85).  They were both made Fellow of the Royal Society of Literature and awarded the Society's Heinemann Prize for <title render="italic">The First Fabians</title> in 1978.  After Jeanne's death in 1986, Norman married Dr. Gillian Ford in 1988. He died on June 18, 2013.</p>
 
@@ -119,7 +120,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -343,5 +344,3 @@
 
   </archdesc>
 </ead>
-
-

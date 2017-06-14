@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca77.xml//EN" countrycode="us" mainagencycode="manosca">manosca77</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca77.xml//EN">manosca77</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Marine Leland Papers, 1899 - 1984</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2014">2014</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Leland, Marine</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Leland, Marine</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Marine Leland Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1899 - 1984</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Marine Leland Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1899 - 1984</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:2a7e4323-2224-4f99-a893-f090e072586a</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">12</extent>
 		<extent encodinganalog="300$a">(4.5 linear feet)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English, French</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English, French</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -59,7 +60,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-	<p>	Marine Leland was born on December 2, 1899 in Qu&#233;bec City to American parents of English descent. She was educated in Montr&#233;al at the Sacred Heart Convent and later in Germany, France, Spain, and the United States. From Radcliffe College she received an A.B. (1923), A.M. (1925), and PhD (1928). A member of the French Department at Smith College from 1924 until her retirement in June 1965, she pioneered a new course in French Canadian civilization and is responsible for the forming and building of the French Canadian Collection in the William Allan Neilson Library at Smith. Her contributions to a better understanding of the French Canadian culture has been widely recognized and honored. On May 13, 1983, she died at her home in Northampton, Massachusetts.</p>
+	<p>	Marine Leland was born on December 2, 1899 in Québec City to American parents of English descent. She was educated in Montréal at the Sacred Heart Convent and later in Germany, France, Spain, and the United States. From Radcliffe College she received an A.B. (1923), A.M. (1925), and PhD (1928). A member of the French Department at Smith College from 1924 until her retirement in June 1965, she pioneered a new course in French Canadian civilization and is responsible for the forming and building of the French Canadian Collection in the William Allan Neilson Library at Smith. Her contributions to a better understanding of the French Canadian culture has been widely recognized and honored. On May 13, 1983, she died at her home in Northampton, Massachusetts.</p>
     </bioghist>
     <scopecontent id="scope">
 	<head>Scope and Contents of the Collection</head>
@@ -69,7 +70,7 @@
 
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into five (5) series:</p>
 	<list>
@@ -138,7 +139,7 @@ Marine Leland, Box #, Smith College Archives
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
- <dsc type="in-depth" id="list-contlist">
+ <dsc id="list-contlist" type="in-depth">
  <c01 level="series">
 	<did>
 	<unittitle>Biographical</unittitle>
@@ -1867,5 +1868,3 @@ Marine Leland, Box #, Smith College Archives
 
   </archdesc>
 </ead>
-
-

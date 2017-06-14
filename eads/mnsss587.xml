@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss587.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss587</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss587.xml//EN">mnsss587</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Jean Sovatkin Picker papers, 1915-1988</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Picker, Jean S.</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Picker, Jean S.</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Jean Sovatkin Picker papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1915-1988</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Jean Sovatkin Picker papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1915-1988</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">121</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">121</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">37</extent>
 		<extent encodinganalog="300$a">(18.5  linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
 		<address>
@@ -225,10 +226,10 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
- <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
+ <unittitle>SERIES I. BIOGRAPHICAL MATERIAL AND PHOTOGRAPHS</unittitle>
  </did>
  <c02>
  <did>
@@ -415,7 +416,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -495,7 +496,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PROFESSIONAL ACTIVITIES AND ORGANIZATIONS</unittitle>
  </did>
@@ -714,14 +715,14 @@
  <did>
  <container type="box">9</container>
  <container type="folder">1</container>
- <unittitle>Executive committee: &#160;minutes,<unitdate> 1974-76</unitdate></unittitle>
+ <unittitle>Executive committee:  minutes,<unitdate> 1974-76</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">9</container>
  <container type="folder">2-3</container>
- <unittitle>Program committee: &#160;minutes,<unitdate> 1974-77</unitdate></unittitle>
+ <unittitle>Program committee:  minutes,<unitdate> 1974-77</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -966,7 +967,7 @@
  <did>
  <container type="box">10</container>
  <container type="folder">20-22</container>
- <unittitle>Foundation for Child Development: &#160;meeting of Board of Directors, <unitdate>3 Mar 1977</unitdate></unittitle>
+ <unittitle>Foundation for Child Development:  meeting of Board of Directors, <unitdate>3 Mar 1977</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -1996,7 +1997,7 @@
  <did>
  <container type="box">22</container>
  <container type="folder">27</container>
- <unittitle>Promotion of <title render="italic">Eleanor Roosevelt:&#160;Her Day</title>,<unitdate> 1973-74</unitdate></unittitle>
+ <unittitle>Promotion of <title render="italic">Eleanor Roosevelt: Her Day</title>,<unitdate> 1973-74</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -2511,7 +2512,7 @@
  <did>
  <container type="box">27</container>
  <container type="folder">3</container>
- <unittitle>Third Committee: &#160;correspondence and invitations, <unitdate>Sep-Dec 1968</unitdate></unittitle>
+ <unittitle>Third Committee:  correspondence and invitations, <unitdate>Sep-Dec 1968</unitdate></unittitle>
  </did>
  </c07>
  </c06>
@@ -2984,7 +2985,7 @@
  <did>
  <container type="box">30</container>
  <container type="folder">14</container>
- <unittitle>Report of U.S. delegation:&#160;draft,<unitdate> 1969</unitdate></unittitle>
+ <unittitle>Report of U.S. delegation: draft,<unitdate> 1969</unitdate></unittitle>
  </did>
  </c10>
  <c10>
@@ -3856,7 +3857,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. SUBJECT FILES</unittitle>
  </did>
@@ -3973,7 +3974,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>MEMORABILIA</unittitle>
  </did>
@@ -4002,7 +4003,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -4186,5 +4187,3 @@
 
   </archdesc>
 </ead>
-
-

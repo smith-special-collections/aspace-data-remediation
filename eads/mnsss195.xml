@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss195.html">mnsss195</eadid>
 
 	<filedesc>
@@ -37,7 +38,7 @@
 		<date>2004</date> 
 		 
 		 
-		<p>&#169; 2005 Smith College. All rights reserved.</p> 
+		<p>© 2005 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,17 +46,17 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<corpname source="lcnaf" encodinganalog="110">Margaret Sanger Research Bureau</corpname>
+			<corpname encodinganalog="110" source="lcnaf">Margaret Sanger Research Bureau</corpname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Margaret Sanger Research Bureau Records</unittitle><unitdate label="Dates:">1873-1973</unitdate>
-			<unitdate type="bulk" encodinganalog="245$g">1917-1969</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 320</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Margaret Sanger Research Bureau Records</unittitle><unitdate label="Dates:">1873-1973</unitdate>
+			<unitdate encodinganalog="245$g" type="bulk">1917-1969</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 320</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">13 boxes, 59 books</extent>
 			<extent encodinganalog="300$a">(10.5 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">
+		<langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
 
@@ -76,9 +77,9 @@
 
 <bioghist id="bioghist">
 <head>Historical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc941.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc941.jpg" linktype="simple" show="embed">
 <daodesc><p>BCCRB pamphlet, undated<lb />
-	    &#169; PPFA</p></daodesc></dao>
+	    © PPFA</p></daodesc></dao>
 <p>Margaret Sanger founded the Margaret Sanger Research Bureau (MSRB) in 1923 as the Clinical Research Bureau, operating under the direction of the American Birth Control League (ABCL). In 1928, Margaret Sanger resigned as president of the ABCL and assumed full control of the clinic, renaming it the Birth Control Clinical Research Bureau (BCCRB). The BCCRB and the ABCL merged in 1939 and became the Birth Control Federation of America (it became Planned Parenthood Federation of America (PPFA) in 1942 with the clinic retaining much of its, independence. In 1940, it was renamed the MSRB in honor of its founder. Under the guidelines of the 1939 merger, the MSRB was only loosely affiliated with PPFA until the mid-1950s, when budget deficits forced the Bureau to more closely align its services with the Federation in exchange for financial assistance. The Bureau assisted with fund-raising and became the clinical research arm of the PPFA. In return PPFA funded the Bureau and provided grants for doctors and researchers on the Bureau staff. In 1968 because of continuing financial difficulties the Bureau became affiliated with Columbia University. However, budgetary difficulties in 1974 forced the Bureau to shut down and combine its staff with Planned Parenthood of New York City in a new facility called the Margaret Sanger Center in New York. Between 1940 and 1962 (the last year of Sanger's involvement with the MSRB) the Bureau provided comprehensive contraceptive services for women and couples, and became the largest combined birth control and fertility center in the world.</p> 
 
 <p>After Medical Director Hannah Stone's death in 1941, Abraham Stone, her husband and successor, altered and expanded the MSRB to accommodate his growing interest in infertility. In 1945, Stone inaugurated a Fertility Service that offered counseling, testing, and treatment for infertile couples. He expanded the Bureau's Marriage Consultation Service and steered the Research Department into a greater emphasis on infertility studies. While the Bureau continued to offer contraceptive services, the number of patients dropped as contraception became more widely available through private physicians. However, the Bureau grew as a teaching center, offering seminars, research projects and clinical work for visiting doctors, nurses, and medical students. The Bureau also offered a fellowship program for gynecologists and obstetricians for intensive training in birth control techniques. Margaret Sanger withdrew from day-to-day MSRB affairs in the 1940s, but continued to make many of the budgetary and personnel decisions. Though she disagreed with how the Clinic had evolved under Abraham Stone's leadership, she continued to raise funds for the MSRB. In 1950 Sanger turned over even more control to Stone, naming him director and selling him the West 16th Street building. For more information on the Margaret Sanger Research Bureau see <extref href="www.nyu.edu/projects/sanger/index.html">the Margaret Sanger Papers Project.</extref></p>
@@ -92,7 +93,7 @@
 
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into five series:</p>
 	<list>
@@ -196,7 +197,7 @@ Contraceptives--Research--Sources</subject>
 
 <!-- Enter additional information -->
 
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -262,9 +263,9 @@ Contraceptives--Research--Sources</subject>
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <head>Contents List</head>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
 <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1886-1973)</unitdate>, </unittitle>
 </did>
@@ -527,7 +528,7 @@ Contraceptives--Research--Sources</subject>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. ORGANIZATION FILES  <unitdate>(1885-1972)</unitdate>, </unittitle>
 </did>
@@ -1048,7 +1049,7 @@ Contraceptives--Research--Sources</subject>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. CONFERENCES <unitdate>(1921-1936)</unitdate>, </unittitle>
 </did>
@@ -1167,7 +1168,7 @@ Contraceptives--Research--Sources</subject>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. SUBJECT FILES <unitdate>(1873-1962)</unitdate>, </unittitle>
 </did>
@@ -1346,7 +1347,7 @@ Contraceptives--Research--Sources</subject>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. BOOKS <unitdate>(1901-1951)</unitdate></unittitle>
 </did>
@@ -1611,7 +1612,7 @@ Contraceptives--Research--Sources</subject>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -1628,5 +1629,3 @@ Contraceptives--Research--Sources</subject>
 
 </archdesc>
 </ead>
-
-

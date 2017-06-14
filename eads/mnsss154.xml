@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss154.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss154</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss154.xml//EN">mnsss154</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Records of the National Society Of New England Women, 1895-1988
@@ -48,18 +49,18 @@
          <date>1989</date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">National Society of New England Women</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">National Society of New England Women Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1895-2011</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">National Society of New England Women Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1895-2011</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 372</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 372</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">188 boxes</extent>
             <extent encodinganalog="300$a">(139.75 linear ft.)</extent>
@@ -71,9 +72,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">The NSNEW records document the history of the society, as well as the general goals and activities of patriotic societies in the United States.  The records  may also be studied for the genealogical origins of its members and ongoing social activities.  Materials include correspondence, minutes, genealogical records, membership applications and indexes, photographs, scrapbooks, clippings, memorabilia, and other material dating from its founding.
+         <abstract encodinganalog="520$a" label="Abstract:">The NSNEW records document the history of the society, as well as the general goals and activities of patriotic societies in the United States.  The records  may also be studied for the genealogical origins of its members and ongoing social activities.  Materials include correspondence, minutes, genealogical records, membership applications and indexes, photographs, scrapbooks, clippings, memorabilia, and other material dating from its founding.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -131,7 +132,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -175,7 +176,7 @@
          <subject encodinganalog="650" source="lcsh">Conservatism--United States--History--20th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Patriotic societies--United States--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -183,8 +184,8 @@
         
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I.  NATIONAL--GENERAL</unittitle>
             </did>
@@ -511,7 +512,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II.  NATIONAL--ANNUAL CONGRESSES AND CONVENTIONS</unittitle>
             </did>
@@ -1094,7 +1095,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III.  NATIONAL OFFICERS</unittitle>
             </did>
@@ -2094,7 +2095,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV.  NATIONAL BOARDS</unittitle>
             </did>
@@ -2886,7 +2887,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V.  NATIONAL COMMITTEES</unittitle>
             </did>
@@ -3188,7 +3189,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI.  YEARBOOKS</unittitle>
             </did>
@@ -3558,7 +3559,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII.  NATIONAL MEMBERSHIP APPLICATIONS</unittitle>
             </did>
@@ -4554,7 +4555,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII NATIONAL PROOFS</unittitle>
             </did>
@@ -6191,7 +6192,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>SERIES IX.  NATIONAL CARD INDEXES</unittitle>
             </did>
@@ -6356,7 +6357,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser10">
+         <c01 id="list-ser10" level="series">
             <did>
                <unittitle>SERIES X.  COLONIES</unittitle>
             </did>
@@ -9653,7 +9654,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>MEMORABILIA AND OVERSIZE MATERIALS</unittitle>
             </did>

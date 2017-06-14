@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss18.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss18</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss18.xml//EN">mnsss18</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Yonata Feldman Papers, 1937-1981
@@ -51,17 +52,17 @@
          
          <sponsor>Processing of the Yonata Feldman Papers was made possible by the generous support of the Carel Bailey Germain Fund.</sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Feldman, Yonata</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Yonata Feldman Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1937-1981</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 201</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Yonata Feldman Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1937-1981</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 201</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">7 boxes</extent>
             <extent encodinganalog="300$a">(3.5 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Social worker and professor.  Specializing in treatment of emotionally disturbed children, Feldman conducted seminars and institutes around the country; and served as consultant for numerous institutions, social work agencies, and case workers.  Material includes writings (including autobiographical material), teaching material, correspondence, case notes, and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">Social worker and professor.  Specializing in treatment of emotionally disturbed children, Feldman conducted seminars and institutes around the country; and served as consultant for numerous institutions, social work agencies, and case workers.  Material includes writings (including autobiographical material), teaching material, correspondence, case notes, and photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2213.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2213.jpg" linktype="simple" show="embed">
 <daodesc><p>Yonata Feldman "with Mrs. Bell, ready <lb />for a call to service to the Comstock <lb />team" at the Smith School for Social <lb />Work baseball game, July 4, 1957</p></daodesc></dao> 
          <p>Yonata Feldman served on the faculty of the Smith College School for Social Work for many years.  She was born in 1892 in Estonia and studied at the Imperial University of Jurjew;  her education was interrupted when the Germans invaded Russia in 1912.  Before emigrating to the United States, she taught at, and was principal of, an elementary school in Estonia.  She earned her M.A. from the Chicago University School of Social Service Administration in 1923, specializing in the treatment of emotionally disturbed children.  From 1923 to 1928 Feldman was a social worker at the Chicago Jewish Children's Bureau, and from 1925 to 1928 also worked with disturbed children at the Chicago Institute for Juvenile Research.  From 1928 to 1961, she was employed at the Madeleine Borg Child Guidance Institute of the Jewish Board of Guardians in New York City, working her way up from caseworker to casework supervisor to "boro" supervisor. In 1950, she joined the faculty of the Smith College School for Social Work where she served until 1974.  Throughout her career, she conducted seminars and institutes for various institutions and professional groups, among them Western Reserve University, The College of William and Mary, Mt. Sinai Hospital, the Presbyterian Hospital of the New York Medical Center, Lebanon Hospital and the Board of Education of the City of New York.  She also served as case consultant for numerous institutions, social work agencies, and case workers in private practice.  She died on August 28, 1981 in New York, NY.</p>
       </bioghist>
@@ -110,7 +111,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -155,8 +156,8 @@
          <subject encodinganalog="650" source="lcsh">Social work with children--United States--History--Sources</subject>
          <persname encodinganalog="600" source="lcnaf">Feldman, Yonata</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
             </did>
@@ -169,7 +170,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PROFESSIONAL ACTIVITIES</unittitle>
             </did>
@@ -546,7 +547,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
             </did>
@@ -909,7 +910,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PHOTOGRAPHS</unittitle>
             </did>
@@ -930,7 +931,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serBKS">
+         <c01 id="list-serBKS" level="series">
             <did>
                <unittitle>BOOKS ON SHELF</unittitle>
             </did>

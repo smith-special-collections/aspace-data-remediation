@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss165.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss165</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss165.xml//EN">mnsss165</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Emma France Ward Papers, 1922-1966
@@ -51,18 +52,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Ward, Emma F. (Emma France)</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Emma France Ward Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1922-66</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Emma France Ward Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1922-66</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 170</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 170</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(2 linear ft.)</extent>
@@ -74,15 +75,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Public health specialist and personnel manager. The strength of this collection is its documentation of Ward's career as a  woman government bureaucrat during a period in which governmental influence in the regulation of industry increased dramatically.  It is also a rich source of information about women workers, especially those in the shipbuilding industry during the World War II period. Materials include correspondence; articles written by Ward about the health and safety of women workers; and publications devoted to women industrial workers' health and safety.
+         <abstract encodinganalog="520$a" label="Abstract:">Public health specialist and personnel manager. The strength of this collection is its documentation of Ward's career as a  woman government bureaucrat during a period in which governmental influence in the regulation of industry increased dramatically.  It is also a rich source of information about women workers, especially those in the shipbuilding industry during the World War II period. Materials include correspondence; articles written by Ward about the health and safety of women workers; and publications devoted to women industrial workers' health and safety.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6306.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6306.jpg" linktype="simple" show="embed">
 <daodesc><p>Letter to Emma Ward from Herbert Wenzel, <lb />regional Industrial Advisor, August 26, 1944</p></daodesc></dao>
          <p> Emma France Ward, the daughter of Wilbur F. and Emma Albert Ward, was born in Baltimore in 1886.  She graduated from  Goucher College in 1909; later she received a degree in public health medicine from Johns Hopkins University, and engaged in further studies at the University of Wisconsin, Harvard University, and in Europe.  Early in her career Ward did settlement work.  In 1931 she was the official delegate from the U.S. Public Health Service and one of three American women out of 500 delegates to attend the 6th International Congress of Accidents and Industrial  Diseases in Geneva.  Her long government career included appointments with the U.S. Children's Bureau, the Bureau of Labor Statistics, and the Internal Revenue Service.  During WWII Ward worked for the Maritime Commission as the officer in charge of women workers in shipyards.  After the war she worked with the Brookings Institution in Washington until her retirement in 1958.  She died of a stroke in Baltimore in 1963.</p>
       </bioghist>
@@ -90,7 +91,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> Papers include biographical information; personal and professional correspondence; articles written by Ward about the health and safety of women workers; and pamphlets, reprints, periodicals and other publications devoted to women industrial workers' health and safety, especially in shipyards.   The strength of this collection is its documentation of Ward's career as a  woman government bureaucrat during a period in which governmental influence in the regulation of industry increased dramatically.  It is also a rich source of information about women workers, especially those in the shipbuilding industry, and especially during the World War II period.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -127,7 +128,7 @@
          <subject encodinganalog="650" source="lcsh">Women--Employment--United States--History--20th century</subject>
          <subject encodinganalog="650" source="lcsh">Women--Health and hygiene--History--20th century--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

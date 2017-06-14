@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss125.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss125</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss125.xml//EN">mnsss125</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Florence Ellinwood Allen Papers, 1920-1966
@@ -47,18 +48,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Allen, Florence Ellinwood, 1884-1966</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Florence Ellinwood Allen Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1920-1966</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Florence Ellinwood Allen Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1920-1966</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 2</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 2</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes		  </extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -70,8 +71,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Lawyer, judge, suffragist, and pacifist. Allen's papers reflect her career as the first woman judge of a state supreme court and the first woman appointed as a federal judge, as well as her work in the Ohio suffrage and peace movements. Also included are the writings of Florence's mother, Corinne Tuckerman Allen, who was a member of the first class admitted to Smith College. Tuckerman Allen advocated sexual morality, monogamy and family relationships and organized for the Congress of Mothers.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Lawyer, judge, suffragist, and pacifist. Allen's papers reflect her career as the first woman judge of a state supreme court and the first woman appointed as a federal judge, as well as her work in the Ohio suffrage and peace movements. Also included are the writings of Florence's mother, Corinne Tuckerman Allen, who was a member of the first class admitted to Smith College. Tuckerman Allen advocated sexual morality, monogamy and family relationships and organized for the Congress of Mothers.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -80,7 +81,7 @@
          <p>Florence Ellinwood Allen was born on March 23, 1884 in Salt Lake City.  Her mother, Corinne Tuckerman, was a member of the first class admitted to Smith College.  Her father, Clarence Emir Allen, was a professor of Latin and Greek at Western Reserve University and placed a strong emphasis on education.  Florence took an interest in books from a young age, and her father once said, "If Florence were a boy, I'd make a lawyer out of her."  A gifted pianist, Allen moved to Berlin after high school to study music and work as a music critic.  She returned to the United States and attended the University of Chicago.  In 1913, she received an L.L.B. from New York University Law School.
 
     </p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6268.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6268.jpg" linktype="simple" show="embed">
 <daodesc><p>Florence Ellinwood Allen, Judge United States <lb />Court of Appeals for the Sixth Circuit, 1940</p></daodesc></dao> 
          <p>Allen started her own legal practice in Cleveland, Ohio and was active in the women's suffrage movement.  She was the attorney for the Cleveland Woman Suffrage Party and became the first woman to argue before a supreme court, winning a municipal suffrage case in Ohio.  She was also active in the Peace Movement in the 1920s.  In 1920, the first year women were constitutionally guaranteed the right to vote, she was elected as judge of the Court of Common Pleas, becoming the first woman in history to be elected to a judicial office.  In 1922, she was elected to the Ohio Supreme Court, making her the first woman to serve as a judge of the highest court of a state.  She served as an Ohio Supreme Court Judge for almost twelve years and in 1934, President Roosevelt appointed her to the Court of Appeals for the Sixth Circuit.  No woman had previously been appointed to the United States Court of Appeals.
 
@@ -140,7 +141,7 @@
             <extref href="http://www.smith.edu/libraries/libs/archives/">Smith College Archives</extref>. </p>
          </relatedmaterial>
 
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss537.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss537</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss537.xml//EN">mnsss537</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Jennifer M. Guglielmo Papers, 1988-1990
@@ -38,15 +36,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Guglielmo, Jennifer, 1967-</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Jennifer M. Guglielmo
-Papers</unittitle><unitdate type="inclusive" label="Dates:">1988-1990 (ongoing)</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 515</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Jennifer M. Guglielmo
+Papers</unittitle><unitdate label="Dates:" type="inclusive">1988-1990 (ongoing)</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 515</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">2 boxes</extent>
         <extent encodinganalog="300$a">(.75 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -56,7 +53,7 @@ repositorycode="mnsss">MS 515</unitid>
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Historian; Professor; Reproductive rights advocate. Papers
 consist of senior thesis, "The Community Health Representative Program: Two Decades of American
 Indian Women's Health Activism"  and related materials, including taped interviews with Native American women and men who were active in redesigning health
@@ -142,5 +139,4 @@ record.</p>
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss113.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss113</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss113.xml//EN">mnsss113</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Grace Gallatin Seton-Thompson Papers, 1903-1940</titleproper>
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Seton-Thompson, Grace Gallatin</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Grace Gallatin Seton-Thompson Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1903-1940</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Grace Gallatin Seton-Thompson Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1903-1940</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 143</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 143</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes</extent>
             <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Author; Travel writer; Feminist; Suffragist; and Relief worker, World War I.  Includes printed material, correspondence, published writings and typescripts, memorabilia, notes, photographs, and organization files. Information relating to the International Council of Women, the National Council of Women, and the Montessori Education Association of New York.
+         <abstract encodinganalog="520$a" label="Abstract:">Author; Travel writer; Feminist; Suffragist; and Relief worker, World War I.  Includes printed material, correspondence, published writings and typescripts, memorabilia, notes, photographs, and organization files. Information relating to the International Council of Women, the National Council of Women, and the Montessori Education Association of New York.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6250.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6250.jpg" linktype="simple" show="embed">
 <daodesc><p>Flyer for the First International Book Exhibit assembled <lb />for the International Conclave of Women Writers, 1933</p></daodesc></dao> 
          <p> Grace Gallatin was born in Sacramento, California on January 28, 1872.  In 1888 she began writing articles for San Francisco newspapers under the pen name of Dorothy Dodge, and in 1892 graduated from Packer Collegiate Institute, in Brooklyn, NY.  She married Ernest Thompson Seton in 1896, a founder of the Boy Scouts of America.  Their daughter Ann (known as 'Anya') was born in 1904.  Active for women's rights, Grace Seton served as vice president and president of the Connecticut Woman's Suffrage Association (1910-20), was president of Pen and Brush (1898-1939), and with her husband, helped to organize the Girl Pioneers (later the  Camp Fire Girls) in 1910.  During World War I, she organized and directed a women's motor unit to aid soldiers in France.   She was President of the National League of Pen Women from 1926 to 1928 and from 1930 to 1932.  She helped organize an international conference of women writers at the Century of Progress Exposition in 1933 and  arranged an exhibit of 3,000 books by women, which later became the core of the Biblioteca Femina at Northwestern University.  In the 1920s and 1930s Seton visited Japan, China, Indochina, Hawaii, Egypt and Latin American and later wrote books about her travels, including A Woman Tenderfoot (1900) and A Woman Tenderfoot in Egypt (1923), Chinese Lanterns (1924), Yes, Lady Saheb (1925).  Seton divorced in 1935.  In the 1940s  she followed Yogananda, traveling to his ashrams.  She died in Palm Beach, Florida, March 19, 1959.</p>
       </bioghist>
@@ -89,7 +90,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The collection includes biographical articles and clippings, correspondence, published writings and typescripts, memorabilia, notes, photographs, and organization files. Correspondence (1903-40) pertains to her travels, publications, and involvement in feminist and social organizations. Organizational files include minutes, agendas and reports relating to the International Council of Women (1915-26),the National Council of Women, and the Montessori Education Association of New York.  Her work for the International Writers Conclave (Chicago, 1933) brought occasional correspondence from women authors around the world.   Typescripts of articles and addresses including an essay on Chinese medicine and information on Dr. Mary Stone, medical missionary, China (n.d.). Material related to her world travels includes writings, correspondence, travel literature, maps and notes.  Individuals represented include May Wright Sewall, Mary Eleanor Wilkins Freeman, Lena Madesin Phillips, and Kate Douglas Smith Wiggin.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -136,7 +137,7 @@
          <subject encodinganalog="650" source="lcsh">Women hunters--History--20th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women travelers--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -145,7 +146,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>Biographical Materials</unittitle>

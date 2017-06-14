@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss524.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss524</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss524.xml//EN">mnsss524</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Women's Suburban Clinic Records, 1973-1995</titleproper>
@@ -38,16 +36,15 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
      <corpname  encodinganalog="110" source="lcnaf">Women's Suburban Clinic (Paoli, Pa.)</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Women's Suburban Clinic
-Records</unittitle><unitdate type="inclusive" label="Dates:">1973-1995</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 685</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Women's Suburban Clinic
+Records</unittitle><unitdate label="Dates:" type="inclusive">1973-1995</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 685</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">2 boxes</extent>
         <extent encodinganalog="300$a">(.75 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -58,7 +55,7 @@ repositorycode="mnsss">MS 685</unitid>
             </address>
          </repository>
            <!-- MRJ Edit as needed-->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Abortion rights advocacy and women's health care organization. Founded in 1973 in Paoli, Pennsylvania the clinic was a non-profit outpatient facility that offered educational programs, counseling and abortion services.  Beginning in 1982, anti-abortion activists were a regular feature outside the Clinic. The records include a large number of photographs of both staff and protestors, audio recordings (2) of a 1995 interview with founder Sherley Young; and documentary film: Casting the First Stone: Views from Both Sides of the Abortion War, (1991) which focuses on the WSC. There are also pamphlets, brochures, newspaper articles, and correspondence. 
          </abstract>
        
@@ -117,5 +114,4 @@ Mass.</p>
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

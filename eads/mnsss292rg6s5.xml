@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s5.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg6s5</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg6s5.xml//EN">mnsss292rg6s5</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -33,9 +34,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 06. Program: Series V. Program Subjects</unittitle><unitdate type="inclusive" label="Dates:">1870-2002</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 06. Program: Series V. Program Subjects</unittitle><unitdate label="Dates:" type="inclusive">1870-2002</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:ccb85ffa-ac1f-4771-a93e-ea596b9cc85f</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -46,7 +47,7 @@
             </address>
          </repository>
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
                         This series documents the National Association's work related to Camping and Outdoor Recreation; Health and Recreation; Music; Pageantry and Drama; and Religion.  Forms part of the YWCA of the U.S.A. Records. <extref href="mnsss292rg6_main.html">Record Group 6. Program</extref>.
          </abstract>
 </did>
@@ -79,7 +80,7 @@
 
 	   <p id="subseriesa"><title render="bold">SUBSERIES  A.  CAMPING AND OUTDOOR RECREATION</title><lb />
  <title render="boldsmcaps">Historical Note</title></p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3064.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3064.jpg" linktype="simple" show="embed">
 <daodesc><p>Dr. Anna Brown listens to heartbeat of patient, circa 1910</p></daodesc></dao>
 	<p>Many young women had their first exposure to the YWCA through Summer Camps run by Community Associations all over the United  States.  Though camps were primarily the province of Community Associations, the National Staff served as consultants on the educational philosophy of camping and outdoor recreation and produced publications and other program materials for use at camps and in recreational programs.  Staff in the Business Department also consulted with locals on administrative and property management issues.</p> 
 	<p>At times during its history, the National Association owned some camp properties and major summer conferences and councils took place at various regional camps, such as Camp Maqua in Poland, Maine and Camp Okoboji in Milford, Iowa.</p>
@@ -169,7 +170,7 @@
     <title render="boldsmcaps">Historical Note</title></p>
 	<p>The YWCA of the U.S.A. defined health, which it considered "the right of every individual" as physical, mental, and social well-being.  Its program of "positive health" a term coined by its first Secretary for Health, Dr. Anna L. Brown encompassed not only  activities related to physical health, such as health examinations, health education, and physical recreation opportunities; but also the opportunities Community YWCAs provided for creative expression, cultural enrichment, rest and relaxation, social interaction, and other forms of personal fulfillment and spiritual growth.</p>
 	<p>Such a wide-ranging assortment of activities, though a core concern of the YWCA, were never the province of a single department.  While the National Association had staff, usually medical doctors, for overseeing health education, responsibility for all of the other aspects included in the concept of "positive health," was spread over many staff members in various departments. </p>
-	<p>The first Health Secretary, Anna Brown, had been General Secretary of the predecessor organization to the YWCA of the U.S.A. known as the International Board.  Brown was "called" to national leadership for physical education and hygiene by the National Association's first President, Grace Dodge.  An early student of psychology, Brown appreciated the importance of psychological as well as physical and spiritual health and established a program emphasizing normal growth for the whole individual, as a defense against physical, mental, and moral ills.  Her program included hygiene, physical education, nutrition, sex education, and a campaign promoting "health shoes," a topic Brown approached with particular zeal.  "Under [her] leadership&#8230;a program of health was evolved which radically differed from all others.  For the first time health was seen as freedom, vital force, power, energy and not a lack of it.  Health was a bank account for life's possibilities, not the commonly held idea which limits it to attacking handicaps and diseases."  (typescript "History" author unknown, circa 1930)  Dr. Brown pioneered the concept of "health examinations" or check ups, and incorporated them into YWCA program as part of physical education classes.</p>
+	<p>The first Health Secretary, Anna Brown, had been General Secretary of the predecessor organization to the YWCA of the U.S.A. known as the International Board.  Brown was "called" to national leadership for physical education and hygiene by the National Association's first President, Grace Dodge.  An early student of psychology, Brown appreciated the importance of psychological as well as physical and spiritual health and established a program emphasizing normal growth for the whole individual, as a defense against physical, mental, and moral ills.  Her program included hygiene, physical education, nutrition, sex education, and a campaign promoting "health shoes," a topic Brown approached with particular zeal.  "Under [her] leadership…a program of health was evolved which radically differed from all others.  For the first time health was seen as freedom, vital force, power, energy and not a lack of it.  Health was a bank account for life's possibilities, not the commonly held idea which limits it to attacking handicaps and diseases."  (typescript "History" author unknown, circa 1930)  Dr. Brown pioneered the concept of "health examinations" or check ups, and incorporated them into YWCA program as part of physical education classes.</p>
 	<p>In its report to Convention in 1913, the Commission on Social Morality from the Christian Standpoint recommended establishment of a program "in the social training of women and girls with particular reference to sex education."  Four lecturers were carefully chosen for a pilot program to  speak on the subject to young women college and university students.  Lecturers stressed "knowledge of normal sex life" and addressed their audiences with unusual frankness.</p> 
 	<p>As was the case in many other areas of YWCA Program, World War I brought a huge expansion in the physical education and recreation work.  Some of the core activities provided in Industrial Service Centers and Community Associations through the war years, were physical and recreational activities to relieve stress and keep workers fit.</p>  
 	<p>The YWCA organized a Bureau of 150 women physicians to give sex education lectures to young women in communities surrounding military camps and industrial plants.  Because of its experience in this area, the U.S. Government asked the YWCA to assist its Social Hygiene Division in setting up a similar program.  The Bureau of Social Education, established at the end of the war in 1919, continued the work through the reconstruction period through lectures, publications, charts, films, etc.</p>
@@ -624,8 +625,8 @@ The reference files and publications attest to the Music Program's contribution 
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser5">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. PROGRAM SUBJECTS</unittitle>
  </did>
@@ -8513,7 +8514,7 @@ The reference files and publications attest to the Music Program's contribution 
  <did>
  <container type="box">645</container>
  <container type="folder">27</container>
- <unittitle>"Voices, Women's Voices&#8230;" by Emma Christie Smith Stephens for the 125th Birthday Celebration of the YWCA, 1984</unittitle>
+ <unittitle>"Voices, Women's Voices…" by Emma Christie Smith Stephens for the 125th Birthday Celebration of the YWCA, 1984</unittitle>
  </did>
  </c04>
  <c04>
@@ -10128,7 +10129,7 @@ The reference files and publications attest to the Music Program's contribution 
  <did>
  <container type="box">659</container>
  <container type="folder">8</container>
- <unittitle><title render="italic">Prayers&#8230;Timely and Timeless</title>, 1944, 1953</unittitle>
+ <unittitle><title render="italic">Prayers…Timely and Timeless</title>, 1944, 1953</unittitle>
  </did>
  </c05>
  <c05>
@@ -10354,5 +10355,4 @@ The reference files and publications attest to the Music Program's contribution 
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss438.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss438</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss438.xml//EN">mnsss438</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Mary E. Hunt Papers, c1974-2007 (ongoing)</titleproper>
@@ -35,16 +36,16 @@
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Hunt, Mary E., 1951-</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Mary E. Hunt Papers</unittitle><unitdate type="inclusive" label="Dates:">c1974-2007 (ongoing)</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Mary E. Hunt Papers</unittitle><unitdate label="Dates:" type="inclusive">c1974-2007 (ongoing)</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 531</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 531</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">15 boxes</extent>
         <extent encodinganalog="300$a">(18 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English,</language>
 <language langcode="spa">Spanish</language>
 
@@ -57,7 +58,7 @@
             </address>
          </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Theologian; Feminist; Professor. The Papers document Mary E. Hunt's career as a feminist theologian.  Included are published and unpublished writings and lectures; audiovisual materials featuring Hunt; files on conferences and events she attended, and her travels.  There is some biographical information, as well as a small amount of material documenting the Women's Alliance for Theology, Ethics and Ritual (founded in 1983 by Hunt and her partner, Diann L. Neu) and Women Crossing Worlds, WATER's international outreach program (1986).
  
                  </abstract>

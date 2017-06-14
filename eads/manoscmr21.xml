@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manoscmr" url="http://asteria.fivecolleges.edu/findaids/mortimer/manoscmr21.html">manoscmr21</eadid>
 
 	<filedesc>
@@ -37,7 +38,7 @@
 		<date>2007</date> 
 		 
 		 
-		<p>&#169; 2007 Smith College. All rights reserved.</p> 
+		<p>© 2007 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,17 +46,17 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Putnam, Hiram</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Putnam, Hiram</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Hiram Putnam Papers</unittitle><unitdate label="Dates:">1780-1885</unitdate>
+		<unittitle encodinganalog="245$a" label="Title:">Hiram Putnam Papers</unittitle><unitdate label="Dates:">1780-1885</unitdate>
 
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr">MS 56</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 56 UUID:f62225c6-6aa1-4cf0-8dc8-79080d1d0d32</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">2 boxes</extent>
 			<extent encodinganalog="300$a">(1 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+		<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
           <repository label="Location:">
@@ -92,7 +93,7 @@
 	<p>In addition, there is correspondence received by Samuel Holten, Hiram Putnam's maternal grandfather, relative to the U.S. Continental Congress from John Avery, James Lovell and Azor Orne, as well as copies (or drafts) of Holten's letters to Richard Henry Less, Col. Enoch Putnam, Dr. A. Putnam, William Carmichael, Moody Spofford and Azor Orne. 
 </p>
 </scopecontent>
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -239,8 +240,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. SAMUEL HOLTEN LETTERS <unitdate>(1780-1796)</unitdate></unittitle>
  </did>
@@ -377,7 +378,7 @@
  </did>
  </c02>
  </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. HIRAM AND ELIZABETH PUTNAM LETTERS <unitdate>(1800-1856)</unitdate></unittitle>
  </did>
@@ -836,7 +837,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">58</container>
- <unittitle>Letter to "My Dear Sir" [H. Putnam?] from &#8230; Beecher, New York<unitdate> 1857 Dec 11.</unitdate></unittitle>
+ <unittitle>Letter to "My Dear Sir" [H. Putnam?] from … Beecher, New York<unitdate> 1857 Dec 11.</unitdate></unittitle>
 	<physdesc>
 	  <extent>4 p.</extent>
 	</physdesc>
@@ -880,7 +881,7 @@
  </did>
  </c02>
  </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. BUSINESS PAPERS AND MISCELLANEOUS ITEMS <unitdate>(1813-1874)</unitdate></unittitle>
  </did> 
@@ -898,7 +899,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">63a</container>
- <unittitle>Prix-courant, Chez Vall&#233;e avitailleur de navires &#8230; = Price-current, by Vall&#233;e ship-chandler &#8230; &#225; Anvers.<unitdate> 1818 Jun. 1 </unitdate></unittitle>
+ <unittitle>Prix-courant, Chez Vallée avitailleur de navires … = Price-current, by Vallée ship-chandler … á Anvers.<unitdate> 1818 Jun. 1 </unitdate></unittitle>
 	<physdesc>
 	  <extent>1 p.</extent>
 	</physdesc>
@@ -908,7 +909,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">63b</container>
- <unittitle>Price-current by Vall&#233;e<unitdate>n.d.</unitdate></unittitle>
+ <unittitle>Price-current by Vallée<unitdate>n.d.</unitdate></unittitle>
 	<physdesc>
 	  <extent>1 p.</extent>
 	</physdesc>
@@ -1019,7 +1020,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">72</container>
- <unittitle>"Shipped in good order and well conditioned, by Hiram Putnam on board the Ship China &#8230;"<unitdate> 1827 May 1.</unitdate></unittitle>
+ <unittitle>"Shipped in good order and well conditioned, by Hiram Putnam on board the Ship China …"<unitdate> 1827 May 1.</unitdate></unittitle>
 	<physdesc>
 	  <extent>1 p.</extent>
 	</physdesc>
@@ -1029,7 +1030,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">73</container>
- <unittitle>"Shipped in good order and well-conditioned, by Russell &amp; Co. on board the Ship called the China &#8230;"<unitdate> 1827 May 1.</unitdate></unittitle>
+ <unittitle>"Shipped in good order and well-conditioned, by Russell &amp; Co. on board the Ship called the China …"<unitdate> 1827 May 1.</unitdate></unittitle>
 	 <physdesc>
 	 	<extent>4 items</extent>
 	 </physdesc>
@@ -1059,7 +1060,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">76</container>
- <unittitle>Price current &#8230; Lima, [Peru]<unitdate> 1828 Jan 23.</unitdate></unittitle>
+ <unittitle>Price current … Lima, [Peru]<unitdate> 1828 Jan 23.</unitdate></unittitle>
 	<physdesc>
 	  <extent>1 p.</extent>
 	</physdesc>
@@ -1099,7 +1100,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">80</container>
- <unittitle>Sales of sundry merchandise &#8230; from Ship China, Valparaiso, [Chile]<unitdate> 1828 Mar 10.</unitdate></unittitle>
+ <unittitle>Sales of sundry merchandise … from Ship China, Valparaiso, [Chile]<unitdate> 1828 Mar 10.</unitdate></unittitle>
 	<physdesc>
 	  <extent>4 p.</extent>
 	</physdesc>
@@ -1326,7 +1327,7 @@
 </did>
  </c02>
  </c01>
-          <c01 level="series" id="list-ser4">
+          <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. DUDLEY P. AND LUCY PHELPS PAPERS <unitdate>(1852-1885)</unitdate></unittitle>
 </did> 
@@ -1573,7 +1574,7 @@
  <did>
  <container type="box">2</container>
  <container type="folder">125</container>
- <unittitle>Phelps, Dudley P. <title render="italic">A Genealogical Record of the Descendants of Joseph and Jemima (Post) Phelps, of Hebron, Connecticut &#8230; </title>Syracuse, N.Y.<unitdate> 1885. </unitdate>[This copy has a few annotations and text corrections. Cover title: <title render="italic">The Phelps Record.</title>]</unittitle>
+ <unittitle>Phelps, Dudley P. <title render="italic">A Genealogical Record of the Descendants of Joseph and Jemima (Post) Phelps, of Hebron, Connecticut … </title>Syracuse, N.Y.<unitdate> 1885. </unitdate>[This copy has a few annotations and text corrections. Cover title: <title render="italic">The Phelps Record.</title>]</unittitle>
 <physdesc>
 	<extent>96 p. ; 24 cm.</extent>
 </physdesc> </did>
@@ -1591,7 +1592,7 @@
  <did>
  <container type="box">2</container>
  <container type="folder">127</container>
- <unittitle>Phelps, Dudley P. <title render="italic">A Genealogical Record of the Descendants of Joseph and Jemima (Post) Phelps, of Hebron, Connecticut &#8230; </title>Syracuse, N.Y.<unitdate> 1885. </unitdate> This copy has annotated additions to the text. Cover title: <title render="italic">The Phelps Record.</title></unittitle>
+ <unittitle>Phelps, Dudley P. <title render="italic">A Genealogical Record of the Descendants of Joseph and Jemima (Post) Phelps, of Hebron, Connecticut … </title>Syracuse, N.Y.<unitdate> 1885. </unitdate> This copy has annotated additions to the text. Cover title: <title render="italic">The Phelps Record.</title></unittitle>
 <physdesc>
 	<extent>96 p. ; 24 cm.</extent>
 </physdesc> </did>
@@ -1612,5 +1613,3 @@
 
 </archdesc>
 </ead>
-
-

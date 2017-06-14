@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss15.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss15</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss15.xml//EN">mnsss15</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Clara Barton Papers, 1882-1982
@@ -48,18 +49,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#194;&#169; 2003  Smith College. All rights reserved.</p>
+         <p>Â© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Barton, Clara, 1821-1912</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Clara Barton Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1822-1982</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Clara Barton Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1822-1982</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1860-1912</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 11</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 11 UUID:ad460970-4a0e-4777-8d2b-999a58d16bd3</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">12 boxes</extent>
             <extent encodinganalog="300$a">(4 linear ft.)</extent>
@@ -71,15 +72,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Nurse; Founder and President, American National Red Cross.  Worked as a nurse in the Civil war and initiated a campaign to develop the American Red Cross.  Papers include correspondence, manuscript notes, speeches, writings, photographs, memorabilia, and files documenting her work for the Civil War, Red Cross, and other relief organizations.
+         <abstract encodinganalog="520$a" label="Abstract:">Nurse; Founder and President, American National Red Cross.  Worked as a nurse in the Civil war and initiated a campaign to develop the American Red Cross.  Papers include correspondence, manuscript notes, speeches, writings, photographs, memorabilia, and files documenting her work for the Civil War, Red Cross, and other relief organizations.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1234.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1234.jpg" linktype="simple" show="embed">
 <daodesc><p>Page one of "A List of the Union Soldiers <lb />Buried at Andersonville," copied from the official record in <lb /> Andersonville by Dorence Atwater, 1868</p></daodesc></dao>
          <p>Clarissa Harlow Barton was born in North Oxford, MA, on December 25, 1821, the fifth and last child of Stephen and Sarah (Stone) Barton.  She was a shy and lonely child, and for two years at the age of eleven she devoted her time to nursing her brother David during a protracted illness, an experience which later affected her life's work. At eighteen she began to teach in neighboring schools. In 1850 she spent a year at the Liberal Institute of Clinton, NY. She resumed her teaching in New Jersey where, in 1852, she founded the state's first free or public school in Bordentown.  In February 1854 she resigned to take up a position as clerk in the Patent Office in Washington DC., possibly the first regularly appointed woman civil servant. Deprived of her position in 1857 after a Democratic victory, she returned to Oxford. She returned to the Patent Office in late 1860. At the beginning of the Civil War, witnessing the almost total lack of first-aid supplies at the battle of Bull Run, she advertised for provisions. Using her own limited quarters as a storeroom, she accumulated supplies and, with a few friends, began in the summer of 1862 to distribute them by mule team to hospitals and camps on the battlefields. Barton had an uncanny ability to short-circuit military routine, appearing at military engagements with needed supplies, and increasingly she won the respect and admiration of commanding officers and surgeons. As the Sanitary Commission and other agencies grew more organized, Barton's role diminished, but in June 1864, she accepted an appointment as head nurse in Benjamin Butler's Army of the James. In 1865 she established an office in Annapolis where she and a few assistants sought to piece together information concerning missing men and in July 1865 she directed the marking of the graves of almost 13,000 men who died in Andersonville Prison. Between 1866 and 1868, while continuing her missing persons work, she lectured throughout the North and West. Exhausted by her activities, she went to Europe in 1868 for rest and recuperation. While there she worked for the International Committee of the Red Cross during the Franco-Prussian War (1870-71). She also distributed funds provided by American relief committees in France. At the outbreak of the Russo-Turkish war in 1877 she initiated a five-year campaign for the organization of the American Red Cross Society. In March 1882, American affiliation with the International Red Cross was accomplished and Barton was chosen president of the American Association of the Red Cross.  Between 1881 and 1904 she devoted her energies to Red Cross work, providing relief in disasters domestic and abroad, including aid to Cuban civilians and American soldiers during the Spanish American War.  By 1904, new methods and leadership were needed and she was forced to resign by the board of directors. She moved to Glen Echo, MD in 1897, where she organized the National First Aid Association of America in 1906. She died April 12, 1912, and was buried in North Oxford, MA.</p>
          <p>Mary Kensel was born in 1879. In 1905 at the age of 26 she became secretary (and close friend) to Clara Barton, a position she held until Barton's death in 1912. She married Roscoe Wells, treasurer, vice president, and assistant to the president of the National First Aid Association, which was founded by Barton in 1906. The Wells in their later years moved in with the family of Sally Hooper. After the death of Roscoe Wells (circa 1959) Sally Hooper continued to care for Mary (then an invalid) until her death in 1969.</p>
@@ -114,7 +115,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -163,7 +164,7 @@
          <subject encodinganalog="650" source="lcsh">International Committee of the Red Cross--History</subject>
          <subject encodinganalog="650" source="lcsh">National First Aid Association of America--History</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -275,8 +276,8 @@
 <!-- Insert container list here -->
 
    
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
  	</did>
@@ -430,7 +431,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  	</did>
@@ -784,7 +785,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SPEECHES AND WRITINGS
                </unittitle>
@@ -999,7 +1000,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. CIVIL WAR AND RELIEF ACTIVITIES
                </unittitle>
@@ -1143,7 +1144,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. MEMORABILIA AND PHOTOGRAPHS
                </unittitle>
@@ -1365,7 +1366,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. KENSEL-WELLS FAMILY
                </unittitle>

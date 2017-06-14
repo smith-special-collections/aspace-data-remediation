@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manoscmr" url="http://asteria.fivecolleges.edu/findaids/mortimer/manoscmr17.html">manoscmr17</eadid>
 
 	<filedesc>
@@ -37,7 +38,7 @@
 		<date>2006</date> 
 		 
 		 
-		<p>&#169; 2006 Smith College. All rights reserved.</p> 
+		<p>© 2006 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,17 +46,17 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Hale, Philip, 1854-1934</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Hale, Philip, 1854-1934</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Philip Hale Papers</unittitle><unitdate label="Dates:">1850s-1936</unitdate>
+		<unittitle encodinganalog="245$a" label="Title:">Philip Hale Papers</unittitle><unitdate label="Dates:">1850s-1936</unitdate>
 
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr">MS 145</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 145 UUID:08fb3362-4f57-4524-bf92-df7a76b4c918</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">1 box</extent>
 			<extent encodinganalog="300$a">(.5 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+		<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 
           <repository label="Location:">
             <corpname>Mortimer Rare Book Room</corpname>
@@ -93,7 +94,7 @@
 
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into five series:</p>
 	<list>
@@ -179,9 +180,9 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <head>Contents List</head>
- <c01 level="series" id="list-ser1">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. WRITINGS</unittitle>
  </did>
@@ -200,7 +201,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -254,7 +255,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. Mrs. PHILIP HALE (Irene Baumgas)</unittitle>
  </did>
@@ -280,7 +281,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. PHOTOGRAPHS AND MEMORABILIA</unittitle>
  </did>
@@ -330,7 +331,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">19</container>
- <unittitle>Philip Hale by W. H&#246;ffert,<unitdate> 1883.</unitdate></unittitle>
+ <unittitle>Philip Hale by W. Höffert,<unitdate> 1883.</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -376,7 +377,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. WRITINGS ON PHILIP HALE</unittitle>
  </did>
@@ -397,5 +398,3 @@
 
 </archdesc>
 </ead>
-
-

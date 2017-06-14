@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss16.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss16</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss16.xml//EN">mnsss16</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Catharine C. M. Edes Papers, 1822-1856
@@ -48,18 +49,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Edes, Catharine May, 1782-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Catharine May Edes Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1822-1856</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Catharine May Edes Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1822-1856</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1849-1852</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 54</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 54</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -71,15 +72,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Traveler. When Edes was in her late sixties, she traveled through Europe during wartime with her sister. Papers consist of correspondence and journals. Written during her time in Europe, mostly from England, letters include descriptions of art; landmarks; life and war in Europe; the 1849 cholera epidemic in London; Sontag and Madame Alboni performing at the Birmingham Musical Festival; the Congress of Princes in Berlin; Jenny Lind singing in Stockholm; and the marriage of Prince Carl to the Princess of Holland in Upsala.
+         <abstract encodinganalog="520$a" label="Abstract:">Traveler. When Edes was in her late sixties, she traveled through Europe during wartime with her sister. Papers consist of correspondence and journals. Written during her time in Europe, mostly from England, letters include descriptions of art; landmarks; life and war in Europe; the 1849 cholera epidemic in London; Sontag and Madame Alboni performing at the Birmingham Musical Festival; the Congress of Princes in Berlin; Jenny Lind singing in Stockholm; and the marriage of Prince Carl to the Princess of Holland in Upsala.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-        <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6228.jpg" altrender="right">
+        <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6228.jpg" linktype="simple" show="embed">
 <daodesc><p>Page from journal of Catharine Edes, 1850</p></daodesc></dao>  
 <p>Catharine Cravath May Edes was born in 1782.  She lived in Boston, Massachusetts with her extended family, the Mays.  From 1849 to 1852, when Edes was in her late sixties, she travelled through Europe during wartime with her sister Sophie Tuckerman.  Little else is known of Catharine Edes' life.  She wrote her will in January 1844 and produced an account book of her estate in 1856.</p>
 
@@ -88,7 +89,7 @@
          <head>Scope and Contents of the Collection</head>
          <p>The Catharine C.M. Edes Papers consist of 2.5 linear inches including correspondence and 130 pages of journal entries written from August 1849 to August 1852.  Letters to her family were written during her time in Europe, mostly from England.  Edes wrote of the 1849 cholera epidemic in London and of hearing Sontag and Madame Alboni perform at the Birmingham Musical Festival. She and her sister heard Jenny Lind sing in Stockholm before her departure to tour America, and were in Upsala for the marriage of Prince Carl to the Princess of Holland.  Many of the letters mention the war activities in Europe and the "armies moving in all directions."  The collection also includes Edes' passport, a book of pressed flowers, her will, and an account book.  There is one folder of letters written by Edes' sister, Sophie Tuckerman.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -122,7 +123,7 @@
          <famname encodinganalog="600" source="lcnaf">May family</famname>
          <persname encodinganalog="600" source="lcnaf">Tuckerman, Sophie</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

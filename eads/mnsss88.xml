@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss88.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss88</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss88.xml//EN">mnsss88</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Crime, Prisons, and Reform Schools Collection, 1850-1977
@@ -48,15 +49,15 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Crime, Prisons, and Reform Schools Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1850-1977 </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Crime, Prisons, and Reform Schools Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1850-1977 </unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 424</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 424</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes, 2 books</extent>
             <extent encodinganalog="300$a">(8 linear inches.)</extent>
@@ -68,21 +69,21 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Documents the activities and experiences of female criminals, the efforts of social scientists to understand them, the work of  prison reformers to improve their treatment, and the changing approaches and methods used by the state to manage them. Material includes printed material, correspondence, drawings, reports, and unpublished papers that focus on the United States and England.
+         <abstract encodinganalog="520$a" label="Abstract:">Documents the activities and experiences of female criminals, the efforts of social scientists to understand them, the work of  prison reformers to improve their treatment, and the changing approaches and methods used by the state to manage them. Material includes printed material, correspondence, drawings, reports, and unpublished papers that focus on the United States and England.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
          <p> The Crime, Prisons, and Reform Schools Collection documents the activities and experiences of female criminals, the efforts of social scientists to understand them, the work of  prison reformers to improve their treatment, and the changing approaches and methods used by the state to manage them. Types of material include articles, correspondence, drawings, leaflets, newspaper clippings, pamphlets, promotional material, reports, and unpublished papers that focus on the United States and England and span the period from 1857 to 1977.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6181.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6181.jpg" linktype="simple" show="embed">
 <daodesc><p>"Female Workshop, Sing Sing Prison," from <title render="italic">Gleason's Pictoral</title>, Oct. 21, 1854</p></daodesc></dao> 
          <p> The collection includes some unique 19th century material such as correspondence relating to the founding of the Maine Industrial School for Girls (1862-1890), correspondence of prison reformer Miriam Van Waters (1930-1969), and one letter from  Dorothea Dix (1882).  Other material includes an undated typescript by a Dr. Tenebaum titled "The Riddle of a Woman," and an unpublished  course paper by a Hampshire College student titled "Women in Prisons" (1972).</p>
          <p> The bulk the collection consists of printed material.   There are a large number of newspaper clippings and magazine articles that profile jailed women, analyze patterns of female crime, advocate better treatment of women prisoners, or describe new methods for punishing/rehabilitating women who violate the law.  Most of these are dated from the 1960s to the 1970s, but a few are from the late 19th and early 20th centuries.  Also included are annual reports and promotional material from organizations and programs that address the needs of women in the criminal justice system.   Organizations include the Pennsylvania Program for Woman and Girl Offenders,  the Fortune Society, Aid to Incarcerated Women, and the American Civil Liberties Union.  Other printed sources in the collection include leaflets for anti-prison rallies, excerpts from the Congressional Record, and reports from state agencies.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -128,7 +129,7 @@
          <persname encodinganalog="600" source="lcnaf">Van Waters, Miriam</persname>
          <corpname encodinganalog="610" source="lcnaf">Maine Industrial School for Girls (Hallowell, Maine)--History</corpname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

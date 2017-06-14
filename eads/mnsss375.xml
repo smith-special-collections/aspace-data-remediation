@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss375.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss375</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss375.xml//EN">mnsss375</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Women: A Journal of Liberation Records, 1968-1983</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Women:  A Journal of Liberation</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Women:  A Journal of Liberation</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Women:  A Journal of Liberation Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1968-1983</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Women:  A Journal of Liberation Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1968-1983</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 319</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 319</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">14 boxes</extent>
 		<extent encodinganalog="300$a">(5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -68,7 +69,7 @@
 	<p>The <title render="italic">Women: A Journal of Liberation</title> Records consists of material dating from 1968 to 1983 primarily of documents pertaining to the administrative and editorial side of the publication. Types of material include correspondence, publications, articles, research material for publications, minutes, newsletters, notes, and financial material.</p>
 </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into seven series:</p>
 	<list>
@@ -235,8 +236,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. HISTORY AND ADMINISTRATION</unittitle>
  </did>
@@ -451,7 +452,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. FINANCES [See also <ref target="list-serOV">Oversize Materials</ref> at the end of collection]</unittitle>
  </did>
@@ -543,7 +544,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. DISTRIBUTION</unittitle>
  </did>
@@ -630,7 +631,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. ADVERTISING</unittitle>
  </did>
@@ -656,7 +657,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. CORRESPONDENCE</unittitle>
  </did>
@@ -710,7 +711,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. RESOURCE FILES</unittitle>
  </did>
@@ -754,7 +755,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. WJL ISSUES AND PUBLICATIONS</unittitle>
  </did>
@@ -829,7 +830,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -877,5 +878,3 @@
 
   </archdesc>
 </ead>
-
-

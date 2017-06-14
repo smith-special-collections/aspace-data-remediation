@@ -1,11 +1,12 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss527.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss527</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss527.xml//EN">mnsss527</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Third World Women's Alliance Records, 1971-1980 (bulk 1971-1977)</titleproper>
 		<subtitle>Finding Aid</subtitle>
-		<author encodinganalog="245$c">Finding aid prepared by Sharon DeLaPe&#241;a Davenport and Nichole Calero.</author>
+		<author encodinganalog="245$c">Finding aid prepared by Sharon DeLaPeña Davenport and Nichole Calero.</author>
 		 
 	  </titlestmt>
 	  <publicationstmt>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Third World Women's Alliance</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Third World Women's Alliance</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Third World Women's Alliance Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1971-1980</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1971-1977</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 697</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Third World Women's Alliance Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1971-1980</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1971-1977</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 697</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">7 boxes</extent>
 		<extent encodinganalog="300$a">(3.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -74,7 +75,7 @@
 
 	<p>The bulk of the records date from 1971 to 1977 and focus on regional reports and meetings, as well as events sponsored and organized by the TWWA, such as International Women's Day. Major topics found throughout these records are reproductive rights, infant mortality, political education, affirmative action, labor unions, international human rights, and women's liberation.</p>
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into six series:</p>
 	<list>
@@ -116,7 +117,7 @@
 	<p>Cheryl Johnson, Vicki Alexander, Barbara Morita, and Melanie Tervalon donated records to the Women of Color Resource Center Collection/Archives which were then donated to the Sophia Smith Collection in 2012 by the Third World Women's Alliance Alumni Association Archives Committee. </p> 
     </acqinfo>
     <processinfo id="admin-process">
-	<p>The collection was first processed by Sharon DeLaPe&#241;a Davenport in 2004 for the Women of Color Resource Center Archives. The finding aid was reviewed by the Archives Committee of the Third World Women's Alliance Alumni in 2012. It was revised for the SSC by Nichole Calero in 2012., December 2012</p> 
+	<p>The collection was first processed by Sharon DeLaPeña Davenport in 2004 for the Women of Color Resource Center Archives. The finding aid was reviewed by the Archives Committee of the Third World Women's Alliance Alumni in 2012. It was revised for the SSC by Nichole Calero in 2012., December 2012</p> 
     </processinfo>
 
 <!-- End administrative information -->
@@ -232,8 +233,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. ADMINISTRATION</unittitle>
  </did>
@@ -814,7 +815,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. PUBLICATIONS</unittitle>
  	<note><p>[See also poster in <ref target="list-ser6">OVERSIZE MATERIALS</ref>]</p>
@@ -859,7 +860,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. AFFILIATED ORGANIZATIONS</unittitle>
  </did>
@@ -918,7 +919,7 @@
  <did>
  <container type="box">5</container>
  <container type="folder">8</container>
- <unittitle>Concilio de Mujeres: La Raz&#243;n Mestiza<unitdate> 1974-75</unitdate></unittitle>
+ <unittitle>Concilio de Mujeres: La Razón Mestiza<unitdate> 1974-75</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -1007,7 +1008,7 @@
  <did>
  <container type="box">5</container>
  <container type="folder">19</container>
- <unittitle>Lolita Lebr&#243;n Committee<unitdate> 1974</unitdate></unittitle>
+ <unittitle>Lolita Lebrón Committee<unitdate> 1974</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -1046,7 +1047,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. SUBJECT FILES</unittitle>
  </did>
@@ -1137,7 +1138,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. PHOTOGRAPHS</unittitle>
  </did>
@@ -1156,7 +1157,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. OVERSIZE MATERIALS</unittitle>
  </did>
@@ -1210,5 +1211,3 @@
 
   </archdesc>
 </ead>
-
-

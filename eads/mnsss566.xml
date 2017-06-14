@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss566.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss566</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss566.xml//EN">mnsss566</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Miriam Ching Yoon Louie Papers, 1970-2012</titleproper>
@@ -38,16 +36,15 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Louie, Miriam</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Miriam Ching Yoon Louie
-Papers</unittitle><unitdate type="inclusive" label="Dates:">1970-2012</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 719</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Miriam Ching Yoon Louie
+Papers</unittitle><unitdate label="Dates:" type="inclusive">1970-2012</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 719</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">11 boxes</extent>
         <extent encodinganalog="300$a">(11 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>, <language langcode="spa">Spanish</language>, <language langcode="kor">Korean</language>
 
 </langmaterial>
@@ -59,7 +56,7 @@ repositorycode="mnsss">MS 719</unitid>
             </address>
          </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Labor organizer; Women's rights activist; Author; Activist; Poet. The papers include correspondence, organizing materials, conference materials, fliers, pamphlets, newsletters, and newspaper clippings.  There is also Louie's course work as both student and instructor.  Major topics include women and labor organizing, Asian American women's history, social justice activism, international women's rights, and issues surrounding race, class, immigration and poverty in the U.S.   Especially impressive is the range of material related to grassroots Asian and Latina immigrant workers' organizations, from the 1970s through the early 2000s.  [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith Collection if you would like one sent to you.]
          </abstract>
 
@@ -180,6 +177,4 @@ record.</p>
           <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss575_main.html">Women of Color Resource Center</extref>.</p>
       </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
-
+</ead><!-- END OF FILE -->

@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss431.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss431</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss431.xml//EN">mnsss431</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Camp Bonnie Brae Records, 1917-2007 (ongoing)</titleproper>
@@ -35,15 +36,15 @@
         <origination label="Creator:">
            <corpname encodinganalog="110" source="lcnaf">Camp Bonnie Brae (East Otis, Mass.)</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Camp Bonnie Brae Records</unittitle><unitdate type="inclusive" label="Dates:">1917-2007 (ongoing)</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Camp Bonnie Brae Records</unittitle><unitdate label="Dates:" type="inclusive">1917-2007 (ongoing)</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 592</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 592</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">13 boxes</extent>
         <extent encodinganalog="300$a">(11 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,7 +56,7 @@
          </repository>
 
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Camp for girls. Records document camp activities and include  photographs; administrative records from the camps founding in 1919 through 2007, including correspondence, reports, minutes, financial information, information about staff, songbooks, publicity materials, and publications; and as well as files pertaining to buildings and grounds.
  
                  </abstract>
@@ -142,4 +143,3 @@
 
 </archdesc>
 </ead>
-

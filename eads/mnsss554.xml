@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss554.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss554</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss554.xml//EN">mnsss554</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Women Ambassadors Oral History Project, 1916-
@@ -38,16 +36,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Morin, Ann Miller</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Women Ambassadors Oral History
-Project</unittitle><unitdate type="inclusive" label="Dates:">1916-2002</unitdate><unitdate
-type="bulk" encodinganalog="245$g">1980-1990</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 204</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Women Ambassadors Oral History
+Project</unittitle><unitdate label="Dates:" type="inclusive">1916-2002</unitdate><unitdate encodinganalog="245$g" type="bulk">1980-1990</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 204</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">27 boxes</extent>
         <extent encodinganalog="300$a">(31 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -57,7 +53,7 @@ repositorycode="mnsss">MS 204</unitid>
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Ambassadors. Collection consists mostly of oral histories conducted and collected
 by Morin of women ambassadors and state department employees, conducted in 1984, for her book, <title render="italic">Her
 Excellency</title> (1995). The collection also contains research files and
@@ -153,9 +149,8 @@ record.</p>
 	<subject encodinganalog="650" source="lcsh">Oral history--Archival resources</subject>
 
 <!-- Encode with Added Entry clips -->
-         <title render="italic" encodinganalog="730">Morin, Ann Miller. Her Excellency--Sources</title>
+         <title encodinganalog="730" render="italic">Morin, Ann Miller. Her Excellency--Sources</title>
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

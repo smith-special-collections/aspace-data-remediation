@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca22.xml//EN" countrycode="us" mainagencycode="manosca">manosca22</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca22.xml//EN">manosca22</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Student Clubs and Organizations, A-Z Files, 1880-[ongoing]</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2013">2013</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Smith College.</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Smith College.</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Student Clubs and Organizations, A-Z Files</unittitle>
-	<unitdate type="inclusive" label="Dates:">1880-[ongoing]</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Student Clubs and Organizations, A-Z Files</unittitle>
+	<unitdate label="Dates:" type="inclusive">1880-[ongoing]</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 80</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:e978590d-58f5-453b-b7f8-1434278cf0f3</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">27 boxes</extent>
 		<extent encodinganalog="300$a">(11.23 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -106,7 +107,7 @@
 <!-- Insert container list here:-->
 
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">3001</container>
@@ -202,7 +203,7 @@
       <did>
          <container type="box">3001.1</container>
          <unittitle>Animal Advocates of Smith College (AASC)
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -234,7 +235,7 @@
       <did>
          <container type="box">3001.1</container>
          <unittitle>Asexual Communication and Education Club (ACE)
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -352,7 +353,7 @@
       <did>
          <container type="box">3003</container>
          <unittitle>Chinese Inter Regional Student Cultural Organization (CISCO)
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -562,7 +563,7 @@
       <did>
          <container type="box">3004.1</container>
          <unittitle>Engineers for Sustainable World (ESW)
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -745,7 +746,7 @@
       <did>
          <container type="box">3004.2</container>
          <unittitle>Investment Club
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -1239,7 +1240,7 @@
       <did>
          <container type="box">3004.6</container>
          <unittitle>Sazanami
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -1351,14 +1352,14 @@
       <did>
          <container type="box">3004.6</container>
          <unittitle>Smith Spirit Cheerleading
-<unitdate></unitdate></unittitle>
+<unitdate/></unittitle>
       </did>
    </c01>
 <c01>
       <did>
          <container type="box">3004.6</container>
          <unittitle>Smith To Do
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -1446,7 +1447,7 @@
       <did>
          <container type="box">3004.7</container>
          <unittitle>SpitFire Smith College 
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -1550,7 +1551,7 @@
       <did>
          <container type="box">3004.7</container>
          <unittitle>Students for Justice in Palestine (SJP)
-            <unitdate></unitdate>
+            <unitdate/>
          </unittitle>
       </did>
    </c01>
@@ -1995,5 +1996,3 @@
 
   </archdesc>
 </ead>
-
-

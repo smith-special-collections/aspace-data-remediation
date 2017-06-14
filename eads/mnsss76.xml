@@ -1,9 +1,10 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss76.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss76</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss76.xml//EN">mnsss76</eadid>
       <filedesc>
          <titlestmt>
-            <titleproper encodinganalog="245$a">Women&#39;s Action Alliance Records, 1970-1996
+            <titleproper encodinganalog="245$a">Women's Action Alliance Records, 1970-1996
         </titleproper>
             <subtitle>Finding Aid</subtitle>
             <author encodinganalog="245$c">Finding aid prepared by Marla Miller.</author>
@@ -39,7 +40,7 @@
         <lb />
             
          </publisher>
-         <titleproper encodinganalog="245$a">Women&#39;s Action Alliance Records, 1970-1996
+         <titleproper encodinganalog="245$a">Women's Action Alliance Records, 1970-1996
       </titleproper>
          <subtitle>Finding Aid</subtitle>
          <num>MS 363
@@ -49,21 +50,21 @@
          <date>2000
       </date>
          
-         <sponsor>Processing of the Women&#39;s Action Alliance Records was made possible by the generous support of the National Endowment for the Humanities and Smith College President Ruth J. Simmons
+         <sponsor>Processing of the Women's Action Alliance Records was made possible by the generous support of the National Endowment for the Humanities and Smith College President Ruth J. Simmons
             </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
-            <corpname encodinganalog="110" source="lcnaf">Women&#39;s Action Alliance</corpname>
+            <corpname encodinganalog="110" source="lcnaf">Women's Action Alliance</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Women&#39;s Action Alliance Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1970 - 1996</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Women's Action Alliance Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1970 - 1996</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 363</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 363</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">318 boxes</extent>
             <extent encodinganalog="300$a">(117.25 linear ft.)</extent>
@@ -75,9 +76,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Women's advocacy organization and feminist collective. The extensive WAA records are a rich source of information about the contemporary women's movement and the dynamics of race and class within it. The organization's projects focused on such issues as coalition-building among women's groups, women's economic development, teenage pregnancy prevention, and non-sexist child development. The WAA Records document the administration of the organization, its projects, and its role as a women's information clearinghouse. Materials include correspondence, publications, resource files, photographs, and audiovisual materials.
+         <abstract encodinganalog="520$a" label="Abstract:">Women's advocacy organization and feminist collective. The extensive WAA records are a rich source of information about the contemporary women's movement and the dynamics of race and class within it. The organization's projects focused on such issues as coalition-building among women's groups, women's economic development, teenage pregnancy prevention, and non-sexist child development. The WAA Records document the administration of the organization, its projects, and its role as a women's information clearinghouse. Materials include correspondence, publications, resource files, photographs, and audiovisual materials.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -97,7 +98,7 @@
          <p>The breadth and scope of the WAA projects are indicative of the diversity of the women's movement itself.  The most successful projects include the Information and Reference Service, the Non-Sexist Childhood Development Project (NSCD), and the National Women's Agenda and Women's Centers Projects.</p>
          <p>The WAA's main modus operandi was to identify a problem, question, or population with specific needs; formulate and distribute a questionnaire exploring the activities and needs of groups or individuals concerned with the issue in question; and summarize the results in a directory, guide, or manual.  As a result, scattered throughout the records of the WAA and its many initiatives are caches of replies, reports, and data on far-ranging subjects.</p>
          <p>A significant proportion of this material documents the activities of a large number of women's centers, projects, and services across the U.S. and abroad, from the mid 1970s to the mid 1980s.  By 1974 the WAA had begun to collect and preserve files tracking such activities, while the production of the "Practical Guide to the Women's Movement" and subsequent directories, organized both by geographic location and by program area, also involved the distribution and return of questionnaires in which women's centers and service organizations outlined their services, objectives, and goals. Vertical files in the reference collections of the WAA library, organized alphabetically by state and generated in connection with the "Practical Guide to the Women's Movement," preserve these profiles together with associated correspondence and literature. Another set, generated by the Women's Center Project, is housed with the records of that initiative.</p>
-         <p>The WAA's work with women's centers illustrates the organization's Byzantine nature, in that some of the WAA's initiatives were conceived by one department, launched by another, and administered by a third, with records and files shared and transferred between offices.  Thus, in some cases, records pertaining to a significant issue embraced by the WAA are distributed throughout several series.  For example, from the National Women's Agenda Project (SERIES II.  PROJECTS) sprung the idea to create a networking service and national directory for local women's centers across the country.  When the NWAP folded in 1980, the "Women's Centers Project" was created to take its place, offering networking and technical assistance programs.   Eventually, the directory was compiled and printed.  The organizational profiles gathered in this effort were preserved in the WAA library (SERIES III.  RESOURCES-Library-Reference collections-Vertical files), while material pertaining to the actual publication, Women Helping Women&#58; A State-by-State Directory of Services (1981) is found in SERIES III.  RESOURCES-Library-Publications.</p>
+         <p>The WAA's work with women's centers illustrates the organization's Byzantine nature, in that some of the WAA's initiatives were conceived by one department, launched by another, and administered by a third, with records and files shared and transferred between offices.  Thus, in some cases, records pertaining to a significant issue embraced by the WAA are distributed throughout several series.  For example, from the National Women's Agenda Project (SERIES II.  PROJECTS) sprung the idea to create a networking service and national directory for local women's centers across the country.  When the NWAP folded in 1980, the "Women's Centers Project" was created to take its place, offering networking and technical assistance programs.   Eventually, the directory was compiled and printed.  The organizational profiles gathered in this effort were preserved in the WAA library (SERIES III.  RESOURCES-Library-Reference collections-Vertical files), while material pertaining to the actual publication, Women Helping Women: A State-by-State Directory of Services (1981) is found in SERIES III.  RESOURCES-Library-Publications.</p>
          <p>As the organization evolved and matured, projects were increasingly launched by the WAA and then handed off to largely independent staff who carried them through.  For that reason, records of some WAA programs (e.g. Buddies Exploring Science Together (BEST) and the Women and AIDS project) are either represented by a very small amount of material, or not represented at all.  By 1993, for example, of the WAA's fifteen paid staff people, six worked outside the organization's Lexington Avenue headquarters, in the South Bronx office of the Citizens Advice Bureau, Brooklyn's Medgar Evers College, and even Mujeres Latinos en Accion, based in Chicago, though there are no materials preserved here from the South Bronx, Brooklyn or Chicago personnel. For these reasons, the records fully document the organization's growth and development through the 1970s and 1980s, but contain comparatively little material from the 1990s. Records pertaining to the dissolution of the WAA will not be available until 2004, after they are released by the law firm that served the organization.</p>
          <p>In as many places as possible, elements of the WAA's filing system were preserved.  For example, the general subject files kept by the Executive Director's office, as well as those kept by Ruth Abram, arrived nearly intact, and each set has been left in its original order. A large series of files containing information on potential funders has also been preserved (SERIES I. ADMINISTRATION-Development and fundraising).  By and large, however, the records of the various WAA projects and programs came in different  levels of organization, reflecting in part the decentralized structure of the organization. In addition, the records reflect the idiosyncrasies of an ever-changing cast of project directors and administrative assistants.  The present arrangement of the records, especially in the case of administrative files, reflect our effort to achieve some consistency across and between programs.</p>
       </scopecontent>
@@ -122,7 +123,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -196,7 +197,7 @@
          <corpname encodinganalog="610" source="lcnaf">Women's Agenda (periodical)</corpname>
          <subject encodinganalog="650" source="lcsh">Women--Education--United States--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -336,7 +337,7 @@
                <p>Also housed here are subject files originally collected by Catherine Samuels and a set of vertical files, organized by state, with information gathered on women's centers.  Finally, the New York City Referral System was created for internal purposes in 1977 to enable the WAA to refer local women to services in the metropolitan area.</p>
                <p>Publications</p>
                <p>This subseries contains booklets and books published and distributed by the WAA (by contrast, publications produced by individual WAA initiatives, e.g. <title render="italic">Struggling Through Tight Times: A Handbook for Women's and other Non-Profit Organizations</title>, produced by the Economic Development Project, are found with the records of that initiative).  Most publications of the WAA were created by the Information Services program, which directed the Library and Information and Referral Services following the dissolution of the Technical Assistance Program. In response to a broad audience's previously unmet requests for assistance, staff created and revised resource lists designed to assist in responding to common requests.<title render="italic"> How to Organize a Multi-Service Women's Center</title> was designed to answer requests for technical assistance from women's centers across the country.  <title render="italic">Getting your Share</title> was written in 1976 to advise in the areas of fundraising and grant writing. </p>
-               <p>The 1973 <title render="italic">Women's Action Alliance Directory</title> was an early attempt to develop a directory of national women's organizations that could provide basic information on women's issues, an effort that would see several incarnations over the ensuing decade.  A larger and more formal publication, <title render="italic">A Practical Guide to the Women's Movement,</title> was completed in 1975.  A revised edition,<title render="italic"> A (More) Practical Guide to the Women's Movement</title>, appeared in 1978. Another edition, renamed the<title render="italic"> Women's Action Almanac</title>, was published in 1980. <title render="italic">Women Helping Women&#58; A State-by-State Directory of Service </title>appeared in 1981.</p>
+               <p>The 1973 <title render="italic">Women's Action Alliance Directory</title> was an early attempt to develop a directory of national women's organizations that could provide basic information on women's issues, an effort that would see several incarnations over the ensuing decade.  A larger and more formal publication, <title render="italic">A Practical Guide to the Women's Movement,</title> was completed in 1975.  A revised edition,<title render="italic"> A (More) Practical Guide to the Women's Movement</title>, appeared in 1978. Another edition, renamed the<title render="italic"> Women's Action Almanac</title>, was published in 1980. <title render="italic">Women Helping Women: A State-by-State Directory of Service </title>appeared in 1981.</p>
             </scopecontent>
  </c01>
   <c01 level="series">
@@ -371,8 +372,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. ADMINISTRATION <unitdate>(1971-96)</unitdate>
                </unittitle>
@@ -2035,7 +2036,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PROJECTS <unitdate>(1972-96)</unitdate>
                </unittitle>
@@ -6556,7 +6557,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. RESOURCES <unitdate>(1970-96)</unitdate>
                </unittitle>
@@ -8383,14 +8384,14 @@
                         <did>
                            <container type="box">295</container>
                            <container type="folder">21-22</container>
-                           <unittitle>Women Helping Women&#58; A State-by-State Directory of Service (New York: Women's Action Alliance, <unitdate>1981): </unitdate>2 copies, including Donna Shubert's annotated copy</unittitle>
+                           <unittitle>Women Helping Women: A State-by-State Directory of Service (New York: Women's Action Alliance, <unitdate>1981): </unitdate>2 copies, including Donna Shubert's annotated copy</unittitle>
                         </did>
                      </c05>
                   </c04>
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PHOTOGRAPHS </unittitle>
             </did>
@@ -8764,7 +8765,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. AUDIOVISUAL MATERIAL </unittitle>
             </did>

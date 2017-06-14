@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss26.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss26</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss26.xml//EN">mnsss26</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Nancy Hale Papers, 1908-1989
@@ -50,17 +51,17 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Hale, Nancy, 1908-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Nancy Hale Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1908 - 1989</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">251</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Nancy Hale Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1908 - 1989</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">251</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">67 boxes, 8 volumes</extent>
             <extent encodinganalog="300$a">(33 linear ft.)</extent>
@@ -72,15 +73,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Author.  Hale is perhaps best known for her short stories many of which were published in the New Yorker and in collected works.  Hale's papers, provide significant information about her life and work; the relationships between writers and their agents and editors; the life of a modern professional woman writer; as well as topics such as creativity, human psychology, the New England character, and faculty politics in educational institutions. Material includes writings, diaries, photographs, speeches and correspondence with family and numerous 20th century writers.
+         <abstract encodinganalog="520$a" label="Abstract:">Author.  Hale is perhaps best known for her short stories many of which were published in the New Yorker and in collected works.  Hale's papers, provide significant information about her life and work; the relationships between writers and their agents and editors; the life of a modern professional woman writer; as well as topics such as creativity, human psychology, the New England character, and faculty politics in educational institutions. Material includes writings, diaries, photographs, speeches and correspondence with family and numerous 20th century writers.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-         <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2221.jpg" altrender="right">
+         <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2221.jpg" linktype="simple" show="embed">
 <daodesc><p>Nancy Hale, circa 1930s</p></daodesc></dao>
 	<p> Nancy Hale was born Anna Westcott Hale on May 6, 1908, in Boston, Massachusetts, the only child of painters Philip Leslie Hale and Lilian Clark Westcott.  Descended from a distinguished New England family, Nancy Hale's grandfather was the orator, author, and Unitarian clergyman Edward Everett Hale, and two of her great-aunts were the writers Harriet Beecher Stowe and Lucretia Peabody Hale.  Philip L. Hale achieved some success as a neo-impressionist painter of the Boston School, but probably had a greater influence as an instructor at the Boston Museum of Fine Arts School and as an art critic for Boston newspapers.  Lilian W. Hale, the more talented artist of the pair, was well known for her portraits and landscapes in oil, pastel, and charcoal.</p>
          <p>Nancy Hale began writing at an early age, producing a family newspaper, the Society Cat, at age eight, and publishing her first story, "The Key Glorious," in the Boston Herald, at age eleven.  She also devoted considerable energy to the study of art under her parents' tutelage and, after she was graduated from the Winsor School in 1926, at the Boston Museum School (1926-28).</p>
@@ -138,7 +139,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -220,7 +221,7 @@
          <subject encodinganalog="650" source="lcsh">Women journalists--United States--History--Sources</subject>
          <geogname encodinganalog="651" source="lcsh">New England--Social life and customs--20th century--Sources</geogname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -924,10 +925,10 @@ A140  "An Introduction to Glamour."  <title render="italic">The New Yorker.   </
 
 <p>B243  Progress report on stroke.  + +
 In Box 9 of Nancy Hale papers in Special Collections, University of Virginia:</p>
-<p>B244  "This is the University Hospital&#8230;"  Untitled essay.</p>
+<p>B244  "This is the University Hospital…"  Untitled essay.</p>
 <p>B245  Address on creative writing.</p>
 <p>B246  Address on the problems of the short story writer, given to Colonnade Club.  </p>
-<p>B247  "Susie Parsons, my neighbor, may not be beautiful&#8230;"  Short story.
+<p>B247  "Susie Parsons, my neighbor, may not be beautiful…"  Short story.
 In Box 10 of Nancy Hale papers in Special Collections, University of Virginia:</p>
 <p>B248  Group of poems.</p>
 
@@ -938,7 +939,7 @@ In Box 10 of Nancy Hale papers in Special Collections, University of Virginia:</
 
 <p>C1  Schorer, Mark.  <title render="italic">Yale Review.  </title>Summer 1943.</p>
 <p>C2  <title render="italic">New Republic.</title> 12 July 1943.</p>
-<p>C3  Gelder, Robert van.  "Nancy Hale&#8230;An Analyzer of the Feminine," in his <title render="italic">Writers and Writing. </title> New York:  Scribners, 1946.  330-333.</p>
+<p>C3  Gelder, Robert van.  "Nancy Hale…An Analyzer of the Feminine," in his <title render="italic">Writers and Writing. </title> New York:  Scribners, 1946.  330-333.</p>
 <p>C4  "Distinguished Author Summers at Folly Cove:  Nancy Hale, Descendent of Edward Everett Hale, Here Revising Proofs of New Book."  <title render="italic">Gloucester Daily Times. </title>11 July 1950.</p>
 <p>C5  Omwake, John.  "A Writer Speaks Out on Her Craft."  <title render="italic">The Cavalier Daily.  </title>University of Virginia.  12 Dec. 1963.</p>
 <p>C6  Simmonds, Anne.  "A Profile of a Lioness of Letters."<title render="italic">The Daily Progress.  </title> 9 June 1966.  6. </p>
@@ -1065,8 +1066,7 @@ Reviews are organized chronologically under the works represented, which are ord
 <p><title render="italic">Realities of Fiction:</title></p>
 <p>C93  Bower, Warren.  <title render="italic">Saturday Review </title>(Washington, D.C.) 15 December 1962:  25-6.</p>
 
-<p><title render="italic">Secrets:</title
->C94  Unsigned by John C. Coleman. <title render="italic">Virginia Quarterly Review.  </title> 47.  Summer 1970): xcvii.</p>
+<p><title render="italic">Secrets:</title>C94  Unsigned by John C. Coleman. <title render="italic">Virginia Quarterly Review.  </title> 47.  Summer 1970): xcvii.</p>
 <p>C95  Connors, Joyce.  "A Wistful View of Gracious Life," <title render="italic">Richmond Times Dispatch.</title>  4 April 1971.</p>
 
 <p><title render="italic">The Sign of Jonah:</title></p>
@@ -1087,7 +1087,7 @@ Reviews are organized chronologically under the works represented, which are ord
 <p>C110  MacGregor, Martha.  "Southern Beauty's Success Story."  <title render="italic">New York, NY Post Home News.  </title>15 Oct. 1950. </p>
 <p>C111  Starkey, Marion L.  "Poisonous Glamour Girl:  Nancy Hale's Latest Novel about Really Vicious Character."  <title render="italic">Morning Globe </title>(Boston).  15 Oct. 1950.</p>
 <p>C112  Howe, Mary Burke.  "Fate Catches Up."  <title render="italic">America.  </title>21 Oct. 1950.  82-83.</p>
-<p>C113  Sain, Bob.  " '&#8230;and There Shall Be No Sign'--'Evil and Adulterous Generation' Is Subject of Readable New Novel."  <title render="italic">Charlotte NC News.  </title>21 Oct. 1950. </p>
+<p>C113  Sain, Bob.  " '…and There Shall Be No Sign'--'Evil and Adulterous Generation' Is Subject of Readable New Novel."  <title render="italic">Charlotte NC News.  </title>21 Oct. 1950. </p>
 <p>C114  Stix, Frederick W.  <title render="italic">Cincinnati Enquirer.  </title>21 Oct. 1950.   </p>
 <p>C115  Lawrence, Henry H.  "Nancy Hale Writes Swift, Sharp Novel."  <title render="italic">San Antonio Express.  </title>22 Oct. 1950.</p>
 <p>C116  McGrory, Mary.  "<title render="italic">Nancy</title> Hale Writes a Powerful Novel Against a Bitter Racial Background."  <title render="italic">The Sunday Star </title>(Washington, D.C.).  22 Oct. 1950.  </p>
@@ -1286,8 +1286,8 @@ Reviews are organized chronologically under the works represented, which are ord
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL  </unittitle>
 
@@ -2013,7 +2013,7 @@ Reviews are organized chronologically under the works represented, which are ord
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -3886,7 +3886,7 @@ Reviews are organized chronologically under the works represented, which are ord
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. DIARIES, CALENDARS, AND
           NOTEBOOKS</unittitle>
@@ -4101,7 +4101,7 @@ Reviews are organized chronologically under the works represented, which are ord
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. PHOTOGRAPHS</unittitle>
             </did>
@@ -4444,7 +4444,7 @@ Reviews are organized chronologically under the works represented, which are ord
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. SPEECHES</unittitle>
             </did>
@@ -4810,7 +4810,7 @@ Reviews are organized chronologically under the works represented, which are ord
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. SUBJECT FILES (1927-88, n.d.)</unittitle>
             </did>
@@ -4970,7 +4970,7 @@ Reviews are organized chronologically under the works represented, which are ord
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. WRITINGS</unittitle>
             </did>
@@ -7214,7 +7214,7 @@ Reviews are organized chronologically under the works represented, which are ord
                      <container type="box">42</container>
                      <container type="folder">11</container>
                      <unittitle>"Ever Let the Fancy" (<title render="italic">New Yorker</title>, 31 Mar 1956): published version
-                        <unitdate></unitdate></unittitle>
+                        <unitdate/></unittitle>
                   </did>
                </c03>
                <c03>
@@ -7465,7 +7465,7 @@ Reviews are organized chronologically under the works represented, which are ord
                      <container type="box">43</container>
                      <container type="folder">7</container>
                      <unittitle>"In a Word" (<title render="italic">New Yorker</title>, 27 Jul 1963): drafts
-              <unitdate></unitdate></unittitle>
+              <unitdate/></unittitle>
                   </did>
                </c03>
                <c03>

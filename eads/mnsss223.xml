@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss223.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss223</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss223.xml//EN">mnsss223</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Frances Carpenter Papers 1917-1972 </titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Carpenter, Frances, 1890-1972</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Carpenter, Frances, 1890-1972</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Frances Carpenter Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1917-1972</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Frances Carpenter Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1917-1972</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 81</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 81</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">4 boxes</extent>
 		<extent encodinganalog="300$a">(1.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -60,7 +61,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-	<p>Frances Carpenter was born in Washington, D.C. on April 30, 1890 to Joanna Condict and Frank G. Carpenter.  She graduated from Smith College in 1912.  Her father was a foreign correspondent and travelled extensively.  Frances accompanied him on many of his travels as secretary and photographer.   They co-authored several books including <title render="italic">The Foods We Eat</title> (1925), <title render="italic">The Clothes We Wear</title> (1926), and <title render="italic">The Houses We Live In</title> (1926).  She also wrote <title render="italic">Ourselves and Our City</title> (1928), <title render="italic">The Ways We Travel</title> (1929), <title render="italic">Tales of a Basque Grandmother</title> (1930) <title render="italic">Our Little Friends of Eskimo Land</title> (1931) <title render="italic">Our Neighbors Near and Far, An Elementary Geography</title> (1932), and other books.  In 1960 she edited a book of  articles her father had written in the 1880s about life in Washington, D.C. entitled <title render="italic">Carp's Washington</title> (1960).   She married W. Chapin Huntington, commercial attach&#233; at the American Embassy in Paris.  She was Vice President of the International Society of Woman Geographers, a Fellow of the Royal Geography Society of London, and President of the Smith College Alumnae Association and on the Smith College Board of Trustees. She died November 2, 1972.</p>
+	<p>Frances Carpenter was born in Washington, D.C. on April 30, 1890 to Joanna Condict and Frank G. Carpenter.  She graduated from Smith College in 1912.  Her father was a foreign correspondent and travelled extensively.  Frances accompanied him on many of his travels as secretary and photographer.   They co-authored several books including <title render="italic">The Foods We Eat</title> (1925), <title render="italic">The Clothes We Wear</title> (1926), and <title render="italic">The Houses We Live In</title> (1926).  She also wrote <title render="italic">Ourselves and Our City</title> (1928), <title render="italic">The Ways We Travel</title> (1929), <title render="italic">Tales of a Basque Grandmother</title> (1930) <title render="italic">Our Little Friends of Eskimo Land</title> (1931) <title render="italic">Our Neighbors Near and Far, An Elementary Geography</title> (1932), and other books.  In 1960 she edited a book of  articles her father had written in the 1880s about life in Washington, D.C. entitled <title render="italic">Carp's Washington</title> (1960).   She married W. Chapin Huntington, commercial attaché at the American Embassy in Paris.  She was Vice President of the International Society of Woman Geographers, a Fellow of the Royal Geography Society of London, and President of the Smith College Alumnae Association and on the Smith College Board of Trustees. She died November 2, 1972.</p>
     </bioghist>
     <scopecontent id="scope">
 	<head>Scope and Contents of the Collection</head>
@@ -122,8 +123,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>Correspondence</unittitle>
  </did>
@@ -308,7 +309,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>People from the Sky</unittitle>
  </did>
@@ -341,7 +342,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>Oversize materials</unittitle>
  </did>
@@ -387,5 +388,3 @@
 
   </archdesc>
 </ead>
-
-

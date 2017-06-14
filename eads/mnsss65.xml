@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss65.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss65</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss65.xml//EN">mnsss65</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Margery Wells Steer Papers, 1950-1986
@@ -49,19 +50,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Steer, Margery Wells</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">
+         <unittitle encodinganalog="245$a" label="Title:">
 Margery Wells Steer Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1950-1992</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 180</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 180</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes</extent>
             <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
@@ -73,9 +74,9 @@ Margery Wells Steer Papers</unittitle><unitdate encodinganalog="245$f" type="inc
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Journalist and pacifist.  Material includes correspondence with women's historian Mary Beard, with editors of Soviet Woman journal, and with Soviet women professors. Writings include her column, <title>Peace and the People,</title> published books, articles for Soviet Women, and a typescript of <title>The Weight of a Snowflake</title>. Other correspondents include her publisher, readers, and editor, as well as William Beard and Irma Drodina, Valentina Fedetova, Nelya Ramazanova, Margarita Smolyaninova, Olga Suslova, Olga Ushakova, and Galina Zlomanova.
+         <abstract encodinganalog="520$a" label="Abstract:">Journalist and pacifist.  Material includes correspondence with women's historian Mary Beard, with editors of Soviet Woman journal, and with Soviet women professors. Writings include her column, <title>Peace and the People,</title> published books, articles for Soviet Women, and a typescript of <title>The Weight of a Snowflake</title>. Other correspondents include her publisher, readers, and editor, as well as William Beard and Irma Drodina, Valentina Fedetova, Nelya Ramazanova, Margarita Smolyaninova, Olga Suslova, Olga Ushakova, and Galina Zlomanova.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -92,7 +93,7 @@ Margery Wells Steer Papers</unittitle><unitdate encodinganalog="245$f" type="inc
          <p>The writings consist of the newspaper column "Peace and the People" (1966- 1986) and nine letters and articles published in Soviet Woman between 1971 and 1984.  In addition there is a published copy of her book Dear Grandparents and a typescript of "The Weight of a Snowflake."</p>
          <p>A few miscellaneous printed items are by and about Mary Beard.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -138,8 +139,8 @@ Margery Wells Steer Papers</unittitle><unitdate encodinganalog="245$f" type="inc
          <persname encodinganalog="600" source="lcnaf">Zlomanova, Galina--Correspondence</persname>
          <persname encodinganalog="600" source="lcnaf">Drodina, Irma--Correspondence</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. Writings</unittitle>
             </did>
@@ -207,7 +208,7 @@ Margery Wells Steer Papers</unittitle><unitdate encodinganalog="245$f" type="inc
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. Correspondence</unittitle>
             </did>
@@ -318,7 +319,7 @@ Margery Wells Steer Papers</unittitle><unitdate encodinganalog="245$f" type="inc
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. Miscellaneous</unittitle>
             </did>

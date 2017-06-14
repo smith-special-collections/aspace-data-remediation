@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss171.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss171</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss171.xml//EN">mnsss171</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Frances Drake Papers, 1919-1925
@@ -46,18 +47,18 @@
          <date>2003</date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Drake, Frances</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Frances Drake Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1919-1925</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Frances Drake Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1919-1925</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 220</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 220</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -69,14 +70,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">YWCA overseas official. The Frances Drake Papers include a photograph album documenting her work for the Young Women's Christian Association (YWCA) in Uruguay, and elsewhere in South America.  There is also a small amount of correspondence to her family from South America, and a report to the YWCA from Argentina.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">YWCA overseas official. The Frances Drake Papers include a photograph album documenting her work for the Young Women's Christian Association (YWCA) in Uruguay, and elsewhere in South America.  There is also a small amount of correspondence to her family from South America, and a report to the YWCA from Argentina.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6357.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6357.jpg" linktype="simple" show="embed">
 <daodesc><p>Bernice Tuller with Frances Drake in Argentina, 1921</p></daodesc></dao>
 
          <p>Frances "Fannie" Drake was born May 5, 1881 in Oskaloosa, Iowa, to H. Brown and Emma J. Drake.  After earning an A.B. from the University of Nebraska in 1906, she studied for three months at the Bible Teachers' Training School and then joined the staff of the Young Women's Christian Association in January 1907 as an Extension Secretary in Rochester, New York.  In May 1910 Drake returned to Nebraska where she worked for a year as an Extension  Secretary in the Lincoln YWCA and then as a Student Secretary in the University of Nebraska YWCA.  In 1919 she joined the national YWCA staff traveling to Montevideo, Uruguay to help establish a YWCA in that city.  Drake returned to the U.S. in 1925 and worked as General Secretary of the Lincoln, Nebraska YWCA.  She died in December of 1973 in Omaha, Nebraska.</p>
@@ -85,7 +86,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The Frances Drake Papers include a photograph album documenting her work for the YWCA in Uruguay, plus other locations in South America.  There is also a small amount of correspondence (1919-21) to her family describing her voyage from the United States to South America, and a report to the YWCA from Argentina.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>

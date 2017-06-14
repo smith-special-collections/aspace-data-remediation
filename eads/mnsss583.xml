@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss583.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss583</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss583.xml//EN">mnsss583</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Ernestine Gilbreth Carey Papers, 1915-2005</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Carey, Ernestine Gilbreth</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Carey, Ernestine Gilbreth</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Ernestine Gilbreth Carey Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1915-2005</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Ernestine Gilbreth Carey Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1915-2005</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">28</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">28</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">89 boxes</extent>
 		<extent encodinganalog="300$a">(48.25 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language></langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language></langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
 		<address>
@@ -148,7 +149,7 @@ Copyright to materials authored by others may be owned by those individuals or t
 <dsc type="analyticover">
   <c01 level="series">
             <did>
-               <unittitle><ref target="list-ser1">SERIES I. BIOGRAPHICAL MATERIALS</ref>
+               <unittitle>SERIES I. BIOGRAPHICAL MATERIALS
           <unitdate>(1929-2003)</unitdate></unittitle>
                <physdesc>
                   <extent>2.5 linear ft</extent>
@@ -160,7 +161,7 @@ Copyright to materials authored by others may be owned by those individuals or t
  </c01>
   <c01 level="series">
             <did>
-               <unittitle><ref target="list-ser2">SERIES II. CORRESPONDENCE</ref>
+               <unittitle>SERIES II. CORRESPONDENCE
           <unitdate>(1915-2005)</unitdate>
                </unittitle>
                <physdesc>
@@ -177,7 +178,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c01>
   <c01 level="series">
             <did>
-               <unittitle><ref target="list-ser3">SERIES III. WRITING</ref>S
+               <unittitle>SERIES III. WRITINGS
  	         <unitdate>(1923-2003)</unitdate></unittitle>
                 <physdesc>
                   <extent>8.5 linear ft.</extent>
@@ -190,7 +191,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c01>
   <c01 level="series">
 		<did>
-		<unittitle><ref target="list-ser4">SERIES IV. SPEECHES AND APPEARANCES</ref></unittitle>
+		<unittitle>SERIES IV. SPEECHES AND APPEARANCES</unittitle>
                 <physdesc>
                   <extent>1 linear ft.</extent>
                </physdesc>
@@ -203,7 +204,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c01>
   <c01 level="series">
             <did>
-               <unittitle><ref target="list-ser5">SERIES V. SUBJECT FILES</ref></unittitle>
+               <unittitle>SERIES V. SUBJECT FILES</unittitle>
                 <physdesc>
                   <extent>4.25 linear feet</extent>
                </physdesc>
@@ -215,7 +216,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c01>
   <c01 level="series">
             <did>
-               <unittitle><ref target="list-ser6">SERIES VI. LILLIAN MOLLER GILBRETH AND FRANK B. GILBRETH, SR.</ref></unittitle>
+               <unittitle>SERIES VI. LILLIAN MOLLER GILBRETH AND FRANK B. GILBRETH, SR.</unittitle>
                 <physdesc>
                   <extent>3.75 linear feet</extent>
                </physdesc>
@@ -226,7 +227,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c01>
   <c01 level="series">
             <did>
-               <unittitle><ref target="list-ser7">SERIES VII. PHOTOGRAPHS AND AUDIOVISUAL MATERIALS</ref></unittitle>
+               <unittitle>SERIES VII. PHOTOGRAPHS AND AUDIOVISUAL MATERIALS</unittitle>
                 <physdesc>
                   <extent>4 linear feet</extent>
                </physdesc>
@@ -241,7 +242,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c01>
   <c01 level="series">
             <did>
-               <unittitle><ref target="list-ser8">SERIES VIII. MEMORABILIA</ref></unittitle>
+               <unittitle>SERIES VIII. MEMORABILIA</unittitle>
                 <physdesc>
                   <extent>3 linear feet</extent>
                </physdesc>
@@ -253,7 +254,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c01>
   <c01 level="series">
             <did>
-               <unittitle><ref target="list-serOV">OVERSIZE MATERIALS</ref></unittitle>
+               <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>
  </c01>
 </dsc>
@@ -262,8 +263,8 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -523,7 +524,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -4598,7 +4599,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
  </did>
@@ -6306,7 +6307,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. SPEECHES AND APPEARANCES</unittitle>
  </did>
@@ -6359,7 +6360,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. SUBJECT FILES</unittitle>
  </did>
@@ -6634,7 +6635,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. LILLIAN MOLLER GILBRETH AND FRANK BUNKER GILBRETH, SR.</unittitle>
  </did>
@@ -6645,7 +6646,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. PHOTOGRAPHS AND AUDIOVISUAL MATERIALS</unittitle>
  </did>
@@ -6662,7 +6663,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. MEMORABILIA</unittitle>
  </did>
@@ -6679,7 +6680,7 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -6708,5 +6709,3 @@ In keeping with Carey's filing system, the <title render="bold">General </title>
 
   </archdesc>
 </ead>
-
-

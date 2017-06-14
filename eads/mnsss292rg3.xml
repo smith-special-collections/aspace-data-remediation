@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg3.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg3</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg3.xml//EN">mnsss292rg3</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 03. National Administrative Office</unittitle><unitdate type="inclusive" label="Dates:">1906-2002</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records: Record Group 03. National Administrative Office</unittitle><unitdate label="Dates:" type="inclusive">1906-2002</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:3368799c-4517-473c-8eec-8c9d7a5c9a81</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,7 +49,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             This record group consists of the YWCA's national administrative office files including the office of the General Secretary (later Executive Secretary, later Chief Executive Officer) records on buildings and properties owned by the national organization, finance and development files, and records of the departments of data and statistics, library and archives, and publicity. Forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>.
          </abstract>
 </did>
@@ -61,7 +62,7 @@
 	<p>NOTE:  For the most part, the Microfilmed Records and the Original Format Records do not duplicate each other and both should be consulted.  This description covers materials in both formats.  See the
 <extref href="mnsss292rg3_list.html">Contents List</extref> for a folder-level inventory of the Original Format Records.  See the
 <extref href="mnsss292mf.html">Microfilmed Records Reel Lists</extref> for a detailed inventory of the microfilm.  Links to the lists for both formats are provided in the <extref href="mnsss292rg3_series.html">Series Descriptions</extref>.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2111.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2111.jpg" linktype="simple" show="embed">
 <daodesc><p>From training manual "How to Steer the Volunteer," 1944</p></daodesc></dao> 
 	<p>This record group consists of the YWCA's national administrative office files including the office of the General Secretary (later Executive Secretary, later Chief Executive Officer) records on buildings and properties owned by the national organization, finance and development files, and records of the departments of data and statistics, library and archives, and publicity. </p>
 
@@ -172,7 +173,7 @@
 <!-- Record group and series list descriptions -->
 <dsc type="analyticover">
  	<head>Series Descriptions</head>
-<c01 level="series" id="ser1">
+<c01 id="ser1" level="series">
 	<did>
 		<unittitle>SERIES I.  GENERAL ADMINISTRATION</unittitle>    
             </did>
@@ -317,7 +318,7 @@
 <extref href="mnsss292rg10_main.html">RECORD GROUP 10.  AUDIOVISUAL MATERIALS</extref> included videotaped presentations about the Equal Employment Opportunity Commission lawsuit against the YWCA of Tucson and the YWCA of the U.S.A.  Also included are audio and videotapes of selected National staff meetings, parties, and training events. </p> 
             </scopecontent>
  </c01>
-<c01 level="series" id="ser2">
+<c01 id="ser2" level="series">
 	<did>
 		<unittitle>SERIES II.  BUILDINGS AND PROPERTIES</unittitle>
          </did>
@@ -329,7 +330,7 @@
 <p>During World War I, the National Association acquired a number of properties all over the U.S. where it constructed housing for war workers, and 'Hostess Houses' for servicemen and their families.  Most of these properties were sold soon after the war, but two remained in possession of the National Association. [see Grace Dodge Hotel and Chautauqua Hospitality House below]</p>
 <p>Economic hard times after the war and during the Great Depression made the National Association wary of the financial and administrative responsibilities associated with properties and buildings.  When buyers could be found, properties were sold.  Some, such as Asilomar, spent years in limbo until finally finding buyers.  Over the years, other properties were offered as gifts to the National Association. Some were accepted on a trial basis and most often sold within a decade of the gift.  [see Altamont and Fletcher Farm below]</p>
 <p>The National Association became involved in property management again in the 1980s after the Max C. Fleishmann Foundation of Reno, Nevada, announced that it wanted to distribute all of its assets and go out of business.  The National Association took the opportunity to submit several proposals to the Foundation aimed at achieving some of its planning goals.  In response to changing trends, especially among the volunteer work force, the Association had committed itself to a renewed emphasis on leadership training for the 1980s.  In addition, a 1977 planning study by the Human Services Design Laboratory at Case Western Reserve University had recommended increasing the YWCA presence in the southwestern U.S.  The proposal with the most appeal for the Fleishmann Foundation was a grant for the construction of a 'leadership development center' in the southwest.  In addition, as regional offices and staffs had been reduced, the membership was feeling more and more that the  national office was out of touch with their concerns and interests.  The placement of a National Association center outside of New York was seen as a potential tool for addressing those concerns. </p>
-<p>A site was selected in Phoenix, Arizona, causing some controversy among Association membership due to the apparent inconsistency of building in a state that had not ratified the Equal Rights Amendment, a YWCA public policy priority since 1973.  Citing the need for a "strong presence&#8230;in areas which most need the commitment of the YWCA to racial justice and equality for women," the YWCA went ahead with the construction.  Dedicated in 1983, the Leadership Development Center was a year-round, non-residential training center for YWCA staff that could also be rented by similar groups.</p>
+<p>A site was selected in Phoenix, Arizona, causing some controversy among Association membership due to the apparent inconsistency of building in a state that had not ratified the Equal Rights Amendment, a YWCA public policy priority since 1973.  Citing the need for a "strong presence…in areas which most need the commitment of the YWCA to racial justice and equality for women," the YWCA went ahead with the construction.  Dedicated in 1983, the Leadership Development Center was a year-round, non-residential training center for YWCA staff that could also be rented by similar groups.</p>
 <p>The logistics of administering an operation that was at such a distance from headquarters,   as well as the financial burdens of staffing and maintaining such a facility, were always somewhat challenging for the shrinking national staff.  Part of the National Association's renewed emphasis on leadership training included, as part of Member Association accreditation, required attendance at training sessions in Phoenix.  At least some cash-strapped Community Associations objected to the expense involved in traveling to Arizona for training that had previously been offered regionally.  The Leadership Development Center was sold circa 2000 to a private "conferencing" firm as part of the major restructuring of the National Association.</p>
 <p>Rising Manhattan real estate prices and shrinking national staff led the National Board to finally agree to sell its headquarters at 600 Lexington Ave. in the early 1980s.  Headquarters made use of rented spaces in New York City until the major reorganization in 1999-2000, when it relocated and joined the Washington, DC Office staff.</p>
 <p><title render="bold">Altamont (Millbrook, NY)</title>:  a 90-acre estate donated to the National Association in 1959 and 1960 by Nancy Boyd Sokoloff for use as a conference center.  The gift was accepted on an experimental basis with the option to sell the property if, after two years, that was deemed expedient.  The experiment was extended somewhat, but it was eventually determined that the property was not "in the mainstream" of the Association's work and it was sold in 1964.</p>
@@ -383,7 +384,7 @@
 <extref href="mnsss292rg10_main.html">RECORD GROUP 10.  AUDIO-VISUAL MATERIALS</extref> contains video from various events at the Leadership Development Center, including its dedication in 1982 and its 10th anniversary.</p>
         </scopecontent>
  </c01>
-<c01 level="series" id="ser3">
+<c01 id="ser3" level="series">
 	<did>
 		<unittitle>SERIES III.  FINANCE AND FINANCIAL DEVELOPMENT</unittitle>
 	</did>
@@ -537,7 +538,7 @@
 <p>Regina Bannan, "Management by Women:  The First Twenty-Five Years of the YWCA National Board, 1906-31," Ph.D. thesis, University of Pennsylvania, 1994</p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser4">
+<c01 id="ser4" level="series">
 	<did>
 	<unittitle>SERIES IV.  DATA AND STATISTICS</unittitle>
 	</did>
@@ -604,7 +605,7 @@
         </scopecontent>
  </c01>
 
-<c01 level="series" id="ser5">
+<c01 id="ser5" level="series">
 	<did>
 	<unittitle>SERIES V.  LIBRARY AND ARCHIVES</unittitle>
 	</did>
@@ -644,7 +645,7 @@
          </scopecontent>
  </c01>
 
-<c01 level="series" id="ser6">
+<c01 id="ser6" level="series">
 	<did>
 		<unittitle>SERIES VI. PUBLICITY</unittitle>
 	</did>
@@ -656,7 +657,7 @@
 <p>As with most National Association departments, Publicity staff also created manuals and other training materials to teach Community Associations how to do effective publicity.  They wrote the 'free literature' available to Community Associations for cultivation of members and fund-raising purposes.  And they trained speakers and wrote speakers manuals. </p>
 <p>During World War I, greatly expanded publicity activities were directed by the War Work Council.  They were focused mainly on spreading the word about services offered by the YWCA and aiding various fund-raising efforts.  The department commissioned a notable series of posters with art work donated to support the war effort.  By 1920, with funding from the Continuation Committee, the department employed 29 people in a newspaper section, photographic and moving pictures section, exhibit section, magazine section, printing section, distribution section, and Speakers Bureau.  When war-time funds were used up the following year, the staff was cut by nearly two thirds.</p>
 <p>The much-reduced staff continued its efforts through the 1920s, adding advocacy for the National Association's new legislative/public affairs agendas to its activities.  Perhaps in response to the National Association's financial woes during the Great Depression, publicity and finance were joined administratively under the Committee for National Support and Interpretation by the mid-1930s.  This committee (whose records are filed under Finance and Development) directed all fund-raising, was in charge of securing quota payments from Community Associations, and responsible for "interpretation" of the work of the National Association to the general public.</p>  
-<p>The strong tendency of this Committee was to view its interpretation role as "merely an aid to money-raising." By 1942 it was clear that Public Relations'  "more elusive&#8230;function as a means of creating public confidence in the YWCA aims and activities and increasing the prestige of the National Board had been completely overlooked."  A Public Relations Committee was formed which steadily advocated for increased, specialized staff until the National Board Executive Committee voted in May of 1944 to remove 'interpretation to the public' from the role of the National Support and Interpretation Committee and establish a Public Relations Department.  (The Committee's name did not reflect this change until its revised charter was approved in 1947.)</p> 
+<p>The strong tendency of this Committee was to view its interpretation role as "merely an aid to money-raising." By 1942 it was clear that Public Relations'  "more elusive…function as a means of creating public confidence in the YWCA aims and activities and increasing the prestige of the National Board had been completely overlooked."  A Public Relations Committee was formed which steadily advocated for increased, specialized staff until the National Board Executive Committee voted in May of 1944 to remove 'interpretation to the public' from the role of the National Support and Interpretation Committee and establish a Public Relations Department.  (The Committee's name did not reflect this change until its revised charter was approved in 1947.)</p> 
 <p>In 1947 the Committee on Financing the National Board asked the John Price Jones Corporation to make a study of public relations, publicity, and fund-raising.  The Jones Report identified a general lack of understanding of "the true significance of the movement" among YWCA staff and membership.  It faulted the National Association for a  lack of focus, making its work too difficult to describe with no overall "story line" on which the publicity could be hung. The National Association adopted some of the report's recommendations-more-or-less centralizing  public relations responsibility in a Public Information Department that reported directly to the General Secretary.  The Publications Department, which was developing plans for a post-War revival of the Woman's Press, remained a separate department.</p> 
 <p>Another recommendation of the Jones report was the development of two annual national events to throw the work of the YWCA "into sharp focus," National YWCA Week highlighting activities in the U.S. and World Fellowship Week focusing on fund-raising for YWCA work overseas.  Public Information coordinated these events, producing packets with such things as posters, press releases, suggestions for programs, and radio and film "spots."</p>
 <p>After a trial period, the National Association concluded that expansion of the publications program was not practical and the Woman's Press (the 'general interest' titles) was sold in 1952.  During the next office reorganization in 1960-61, publications was combined with public relations to form the Communications Bureau. </p>
@@ -766,8 +767,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. GENERAL ADMINISTRATION</unittitle>
  </did>
@@ -4529,7 +4530,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. BUILDINGS AND PROPERTIES</unittitle>
  </did>
@@ -5048,7 +5049,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. FINANCE AND FINANCIAL DEVELOPMENT</unittitle>
  </did>
@@ -6052,14 +6053,14 @@
  <did>
  <container type="box">207</container>
  <container type="folder">19</container>
- <unittitle>"A Fund-Raising Study and Report on the Foreign Division&#8230;," John Price Jones Corporation, 1946</unittitle>
+ <unittitle>"A Fund-Raising Study and Report on the Foreign Division…," John Price Jones Corporation, 1946</unittitle>
  </did>
  </c04>
  <c04>
  <did>
  <container type="box">207</container>
  <container type="folder">20</container>
- <unittitle>"Study and Recommendations Concerning the Public Relations, Publicity and Fund-Raising of the National Board&#8230;," John Price Jones Corporation, 1947</unittitle>
+ <unittitle>"Study and Recommendations Concerning the Public Relations, Publicity and Fund-Raising of the National Board…," John Price Jones Corporation, 1947</unittitle>
  </did>
  </c04>
  <c04>
@@ -7905,7 +7906,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. DATA AND STATISTICS</unittitle>
  </did>
@@ -8827,7 +8828,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. LIBRARY AND ARCHIVES</unittitle>
  </did>
@@ -10608,7 +10609,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. PUBLICITY</unittitle>
  </did>
@@ -11011,5 +11012,4 @@
 </dsc>
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

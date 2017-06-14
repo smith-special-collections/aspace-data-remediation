@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr4.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr4</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr4.xml//EN">manoscmr4</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">George Salter Papers, 1920-1980
@@ -51,18 +52,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Salter, George, 1897-1967</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">George Salter Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1920-1980</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">George Salter Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1920-1980</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 4</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 4</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes (2901 items)</extent>
             <extent encodinganalog="300$a">(2 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">German-born book designer, illustrator, calligrapher, teacher, and scenic designer who moved to the United States in the mid-1930's. Consists of books designed by George Salter and books reflecting his professional interests (704 items), together with proofs, papers, and ephemera relating to his design projects (2,901 pieces).
+         <abstract encodinganalog="520$a" label="Abstract:">German-born book designer, illustrator, calligrapher, teacher, and scenic designer who moved to the United States in the mid-1930's. Consists of books designed by George Salter and books reflecting his professional interests (704 items), together with proofs, papers, and ephemera relating to his design projects (2,901 pieces).
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language> and 
             <language langcode="ger">German</language>
          </langmaterial>
@@ -84,9 +85,9 @@
       <bioghist id="bioghist">
          <head>Biographical Note</head>
          <p>George Salter (1897-1967), book designer and calligrapher was born in Bremen, Germany, 5 October 1897, of Protestant Jewish origin. His father Norbert Salter, born in Austria, was a conservator of music, a cellist and an impresario. His mother, Stefanie Klein, born in Hungary, was an opera singer.</p>
-         <p>George Salter graduated from the Abitur, Helmholtz Gymnasium, in 1916, and did his military service for the German Army in 1917-1918. The following year he studied privately with Ewald D&#252;lberg, and from 1919 to 1924, he studied graphic arts at the School of Arts and Crafts in Berlin with Harold Bengen. In 1921-1922, Salter worked with theater workshops of the Prussian State Theater with Willy Jaeckel and Klaus Richter. From 1922 to 1924 he worked first as an assistant then as a stage designer for various German theaters and opera houses, including Grosse Volksoper, Berlin (1922-1924), St&#228;dtliches Opern und Theaterhaus Barmen Elberfeld, Rhineland (1924-1926), and St&#228;dtliches Opernhaus Berlin-Charlottenburg.</p>
+         <p>George Salter graduated from the Abitur, Helmholtz Gymnasium, in 1916, and did his military service for the German Army in 1917-1918. The following year he studied privately with Ewald Dülberg, and from 1919 to 1924, he studied graphic arts at the School of Arts and Crafts in Berlin with Harold Bengen. In 1921-1922, Salter worked with theater workshops of the Prussian State Theater with Willy Jaeckel and Klaus Richter. From 1922 to 1924 he worked first as an assistant then as a stage designer for various German theaters and opera houses, including Grosse Volksoper, Berlin (1922-1924), Städtliches Opern und Theaterhaus Barmen Elberfeld, Rhineland (1924-1926), and Städtliches Opernhaus Berlin-Charlottenburg.</p>
          <p>In 1927 Salter turned from stage design to typography and lettering, and for six years he worked as a book designer and illustrator for more than twenty German publishing companies, including S. Fisher and Kiepenheuer.</p>
-         <p>From 1931 to 1933, Salter worked as department head of applied graphics and commercial art at H&#246;here Graphishe Fachschule (Berlin Graphic Arts Academy) in Berlin until he was dismissed in March 1933. Salter moved to Baden Baden after being prohibited from work, and emigrated to the U.S. in 1934. In 1935 Salter was expelled from the Reichskulturkammer (R.K.K.).</p>
+         <p>From 1931 to 1933, Salter worked as department head of applied graphics and commercial art at Höhere Graphishe Fachschule (Berlin Graphic Arts Academy) in Berlin until he was dismissed in March 1933. Salter moved to Baden Baden after being prohibited from work, and emigrated to the U.S. in 1934. In 1935 Salter was expelled from the Reichskulturkammer (R.K.K.).</p>
          <p>A year before Salter emigrated, in November 1933, fifty of Salter's book jackets were displayed in a show at Columbia University, arranged by Hellmuth Lehmann-Haupt. George Salter's younger brother Stefan, also a well known book designer, had already been in America for seven years before George arrived. Designer Ernst Reichl had gone to school with Stefan, knew of George's work and recommended him to Bertram Wolff, of H. Wollff Book Manufacturing Co. Mr. Wollff arranged for Salter's passage to the U.S. and employed him as a designer.</p>
          <p>In America, Salter settled in New York as a freelance book jacket designer and illustrator. His first commission was with H. Wolff Books, New York. In 1935-1936 he taught book design and lettering at the School for Library Service of Columbia University on the recommendation of Dr. Lehmann-Haupt. In 1937-1967, he was adjunct professor at Cooper Union Art School, New York, and he also taught at New York University. In 1939-1957, Salter held the position of artistic director of Mercury Publications, New York. In 1960 Salter was the designer and artistic adviser for Atlas Magazine in New York.</p>
          <p>Salter created jackets and book designs for many leading publishing houses including Simon &amp; Schuster, Knopf, Basic Books, Bobbs-Merrill, Random House, Little Brown, and Viking, among others. He designed trade marks for the 20th Century Fund, Lincoln Center, and <title render="italic">Atlas </title>among others,  and lettered a popular UNICEF Christmas card.</p>
@@ -135,7 +136,7 @@
 
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -180,11 +181,11 @@
  <table>
 
   <tgroup cols="5">  
-     <colspec colnum="1" colname="1" colwidth="20"/> 
-     <colspec colnum="2" colname="2" colwidth="20"/> 
-     <colspec colnum="3" colname="3" colwidth="20"/> 
-     <colspec colnum="4" colname="4" colwidth="20"/> 
-     <colspec colnum="5" colname="5" colwidth="20"/> 
+     <colspec colname="1" colnum="1" colwidth="20"/> 
+     <colspec colname="2" colnum="2" colwidth="20"/> 
+     <colspec colname="3" colnum="3" colwidth="20"/> 
+     <colspec colname="4" colnum="4" colwidth="20"/> 
+     <colspec colname="5" colnum="5" colwidth="20"/> 
   <thead>
     <row>
       <entry colname="1"><title render="bold">Title</title></entry> 
@@ -309,49 +310,49 @@
   </row>
   <row>
     <entry colname="1">Atlas Magazine</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Atlas</entry>
     <entry colname="4">Mar-61</entry>
     <entry colname="5">1:7</entry>
   </row>
   <row>
     <entry colname="1">Atlas Magazine</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Atlas</entry>
     <entry colname="4">Aug-61</entry>
     <entry colname="5">1:7</entry>
   </row>
   <row>
     <entry colname="1">Atlas Magazine</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Atlas</entry>
     <entry colname="4">May-62</entry>
     <entry colname="5">1:7</entry>
   </row>
   <row>
     <entry colname="1">Atlas Magazine</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Atlas</entry>
     <entry colname="4">Jun-62</entry>
     <entry colname="5">1:7</entry>
   </row>
   <row>
     <entry colname="1">Atlas Magazine</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Atlas</entry>
     <entry colname="4">Jul-62</entry>
     <entry colname="5">1:7</entry>
   </row>
   <row>
     <entry colname="1">Atlas Magazine</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Atlas</entry>
     <entry colname="4">Aug-62</entry>
     <entry colname="5">1:7</entry>
   </row>
   <row>
     <entry colname="1">Atlas Magazine</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Atlas</entry>
     <entry colname="4">Oct-62</entry>
     <entry colname="5">1:7</entry>
@@ -456,7 +457,7 @@
   </row>
   <row>
     <entry colname="1">Best of Art Young, The</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Vanguard</entry>
     <entry colname="4">1936</entry>
     <entry colname="5">3:100</entry>
@@ -533,56 +534,56 @@
   </row>
   <row>
     <entry colname="1">Book-of-the-Month Club News</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">The Book-of-the-Month Club</entry>
     <entry colname="4">Apr-44</entry>
     <entry colname="5">1:11</entry>
   </row>
   <row>
     <entry colname="1">Book-of-the-Month Club News</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">The Book-of-the-Month Club</entry>
     <entry colname="4">Jun-44</entry>
     <entry colname="5">1:11</entry>
   </row>
   <row>
     <entry colname="1">Book-of-the-Month Club News</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">The Book-of-the-Month Club</entry>
     <entry colname="4">Sep-44</entry>
     <entry colname="5">1:11</entry>
   </row>
   <row>
     <entry colname="1">Book-of-the-Month Club News</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">The Book-of-the-Month Club</entry>
     <entry colname="4">Apr-46</entry>
     <entry colname="5">1:11</entry>
   </row>
   <row>
     <entry colname="1">Borzoi Books: Autumn 1936</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Knopf, Alfred A.</entry>
     <entry colname="4">1936</entry>
     <entry colname="5">2:53</entry>
   </row>
   <row>
     <entry colname="1">Borzoi Books: Autumn 1937</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Knopf, Alfred A.</entry>
     <entry colname="4">1937</entry>
     <entry colname="5">1:52</entry>
   </row>
   <row>
     <entry colname="1">Borzoi Books: Autumn 1937</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Knopf, Alfred A.</entry>
     <entry colname="4">1937</entry>
     <entry colname="5">2:53</entry>
   </row>
   <row>
     <entry colname="1">Borzoi Poe, The</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Knopf, Alfred A.</entry>
     <entry colname="4">n.d.</entry>
     <entry colname="5">2:50</entry>
@@ -603,7 +604,7 @@
   </row>
   <row>
     <entry colname="1">Breaking Into Print</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Simon and Schuster Inc.</entry>
     <entry colname="4">1937</entry>
     <entry colname="5">3:94</entry>
@@ -645,14 +646,14 @@
   </row>
   <row>
     <entry colname="1">Bucher Verzeich</entry>
-    <entry colname="2"></entry>
-    <entry colname="3"></entry>
-    <entry colname="4"></entry>
-    <entry colname="5"></entry>
+    <entry colname="2"/>
+    <entry colname="3"/>
+    <entry colname="4"/>
+    <entry colname="5"/>
   </row>
   <row>
     <entry colname="1">Bucher Verzeich nis 1928</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Kiepenheuer</entry>
     <entry colname="4">n.d.</entry>
     <entry colname="5">1:46</entry>
@@ -820,14 +821,14 @@
   </row>
   <row>
     <entry colname="1">Columbia Journal of World Business</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Columbia University Press</entry>
     <entry colname="4">1965</entry>
     <entry colname="5">1:14</entry>
   </row>
   <row>
     <entry colname="1">Columbia Journal of World Business</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Columbia University Press</entry>
     <entry colname="4">n.d.</entry>
     <entry colname="5">1:14</entry>
@@ -1058,7 +1059,7 @@
   </row>
   <row>
     <entry colname="1">Desk Standard Dictionary</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Funk &amp; Wagnalls</entry>
     <entry colname="4">n.d.</entry>
     <entry colname="5">1:29</entry>
@@ -1716,7 +1717,7 @@
   </row>
   <row>
     <entry colname="1">Holiday Greeting</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">The Book-of-the-Month Club</entry>
     <entry colname="4">1943</entry>
     <entry colname="5">1:11</entry>
@@ -1786,7 +1787,7 @@
   </row>
   <row>
     <entry colname="1">If I Have 4 Apples</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Frederich A. Stokes</entry>
     <entry colname="4">1935</entry>
     <entry colname="5">3:97</entry>
@@ -2611,7 +2612,7 @@
     <entry colname="5">2:52</entry>
   </row>
   <row>
-    <entry colname="1">Once a Greek&#8230;</entry>
+    <entry colname="1">Once a Greek…</entry>
     <entry colname="2">Duerrenmatt, Friedrich</entry>
     <entry colname="3">Knopf, Alfred A.</entry>
     <entry colname="4">n.d.</entry>
@@ -2745,7 +2746,7 @@
   </row>
   <row>
     <entry colname="1">Portable Dante, The</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Viking Press Inc.</entry>
     <entry colname="4">1954</entry>
     <entry colname="5">3:103</entry>
@@ -3074,7 +3075,7 @@
   </row>
   <row>
     <entry colname="1">Schreib das auf, Kisch!</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Erich Reiss Verlag</entry>
     <entry colname="4">n.d.</entry>
     <entry colname="5">3:87</entry>
@@ -3746,7 +3747,7 @@
   </row>
   <row>
     <entry colname="1">War Tomorrow: Will We Keep Out?</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Foreign Policy Association</entry>
     <entry colname="4">n.d.</entry>
     <entry colname="5">1:28</entry>
@@ -3774,7 +3775,7 @@
   </row>
   <row>
     <entry colname="1">Weihnachts Katalog</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">Klinkhardt &amp; Biermann Verlag</entry>
     <entry colname="4">n.d.</entry>
     <entry colname="5">1:47</entry>
@@ -3897,8 +3898,8 @@
  </odd>
 
 
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. ARTWORK BY GEORGE SALTER,
                 <unitdate>1934-1967</unitdate>
@@ -4183,7 +4184,7 @@
                   <did>
                      <container type="box">1</container>
                      <container type="folder">31</container>
-                     <unittitle>Gebr&#252;der Enoch
+                     <unittitle>Gebrüder Enoch
                       <unitdate>(n.d.)</unitdate>
                      </unittitle>
                   </did>
@@ -4606,7 +4607,7 @@
                   <did>
                      <container type="box">2</container>
                      <container type="folder">77</container>
-                     <unittitle>Ph&#246;nix-Verlag, Carl Siwinna
+                     <unittitle>Phönix-Verlag, Carl Siwinna
                       <unitdate>(n.d.)</unitdate>
                      </unittitle>
                   </did>
@@ -5092,7 +5093,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. PERSONAL PAPERS,
                 <unitdate>1920-1966</unitdate>
@@ -5106,7 +5107,7 @@
                   <did>
                      <container type="box">4</container>
                      <container type="folder">126</container>
-                     <unittitle>Letters to G.S. from E. D&#252;lberg
+                     <unittitle>Letters to G.S. from E. Dülberg
                       <unitdate>(1920-1924, n.d.)</unitdate>
                      </unittitle>
                   </did>
@@ -5212,7 +5213,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. BIOGRAPHICAL PAPERS,
                 <unitdate>1940-1980</unitdate>
@@ -5296,7 +5297,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV.  APPENDICES</unittitle>
             </did>
@@ -5323,7 +5324,7 @@
             </c02>
          </c01>
 
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V.  OVERSIZE,
                 <unitdate>1936-1964</unitdate>
@@ -5562,7 +5563,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-add">
+         <c01 id="list-add" level="series">
             <did>
                <unittitle>Additions to the Collection, 2004</unittitle>
             </did>
@@ -5593,7 +5594,7 @@
                   </did>
             </c02>
          </c01>
-<c01 level="series" id="list-add2">
+<c01 id="list-add2" level="series">
             <did>
                <unittitle>Additions to the Collection, 2010  </unittitle>
 	<note><p>Note: The 5 portfolios contain only the covers George Salter designed for American Mercury, Inc. In addition, there is a dummy for an edition of Shakespeare's works (never published?) that Salter designed.</p>

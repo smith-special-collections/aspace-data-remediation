@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg10.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg10</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg10.xml//EN">mnsss292rg10</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 10. Audiovisual Materials</unittitle><unitdate type="inclusive" label="Dates:">1963-2001</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Record. Record Group 10. Audiovisual Materials</unittitle><unitdate label="Dates:" type="inclusive">1963-2001</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:6effd3b2-4526-4935-91ab-32ac7a4347f1</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,7 +49,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
         This Record Group forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>.  It includes professionally produced video and audio recordings of program materials, public service announcements, and training materials; audio soundtracks for slideshows.   There are also in-house recordings of speeches, lectures, and panels; programs at local, regional, national, and World YWCA events, such as conferences and conventions; staff meetings; teleconferences; some YWCA-themed music; and a few interviews and oral histories.  Topics include racism, child care, financial development and health.  
          </abstract>
 </did>
@@ -64,7 +65,7 @@
 
 
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization</head>
 	<p>This record group is divided into two Series: </p>
 	<list>
@@ -144,7 +145,7 @@
 <!-- series descriptions -->
 <dsc type="analyticover">
  	<head>Series Descriptions</head>
-<c01 level="series" id="ser1">
+<c01 id="ser1" level="series">
 	<did>
 		<unittitle>SERIES I.  AUDIO</unittitle>    
             </did>
@@ -153,7 +154,7 @@
 	<p>USE COPIES:  Only those items with Use Copies (selected items in box 1062 and all of box 1066)  can be accessed immediately.  Consult with Sophia Smith Collection staff about options for obtaining Use Copies of other items.  </p>
 </scopecontent>
  </c01>
-<c01 level="series" id="ser2">
+<c01 id="ser2" level="series">
 	<did>
 		<unittitle>SERIES II.  VIDEO</unittitle>    
             </did>
@@ -168,8 +169,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. AUDIO MATERIALS </unittitle>	
  </did>
@@ -313,7 +314,7 @@
  <did>
  <container type="box">1063</container>
  <container type="folder">1</container>
- <unittitle>27th 1976: slide story, "Freedom to Be&#8230;Power to Move" *</unittitle>	<note><p>
+ <unittitle>27th 1976: slide story, "Freedom to Be…Power to Move" *</unittitle>	<note><p>
  <extref href="mnsss292rg9.html#list-ser2-subseriesc-conventions-freedom">[See also Record Group 9.  Series II. Slides]</extref></p>
  	</note>
  </did>
@@ -730,7 +731,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. VIDEOTAPES</unittitle>
  </did>
@@ -2629,7 +2630,7 @@
  <did>
  <container type="box">1090</container>
  <container type="folder">18</container>
- <unittitle>Elizabeth Marti, Ellen Dammond, and Betty Genn&#233; interviewed by Adrienne Jones, 19 May 1989*</unittitle>
+ <unittitle>Elizabeth Marti, Ellen Dammond, and Betty Genné interviewed by Adrienne Jones, 19 May 1989*</unittitle>
  </did>
  </c04>
  <c04>
@@ -2918,7 +2919,7 @@
  <did>
  <container type="box">1093</container>
  <container type="folder">3</container>
- <unittitle>Betty Genn&#233;, VHS</unittitle>
+ <unittitle>Betty Genné, VHS</unittitle>
  </did>
  </c04>
  <c04>
@@ -4935,7 +4936,7 @@
  <c04>
  <did>
  <container type="box">1111</container>
- <unittitle>From box 1085 folder 18 - Elizabeth Marti, Ellen Dammond, and Betty Genn&#233; interviewed by Adrienne Jones, 19 May 1989</unittitle>
+ <unittitle>From box 1085 folder 18 - Elizabeth Marti, Ellen Dammond, and Betty Genné interviewed by Adrienne Jones, 19 May 1989</unittitle>
  </did>
  </c04>
  <c04>
@@ -5209,5 +5210,4 @@
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

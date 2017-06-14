@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss404.html">mnsss404</eadid>
 
     <filedesc>
@@ -35,21 +36,21 @@
 		<author encodinganalog="245$c">Revan Schendler and Burd Schlessinger</author> 
 		<date encodinganalog="260$c">2007</date> 
 		<sponsor>Project funded by the William and Flora Hewlett Foundation</sponsor> 
-		<p>&#169; 2007 Smith College. All rights reserved.</p> 
+		<p>© 2007 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
 <archdesc level="collection" relatedencoding="MARC21">
 <did id="main">
 	<head>Collection Overview</head>
-     		<unittitle label="Title:" encodinganalog="245$a">Population and Reproductive Health Oral History Project</unittitle><unitdate label="Dates:">1971-2006</unitdate>		
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 406</unitid>
+     		<unittitle encodinganalog="245$a" label="Title:">Population and Reproductive Health Oral History Project</unittitle><unitdate label="Dates:">1971-2006</unitdate>		
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 406</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">60 boxes</extent>
 			<extent encodinganalog="300$a">(28 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+		<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
          <repository label="Location:">
@@ -71,7 +72,7 @@
 
 <p>The Population and Reproductive Health Oral History Project began as a discussion in the Population, Reproductive Health, and Family Planning section of the American Public Health Association in the late 1990s. In her newsletter message to the section membership, Deborah R. McFarlane, then chair, discussed the need for archiving the papers of people in the field who were retiring and asked for ideas. Jack C. Smith, an eminent statistician at the Centers for Disease Control and Prevention (CDC), read the column and called Deborah. "Not only do the papers of prominent people in our field need to be saved," he said, "but we need to save their stories. These stories are far more compelling than statistics." Jack convinced Deborah and many others of the need to conduct an oral history project with leaders in the population and reproductive health movements.</p> 
 
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2910.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2910.jpg" linktype="simple" show="embed">
 <daodesc><p>Peggy Curlin in Nepal, n.d.</p></daodesc></dao>
 
 <p>Jack retired shortly after and spent the next several years looking for an appropriate repository, speaking with oral historians, professional organizations, and friends in the field. He secured funding for a pilot project interviewing the directors of the Division of Reproductive Health at CDC: these interviews were conducted by Rebecca Sharpless, director of the Institute for Oral History at Baylor University. Sadly, Jack died in October 2000, but not before he had identified the Sophia Smith Collection (SSC) at Smith College--following discussions with its director, Sherrill Redmon--as the best place to preserve the interviews and make them available for research. He was impressed with the commitment of the SSC to documenting the history of women's health and the reproductive rights movement and felt that the project's records would be a logical complement to the SSC's impressive holdings on the subject, including the Margaret Sanger Papers, the archives of Planned Parenthood Federation of America, and many other collections.</p> 
@@ -93,7 +94,7 @@
 <p>Selected transcripts have been digitized and are available on the <extref href="http://www.smith.edu/libraries/libs/ssc/prh/prh-intro.html">SSC Web site</extref>.</p>
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 <p>The collection is organized into three series:</p>
 
@@ -121,7 +122,7 @@
 <p>The collection is open to research according to the regulations of the Sophia Smith Collection except for the following interviews:  Mohammed Alauddin, Peter J. Donaldson, Elizabeth Maguire, and Margaret Neuse.  See box list below for specific closure periods.</p>
 		</accessrestrict>
 		<userestrict id="admin-use">
-			<p>The Sophia Smith Collection owns copyright to all of the oral histories except for the interview with Mercedes Concepci&#243;n who has retained copyright to her interview.  Requests for permission to publish quotations should be addressed to the Sophia Smith Collection. </p>
+			<p>The Sophia Smith Collection owns copyright to all of the oral histories except for the interview with Mercedes Concepción who has retained copyright to her interview.  Requests for permission to publish quotations should be addressed to the Sophia Smith Collection. </p>
 		</userestrict>
 	</descgrp>
  	<prefercite id="admin-cite">
@@ -224,7 +225,7 @@
 <!-- end controlled access terms -->
 
 <!-- Enter additional information -->
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -239,8 +240,8 @@
 <!-- End additional information -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. ADMINISTRATIVE FILES AND PROJECT HISTORY</unittitle>
  </did>
@@ -281,7 +282,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. INTERVIEWS AND BACKGROUND MATERIALS</unittitle>
  </did>
@@ -315,7 +316,7 @@
  <c02>
  <did>
  <container type="box">7</container>
- <unittitle>Concepci&#243;n, Mercedes</unittitle>
+ <unittitle>Concepción, Mercedes</unittitle>
  </did>
  </c02>
  <c02>
@@ -536,7 +537,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. AUDIOVISUAL MATERIALS</unittitle>
  </did>
@@ -552,7 +553,7 @@
  <c02>
  <did>
  <container type="box">48</container>
- <unittitle>Cates, Concepci&#243;n, Curlin</unittitle>
+ <unittitle>Cates, Concepción, Curlin</unittitle>
  </did>
  </c02>
  <c02>
@@ -641,5 +642,3 @@
 
 </archdesc>
 </ead>
-
-

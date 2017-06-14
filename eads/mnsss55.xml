@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss55.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss55</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss55.xml//EN">mnsss55</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">New England Hospital for Women and Children Records, 1792-1994
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">New England Hospital for Women and Children</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">New England Hospital for Women and Children Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1792 - 1994</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">New England Hospital for Women and Children Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1792 - 1994</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 339</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 339</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">27 boxes</extent>
             <extent encodinganalog="300$a">(9.5 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Women's hospital.  This hospital was, for more than a century, a teaching hospital for women doctors and a place where women could receive treatment from them.  It was the first hospital in Boston to offer obstetrics, gynecology, and pediatrics all in one facility.  Material includes   memoranda, written histories, photographs and scrapbooks. Also documented are such topics as a 1915 controversy over abortion, using chloroform as an anesthetic, and African American interns. The collection includes several hundred letters collected for their autograph value for fund-raising fairs. The letters do not relate to the Hospital; content includes woman suffrage, abolition, freedmen's education, literature, and Civil War relief.  Notable correspondents include:  Louisa May Alcott, Susan B. Anthony, Alice Stone Blackwell, Elizabeth Blackwell, Lydia Maria Child, Thomas Wentworth Higginson, Julia Ward Howe, Henry Wadsworth Longfellow, Elizabeth Palmer Peabody, Lucy Stone, Harriet Beecher Stowe, and John Greenleaf Whittier.
+         <abstract encodinganalog="520$a" label="Abstract:">Women's hospital.  This hospital was, for more than a century, a teaching hospital for women doctors and a place where women could receive treatment from them.  It was the first hospital in Boston to offer obstetrics, gynecology, and pediatrics all in one facility.  Material includes   memoranda, written histories, photographs and scrapbooks. Also documented are such topics as a 1915 controversy over abortion, using chloroform as an anesthetic, and African American interns. The collection includes several hundred letters collected for their autograph value for fund-raising fairs. The letters do not relate to the Hospital; content includes woman suffrage, abolition, freedmen's education, literature, and Civil War relief.  Notable correspondents include:  Louisa May Alcott, Susan B. Anthony, Alice Stone Blackwell, Elizabeth Blackwell, Lydia Maria Child, Thomas Wentworth Higginson, Julia Ward Howe, Henry Wadsworth Longfellow, Elizabeth Palmer Peabody, Lucy Stone, Harriet Beecher Stowe, and John Greenleaf Whittier.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4589.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4589.jpg" linktype="simple" show="embed">
 <daodesc><p>Dr. Marie Elizabeth Zakrzewska, 1896</p></daodesc></dao>
          <p>The New England Hospital for Women and Children (NEH), founded by Dr. Marie Zakrzewska and Ednah Dow Cheney, opened in Boston on July 1, 1862. It was, for more than a century, a teaching hospital where women doctors and nurses could study and practice medicine and women could receive treatment from female doctors.  It was the first hospital in Boston to offer obstetrics, gynecology, and pediatrics all in one facility. The concept grew out of Zakrzewska's close friendships with influential women in Boston. These early supporters included reformers such as Abby May, Caroline Severance and philanthropist, Lucy Goddard. Goddard served as president for the first twenty-fuve years until 1887. Cheney served as secretary, becoming president in 1887. She resigned in 1902. During its first ten years the NEH served primarily the immigrant population of the area. Despite the hard financial times during the Civil War, Dr. Zakrzewska and her supporters raised enough money to sustain the hospital in its early years. Throughout the nineteenth century the NEH grew steadily from ten beds and approximately $150 in assets in 1862 to a budget of $146,000 in 1872. Among the doctors who served the NEH were Dr. Susan Dimock and Dr. Lucy Sewall. The country's first trained nurse, Linda Richards, studied at NEH in 1873; and the first African-American nurse, Mary Eliza Mahoney, graduated in 1875. Born and nourished by separatism, the nineteenth century solution to sexual discrimination, the hospital, by the time of its centennial in 1912, was facing conflict over integration and the challenge of justifying its existence as an all-woman's hospital. This was due in part to a growing tendency among women doctors to achieve professional equality with men, manifested by the integration of the medical profession, specialization, membership in male-dominated medical societies, and affiliation at male dominated hospitals. There were continual financial troubles as well and in the 1950s, the United Community Services of Greater Boston recommended that the hospital be open to male physicians. In response to this pressure, the board of directors adopted one of its recommendations and changed the institution's official name from the New England Hospital for Women and Children to the New England Hospital, thus indicating their willingness to accept men as patients. The controversy continued through the 1950s and 1960s.  Following a long battle led by Blanche Ames Ames, Chair of the hospital's board of directors, the NEH closed in 1969 and reopened as an outpatient clinic. The clinic was named the Dimock Community Health Center.</p>
          <p>See also Hospital With A Heart: Women Doctors and the Paradox of Separatism in the New England Hospital, 1862-1969, by Virginia G. Drachman (Ithaca, New York, Cornell University Press, 1984).</p>
@@ -801,7 +802,7 @@
             </chronitem>
          </chronlist>
       </odd>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -878,13 +879,13 @@
          <subject encodinganalog="650" source="lcsh">Women physicians--United States--History</subject>
          <subject encodinganalog="650" source="lcsh">Women's health services--United States--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
             <p>There are letters and application material regarding internships for <extref href="mnsss29_main.html">Ruth V. Hemenway</extref>, Louise deSchweinitz and Alice B. Tallant whose papers are also in the Sophia Smith Collection.  Related material can also be found in the Ames Family Papers (under Blanche Ames Ames). The Francis A. Countway Library of Medicine at Harvard University has patient records, 1862-1902 and some administrative records. The Schlesinger Library also at Harvard University has administrative records, 1914-1954. There is additional material as well in the Ames Family Papers in the Sophia Smith Collection.</p>
             <p>Additional records of the hospital can be found in at the Francis A. Countway Library of Medicine at Harvard University.</p>
-<p>See also the National Library of Medicine's exhibit <title render="italic" encodinganalog="630" source="lcsh">Changing the Face of Medicine</title> for pages on
+<p>See also the National Library of Medicine's exhibit <title encodinganalog="630" render="italic" source="lcsh">Changing the Face of Medicine</title> for pages on
 <extref href="http://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_163.html">Mary Putnam Jacobi</extref> and
 <extref href="http://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_338.html">Marie E. Zakrzewska</extref>.</p>
          </relatedmaterial>
@@ -973,8 +974,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. HISTORY <unitdate>(1859-1994)</unitdate>
                </unittitle>
@@ -1204,7 +1205,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. PERSONNEL <unitdate>(1868-1963)</unitdate>
                </unittitle>
@@ -1464,7 +1465,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. FINANCIAL <unitdate>(1860-1920)</unitdate>
                </unittitle>
@@ -1589,7 +1590,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. CORRESPONDENCE <unitdate>(1847-1928)</unitdate>
                </unittitle>
@@ -2002,7 +2003,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. SUBJECTS <unitdate>(1876-1963)</unitdate>
                </unittitle>
@@ -2073,7 +2074,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. AUTOGRAPH COLLECTION <unitdate>(1792-1905)</unitdate>
                </unittitle>

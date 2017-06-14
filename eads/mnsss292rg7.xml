@@ -1,6 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg7.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss292rg7</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss292rg7.xml//EN">mnsss292rg7</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">YWCA of the U.S.A. Records.
@@ -34,9 +35,9 @@
         <origination label="Creator:">
 	<corpname encodinganalog="110" source="lcnaf">Young Women's Christian Association of the U.S.A.</corpname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a"><extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>. <lb />Record Group 07. Student Work</unittitle><unitdate type="inclusive" label="Dates:">1906-2000</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">Forms part of MS 324</unitid>
-<langmaterial label="Language of Material:" encodinganalog="546">
+       <unittitle encodinganalog="245$a" label="Title:">YWCA of the U.S.A. Records. Record Group 07. Student Work</unittitle><unitdate label="Dates:" type="inclusive">1906-2000</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">Forms part of MS 324 UUID:5fa1f9e5-6343-4bf5-8e24-53f7d29ab683</unitid>
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -48,7 +49,7 @@
          </repository>
 
            <!-- Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             This record group documents national YWCA work with college and university students.  Materials include minutes; newsletters and other publications; reports; subject and reference files; mailings; a small amount of correspondence; work plans; conference and training materials; and files on individual college and university Student Associations Forms part of the <extref href="mnsss292_main.html">YWCA of the U.S.A. Records</extref>.
          </abstract>
 </did>
@@ -59,7 +60,7 @@
 <p><title render="bold"> Predecessor Organizations</title></p>
  
 <p>The first student Young Women's Christian Association in the United States was founded in 1873 at Normal University, Normal, Illinois.  "Goaded" into action by the growing Young Men's Christian Association movement on college campuses, the Normal University example was soon followed on a number of mid-western campuses.  Some YMCAs at coeducational schools initially included women among their membership, but, by about 1881, the YMCA helped the women to form separate women's associations so that they could concentrate their efforts on young women-whose needs were outside of the mission of the YMCA.  As the movement grew, the YMCA's first collegiate secretary, Luther Wishard, worked in conjunction with the International Board of Women's Christian Associations to organize and develop Student YWCAs on campuses all over the country.</p>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3888.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3888.jpg" linktype="simple" show="embed">
 <daodesc><p>Speaker at Student YWCA, unidentifed, undated</p></daodesc></dao><p>Like the work of Women's Christian Associations among working women in cities, Student Associations focused on young women away from the "steadying influences" of home.  Yet, in contrast to WCAs in cities, Student Association program tended to be deeply and evangelically religious-especially in those Associations with close ties to the YMCA.  In addition to Bible study, "united prayer," and "Christian conversation," the Student Associations aimed to translate the religious zeal of the campus and student summer conferences into commitment to a life of service either at home or abroad.  The mission was "to lead students to faith in God through Jesus Christ, to lead them into membership and service to the Christian Church," to provide "character education" in order to counteract the permissive atmosphere of the campus, and to "influence them to devote themselves to making the will of Christ effective in human society, and to extending the Kingdom of God throughout the world."  In a day when colleges and universities had little or no administrative staff responsible for student affairs, few student clubs, and no student government, student Christian Associations (including Student YWCAs) provided such services, activities, and experiences to the student body.</p>
 <p>Student Associations differed from City Associations in that they tended to be smaller in size, their membership changed completely every four years, they usually made use of space provided by the institution, and they rarely had paid staff, relying instead on volunteer advisors from the college's faculty or administration.</p>  
 <p>In the 1880s, the existing national organization of Women's Christian Associations, the International Board, was a loose confederation of independent City Associations with no permanent staff or headquarters.  The students were convinced that their associations needed the resources and continuity of an ongoing national organization with paid staff.  In 1886, at a summer conference at Lake Geneva, Wisconsin, the women students decided to form their own organization, the National Association of Young Women's Christian Associations.  This organization eventually became known as the American Committee.</p>
@@ -164,7 +165,7 @@
 
 
 </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization</head>
 	<p>The paper records are arranged in 11 series as follows:</p>
 	<list>
@@ -294,7 +295,7 @@
 <!-- series descriptions -->
 <dsc type="analyticover">
  	<head>Series Descriptions</head>
-<c01 level="series" id="ser1">
+<c01 id="ser1" level="series">
 	<did>
 		<unittitle>
 		SERIES I.  GENERAL AND HISTORY
@@ -304,7 +305,7 @@
 <p>This series consists of general historical materials such as timelines and pamphlets about the Student program; records of  inter-departmental cooperative projects (Student-Industrial, Student-Rural); some general information on student interracial work including the 'Self-Audit on Total Integration in Student YWCAs and SCAs' (1966); a few financial records; and papers and dissertations about the Student YWCA.  The materials is arranged alphabetically by subject.</p>
             </scopecontent>
  </c01>
-<c01 level="series" id="ser2">
+<c01 id="ser2" level="series">
 	<did>
 		<unittitle>
 		SERIES II.  COMMITTEES</unittitle>
@@ -313,7 +314,7 @@
    <p> This series consists of minutes and a small amount of other material related to various Committees, Commissions, 'Issue Networks,' and 'Task Groups' made up of members of the National Student Council, the student staff, and the National Board.  It is arranged alphabetically.  </p>
         </scopecontent>
  </c01>
-<c01 level="series" id="ser3">
+<c01 id="ser3" level="series">
 	<did>
 		<unittitle>
 		SERIES III.  DEPARTMENT/DIVISION</unittitle>
@@ -322,7 +323,7 @@
    <p> Material in this series relates to the work of the national and regional student staff.  Included are policies, a small amount of correspondence, some reference materials, staff meeting minutes and reports, job descriptions, and work plans.  Materials are arranged alphabetically.</p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser4">
+<c01 id="ser4" level="series">
 	<did>
 		<unittitle>
 		SERIES IV.  CONFERENCES</unittitle>
@@ -331,7 +332,7 @@
    <p> This series contains a small amount of surviving material about some national and regional student conferences.  Of note are typed proceedings for the 1926-27 Council of Christian Associations Conference and fairly substantial materials from Geneva (mid-west) Region conferences in the 1960s.</p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser5">
+<c01 id="ser5" level="series">
 	<did>
 		<unittitle>
 		SERIES V.  COUNCIL</unittitle>
@@ -340,7 +341,7 @@
    <p> Surviving paper records for National Council consist mainly of  workbooks, minutes, correspondence, and notes from Council meetings, 1960-72.  Regional Council materials dated prior to World War I tend to be minutes and reports, post-War materials include mailings, local arrangements, training materials, and correspondence.  The Geneva (mid-west) and Pacific Northwest Regions are especially well-documented from the 1930s through the 1960s.  There are significant materials from the Rocky Mountain Region from the 1950s and 1960s.</p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser6">
+<c01 id="ser6" level="series">
 	<did>
 		<unittitle>
 		SERIES VI.  NATIONAL STUDENT ASSEMBLY</unittitle>
@@ -349,7 +350,7 @@
    <p> Included are minutes and reports, and planning, study and training materials for the YWCA's National Student Assembly.  Earlier materials, 1922-40, consist primarily of minutes and reports.</p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser7">
+<c01 id="ser7" level="series">
 	<did>
 		<unittitle>
 		SERIES VII.  ORGANIZATIONS</unittitle>
@@ -359,7 +360,7 @@
 <p>Materials include publications, committee/commission records, training materials, joint YM-YW Student staff meetings and conference materials.</p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser8">
+<c01 id="ser8" level="series">
 	<did>
 		<unittitle>
 		SERIES VIII.  PROGRAMS AND PROJECTS</unittitle>
@@ -368,7 +369,7 @@
    <p> This series contains correspondence, memoranda, mailings, proposals, and reports from a variety of Student Summer Projects and other training programs.  The materials are arranged alphabetically.  Joint YMCA-YWCA Programs and Projects are filed in SERIES VII.</p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser9">
+<c01 id="ser9" level="series">
 	<did>
 		<unittitle>
 		SERIES IX.  PUBLICATIONS</unittitle>
@@ -377,7 +378,7 @@
    <p> This series consists of YWCA publications by, for, or about students.  Included are general pamphlets, administrative handbooks, religious education materials, newsletters, and program materials.  The materials are arranged alphabetically by title.  Publications put out jointly by the YM and the YW are filed under NICC/NSCY in SERIES VII. </p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser10">
+<c01 id="ser10" level="series">
 	<did>
 		<unittitle>
 		SERIES X.  REPORTS</unittitle>
@@ -386,7 +387,7 @@
    <p> This series contains general reports on the Student Program; annual reports of the Student Committee Chair and Department Executive; and periodic/quarterly reports by Student Secretaries/Staff.  The bulk of the material is Secretary reports dated between 1908 and 1926.  As elsewhere in the National Association records, the Secretary reports are a goldmine of information.  </p>
         </scopecontent>
 </c01>
-<c01 level="series" id="ser11">
+<c01 id="ser11" level="series">
 	<did>
 		<unittitle>
 		SERIES XI.  STUDENT ASSOCIATIONS AND REGISTERED STUDENT GROUPS</unittitle>
@@ -399,8 +400,8 @@
 <!-- End Series descriptions -->
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. GENERAL AND HISTORY</unittitle>
  </did>
@@ -774,7 +775,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. COMMITTEES</unittitle>
  </did>
@@ -1094,7 +1095,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. DEPARTMENT/DIVISION</unittitle>
  </did>
@@ -1312,7 +1313,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. CONFERENCES</unittitle>
  </did>
@@ -1449,7 +1450,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. COUNCIL</unittitle>	<note><p><ref target="list-ser7-ymca_and_ywca">[see also Organizations, YMCA and YWCA below]</ref></p>
  	</note>
@@ -1789,7 +1790,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. NATIONAL STUDENT ASSEMBLY (YWCA only)</unittitle>	<note><p><ref target="list-ser7-ymca_and_ywca">[see also National Student Assembly under Organizations,YMCA and YWCA below]</ref></p>
  	</note>
@@ -1835,7 +1836,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. ORGANIZATIONS</unittitle>
  </did>
@@ -2631,7 +2632,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. PROGRAMS AND PROJECTS</unittitle>
  </did>
@@ -2847,7 +2848,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. PUBLICATIONS</unittitle>
  </did>
@@ -3016,7 +3017,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser10">
+ <c01 id="list-ser10" level="series">
  <did>
  <unittitle>SERIES X. REPORTS</unittitle>
  </did>
@@ -3733,7 +3734,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser11">
+ <c01 id="list-ser11" level="series">
  <did>
  <unittitle>SERIES XI. STUDENT ASSOCIATIONS AND REGISTERED STUDENT GROUPS</unittitle>
  </did>
@@ -6031,5 +6032,4 @@
 
 <!-- End container list -->
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

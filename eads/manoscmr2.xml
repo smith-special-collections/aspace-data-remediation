@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr2.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr2</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr2.xml//EN">manoscmr2</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Edward Butscher Collection of papers on Sylvia Plath, 1918-1976</titleproper>
@@ -44,16 +45,16 @@
          <date>July 1992</date>
          
          <sponsor>Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2002 Smith College. All rights reserved.</p>
+         <p>© 2002 Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Edward Butscher (collector)</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Edward Butscher Collection of papers on Sylvia Plath</unittitle><unitdate encodinganalog="245$f" type="inclusive">1918-1976</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Edward Butscher Collection of papers on Sylvia Plath</unittitle><unitdate encodinganalog="245$f" type="inclusive">1918-1976</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1946-1976</unitdate>
 
          <physdesc label="Quantity:">
@@ -67,8 +68,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
          </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Teacher and writer from New York. Includes Butscher's correspondence about Plath and typescripts of his biographies, copies of some of Plath's correspondence, writings, and family documents, critical essays about Plath, and photographs.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Teacher and writer from New York. Includes Butscher's correspondence about Plath and typescripts of his biographies, copies of some of Plath's correspondence, writings, and family documents, critical essays about Plath, and photographs.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -103,7 +104,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -204,8 +205,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="ser1" level="series">
             <did>
                <unittitle>Series I. Correspondence,
             <unitdate>1951-76</unitdate>
@@ -1091,7 +1092,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="ser2">
+         <c01 id="ser2" level="series">
             <did>
                <unittitle>Series II. Writings,
             <unitdate>1945-75</unitdate>
@@ -2997,7 +2998,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="ser3">
+         <c01 id="ser3" level="series">
             <did>
                <unittitle>Series III. Other Papers,
             <unitdate>1918-74</unitdate>
@@ -3115,7 +3116,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="ser4">
+         <c01 id="ser4" level="series">
             <did>
                <unittitle>Series IV. Photographs,
             <unitdate>1949-62</unitdate>

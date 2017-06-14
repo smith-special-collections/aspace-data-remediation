@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss129.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss129</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss129.xml//EN">mnsss129</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Susan Brownell Anthony Papers, 1894-1979
@@ -49,18 +50,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Anthony, Susan B. (Susan Brownell), 1820-1906</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Susan B. Anthony Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1894-1979</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Susan B. Anthony Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1894-1979</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 5</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 5 UUID:1bc09687-a5e7-468e-8070-448f8e271945</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -72,8 +73,8 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Suffragist, feminist, temperance leader, and abolitionist. Anthony began her political career with the Women's New York State Temperance Society, and became involved in women's rights, suffrage, and the abolitionist movements. The bulk of the collection consists of material by outside parties about Anthony, including biographical material; published writings by Anthony; memorabilia; correspondence; autograph collection; and photographs.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Suffragist, feminist, temperance leader, and abolitionist. Anthony began her political career with the Women's New York State Temperance Society, and became involved in women's rights, suffrage, and the abolitionist movements. The bulk of the collection consists of material by outside parties about Anthony, including biographical material; published writings by Anthony; memorabilia; correspondence; autograph collection; and photographs.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -101,7 +102,7 @@
     State Temperance Society in 1852. By 1856, Anthony was
     William Lloyd Garrison's primary representative in New York
     for the American Anti-slavery Society.</p>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5676.jpg" altrender="left">
+<dao actuate="onLoad" altrender="left" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5676.jpg" linktype="simple" show="embed">
 <daodesc><p>Susan Brownell Anthony at age 36, 1856</p></daodesc></dao> 
          <p>It is without a doubt that Susan B. Anthony was most
     passionate about the cause of women's rights. Securing the
@@ -257,7 +258,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -305,7 +306,7 @@
          <subject encodinganalog="650" source="lcsh">Feminists--United
                               States--History--19th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -372,8 +373,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL AND
         WRITINGS</unittitle>
@@ -666,7 +667,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>

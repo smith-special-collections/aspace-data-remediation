@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca118.xml//EN" countrycode="us" mainagencycode="manosca">manosca118</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca118.xml//EN">manosca118</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Massimo Salvadori Papers, 1908-1992 (bulk 1952-1972)
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -51,18 +52,18 @@
 </date>
 
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="collection">
+<archdesc level="collection" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Salvadori, Massimo.</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Massimo Salvadori Papers</unittitle>
+<unittitle encodinganalog="245$a" label="Title:">Massimo Salvadori Papers</unittitle>
 <unitdate encodinganalog="245$f" type="inclusive">1908-1992</unitdate><unitdate encodinganalog="245$g" type="bulk">1952-1972</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 42</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:abf8117c-0e21-4b52-b472-fdc2675da890</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">7 boxes</extent>
 <extent encodinganalog="300$a">(2.9 linear ft.)</extent>
@@ -73,7 +74,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">The Massimo Salvadori Papers document his commitment to freedom and anti-fascism.  The bulk of the materials consist of copies of the shorter publications as well as annotated manuscripts for a number of his other works.  Other materials include biographical material, Smith College faculty photographs, publications, typewritten manuscripts and galley proofs, course materials for Smith College history classes, and correspondence related to the School for Freedom seminars.
+<abstract encodinganalog="520$a" label="Abstract:">The Massimo Salvadori Papers document his commitment to freedom and anti-fascism.  The bulk of the materials consist of copies of the shorter publications as well as annotated manuscripts for a number of his other works.  Other materials include biographical material, Smith College faculty photographs, publications, typewritten manuscripts and galley proofs, course materials for Smith College history classes, and correspondence related to the School for Freedom seminars.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -118,7 +119,7 @@
 </item>
 </list>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -152,8 +153,8 @@
 <subject encodinganalog="650" source="lcsh">History--Study and teaching (Higher)--Massachusetts--Northampton.</subject>
 </controlaccess>
 
-<dsc type="combined" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>Series I: Biographical Materials 
 <unitdate>1956-1993</unitdate>
@@ -171,7 +172,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>Series II: Photographsca 
 <unitdate>1960, n.d</unitdate>
@@ -190,7 +191,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>Series III: Publications 
 <unitdate>1937-1973</unitdate>
@@ -401,7 +402,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>Series IV: Writings: Manuscripts 
 <unitdate>1961-1965</unitdate>
@@ -547,7 +548,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>Series V: Course Materials 
 <unitdate>1966-1972</unitdate>
@@ -615,7 +616,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser6">
+<c01 id="list-ser6" level="series">
 <did>
 <unittitle>Series VI: The School for Freedom 
 <unitdate>1965-1969</unitdate>

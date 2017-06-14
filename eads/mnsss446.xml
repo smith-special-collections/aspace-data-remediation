@@ -1,7 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss446.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss446</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss446.xml//EN">mnsss446</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">New York City Women Community Activists Oral History Project, 2004-2006</titleproper>
@@ -33,15 +34,15 @@
   <archdesc level="collection" relatedencoding="MARC21">
     <did id="main">
        <head>Collection Overview</head>
-       <unittitle label="Title:" encodinganalog="245$a">New York City Women Community Activists Oral History Project</unittitle><unitdate type="inclusive" label="Dates:">2004-2006</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">New York City Women Community Activists Oral History Project</unittitle><unitdate label="Dates:" type="inclusive">2004-2006</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 524</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 524</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">1 box</extent>
         <extent encodinganalog="300$a">(.5 linear ft.) </extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -53,7 +54,7 @@
          </repository>
 
           <!-- MRJ:  Edit as appropriate  -->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
 Interviews conducted by Tamar Carroll for her dissertation on women's community activism in New York City, circa 1955-95, including activists involved in Mobilization For Youth on New York City's Lower East Side and members of the National Congress of Neighborhood Women.  
 	</abstract>
 </did>
@@ -136,5 +137,4 @@ Interviews conducted by Tamar Carroll for her dissertation on women's community 
 </relatedmaterial>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

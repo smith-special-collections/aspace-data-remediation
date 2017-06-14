@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss28.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss28</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss28.xml//EN">mnsss28</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Teresina Rowell Havens Papers, 1891-1994
@@ -50,17 +51,17 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Havens, Teresina R. (Teresina Rowell)</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Teresina R. Havens Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1891-1994</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 211</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Teresina R. Havens Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1891-1994</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 211</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">8 boxes</extent>
             <extent encodinganalog="300$a">(10.5 linear ft.)</extent>
@@ -72,15 +73,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Professor of comparative religion; Founder, spiritual retreat <title>Temenos</title>, Shutesbury, MA.  Included in the collection are scrapbooks from Japan and the coal mining town of Bradley, Ohio. Correspondence with family members provides insight into her personal and spiritual development. Havens' papers include dairies;  Smith College student papers; published articles; teaching materials; and the papers of her mother, Teresina Peck Rowell.
+         <abstract encodinganalog="520$a" label="Abstract:">Professor of comparative religion; Founder, spiritual retreat <title>Temenos</title>, Shutesbury, MA.  Included in the collection are scrapbooks from Japan and the coal mining town of Bradley, Ohio. Correspondence with family members provides insight into her personal and spiritual development. Havens' papers include dairies;  Smith College student papers; published articles; teaching materials; and the papers of her mother, Teresina Peck Rowell.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-        <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6165.jpg" altrender="right">
+        <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6165.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Teresina Rowell Havens, undated</p></daodesc></dao> <p>Teresina Rowell was born January 13, 1909, the daughter of Wilfrid Asa Rowell, a Congregational minister, and Teresina Peck Rowell (Smith 1894). Following her graduation from Smith College in 1929, Rowell went to Europe. She traveled during the summer and then studied comparative religion at the University of London. She returned to the United States in 1931 and began study at Yale under a fellowship awarded by the National Council of Religion in Higher Education. She received a Ph.D. in comparative religion from Yale in 1933. Between 1933 and 1936 Rowell taught Sociology of Religion at Carleton College, Northfield, Minnesota. In 1936 she visited Japan to investigate the relationship between Buddhism and the Imperial (Shinto) Cult. While there, she encountered the Itto-En sect, a group of Buddhist Christians who were practicing voluntary poverty. She gave up her traveling money to the founder of the order and became an apostle and missionary. She returned to the U.S. in 1937. In 1940 she became a Quaker after working as summer staff at the Quaker retreat and study center at Pendle Hill, Wallingford, Pennsylvania. Influenced by socialist Quakers and the journal of the Quaker, John Woolman, she lived with coal-miners' families in eastern Ohio in the late-1930s. In August 1942, with three other Pendle Hill students, she moved to the black ghetto of Chester, Pennsylvania, and set up a work and prayer commune where she did volunteer housework and other manual labor for families.  In 1945, Joseph Durald Havens joined the commune and he and Teresina were married in January 1947. A daughter, Lucia, was born in 1947 and a son, Wilfrid Thwing, in 1951. She was also a staff member at Pendle Hill from 1942 to 1948.</p>
 
@@ -113,7 +114,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -157,8 +158,8 @@
          <persname encodinganalog="600" source="lcnaf">Havens, Teresina R. (Teresina Rowell)</persname>
          <persname encodinganalog="600" source="lcnaf">Rowell, Teresina Peck, 1872-1945</persname>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL, MEMORABILIA AND PHOTOGRAPHS</unittitle>
             </did>
@@ -237,7 +238,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -376,7 +377,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
             </did>
@@ -456,7 +457,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. TEACHING AND LECTURE MATERIAL</unittitle>
             </did>
@@ -546,7 +547,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. SUBJECTS</unittitle>
             </did>

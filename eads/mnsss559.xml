@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss559.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss559</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss559.xml//EN">mnsss559</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Asian American Reproductive Justice Oral History Project, 2012-2014</titleproper>
@@ -37,15 +35,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Kwon, Juhee</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Asian American Reproductive Justice Oral History Project</unittitle><unitdate type="inclusive" label="Dates:">2012-2014</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 722</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Asian American Reproductive Justice Oral History Project</unittitle><unitdate label="Dates:" type="inclusive">2012-2014</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 722</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">17 interviews</extent>
 
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -56,7 +53,7 @@ repositorycode="mnsss">MS 722</unitid>
             </address>
          </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Feminists; Journalists; Social reformers; Reproductive health advocates.  Seventeen oral history interviews conducted by Juhee Kwon with organizers in the Reproductive Justice movement with the specific aim of capturing voices of Asian American women and their fight for reproductive justice since the 1980s. [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith Collection if you would like one sent to you.]
          </abstract>
 
@@ -187,5 +184,4 @@ available.</p>
     </list> </p>
       </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

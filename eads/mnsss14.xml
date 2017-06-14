@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss14.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss14</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss14.xml//EN">mnsss14</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Dorothy Smith Dushkin Papers, 1906-1989
@@ -50,17 +51,17 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Dushkin, Dorothy</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Dorothy Dushkin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1906-1989</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 243</unitid>
+         <unittitle encodinganalog="245$a" label="Title:">Dorothy Dushkin Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1906-1989</unitdate>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 243</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">15 boxes</extent>
             <extent encodinganalog="300$a">(9 linear ft.)</extent>
@@ -72,15 +73,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Composer and co-founder of music schools.  Musical scores and recordings make up a large portion of the collection.  Dushkin's diaries, kept from age 15 to 84, are highly detailed and personal and reflect a dual life as professional composer and family caretaker. Winnetka and Kinhaven music schools are documented by correspondence, writings, and photographs.  Correspondents include Jessie Lloyd O'Connor, Caroline Bedell Thomas, and musician Nadia Boulanger.
+         <abstract encodinganalog="520$a" label="Abstract:">Composer and co-founder of music schools.  Musical scores and recordings make up a large portion of the collection.  Dushkin's diaries, kept from age 15 to 84, are highly detailed and personal and reflect a dual life as professional composer and family caretaker. Winnetka and Kinhaven music schools are documented by correspondence, writings, and photographs.  Correspondents include Jessie Lloyd O'Connor, Caroline Bedell Thomas, and musician Nadia Boulanger.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4032.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4032.jpg" linktype="simple" show="embed">
 <daodesc altrender="left"><p>Dorothy Smith Dushkin, 1919<lb />
                              Photograph by Koehne (Chicago)</p></daodesc></dao>
          <p>Dorothy Brewster Smith was born in Chicago in 1903.  She attended public schools in Glencoe and Winnetka, Illinois, and Bradford Academy in Massachusetts.  She was graduated from Smith College with honors in music in 1925.  A year later she went to Paris to study composition with Nadia Boulanger, where she met her future husband, David Dushkin, another Boulanger student.</p>
@@ -125,7 +126,7 @@
          <p>Series I is arranged alphabetically.  The personal correspondence (Series II) is alphabetical within the subseries "family" and "friends and associates."  (Professional correspondence is located in Series V., Professional Activities.)  Within series III, the diaries are arranged chronologically.  There are separate folders for Dorothy's other writings and David's poems and miscellaneous writings.  Series IV is divided into the following subseries: miscellaneous memorabilia; scrapbooks; photographs; and discs.  The photographs are arranged according to individual family members, family or other groups, other individuals, and places.  The documentary and audiovisual materials in series V are divided into the following subseries: composing; recorder repertory and manufacture; Winnetka School of Music; Kinhaven Music School; miscellaneous; recordings; and scores.
       </p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -176,7 +177,7 @@
          <persname encodinganalog="600" source="lcnaf">Dushkin, Samuel, 1891- --Correspondence</persname>
          <persname encodinganalog="600" source="lcnaf">Dushkin, Alexander M. (Alexander Mordecai), 1890-1976-Correspondence</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -184,8 +185,8 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I. BIOGRAPHICAL MATERIAL</unittitle>
             </did>
@@ -255,7 +256,7 @@
 	</c02>
 
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. PERSONAL CORRESPONDENCE</unittitle>
             </did>
@@ -776,7 +777,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. DIARIES AND OTHER WRITINGS</unittitle>
             </did>
@@ -909,7 +910,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. MEMORABILIA AND PHOTOGRAPHS</unittitle>
             </did>
@@ -1202,7 +1203,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>Series V. PROFESSIONAL ACTIVITIES</unittitle>
             </did>

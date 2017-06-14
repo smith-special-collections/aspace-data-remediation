@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss378.html">mnsss378</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss378.html">mnsss378</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Women's Action for New Directions Records, 1973-2008 (ongoing)</titleproper>
@@ -13,7 +12,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss378.html">mnsss37
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2006</date>
+         <date calendar="gregorian" era="ce">© 2006</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -37,7 +36,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss378.html">mnsss37
    <date encodinganalog="260$c">2006</date>
    
 
-       <p>&#169; 2006 Smith College. All rights reserved.</p>
+       <p>© 2006 Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -47,14 +46,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss378.html">mnsss37
      <corpname  encodinganalog="110" source="lcnaf">Women's Action for New
  Directions</corpname >
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Women's Action for New Directions Records</unittitle><unitdate label="Dates:">1973-2012 (ongoing)</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 317</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Women's Action for New Directions Records</unittitle><unitdate label="Dates:">1973-2012 (ongoing)</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 317</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">66 boxes</extent>
           <extent encodinganalog="300$a">(72.25 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
 
@@ -67,7 +65,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss378.html">mnsss37
             </address>
          </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Pacifist, anti-nuclear organization. Records include correspondence and memoranda; videotapes, films and photographs; printed material, including pamphlets and flyers; articles, periodicals, and newsletters; educational and staff training materials and manuals; reports; personnel files; financial records; Board meeting and staff meeting agendas and minutes; speeches; publicity material; conference material; and memorabilia. NOTE: There is no container list online for this finding aid.  You may contact the Sophia Smith Collection if you want one sent to you.
+      <abstract encodinganalog="520$a" label="Abstract:">Pacifist, anti-nuclear organization. Records include correspondence and memoranda; videotapes, films and photographs; printed material, including pamphlets and flyers; articles, periodicals, and newsletters; educational and staff training materials and manuals; reports; personnel files; financial records; Board meeting and staff meeting agendas and minutes; speeches; publicity material; conference material; and memorabilia. NOTE: There is no container list online for this finding aid.  You may contact the Sophia Smith Collection if you want one sent to you.
     </abstract>
 </did>
 <bioghist id="bioghist">
@@ -80,7 +78,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss378.html">mnsss37
       <p> NOTE: There is no container list online for this finding aid.  You may contact the Sophia Smith Collection if you want one sent to you.</p>
 </scopecontent>
  
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -126,5 +124,4 @@ record.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

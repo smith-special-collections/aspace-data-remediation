@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss516.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss516</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss516.xml//EN">mnsss516</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Fannie Clement Papers, 1912-1941</titleproper>
@@ -37,16 +35,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Clement, Fannie F.</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Fannie Clement Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1912-1941</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 643</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Fannie Clement Papers</unittitle><unitdate label="Dates:" type="inclusive">1912-1941</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 643</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">1 box</extent>
         <extent encodinganalog="300$a">(.5 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -57,12 +53,12 @@ repositorycode="mnsss">MS 643</unitid>
             </address>
          </repository>
            <!-- MRJ Edit as needed-->
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             WWI relief worker; Nurse. The papers include correspondence, reports, papers, and
 pamphlets relating to Clement's administration of the American Red Cross rural nursing program in
 Appalachia, circa 1912-1917, and various of accounts of her visits to impoverished communities in
 that area.  There is also correspondence from Clement to her family while working with the Smith
-College Relief Unit in Gr&#233;court, France, after World War I (1919).
+College Relief Unit in Grécourt, France, after World War I (1919).
          </abstract>
        
 </did>
@@ -75,7 +71,7 @@ College Relief Unit in Gr&#233;court, France, after World War I (1919).
  <!--  Add paragraph marks to text -->
 <scopecontent id="scope">
       <head>Scope and Contents of the Collection</head>
-     <p>The papers include correspondence, reports, papers, and pamphlets relating to Clement's administration of the American Red Cross rural nursing program in Appalachia, circa 1912-1917, and various of accounts of her visits to impoverished communities in that area.  There is also correspondence from Clement to her family while working with the Smith College Relief Unit in Gr&#233;court, France, after World War I (1919).</p>
+     <p>The papers include correspondence, reports, papers, and pamphlets relating to Clement's administration of the American Red Cross rural nursing program in Appalachia, circa 1912-1917, and various of accounts of her visits to impoverished communities in that area.  There is also correspondence from Clement to her family while working with the Smith College Relief Unit in Grécourt, France, after World War I (1919).</p>
        <p>[NOTE: The contents list for this collection is not online.  Contact the Sophia Smith Collection if you would like one sent to you.]</p>
        
 </scopecontent>
@@ -115,5 +111,4 @@ College Relief Unit in Gr&#233;court, France, after World War I (1919).
 </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

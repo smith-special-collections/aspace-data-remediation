@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss507.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss507</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss507.xml//EN">mnsss507</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Saralee Hamilton Papers</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Hamilton, Saralee, 1945-2006</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Hamilton, Saralee, 1945-2006</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Saralee Hamilton Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1911-2013</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1972-2006</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 629</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Saralee Hamilton Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1911-2013</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1972-2006</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 629</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">17 boxes</extent>
 		<extent encodinganalog="300$a">(9.5 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 , <language langcode="spa">Spanish</language>
 </langmaterial>
 	<repository label="Location:">
@@ -64,7 +65,7 @@
 
 	<p>Saralee Mary Lamb Hamilton was born October 28, 1945.  She was raised by her mother and grandparents in Glasgow, Pennsylvania.  While studying for a B.A. at Dunbarton College of Holy Cross in Washington, DC, she was active in the National Federation of Catholic Students and worked on Barry Goldwater's 1964 presidential campaign.  After a year of graduate work at New York University, Hamilton left for Philadelphia where, in 1968, she and a group of friends founded the Institute for Educational Development.  The IED worked to facilitate communication between college students and administrators, and organized summer workshops and anti-Vietnam war activities.</p>
 
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc-629-7488lr.jpg" altrender="center">
+<dao actuate="onLoad" altrender="center" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc-629-7488lr.jpg" linktype="simple" show="embed">
 <daodesc><p>Saralee Hamilton at the March for Women's Equality/Women's<lb /> Lives in  Washington, DC, April 9, 1989</p></daodesc></dao> 
 
 <p>In 1971, Hamilton was among the radical student activists who founded the New American Movement (NAM) to be a successor organization to Students for a Democratic Society (SDS).  In 1973-74, she worked on NAM's efforts to impeach President Richard M. Nixon. 
@@ -90,7 +91,7 @@
  
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into seven series:</p>
 	<list>
@@ -263,8 +264,8 @@ Access to audiovisual materials may first require production of research copies.
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS AND PHOTOGRAPHS</unittitle>
  </did>
@@ -357,7 +358,7 @@ Access to audiovisual materials may first require production of research copies.
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. ORGANIZATIONS</unittitle>
  </did>
@@ -1018,7 +1019,7 @@ Access to audiovisual materials may first require production of research copies.
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. CONFERENCES</unittitle>
  </did>
@@ -1375,7 +1376,7 @@ Access to audiovisual materials may first require production of research copies.
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. RESOURCES</unittitle>
  </did>
@@ -1558,7 +1559,7 @@ Access to audiovisual materials may first require production of research copies.
  <did>
  <container type="box">10</container>
  <container type="folder">18</container>
- <unittitle>"Women&#8230;a world survey" by Ruth Leger Sivard, World Priorities<unitdate> 1985</unitdate></unittitle>
+ <unittitle>"Women…a world survey" by Ruth Leger Sivard, World Priorities<unitdate> 1985</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -1597,7 +1598,7 @@ Access to audiovisual materials may first require production of research copies.
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. SUBJECT FILES</unittitle>
  </did>
@@ -2085,7 +2086,7 @@ Access to audiovisual materials may first require production of research copies.
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. AUDIOVISUAL MATERIALS</unittitle>
  </did>
@@ -2196,7 +2197,7 @@ Access to audiovisual materials may first require production of research copies.
  <did>
  <container type="box">16</container>
  <container type="folder">14</container>
- <unittitle>"Seeds of Promise&#8230;The Critical Roles of Women in Food Production, OEF International<unitdate> 1987 </unitdate>[VHS]</unittitle>
+ <unittitle>"Seeds of Promise…The Critical Roles of Women in Food Production, OEF International<unitdate> 1987 </unitdate>[VHS]</unittitle>
  </did>
  </c03>
  <c03>
@@ -2231,7 +2232,7 @@ Access to audiovisual materials may first require production of research copies.
  <did>
  <container type="box">16</container>
  <container type="folder">19</container>
- <unittitle>"Four Walls&#8230;No Borders: Mexican Women and the Struggle for Survival" film by Rachael Kamel<unitdate> 1990</unitdate></unittitle>
+ <unittitle>"Four Walls…No Borders: Mexican Women and the Struggle for Survival" film by Rachael Kamel<unitdate> 1990</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2377,7 +2378,7 @@ Access to audiovisual materials may first require production of research copies.
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS AND ARTIFACTS</unittitle>
  </did>
@@ -2400,5 +2401,3 @@ Access to audiovisual materials may first require production of research copies.
 
   </archdesc>
 </ead>
-
-

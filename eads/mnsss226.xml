@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss226.html">mnsss226</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss226.html">mnsss226</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Jessie Anderson Chase Papers, 1927-1936</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss226.html">mnsss22
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss226.html">mnsss22
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss226.html">mnsss22
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Chase, Jessie Anderson, 1865-</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Jessie Anderson Chase Papers</unittitle><unitdate label="Dates:">1927-1936</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 32</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Jessie Anderson Chase Papers</unittitle><unitdate label="Dates:">1927-1936</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 32</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">1 box</extent>
           <extent encodinganalog="300$a">(.5 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,12 +66,12 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss226.html">mnsss22
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Author and teacher. Papers include photographs, writings, and clippings.
+      <abstract encodinganalog="520$a" label="Abstract:">Author and teacher. Papers include photographs, writings, and clippings.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6334.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6334.jpg" linktype="simple" show="embed">
 <daodesc><p>The "hall" of Jessie Chase's home in West Newbury, <lb />Mass., setting of her story "Seventy Plus", undated</p></daodesc></dao>
        <p>Born 1865; married Robert Savage and had two daughters, Elizabeth and Josephine,
 and a son, Charles. Chase published stories in <title render="italic">St. Nicholas</title>, <title render="italic">Life</title>, and <title render="italic">American Magazine</title>;
@@ -87,7 +85,7 @@ was also a member of the Women's Club of Newburyport, Massachusetts. She died in
       <p>NOTE: There is no container list for this collection. Contact the Sophia Smith Collection for more information.</p>
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -123,5 +121,4 @@ Northampton, Mass.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

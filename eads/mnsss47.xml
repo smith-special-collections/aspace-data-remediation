@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss47.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss47</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss47.xml//EN">mnsss47</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Azalia Emma Peet Papers, 1902-1974
@@ -50,18 +51,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Peet, Azalia Emma, 1889-1973</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Azalia Emma Peet Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1902 - 1974</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Azalia Emma Peet Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1902 - 1974</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 120</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 120</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes</extent>
             <extent encodinganalog="300$a">(2 linear ft.)</extent>
@@ -73,15 +74,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Missionary and teacher.  The Azalia Peet papers consist of photographs, correspondence, memorabilia, and speeches. Of particular interest in the collection diaries and letters written by Peet from Japan, and from the Japanese American internment camps in the United States during World War II. Her early diaries reflect her home life and her personal struggle to come to terms with her vocation.
+         <abstract encodinganalog="520$a" label="Abstract:">Missionary and teacher.  The Azalia Peet papers consist of photographs, correspondence, memorabilia, and speeches. Of particular interest in the collection diaries and letters written by Peet from Japan, and from the Japanese American internment camps in the United States during World War II. Her early diaries reflect her home life and her personal struggle to come to terms with her vocation.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1144.jpg" altrender="right">
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1144.jpg" linktype="simple" show="embed">
 <daodesc><p>Azalia Peet in Orange, California, 1945</p></daodesc></dao>
          <p>Azalia Emma Peet was born in Rochester, New York, September 3, 1887, daughter of Marion K. Green and James C. Peet. She graduated from Smith College in 1910 and returned home to New York. After much spiritual and personal self-examination and following her mother's death in 1913 and her father's remarriage in 1916, Peet decided to become a Christian missionary.</p>
          <p>She left in September 1916 for Tokyo, Japan, under the auspices of the United Methodist Church. Between September 1917 and May 1921 she did evangelistic work with high school students, supervised kindergarten work, and organized clubs for nurses and working women. In June 1921 she returned to the United States on her first furlough, speaking in churches and doing graduate work at Boston University. She received a master's degree in 1923 and returned to Japan the same year. Peet worked with women and girls in Fukuoka, living in a hostel for working women and teaching women at the government high school and college. In 1927 she moved to Hakodate, supervising two kindergartens. She became ill in January 1928 and was sent back to the United States on her second furlough which was spent in Portland, Oregon and Rochester, New York. Returning to Japan in September 1929, she supervised kindergartens and did missionary work with students until June 1935. During her third furlough (June 1935 to August 1936), Peet did graduate work at Cornell University and at Merrill Palmer Training School in Detroit. She returned to Japan in September 1936 and was evacuated in March 1941. During that period Peet did social welfare, childcare, and kindergarten work in Kushikino and taught high school in Nagasaki.</p>
@@ -107,7 +108,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -205,8 +206,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL
           <unitdate>(1902-61)</unitdate>
@@ -392,7 +393,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE
           <unitdate>(1908-72)</unitdate>
@@ -440,7 +441,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS
           <unitdate>(1923-59)</unitdate>

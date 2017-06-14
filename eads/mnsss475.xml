@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss475.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss475</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss475.xml//EN">mnsss475</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Carol Leonard Papers, 1966-2008</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Leonard, Carol</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Leonard, Carol</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Carol Leonard Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1966-2010</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Carol Leonard Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1966-2010</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 206</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 206</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">11 boxes</extent>
 		<extent encodinganalog="300$a">(4.75 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -60,7 +61,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4693.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4693.jpg" linktype="simple" show="embed">
 <daodesc><p>Governor Hugh Gallen signing  New Hampshire <lb />midwifery legislation, with group of women <lb />including Carol Leonard looking on, 15 August 1981</p></daodesc></dao>
 	<p>Carol Leonard was born in Bangor, Maine on June 10, 1950. She received a B.S. in biology from New England College in Henniker, New Hampshire in 1974. She trained as a midwife from 1975 to 1977 with Dr. Francis Brown and has been a practicing midwife since 1978. In 1979 she co-founded the Concord (New Hampshire) Midwifery Service, where she practiced until 1987. In 2000, she founded the Longmeadow Farm Midwifery Service and Birthing Home at her farm in Hopkinton, New Hampshire, one of only two midwife-owned and operated, free-standing birth centers in the state.  Leonard was a board member of the New Hampshire Feminist Health Center, where she trained and was a well-woman health care provider, as well. She was the first midwife certified to practice in New Hampshire (1985) and a charter member of the Midwives Alliance of North America (MANA) (1982). Through the years she held numerous positions within MANA and was elected president of the organization in 1986. In 1984 Leonard received the Bronze Medal for Bravery from the Australian government for saving a man's life, and in 1990 she went to the former Soviet Union to study birthing practices. This trip was videotaped and featured on ABC's 20/20 in April 1991.  Leonard is on the faculty of Birthwise Midwifery School in Bridgton, Maine, a nationally accredited program.  She is the author of <title render="italic">Lady's Hands, Lions Heart: Memoirs of a Midwife</title> (2008), co-author, with Elizabeth Davis, of <title render="italic">Women's Wheel of Life: Thirteen Archetypes of Woman at Her Fullest Power</title> (1996), and published a two-part series on menopause titled <title render="italic">Women of the Thirteenth Moon: The Baby Boomer's Survival Guide to Menopause</title>. </p>
     </bioghist>
@@ -69,7 +70,7 @@
 	<p>The Carol Leonard Papers consist of 3 linear ft., and date from 1966 to 2008.  They offer a glimpse into the general practice of midwifery, the legal status of lay midwifery in the State of New Hampshire, and Leonard's profession as a midwife.  Types of materials include correspondence, clippings, articles, photographs, case files, surveys, legal documents, and writings.  They document the general practice of midwifery, the legal status of lay midwifery in the State of New Hampshire, and Leonard's profession as a midwife.  Types of materials include  correspondence, primarily from Leonard's clients expressing gratittude and describing their experiences and feelings following childbirth; clippings and articles about her; documentation of her travel to Russia in 1990 to observe childbirth practices and to help improve maternity care there. There are also records of Leonard's work with the New Hampshire Division of Public Health in formalizing the legalization and regulation of lay midwifery in that state; general information about the practice and legal status of midwifery in New Hampshire, the U.S. and other countries; materials pertaining to Leonard's involvement in several midwifery practices, as well as correspondence and printed materials pertaining to the early years of the Midwives Alliance of North America.  Materials pertaining to Carol Leonard's writings include a pre-publication copy of her book <title render="italic">Lady's Hands, Lions Heart: Memoirs of a Midwife</title>.  There are also photographs of Leonard, her clients, family and friends.</p>
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -196,8 +197,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -249,7 +250,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -290,7 +291,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PROFESSIONAL ACTIVITIES</unittitle>
  </did>
@@ -475,7 +476,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. WRITINGS</unittitle>
  </did>
@@ -524,7 +525,7 @@
 	</accessrestrict>
 </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -536,7 +537,7 @@
  </c02>
 
  </c01>
- <c01 level="series" id="list-serBK">
+ <c01 id="list-serBK" level="series">
  <did>
  <unittitle>BOOKS ON SHELF</unittitle>
  </did>
@@ -552,5 +553,3 @@
 
   </archdesc>
 </ead>
-
-

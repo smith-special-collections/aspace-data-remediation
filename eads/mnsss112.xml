@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss112.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss112</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss112.xml//EN">mnsss112</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">The Sturgis-Tappan Family Papers, 1812-1982</titleproper>
@@ -53,18 +54,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Sturgis-Tappan Family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Sturgis-Tappan Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1812-1982</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Sturgis-Tappan Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1812-1982</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 186</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 186</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">4 boxes</extent>
             <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
@@ -76,16 +77,16 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Authors and Poets.  Approximately two thirds of material is correspondence and the rest is writings and drawings.  Includes pencil drawings and watercolors, drafts of poems, and one published volume.  Some biographical material.
+         <abstract encodinganalog="520$a" label="Abstract:">Authors and Poets.  Approximately two thirds of material is correspondence and the rest is writings and drawings.  Includes pencil drawings and watercolors, drafts of poems, and one published volume.  Some biographical material.
 
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5081.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc5081.jpg" linktype="simple" show="embed">
 <daodesc>
 <p>Caroline Sturgis-Tappan at about age 40</p></daodesc></dao>
 
@@ -115,7 +116,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -164,7 +165,7 @@
          <subject encodinganalog="650" source="lcsh">Women poets, American--19th century</subject>
          <subject encodinganalog="650" source="lcsh">Transcendentalists (New England)</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -214,8 +215,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL <unitdate>(1836-1982)</unitdate>
                </unittitle>
@@ -291,7 +292,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1812-1913)</unitdate>
                </unittitle>
@@ -695,7 +696,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS AND DRAWINGS <unitdate>(1849-59)</unitdate>
                </unittitle>
@@ -791,7 +792,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

@@ -1,10 +1,11 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss471.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss471</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss471.xml//EN">mnsss471</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="245$a">Carmen V&#225;zquez Papers, 1951-2007</titleproper>
+        <titleproper encodinganalog="245$a">Carmen Vázquez Papers, 1951-2007</titleproper>
         <subtitle>Finding Aid</subtitle>
        <author encodinganalog="245$c">Finding aid prepared by Burd Schlessinger.</author>
      </titlestmt>
@@ -33,18 +34,18 @@
     <did id="main">
        <head>Collection Overview</head>
         <origination label="Creator:">
-           <persname encodinganalog="100" source="lcnaf">V&#225;zquez, Carmen</persname>
+           <persname encodinganalog="100" source="lcnaf">Vázquez, Carmen</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Carmen V&#225;zquez Papers</unittitle><unitdate type="inclusive" label="Dates:">1951-2007</unitdate>
+       <unittitle encodinganalog="245$a" label="Title:">Carmen Vázquez Papers</unittitle><unitdate label="Dates:" type="inclusive">1951-2007</unitdate>
 
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 557</unitid>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 557</unitid>
 
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">13 boxes</extent>
         <extent encodinganalog="300$a">(14.75 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>
 </langmaterial>
         <repository label="Location:">
@@ -55,23 +56,23 @@
             </address>
          </repository>
 
-           <abstract label="Abstract:" encodinganalog="520$a">
-            Lesbian activist. The Carmen V&#225;zquez Papers document Vazquez's activism for gay and lesbian rights; they include materials pertaining to gay and lesbian health issues, as well as Vazquez's interest and involvement in broader issues of race and class. The collection includes diaries, correspondence, biographical information, an interview, photographs, memorabilia, writings speeches.
+           <abstract encodinganalog="520$a" label="Abstract:">
+            Lesbian activist. The Carmen Vázquez Papers document Vazquez's activism for gay and lesbian rights; they include materials pertaining to gay and lesbian health issues, as well as Vazquez's interest and involvement in broader issues of race and class. The collection includes diaries, correspondence, biographical information, an interview, photographs, memorabilia, writings speeches.
                  </abstract>
 </did>
  
 <!--  Add paragraph marks to text -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4237.jpg" altrender="right">
-<daodesc><p>Carmen V&#225;zquez at March for Women's Lives,<lb />Washington, D.C., 2004</p></daodesc></dao>
-<p>The oldest of seven children, Carmen V&#225;zquez (b. 1949) was born in Puerto Rico and raised in Harlem. She attended the City University of New York, earning a Bachelors in English and a Masters in Education. V&#225;zquez lived and worked in San Francisco for almost two decades, becoming a seasoned activist and movement leader in causes ranging from immigrant rights to lesbian health. She was the founding director of the Women's Building in San Francisco, the Director of the National Network for Immigrant and Refugee Rights, and the Coordinator of Lesbian and Gay Health Services for the San Francisco Department of Public Health. She was also the co-founder and co-chair of Somos Hermanas, a Central American Women's Solidarity Network.</p>
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4237.jpg" linktype="simple" show="embed">
+<daodesc><p>Carmen Vázquez at March for Women's Lives,<lb/>Washington, D.C., 2004</p></daodesc></dao>
+<p>The oldest of seven children, Carmen Vázquez (b. 1949) was born in Puerto Rico and raised in Harlem. She attended the City University of New York, earning a Bachelors in English and a Masters in Education. Vázquez lived and worked in San Francisco for almost two decades, becoming a seasoned activist and movement leader in causes ranging from immigrant rights to lesbian health. She was the founding director of the Women's Building in San Francisco, the Director of the National Network for Immigrant and Refugee Rights, and the Coordinator of Lesbian and Gay Health Services for the San Francisco Department of Public Health. She was also the co-founder and co-chair of Somos Hermanas, a Central American Women's Solidarity Network.</p>
 
-<p>She returned to New York in 1994 as the Director of Public Policy for the LGBT Community Center in New York City. She has published in many journals, magazines, and anthologies and is a featured speaker at activist conferences including the NGLTF's Creating Change. V&#225;zquez is currently the Deputy Director of Empire State Pride Agenda and lives in Brooklyn.</p>
+<p>She returned to New York in 1994 as the Director of Public Policy for the LGBT Community Center in New York City. She has published in many journals, magazines, and anthologies and is a featured speaker at activist conferences including the NGLTF's Creating Change. Vázquez is currently the Deputy Director of Empire State Pride Agenda and lives in Brooklyn.</p>
     </bioghist> 
 <scopecontent id="scope">
       <head>Scope and Contents of the Collection</head>
-     <p>The Carmen V&#225;zquez Papers document V&#225;zquez's activism for gay, lesbian, bi and transgender rights; they include materials pertaining to gay and lesbian health issues, as well as V&#225;zquez's interest and involvement in broader issues of race and class. The collection includes diaries, correspondence, biographical information, an interview, photographs, memorabilia, writings speeches by V&#225;zquez re: LGBT rights; files pertaining to V&#225;zquez's work for LGBT rights, including the LGBT Community Center, Empire State Pride Agenda Federation, and Equality Federation Institute.  The activities of the National Lesbian, Gay, Bisexual and Transgender Community Center are also well-documented.</p>
+     <p>The Carmen Vázquez Papers document Vázquez's activism for gay, lesbian, bi and transgender rights; they include materials pertaining to gay and lesbian health issues, as well as Vázquez's interest and involvement in broader issues of race and class. The collection includes diaries, correspondence, biographical information, an interview, photographs, memorabilia, writings speeches by Vázquez re: LGBT rights; files pertaining to Vázquez's work for LGBT rights, including the LGBT Community Center, Empire State Pride Agenda Federation, and Equality Federation Institute.  The activities of the National Lesbian, Gay, Bisexual and Transgender Community Center are also well-documented.</p>
        <p>[NOTE: The contents list for this collection is not online.  Contact the Sophia Smith Collection if you would like one sent to you.]</p>
 </scopecontent>
 
@@ -91,7 +92,7 @@
 <prefercite id="admin-cite">
         <head>Preferred Citation</head>
           <p>Please use the following format when citing materials from this collection:</p>
-          <p>Carmen V&#225;zquez Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+          <p>Carmen Vázquez Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
 </prefercite>
 <accruals encodinganalog="584" id="admin-accruals">
                <p>Periodic additions to collection are expected and may not be reflected in this record.</p>
@@ -99,7 +100,7 @@
 
 
 <acqinfo id="admin-acqinfo">
-          <p>The papers were donated to the Sophia Smith Collection by Carmen M. V&#225;zquezin 2006.</p>
+          <p>The papers were donated to the Sophia Smith Collection by Carmen M. Vázquezin 2006.</p>
 </acqinfo>
 <processinfo id="admin-process">
           <p>Processed by Burd Schlessinger, 2006. </p> 
@@ -112,7 +113,7 @@
 	<subject encodinganalog="650" source="lcsh">Gay rights--History--Sources</subject>
 	<subject encodinganalog="650" source="lcsh">Gays--Health and hygiene</subject>
 	<subject encodinganalog="650" source="lcsh">Hispanic American women--Biography</subject>
-	<persname encodinganalog="600" source="lcnaf">V&#225;zquez, Carmen</persname> 
+	<persname encodinganalog="600" source="lcnaf">Vázquez, Carmen</persname> 
 	<corpname encodinganalog="610" source="lcsh">The Lesbian, Gay, Bisexual and Transgender Community Center (New York, N.Y.)</corpname> 
 </controlaccess>
 <relatedmaterial id="add-related">

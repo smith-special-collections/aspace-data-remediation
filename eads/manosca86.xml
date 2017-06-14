@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca86.xml//EN" countrycode="us" mainagencycode="manosca">manosca86</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca86.xml//EN">manosca86</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Thomas Corwin Mendenhall Personal Papers, 1910-1999
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,17 +51,17 @@
 <date>2002
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Mendenhall, Thomas Corwin. </persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Thomas Corwin Mendenhall Personal Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1910-1999</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 32</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Thomas Corwin Mendenhall Personal Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1910-1999</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 32 UUID:b153d934-57ac-41b1-a245-d1c5a2b73bad</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">24 boxes</extent>
 <extent encodinganalog="300$a">(10 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">President, Smith College and professor, Yale University.  Papers include correspondence, memorabilia, writings, hobbies, course materials, Rhodes Scholarship information, professional records, news clippings, portraits and photographs.
+<abstract encodinganalog="520$a" label="Abstract:">President, Smith College and professor, Yale University.  Papers include correspondence, memorabilia, writings, hobbies, course materials, Rhodes Scholarship information, professional records, news clippings, portraits and photographs.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -114,7 +115,7 @@
 </item>
 </list>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -158,7 +159,7 @@
 <persname encodinganalog="700" source="lcnaf">Mendenhall, Cornelia.</persname>
 <persname encodinganalog="700" source="lcnaf">Mendenhall, Dorothy Reed, 1874-1964.</persname>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -166,8 +167,8 @@
 </p>
 </relatedmaterial>
 </descgrp>
-<dsc type="combined" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>SERIES I. BIOGRAPHICAL MATERIAL</unittitle>
 <physdesc>
@@ -438,7 +439,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>SERIES II. EDUCATION</unittitle>
 <physdesc>
@@ -998,7 +999,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>SERIES III. PERSONAL CORRESPONDENCE</unittitle>
 <physdesc>
@@ -2881,7 +2882,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>SERIES IV. PROFESSIONAL RECORDS</unittitle>
 <physdesc>
@@ -3103,7 +3104,7 @@
 </note>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>SERIES V. WRITINGS and SPEECHES</unittitle>
 <physdesc>
@@ -4326,7 +4327,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser6">
+<c01 id="list-ser6" level="series">
 <did>
 <unittitle>SERIES VI. PHOTOGRAPHS and EPHEMERA</unittitle>
 <physdesc>

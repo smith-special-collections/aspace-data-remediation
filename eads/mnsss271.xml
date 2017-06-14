@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss271.html">mnsss271</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss271.html">mnsss271</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Rhoda Elizabeth McCulloch Papers, 1880s-1978</titleproper>
@@ -13,7 +12,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss271.html">mnsss27
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005, Revised 2008</date>
+         <date calendar="gregorian" era="ce">© 2005, Revised 2008</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -36,7 +35,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss271.html">mnsss27
    <num>MS 98</num>
 
    <date encodinganalog="260$c">2005, revised 2008</date>
-          <p>&#169; 2008  Smith College. All rights reserved.</p>
+          <p>© 2008  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -45,15 +44,14 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss271.html">mnsss27
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">McCulloch, Rhoda Elizabeth, 1884-</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Rhoda Elizabeth McCulloch Papers</unittitle><unitdate label="Dates:">1884-1978</unitdate>
+   <unittitle encodinganalog="245$a" label="Title:">Rhoda Elizabeth McCulloch Papers</unittitle><unitdate label="Dates:">1884-1978</unitdate>
          <unitdate encodinganalog="245$g" type="bulk">1915-1944</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 98</unitid>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 98</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">4 boxes</extent>
           <extent encodinganalog="300$a">(1.75 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -65,16 +63,16 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss271.html">mnsss27
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Editor; YWCA worker; Women's rights advocate; Pacifist. Papers include McCulloch's published writings and notes on education, religion, social progress, working women, marriage and the women's movement;   speeches; biographical material; memorabilia; photographs; a scrapbook kept by McCulloch's mother; and writings by close friend and pacifist Henrietta Roelofs. 
+      <abstract encodinganalog="520$a" label="Abstract:">Editor; YWCA worker; Women's rights advocate; Pacifist. Papers include McCulloch's published writings and notes on education, religion, social progress, working women, marriage and the women's movement;   speeches; biographical material; memorabilia; photographs; a scrapbook kept by McCulloch's mother; and writings by close friend and pacifist Henrietta Roelofs. 
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6429.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6429.jpg" linktype="simple" show="embed">
 <daodesc><p>Rhoda McCulloch, undated</p></daodesc></dao>
        <p>Rhoda Elizabeth McCulloch was born October 17, 1884 in Fremont, Ohio, to Rollin Smiley and Fannie Sargent (Wise) McCulloch.  McCulloch graduated from Fremont High School in 1902. While attending Oberlin College (1906-10), McCulloch first joined the YWCA, eventually becoming President of the campus Association.  A Latin and Greek major, she earned her BA in 1910.</p>
        <p>McCulloch studied at the YWCA National Training School in New York City for the 1910-11 academic year.  She served as General Secretary (chief executive) of the Colorado Springs YWCA from 1911 to 1913, then moved to the national YWCA staff at its headquarters in New York City.  McCulloch started as a Special Worker in the Department of Conventions and Conferences (1913-14), moving from there to the Publications Department, where she would remain until retirement.  In Publications, McCulloch worked her way up from Special Worker (1914-15)  to Editorial Secretary (1916-18) to Editor (1918-23) to Editor-in-Chief of publications in 1923.  In this capacity McCulloch edited the YWCA's monthly magazine <title render="italic">The Womans Press</title>* and oversaw production of a large catalog of technical materials and pamphlets for the Association use as well as a catalog of general interest titles.  Retirement tributes cite her "spacious and all-embracing" purpose,  "social vision, dynamic faith," and "great powers as an interpreter."</p>
-       <p>From 1922 to 1927 McCulloch and E.C. Carter shared executive duties for the Conference on the Christian Way of Life, later known as The Inquiry.  A national organization, The Inquiry sought to foster discussion on "industrial, racial, and international problems in the hope of discovering whether there is a modern Christian way of living&#8230;."</p>
+       <p>From 1922 to 1927 McCulloch and E.C. Carter shared executive duties for the Conference on the Christian Way of Life, later known as The Inquiry.  A national organization, The Inquiry sought to foster discussion on "industrial, racial, and international problems in the hope of discovering whether there is a modern Christian way of living…."</p>
        <p>McCulloch's activities in the 1930s and 40s included work for the World Alliance for International Friendship Through Religion, the National Conference of Christians and Jews, the Federal Council of the Churches of Christ in America, the National Conference on the Cause and Cure of War, and the American Council of the Institute of Pacific Relations.  McCulloch was on the editorial board of Reinhold Niebuhr's "bi-weekly journal of  Christian opinion," <title render="italic">Christianity in Crisis</title>, from its founding in 1941 until 1948, and a contributing editor until 1951.</p>
        <p>McCulloch retired from the post of Editor-in-Chief at the YWCA in 1944, but remained involved in the organization, chairing the planning for the 1946 and 1949 National Conventions, and planning the five-week International Study Conference on  Women in World Reconstruction, a special project for the YWCA's Foreign Division that took place in the summer of 1948.  She also served as Secretary of YWCA's Constitution and Membership Commissions.</p>
        <p>McCulloch shared her home in New York City and a "spinster's shack" at 23 Talmadge Hill Rd. in New Canaan, Connecticut, with Henrietta Roelofs of the national YWCA staff.  Roelofs was the daughter of George and Mary Dykema Roelofs of Grand Rapids, Michigan.   She earned a BA from Lake Erie College in 1906 and then attended the YWCA precursor organization's Secretarial Training Institute.  She joined the YWCA of the U.S.A. Home Department staff in 1908.  From then until her retirement in 1939, Roelofs worked in various capacities for the National Association.</p>
@@ -135,8 +133,8 @@ Smith Collection.</p>
 <!-- End additional information -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS, CORRESPONDENCE, AND PHOTOGRAPHS</unittitle>
  </did>
@@ -197,7 +195,7 @@ Smith Collection.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. ORGANIZATIONS</unittitle>
  </did>
@@ -294,7 +292,7 @@ Smith Collection.</p>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. SPEECHES AND WRITINGS</unittitle>
  </did>
@@ -413,7 +411,7 @@ Smith Collection.</p>
 </c03>
 </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. HENRIETTA ROELOFS</unittitle>
  </did>
@@ -467,5 +465,4 @@ Smith Collection.</p>
  </c01>
 </dsc>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

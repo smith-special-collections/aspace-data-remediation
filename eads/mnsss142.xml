@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss142.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss142</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss142.xml//EN">mnsss142</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Helen Gurley Brown Papers, 1938-2012
@@ -49,19 +50,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Brown, Helen Gurley</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Helen Gurley Brown Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1938-2001 [ongoing]</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Helen Gurley Brown Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1938-2001 [ongoing]</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1961-1990</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 22</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 22</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">47 boxes</extent>
             <extent encodinganalog="300$a">(22.5 linear ft.)</extent>
@@ -73,14 +74,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Editor of <title>Cosmopolitan</title> magazine, advertising copywriter, journalist, and author. The bulk of the material provides a comprehensive picture of Brown's intertwined personal and professional lives. Materials include speeches and scripts; writings; audiovisual material; and memorabilia, as well as records from <title>Cosmopolitan</title>. A large selection of photographs include images of celebrity friends. There is extensive correspondence from celebrities, publishers, fans, and others. Correspondents include Edward Koch, Letty Cottin Pogrebin, and Barbara Walters.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Editor of <title>Cosmopolitan</title> magazine, advertising copywriter, journalist, and author. The bulk of the material provides a comprehensive picture of Brown's intertwined personal and professional lives. Materials include speeches and scripts; writings; audiovisual material; and memorabilia, as well as records from <title>Cosmopolitan</title>. A large selection of photographs include images of celebrity friends. There is extensive correspondence from celebrities, publishers, fans, and others. Correspondents include Edward Koch, Letty Cottin Pogrebin, and Barbara Walters.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3108.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3108.jpg" linktype="simple" show="embed">
 <daodesc><p>Helen Gurley Brown at a book signing, 1963</p></daodesc></dao>
 <p>         Author and magazine editor Helen Gurley Brown was born in Green Forest, Arkansas on 18 February 1922 to Ira and Cleo (Sisco) Gurley, both schoolteachers. Though the family was poor, Cleo quit teaching to rear her two daughters. In Helen's early childhood, the Gurleys moved to Little Rock when Ira was elected to the state legislature. He was killed in an elevator accident when Helen was ten. Cleo struggled to support her children in depression-era Arkansas, first moving back with family in the Ozark region, and then taking Helen and her older sister Mary to Los Angeles in the late 1930s. In Los Angeles, Mary contracted polio, which strained the Gurley's already grim financial condition. Despite hardship, Helen excelled socially and academically. She was active in leadership positions in several high school clubs and graduated class valedictorian.</p>
 
@@ -137,7 +138,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -303,8 +304,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1938-2000)</unitdate>
                </unittitle>
@@ -716,7 +717,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1939, 1950-2001)</unitdate>
                </unittitle>
@@ -1558,7 +1559,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SPEECHES AND APPEARANCES <unitdate>(1962-2001), </unitdate>
                </unittitle>
@@ -1737,7 +1738,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. WRITINGS <unitdate>(1940, 1956-2000), </unitdate>
                </unittitle>
@@ -2687,7 +2688,7 @@
 		  </c03> 
                   </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. <title>COSMOPOLITAN</title>
                   <unitdate>(1965-2000)</unitdate>
@@ -3540,7 +3541,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. OVERSIZE MATERIALS <unitdate>(1965-96)</unitdate>
                </unittitle>

@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss499.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss499</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss499.xml//EN">mnsss499</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Agnes Lauga Papers, 1940-1989</titleproper>
@@ -26,8 +24,7 @@ mainagencycode="mnsss">mnsss499</eadid>
          <date normal="yyyy-mm-dd">July 26, 2010</date>
     </creation>
     <langusage>Finding aid written in
-        <language encodinganalog="546" langcode="eng"
-scriptcode="latn">English.</language>
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
       </langusage>
     </profiledesc>
   </eadheader>
@@ -37,15 +34,14 @@ scriptcode="latn">English.</language>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Lauga, Agnes</persname>
         </origination>
-        <unittitle label="Title:" encodinganalog="245$a">Agnes Lauga Papers</unittitle><unitdate type="inclusive" label="Dates:">1940-1989</unitdate>
-       <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 577</unitid>
+        <unittitle encodinganalog="245$a" label="Title:">Agnes Lauga Papers</unittitle><unitdate label="Dates:" type="inclusive">1940-1989</unitdate>
+       <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 577</unitid>
    <physdesc label="Quantity:">
            <extent encodinganalog="300$a">2 boxes</extent>
            <extent encodinganalog="300$a">(2.5 linear ft.) </extent>
    </physdesc>
 
-   <langmaterial label="Language of Material:" encodinganalog="546">
+   <langmaterial encodinganalog="546" label="Language of Material:">
         <language langcode="eng">English</language>
    French
    </langmaterial>
@@ -57,7 +53,7 @@ scriptcode="latn">English.</language>
              </address>
           </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Social worker; Social work administrator and educator. The papers include
 correspondence, photographs, memorabilia, writings by Lauga and others, teaching materials, and other documents related to
 Lauga's teaching and administrative work at the Albert Einstein School of Medicine and her involvement in the Alumnae Association of the Smith College School for Social Work.  
@@ -70,7 +66,7 @@ Collection if you would like one sent to you.]
 
    <bioghist id="bioghist">
           <head>Biographical Note</head>
-       <p> Agnes Louise Cosgrove Th&#233;naud Lauga was born  February 6, 1911 to Elizabeth and John
+       <p> Agnes Louise Cosgrove Thénaud Lauga was born  February 6, 1911 to Elizabeth and John
    Cosgrove in Providence, RI.  She earned her Bachelor's degree from Pembroke College, Brown
    University (1932), her Master's degree from Brown University (1937);  and her MSW from the Smith
    College School for Social Work in 1944.  From 1944 to 1947, she worked at Family Service in
@@ -84,7 +80,7 @@ Collection if you would like one sent to you.]
    in key positions in the Alumnae Association, including President and Chair of the Annual Fund.
    Lauga wrote extensively, taught at workshops and institutes, and served on panels of major
    professional associations.  In 1985, She received the Smith College School for Social Work's Day-
-   Garrett Award.  Agnes married Franc Th&#233;naud in 1937.  He died while serving as a translator at
+   Garrett Award.  Agnes married Franc Thénaud in 1937.  He died while serving as a translator at
    the Nuremberg Trials.  She later married Henri Lauga and they lived in New York.  She died in
    2007.</p>
    </bioghist>
@@ -136,4 +132,3 @@ Collection if you would like one sent to you.]
 
 </archdesc>
 </ead>
-

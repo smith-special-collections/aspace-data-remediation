@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss329.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss329</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss329.xml//EN">mnsss329</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Inter-American Commission of Women Records, 1928-1976</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Inter-American Commission of Women</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Inter-American Commission of Women</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Inter-American Commission of Women Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1928-1976</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Inter-American Commission of Women Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1928-1976</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">312</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">312</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">6 boxes</extent>
 		<extent encodinganalog="300$a">(2.25 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language> and <language langcode="spa">Spanish</language></langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language> and <language langcode="spa">Spanish</language></langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
 		<address>
@@ -59,7 +60,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Historical Note</head>
-	<p>The Inter-American Commission of Women (IACW)/Comisi&#243;n Interamericano de Mujeres (CIM) was established in 1928 "to work for the extension of civil, political, economic, and social rights to the women of [the Americas]; to study their problems and propose means of solving them."   The IACW was established in response to pressure applied on the Pan American Union during the Sixth International Conference of American States in Havana, Cuba.  Its Secretariat is attached to the General Secretariat of the Pan American Union's successor, the Organization of American States, as such it is the first international governmental entity established to advocate for women's political and civil rights.</p>  
+	<p>The Inter-American Commission of Women (IACW)/Comisión Interamericano de Mujeres (CIM) was established in 1928 "to work for the extension of civil, political, economic, and social rights to the women of [the Americas]; to study their problems and propose means of solving them."   The IACW was established in response to pressure applied on the Pan American Union during the Sixth International Conference of American States in Havana, Cuba.  Its Secretariat is attached to the General Secretariat of the Pan American Union's successor, the Organization of American States, as such it is the first international governmental entity established to advocate for women's political and civil rights.</p>  
 
 <p>Doris Stevens, of the National Woman's Party in the U.S., was appointed first chairman of the Commission of twenty-one members, one from each country in North, Central, and South America.  Stevens served from 1928 until 1939.</p>
 
@@ -80,7 +81,7 @@
 	<p>The Inter-American Commission of Women Records consist of 2.25 linear ft. consisting primarily of bulletins, publications, and reports (many in Spanish). There is also a small amount of correspondence; clippings; biographical sketches of Doris Stevens, first chair of the IACW; photographs of the 11th Assembly; and other materials.  The bulk of the materials are dated between 1933 and 1959.  Included are IACW reports to the International Conference of American States (1933-48) and the United Nations Commission on the Status of Women (1948-63).</p>
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -149,8 +150,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. GENERAL AND HISTORICAL MATERIALS</unittitle>
  </did>
@@ -204,7 +205,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. ASSEMBLY</unittitle>
  </did>
@@ -312,7 +313,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. CONFERENCES AND SEMINARS</unittitle>
  </did>
@@ -378,7 +379,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. REPORTS</unittitle>
  </did>
@@ -498,5 +499,3 @@
 
   </archdesc>
 </ead>
-
-

@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss579.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss579</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss579.xml//EN">mnsss579</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Aileen C. Hernandez Papers, 1926-2014</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Hernandez, Aileen C.</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Hernandez, Aileen C.</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Aileen C. Hernandez Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1926-2014</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Aileen C. Hernandez Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1926-2014</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">730</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">730</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">153 boxes </extent>
 		<extent encodinganalog="300$a">(151 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>, <language langcode="spa">Spanish</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>, <language langcode="spa">Spanish</language>
 </langmaterial>
 	
 	<repository label="Location:">
@@ -168,5 +169,3 @@
 
   </archdesc>
 </ead>
-
-

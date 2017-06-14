@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss141.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss141</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss141.xml//EN">mnsss141</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Jane Addams Papers, 1904-1960
@@ -49,19 +50,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Addams, Jane, 1860-1935</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Jane Addams Papers</unittitle>
+         <unittitle encodinganalog="245$a" label="Title:">Jane Addams Papers</unittitle>
          <unitdate encodinganalog="245$f" type="inclusive">1904-1960</unitdate>
          <unitdate encodinganalog="245$g" type="bulk">1904-1936</unitdate>
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 1</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 1 UUID:6efa6ad3-4acb-44c0-ab0e-65dbc9c65939</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">2 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -73,14 +74,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Founder, Hull House, Chicago; pacifist; labor organizer; settlement house worker; and women's rights advocate. The Addams papers contain primarily published material and duplicates of materials from the Swarthmore Peace Collection. Included are articles, books, memorials, and memorabilia about Addams, as well as writings and speeches by her.  There is a small amount of original correspondence, plus photographs and drawings of Jane Addams and Hull House.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Founder, Hull House, Chicago; pacifist; labor organizer; settlement house worker; and women's rights advocate. The Addams papers contain primarily published material and duplicates of materials from the Swarthmore Peace Collection. Included are articles, books, memorials, and memorabilia about Addams, as well as writings and speeches by her.  There is a small amount of original correspondence, plus photographs and drawings of Jane Addams and Hull House.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc908.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc908.jpg" linktype="simple" show="embed">
 <daodesc><p>Jane Addams as a young woman, undated<lb />
             Studio portrait by Cox, Chicago</p></daodesc></dao>
          <p>(Laura) Jane Addams was born on 6 September 1860 in
@@ -213,7 +214,7 @@
     Papers (re: WILPF) and the Jessie Lloyd O'Connor Papers
     (O'Connor was a resident/worker at Hull House).</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -272,7 +273,7 @@
          <geogname encodinganalog="651" source="lcsh">
                         Europe--Description and travel--Sources</geogname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -281,7 +282,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

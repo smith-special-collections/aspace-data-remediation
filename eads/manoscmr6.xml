@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-      <eadid publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr6.xml//EN" countrycode="us" mainagencycode="manoscmr">manoscmr6</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="manoscmr" publicid="-//us::manoscmr//TEXT us::manoscmr::manoscmr6.xml//EN">manoscmr6</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Carolyn G. Heilbrun Papers, 1846-1979
@@ -53,18 +54,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Heilbrun, Carolyn G., 1926-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Carolyn G. Heilbrun Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1846-1979</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Carolyn G. Heilbrun Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1846-1979</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="manoscmr" countrycode="us">MS 11</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 11 UUID:27569c59-64e0-4225-acde-0c560411a0d6</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes</extent>
             <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
@@ -77,9 +78,9 @@
             </address>
          </repository>
 
-         <abstract label="Abstract:" encodinganalog="520$a">Professor and decorated writer who wrote <title>The Garnett Family</title> (1961) and <title>Christopher Isherwood</title> (1971). Includes correspondence, newspaper articles, photographs of the Garnett family, notes, and interviews relating to the two aforementioned works.
+         <abstract encodinganalog="520$a" label="Abstract:">Professor and decorated writer who wrote <title>The Garnett Family</title> (1961) and <title>Christopher Isherwood</title> (1971). Includes correspondence, newspaper articles, photographs of the Garnett family, notes, and interviews relating to the two aforementioned works.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -129,7 +130,7 @@
          <p>The papers are arranged in four series.
       </p>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -249,8 +250,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>Series I.  Garnett Family,
                 <unitdate>1846-1960</unitdate>
@@ -810,7 +811,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>Series II. <title>The Garnett Family</title> by Carolyn Heilbrun,
                 <unitdate>1955-1960</unitdate>
@@ -1076,7 +1077,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>Series III. <title>Christopher Isherwood</title> by Carolyn Heilbrun,
                 <unitdate>1974-1979</unitdate>
@@ -1214,7 +1215,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>Series IV. Interview with Alice G. Fredman,
                 <unitdate>1977</unitdate>

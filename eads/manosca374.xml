@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca374.xml//EN" countrycode="us" mainagencycode="manosca">manosca374</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca374.xml//EN">manosca374</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Dorothy May Anderson Papers, 1930 - 1993</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2014">2014</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Anderson, Dorothy May</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Anderson, Dorothy May</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Dorothy May Anderson Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1930 - 1993</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Dorothy May Anderson Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1930 - 1993</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:9fd123ad-a440-43ef-a3f6-4d7b793659f6</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">1</extent>
 		<extent encodinganalog="300$a">(.5 linear feet)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -59,7 +60,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-<p>Dorothy May Anderson was born in 1903 in Colville, Washington. She was one of only two students to graduate from the landscape architecture program at the State College of Washington in 1926. After working in Seattle for several years under Fred Cole, an English landscape architect, in 1929 Anderson returned to school to study at the Cambridge School of Art and Landscape Architecture. At that time, the Cambridge School was the best landscape and architecture school for women in the country. Financial difficulty forced Anderson to intersperse terms with landscaping work with Ellen Shipman and Louise Payson in New York, but she graduated in 1933 with her thesis &#34;A School of Horticulture for Women&#34;. </p>
+<p>Dorothy May Anderson was born in 1903 in Colville, Washington. She was one of only two students to graduate from the landscape architecture program at the State College of Washington in 1926. After working in Seattle for several years under Fred Cole, an English landscape architect, in 1929 Anderson returned to school to study at the Cambridge School of Art and Landscape Architecture. At that time, the Cambridge School was the best landscape and architecture school for women in the country. Financial difficulty forced Anderson to intersperse terms with landscaping work with Ellen Shipman and Louise Payson in New York, but she graduated in 1933 with her thesis "A School of Horticulture for Women". </p>
 
 <p>In 1933, she was hired as landscape design and planting design teacher at the Lowthorpe School in Groton Massachusetts and later became the co-director of the school. In 1935, Anderson was invited to teach and redesign the grounds of Smith College. In 1943, Anderson left Smith to help in the war effort, working for the OSS Cartography Division until the end of the war. With few opportunities available in the field of landscaping architecture after the war, Anderson continued to work for the OSS, State Department, and Foreign Services in Cairo and Paris. In 1954, she joined the CIA doing similar cartographic work in the United States. 
 </p>
@@ -127,7 +128,7 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">1</container>
@@ -295,5 +296,3 @@
 
   </archdesc>
 </ead>
-
-

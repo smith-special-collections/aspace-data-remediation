@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss588.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss588</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss588.xml//EN">mnsss588</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">DES Action USA records, 1939-2016 (bulk 1975-2014)</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">DES Action National (Organization)</corpname>
+		<corpname encodinganalog="110" source="lcnaf">DES Action National (Organization)</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">DES Action USA records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1939-2016</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1975-2014</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">739</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">DES Action USA records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1939-2016</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1975-2014</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">739</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">24 boxes</extent>
 		<extent encodinganalog="300$a">(9.75 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -339,8 +340,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. ADMINISTRATION</unittitle>
  </did>
@@ -532,7 +533,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. MEMBERSHIP AND FINANCIAL MATERIALS</unittitle>
  </did>
@@ -639,7 +640,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. LEGISLATION AND LITIGATION</unittitle>
  </did>
@@ -747,74 +748,74 @@
  </did>
  </c03>
  </c02>
- </c01>
- <c01>
+ <c02>
  <did>
  <unittitle>Litigation</unittitle>
  </did>
- <c02>
+ <c03>
  <did>
  <container type="box">6</container>
  <container type="folder">12</container>
  <unittitle>Mink v. University of Chicago,<unitdate> 1978</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">6</container>
  <container type="folder">13</container>
  <unittitle>Bichler v. Eli Lilly and Co.,<unitdate> 1979</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">6</container>
  <container type="folder">14</container>
  <unittitle>DES Action USA Litigation Information Sheet, undated</unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <unittitle>Levine, Aaron</unittitle>
  </did>
- <c03>
+ <c04>
  <did>
  <container type="box">6</container>
  <container type="folder">15</container>
  <unittitle>Correspondence and press coverage,<unitdate> 1984, 2001-2007</unitdate></unittitle>
  </did>
- </c03>
- <c03>
+ </c04>
+ <c04>
  <did>
  <container type="box">6</container>
  <container type="folder">16-19</container>
  <unittitle>Case rulings and correspondence,<unitdate> 2005-2010</unitdate></unittitle>
  </did>
- </c03>
- <c03>
+ </c04>
+ <c04>
  <did>
  <container type="box">6</container>
  <container type="folder">20</container>
  <unittitle>Amicus curiae brief in Wyeth v. Levine,<unitdate> 2008</unitdate></unittitle>
  </did>
+ </c04>
  </c03>
- </c02>
- <c02>
+ <c03>
  <did>
  <container type="box">7</container>
  <container type="folder">1</container>
  <unittitle>London, Michael, <unitdate>circa 2008</unitdate></unittitle>
  </did>
- </c02>
- <c02>
+ </c03>
+ <c03>
  <did>
  <container type="box">7</container>
  <container type="folder">2</container>
  <unittitle>Shainwald, Sybil,<unitdate> 2005-2010</unitdate></unittitle>
  </did>
+ </c03>
  </c02>
- </c01>
- <c01 level="series" id="list-ser4">
+</c01>
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. CONFERENCES AND MEETINGS</unittitle>
  </did>
@@ -897,7 +898,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. OUTREACH</unittitle>
  </did>
@@ -1453,7 +1454,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. DIETHYLSTILBESTROL SUBJECT FILES</unittitle>
  </did>
@@ -1664,7 +1665,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
          <unittitle>SERIES VII. MEDICAL INFORMATION AND RESEARCH DATA [RESTRICTED UNTIL 1 JAN              <unitdate>2037]</unitdate>          </unittitle>
  </did>
@@ -1728,7 +1729,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. PHOTOGRAPHS AND AUDIOVISUAL MATERIALS</unittitle>
  </did>
@@ -2008,7 +2009,7 @@
  <did>
  <container type="box">22</container>
  <container type="folder">11</container>
- <unittitle>The bitter taste of a miracle drug; St&#233;phane Mercurio, Catherine Sinet, France,<unitdate> 2002</unitdate></unittitle>
+ <unittitle>The bitter taste of a miracle drug; Stéphane Mercurio, Catherine Sinet, France,<unitdate> 2002</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -2048,7 +2049,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. OVERSIZE</unittitle>
  </did>
@@ -2088,5 +2089,3 @@
 
   </archdesc>
 </ead>
-
-

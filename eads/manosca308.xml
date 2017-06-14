@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca308.xml//EN" countrycode="us" mainagencycode="manosca">manosca308</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca308.xml//EN">manosca308</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Black Students Alliance Records, 1970-[ongoing]</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2013">2013</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Black Students Alliance</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Black Students Alliance</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Black Students Alliance Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1970-[ongoing]</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Black Students Alliance Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1970-[ongoing]</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 80</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:1caa03d0-da94-4d8e-8c49-1dcb34dcc2bf</unitid>
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">12 boxes</extent>
 		<extent encodinganalog="300$a">(4.8 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -71,7 +72,7 @@
 <p>Most of the photographs are unidentified and undated. They are mainly of various BSA members and events.</p>
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into thirteen series:</p>
 	<list>
@@ -163,8 +164,8 @@ Amanda Lineweber, Class of 2011
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>Series I. History</unittitle>
       </did>
@@ -196,7 +197,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>Series II. Notebooks</unittitle>
       </did>
@@ -489,7 +490,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>Series III. Mwangi Cultural Center</unittitle>
       </did>
@@ -602,7 +603,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser4">
+   <c01 id="list-ser4" level="series">
       <did>
          <unittitle>Series IV. Afro-American Studies Department</unittitle>
       </did>
@@ -670,7 +671,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser5">
+   <c01 id="list-ser5" level="series">
       <did>
          <unittitle>Series V. 5-College and Intercollegiate</unittitle>
       </did>
@@ -720,7 +721,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser6">
+   <c01 id="list-ser6" level="series">
       <did>
          <unittitle>Series VI. Conference Materials</unittitle>
       </did>
@@ -887,7 +888,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser7">
+   <c01 id="list-ser7" level="series">
       <did>
          <unittitle>Series VII. Newsletters</unittitle>
       </did>
@@ -928,7 +929,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser8">
+   <c01 id="list-ser8" level="series">
       <did>
          <unittitle>Series VIII. Events</unittitle>
       </did>
@@ -1292,7 +1293,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser9">
+   <c01 id="list-ser9" level="series">
       <did>
          <unittitle>Series IX. General Files, A-Z</unittitle>
       </did>
@@ -1514,7 +1515,7 @@ Amanda Lineweber, Class of 2011
          <did>
             <container type="box">11</container>
             <container type="folder">25</container>
-            <unittitle>History of Black Protest at Smith: A study in inevitable conflict&#8230;
+            <unittitle>History of Black Protest at Smith: A study in inevitable conflict…
                <unitdate>1972</unitdate>
             </unittitle>
          </did>
@@ -1523,7 +1524,7 @@ Amanda Lineweber, Class of 2011
          <did>
             <container type="box">11</container>
             <container type="folder">26</container>
-            <unittitle>"I have a dream&#8230;" Martin Luther King, Jr Memorial
+            <unittitle>"I have a dream…" Martin Luther King, Jr Memorial
                <unitdate>1986</unitdate>
             </unittitle>
          </did>
@@ -1637,7 +1638,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser10">
+   <c01 id="list-ser10" level="series">
       <did>
          <unittitle>Series X. Clippings</unittitle>
       </did>
@@ -1669,7 +1670,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser11">
+   <c01 id="list-ser11" level="series">
       <did>
          <unittitle>Series XI. Poetry and Lyrics</unittitle>
       </did>
@@ -1701,7 +1702,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser12">
+   <c01 id="list-ser12" level="series">
       <did>
          <unittitle>Series XII. Photographs</unittitle>
       </did>
@@ -1733,7 +1734,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser13">
+   <c01 id="list-ser13" level="series">
       <did>
          <unittitle>Series XIII. Artifacts</unittitle>
       </did>
@@ -1762,7 +1763,7 @@ Amanda Lineweber, Class of 2011
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-serOV">
+   <c01 id="list-serOV" level="series">
          <did>
             <unittitle> Oversized Material </unittitle>
          </did>
@@ -1789,5 +1790,3 @@ Amanda Lineweber, Class of 2011
 
   </archdesc>
 </ead>
-
-

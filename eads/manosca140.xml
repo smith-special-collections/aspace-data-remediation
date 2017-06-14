@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca140.html">manosca140</eadid>
 
@@ -44,17 +45,17 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<persname source="lcnaf" encodinganalog="100 1">Kierstead, Caroline Heminway</persname>
+<persname encodinganalog="100 1" source="lcnaf">Kierstead, Caroline Heminway</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Caroline Heminway Kierstead Papers</unittitle><unitdate label="Dates:">1923-1985</unitdate>
+<unittitle encodinganalog="245$a" label="Title:">Caroline Heminway Kierstead Papers</unittitle><unitdate label="Dates:">1923-1985</unitdate>
 
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:b054ee59-d32f-4c37-be58-7fb4ba17c304</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">2 boxes</extent>
 <extent encodinganalog="300$a">(2.5 linear ft.)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -90,7 +91,7 @@ This collection includes correspondence, publications, diaries, photographs, etc
 
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 <head>Organization of the Collection</head>
 <p>This collection is organized into six series:</p>
 <list>
@@ -178,8 +179,8 @@ This collection includes correspondence, publications, diaries, photographs, etc
 
 
 
-<dsc type="combined" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>SERIES I: BIOGRAPHY</unittitle>
 </did><scopecontent>
@@ -232,7 +233,7 @@ This collection includes correspondence, publications, diaries, photographs, etc
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>SERIES II: CORRESPONDENCE</unittitle>
 </did><scopecontent>
@@ -330,7 +331,7 @@ This collection includes correspondence, publications, diaries, photographs, etc
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>SERIES III: COURSE MATERIALS</unittitle>
 </did><scopecontent>
@@ -428,7 +429,7 @@ This collection includes correspondence, publications, diaries, photographs, etc
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>SERIES IV: LECTURE NOTES</unittitle>
 </did><scopecontent>
@@ -508,7 +509,7 @@ This collection includes correspondence, publications, diaries, photographs, etc
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>SERIES V: NOTES</unittitle>
 </did><scopecontent>
@@ -723,7 +724,7 @@ This collection includes correspondence, publications, diaries, photographs, etc
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser6">
+<c01 id="list-ser6" level="series">
 <did>
 <unittitle>SERIES VI: WRITINGS</unittitle>
 </did><scopecontent>

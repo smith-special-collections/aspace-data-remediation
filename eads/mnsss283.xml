@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss283.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss283</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss283.xml//EN">mnsss283</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Annie Gertrude Webb Porritt Papers, 1898-1976</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Porritt, Annie Gertrude Webb</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Porritt, Annie Gertrude Webb</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Annie Gertrude Webb Porritt Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1898-1976</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Annie Gertrude Webb Porritt Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1898-1976</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">123</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">123</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">4 boxes</extent>
 		<extent encodinganalog="300$a">(2 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -71,7 +72,7 @@
 
 	<p>The bulk of the papers date from 1916 to 1932. They focus on the central topics of birth control and women's suffrage, including historical sketches of both movements; materials related to Porritt's position as secretary of the American Birth Control League and as vice-president of the Hartford League of Women Voters, circa 1920s to 1932; and articles on birth control and suffrage for the <title render="italic">Birth Control Review</title>. Other topics include files on the Society of Friends, the Joint Committee on Delinquent Women, and lectures on social problems and parliamentary law.  Notable correspondents include Alice Stone Blackwell, Mary Ware Dennett, Stella Hanau, Margaret Sanger, and Anna Howard Shaw.</p> 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -192,8 +193,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -245,7 +246,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. WRITINGS</unittitle>
  </did>
@@ -295,7 +296,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. ORGANIZATION FILES</unittitle>
  </did>
@@ -464,7 +465,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. SUBJECTS</unittitle>
  </did>
@@ -614,5 +615,3 @@
 
   </archdesc>
 </ead>
-
-

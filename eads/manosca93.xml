@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca93.xml//EN" countrycode="us" mainagencycode="manosca">manosca93</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca93.xml//EN">manosca93</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Smith College Medal Committee Records, 1962-[ongoing]
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,17 +51,17 @@
 <date>1998, 2010
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <corpname encodinganalog="110" source="lcnaf">Smith College. Medal Committee. </corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Smith College Medal Committee Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1962-[ongoing]</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 12</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Smith College Medal Committee Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1962-[ongoing]</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 12 UUID:5ab8e4b9-142a-43f5-b7ed-1c578319a7d5</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">27 boxes</extent>
 <extent encodinganalog="300$a">(12 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">The Smith College Medal Committee records consist of minutes of Committee meetings, correspondence, press releases, news clippings, memorandums, biographical information on medalists and nominees, nominations forms, letters of recommendation, photographs of medalists and various other papers which document the Committee's complicated process of researching possible candidates and selecting Medal recipients.
+<abstract encodinganalog="520$a" label="Abstract:">The Smith College Medal Committee records consist of minutes of Committee meetings, correspondence, press releases, news clippings, memorandums, biographical information on medalists and nominees, nominations forms, letters of recommendation, photographs of medalists and various other papers which document the Committee's complicated process of researching possible candidates and selecting Medal recipients.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -85,7 +86,7 @@
 </bioghist>
 <scopecontent id="scope">
 <head>Scope and Contents of the Collection</head>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into three series:</p>
 	<list>
@@ -105,7 +106,7 @@
 <p>The Medalists series include a file for each medalist, ordered alphabetically by the name they received the medal under.  These files include such items as a medalist's published works, newspaper and magazine clippings, photographs, and other biographical information.  The restricted files include letters of recommendation, nomination forms and any other material that mentions names of those who nominated or recommended as a medal recipient.</p>
 <p>The Nominees series are entirely restricted.</p>
 </scopecontent>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -137,8 +138,8 @@
 <corpname encodinganalog="610" source="lcsh">Smith College--Alumni and alumnae.</corpname>
 </controlaccess>
 
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>SERIES I. BUSINESS FILES</unittitle>
       </did>
@@ -706,7 +707,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>SERIES II. MEDALISTS</unittitle>
       </did>
@@ -2057,7 +2058,7 @@
          </did><note><p>(RESTRICTED)</p></note>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>SERIES III. NOMINEES </unittitle>
       </did>

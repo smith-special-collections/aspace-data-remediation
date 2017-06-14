@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss474.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss474</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss474.xml//EN">mnsss474</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Alice Recknagel Ireys Papers, 1885-2001</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Ireys, Alice Recknagel</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Ireys, Alice Recknagel</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Alice Recknagel Ireys Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1885-2001</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1950-2000</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 303</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Alice Recknagel Ireys Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1885-2001</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1950-2000</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 303</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">121 boxes, 26 flat file drawers, 16 rolls</extent>
 		<extent encodinganalog="300$a">(69.25 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -59,7 +60,7 @@
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3090.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc3090.jpg" linktype="simple" show="embed">
 <daodesc><p>Alice Recknagel Ireys, n.d.</p></daodesc></dao> 
 
 	<p>Alice Elizabeth Recknagel was born April 24, 1911 in Brooklyn, New York, to Harold S. and Rea Estes Recknagel.  Her father was an attorney who worked in the insurance industry. Alice and her sister Catherine were the fourth generation to grow up in the house at 45 Willow Street.</p>
@@ -77,10 +78,10 @@
 	<p>Ireys' list of clients, as well as speaking and teaching engagements, continued to grow in the 1960s.  Her husband died in 1963.</p>
 	<p>Ireys' client list grew with her reputation from the 1970s through the 1990s.  She was busy with many design projects, primarily for private citizens, all over New York and New Jersey with some in Massachusetts, Pennsylvania, West Virginia, Illinois, and California.  These projects ranged in scope from postage-stamp-sized Brooklyn backyards to large rural estates.  She also designed gardens for a number of small institutions, churches, historical societies, schools, small museums, etc.</p>
 	<p>Her second book, <title render="italic">Small Gardens for City and Country</title>, published in 1978, drew on her long experience working in small city spaces and teaching on the topic.  Also in 1978 she was made a fellow of the American Society of Landscape Architects.</p>
-	<p>In 1987 Ireys began an association with the venerable seed company, W. Atlee Burpee &#38; Co, which had been purchased by her clients Carter and Suzanne Bales.  Alice designed theme gardens for their seed, plant, and bulb catalogs.  Customers who bought these "designed gardens" received a copy of the plan and all seeds, bulbs, or plants needed to reproduce the design.  The most popular of these designs were published as part of the Burpee American Gardens series in 1991.  In the same year Burpee also published <title render="italic">Designs for American Gardens</title>.  Similar in format to her earlier works, it used a selection of Ireys' built designs to provide ideas and demonstrate principles for small and large gardens.</p>
+	<p>In 1987 Ireys began an association with the venerable seed company, W. Atlee Burpee &amp; Co, which had been purchased by her clients Carter and Suzanne Bales.  Alice designed theme gardens for their seed, plant, and bulb catalogs.  Customers who bought these "designed gardens" received a copy of the plan and all seeds, bulbs, or plants needed to reproduce the design.  The most popular of these designs were published as part of the Burpee American Gardens series in 1991.  In the same year Burpee also published <title render="italic">Designs for American Gardens</title>.  Similar in format to her earlier works, it used a selection of Ireys' built designs to provide ideas and demonstrate principles for small and large gardens.</p>
 	<p>In 1991 the American Horticultural Society honored her with  the Liberty Hyde Bailey Award, the highest honor the Society can bestow on an individual, and in 1992 the Garden Writers' Association of America presented her with its Quill and Trowel Award.  In 1994 she received the Brooklyn Botanic Garden's Distinguished Service Medal.</p>
 	<p>Though hampered somewhat by infirmities, Alice Ireys continued to work with the aid of a cane, golf carts, and, if need be, photographs, well into the year of her death.  She died late in 2000 at age 89.</p>
-	<p>Alice Recknagel Ireys worked during a period of transition in the field of landscape architecture from the large private estates and grand public works projects of the nineteenth and early twentieth centuries to the smaller scale ventures of the post-World War II world.  By concentrating on smaller residential projects she was able to meet her personal needs, combining a career with child-rearing responsibilities, while also bringing the professional's skills to residential design.  Ireys successfully inspired in her clients and students "the joys of creating and caring for a garden&#38;#8230;among the greatest pleasures in this world."  She worked to determine the essence of her clients' and students' desires in order to develop a solution that was both beautiful and practical in the sense that it could realistically be maintained.  From her childhood experiences as a plant lover, plants and good horticulture were central to her designs.</p>
+	<p>Alice Recknagel Ireys worked during a period of transition in the field of landscape architecture from the large private estates and grand public works projects of the nineteenth and early twentieth centuries to the smaller scale ventures of the post-World War II world.  By concentrating on smaller residential projects she was able to meet her personal needs, combining a career with child-rearing responsibilities, while also bringing the professional's skills to residential design.  Ireys successfully inspired in her clients and students "the joys of creating and caring for a garden&amp;#8230;among the greatest pleasures in this world."  She worked to determine the essence of her clients' and students' desires in order to develop a solution that was both beautiful and practical in the sense that it could realistically be maintained.  From her childhood experiences as a plant lover, plants and good horticulture were central to her designs.</p>
     </bioghist>
     <scopecontent id="scope">
 	<head>Scope and Contents of the Collection</head>
@@ -94,7 +95,7 @@
 	<p>There is little personal material, mostly in Series I.  BIOGRAPHICAL MATERIALS.  Because Ireys' clients were sometimes her close friends, researchers can get a sense of her personality in correspondence with them in Series II.  The Weekly Notes in Series IV.  MISCELLANEOUS PROFESSIONAL ACTIVITIES, provide a sort of brief outline of the activities of Ireys' day and reveal the interrelated nature of the personal and professional.  Correspondence related to travel for design work at a distance from Brooklyn, and for out-of-town speaking and teaching engagements, offers other glimpses into the challenges of combining family obligations with career.</p>
 	<p>Researchers may contact the Sophia Smith Collection for the folder list for Series II.  Client Files and portions of the Photographs series which are not included in the online version of the finding aid.</p>
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into nine series:</p>
 	<list>
@@ -311,8 +312,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -766,7 +767,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CLIENT FILES</unittitle>
  </did>
@@ -774,7 +775,7 @@
 		<p>[Users of the client files must sign a written agreement to keep all names and street addresses of private clients confidential until January 1, 2031. The folder list is not included in the online version of the finding aid. Researchers may contact the Sophia Smith Collection for a copy.]</p>
 	</accessrestrict>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. FINANCIAL</unittitle>
  </did>
@@ -850,7 +851,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. MISCELLANEOUS PROFESSIONAL ACTIVITIES</unittitle>
  </did>
@@ -1175,7 +1176,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. PHOTOGRAPHS</unittitle>
  </did>
@@ -1721,7 +1722,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. PROFESSIONAL CORRESPONDENCE</unittitle>
  </did>
@@ -1809,7 +1810,7 @@
  <did>
  <container type="box">102</container>
  <container type="folder">1</container>
- <unittitle>Adolpho Corradi &#38;amp; Son/Corradi Landscape Associates<unitdate>1972-80</unitdate></unittitle>
+ <unittitle>Adolpho Corradi &amp;amp; Son/Corradi Landscape Associates<unitdate>1972-80</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1959,7 +1960,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. SPEECHES</unittitle>
  </did>
@@ -3500,7 +3501,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. TEACHING</unittitle>
  </did>
@@ -4400,7 +4401,12 @@
  <unittitle>Miscellaneous and unidentified notes<unitdate>n.d.</unitdate></unittitle>
  </did>
  </c02>
- <c02>
+</c01>
+ <c01 id="list-ser9" level="series">
+ <did>
+ <unittitle>SERIES IX. WRITINGS</unittitle>
+ </did>
+<c02>
  <did>
  <unittitle>Correspondence</unittitle>
  </did>
@@ -4488,7 +4494,7 @@
  </c03>
  <c03>
  <did>
- <unittitle>"The Garden Life: James E. Cross of Long Island, New York," <title render="italic">Garden Design</title>, winter <unitdate>1983<title render="italic"></title> 12			Correspondence, 1982-84</unitdate> </unittitle>
+ <unittitle>"The Garden Life: James E. Cross of Long Island, New York," <title render="italic">Garden Design</title>, winter <unitdate>1983<title render="italic"/> 12			Correspondence, 1982-84</unitdate> </unittitle>
  </did>
  <c04>
  <did>
@@ -5033,7 +5039,7 @@ Gardens for Brownstone and Brick)<unitdate>1978</unitdate> </unittitle>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS (BOXES)</unittitle>
  </did>
@@ -5163,7 +5169,7 @@ Gardens for Brownstone and Brick)<unitdate>1978</unitdate> </unittitle>
  <c05>
  <did>
  <container type="box">119</container>
- <container type="folder"></container>
+ <container type="folder"/>
  <container type="folder">3-4</container>
  <unittitle>Unidentified</unittitle>
  </did>
@@ -5209,7 +5215,7 @@ Gardens for Brownstone and Brick)<unitdate>1978</unitdate> </unittitle>
  </c02>
 
 </c01>
- <c01 level="series" id="list-serOVff">
+ <c01 id="list-serOVff" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS (FLAT FILE)</unittitle>
  </did>
@@ -5264,7 +5270,7 @@ Gardens for Brownstone and Brick)<unitdate>1978</unitdate> </unittitle>
  </c02>
 
 </c01>
- <c01 level="series" id="list-serOVrd">
+ <c01 id="list-serOVrd" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS (ROLLED DRAWINGS)</unittitle>
  </did>
@@ -5285,5 +5291,3 @@ Gardens for Brownstone and Brick)<unitdate>1978</unitdate> </unittitle>
 
   </archdesc>
 </ead>
-
-

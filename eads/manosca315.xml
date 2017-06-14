@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca315.xml//EN" countrycode="us" mainagencycode="manosca">manosca315</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca315.xml//EN">manosca315</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Sigma Xi, the Scientific Research Society. Smith College Chapter. Records 1930-ongoing</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2010">2010</date>
 	  </publicationstmt>
@@ -31,24 +32,24 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">Sigma Xi, the Scientific Research Society. Smith College Chapter.</corpname>
+		<corpname encodinganalog="110" source="lcnaf">Sigma Xi, the Scientific Research Society. Smith College Chapter.</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Sigma Xi, the Scientific Research Society. Smith College Chapter. Records</unittitle>
-	<unitdate type="inclusive" label="Dates:">1930-[ongoing]</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Sigma Xi, the Scientific Research Society. Smith College Chapter. Records</unittitle>
+	<unitdate label="Dates:" type="inclusive">1930-[ongoing]</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 50</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 50 UUID:df0a95a2-bf0b-41a4-9cfc-ac7e16d10eaa</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">8 boxes</extent>
 		<extent encodinganalog="300$a">(2 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -104,8 +105,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>SERIES I. MINUTES AND OFFICIAL RECORDS</unittitle>
       </did>
@@ -342,7 +343,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>SERIES II. CORRESPONDENCE</unittitle>
       </did>
@@ -355,7 +356,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>SERIES III. ACTIVITIES</unittitle>
       </did>
@@ -544,7 +545,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser4">
+   <c01 id="list-ser4" level="series">
       <did>
          <unittitle>SERIES IV. ARTIFACTS</unittitle>
       </did>
@@ -579,5 +580,3 @@
 
   </archdesc>
 </ead>
-
-

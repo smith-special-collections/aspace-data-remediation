@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss95.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss95</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss95.xml//EN">mnsss95</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Hunt Family Papers, 1841-1903
@@ -48,18 +49,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Hunt Family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Hunt Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1841-1903</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Hunt Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1841-1903</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 80</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 80</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -71,15 +72,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Physician and suffragist.  Papers consists of one box of correspondence, biographical materials, and memorabilia.   The papers of Dr. Mary Olive Hunt relate primarily to her medical career and include cards of matriculation and registration in courses of the New England Female Medical College.  Elizabeth ("Bessie") Bisbee Hunt's correspondence include letters and notes both personal and professional, from famous and lesser known people.
+         <abstract encodinganalog="520$a" label="Abstract:">Physician and suffragist.  Papers consists of one box of correspondence, biographical materials, and memorabilia.   The papers of Dr. Mary Olive Hunt relate primarily to her medical career and include cards of matriculation and registration in courses of the New England Female Medical College.  Elizabeth ("Bessie") Bisbee Hunt's correspondence include letters and notes both personal and professional, from famous and lesser known people.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6237.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6237.jpg" linktype="simple" show="embed">
 <daodesc><p>Mary Hunt's course card for "Obstetrics &amp; Diseases <lb />of Women and Children," 1862</p></daodesc></dao>
          <p> Mary Olive Hunt, M.D. (1819-1908) graduated from New England Female Medical College in 1866-67 and had an active practice as a physician in Manchester, New Hampshire.  Her niece by marriage, Elizabeth ("Bessie") Bisbee Hunt (1844-1919) was born in Derby, Vermont and was a leader in the New Hampshire and national woman suffrage campaign.   No additional biographical information is available.</p>
       </bioghist>
@@ -88,7 +89,7 @@
          <p> This small collection of  Hunt Family Papers consists of one box of correspondence, biographical materials, and memorabilia.   The papers of Dr. Mary Olive Hunt relate primarily to her medical career and include cards of matriculation and registration in courses of the New England Female Medical College, 1861-63, and certificates of attendance signed by Dr. Marie E. Zakrzewska and other women professors; licenses to practice in Manchester, New Hampshire; newspaper clippings advertising Dr. Hunt's services as a physician to women, and an article celebrating her as the oldest living doctor holding a license to practice medicine in New Hampshire, 1908. There are also two letters to Dr. Hunt from suffragist Lucy Stone.</p>
          <p> Elizabeth ("Bessie") Bisbee Hunt's correspondence include letters and notes written in the 1880s from Oliver Wendell Holmes and Charles Dudley Warner relate to her writings.  Letters from Susan B. Anthony, Harriet Stanton Blatch and Julia Ward Howe, written in the years 1897 to 1903 when she was a leader in the New Hampshire woman suffrage campaign, include warm recollections of their work together in the earlier national suffrage battle.  There are over twenty long and personal letters from her school friend, Rose Hawthorne Lathrop (daughter of Nathaniel Hawthorne).  Most were written from New London and relate to her activities in giving readings before women's clubs, a visit to her brother, Julian Hawthorne, in Jamaica, and a report of the performance of the opera based on The Scarlet letter with words by her husband and music by Walter Damrosch.  A few later letters, written after her conversion to the Roman Catholic religion, describe her work for the free hospital for needy incurable cancer patients which she founded in New York City, and of her religious life at Rosemary Hill Home.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -129,7 +130,7 @@
          <subject encodinganalog="650" source="lcsh">Women physicians--United States--History--19th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women--Suffrage--United States--History--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>Dr. Mary Olive Hunt</unittitle>

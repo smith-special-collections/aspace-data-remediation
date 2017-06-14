@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss394.html">mnsss394</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss394.html">mnsss394</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Ann Rollins Papers, 1973-1988</titleproper>
@@ -13,7 +12,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss394.html">mnsss39
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2006</date>
+         <date calendar="gregorian" era="ce">© 2006</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -37,7 +36,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss394.html">mnsss39
    <date encodinganalog="260$c">2006</date>
    
 
-       <p>&#169; 2006 Smith College. All rights reserved.</p>
+       <p>© 2006 Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -46,14 +45,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss394.html">mnsss39
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Rollins, Ann</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Ann Rollins Papers</unittitle><unitdate label="Dates:">1973-1988</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 277</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Ann Rollins Papers</unittitle><unitdate label="Dates:">1973-1988</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 277</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">7 boxes</extent>
           <extent encodinganalog="300$a">(8.75 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -65,7 +63,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss394.html">mnsss39
             </address>
          </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Materials collected by Ann Rollins about women's activism (especially for peace and the environment) in Australia, New Zealand, Canada, and the United Kingdom.  Include subject files, memorabilia, posters, books, articles, clippings, maps, periodicals, flyers, and pamphlets.   NOTE: There is no container list online for this finding aid.  You may contact the Sophia Smith Collection if you want one sent to you.     </abstract>
+      <abstract encodinganalog="520$a" label="Abstract:">Materials collected by Ann Rollins about women's activism (especially for peace and the environment) in Australia, New Zealand, Canada, and the United Kingdom.  Include subject files, memorabilia, posters, books, articles, clippings, maps, periodicals, flyers, and pamphlets.   NOTE: There is no container list online for this finding aid.  You may contact the Sophia Smith Collection if you want one sent to you.     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
@@ -78,7 +76,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss394.html">mnsss39
 Sophia Smith Collection if you want one sent to you.</p>
 </scopecontent>
  
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -119,5 +117,4 @@ use.</p>
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

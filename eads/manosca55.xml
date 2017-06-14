@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca55.xml//EN" countrycode="us" mainagencycode="manosca">manosca55</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca55.xml//EN">manosca55</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Marion E. Dodd Papers, 1895-1969
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -46,17 +47,17 @@
 <num>RG 80. Class of 1906.
 </num>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <persname encodinganalog="100" source="lcnaf">Dodd, Marion E.</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Marion Elza Dodd Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1895-1969</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 80. Class of 1906.</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Marion Elza Dodd Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1895-1969</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80. Class of 1906.</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">4 boxes</extent>
 <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -67,7 +68,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Alumnae, founder of the Hampshire Book Shop, writer, Professor, History and Art of the Book. Contains biographical materials, photographs, correspondence, documents related to the Hampshire Bookshop (predecessor to the Grecourt Bookstore), and writings.
+<abstract encodinganalog="520$a" label="Abstract:">Alumnae, founder of the Hampshire Book Shop, writer, Professor, History and Art of the Book. Contains biographical materials, photographs, correspondence, documents related to the Hampshire Bookshop (predecessor to the Grecourt Bookstore), and writings.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -81,7 +82,7 @@
 <head>Scope and Contents of the Collection</head>
 <p> The Marion Elza Dodd Papers cover 1895-1969 and contain biographical information, photographs, correspondence, publications, notes, catalogs, and publicity material.  Of particular extent and interest are two sections: Hampshire Bookshop and <title render="italic">Book Lover's Trail of New England</title>.  Hampshire Bookshop materials include store catalogs, fliers, newspaper advertisement clippings, and notes from store meetings.  Items related to <title render="italic">The Book Lover's Trail of New England</title>, a series of articles written by Dodd about local authors, include most, if not all, of her research materials for each article.  Here researchers can find detailed information, organized by state, on numerous local New England authors who wrote in the early 20th century.  </p>
 </scopecontent>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -113,7 +114,7 @@
 <subject encodinganalog="650" source="lcsh">Booksellers and bookselling--Massachusetts--Northampton.</subject>
 <subject encodinganalog="650" source="lcsh">Bookstores--Massachusetts--Northampton.</subject>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -125,7 +126,7 @@
 </relatedmaterial>
 </descgrp>
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">1</container>

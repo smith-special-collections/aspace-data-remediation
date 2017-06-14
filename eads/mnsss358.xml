@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss358.html">mnsss358</eadid>
 
 	<filedesc>
@@ -31,15 +32,15 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<famname source="lcnaf" encodinganalog="100 3">Ames family</famname>
+			<famname encodinganalog="100 3" source="lcnaf">Ames family</famname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Ames Family Papers</unittitle><unitdate label="Dates:">1812-2012</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 3</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Ames Family Papers</unittitle><unitdate label="Dates:">1812-2012</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 3</unitid>
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">151 boxes</extent>
 			<extent encodinganalog="300$a">(78 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+		<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 
          <repository label="Location:">
             <corpname>Sophia Smith Collection</corpname>
@@ -57,7 +58,7 @@
 
 <bioghist id="bioghist">
 <head>Biographical Note</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1500.jpg" altrender="right">
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1500.jpg" linktype="simple" show="embed">
 <daodesc><p>Members of the Plimpton and Ames families, ca. 1935</p></daodesc></dao>
 <p>The Ames Family Papers span six generations and include two separate families with the surname "Ames," which came together in 1900 with the marriage of Blanche Ames and Oakes Ames.  The Butler family is also represented to some extent, notably by Civil War general Benjamin Franklin Butler and his wife, Sarah Hildreth Butler.  The following biographical sketches pertain to some, but not all, of the individuals whose papers are in the collection, beginning with Oakes Ames in Generation II and ending with George A. Plimpton in Generation VI.  Additional information is located in SERIES I. FAMILY HISTORY, and in the Appendix.  This section does not include information about family members whose papers are extremely small in volume, except, in a few cases, to provide context and to clarify familial and generational relationships.  Detailed biographies of some individuals may be found in American National Biography, the Dictionary of American Biography, and Notable American Women.</p>
 
@@ -179,7 +180,7 @@
 
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>The papers are arranged in five series:</p>
 	<list>
@@ -210,9 +211,9 @@
 
 <table>
   <tgroup cols="3">  
-     <colspec colnum="1" colname="1" colwidth="200"/> 
-     <colspec colnum="2" colname="2" colwidth="200"/> 
-     <colspec colnum="3" colname="3" colwidth="200"/> 
+     <colspec colname="1" colnum="1" colwidth="200"/> 
+     <colspec colname="2" colnum="2" colwidth="200"/> 
+     <colspec colname="3" colnum="3" colwidth="200"/> 
   <tbody>
     <row>
       <entry colname="1">AMES FAMILY - Oakes Ames branch</entry>
@@ -323,7 +324,7 @@
 
   <row>
     <entry colname="1">AMES FAMILY - Blanche Ames Ames branch</entry>
-    <entry colname="2"></entry>
+    <entry colname="2"/>
     <entry colname="3">  </entry>
    </row>
 
@@ -875,8 +876,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. FAMILY HISTORY</unittitle>
  </did>
@@ -1143,7 +1144,7 @@
 <note><p>[see also Oversize Materials and Box 136]</p></note>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. REAL ESTATE</unittitle>
  </did>
@@ -1617,7 +1618,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. INDIVIDUALS</unittitle>
  </did>
@@ -9075,7 +9076,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. PHOTOGRAPHS</unittitle>
  </did>
@@ -9698,7 +9699,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. CLIPPINGS</unittitle>
  </did>
@@ -9709,7 +9710,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -10218,5 +10219,3 @@
 
 </archdesc>
 </ead>
-
-

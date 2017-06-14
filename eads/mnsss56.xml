@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss56.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss56</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss56.xml//EN">mnsss56</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Lydia Rapoport Papers, 1960-1968
@@ -51,18 +52,18 @@
          
          <sponsor>Processing of the Lydia Rapoport Papers was made possible by the generous support of the Carel Bailey Germain Fund.</sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Rapoport, Lydia</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Lydia Rapoport Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1963-1968</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Lydia Rapoport Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1963-1968</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 149</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 149</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -74,9 +75,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Professor and social worker.  Articles highlight the extensive research she conducted on the topics of family intervention, mental health consultation, and short-term casework. In the course of her career, Rapoport conducted consultations, workshops, and seminars at various institutions in the U.S. and abroad. Material includes correspondence, lectures, and published and unpublished articles.
+         <abstract encodinganalog="520$a" label="Abstract:">Professor and social worker.  Articles highlight the extensive research she conducted on the topics of family intervention, mental health consultation, and short-term casework. In the course of her career, Rapoport conducted consultations, workshops, and seminars at various institutions in the U.S. and abroad. Material includes correspondence, lectures, and published and unpublished articles.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -101,7 +102,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -136,15 +137,15 @@
          <subject encodinganalog="650" source="lcsh">Social work education--United States--History--Sources</subject>
          <persname encodinganalog="600" source="lcnaf">Rapoport, Lydia</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
             <p>Related material is located in the Smith College Archives.</p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. PROFESSIONAL ACTIVITIES</unittitle>
             </did>
@@ -234,7 +235,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. WRITINGS</unittitle>
             </did>

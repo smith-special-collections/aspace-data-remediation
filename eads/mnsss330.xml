@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss330.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss330</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss330.xml//EN">mnsss330</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">International Alliance of Women Records, 1906-2009 (bulk 1913-1973)</titleproper>
@@ -30,17 +31,17 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<corpname source="lcnaf" encodinganalog="110">International Alliance of Women</corpname>
+		<corpname encodinganalog="110" source="lcnaf">International Alliance of Women</corpname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">International Alliance of Women Records</unittitle><unitdate type="inclusive" label="Dates:">1906-2009</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1913-1973</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">International Alliance of Women Records</unittitle><unitdate label="Dates:" type="inclusive">1906-2009</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1913-1973</unitdate>
 	
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">7 boxes</extent>
 		<extent encodinganalog="300$a">(2.75 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 and <language langcode="fra">French</language>
 </langmaterial>
         <repository label="Location:">
@@ -130,7 +131,7 @@ and <language langcode="fra">French</language>
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -432,7 +433,7 @@ and <language langcode="fra">French</language>
  <unittitle>Newsletters<unitdate>2008-09</unitdate></unittitle> 	
  </did>
  </c01>
- <c01 level="series" id="list-serov">
+ <c01 id="list-serov" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -472,5 +473,3 @@ and <language langcode="fra">French</language>
 
   </archdesc>
 </ead>
-
-

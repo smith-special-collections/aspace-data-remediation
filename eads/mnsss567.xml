@@ -1,11 +1,9 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss567.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss567</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss567.xml//EN">mnsss567</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Rosario Morales Papers, 1980-2011</titleproper>
@@ -38,16 +36,14 @@ Encoded by Margaret Jessup.
         <origination label="Creator:">
            <persname encodinganalog="100" source="lcnaf">Morales, Rosario, 1930-</persname>
        </origination>
-       <unittitle label="Title:" encodinganalog="245$a">Rosario Morales Papers</unittitle><unitdate
-type="inclusive" label="Dates:">1980-2011</unitdate>
-      <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
-repositorycode="mnsss">MS 712</unitid>
+       <unittitle encodinganalog="245$a" label="Title:">Rosario Morales Papers</unittitle><unitdate label="Dates:" type="inclusive">1980-2011</unitdate>
+      <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 712</unitid>
 <physdesc label="Quantity:">
         <extent encodinganalog="300$a">3 boxes</extent>
         <extent encodinganalog="300$a">(3.75 linear ft.) </extent>
 </physdesc>
 
-<langmaterial label="Language of Material:" encodinganalog="546">
+<langmaterial encodinganalog="546" label="Language of Material:">
      <language langcode="eng">English</language>, <language langcode="spa">Spanish</language>
 
 </langmaterial>
@@ -59,7 +55,7 @@ repositorycode="mnsss">MS 712</unitid>
             </address>
          </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Feminist; Communist; Author; Poet. Papers contain correspondence, writings (manuscripts, drafts, journals, free writing, publications), conference files, memorabilia, and awards that document her personal and professional life as an author, poet, feminist, and activist. Writings included here are primarily autobiographical, focusing on her identity as a Puerto Rican feminist. Morales' writings often underscore the importance of intersectionality in the feminist movement. Correspondents include Gloria Anzaldua and Cherrie Moraga, editors of the 1981 anthology <title render="italic">This Bridge Called My Back</title>.  The collection also includes some materials of her daughter, writer Aurora Levins Morales.         [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith
 Collection if you would like one sent to you.]
          </abstract>
@@ -161,6 +157,4 @@ in 2013.</p>
 Oral History Project</extref>.</p>
       </relatedmaterial>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
-
+</ead><!-- END OF FILE -->

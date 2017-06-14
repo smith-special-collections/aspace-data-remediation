@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss290.html">mnsss290</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss290.html">mnsss290</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Cynthia Propper Seton Papers, 1951-1982</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss290.html">mnsss29
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss290.html">mnsss29
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2011  Smith College. All rights reserved.</p>
+       <p>© 2011  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss290.html">mnsss29
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Seton, Cynthia Propper</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Cynthia Propper Seton Papers</unittitle><unitdate label="Dates:">1946-1982</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 142</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Cynthia Propper Seton Papers</unittitle><unitdate label="Dates:">1946-1982</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 142</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">4 boxes</extent>
           <extent encodinganalog="300$a">(3 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,7 +66,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss290.html">mnsss29
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Author. Papers consist primarily of typescripts of Seton's columns, essays, and novels; biographical material; detailed correspondence; and a few photographs.  Major themes addressed in the papers are Smith
+      <abstract encodinganalog="520$a" label="Abstract:">Author. Papers consist primarily of typescripts of Seton's columns, essays, and novels; biographical material; detailed correspondence; and a few photographs.  Major themes addressed in the papers are Smith
 College; the city of Northampton; the social movements of the 1960s (especially the women's movement); the impact of feminism on middle-aged women; and writing.
 
     </abstract>
@@ -83,7 +81,7 @@ College; the city of Northampton; the social movements of the 1960s (especially 
 
 	<p>The collection also contains several photographs and some biographical information, mostly articles featuring Seton's politics and experience as an older feminist and mother, but also obituaries and other materials relating to her death.  Major themes addressed in the papers are the social movements of the 1960s (especially the women's movement); the impact of feminism on middle-aged women; Smith College; the city of Northampton; and the writing process. </p>
 
-               <arrangement id="scope-org" encodinganalog="351$a">
+               <arrangement encodinganalog="351$a" id="scope-org">
             	<head>Organization of the Collection</head>
             	<p>This collection is organized into three series:</p>
             	<list>
@@ -100,7 +98,7 @@ College; the city of Northampton; the social movements of the 1960s (especially 
                 </arrangement>
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -145,7 +143,7 @@ Northampton, Mass.</p>
 
  </controlaccess>
 <!-- MRJ: PROOF -->
- 	<descgrp type="add" id="addinfo">
+ 	<descgrp id="addinfo" type="add">
 	<head>Additional Information</head>
       <relatedmaterial id="add-related">
           <head>Related Material</head>
@@ -156,8 +154,8 @@ The Smith College Archives also hold material relating to Cynthia Seton and her 
       </relatedmaterial>
     </descgrp>
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -197,7 +195,7 @@ The Smith College Archives also hold material relating to Cynthia Seton and her 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -216,7 +214,7 @@ The Smith College Archives also hold material relating to Cynthia Seton and her 
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
  </did>
@@ -343,5 +341,4 @@ The Smith College Archives also hold material relating to Cynthia Seton and her 
 </dsc>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

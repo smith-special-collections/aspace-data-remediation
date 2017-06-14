@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss153.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss153</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss153.xml//EN">mnsss153</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Midwifery Collection, 1972-1999</titleproper>
@@ -50,15 +51,15 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Midwifery Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1972-1999</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Midwifery Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1972-1999</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 454</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 454</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">6 boxes</extent>
             <extent encodinganalog="300$a">(3 linear ft.)</extent>
@@ -70,9 +71,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">The Midwifery Collection includes articles, pamphlets, periodicals, by-laws, and newsletters pertaining to the practice of midwifery and home birth.  Included are publications of the Alliance of Radical Midwives, the Alternative Birth Association, National Midwives Association and the American College of Nurse Midwives.  The collection also contains information on schools and training for midwifery, insurance, legal status, and protocols of practice.
+         <abstract encodinganalog="520$a" label="Abstract:">The Midwifery Collection includes articles, pamphlets, periodicals, by-laws, and newsletters pertaining to the practice of midwifery and home birth.  Included are publications of the Alliance of Radical Midwives, the Alternative Birth Association, National Midwives Association and the American College of Nurse Midwives.  The collection also contains information on schools and training for midwifery, insurance, legal status, and protocols of practice.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -80,7 +81,7 @@
          <head>Scope and Contents of the Collection</head>
          <p> The Midwifery Collection is comprised entirely of printed materials such as articles, newspaper clippings, pamphlets, periodicals, by-laws, and newsletters pertaining to the practice of midwifery and home birth.  Included are publications of organizations such as the Alliance of Radical Midwives, the Alternative Birth Association, National Midwives Association and the American College of Nurse Midwives.  There are also files arranged by region, primarily in the United States. The collection also contains information on schools and training for Midwifery, insurance, legal status, and protocols of practice.  The collection dates from 1972 to 1999.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -121,7 +122,7 @@
          <subject encodinganalog="650" source="lcsh">Natural childbirth--History--20th century</subject>
          <subject encodinganalog="650" source="lcsh">Women's health services--United States--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -130,7 +131,7 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>General Printed Material</unittitle>

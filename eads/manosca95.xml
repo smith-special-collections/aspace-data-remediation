@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 <!-- Can you open this in Notetab for me and let me know if you are able to cut/paste, add or remove anything? Yes I can!  MRJ  -->
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca95.xml//EN" countrycode="us" mainagencycode="manosca">manosca95</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca95.xml//EN">manosca95</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Smith College Relief Unit Records, 1917-1964
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,18 +51,18 @@
 <date>1999, 2010
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <corpname encodinganalog="110" source="lcnaf">Smith College Relief Unit.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Smith College Relief Unit Records</unittitle> <unitdate encodinganalog="245$f" type="inclusive">1917-1997</unitdate>
+<unittitle encodinganalog="245$a" label="Title:">Smith College Relief Unit Records</unittitle> <unitdate encodinganalog="245$f" type="inclusive">1917-1997</unitdate>
 
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 12</unitid>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 12 UUID:14e60a59-b3d0-434b-95fe-b8292bbcae69</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">25 boxes</extent>
 <extent encodinganalog="300$a">(9.7 linear ft.)</extent>
@@ -72,7 +73,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">The Smith College Relief Unit was founded in 1917 to bring relief to those areas of France that were most devastated during the first World War.  The records include letters, journals, photographs and albums, correspondence with the War Service Board and information about the reconstruction.
+<abstract encodinganalog="520$a" label="Abstract:">The Smith College Relief Unit was founded in 1917 to bring relief to those areas of France that were most devastated during the first World War.  The records include letters, journals, photographs and albums, correspondence with the War Service Board and information about the reconstruction.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -98,7 +99,7 @@
 <p>Ellen Tucker Emerson (1901), Assistant Director</p>
 <p>Anne McClallan Chapin (1904), September 1919 - April 1920</p>
 </scopecontent>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -135,7 +136,7 @@
 <subject encodinganalog="650" source="lcsh">World War, 1914-1918--Women.</subject>
 <subject encodinganalog="650" source="lcsh">World War, 1914-1918--War work.</subject>
 </controlaccess>
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
 <c01>
 <did>
 <container type="box">1</container>

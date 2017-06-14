@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss77.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss77</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss77.xml//EN">mnsss77</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Women's School of Planning and Architecture Records, 1974-1992
@@ -50,19 +51,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">Women's School of Planning and Architecture</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Women's School of Planning and Architecture Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1974 - 1992</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Women's School of Planning and Architecture Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1974 - 1992</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1974-81</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 306</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 306</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">18 boxes</extent>
             <extent encodinganalog="300$a">(12.25 linear ft.)</extent>
@@ -74,15 +75,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Educational program and feminist collective. The Women's School of Planning and Architecture Records provides a detailed account of the successes and struggles of an experimental, non-hierarchical educational institution founded at the height of the 1970s women's movement. Records document the School's sessions on feminist architectural planning and design. There is also rich documentation of the founding, planning, and operation of the School. Materials include correspondence; histories; photographs; extensive audio-visual material; publications; publicity and memorabilia.
+         <abstract encodinganalog="520$a" label="Abstract:">Educational program and feminist collective. The Women's School of Planning and Architecture Records provides a detailed account of the successes and struggles of an experimental, non-hierarchical educational institution founded at the height of the 1970s women's movement. Records document the School's sessions on feminist architectural planning and design. There is also rich documentation of the founding, planning, and operation of the School. Materials include correspondence; histories; photographs; extensive audio-visual material; publications; publicity and memorabilia.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc546.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc546.jpg" linktype="simple" show="embed">
 <daodesc><p>Women's School of Planning and Architecture <lb /> participants forming a woman symbol,<lb /> 1975</p></daodesc></dao>
          <p>The Women's School of Planning and Architecture (WSPA) was an experiment in feminist education for women interested in architecture, planning, and environmental design.  The School was founded by Katrin Adam, Ellen Perry Berkeley, Noel Phyllis Birkby (see also <extref href="mnsss3_main.html">N. Phyllis Birkby Papers</extref>, Bobbie Sue Hood, Marie I. Kennedy, Joan Forrester Sprague, and Leslie Kanes Weisman.  The founders had met as a result of the formation of professional organizations for women architects and planners (beginning in 1972) and through attendance at the first U.S. conferences on women in architecture in 1974 and 1975.  These opportunities to meet and share experiences with other women professionals led them to a conviction that an alternative educational experience would be a valuable way to address the "shared common goals and interests not being met within the existing professional contexts" according to the 1975 WSPA brochure.</p>
          <p>The same brochure describes the founders goals:</p>
@@ -119,7 +120,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -165,7 +166,7 @@
          <persname encodinganalog="600" source="lcnaf">Vogel, Mary</persname>
          <persname encodinganalog="600" source="lcnaf">Weisman, Leslie Kanes</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -198,8 +199,8 @@ Edited.  original</p>
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. GENERAL AND HISTORICAL MATERIALS <unitdate>(1975-2002, n.d.)</unitdate>
                </unittitle>
@@ -326,7 +327,7 @@ Edited.  original</p>
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. COORDINATORS' RECORDS <unitdate>(1974-92, n.d.)</unitdate>
                </unittitle>
@@ -431,7 +432,7 @@ Edited.  original</p>
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SESSIONS <unitdate>(1975-82)</unitdate>
                </unittitle>
@@ -886,7 +887,7 @@ Edited.  original</p>
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. AUDIO-VISUAL MATERIAL <unitdate>(1975-79, n.d.)</unitdate>
                </unittitle>

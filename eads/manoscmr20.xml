@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manoscmr" url="http://asteria.fivecolleges.edu/findaids/mortimer/manoscmr20.html">manoscmr20</eadid>
 	<filedesc>
 		<titlestmt>
@@ -36,7 +37,7 @@
 		<date>2007</date> 
 		 
 		 
-		<p>&#169; 2007 Smith College. All rights reserved.</p> 
+		<p>© 2007 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -44,17 +45,17 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<famname source="lcnaf" encodinganalog="100 3">Butler Family</famname>
+			<famname encodinganalog="100 3" source="lcnaf">Butler Family</famname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Butler Family Correspondence</unittitle><unitdate label="Dates:">1817-1848</unitdate>
+		<unittitle encodinganalog="245$a" label="Title:">Butler Family Correspondence</unittitle><unitdate label="Dates:">1817-1848</unitdate>
 
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr">MS 242</unitid>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 242</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">1 box</extent>
 			<extent encodinganalog="300$a">(21 items)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+		<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
           <repository label="Location:">
@@ -146,7 +147,7 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <container type="box">1</container>
@@ -340,7 +341,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">20</container>
- <unittitle>Invoice of merchandise shipped by Edward Butler on board the barque Mary Ballard &#8230; bound to New York, Canton, [China],<unitdate> 1835 Oct 31.</unitdate></unittitle>
+ <unittitle>Invoice of merchandise shipped by Edward Butler on board the barque Mary Ballard … bound to New York, Canton, [China],<unitdate> 1835 Oct 31.</unitdate></unittitle>
 <physdesc>
 	<extent>3 p.  </extent>
 </physdesc>
@@ -350,7 +351,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">21</container>
- <unittitle>Invoice of merchandise shipped by Edward Butler on board the barque Mary Ballard &#8230; bound to New York, Canton, [China],<unitdate> 1835 Oct. 31.</unitdate></unittitle>
+ <unittitle>Invoice of merchandise shipped by Edward Butler on board the barque Mary Ballard … bound to New York, Canton, [China],<unitdate> 1835 Oct. 31.</unitdate></unittitle>
 <physdesc>
 	<extent>2 p.  </extent>
 </physdesc>
@@ -366,5 +367,3 @@
 
 </archdesc>
 </ead>
-
-

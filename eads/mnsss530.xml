@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss530.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss530</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss530.xml//EN">mnsss530</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Guida West Papers, 1946-2006</titleproper>
@@ -31,17 +32,17 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">West, Guida</persname>
+		<persname encodinganalog="100 1" source="lcnaf">West, Guida</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Guida West Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1946-2006 </unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Guida West Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1946-2006 </unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 555</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 555</unitid>
 	<physloc label="Location Number:">98 boxes</physloc>
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">51.25 linear ft.</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 , <language langcode="por">Portugese</language>
 , <language langcode="spa">Spanish</language>
 </langmaterial>
@@ -62,7 +63,7 @@
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
 
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6566.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6566.jpg" linktype="simple" show="embed">
 <daodesc><p>Guida West and her children, Paul and Laurie, 1961<lb />
             (copyright unknown)</p></daodesc></dao>
 	<p>Margarida "Guida" Pyles  and her twin sister Yolanda Thereza were born November 9, 1927 in Sao Paulo, Brazil to Richard Milton and Etelvina Pacheco e Silva Pyles.  Richard M. Pyles, an electrical engineer, descended from an Irish immigrant who emigrated from Mississippi to Americana, Brazil after the U.S. Civil War.  Guida was graduated from Escola Graduada in 1944 and Colegio MacKenzie in Sao Paulo in 1945, then went to work as a bilingual secretary for General Motors de Brasil.
@@ -82,7 +83,7 @@
 
 <p>Some of her earliest efforts were related to fair housing, developing a "Covenant of Open Occupancy" for Metuchen.   She was also a charter member and "pioneer" of the Metuchen-Edison Racial Relations Council, which awarded her its first Brotherhood Award in 1966.  She also served on the Montclair Council for Community Action, Essex County Legal Services, the Task Force to Support the Kilmer Job Corps, and the Montclair Interracial Council.   </p>
 
-<p>In a speech to the local NAACP in 1966, West recalled the day she became a U.S. citizen in 1961:  "&#8230;that morning--as a new American--it was difficult for me to repeat the last six words of the pledge-'with liberty and justice for all.'  For in our group there stood persons of minority groups to whom I knew liberty and justice are in reality just beautiful words and part of the unfulfilled American dream."
+<p>In a speech to the local NAACP in 1966, West recalled the day she became a U.S. citizen in 1961:  "…that morning--as a new American--it was difficult for me to repeat the last six words of the pledge-'with liberty and justice for all.'  For in our group there stood persons of minority groups to whom I knew liberty and justice are in reality just beautiful words and part of the unfulfilled American dream."
 </p>
 <p>Convinced that the struggle for human rights, which she called "the struggle of our generation," must begin in the church, West organized a Church and Society Committee in her own parish, the First Presbyterian Church in Metuchen in 1961.   "As a Presbyterian, I was told to comfort the afflicted and afflict the comfortable," she explained in a 1999 speech.  This work led to her appointment in 1965 to the Commission on Religion and Race of the Presbyterian Synod of New Jersey (SynCORR).   </p>
 
@@ -94,7 +95,7 @@
 </p>
 <p>As West's interest in welfare grew, she soon got involved in local welfare rights work, serving on Welfare Task Forces in her church, in Essex County, and for the Urban Training Institute.  West helped to organize a New Jersey Friends of Welfare Rights Organization in Newark.  The group met for the first time in February of 1970.    </p>
 
-<p>In a draft statement, possibly for a graduate school application, West wrote that involvement with civil rights and welfare rights as a volunteer prompted her to realize the inadequacy of her background "&#8230;even with my own personal continuous study."  She wrote, "a volunteer does not carry the power or the influence that a professional does&#8230; I want to use my available working years the most efficiently and effectively possible."  To that end, she entered a Ph.D. program  in sociology at Rutgers University in the fall of 1970.</p>
+<p>In a draft statement, possibly for a graduate school application, West wrote that involvement with civil rights and welfare rights as a volunteer prompted her to realize the inadequacy of her background "…even with my own personal continuous study."  She wrote, "a volunteer does not carry the power or the influence that a professional does… I want to use my available working years the most efficiently and effectively possible."  To that end, she entered a Ph.D. program  in sociology at Rutgers University in the fall of 1970.</p>
 
 <p>Fascinated by the unique structure, strategies, and goals of the welfare rights movement, West decided to make it the subject of her thesis research.  The National Welfare Rights Organization (NWRO) worked to establish the concept of a minimum standard of living as a citizenship right and a human right, continuing and extending the civil rights movement's "right to live" concept to include economic justice.  Welfare recipients could join local Welfare Rights Organizations (WRO) which were affiliated with state, regional, and the national group. Supporters could join Friends of Welfare Rights Organizations (FWRO) to provide financial and other support, but could not dictate policy or strategy.  This "twin track" structure of WROs and FWROs became the focus of West's research.</p>
 
@@ -108,7 +109,7 @@
 
 <p>In the author's preface, West reflects that the work taught her "a great deal about my own paternalistic behavior and attitudes as well as the institutional racism prevalent in our society."
 </p>
-<p>In her "Commentary" for West's book, the NWRO's Johnnie Tillmon wrote:  "Guida West's story of the National Welfare Rights movement tells it like it was and how it came to be&#8230;.  It  is important because it is the history of poor women - especially poor Black women and poor White women and poor Hispanic women - in the United States. This is a history that is not often, if ever written about.  Anyone who cares to understand about being poor in this country will learn much about our struggle in these pages."
+<p>In her "Commentary" for West's book, the NWRO's Johnnie Tillmon wrote:  "Guida West's story of the National Welfare Rights movement tells it like it was and how it came to be….  It  is important because it is the history of poor women - especially poor Black women and poor White women and poor Hispanic women - in the United States. This is a history that is not often, if ever written about.  Anyone who cares to understand about being poor in this country will learn much about our struggle in these pages."
 </p>
 <p>After completing her Ph.D., West held various posts at Rutgers University between 1974 and 1987, including Coordinator of Continuing Education for Women in the Extension Division (1974-80), Assistant Professor of  Sociology (1978-87), and Special Projects Administrator in the Institute for Research on Women (1987-89).  She developed and supervised The New Jersey Project on Inclusive Scholarship, Curriculum and Teaching (the first statewide, state-funded gender and multi-cultural scholarship and curriculum project in the U.S.), obtained grant funding to establish the Training Institute for Sex Desegregation of the Public Schools in 1975, and developed and implemented policy/action conferences on Displaced Homemakers and Adolescent Pregnancy prevention.  She also helped to found the Rutgers Women's Center, the Rutgers Institute for Research on Women, the Rutgers Women's Studies Program, and the Begin Again (B.A.) Program for Women.
 </p>
@@ -145,7 +146,7 @@ Because the subject of West's research was the structure and strategies of local
 <p>BHM = [United Church of Christ] Board for Homeland Ministries</p>
 <p>BOB Coalition = Building Opportunities Bonus Coalition, NOW Legal Defense and Education Fund</p>
 <p>CLASP = Center for Law and Social Policy</p>
-<p>E&#38;RJPT = Economic and Racial Justice Priority Team of the UCBFHM</p>
+<p>E&amp;RJPT = Economic and Racial Justice Priority Team of the UCBFHM</p>
 <p>EITC = Earned Income Tax Credit</p>
 <p>FPWA = Federation of Protestant Welfare Agencies</p>
 <p>FRAC = Food Research Action Center/Council</p>
@@ -183,7 +184,7 @@ Because the subject of West's research was the structure and strategies of local
 <p>WRN = Welfare Reform Network of New York City</p>
 
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into eleven series:</p>
 	<list>
@@ -292,7 +293,7 @@ Because the subject of West's research was the structure and strategies of local
 	<p>wes_006a:  United Church of Christ, Welfare Priority Team #3 side 2, 17 Mar 1972</p>
 	<p>wes_006b:  Banquet Awards etc. "no good" side 10</p>
 	<p>wes_007a:  United Church of Christ, Welfare Priority Team #1, side 6, 17 May 1972</p>
-	<p>wes_007b:  United Church of Christ, Welfare Priority Team #2, Panel H&#38;W Chicago side 5, 17 May 1972</p>
+	<p>wes_007b:  United Church of Christ, Welfare Priority Team #2, Panel H&amp;W Chicago side 5, 17 May 1972</p>
 	<p>wes_008a:  United Church of Christ, Welfare Priority Team, #1, Welfare Rights, side 7, 17 May 1972</p>
 	<p>wes_008b:  United Church of Christ, Welfare Priority Team, Shinn side 8, 17 May 1972</p>
 	<p>wes_009a:  Welfare Council Planning Meeting 5/25/72 side 1, 25 May 1972</p>
@@ -343,7 +344,7 @@ Because the subject of West's research was the structure and strategies of local
 	<p>wes_031:  "Always on Sunday" radio show with Paul Sherry of UCC, Helen Webber, Beulah Sanders, Richard Cloward, a week after the death of George Wiley "very good on coalitions, HW, accomplish. of mov. MEJ rationale," 8 Aug 1973</p>
 	<p>wes_032a:  Faith Evans of NWRO interview in NYC, 11 Sep 1974</p>
 	<p>wes_032b:  Frances Fox Piven [Faith Evans crossed out], 13 Sep 1974</p>
-	<p>wes_033:  March 4 Drugs &#38;Abortion, side 13 and 14, 4 Mar</p>
+	<p>wes_033:  March 4 Drugs &amp;Abortion, side 13 and 14, 4 Mar</p>
 	<p>wes_034:  Speech by Anne McGrew Bennett "Women in a New Society," undated</p>
 	<p>wes_035a:  United Church of Christ group discussion re New York state abortion law, undated</p>
 	<p>wes_035b:  United Church of Christ group discussion re New York state abortion law,undated</p>
@@ -353,13 +354,13 @@ Because the subject of West's research was the structure and strategies of local
 	<p>wes_039:  Bobbie Bennett, NWSA, 26 Jun 1984</p>
 	<p>wes_040:  Barbara Brown, Camden, NJ, 4 Jun 1984</p>
 	<p>wes_041:  Joyce Burson, Washington DC, 16 Jun 1984</p>
-	<p>wes_042:  Catherine Dandridge cont'd &#38;Rosie Lee, Chicago "very poor tape, erased 20 minutes by accident", 12 Apr 1984 [see also microcassette 126]</p>
+	<p>wes_042:  Catherine Dandridge cont'd &amp;Rosie Lee, Chicago "very poor tape, erased 20 minutes by accident", 12 Apr 1984 [see also microcassette 126]</p>
 	<p>wes_043:  Maud Davis tape #1, Larry Richardson on tape also, Newark, 16 Mar 1984</p>
 	<p>wes_044:  Maud Davies tape #2, Larry Richardson on tape also, Newark, 16 Mar 1984</p>
 	<p>wes_045:  Bert De Leeuw [says "copy" but we don't seem to have an original], 31 Jan 1984</p>
 	<p>wes_046:  Ruby Duncan, Nevada,  29 Feb 1984</p>
 	<p>wes_047:  Faith Evans [#1] "side #1 didn't come out," 18 Jan 1984</p>
-	<p>wes_048:  Faith Evans sides 3 &#38;4, 18 Jan 1984</p>
+	<p>wes_048:  Faith Evans sides 3 &amp;4, 18 Jan 1984</p>
 	<p>wes_049a:  Jim Evans "error taped over V. Evans" B side includes end of V. Evans, 31 Jan 1984</p>
 	<p>wes_049b:  Jim Evans "error taped over V. Evans" with end of V. Evans, 31 Jan 1984</p>
 	<p>wes_050:  Theresa Funicello tape # 1, 29 Oct 1983</p>
@@ -372,15 +373,15 @@ Because the subject of West's research was the structure and strategies of local
 	<p>wes_056b:  Roberta Grant #2, also Sue B?,20 Jun 1984 [see also microcassette 130]</p>
 	<p>wes_057:  Mamie Hall, NYC, 15 Jun 1984 [see also microcassette 131]</p>
 	<p>wes_058:  Catherine Hamer tape # 1, 28 Nov 1983</p>
-	<p>wes_059:  Catherine Hamer tape #2 "about &#188; of beg. is end of Catherine Hamer," 28 Nov 1983</p>
+	<p>wes_059:  Catherine Hamer tape #2 "about ¼ of beg. is end of Catherine Hamer," 28 Nov 1983</p>
 	<p>wes_060:  Marcia Henry # 1, San  Francisco "one side only I think", 3 Apr 1984 [see also microcassette 133]</p>
 	<p>wes_061:  Kay Hurley, Boston, 21 Jun 1984 [see also microcassette 135]</p>
 	<p>wes_062:  Espinola Jackson, San Francisco, 14 Jun 1984 [see also microcassette 136]</p>
 	<p>wes_063:  Claradine James # 1, Roxbury, 20 Jun 1984 [see also microcassette 137]</p>
 	<p>wes_064:  Claradine James #  2, Roxbury, 20 Jun 1984 [see also microcassette 138]</p>
 	<p>wes_065:  Hulbert James, NYC, 29 Nov 1983</p>
-	<p>wes_066:  Catherine Jermany #1, sides 1 &#38;2, undated [see also microcassette 139]</p>
-	<p>wes_067:  Catherine Jermany #2, sides 3 &#38;4, undated [see also microcassette 140 ]</p>
+	<p>wes_066:  Catherine Jermany #1, sides 1 &amp;2, undated [see also microcassette 139]</p>
+	<p>wes_067:  Catherine Jermany #2, sides 3 &amp;4, undated [see also microcassette 140 ]</p>
 	<p>wes_068:  Catherine Jermany #3, side 5, undated [see also microcassette 141]</p>
 	<p>wes_069:  Frankie Jeter, WROAC, 24 Jun 1984 [see also microcassette 142 or 143]</p>
 	<p>wes_070:  Dee Johnson, ANC Mothers, Los Angeles, 2 Apr 1984 [see also microcassette 144]</p>
@@ -391,7 +392,7 @@ Because the subject of West's research was the structure and strategies of local
 	<p>wes_075:  Rhoda Linton, 25 Jun 1984 [see also microcassette 148 or 149]</p>
 	<p>wes_076:  Pauline London, Philadelphia, 24 Jul 1984 [see also microcassette 148 or 149]</p>
 	<p>wes_077:  Ethel Mae Matthews, Atlanta, 11 Apr 1984 [see also microcassette 151 or 152]</p>
-	<p>wes_078a:  Ethel Mae Matthews tape #2 &#189;; (other half) Catherine Dandridge, Chicago, 12 Apr 1984 [see also microcassette 153]</p>
+	<p>wes_078a:  Ethel Mae Matthews tape #2 ½; (other half) Catherine Dandridge, Chicago, 12 Apr 1984 [see also microcassette 153]</p>
 	<p>wes_078b:  Catherine Dandridge, Chicago, 12 Apr 1984 [see also microcassette 126]</p>
 	<p>wes_079:  Bobbie McMahon #1, Washington DC "side B stuck, continued on side A tape #2," 30 Jan 1984</p>
 	<p>wes_080:  Bobbie McMahon #2, Washington DC, 30 Jan 1984</p>
@@ -440,9 +441,9 @@ Because the subject of West's research was the structure and strategies of local
 	<p>wes_118:  Celebration of  George Wiley, Washington, DC, 16 Jun 1983</p>
 	<p>wes_119a:  Celebration of Edward Sparer, NYU Law School, Sylvia Law, Sharon Hunt Downtown Welfare Advocacy Center, Hulbert James, 29 Nov 1983</p>
 	<p>wes_119b:  Celebration of Edward Sparer, NYU Law School, Hulbert James, 29 Nov 1983</p>
-	<p>wes_120:  18th Anniversary of WRO, Columbus, OH, Margaret Willis &#38;Colleen Shillington, 30 Jun 1984</p>
+	<p>wes_120:  18th Anniversary of WRO, Columbus, OH, Margaret Willis &amp;Colleen Shillington, 30 Jun 1984</p>
 	<p>wes_121:  Memorial Service for Bruce Thomas, Port Chester, NY, 15 Jul 1985</p>
-	<p>wes_122a:  Side # 3 of Bernardine Saulsberry &#38;Hal Nelson, Seattle; Side #1 of Leola Wofford, [begins at minute 22], undated, 9 Apr 1984?</p>
+	<p>wes_122a:  Side # 3 of Bernardine Saulsberry &amp;Hal Nelson, Seattle; Side #1 of Leola Wofford, [begins at minute 22], undated, 9 Apr 1984?</p>
 	<p>wes_122b:  Side #2 Leola Wofford, Mary Louise Williams, Helen Joyce Greenwood undated, 9 Apr 1984? [see also microcassettes 179-181]</p>
 	<p>wes_123:  Group interview, Seattle, [tape #3] Mary Louise Williams, Helen Joyce Greenwood, Leola Wofford, 9 Apr 1984 [see also microcassettes 179-181]</p>
 	<p>wes_124:  Group interview, Seattle [tape #2], Mary Louise Williams, Helen Joyce Greenwood, Leola Wofford, 9 Apr 1984 [see also microcassettes 179-181]</p>
@@ -728,8 +729,8 @@ from conferences organized by multi-organization coalitions, and by entities and
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -863,7 +864,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
@@ -908,7 +909,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PROFESSIONAL ACTIVITES</unittitle>
  </did>
@@ -1050,7 +1051,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. CONFERENCES AND MEETINGS</unittitle>
  </did>
@@ -1160,7 +1161,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  <did>
  <container type="box">4</container>
  <container type="folder">10</container>
- <unittitle>Regional Meeting for the New York, Pennsylvania &#38; Central Atlantic Conferences on Welfare,<unitdate>1-2 May 1973</unitdate></unittitle>
+ <unittitle>Regional Meeting for the New York, Pennsylvania &amp; Central Atlantic Conferences on Welfare,<unitdate>1-2 May 1973</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -1304,7 +1305,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. INDIVIDUALS</unittitle>
  </did>
@@ -1434,7 +1435,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  <c02>
  <did>
  <container type="box">6</container>
- <unittitle></unittitle>	<note><p>[see also <ref target="list-Piven">Frances Fox Piven</ref>]</p>
+ <unittitle/>	<note><p>[see also <ref target="list-Piven">Frances Fox Piven</ref>]</p>
 	</note>
  </did>
  <c03>
@@ -2705,7 +2706,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. ORGANIZATION FILES</unittitle>
  </did>
@@ -4726,7 +4727,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  <c02>
  <did>
  <container type="box">30</container>
- <unittitle>Ohio Welfare Rights Organization/Ohio State Consumers Education Association [<ref target="list-MargaretWillis">Margaret Willis</ref> &#38; Colleen Shillington]</unittitle>
+ <unittitle>Ohio Welfare Rights Organization/Ohio State Consumers Education Association [<ref target="list-MargaretWillis">Margaret Willis</ref> &amp; Colleen Shillington]</unittitle>
  </did>
  <c03>
  <did>
@@ -5484,7 +5485,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  <did>
  <container type="box">39</container>
  <container type="folder">5</container>
- <unittitle>Video, "Once Upon A Time &#38; Welfare Made a Difference,"<unitdate> 2003</unitdate></unittitle>
+ <unittitle>Video, "Once Upon A Time &amp; Welfare Made a Difference,"<unitdate> 2003</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -5992,7 +5993,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>SERIES VII. SPEECHES AND TESTIMONY</unittitle>
  </did>
@@ -6562,7 +6563,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>SERIES VIII. WRITINGS</unittitle>
  </did>
@@ -7708,7 +7709,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser9">
+ <c01 id="list-ser9" level="series">
  <did>
  <unittitle>SERIES IX. SUBJECT FILES</unittitle>
  </did>
@@ -8839,7 +8840,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser10">
+ <c01 id="list-ser10" level="series">
  <did>
  <unittitle>SERIES X. AUDIOVISUAL MATERIALS AND COMPUTER MEDIA</unittitle>
  </did>
@@ -8933,18 +8934,18 @@ from conferences organized by multi-organization coalitions, and by entities and
  <c03>
  <did>
  <container type="box">93</container>
- <unittitle>5 &#38;#188;" disks (101): teaching materials from Rutgers, organization files, speeches, writings, research files,<unitdate> 1983-90</unitdate></unittitle>
+ <unittitle>5 &amp;#188;" disks (101): teaching materials from Rutgers, organization files, speeches, writings, research files,<unitdate> 1983-90</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">93</container>
- <unittitle>3 &#38;#189;" disks (26): organization files, writings,<unitdate> 1995-2001</unitdate></unittitle>
+ <unittitle>3 &amp;#189;" disks (26): organization files, writings,<unitdate> 1995-2001</unitdate></unittitle>
  </did>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser11">
+ <c01 id="list-ser11" level="series">
  <did>
  <unittitle>SERIES XI. ARTIFACTS</unittitle>
  </did>
@@ -9162,7 +9163,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  <c03>
  <did>
  <container type="box">94</container>
- <unittitle>Workers Association for Guaranteed Employment, "Jobs &#38; Justice"</unittitle>
+ <unittitle>Workers Association for Guaranteed Employment, "Jobs &amp; Justice"</unittitle>
  </did>
  </c03>
  </c02>
@@ -9179,7 +9180,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-serOV">
+ <c01 id="list-serOV" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>
@@ -9191,7 +9192,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  <did>
  <container type="box">96</container>
  <container type="folder">1</container>
- <unittitle>Federation of Protestant Welfare Agencies: poster drafted by Guida West for Joint Federations Public Policy Partnership ("We Believe&#38;#8230;"), <unitdate>Oct 1990</unitdate></unittitle>
+ <unittitle>Federation of Protestant Welfare Agencies: poster drafted by Guida West for Joint Federations Public Policy Partnership ("We Believe&amp;#8230;"), <unitdate>Oct 1990</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -9450,7 +9451,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  <did>
  <container type="box">98</container>
  <container type="folder">11</container>
- <unittitle>"Somethin' botherin' you friends&#38;#8230;?" campaign literature against George Wallace, National Coordinating Committee for Trade Union Action &#38; Democracy, <unitdate>circa 1972</unitdate></unittitle>
+ <unittitle>"Somethin' botherin' you friends&amp;#8230;?" campaign literature against George Wallace, National Coordinating Committee for Trade Union Action &amp; Democracy, <unitdate>circa 1972</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -9556,7 +9557,7 @@ from conferences organized by multi-organization coalitions, and by entities and
  <c04>
  <did>
  <container type="map-case">Drawer 37</container>
- <unittitle>Conselho Estudial de Condi&#38;#231;&#38;#227;o Feminina (Council on the Status of Women), Sao Paolo, Brazil: 2 posters,<unitdate> 1984, n.d.</unitdate></unittitle>
+ <unittitle>Conselho Estudial de Condi&amp;#231;&amp;#227;o Feminina (Council on the Status of Women), Sao Paolo, Brazil: 2 posters,<unitdate> 1984, n.d.</unitdate></unittitle>
  </did>
  </c04>
  <c04>
@@ -9588,27 +9589,3 @@ from conferences organized by multi-organization coalitions, and by entities and
 
   </archdesc>
 </ead>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

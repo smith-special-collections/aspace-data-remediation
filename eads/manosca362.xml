@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca362.xml//EN" countrycode="us" mainagencycode="manosca">manosca362</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca362.xml//EN">manosca362</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Louis Cohn-Haft</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2014">2014</date>
 	  </publicationstmt>
@@ -31,22 +32,22 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Cohn-Haft, Louis, 1919 - 2012</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Cohn-Haft, Louis, 1919 - 2012</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Louis Cohn-Haft Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1950-1988</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Louis Cohn-Haft Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1950-1988</unitdate>
 	
 	<physloc label="Location Number:">RG42</physloc>
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">4 boxes</extent>
 		<extent encodinganalog="300$a">(2 linear feet)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -75,7 +76,7 @@
 	<p>The materials in the Louis Cohn-Haft Papers concern the professor's academic teaching career, mainly at Smith College, and some of his personal interests, such as politics and dramatics.</p>
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into six series:</p>
 	<list>
@@ -205,8 +206,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>Series I: Biography</unittitle>
       </did>
@@ -339,7 +340,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>Series II: Teaching</unittitle>
 </did>
@@ -571,7 +572,7 @@
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>Series III: History Department</unittitle>
 </did>
@@ -615,7 +616,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser4">
+<c01 id="list-ser4" level="series">
 <did>
 <unittitle>Series IV: College Administration</unittitle>
 </did>
@@ -691,7 +692,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser5">
+<c01 id="list-ser5" level="series">
 <did>
 <unittitle>Series V. Professional Activities</unittitle>
 </did>
@@ -823,7 +824,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser6">
+<c01 id="list-ser6" level="series">
 <did>
 <unittitle>Series VI: Oversize</unittitle>
 </did>
@@ -841,5 +842,3 @@
 
   </archdesc>
 </ead>
-
-

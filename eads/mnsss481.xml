@@ -1,8 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
-   <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss481.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss481</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+   <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss481.xml//EN">mnsss481</eadid>
   <filedesc>
    <titlestmt>
     <titleproper encodinganalog="245$a">Bel Kaufman Papers, 1911-2004</titleproper>
@@ -27,8 +26,7 @@ DB/Textworks 7.01. Encoded by Margaret Jessup.
      <date normal="yyyy-mm-dd">September 28, 2009</date>
   </creation>
   <langusage>Finding aid written in
-    <language encodinganalog="546" langcode="eng"
-scriptcode="latn">English.</language>
+    <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
    </langusage>
   </profiledesc>
  </eadheader>
@@ -38,16 +36,15 @@ scriptcode="latn">English.</language>
      <origination label="Creator:">
       <persname encodinganalog="100" source="lcnaf">Kaufman, Bel</persname>
     </origination>
-    <unittitle label="Title:" encodinganalog="245$a">Bel Kaufman
- Papers</unittitle><unitdate type="inclusive" label="Dates:">1911-2004</unitdate>
-    <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 522</unitid>
+    <unittitle encodinganalog="245$a" label="Title:">Bel Kaufman
+ Papers</unittitle><unitdate label="Dates:" type="inclusive">1911-2004</unitdate>
+    <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 522</unitid>
   <physdesc label="Quantity:">
       <extent encodinganalog="300$a">27 boxes</extent>
       <extent encodinganalog="300$a">(33.75 linear ft.) </extent>
   </physdesc>
   <!-- Encode additional languages with lang clip -->
-  <langmaterial label="Language of Material:" encodinganalog="546">
+  <langmaterial encodinganalog="546" label="Language of Material:">
     <language langcode="eng">English</language>, 
   <language langcode="rus">Rus</language>
   </langmaterial>
@@ -59,7 +56,7 @@ scriptcode="latn">English.</language>
        </address>
      </repository>
       <!-- MRJ Edit as needed-->
-      <abstract label="Abstract:" encodinganalog="520$a">
+      <abstract encodinganalog="520$a" label="Abstract:">
       Author; Teacher; Lyricist. Papers consist of files pertaining to Kaufman's activities as a high school teacher, author, lecturer and public speaker; to her travels in Russia, where there has been an abiding interest in her grandfather, the author Sholom Alacheim; and to translations of her books into the Russian language. Materials relating to her written works include manuscripts, correspondence, contracts, and notes on Kaufman's published books <title render="italic">Up the Down Staircase</title> (1964) and <title render="italic">Love, Etc.</title> (1979).
      </abstract>
     <!-- OR  [NOTE: There is no contents list for this finding aid. Contact the Sophia Smith
@@ -120,11 +117,10 @@ Collection for more information about this collection.] -->
       	<subject encodinganalog="650" source="lcsh">Authors, American--20th century--Biography--Sources</subject>
    	<subject encodinganalog="650" source="lcsh">High school teachers--United States--Biography--Sources</subject>
    	<subject encodinganalog="650" source="lcsh">Jewish women--Biography--Sources</subject>
-	<title render="italic" encodinganalog="730">Kaufman, Bel. Up the Down Staircase--Sources</title> 
+	<title encodinganalog="730" render="italic">Kaufman, Bel. Up the Down Staircase--Sources</title> 
 	<geogname encodinganalog="651" source="lcsh">Soviet Union -- History -- 20th century -- Sources</geogname> 
 
  </controlaccess>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

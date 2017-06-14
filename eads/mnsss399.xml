@@ -1,9 +1,10 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss399.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss399</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss399.xml//EN">mnsss399</eadid>
 	<filedesc>
 	  <titlestmt>
-		<titleproper encodinganalog="245$a">Louise Var&#232;se Papers, 1910-1983</titleproper>
+		<titleproper encodinganalog="245$a">Louise Varèse Papers, 1910-1983</titleproper>
 		<subtitle>Finding Aid</subtitle>
 		<author encodinganalog="245$c">Finding aid prepared by Jesse Kline.</author>
 
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Var&#232;se, Louise, 1890-</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Varèse, Louise, 1890-</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Louise Var&#232;se Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1910-1983</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Louise Varèse Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1910-1983</unitdate>
 
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 167</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 167</unitid>
 
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">15 boxes</extent>
 		<extent encodinganalog="300$a">(10 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -52,22 +53,22 @@
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
-		Biographer and translator. Personal and professional correspondence; photographs; writings; published and unpublished translations of reviews, manuscripts, correspondence, and printed material; research notes; and memorabilia. Material related to Edgard Var&#232;se includes research notes, proofs, manuscripts, and reviews for the <title render="italic">Var&#232;se; A Looking-Glass Diary</title>; and programs and memorabilia related to his work. Notable correspondents include Edgard Var&#232;se, Jacques Barzun, and Anais Nin.
+		Biographer and translator. Personal and professional correspondence; photographs; writings; published and unpublished translations of reviews, manuscripts, correspondence, and printed material; research notes; and memorabilia. Material related to Edgard Varèse includes research notes, proofs, manuscripts, and reviews for the <title render="italic">Varèse; A Looking-Glass Diary</title>; and programs and memorabilia related to his work. Notable correspondents include Edgard Varèse, Jacques Barzun, and Anais Nin.
 	</abstract>
     </did>
 
 <!-- Enter collection level metadata -->
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-	<p>Louise Var&#232;se was born in Pittsburgh, Pennsylvania, November 20, 1890, daughter of John Lindsay McCutcheon and Mary Louise Taylor.  She attended Smith College (class of 1912), leaving in the fall of 1911 to marry Allen Norton.  A son, Michael, was born in 1912.  She was separated from Norton in 1916, and they were divorced in 1920.  In 1922 she married composer Edgard Var&#232;se, throughout her life she translated works of French authors and poets into English, including Rimbaud, Proust, Sartre, Stendahl, and Simenon, among many others and was awarded Chevalier de L'Ordre des Arts et des Lettres by the Republic of France in 1969.  She also wrote articles, stories, and poems.  Following the death of Edgard Var&#232;se in 1965, she published <title render="italic">Var&#232;se; A Looking-Glass Diary</title>, Volume I, 1893-1928 in 1972.  Volume 2 was in progress when she died July 1, 1989.</p>
+	<p>Louise Varèse was born in Pittsburgh, Pennsylvania, November 20, 1890, daughter of John Lindsay McCutcheon and Mary Louise Taylor.  She attended Smith College (class of 1912), leaving in the fall of 1911 to marry Allen Norton.  A son, Michael, was born in 1912.  She was separated from Norton in 1916, and they were divorced in 1920.  In 1922 she married composer Edgard Varèse, throughout her life she translated works of French authors and poets into English, including Rimbaud, Proust, Sartre, Stendahl, and Simenon, among many others and was awarded Chevalier de L'Ordre des Arts et des Lettres by the Republic of France in 1969.  She also wrote articles, stories, and poems.  Following the death of Edgard Varèse in 1965, she published <title render="italic">Varèse; A Looking-Glass Diary</title>, Volume I, 1893-1928 in 1972.  Volume 2 was in progress when she died July 1, 1989.</p>
     </bioghist>
 
 
     <scopecontent id="scope">
 	<head>Scope and Contents of the Collection</head>
-	<p>The Louise Var&#232;se Papers consist of correspondence, photographs, writings, printed materials, research notes, and memorabilia.  There is a large amount of correspondence, both personal and professional.  It includes correspondence with her friend Maryette Charlton (1971-83), to Edgard Var&#232;se (n.d.), from her son Michael Norton and daughter Sylvia (1930-74), regarding the death of Edgard Var&#232;se (1965), and with various well known art and literary people including Jacques Barzun (1965-73) and Anais Nin (1963-71).  There is also professional correspondence regarding music, museums, publishing, and <title render="italic">Var&#232;se; A Looking-Glass Diary</title>.  Also contained in the papers is material related to Louise Var&#232;se's published and unpublished translations: reviews, manuscripts, correspondence, and printed materials.  There is also material related to Edgard Var&#232;se; research notes, proofs, manuscripts for both Volume 1 and 2 of <title render="italic">Var&#232;se; A Looking-Glass Diary</title>, as well as reviews of Volume 1; and programs and memorabilia related to his work.  Maryette Charlton collected and added much of the material related to Var&#232;se, including two tape recordings, photographs, biographical chronologies, and memorabilia.</p>
+	<p>The Louise Varèse Papers consist of correspondence, photographs, writings, printed materials, research notes, and memorabilia.  There is a large amount of correspondence, both personal and professional.  It includes correspondence with her friend Maryette Charlton (1971-83), to Edgard Varèse (n.d.), from her son Michael Norton and daughter Sylvia (1930-74), regarding the death of Edgard Varèse (1965), and with various well known art and literary people including Jacques Barzun (1965-73) and Anais Nin (1963-71).  There is also professional correspondence regarding music, museums, publishing, and <title render="italic">Varèse; A Looking-Glass Diary</title>.  Also contained in the papers is material related to Louise Varèse's published and unpublished translations: reviews, manuscripts, correspondence, and printed materials.  There is also material related to Edgard Varèse; research notes, proofs, manuscripts for both Volume 1 and 2 of <title render="italic">Varèse; A Looking-Glass Diary</title>, as well as reviews of Volume 1; and programs and memorabilia related to his work.  Maryette Charlton collected and added much of the material related to Varèse, including two tape recordings, photographs, biographical chronologies, and memorabilia.</p>
     </scopecontent>
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized as follows:</p>
 	<list>
@@ -107,14 +108,14 @@
 	<p>The Papers are open to research according to the regulations of the Sophia Smith Collection.</p>
     </accessrestrict>
     <userestrict encodinganalog="540" id="admin-use">
-	<p>Permission to cite the papers for quotations or for publication beyond "fair use" must be obtained from the Sophia Smith collection.  The copyright owner for the Var&#232;se Papers is unknown.  Diane Bouchard owns copyright to letters and photographs by her father, Thomas Bouchard.   Copyright to materials authored by other persons may be owned by those individuals or their heirs or assigns.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.  </p>
+	<p>Permission to cite the papers for quotations or for publication beyond "fair use" must be obtained from the Sophia Smith collection.  The copyright owner for the Varèse Papers is unknown.  Diane Bouchard owns copyright to letters and photographs by her father, Thomas Bouchard.   Copyright to materials authored by other persons may be owned by those individuals or their heirs or assigns.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.  It is the responsibility of the researcher to identify and satisfy the holders of all copyrights.  </p>
     </userestrict>
     <prefercite id="admin-cite">
 	<p>Please use the following format when citing materials from this collection:</p>
-	<p>The Louise Var&#232;se Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
+	<p>The Louise Varèse Papers, Sophia Smith Collection, Smith College, Northampton, Mass.</p>
     </prefercite>
     <acqinfo id="admin-acqinfo">
-	<p>The Louise Var&#232;se Papers were donated to the Sophia Smith Collection in 1975 to 1987 by Louise Var&#232;se and Maryette Charlton.</p>
+	<p>The Louise Varèse Papers were donated to the Sophia Smith Collection in 1975 to 1987 by Louise Varèse and Maryette Charlton.</p>
     </acqinfo>
     <processinfo id="admin-process">
 	<p>Finding aid revised by Jesse Kline, 2012.</p>
@@ -126,13 +127,13 @@
 <!-- Enter controlled access terms -->
     <controlaccess id="subj">
 		<persname encodinganalog="600" source="lcnaf">Barzun, Jacques, 1907- --Correspondence</persname>
-	<persname encodinganalog="600" source="lcnaf">Nin, Ana&#239;s, 1903-1977--Correspondence</persname>
-	<persname encodinganalog="600" source="lcnaf">Var&#232;se, Louise, 1890-</persname>
-	<persname encodinganalog="600" source="lcnaf">Var&#232;se, Edgard, 1883-1965</persname>
+	<persname encodinganalog="600" source="lcnaf">Nin, Anaïs, 1903-1977--Correspondence</persname>
+	<persname encodinganalog="600" source="lcnaf">Varèse, Louise, 1890-</persname>
+	<persname encodinganalog="600" source="lcnaf">Varèse, Edgard, 1883-1965</persname>
 	<subject encodinganalog="650" source="lcsh">Musicians--United States--Biography--Sources</subject>
 	<subject encodinganalog="650" source="lcsh">Translators--United States--Biography--Sources</subject>
 	<subject encodinganalog="650" source="lcsh">Women authors, American--20th century--Biography--Sources</subject>
-	<title encodinganalog="730">Var&#232;se, Louise, 1890- . Var&#232;se; A Looking-Glass Diary -- Sources</title>
+	<title encodinganalog="730">Varèse, Louise, 1890- . Varèse; A Looking-Glass Diary -- Sources</title>
 
     </controlaccess>
 
@@ -149,8 +150,8 @@
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
  </did>
@@ -172,7 +173,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">3</container>
- <unittitle>List of names with person's relation to Edgar Var&#232;se taken from Var&#233;se, by Louise Var&#232;se, New York, WW Norton<unitdate> 1972</unitdate></unittitle>
+ <unittitle>List of names with person's relation to Edgar Varèse taken from Varése, by Louise Varèse, New York, WW Norton<unitdate> 1972</unitdate></unittitle>
  </did>
  </c02>
  <c02>
@@ -204,7 +205,7 @@
  <did>
  <container type="box">1</container>
  <container type="folder">13</container>
- <unittitle>Edgar Var&#232;se</unittitle>
+ <unittitle>Edgar Varèse</unittitle>
  </did>
  </c03>
  <c03>
@@ -251,13 +252,13 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. CORRESPONDENCE</unittitle>
  </did>
  <c02>
  <did>
- <unittitle>From Louise Var&#232;se</unittitle>
+ <unittitle>From Louise Varèse</unittitle>
  </did>
  <c03>
  <did>
@@ -304,7 +305,7 @@
  </c02>
  <c02>
  <did>
- <unittitle>To Louise Var&#232;se</unittitle>
+ <unittitle>To Louise Varèse</unittitle>
  </did>
  <c03>
  <did>
@@ -856,7 +857,7 @@
  <did>
  <container type="box">5</container>
  <container type="folder">8</container>
- <unittitle>Var&#232;se-Mulder, Claude</unittitle>
+ <unittitle>Varèse-Mulder, Claude</unittitle>
  </did>
  </c03>
  <c03>
@@ -936,91 +937,91 @@
  </did>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">1</container>
  <unittitle>Telegrams / Cables</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">2</container>
  <unittitle>Publishers</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">3</container>
  <unittitle>Universities</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">4</container>
  <unittitle>MacDowell Colony and American Academy of Poets</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">5</container>
  <unittitle>Composers' organizations, Will Shuster, Museum of Irish Art</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">6</container>
  <unittitle>Bank of NY, US, and French governments</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">7</container>
  <unittitle>A - C</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">8</container>
  <unittitle>D - K</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">9</container>
  <unittitle>L - M</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">10</container>
  <unittitle>N - R</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">11</container>
  <unittitle>S - V</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">12</container>
  <unittitle>W - Z</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">6</container>
  <container type="folder">13</container>
  <unittitle>Unidentified</unittitle>
  </did>
@@ -1028,7 +1029,7 @@
  </c02>
  <c02>
  <did>
- <unittitle>Re: Music, museums, publishing, translations, and <title render="italic">Var&#232;se; A Looking-Glass Diary</title></unittitle>
+ <unittitle>Re: Music, museums, publishing, translations, and <title render="italic">Varèse; A Looking-Glass Diary</title></unittitle>
  </did>
  <c03>
  <did>
@@ -1299,67 +1300,67 @@
  <did>
  <container type="box">7</container>
  <container type="folder">35</container>
- <unittitle><title render="italic">Var&#232;se; A Looking-Glass Diary</title> - Miscellaneous correspondence to LV</unittitle>
+ <unittitle><title render="italic">Varèse; A Looking-Glass Diary</title> - Miscellaneous correspondence to LV</unittitle>
  </did>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. WRITINGS</unittitle>
  </did>
  <c02>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">1</container>
  <unittitle>List of translations</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">2</container>
  <unittitle>Early notes/clippings</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">3</container>
  <unittitle>"The Blind Man" and "Buddha of the Bathroom"</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">4</container>
- <unittitle>Limerick about Var&#232;se in Santa Fe</unittitle>
+ <unittitle>Limerick about Varèse in Santa Fe</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">5</container>
  <unittitle>"The Little Wax Candle"</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">6</container>
  <unittitle>"Marcel Duchamp at Play"<unitdate> 1972</unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">7</container>
  <unittitle>"The Poetic Art of Photography"</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">8</container>
  <unittitle>"Pony House" and drawing for Edgard</unittitle>
  </did>
@@ -1370,119 +1371,119 @@
  </did>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">9</container>
  <unittitle>Author, Looten, Michaux</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">10</container>
  <unittitle>With the French Author, Sokolova, Nadia</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">11</container>
  <unittitle>Miscellaneous - other manuscripts</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">12</container>
  <unittitle>Poetry</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">13</container>
  <unittitle>"Marie the Virgin and the Virgins" Antibes<unitdate> 1927</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">14</container>
  <unittitle>"Miserable Miracle"</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">15</container>
  <unittitle>"Slaughter of the Innocents"</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">16</container>
  <unittitle>"Together Still", Michaux<unitdate> 1948</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">17</container>
  <unittitle>Translator's note to Perse's "Eloques and Other Poems"<unitdate> 1956</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">18</container>
  <unittitle>For Nancy Reid program<unitdate> 1947 </unitdate>(soprano)</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">19</container>
  <unittitle>Unidentified</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">20</container>
  <unittitle>Translations known to exist but have not been found</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">21</container>
  <unittitle>Unpublished</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">22</container>
  <unittitle>Unidentified - "The Chess Game"<unitdate> 1916</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">23</container>
  <unittitle>Unidentified - "Liminana" Poems<unitdate> 1925</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">24</container>
  <unittitle>Unidentified - "The One All Alone"<unitdate> 1927-8</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">25</container>
  <unittitle>Unidentified - Stories</unittitle>
  </did>
@@ -1494,84 +1495,84 @@
  </did>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">26</container>
  <unittitle>"Paris Spleen," Baudelaire</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">27</container>
  <unittitle>"Joy," George Bernanos</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">28</container>
  <unittitle>"Castle of Argol," Gracq, Julien</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">29</container>
  <unittitle>"Parenthesis," Jacques Lemarchand</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">30</container>
  <unittitle>"Le Miserable Miracle," Michaux, H.</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">31</container>
  <unittitle>St. John Perse</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">32</container>
  <unittitle>"Pleasures and Regrets," Proust</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">33</container>
  <unittitle>Rimbaud, Arthur</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">34</container>
  <unittitle>Sartre, Jean Paul</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">35</container>
  <unittitle>Simenon, George</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">36</container>
  <unittitle>"Lucien Leuwen," Stendhal</unittitle>
  </did>
  </c03>
  <c03>
  <did>
- <container type="box">2</container>
+ <container type="box">8</container>
  <container type="folder">37</container>
  <unittitle>New Yorker, "Musical Events - Sound and Spaces"</unittitle>
  </did>
@@ -1585,20 +1586,20 @@
  <did>
  <container type="box">9</container>
  <container type="folder">1</container>
- <unittitle><title render="italic">Var&#232;se; A Looking-Glass Diary</title>, Vol. 1. Part 1. Early Years<unitdate> 1883-1915</unitdate></unittitle>
+ <unittitle><title render="italic">Varèse; A Looking-Glass Diary</title>, Vol. 1. Part 1. Early Years<unitdate> 1883-1915</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">9</container>
  <container type="folder">2</container>
- <unittitle><title render="italic">Var&#232;se; A Looking-Glass Diary</title>: Entire manuscript of Vol. 1 only</unittitle>
+ <unittitle><title render="italic">Varèse; A Looking-Glass Diary</title>: Entire manuscript of Vol. 1 only</unittitle>
  </did>
  </c03>
  </c02>
  <c02>
  <did>
- <unittitle><title render="italic">Var&#232;se; A Looking-Glass Diary</title>, Vol. I</unittitle>
+ <unittitle><title render="italic">Varèse; A Looking-Glass Diary</title>, Vol. I</unittitle>
  </did>
  <c03>
  <did>
@@ -1625,7 +1626,7 @@
  <did>
  <container type="box">10</container>
  <container type="folder">4</container>
- <unittitle>Reviews - <title render="italic">Var&#232;se; A Looking-Glass Diary</title></unittitle>
+ <unittitle>Reviews - <title render="italic">Varèse; A Looking-Glass Diary</title></unittitle>
  </did>
  </c03>
  </c02>
@@ -1637,7 +1638,7 @@
  <did>
  <container type="box">11</container>
  <container type="folder">1</container>
- <unittitle>Transcribed tape - Var&#232;se and Alcopley, Leonardo<unitdate> 1963</unitdate></unittitle>
+ <unittitle>Transcribed tape - Varèse and Alcopley, Leonardo<unitdate> 1963</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1691,33 +1692,33 @@
  <did>
  <container type="box">12</container>
  <container type="folder">1</container>
- <unittitle>To Paris for "Hommages a Var&#232;se"<unitdate> 1973</unitdate></unittitle>
+ <unittitle>To Paris for "Hommages a Varèse"<unitdate> 1973</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">12</container>
  <container type="folder">2</container>
- <unittitle>For Edgard Var&#232;se's work performed<unitdate> 1972</unitdate></unittitle>
+ <unittitle>For Edgard Varèse's work performed<unitdate> 1972</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">12</container>
  <container type="folder">3</container>
- <unittitle>For Edgard Var&#232;se's work performed<unitdate> 1973-74</unitdate></unittitle>
+ <unittitle>For Edgard Varèse's work performed<unitdate> 1973-74</unitdate></unittitle>
  </did>
  </c03>
  <c03>
  <did>
  <container type="box">12</container>
  <container type="folder">4</container>
- <unittitle>Attended by Louise Var&#232;se</unittitle>
+ <unittitle>Attended by Louise Varèse</unittitle>
  </did>
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. MEMORABILIA</unittitle>
  </did>
@@ -1725,7 +1726,7 @@
  <did>
  <container type="box">13</container>
  <container type="folder">1</container>
- <unittitle>Louise Var&#232;se's clippings, poems etc collected by her</unittitle>
+ <unittitle>Louise Varèse's clippings, poems etc collected by her</unittitle>
  </did>
  </c02>
  <c02>
@@ -1760,21 +1761,21 @@
  <did>
  <container type="box">13</container>
  <container type="folder">6</container>
- <unittitle>Negatives of photographs of LV for Claude Var&#232;se<unitdate> 1972</unitdate></unittitle>
+ <unittitle>Negatives of photographs of LV for Claude Varèse<unitdate> 1972</unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
  <container type="box">13</container>
  <container type="folder">7</container>
- <unittitle>Photos of LV by Esta Var&#232;se<unitdate> 1920, 1921 [or 22] </unitdate></unittitle>
+ <unittitle>Photos of LV by Esta Varèse<unitdate> 1920, 1921 [or 22] </unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
  <container type="box">13</container>
  <container type="folder">8</container>
- <unittitle>Edgard Var&#232;se's monogram for LV</unittitle>
+ <unittitle>Edgard Varèse's monogram for LV</unittitle>
  </did>
  </c02>
  <c02>
@@ -1806,7 +1807,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser5">
+ <c01 id="list-ser5" level="series">
  <did>
  <unittitle>SERIES V. BOOKS</unittitle>
  </did>
@@ -1997,16 +1998,16 @@
  </c02>
  <c02>
  <did>
- <unittitle>Var&#232;se, Louise, Var&#232;se, Davis-Poynter, Great Britain<unitdate> 1972</unitdate></unittitle>
+ <unittitle>Varèse, Louise, Varèse, Davis-Poynter, Great Britain<unitdate> 1972</unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Var&#232;se, Louise, Var&#232;se, W.W. Norton and Company, Inc., NY<unitdate> 1972 </unitdate>(2 copies)</unittitle>
+ <unittitle>Varèse, Louise, Varèse, W.W. Norton and Company, Inc., NY<unitdate> 1972 </unitdate>(2 copies)</unittitle>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser6">
+ <c01 id="list-ser6" level="series">
  <did>
  <unittitle>SERIES VI. PERIODICALS [on shelf]</unittitle>
  </did>
@@ -2051,7 +2052,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser7">
+ <c01 id="list-ser7" level="series">
  <did>
  <unittitle>ADDITIONS (unprocessed)</unittitle>
  </did>
@@ -2077,12 +2078,12 @@
  </c02>
  <c02>
  <did>
- <unittitle>Louise Var&#232;se Birthday Celebrations</unittitle>
+ <unittitle>Louise Varèse Birthday Celebrations</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Correspondence: Louise Var&#232;se</unittitle>
+ <unittitle>Correspondence: Louise Varèse</unittitle>
  </did>
  </c02>
  <c02>
@@ -2092,27 +2093,27 @@
  </c02>
  <c02>
  <did>
- <unittitle>Correspondence from  Louise Var&#232;se to Edgard Var&#232;se, etc.</unittitle>
+ <unittitle>Correspondence from  Louise Varèse to Edgard Varèse, etc.</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Correspondence to Louise Var&#232;se <unitdate>pre-1975 </unitdate></unittitle>
+ <unittitle>Correspondence to Louise Varèse <unitdate>pre-1975 </unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Correspondence to Louise Var&#232;se<unitdate> 1975</unitdate></unittitle>
+ <unittitle>Correspondence to Louise Varèse<unitdate> 1975</unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Correspondence to Louise Var&#232;se  <unitdate>1976-77</unitdate></unittitle>
+ <unittitle>Correspondence to Louise Varèse  <unitdate>1976-77</unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Correspondence from Louise Var&#232;se to Maryette Charlton <unitdate>1975- </unitdate>)</unittitle>
+ <unittitle>Correspondence from Louise Varèse to Maryette Charlton <unitdate>1975- </unitdate>)</unittitle>
  </did>
  </c02>
  <c02>
@@ -2127,17 +2128,17 @@
  </c02>
  <c02>
  <did>
- <unittitle>Rough drafts of Louise Var&#232;se for article "Marcel Duchamp at Play"<unitdate> 1975</unitdate></unittitle>
+ <unittitle>Rough drafts of Louise Varèse for article "Marcel Duchamp at Play"<unitdate> 1975</unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Two tape recordings of Louise Var&#232;se by Maryette Charlton made on using MC's Nagra, 2/1/72<unitdate>1972</unitdate></unittitle>
+ <unittitle>Two tape recordings of Louise Varèse by Maryette Charlton made on using MC's Nagra, 2/1/72<unitdate>1972</unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Louise Var&#232;se "Likes"</unittitle>
+ <unittitle>Louise Varèse "Likes"</unittitle>
  </did>
  </c02>
  <c02>
@@ -2147,17 +2148,17 @@
  </c02>
  <c02>
  <did>
- <unittitle>Posters, reviews, relating to "A Var&#232;se Celebration"<unitdate> 1883-1983</unitdate></unittitle>
+ <unittitle>Posters, reviews, relating to "A Varèse Celebration"<unitdate> 1883-1983</unitdate></unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Louise Var&#232;se activities, relating to Edgard Var&#232;se, concerts, et al.</unittitle>
+ <unittitle>Louise Varèse activities, relating to Edgard Varèse, concerts, et al.</unittitle>
  </did>
  </c02>
  <c02>
  <did>
- <unittitle>Photographs of Louise Var&#232;se by Brassai, et al (some with negatives, inter. negatives, labeled)</unittitle>
+ <unittitle>Photographs of Louise Varèse by Brassai, et al (some with negatives, inter. negatives, labeled)</unittitle>
  </did>
  </c02>
  <c02>
@@ -2171,7 +2172,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser8">
+ <c01 id="list-ser8" level="series">
  <did>
  <unittitle>OVERSIZE MATERIALS</unittitle>
  </did>

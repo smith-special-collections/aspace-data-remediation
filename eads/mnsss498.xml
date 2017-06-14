@@ -1,10 +1,8 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head"
-relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-  <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss498.xml//EN" countrycode="us"
-mainagencycode="mnsss">mnsss498</eadid>
+  <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss498.xml//EN">mnsss498</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Elizabeth Dodson Gray Papers, 1970s-2008</titleproper>
@@ -26,8 +24,7 @@ mainagencycode="mnsss">mnsss498</eadid>
          <date normal="yyyy-mm-dd">July 26, 2010</date>
     </creation>
     <langusage>Finding aid written in
-        <language encodinganalog="546" langcode="eng"
-scriptcode="latn">English.</language>
+        <language encodinganalog="546" langcode="eng" scriptcode="latn">English.</language>
       </langusage>
     </profiledesc>
   </eadheader>
@@ -37,15 +34,14 @@ scriptcode="latn">English.</language>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Gray, Elizabeth Dodson, 1929- </persname>
         </origination>
-        <unittitle label="Title:" encodinganalog="245$a">Elizabeth Dodson Gray  Papers</unittitle><unitdate type="inclusive" label="Dates:">1970s-2008</unitdate>
-       <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 648</unitid>
+        <unittitle encodinganalog="245$a" label="Title:">Elizabeth Dodson Gray  Papers</unittitle><unitdate label="Dates:" type="inclusive">1970s-2008</unitdate>
+       <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 648</unitid>
    <physdesc label="Quantity:">
            <extent encodinganalog="300$a">5 boxes</extent>
            <extent encodinganalog="300$a">(4.5 linear ft.) </extent>
    </physdesc>
 
-   <langmaterial label="Language of Material:" encodinganalog="546">
+   <langmaterial encodinganalog="546" label="Language of Material:">
         <language langcode="eng">English</language>
    </langmaterial>
          <repository label="Location:">
@@ -56,7 +52,7 @@ scriptcode="latn">English.</language>
              </address>
           </repository>
           
-           <abstract label="Abstract:" encodinganalog="520$a">
+           <abstract encodinganalog="520$a" label="Abstract:">
             Theologian; Writer. Papers contain lecture notes, writings, and articles and clippings about women and women's issues.
 
         [NOTE: The contents list for this collection is not online.  Contact the Sophia Smith
@@ -140,4 +136,3 @@ Collection if you would like one sent to you.]
         </relatedmaterial>
 </archdesc>
 </ead>
-

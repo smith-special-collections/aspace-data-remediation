@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca305.xml//EN" countrycode="us" mainagencycode="manosca">manosca305</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca305.xml//EN">manosca305</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Elizabeth Morrow Personal Papers, 1892-1947</titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2013">2013</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Morrow, Elizabeth, 1873-1955.</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Morrow, Elizabeth, 1873-1955.</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Elizabeth Morrow Personal Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1892-1947</unitdate>
+	<unittitle encodinganalog="245$a" label="Title:">Elizabeth Morrow Personal Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1892-1947</unitdate>
 	
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 32</unitid>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 32 UUID:3ccef6af-899e-4ce3-90da-88d69caea8ce</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">5 boxes</extent>
 		<extent encodinganalog="300$a">(1.9  linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -69,12 +70,12 @@
 	<p>Taking an active role in the life and well-being of her alma mater, Elizabeth Cutter Morrow was president of the Smith College Alumnae Association from 1917-1920.  She was a member of the War Services Board which directed Smith College relief units overseas.  Between 1920-1926 she was the Alumnae representative to the 
 	<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca146_main.html">Board of Trustees</extref>, and later, in 1926, was elected a Trustee by the Board.  Her largest contribution, however, was her role as acting president for the interim year, 1939-1940, after the resignation of William A. Neilson as president in 1939.</p>
 
-	<p>Elizabeth Cutter Morrow was not a professional woman whose "field" can be easily described.  She certainly achieved eminence in education, philanthropy, finance, and literature.  She was a teacher of English, History, and French in private schools before her marriage to Dwight Whitney Morrow in 1903.  During her marriage she published prose and verse in many popular magazines, as well as publishing multiple children's books, of which some are 	<title render="italic" encodinganalog="730">The Painted Pig</title> , 	<title render="italic" encodinganalog="730">Quatrains for My Daughter</title> , 	<title render="italic" encodinganalog="730">The Rabbit's Nest</title> , 	<title render="italic" encodinganalog="730">Shannon, A Pint of Judgment</title> , and 	<title render="italic" encodinganalog="730">Casa Manana</title>  which was chosen as one of 150 of the most beautiful books between 1931 and 1933.</p>
+	<p>Elizabeth Cutter Morrow was not a professional woman whose "field" can be easily described.  She certainly achieved eminence in education, philanthropy, finance, and literature.  She was a teacher of English, History, and French in private schools before her marriage to Dwight Whitney Morrow in 1903.  During her marriage she published prose and verse in many popular magazines, as well as publishing multiple children's books, of which some are 	<title encodinganalog="730" render="italic">The Painted Pig</title> , 	<title encodinganalog="730" render="italic">Quatrains for My Daughter</title> , 	<title encodinganalog="730" render="italic">The Rabbit's Nest</title> , 	<title encodinganalog="730" render="italic">Shannon, A Pint of Judgment</title> , and 	<title encodinganalog="730" render="italic">Casa Manana</title>  which was chosen as one of 150 of the most beautiful books between 1931 and 1933.</p>
 
 	<p>Her volunteer work had no limits.  Elizabeth Cutter Morrow was unstintingly active in local as well as national and international affairs.  She was chairman of the Community Chest when it was first organized in Englewood, New Jersey, the town she called home.  She was also involved in her local church, Women's Club, Memorial House (civic center) and was even chairman of the Board of The Little School in Englewood, founded by her daughter Elizabeth.  She was a member of the Executive Committee of the New York National War Fund Committee.  She was one of the founders for Food for Freedom Inc..  She was the first woman to serve on the Board of the Union Theological Seminary.  In New York she was a member of the National Board of the Y. W. C. A., and she took a leading role in many of its campaigns for funds.  Elizabeth Cutter Morrow played an important role in issues abroad.  During her husband's time as Ambassador to Mexico, 1927-30, she supported him in his resolve to bring about the strengthening of friendly relations between Mexico and the United States.  As well, she was an honorary vice-president of the American Association for the United Nations, Inc.</p>
 
 	<p>On January 23, 1955 she died at the age of eighty-two.  In an address at the Smith College memorial service 
-	<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca15_main.html">Ada Comstock Notestein</extref>, member of the Class of 1897, former Dean and Trustee of Smith College, as well as former president of Radcliffe College, said: "&#8230;She was one of those rare beings  for whose courage nothing is too great, and for whose imagination nothing is too small&#8230;.She was a benefactor  and philanthropist without any apparent consciousness of doing more than anyone would have done in her place."</p>
+	<extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca15_main.html">Ada Comstock Notestein</extref>, member of the Class of 1897, former Dean and Trustee of Smith College, as well as former president of Radcliffe College, said: "…She was one of those rare beings  for whose courage nothing is too great, and for whose imagination nothing is too small….She was a benefactor  and philanthropist without any apparent consciousness of doing more than anyone would have done in her place."</p>
 
     </bioghist>
 
@@ -83,7 +84,7 @@
 		<p>The Elizabeth Morrow papers document Morrow's life outside of her presidency at Smith. Types of material include biographical material, newspaper clippings, correspondence, memorials, photographs, publications, and speeches. The bulk of the collection consists of photographs and publications.</p>
     </scopecontent>
 
-    <arrangement id="scope-org" encodinganalog="351$a">
+    <arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -143,8 +144,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
-   <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+   <c01 id="list-ser1" level="series">
       <did>
          <unittitle>Series I. Biographical Materials</unittitle>
       </did>
@@ -248,7 +249,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser2">
+   <c01 id="list-ser2" level="series">
       <did>
          <unittitle>Series II. Photographs</unittitle>
       </did>
@@ -401,7 +402,7 @@
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser3">
+   <c01 id="list-ser3" level="series">
       <did>
          <unittitle>Series III. Publications</unittitle>
       </did>
@@ -427,7 +428,7 @@
          <did>
             <container type="box">446</container>
             <container type="folder">3</container>
-            <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">A Pint of Judgment</title> 
+            <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">A Pint of Judgment</title> 
                <unitdate>1939</unitdate>
             </unittitle>
          </did>
@@ -454,7 +455,7 @@
          <did>
             <container type="box">446</container>
             <container type="folder">6</container>
-            <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Quatrains for My Daughter</title> 
+            <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Quatrains for My Daughter</title> 
                <unitdate>1928</unitdate>
             </unittitle>
          </did>
@@ -463,7 +464,7 @@
          <did>
             <container type="box">446</container>
             <container type="folder">7</container>
-            <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">The Rabbit's Nest</title> 
+            <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">The Rabbit's Nest</title> 
                <unitdate>1940</unitdate>
             </unittitle>
          </did>
@@ -472,7 +473,7 @@
          <did>
             <container type="box">446</container>
             <container type="folder">8</container>
-            <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Shannon</title> 
+            <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Shannon</title> 
                <unitdate>1941</unitdate>
             </unittitle>
          </did>
@@ -481,7 +482,7 @@
          <did>
             <container type="box">446</container>
             <container type="folder">9</container>
-            <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Sonnet</title> 
+            <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Sonnet</title> 
                <unitdate>1937</unitdate>
             </unittitle>
          </did>
@@ -499,13 +500,13 @@
          <did>
             <container type="box">446</container>
             <container type="folder">11</container>
-            <unittitle>	<title render="italic" encodinganalog="630" source="lcsh">Youth Replies, I Can</title>  (Foreword)
+            <unittitle>	<title encodinganalog="630" render="italic" source="lcsh">Youth Replies, I Can</title>  (Foreword)
                <unitdate>1945</unitdate>
             </unittitle>
          </did>
       </c02>
    </c01>
-   <c01 level="series" id="list-ser4">
+   <c01 id="list-ser4" level="series">
       <did>
          <unittitle>Series IV. Speeches</unittitle>
       </did>
@@ -607,5 +608,3 @@
 
   </archdesc>
 </ead>
-
-

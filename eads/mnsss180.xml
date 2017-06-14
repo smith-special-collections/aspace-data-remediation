@@ -1,6 +1,7 @@
-<ead>
-   <eadheader audience="internal" id="head" findaidstatus="unverified-full-draft" langencoding="iso639-2b">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss180.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss180</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss180.xml//EN">mnsss180</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Miscellaneous Organizations Collection, circa 1824-2011 (ongoing)
@@ -50,7 +51,7 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2004  Smith College. All rights reserved.</p>
+         <p>©  2004  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
    <archdesc level="collection" relatedencoding="MARC21">
@@ -58,7 +59,7 @@
          <head>Collection Overview</head>
          <unittitle encodinganalog="245$a" label="Title:">Miscellaneous Organizations Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">circa 1824-2011 (ongoing)</unitdate>
          
-         <unitid encodinganalog="099" repositorycode="mnsss" label="Collection Number:" countrycode="us">MS 482</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 482</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">37 boxes</extent>
             <extent encodinganalog="300$a">(18 linear ft.)</extent>
@@ -72,7 +73,7 @@
             </repository>
          <abstract encodinganalog="520$a" label="Abstract:">This collection contains small amounts of primarily printed materials on women's professional, social, political, charitable, and patriotic organizations. Also included are women's rights groups and organizations for consumer advocacy, ethnic and racial equality, community service, civic improvement, social welfare, labor advocacy, war relief, and animal rights.  National and local organizations in the U.S. are represented, as well as other countries, especially Canada, England, Germany, India, Japan, and South Africa. Types of materials include articles, pamphlets, periodicals, newsletters, reports, minutes, conference proceedings, brochures, newspaper clippings, histories, memorabilia, and books, plus small amounts of original correspondence, writings, and photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English</language> and 
             <language langcode="jpn">Japanese</language>
          </langmaterial>
@@ -83,13 +84,13 @@
 
 <p>U.S. organizations include the American Women's Association, Association for the Advancement of Women, National Consumers League, National Council of Negro Women, Girl Scouts, National Woman's Party, Sigma Delta Epsilon (Graduate Women in Science), and the Women's Educational and Industrial Union. Individuals represented in the collection include Ethel Andrus (American Association of Retired Persons) and Susan Paul Vashon (Missouri Federation of Colored Women). Some of the more obscure organizations found in the collection include the Temporary Asylum for Discharged Female Prisoners (1875); Massachusetts Home for Intemperate Women (1892); and the Women's Patriotic Association for Diminishing The Use of Imported Luxuries (1864).</p>
 
-<p>Some of the organizations that are well-represented under other countries include Black Sash (South Africa), the Young Women's Christian Association (in various countries), Women's Culture Club (Thailand), Lanka Mahila Samiti (Ceylon), B&#252;ro fur Frauenfragen (Germany), All Pakistan Women's Association, and the Fawcett Society (England). </p> 
+<p>Some of the organizations that are well-represented under other countries include Black Sash (South Africa), the Young Women's Christian Association (in various countries), Women's Culture Club (Thailand), Lanka Mahila Samiti (Ceylon), Büro fur Frauenfragen (Germany), All Pakistan Women's Association, and the Fawcett Society (England). </p> 
 
 <p>SERIES II. INTERNATIONAL ORGANIZATIONS includes women's organizations and congresses that are international in scope and purpose. Topics include women's rights, peace, professional women networks, economic development, international law, and international cooperation. Organizations include the Associated Country Women of the World, International Federation of University Women, International Planned Parenthood Federation, and the World YWCA.  A large section documents the United Nations' activities relating to women, such as the Commission on the Status of Women, International Women's Year, the Decade for Women, and various reports on the status of women around the world.
 </p>
       </scopecontent>
  
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -146,7 +147,7 @@
          <corpname encodinganalog="610" source="lcnaf">National Woman's Party--History--Sources</corpname>
          <corpname encodinganalog="610" source="lcnaf">World Young Women's Christian Association--History--Sources</corpname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -157,8 +158,8 @@
 
                     
                     
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. NATIONAL ORGANIZATIONS</unittitle>
  </did>
@@ -778,7 +779,7 @@
  <did>
  <container type="box">8</container>
  <container type="folder">2</container>
- <unittitle>Z&#252;rcher Frauenvereine f&#252;r Alkoholreie Wirtschaften: books and pamphlets,<unitdate> 1944-54</unitdate></unittitle>
+ <unittitle>Zürcher Frauenvereine für Alkoholreie Wirtschaften: books and pamphlets,<unitdate> 1944-54</unitdate></unittitle>
  </did>
  </c03>
  </c02>
@@ -1848,7 +1849,7 @@
  <did>
  <container type="box">19</container>
  <container type="folder">8</container>
- <unittitle>Women's Overseas Service League: <title render="italic">Lest We Forget&#8230;A History of the Women's Overseas Service League</title> by Helene M. Sillia,<unitdate> 1978</unitdate></unittitle>
+ <unittitle>Women's Overseas Service League: <title render="italic">Lest We Forget…A History of the Women's Overseas Service League</title> by Helene M. Sillia,<unitdate> 1978</unitdate></unittitle>
  </did>
  </c03>
  <c03>
@@ -1881,7 +1882,7 @@
  </c03>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. INTERNATIONAL ORGANIZATIONS</unittitle>
  </did>
@@ -2713,7 +2714,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES OVERSIZE MATERIALS</unittitle>
  </did>

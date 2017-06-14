@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss134.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss134</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss134.xml//EN">mnsss134</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">League of Women Shoppers Records, 1937-2001
@@ -49,19 +50,19 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <corpname encodinganalog="110" source="lcnaf">League of Women Shoppers</corpname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">League of Women Shoppers Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1937 -  2001</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">League of Women Shoppers Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1937 -  2001</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1937-1944</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 328</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 328</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.25 linear ft.)</extent>
@@ -73,14 +74,14 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Consumer advocacy organization and labor reform advocacy organization. The purposes of the League of Women Shoppers were threefold: to investigate the working conditions in stores and factories; to organize consumers to support union organizing; and to protect and improve American living standards through grassroots. A few members represented include Alice Lesser Shepard, Lucille Montgomery, and Jessie Lloyd O'Connor. Materials include constitution and by-laws, correspondence, congressional committee hearing reports,  news bulletins, and assorted publications.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">Consumer advocacy organization and labor reform advocacy organization. The purposes of the League of Women Shoppers were threefold: to investigate the working conditions in stores and factories; to organize consumers to support union organizing; and to protect and improve American living standards through grassroots. A few members represented include Alice Lesser Shepard, Lucille Montgomery, and Jessie Lloyd O'Connor. Materials include constitution and by-laws, correspondence, congressional committee hearing reports,  news bulletins, and assorted publications.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Historical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4567.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc4567.jpg" linktype="simple" show="embed">
 <daodesc><p>Christmas card sold by the <lb />League of Women Shoppers, 1942</p></daodesc></dao>
          <p>Twenty socially conscious women who wished to use their
     power as consumers to obtain justice for workers founded the
@@ -159,7 +160,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -210,7 +211,7 @@
                         environment--United States--History--20th
                         century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -272,8 +273,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. ADMINISTRATION <unitdate>(1938-44)</unitdate>
                </unittitle>
@@ -371,7 +372,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. ACTIVITIES AND MEMBERS <unitdate>(1937-2001)</unitdate>
                </unittitle>

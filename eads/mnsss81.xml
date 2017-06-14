@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss81.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss81</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss81.xml//EN">mnsss81</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Art Collection, 1857-1988
@@ -48,16 +49,16 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
-         <unittitle label="Title:" encodinganalog="245$a">Art Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1857-1988 </unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Art Collection</unittitle><unitdate encodinganalog="245$f" type="inclusive">1857-1988 </unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1920-1980</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 429</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 429</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes; 2 volumes</extent>
             <extent encodinganalog="300$a">(1.25 linear ft.)</extent>
@@ -69,20 +70,20 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Documents women's participation in, and contributions to, the broad field of art. Contains primarily printed material, plus, correspondence, interviews, notes, photographs, postcards, posters, speeches, and typescripts.   The collection documents the lives and work of individual designers, landscape architects, women in the fine arts, as well as the status of women in the arts and organizations of feminist artists.
+         <abstract encodinganalog="520$a" label="Abstract:">Documents women's participation in, and contributions to, the broad field of art. Contains primarily printed material, plus, correspondence, interviews, notes, photographs, postcards, posters, speeches, and typescripts.   The collection documents the lives and work of individual designers, landscape architects, women in the fine arts, as well as the status of women in the arts and organizations of feminist artists.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <scopecontent id="scope">
          <head>Scope and Contents of the Collection</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6184.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6184.jpg" linktype="simple" show="embed">
 <daodesc><p>Cover of "Famous American Women Painters," <lb />in <title render="italic">The Mentor</title>, March 16, 1914</p></daodesc></dao> 
-         <p> The Art Collection documents women's participation in, and contributions to, the broad field of art from 1857 to 1988.  The material consists of articles, autographs, bibliographies, brochures, catalogs, correspondence, interviews, newsletters, newspaper clippings, notes, pamphlets, photographs, postcards, posters, publicity, resum&#233;s, a reel-to-reel tape, speeches, and typescripts.  There are only a few items dating from the nineteenth century, all of which are magazine articles or newspaper clippings that focus on the lives and work of individual women artists, including Angelica Kaufman and Rosa Bonheur.   The bulk of the collection dates from the twentieth century, with most items originating between 1920 and 1980.  The earlier twentieth century material documents women's contributions to the fields of visual art, architecture, landscape architecture, and graphic design.  This includes biographical materials on designers Florence Morton and Helen Dryden; landscape architects Adelaide Derringer, Louise Klein-Miller, and Beatrix Farrand; and artists Mary Cassatt, Katharine S. Dreier, Caroline Durieux, Sarah Eddy Jackson, Beth Creevey, Hildreth Meiere, and Georgia O'Keeffe. </p>
+         <p> The Art Collection documents women's participation in, and contributions to, the broad field of art from 1857 to 1988.  The material consists of articles, autographs, bibliographies, brochures, catalogs, correspondence, interviews, newsletters, newspaper clippings, notes, pamphlets, photographs, postcards, posters, publicity, resumés, a reel-to-reel tape, speeches, and typescripts.  There are only a few items dating from the nineteenth century, all of which are magazine articles or newspaper clippings that focus on the lives and work of individual women artists, including Angelica Kaufman and Rosa Bonheur.   The bulk of the collection dates from the twentieth century, with most items originating between 1920 and 1980.  The earlier twentieth century material documents women's contributions to the fields of visual art, architecture, landscape architecture, and graphic design.  This includes biographical materials on designers Florence Morton and Helen Dryden; landscape architects Adelaide Derringer, Louise Klein-Miller, and Beatrix Farrand; and artists Mary Cassatt, Katharine S. Dreier, Caroline Durieux, Sarah Eddy Jackson, Beth Creevey, Hildreth Meiere, and Georgia O'Keeffe. </p>
          <p> There is also a large amount of material in the collection dating from the late 1960s and 1970s documenting the impact of feminism on the art world, showing both the reassessment of women's historical contributions to the field, and the explosion of feminist art that occurred in the 1970s.   Included here are studies and reports on the status of women in the arts, catalogs for exhibits of feminist art, newsletters from organizations of feminist artists, and material on contemporary women artists such as Judy Chicago, Alice Neel, Louise Grassie, Frieda Savitz, Myrna Shiras, Lilly Martin Spencer, and many others.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -125,7 +126,7 @@
          <subject encodinganalog="650" source="lcsh">Women landscape architects--History--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women motion picture producers and directors--History--Sources</subject>
       </controlaccess>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <unittitle>General</unittitle>

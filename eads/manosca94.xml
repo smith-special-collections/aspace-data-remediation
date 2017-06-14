@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca94.xml//EN" countrycode="us" mainagencycode="manosca">manosca94</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca94.xml//EN">manosca94</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Radio Club and Student Radio Stations Records, 1947-[ongoing]
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2013 </date>
+<date>© 2013 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -50,17 +51,17 @@
 <date>2013
 </date>
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
 <corpname encodinganalog="100" source="lcnaf">Radio Club and Student Radio Stations</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Radio Club and Student Radio Stations Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1947-[ongoing]</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 80</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Radio Club and Student Radio Stations Records</unittitle><unitdate encodinganalog="245$f" type="inclusive">1947-[ongoing]</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:553964e7-cca2-4ab5-9be4-6d7be805d1b1</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">6 boxes</extent>
 <extent encodinganalog="300$a">(2.33 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Records of the Radio Club include correspondence, program schedules, histories, photographs and subject files pertaining to the founding and operation of WCSR.  The Student Radio Station Records include fliers, advertising, promotional items and publications of WOZQ, Smith's current student run radio station.
+<abstract encodinganalog="520$a" label="Abstract:">Records of the Radio Club include correspondence, program schedules, histories, photographs and subject files pertaining to the founding and operation of WCSR.  The Student Radio Station Records include fliers, advertising, promotional items and publications of WOZQ, Smith's current student run radio station.
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -94,7 +95,7 @@
 </item>
 </list>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -131,8 +132,8 @@
 <corpname encodinganalog="710" source="lcnaf">WOZQ (Radio station : Northampton, Mass.)</corpname>
 <corpname encodinganalog="710" source="lcnaf">Smith College. Radio Club.</corpname>
 </controlaccess>
-<dsc type="in-depth" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>SERIES I. RADIO CLUB (WCSR)
 </unittitle>
@@ -722,7 +723,7 @@
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>SERIES II. STUDENT RUN RADIO STATIONS
 </unittitle>
@@ -770,7 +771,7 @@
 <c02>
 <did>
 <container type="box">3058</container>
-<unittitle>WOZQ, 	<title render="italic" encodinganalog="630" source="lcsh">Dirt</title> Zine
+<unittitle>WOZQ, 	<title encodinganalog="630" render="italic" source="lcsh">Dirt</title> Zine
 <unitdate>1993-</unitdate>
 </unittitle>
 </did>

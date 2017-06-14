@@ -1,7 +1,8 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid publicid="-//us::manosca//TEXT us::manosca::manosca31.xml//EN" countrycode="us" mainagencycode="manosca">manosca31</eadid>
+<eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca31.xml//EN">manosca31</eadid>
 <filedesc>
 <titlestmt>
 <titleproper>Student Strike of 1970 Files, 1968-1971
@@ -15,7 +16,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#x00A9; 2003 </date>
+<date>© 2003 </date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -49,18 +50,18 @@
 </date>
 
 <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-<p>&#x00A9; 2003  Smith College. All rights reserved.</p>
+<p>© 2003  Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
-<archdesc relatedencoding="MARC21" level="recordgrp">
+<archdesc level="recordgrp" relatedencoding="MARC21">
 <did id="main">
 <head>Collection Overview</head>
 
 <origination label="Creator:">
 <corpname encodinganalog="100" source="lcnaf">Smith College.</corpname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Student Strike of 1970 Files</unittitle><unitdate encodinganalog="245$f" type="inclusive">1968-1971</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" repositorycode="manosca" countrycode="us">RG 80</unitid>
+<unittitle encodinganalog="245$a" label="Title:">Student Strike of 1970 Files</unittitle><unitdate encodinganalog="245$f" type="inclusive">1968-1971</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:1c192289-70f7-4a75-aac0-c9185b6585c8</unitid>
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">3 boxes </extent>
 <extent encodinganalog="300$a">(1 linear ft.)</extent>
@@ -71,7 +72,7 @@
 <addressline>Northampton, MA</addressline>
 </address>
 </repository>
-<abstract label="Abstract:" encodinganalog="520$a">Student anti-war demonstration.  Contains correspondence, diaries, notes, speeches, notices, posters, memoranda, photographs, petitions, newsletters, packets, press releases and newspaper clippings
+<abstract encodinganalog="520$a" label="Abstract:">Student anti-war demonstration.  Contains correspondence, diaries, notes, speeches, notices, posters, memoranda, photographs, petitions, newsletters, packets, press releases and newspaper clippings
 </abstract>
 <langmaterial label="Language of Material:">
 <language langcode="eng">English.</language>
@@ -249,7 +250,7 @@ Young Republican Club.</p>
 </item>
 </list>
 </arrangement>
-<descgrp type="admininfo" id="admin">
+<descgrp id="admin" type="admininfo">
 <head>Information on Use</head>
 <descgrp type="admininfo">
 <head>Terms of Access and Use</head>
@@ -284,7 +285,7 @@ Young Republican Club.</p>
 <subject encodinganalog="650" source="lcsh">Vietnamese Conflict, 1961-1975--Protest movements--Massachusetts--Northampton.</subject>
 <corpname encodinganalog="710" source="lcnaf">Smith College.</corpname>
 </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -292,8 +293,8 @@ Young Republican Club.</p>
 </p>
 </relatedmaterial>
 </descgrp>
-<dsc type="combined" id="contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="contlist" type="combined">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>SERIES I. SMITH
 <unitdate>(March 11, 1968 - March 1971, n.d.)</unitdate>
@@ -985,7 +986,7 @@ Young Republican Club.</p>
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>SERIES II. OTHER COLLEGES
 <unitdate>(February - June 19, 1970, n.d.)</unitdate>
@@ -1143,7 +1144,7 @@ Young Republican Club.</p>
 </c03>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>SERIES III. NEWSCLIPPINGS
 <unitdate>(May 6 - September 29, 1970. n.d.)</unitdate>

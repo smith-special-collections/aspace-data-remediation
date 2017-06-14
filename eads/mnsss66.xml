@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss66.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss66</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss66.xml//EN">mnsss66</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Gloria Steinem Papers, 1940-2000
@@ -51,18 +52,18 @@
          <sponsor>Processing of the Gloria Steinem Papers was made possible by the generous support of the National Endowment for the Humanities and Smith College President Ruth J. Simmons
             </sponsor>
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169; 2003  Smith College. All rights reserved.</p>
+         <p>© 2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Steinem, Gloria</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Gloria Steinem Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1940 - 2000 [ongoing]</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Gloria Steinem Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1940 - 2000 [ongoing]</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 237</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 237</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">237 boxes</extent>
             <extent encodinganalog="300$a">(105.75  linear ft.)</extent>
@@ -74,15 +75,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
 	  </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Journalist; feminist; political activist; co-founder, <title>Ms</title> magazine; co-founder, Women's Action Alliance; co-founder, Ms Foundation for Women; and co-founder, National Women's Political Caucus.  In addition to providing a complete picture of the life of an important feminist leader, the Gloria Steinem Papers document women at the grassroots level of the feminist movement, whose letters to Steinem demonstrate her role as a symbol of the changes they were experiencing in their own lives. The papers also document Steinem's friendships and work with African-American feminists Shirley Chisholm, Florynce Kennedy and Dorothy Pitman Hughes; lesbian activists Andrea Dworkin and Kate Millett; and labor organizers such as Dolores Huerta and Karen Nussbaum.  Material in the collection includes correspondence, writings, speeches, subject files, memorabilia, and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">Journalist; feminist; political activist; co-founder, <title>Ms</title> magazine; co-founder, Women's Action Alliance; co-founder, Ms Foundation for Women; and co-founder, National Women's Political Caucus.  In addition to providing a complete picture of the life of an important feminist leader, the Gloria Steinem Papers document women at the grassroots level of the feminist movement, whose letters to Steinem demonstrate her role as a symbol of the changes they were experiencing in their own lives. The papers also document Steinem's friendships and work with African-American feminists Shirley Chisholm, Florynce Kennedy and Dorothy Pitman Hughes; lesbian activists Andrea Dworkin and Kate Millett; and labor organizers such as Dolores Huerta and Karen Nussbaum.  Material in the collection includes correspondence, writings, speeches, subject files, memorabilia, and photographs.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-	<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1578.jpg" altrender="right">
+	<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc1578.jpg" linktype="simple" show="embed">
 <daodesc><p>Gloria Steinem, late 1960's</p></daodesc></dao>
          <p>Gloria Steinem was born on March 25, 1934 in Toledo, Ohio to Leo Steinem and Ruth Nuneviller Steinem, the second of their two children (Suzanne Steinem was born in 1925).  She grew up in Toledo and Clark Lake, Michigan, where the family ran a summer resort.  Leo and Ruth divorced in 1945, and, with Suzanne away at Smith College in Northampton, Massachusetts, eleven-year-old Gloria assumed responsibility for the care of her mother, who was increasingly vulnerable to mental illness.  For a short time Gloria lived with Suzanne, by that time employed in Washington, D.C., completing her senior year at Western High School in Georgetown.</p>
          <p>In 1952, Steinem followed Suzanne to Smith College.  After her 1956 graduation, Steinem received a Chester Bowles post-graduate fellowship to spend two years studying and writing in India, where she absorbed grass roots organizing skills from followers of Gandhi.  In 1960 she moved to New York City where she worked for Help! magazine and wrote freelance for Life, Esquire, Glamour, and many other newspapers and magazines.  Steinem co-founded New York magazine in 1968 and served as its political columnist until 1972. She was active in various civil rights and peace campaigns in the 1960s and 70s, including United Farmworkers, Vietnam War Tax Protest, and Committee for the Legal Defense of Angela Davis.  She also participated in the political campaigns of Adlai Stevenson, Robert Kennedy, Shirley Chisholm, and many others.</p>
@@ -133,10 +134,10 @@
          <head>APPENDIX: Articles by Steinem</head>
          <p>This is a complete title list of articles found in <ref target="list-ser4-articles-misc">SERIES IV. WRITINGS</ref>.</p>
          <table>
-            <tgroup cols="3" align="left">
-               <colspec colnum="1" colname="1" align="left" colwidth="25"/>
-               <colspec colnum="2" colname="2" align="left" colwidth="25"/>
-               <colspec colnum="3" colname="3" align="left" colwidth="250"/>
+            <tgroup align="left" cols="3">
+               <colspec align="left" colname="1" colnum="1" colwidth="25"/>
+               <colspec align="left" colname="2" colnum="2" colwidth="25"/>
+               <colspec align="left" colname="3" colnum="3" colwidth="250"/>
                <thead valign="bottom">
                   <row>
                      <entry colname="1" morerows="0">Box</entry>
@@ -883,7 +884,7 @@
                   <row>
                      <entry colname="1" morerows="0"/>
                      <entry colname="2" morerows="0">20</entry>
-                     <entry colname="3" morerows="0">"Looking Backward&#8230;and Ahead" <unitdate>n.d.</unitdate>
+                     <entry colname="3" morerows="0">"Looking Backward…and Ahead" <unitdate>n.d.</unitdate>
                      </entry>
                   </row>
                   <row>
@@ -1049,7 +1050,7 @@
                   <row>
                      <entry colname="1" morerows="0"/>
                      <entry colname="2" morerows="0">47</entry>
-                     <entry colname="3" morerows="0">"No More 'Just Learn your Sides, Man'&#8230;," <title render="italic">New York Times</title><unitdate>n.d.</unitdate>
+                     <entry colname="3" morerows="0">"No More 'Just Learn your Sides, Man'…," <title render="italic">New York Times</title><unitdate>n.d.</unitdate>
                      </entry>
                   </row>
                   <row>
@@ -1297,7 +1298,7 @@
                   <row>
                      <entry colname="1" morerows="0"/>
                      <entry colname="2" morerows="0">35</entry>
-                     <entry colname="3" morerows="0">"Sex&#8230;and Music," <title render="italic">New York Times</title><unitdate>8 Nov 1975</unitdate>
+                     <entry colname="3" morerows="0">"Sex…and Music," <title render="italic">New York Times</title><unitdate>8 Nov 1975</unitdate>
                      </entry>
                   </row>
                   <row>
@@ -1622,7 +1623,7 @@
                   <row>
                      <entry colname="1" morerows="0"/>
                      <entry colname="2" morerows="0">29</entry>
-                     <entry colname="3" morerows="0">"What Playboy Doesn't Know About Women&#8230;," <title render="italic">McCall'</title>s<unitdate>Oct 1970</unitdate>
+                     <entry colname="3" morerows="0">"What Playboy Doesn't Know About Women…," <title render="italic">McCall'</title>s<unitdate>Oct 1970</unitdate>
                      </entry>
                   </row>
                   <row>
@@ -1664,7 +1665,7 @@
                   <row>
                      <entry colname="1" morerows="0"/>
                      <entry colname="2" morerows="0">36</entry>
-                     <entry colname="3" morerows="0">"Who has the Higher Morals IQ&#8230; You or Your Mother?," <title render="italic">Glamour</title><unitdate>Nov 1965</unitdate>
+                     <entry colname="3" morerows="0">"Who has the Higher Morals IQ… You or Your Mother?," <title render="italic">Glamour</title><unitdate>Nov 1965</unitdate>
                      </entry>
                   </row>
                   <row>
@@ -1814,7 +1815,7 @@
          </table>
       </odd>
    <!-- Appendix ends here -->
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -1892,7 +1893,7 @@
          <persname encodinganalog="600" source="lcnaf">Monroe, Marilyn, 1926-1962</persname>
          <persname encodinganalog="600" source="lcnaf">Steinem, Gloria</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -2075,8 +2076,8 @@
 
 <!-- Begin container list -->
 
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIAL </unittitle>
             </did>
@@ -3664,7 +3665,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE </unittitle>
             </did>
@@ -6357,7 +6358,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SPEECHES AND APPEARANCES </unittitle>
             </did>
@@ -7019,7 +7020,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. WRITINGS</unittitle>
             </did>
@@ -7632,7 +7633,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. ORGANIZATIONS</unittitle> </did>
             <c02>
@@ -10905,7 +10906,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser6">
+         <c01 id="list-ser6" level="series">
             <did>
                <unittitle>SERIES VI. POLITICAL CAMPAIGNS  </unittitle>
             </did>
@@ -11112,7 +11113,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser7">
+         <c01 id="list-ser7" level="series">
             <did>
                <unittitle>SERIES VII. SUBJECTS  </unittitle>
             </did>
@@ -14894,7 +14895,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser8">
+         <c01 id="list-ser8" level="series">
             <did>
                <unittitle>SERIES VIII. PHOTOGRAPHS  </unittitle>
             </did>
@@ -15275,7 +15276,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser9">
+         <c01 id="list-ser9" level="series">
             <did>
                <unittitle>SERIES IX. AUDIOVISUAL MATERIAL  </unittitle>
             </did>
@@ -16347,7 +16348,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser10">
+         <c01 id="list-ser10" level="series">
             <did>
                <unittitle>SERIES X. OVERSIZE MATERIALS</unittitle>
             </did>

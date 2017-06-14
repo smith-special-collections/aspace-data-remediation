@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss152.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss152</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss152.xml//EN">mnsss152</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Harriet Bliss Ford Papers, 1899-1953
@@ -47,18 +48,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Ford, Harriet Bliss, 1876-1964</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Harriet Bliss Ford Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1899-1953</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Harriet Bliss Ford Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1899-1953</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 59</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 59</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes</extent>
             <extent encodinganalog="300$a">(2 linear ft.)</extent>
@@ -70,15 +71,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Civic leader; editor; YWCA executive; Red Cross official; and Trustee, Smith College. The correspondence and subject files of the Ford Papers document her work with Century Magazine and her political and intellectual life during her residence in Northampton, Massachusetts.  Included is material written and published by Ford for the Young Women's Christian Association (YWCA), and manuscripts of her speeches and writings. Notable correspondents include Carrie Chapman Catt; Grace Coolidge; Elizabeth Cutter Morrow; William Allen Neilson; Ada Comstock Notestein; Abby Rockefeller; William Rose Bennet; Helena Gilder; and Eleanor Roosevelt.
+         <abstract encodinganalog="520$a" label="Abstract:">Civic leader; editor; YWCA executive; Red Cross official; and Trustee, Smith College. The correspondence and subject files of the Ford Papers document her work with Century Magazine and her political and intellectual life during her residence in Northampton, Massachusetts.  Included is material written and published by Ford for the Young Women's Christian Association (YWCA), and manuscripts of her speeches and writings. Notable correspondents include Carrie Chapman Catt; Grace Coolidge; Elizabeth Cutter Morrow; William Allen Neilson; Ada Comstock Notestein; Abby Rockefeller; William Rose Bennet; Helena Gilder; and Eleanor Roosevelt.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6176.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6176.jpg" linktype="simple" show="embed">
 <daodesc><p>Christmas card showing Harriet Bliss Ford <lb />in Wilder House living room, 1931-1932</p></daodesc></dao> 
          <p> Harriet Chalmers Bliss was born in New York City  and earned a B.L. from Smith College in 1899.  She was an editorial assistant at Century Magazine, 1899-1912, and consulting editor of the Woman's Press Board, the Woman's Journal, 1927-29.  She married George Burdett Ford in 1912.  Ford was director of women personal in the American Red Cross Overseas, 1917-1920, and was chair of the Smith College Relief Unit, Pans Office.  Ford was on the National Board of the YWCA from 1920 to 1930, and was vice president chair of the Publicity Organization.  She was a member of the Committee on Cause and Cure of War from 1925 to1930.  At Smith College, she was a publicity chair and trustee, 1923-36, and she was a "Trustee in Residence," 1931-36.  She was on the Board of Directors of the Smith Alumnae Association and the American Association of University Women.  Ford was involved in Northampton, Massachusetts city politics and the National League of Women Voters, 1950s.  She was on the Northampton City Charter Committee, 1949, and the City Council, 1940s-50s.  She wrote articles, poetry and plays, some of which were published, regarding various causes including women's issues and peace.</p>
       </bioghist>
@@ -107,7 +108,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -153,7 +154,7 @@
          <subject encodinganalog="650" source="lcsh">Women editors--United States--20th century--Sources</subject>
          <subject encodinganalog="650" source="lcsh">Women and peace--History--20th century--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -161,8 +162,8 @@
             <extref href="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca361_main.html">Smith College Archives</extref>.</p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
             </did>
@@ -242,7 +243,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. WRITINGS</unittitle>
             </did>
@@ -289,7 +290,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. MEMORABILIA</unittitle>
             </did>
@@ -315,7 +316,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. CORRESPONDENCE</unittitle>
             </did>
@@ -615,7 +616,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. SUBJECTS</unittitle>
             </did>

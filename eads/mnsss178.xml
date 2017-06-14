@@ -1,6 +1,7 @@
-<ead>
-   <eadheader audience="internal" id="head" findaidstatus="unverified-full-draft" langencoding="iso639-2b">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss178.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss178</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss178.xml//EN">mnsss178</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Patsy T. Mink Papers, 1965-1982 (bulk 1965-1975)
@@ -49,7 +50,7 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2004  Smith College. All rights reserved.</p>
+         <p>©  2004  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
    <archdesc level="collection" relatedencoding="MARC21">
@@ -58,10 +59,10 @@
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Mink, Patsy T.</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Patsy T. Mink Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1965-1982</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Patsy T. Mink Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1965-1982</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1965-1975</unitdate>
          
-         <unitid encodinganalog="099" repositorycode="mnsss" label="Collection Number:" countrycode="us">MS 105</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 105</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes</extent>
             <extent encodinganalog="300$a">(2 linear ft.)</extent>
@@ -74,7 +75,7 @@
             </address>
             </repository>
          <abstract encodinganalog="520$a" label="Abstract:">Lawyer, legislator, and local official.  The Mink Papers focus primarily on her first tenure as a representative to the U.S. House of Representatives from Hawaii, 1965 to 1977.  Types of materials include speeches, photographs, press releases, articles, legislative bills, and an oral history transcript.  Topics include education, the status of women, women in politics, foreign relations with Vietnam and China, labor unions, the armed forces and national defense, and minority rights.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -111,7 +112,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -158,7 +159,7 @@
          <subject encodinganalog="650" source="lcsh">Women's rights-United States-History-Sources </subject>
          <subject encodinganalog="650" source="lcsh">Women-Legal status, laws, etc.-United States-History-20th century-Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -166,8 +167,8 @@
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+      <dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
             </did>
@@ -211,7 +212,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. LEGISLATIVE ACTIVITIES</unittitle>
             </did>
@@ -255,7 +256,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. SPEECHES AND WRITINGS</unittitle>
             </did>

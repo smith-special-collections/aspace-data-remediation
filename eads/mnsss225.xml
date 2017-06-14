@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss225.html">mnsss225</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss225.html">mnsss225</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Frances Casement Papers, 1884-1892</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss225.html">mnsss22
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss225.html">mnsss22
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss225.html">mnsss22
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Casement, Frances Jennings, 1841-1920.</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Frances Casement Papers</unittitle><unitdate label="Dates:">1884-1892</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 30</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Frances Casement Papers</unittitle><unitdate label="Dates:">1884-1892</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 30</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">3 boxes</extent>
           <extent encodinganalog="300$a">(.75 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,12 +66,12 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss225.html">mnsss22
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Suffragist.  The collection of Mrs. Frances Casement, a suffrage leader in Ohio, includes printed materials relating to suffrage and women's rights associations in Ohio and nationally, and miscellaneous records of the Ohio Women's Suffrage Association.
+      <abstract encodinganalog="520$a" label="Abstract:">Suffragist.  The collection of Mrs. Frances Casement, a suffrage leader in Ohio, includes printed materials relating to suffrage and women's rights associations in Ohio and nationally, and miscellaneous records of the Ohio Women's Suffrage Association.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6333.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6333.jpg" linktype="simple" show="embed">
 <daodesc><p>John S. and Frances Casement, <lb />taken on their wedding trip, undated</p></daodesc></dao> 
        <p>Frances Casement was an Ohio suffrage leader.</p>
 </bioghist>
@@ -87,7 +85,7 @@ constitution, by-laws, and miscellaneous papers of the Ohio Women's Suffrage Ass
 
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -123,7 +121,7 @@ Mass.</p>
 
  </controlaccess>
 
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
 <head>Container List</head>
  <c01>
  <did>
@@ -264,5 +262,4 @@ Mass.</p>
 
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

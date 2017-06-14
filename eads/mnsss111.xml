@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss111.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss111</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss111.xml//EN">mnsss111</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Vida Dutton Scudder Papers, 1883-1979</titleproper>
@@ -53,18 +54,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Scudder, Vida Dutton, 1861-1954</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Vida Dutton Scudder Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1883-1979</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Vida Dutton Scudder Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1883-1979</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 140</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 140</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">3 boxes</extent>
             <extent encodinganalog="300$a">(.75 linear ft.)</extent>
@@ -76,15 +77,15 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Professor, English; Founder, College Settlements Association; Settlement house worker; Pacifist; Religious writer; and Social reformer.  Papers consist of printed material, writings, photographs, and correspondence.  Including letters to Margaret Storrs Grierson, Smith College Archivist and Director of the Sophia Smith Collection.  Journals include her College Settlement Association notebook; six journals containing the original draft of her autobiography as well as personal reflections; and three handwritten essays.
+         <abstract encodinganalog="520$a" label="Abstract:">Professor, English; Founder, College Settlements Association; Settlement house worker; Pacifist; Religious writer; and Social reformer.  Papers consist of printed material, writings, photographs, and correspondence.  Including letters to Margaret Storrs Grierson, Smith College Archivist and Director of the Sophia Smith Collection.  Journals include her College Settlement Association notebook; six journals containing the original draft of her autobiography as well as personal reflections; and three handwritten essays.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6245.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6245.jpg" linktype="simple" show="embed">
 <daodesc><p>Vida Dutton Scudder, 1884</p></daodesc></dao> 
          <p> Vida Scudder was born in India on December 15, 1861, the only child of Harriet Louisa (Dutton) and David Coit Scudder.  She and her mother returned to Boston following the death of her father, although she spent much of her childhood traveling in Europe. She attended Boston private secondary schools, and graduated from Smith College in 1884.  While doing postgraduate work at Oxford University, where she attended lectures by John Ruskin, Scudder developed the beginnings of social awareness that were to guide her through the rest of her life. She taught in the English Department of Wellesley College from 1887 to 1927, where she was often in conflict with the administration over her socialist activities. In 1887, Scudder along with colleagues from Bryn Mawr, Smith, and Vassar, began plans for the College Settlements Association and in 1889 the first settlement house opened on Rivington St. in New York City. Beginning in 1893 and for the next twenty years she was a primary administrator of Denison House in Boston. In 1889, Scudder became a charter member of the Brotherhood of the Carpenter, a worker's organization, and also began working in the Christian Social Union, the purpose of which was to implement Christian principles in bringing "relief to the social and economic disorder of society."  Beginning in 1889, she was a member of the Society of the Companions of the Holy Cross, a religious organization that gave her long-term strength and support. In 1911, she co-founded the Episcopal Church Socialist League and joined the Socialist Party, and in 1919, she organized the Church League for Industrial Democracy.  Although Scudder supported Woodrow Wilson's decision to enter World War I, in the postwar years she moved towards pacifism.  She joined the Fellowship of Reconciliation in 1923 and the same year gave a series of lectures at a meeting of the Women's International League for Peace and Freedom in Prague.  She was a delegate to the Boston Central Labor Union and was active in organizing the Women's Trade Union League. After her retirement from Wellesley in 1928, Scudder went on to become a leading scholar of Franciscan history.  In 1930, she became the first dean of the Summer School of Christian Ethics at Wellesley, and in 1931, she lectured weekly at the New School for Social Research in New York.  Scudder authored sixteen books, including her autobiography On Journey, as well as many scholarly articles on political, literary, and religious topics. In 1919, Florence Converse joined her household and remained until Scudder's death on October 9, 1954.</p>
       </bioghist>
@@ -107,7 +108,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -149,7 +150,7 @@
          <subject encodinganalog="650" source="lcsh">Women in the labor movement--Massachusetts--History--Sources</subject>
          <subject encodinganalog="650" source="lcnaf">Women social reformers--United States--History--Sources</subject>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -189,8 +190,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS</unittitle>
             </did>
@@ -243,7 +244,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE</unittitle>
             </did>
@@ -280,7 +281,7 @@
                   </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. WRITINGS</unittitle>
             </did>

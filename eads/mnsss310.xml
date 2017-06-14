@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss310.html">mnsss310</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss310.html">mnsss310</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Jacqueline Van Voris Papers, 1944-1987</titleproper>
@@ -14,7 +13,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss310.html">mnsss31
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,7 +39,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss310.html">mnsss31
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
@@ -49,14 +48,13 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss310.html">mnsss31
  <origination label="Creator:">
      <persname encodinganalog="100" source="lcnaf">Van Voris, Jacqueline</persname>
  </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Jacqueline Van Voris Papers</unittitle><unitdate label="Dates:">1944-1987</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 166</unitid>
+   <unittitle encodinganalog="245$a" label="Title:">Jacqueline Van Voris Papers</unittitle><unitdate label="Dates:">1944-1987</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 166</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">1 box</extent>
           <extent encodinganalog="300$a">(.5 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -68,12 +66,12 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss310.html">mnsss31
             </address>
          </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Biographer and Historian.  This small collection primarily contains reseach materials for Van Voris's books. Included are audio tapes and transcripts of oral history interviews conducted with Mildred Adams Kenyon, Mary Gray Peck Koehler, Mildred Scott Olmstead, Alice Loomis Clayton, and Louisa K. Fast, some with related correspondence and other materials, such as photographs of suffragist Carrie Chapman Catt. Also included is Van Voris's typed, unpublished manuscript "Quiet Victory: The Waves in World War II" ans associated research interviews. 
+      <abstract encodinganalog="520$a" label="Abstract:">Biographer and Historian.  This small collection primarily contains reseach materials for Van Voris's books. Included are audio tapes and transcripts of oral history interviews conducted with Mildred Adams Kenyon, Mary Gray Peck Koehler, Mildred Scott Olmstead, Alice Loomis Clayton, and Louisa K. Fast, some with related correspondence and other materials, such as photographs of suffragist Carrie Chapman Catt. Also included is Van Voris's typed, unpublished manuscript "Quiet Victory: The Waves in World War II" ans associated research interviews. 
     </abstract>
 </did>
     <bioghist id="bioghist">
 	<head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6187.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6187.jpg" linktype="simple" show="embed">
 <daodesc><p>Jacqueline Van Voris and Mildred Adams Kenyon, January 1975</p></daodesc></dao> 
 	Jacqueline Van Voris was born to Victor and Genevieve Naggiar in Corsicana, Texas on November 11, 1922. She grew up in Arcata, California. During World War II,  she instructed pilots on instrument flying as a Link Trainer with the WAVES for the U.S. Navy from 1944 to 1946. Van Voris received a BA in English from the University of California at Berkeley in 1948.  In 1949 she married William Hoover Van Voris. They had two children, Alice Sessions and Richard.  She received a Masters in education from Smith College in 1975, and later worked in various capacities for Smith College, including as an interviewer for admissions.  She was the author of <title render="italic">The Committee of Correspondence: Women with a World Vision</title> and <title render="italic">The Look of Paradise: A Pictorial History of Northampton, Massachusetts</title>. She also wrote two biographies, <title render="italic">Carrie Chapman Catt : A Public Life</title> and <title render="italic">Constance de Markievicz</title>. <title render="italic">College: A Smith Mosaic</title>, was the result of interviews with alumnae for the Smith Centennial in 1977. She was also active as publications chair in the Northampton League of Women Voters. Van Voris died on January 29, 2010, at her winter home in Austin, Texas. 
     </bioghist>
@@ -82,7 +80,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss310.html">mnsss31
 	The Jacqueline Van Voris Papers consists of research materials for her unpublished manuscript "Quiet Victory: The WAVES in World War II," and for her published biography of  Carrie Chapman Catt. Materials on the WAVES include correspondence, interview notes, and a typescript of the book. Materials on Carrie Chapman Catt include correspondence, tapes, and transcripts of interviews conducted circa 1974-1979 with Mildred Adams Kenyon, Mary Gray Peck Koehler, Mildred Scott Olmstead, Alice Loomis Clayton, Louisa K. Fast, and Mrs. J. G. Kellum.  Many interviews were conducted with the help of Eleanor Flexner, and some of the correspondence is addressed to her.  There are also photographs of suffragist Carrie Chapman Catt, primarily copies from the Iowa History Archives.
     </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -123,7 +121,7 @@ Northampton, Mass.</p>
     <subject encodinganalog="650" source="lcsh">Women--Biography--Sources</subject>
     <subject encodinganalog="650" source="lcsh">Women--Suffrage--United States--History--Sources</subject>
 </controlaccess>
- 	<descgrp type="add" id="addinfo">
+ 	<descgrp id="addinfo" type="add">
 	<head>Additional Information</head>
       <relatedmaterial id="add-related">
           <head>Related Material</head>
@@ -138,8 +136,8 @@ Northampton, Mass.</p>
           <extref href="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss367_main.html">Committeee of Correspondence Records</extref>. </p>
       </relatedmaterial>
     </descgrp>
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle><title render="italic">Carrie Chapman Catt: A Public Life</title></unittitle>
  </did>
@@ -193,7 +191,7 @@ Northampton, Mass.</p>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>"Quiet Victory: The Waves in World War II"</unittitle>
  </did>
@@ -241,5 +239,4 @@ Northampton, Mass.</p>
 </dsc>
 
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

@@ -1,5 +1,6 @@
-<ead>
-<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
 
 <eadid countrycode="us" mainagencycode="manosca" url="http://asteria.fivecolleges.edu/findaids/smitharchives/manosca28.html">manosca28</eadid>
 
@@ -14,7 +15,7 @@
 <address>
 <addressline>Northampton, MA</addressline>
 </address>
-<date>&#194;&#x00A9; 2006</date>
+<date>Â© 2006</date>
 <p>Smith College. All rights reserved.</p>
 </publicationstmt>
 </filedesc>
@@ -36,7 +37,7 @@
 <num>RG 42</num>
 <author>Melvin Carlson, Jr.</author>
 <date>2005</date>
-<p>&#194;&#x00A9; 2006 Smith College. All rights reserved.</p>
+<p>Â© 2006 Smith College. All rights reserved.</p>
 </titlepage>
 </frontmatter>
 
@@ -44,18 +45,18 @@
 <did id="main">
 <head>Collection Overview</head>
 <origination label="Creator:">
-<persname source="lcnaf" encodinganalog="100 1">Grierson, Margaret Storrs.</persname>
+<persname encodinganalog="100 1" source="lcnaf">Grierson, Margaret Storrs.</persname>
 </origination>
-<unittitle label="Title:" encodinganalog="245$a">Margaret Storrs Grierson Papers</unittitle>
+<unittitle encodinganalog="245$a" label="Title:">Margaret Storrs Grierson Papers</unittitle>
 <unitdate label="Dates:">ca. 1800-1998</unitdate>
-<unitdate type="bulk" encodinganalog="245$g">1918-1997</unitdate>
-<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 42</unitid>
+<unitdate encodinganalog="245$g" type="bulk">1918-1997</unitdate>
+<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 42 UUID:10482f46-1dd9-42b8-b797-95442d3759d6</unitid>
 
 <physdesc label="Quantity:">
 <extent encodinganalog="300$a">6 boxes</extent>
 <extent encodinganalog="300$a">(5.5 linear ft.)</extent>
 </physdesc>
-<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
 <repository label="Location:">
@@ -159,8 +160,8 @@ Alumnae, Instructor of English and Philosophy, archivist, one of the founders an
 
 
 
-<dsc type="in-depth" id="list-contlist">
-<c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+<c01 id="list-ser1" level="series">
 <did>
 <unittitle>Series 1-General</unittitle>
 </did>
@@ -827,7 +828,7 @@ Alumnae, Instructor of English and Philosophy, archivist, one of the founders an
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser2">
+<c01 id="list-ser2" level="series">
 <did>
 <unittitle>Series V - Family history files</unittitle>
 </did>
@@ -1438,7 +1439,7 @@ Alumnae, Instructor of English and Philosophy, archivist, one of the founders an
 </did>
 </c02>
 </c01>
-<c01 level="series" id="list-ser3">
+<c01 id="list-ser3" level="series">
 <did>
 <unittitle>Series VI - Oversized</unittitle>
 </did>

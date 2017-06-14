@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss158.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss158</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss158.xml//EN">mnsss158</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Caroline Maria Seymour Severance Papers, 1861-1920
@@ -47,18 +48,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Severance, Caroline Maria Seymour, 1820-</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Caroline Maria Seymour Severance Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1861-1920</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Caroline Maria Seymour Severance Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1861-1920</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 145</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 145 UUID:e86c540a-7af1-447f-b067-f133acbe806b</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box</extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -70,9 +71,9 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">Woman's club leader; women's rights activist; and abolitionist.  The Severance Papers include a small amount of biographical material; two photographs of Jesse Benton Fremont; a book about the women's club movement; Caroline Severance's guest book; and a scrapbook kept by Caroline Severance's daughter, Julia Long Severance (Burrage). The guest book and scrapbook include autographs, quotations, notes, correspondence, drawings, photographs, and memorabilia of many notable persons.  Louisa May Alcott, A. Bronson Alcott, Catharine Beecher, Alice Stone Blackwell, Lydia Maria Child, Frederick Douglass, Ralph Waldo Emerson, William Lloyd Garrison, Ulysses S. Grant, Sarah Grimke, Julia Ward Howe, Oliver Wendell Holmes, Elizabeth Cady Stanton, Lucy Stone, Booker T. Washington, John Greenleaf Whittier are included, among many others.
+         <abstract encodinganalog="520$a" label="Abstract:">Woman's club leader; women's rights activist; and abolitionist.  The Severance Papers include a small amount of biographical material; two photographs of Jesse Benton Fremont; a book about the women's club movement; Caroline Severance's guest book; and a scrapbook kept by Caroline Severance's daughter, Julia Long Severance (Burrage). The guest book and scrapbook include autographs, quotations, notes, correspondence, drawings, photographs, and memorabilia of many notable persons.  Louisa May Alcott, A. Bronson Alcott, Catharine Beecher, Alice Stone Blackwell, Lydia Maria Child, Frederick Douglass, Ralph Waldo Emerson, William Lloyd Garrison, Ulysses S. Grant, Sarah Grimke, Julia Ward Howe, Oliver Wendell Holmes, Elizabeth Cady Stanton, Lucy Stone, Booker T. Washington, John Greenleaf Whittier are included, among many others.
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
@@ -85,7 +86,7 @@
          <p> The Severance Papers include a small amount of biographical material about Caroline Seymour Severance; some correspondence; two photographs of Jesse Benton Fremont; a book about the women's club movement; Caroline Severance's guest book, and a scrapbook kept by Caroline Severance's daughter, Julia Long Severance (Burrage).</p>
          <p>The guest book and scrapbook include autographs, quotations, notes, correspondence, drawings, photographs, and memorabilia of many notable abolitionists, woman's rights advocates, and members of the women's club movement.  Louisa May Alcott, A. Bronson Alcott, Catharine Beecher, Alice Stone Blackwell, Lydia Maria Child, Frederick Douglass, Ralph Waldo Emerson, William Lloyd Garrison, Ulysses S. Grant, Sarah Grimke, Julia Ward Howe, Oliver Wendell Holmes, Elizabeth Cady Stanton, Lucy Stone, Booker T. Washington, John Greenleaf Whittier are included, among many others.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -184,7 +185,7 @@
             <item>Kate J. Wiggins (?): ALS Feb 9 (no year)</item>
          </list>
       </odd>
-      <dsc type="in-depth" id="contlist">
+      <dsc id="contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

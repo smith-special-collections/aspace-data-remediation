@@ -1,8 +1,7 @@
-<ead>
-  <eadheader langencoding="iso639-2" countryencoding="iso3166-1" dateencoding="iso8601"
-repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head">
-    <eadid countrycode="us" mainagencycode="mnsss"
-url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss238.html">mnsss238</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="mnsss" url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss238.html">mnsss238</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Dorothea De Schweinitz and Louise De Schweinitz  (Darrow) Papers, 1912-
@@ -15,7 +14,7 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss238.html">mnsss23
          <address>
            <addressline>Northampton, MA</addressline>
          </address>
-         <date era="ce" calendar="gregorian">&#169; 2005</date>
+         <date calendar="gregorian" era="ce">© 2005</date>
          <p>Smith College. All rights reserved.</p>
        </publicationstmt>
      </filedesc>
@@ -40,25 +39,24 @@ url="http://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss238.html">mnsss23
    
      <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon
  Foundation.</sponsor>
-       <p>&#169; 2005  Smith College. All rights reserved.</p>
+       <p>© 2005  Smith College. All rights reserved.</p>
    </titlepage>
  </frontmatter>
  <archdesc level="collection" relatedencoding="MARC21">
  <did id="main">
  	<head>Collection Overview</head>
          <origination label="Creator:">
-            <persname source="lcnaf" encodinganalog="100 1">De Schweinitz, Dorothea, 1891-</persname>
+            <persname encodinganalog="100 1" source="lcnaf">De Schweinitz, Dorothea, 1891-</persname>
          </origination>
-   <unittitle label="Title:" encodinganalog="245$a">Dorothea De Schweinitz and Louise De
+   <unittitle encodinganalog="245$a" label="Title:">Dorothea De Schweinitz and Louise De
 Schweinitz  (Darrow) Papers</unittitle><unitdate label="Dates:">1912-1997</unitdate>
-        <unitdate type="bulk" encodinganalog="245$g">1970-1980</unitdate>
- <unitid label="Collection Number:" encodinganalog="099" countrycode="us"
- repositorycode="mnsss">MS 398</unitid>
+        <unitdate encodinganalog="245$g" type="bulk">1970-1980</unitdate>
+ <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 398</unitid>
   <physdesc label="Quantity:">
           <extent encodinganalog="300$a">4 boxes</extent>
           <extent encodinganalog="300$a">(3.5 linear ft.) </extent>
   </physdesc>
-    <langmaterial label="Language of Material:" encodinganalog="546">
+    <langmaterial encodinganalog="546" label="Language of Material:">
       <language langcode="eng">English</language>
 
   </langmaterial>
@@ -70,12 +68,12 @@ Schweinitz  (Darrow) Papers</unittitle><unitdate label="Dates:">1912-1997</unitd
             </address>
             </repository>
  <!-- MRJ: EDIT ABSTRACT  -->
-      <abstract label="Abstract:" encodinganalog="520$a">Papers of Louise de Schweinitz Darrow, physician and birth control advocate include correspondence, diaries, photographs and memorabilia. Papers of Dorothea de Schweinitz, social worker and labor researcher, include correspondence documenting her trip to Germany, 1913, where she first learned of class issues, management and labor issues, and an oral history.
+      <abstract encodinganalog="520$a" label="Abstract:">Papers of Louise de Schweinitz Darrow, physician and birth control advocate include correspondence, diaries, photographs and memorabilia. Papers of Dorothea de Schweinitz, social worker and labor researcher, include correspondence documenting her trip to Germany, 1913, where she first learned of class issues, management and labor issues, and an oral history.
     </abstract>
 </did>
 <bioghist id="bioghist">
     <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6444.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6444.jpg" linktype="simple" show="embed">
 <daodesc><p>Dorothea de Schweinitz and Louise de Schweinitz <lb />Darrow at the dedication of the Zinzendorf <lb />bust in Bethlehem, PA, May 16, 1973</p></daodesc></dao>
        <p>Dorothea de Schweinitz (1891-1980) was born in Nazareth, PA. She was the third child of Paul and Mary de Schweinitz. She attended the Moravian Parochial School and graduated from Smith College in 1912. Later she studied at the Universities of Wisconsin and Chicago and obtained her M.A. at Columbia University in 1929. She spent twenty years in employment and vocational guidance work in the YWCA in New York, in developing a Junior Employment Service in the public schools of Philadelphia, in the Industrial Research Department of the Wharton School of the University of Pennsylvania, and in assisting in the development of a demonstration office in Philadelphia of the Pennsylvania State Employment Service and in research in the U.S. Employment Service in Washington. During this period she wrote two books: <title render="italic">How Workers Find Jobs, A Study of 4,000 Hosiert Workers in Philadelphia</title> and <title render="italic">Occupations in Retail Stores</title>. She was president of the Philadelphia Vocational Guidance Association in 1924-25 and of the National Vocational Guidance Association in 1925-26. The next twenty years she spent in employer-labor relations as regional director of the National Labor Relations Board in St. Louis, chief of the Committee Standards Branch, War Production Board (an activity concerned with labor-management cooperation through joint production committees) with headquarters in Washington, and as an industrial relations specialist in the Wage Stabilization Board. After World War II she obtained a grant from the Wertheim Committee of Harvard University and in 1949 her book on the war period, <title render="italic">Labor and Management in a Common Enterprise</title>, was published by the Harvard University Press. In 1966 her book <title render="italic">Labor-Management Consultation in the Factory, the Experience of England, Sweden and Germany</title>, was published. This was the result of a year's independent research in the countries indicated. After retirement de Schweinitz gave her attention to the problems of Georgetown in Washington, D.C. She was instrumental in obtaining the 1950 "Old Georgetown" Act in which the U.S. Congress established Georgetown as a Historic District under the protection of the Commission of Fine Arts. She was also the moving spirit in forming Historic Georgetown, Inc., which rescued from demolition the Thomas Sim Lee buildings at 30th and M Streets. On 27 Feb 1974 de Schweinitz received a Smith College Medal.</p>
 
@@ -88,7 +86,7 @@ Schweinitz  (Darrow) Papers</unittitle><unitdate label="Dates:">1912-1997</unitd
             <p> NOTE: The container list for this collection is available in the Sophia Smith Collection.  Please contact us to request a copy.</p>
 </scopecontent>
 
-     <descgrp type="admininfo" id="admin">
+     <descgrp id="admin" type="admininfo">
       <head>Information on Use</head>
       <descgrp type="admininfo">
          <head>Terms of Access and Use</head>
@@ -129,7 +127,7 @@ record.</p>
 <!-- Added Entries -->
          <persname encodinganalog="700" source="lcnaf">Darrow, Louise de Schweinitz, 1898-1997</persname> 
  </controlaccess>
-<descgrp type="add" id="addinfo">
+<descgrp id="addinfo" type="add">
 <head>Additional Information</head>
 <relatedmaterial id="add-related">
 <head>Related Material</head>
@@ -138,5 +136,4 @@ record.</p>
 </relatedmaterial>
 </descgrp>
 </archdesc>
-</ead>
-<!-- END OF FILE -->
+</ead><!-- END OF FILE -->

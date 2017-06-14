@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::manosca//TEXT us::manosca::manosca399.xml//EN" countrycode="us" mainagencycode="manosca">manosca399</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="manosca" publicid="-//us::manosca//TEXT us::manosca::manosca399.xml//EN">manosca399</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Hart - Lester Harris, Class of 1913 papers, 1891 - 1984 </titleproper>
@@ -12,7 +13,7 @@
 		<publisher encodinganalog="260$b">Smith College Archives</publisher>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 		<date encodinganalog="260$c" normal="2015">2015</date>
 	  </publicationstmt>
@@ -31,23 +32,23 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Allen, Hart - Lester Harris</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Allen, Hart - Lester Harris</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Hart - Lester Harris, Class of 1913 papers, 1891 - 1984 </unittitle>
-	<unitdate type="inclusive" label="Dates:">1891 - 1984</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1909 - 1913</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manosca">RG 80</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Hart - Lester Harris, Class of 1913 papers, 1891 - 1984 </unittitle>
+	<unitdate label="Dates:" type="inclusive">1891 - 1984</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1909 - 1913</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manosca">RG 80 UUID:32ab20d7-e053-4b61-9001-6a272fe9e1b5</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">3 boxes</extent>
 		<extent encodinganalog="300$a">( 1 linear foot)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546">English</langmaterial>
+	<langmaterial encodinganalog="546" label="Language of Material:">English</langmaterial>
 	<repository label="Location:">
 		<corpname>Smith College Archives</corpname>
 		<address>
 		  <addressline>Northampton, MA</addressline>
-		  <addressline></addressline>
+		  <addressline/>
 		</address>
 	</repository>
 	<abstract encodinganalog="520$a" label="Abstract:">
@@ -120,7 +121,7 @@ Hart - Lester Harris, Class of 1913 papers, Box #, Smith College Archives
 <!-- End Series descriptions -->
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
    <c01>
       <did>
          <container type="box">1835</container>
@@ -208,5 +209,3 @@ Hart - Lester Harris, Class of 1913 papers, Box #, Smith College Archives
 
   </archdesc>
 </ead>
-
-

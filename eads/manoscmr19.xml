@@ -1,5 +1,6 @@
-<ead>
-  <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
     <eadid countrycode="us" mainagencycode="manoscmr" url="http://asteria.fivecolleges.edu/findaids/mortimer/manoscmr19.html">manoscmr19</eadid>
 
 	<filedesc>
@@ -37,7 +38,7 @@
 		<date>2007</date> 
 		 
 		 
-		<p>&#169; 2007 Smith College. All rights reserved.</p> 
+		<p>© 2007 Smith College. All rights reserved.</p> 
 	 </titlepage> 
   </frontmatter> 
 
@@ -45,16 +46,16 @@
 <did id="main">
 	<head>Collection Overview</head>
 		<origination label="Creator:">
-			<persname source="lcnaf" encodinganalog="100 1">Spofford, Harriet Prescott, 1835-1924</persname>
+			<persname encodinganalog="100 1" source="lcnaf">Spofford, Harriet Prescott, 1835-1924</persname>
 		</origination>
-		<unittitle label="Title:" encodinganalog="245$a">Harriet Elizabeth Prescott Spofford Collection</unittitle><unitdate label="Dates:">1862-1920</unitdate>
-		<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="manoscmr">MS 252</unitid>
+		<unittitle encodinganalog="245$a" label="Title:">Harriet Elizabeth Prescott Spofford Collection</unittitle><unitdate label="Dates:">1862-1920</unitdate>
+		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="manoscmr">MS 252 UUID:2937f959-f5a7-4472-8b4b-92e9def0a092</unitid>
 		
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">1 box</extent>
 			<extent encodinganalog="300$a">(.5 linear ft.)</extent>
 		</physdesc>
-		<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+		<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 
           <repository label="Location:">
@@ -94,7 +95,7 @@
 
 </scopecontent>
 
-<arrangement id="scope-org" encodinganalog="351$a">
+<arrangement encodinganalog="351$a" id="scope-org">
 	<head>Organization of the Collection</head>
 	<p>This collection is organized into four series:</p>
 	<list>
@@ -184,8 +185,8 @@
 
 <!-- Insert container list here:-->
 
-<dsc type="in-depth" id="list-contlist">
- <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+ <c01 id="list-ser1" level="series">
  <did>
  <unittitle>SERIES I. LETTERS</unittitle>
  </did>
@@ -331,7 +332,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser2">
+ <c01 id="list-ser2" level="series">
  <did>
  <unittitle>SERIES II. WRITINGS</unittitle>
  </did>
@@ -347,7 +348,7 @@
  <container type="box">1</container>
  <container type="folder">19</container>
  <unittitle>Holograph of poem, signed, <unitdate>n.d.</unitdate></unittitle>
-  	<note><p>[Opening line reads: "Just come from heaven &#8230;"]</p></note>
+  	<note><p>[Opening line reads: "Just come from heaven …"]</p></note>
 </did>
  </c02>
  <c02>
@@ -362,7 +363,7 @@
  <container type="box">1</container>
  <container type="folder">23</container>
  <unittitle>Holograph of poem, signed,<unitdate> 1861 Aug 3.</unitdate></unittitle>
- 	<note><p>[Opening line reads: "Other barks the sunny reaches &#8230;"]</p></note>
+ 	<note><p>[Opening line reads: "Other barks the sunny reaches …"]</p></note>
  </did>
  </c02>
  <c02>
@@ -370,7 +371,7 @@
  <container type="box">1</container>
  <container type="folder">24</container>
  <unittitle>Holograph of poem, signed, <unitdate>n.d.</unitdate></unittitle>
- 	<note><p>[Opening line reads: "A thousand perfumes &#8230;"]</p></note>
+ 	<note><p>[Opening line reads: "A thousand perfumes …"]</p></note>
  </did>
  </c02>
  <c02>
@@ -378,7 +379,7 @@
  <container type="box">1</container>
  <container type="folder">25</container>
  <unittitle>Holograph of poem, signed, <unitdate>n.d.</unitdate></unittitle>
- 	<note><p>[Opening line reads: "When a soul that shines both strong and sweet &#8230;"]</p></note>
+ 	<note><p>[Opening line reads: "When a soul that shines both strong and sweet …"]</p></note>
  </did>
  </c02>
  <c02>
@@ -402,11 +403,11 @@
  <container type="box">1</container>
  <container type="folder">28</container>
  <unittitle>Holograph of poem, unsigned, <unitdate>n.d.</unitdate></unittitle>
- 	<note><p>[Opening line reads: "Come, little April winds &#8230;"]</p></note>
+ 	<note><p>[Opening line reads: "Come, little April winds …"]</p></note>
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser3">
+ <c01 id="list-ser3" level="series">
  <did>
  <unittitle>SERIES III. PRINT MATERIALS</unittitle>
  </did>
@@ -425,7 +426,7 @@
  </did>
  </c02>
  </c01>
- <c01 level="series" id="list-ser4">
+ <c01 id="list-ser4" level="series">
  <did>
  <unittitle>SERIES IV. RICHARD SMITH SPOFFORD</unittitle>
  </did>
@@ -514,5 +515,3 @@
 
 </archdesc>
 </ead>
-
-

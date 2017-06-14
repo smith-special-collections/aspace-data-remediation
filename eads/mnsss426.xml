@@ -1,6 +1,7 @@
-<ead>
- <eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
-     <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss426.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss426</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+ <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" id="head" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+     <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss426.xml//EN">mnsss426</eadid>
 	<filedesc>
 	  <titlestmt>
 		<titleproper encodinganalog="245$a">Winnifred Crane Wygal Papers, 1918-1972 (bulk 1932-1958)</titleproper>
@@ -31,18 +32,18 @@
     <did id="main">
 	<head>Collection Overview</head>
 	<origination label="Creator:">
-		<persname source="lcnaf" encodinganalog="100 1">Wygal, Winnifred</persname>
+		<persname encodinganalog="100 1" source="lcnaf">Wygal, Winnifred</persname>
 	</origination>
-	<unittitle label="Title:" encodinganalog="245$a">Winnifred Crane Wygal Papers</unittitle>
-	<unitdate type="inclusive" label="Dates:">1918-1972</unitdate>
-	<unitdate type="bulk" encodinganalog="245$g">1932-1958</unitdate>
-	<unitid label="Collection Number:" encodinganalog="099" countrycode="us" repositorycode="mnsss">MS 617</unitid>
+	<unittitle encodinganalog="245$a" label="Title:">Winnifred Crane Wygal Papers</unittitle>
+	<unitdate label="Dates:" type="inclusive">1918-1972</unitdate>
+	<unitdate encodinganalog="245$g" type="bulk">1932-1958</unitdate>
+	<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 617</unitid>
 	
 	<physdesc label="Quantity:">
 		<extent encodinganalog="300$a">4 boxes</extent>
 		<extent encodinganalog="300$a">(1.75 linear ft.)</extent>
 	</physdesc>
-	<langmaterial label="Language of Material:" encodinganalog="546"><language langcode="eng">English</language>
+	<langmaterial encodinganalog="546" label="Language of Material:"><language langcode="eng">English</language>
 </langmaterial>
 	<repository label="Location:">
 		<corpname>Sophia Smith Collection</corpname>
@@ -139,7 +140,7 @@ Both parents read widely and encouraged their daughters to do likewise.  Frank W
     </separatedmaterial>
 
 <!-- Insert container list here:-->
-<dsc type="in-depth" id="list-contlist">
+<dsc id="list-contlist" type="in-depth">
  <c01>
  <did>
  <unittitle>Biographical materials and memorabilia</unittitle>
@@ -386,7 +387,7 @@ Both parents read widely and encouraged their daughters to do likewise.  Frank W
  <did>
  <container type="box">4</container>
  <container type="folder">12</container>
- <unittitle>	<title render="italic"></title> We Plan Our Own Worship Services, The Womans Press (1940), and revised edition (1945)<unitdate> 1940, 1945 </unitdate> </unittitle>
+ <unittitle>	<title render="italic"/> We Plan Our Own Worship Services, The Womans Press (1940), and revised edition (1945)<unitdate> 1940, 1945 </unitdate> </unittitle>
  </did>
  </c02>
  <c02>
@@ -403,5 +404,3 @@ Both parents read widely and encouraged their daughters to do likewise.  Frank W
 
   </archdesc>
 </ead>
-
-

@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss151.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss151</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss151.xml//EN">mnsss151</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Bessie Boies Cotton Papers, 1881-1983
@@ -59,18 +60,18 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main-overview">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <persname encodinganalog="100" source="lcnaf">Cotton, Bessie Boies, 1880-1959</persname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">Bessie Boies Cotton Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1881-1983</unitdate>
+         <unittitle encodinganalog="245$a" label="Title:">Bessie Boies Cotton Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1881-1983</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 36</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 36</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">5 boxes</extent>
             <extent encodinganalog="300$a">(1.5 linear ft.)</extent>
@@ -82,18 +83,18 @@
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">YWCA overseas official. The bulk of the  Bessie Boies Cotton Papers focus on her work in the YWCA, particularly during her time in Russia, and the courtship between Cotton and her husband, Thomas.  Cotton's papers provide valuable insight into the work of the YWCA in Russia from 1917 to 1919 as well as the conditions in Russia during the Revolution and World War I.  Although Cotton worked with several women's rights organizations and groups devoted to promoting peace, there is little evidence of that work in this collection.  Material includes correspondence, diaries, reports, writings, family histories, memorabilia, and photographs.
+         <abstract encodinganalog="520$a" label="Abstract:">YWCA overseas official. The bulk of the  Bessie Boies Cotton Papers focus on her work in the YWCA, particularly during her time in Russia, and the courtship between Cotton and her husband, Thomas.  Cotton's papers provide valuable insight into the work of the YWCA in Russia from 1917 to 1919 as well as the conditions in Russia during the Revolution and World War I.  Although Cotton worked with several women's rights organizations and groups devoted to promoting peace, there is little evidence of that work in this collection.  Material includes correspondence, diaries, reports, writings, family histories, memorabilia, and photographs.
 
 
 
       </abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
- <dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2653.jpg" altrender="right">
+ <dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc2653.jpg" linktype="simple" show="embed">
 <daodesc><p>Bessie Boies Cotton in YWCA war work uniforn, n.d.</p></daodesc></dao>
          <p> Bessie (Elizabeth) Boies Cotton was born on April 5, 1880 in Hudson, Michigan to banker, insurance investor, and state politician John Keep Boies and teacher Mary Worthington Colton Boies.  Orphaned at age eleven, she spent much of her childhood with her uncle and aunt, Frank and Abbie (Colton) Childs on a farm outside of Hudson.  She attended the Mary Burnham School in Northampton, Massachusetts, and then entered the Lake Erie College for Women in Painesville, Ohio, to prepare for college.  After graduating from Smith College in 1903 with a degree in history, she taught at Lake Erie College for three years.  She attended the University of Chicago, earning an M.A. in history in 1908.  Boies attended some graduate classes at Columbia University during the 1908-09 academic year.</p>
          <p> Boies joined the staff of the National Board of the Young Women's Christian Association (YWCA) in 1909, serving until 1940.  By 1913, she was placed in charge of the department of personnel for the YWCA's Department of Method.  In 1915, she was assigned to set up YWCA facilities at the Panama-Pacific Exposition in San Francisco.  In January 1917, Russian women within the Kerensky Provisional Government invited the YWCA to help working women, recently granted full civil rights, to prepare themselves for their new role in society.  Boies and one other secretary established an association in Petrograd and in Moscow and worked with women's groups in other cities.  They operated a shipboard exhibition along the Volga River in 1918, demonstrating improved nutrition, child care, and agricultural techniques to villagers.  The combination of political upheavals as the Bolsheviks seized control, the threat of German invasion after March 1918, and Allied intervention in northern Russia in support of the anti-Bolsheviks led to the evacuation of all Americans from the Bolshevik-controlled portions of the country.  Traveling through Stockholm, Boies made her way into northern Russia where she set up box-car canteens for U.S. troops in Archangel.</p>
@@ -125,7 +126,7 @@
             </item>
          </list>
       </arrangement>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -167,7 +168,7 @@
          <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Associations--Russia--History</corpname>
          <corpname encodinganalog="610" source="lcnaf">Young Women's Christian Associations--Middle East--History</corpname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -245,14 +246,8 @@
 <!-- End series descriptions -->
 
 <!-- Begin container list -->
-<dsc type="in-depth" id="list-contlist">
-         <c01>
-            <did>
-               <container type="box">1</container>
-               <unittitle>Finding Aid</unittitle>
-            </did>
-         </c01>
-         <c01 level="series" id="list-ser1">
+<dsc id="list-contlist" type="in-depth">
+         <c01 id="list-ser1" level="series">
             <did>
                <unittitle>SERIES I. BIOGRAPHICAL MATERIALS <unitdate>(1897-1983)</unitdate>
                </unittitle>
@@ -327,7 +322,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser2">
+         <c01 id="list-ser2" level="series">
             <did>
                <unittitle>SERIES II. CORRESPONDENCE <unitdate>(1881-1951)</unitdate>
                </unittitle>
@@ -465,7 +460,7 @@
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser3">
+         <c01 id="list-ser3" level="series">
             <did>
                <unittitle>SERIES III. DIARIES <unitdate>(1910-57)</unitdate>
                </unittitle>
@@ -495,7 +490,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser4">
+         <c01 id="list-ser4" level="series">
             <did>
                <unittitle>SERIES IV. YWCA <unitdate>(1913-81)</unitdate>
                </unittitle>
@@ -567,7 +562,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-ser5">
+         <c01 id="list-ser5" level="series">
             <did>
                <unittitle>SERIES V. PHOTOGRAPHS <unitdate>(1902-87)</unitdate>
                </unittitle>
@@ -666,7 +661,7 @@
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="list-serOV">
+         <c01 id="list-serOV" level="series">
             <did>
                <unittitle>OVERSIZE MATERIALS</unittitle>
             </did>

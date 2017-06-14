@@ -1,6 +1,7 @@
-<ead>
-   <eadheader langencoding="iso639-2b" findaidstatus="unverified-full-draft" id="head" audience="internal">
-      <eadid publicid="-//us::mnsss//TEXT us::mnsss::mnsss137.xml//EN" countrycode="us" mainagencycode="mnsss">mnsss137</eadid>
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns:xlink="http://www.w3.org/TR/xlink/">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" id="head" langencoding="iso639-2b">
+      <eadid countrycode="us" mainagencycode="mnsss" publicid="-//us::mnsss//TEXT us::mnsss::mnsss137.xml//EN">mnsss137</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Weston-Allen Family Papers, 1848-1985</titleproper>
@@ -56,20 +57,20 @@
       </date>
          
          <sponsor id="encoding_sponsor">Encoding funded by the Andrew W. Mellon Foundation.</sponsor>
-         <p>&#169;  2003  Smith College. All rights reserved.</p>
+         <p>©  2003  Smith College. All rights reserved.</p>
       </titlepage>
    </frontmatter>
-   <archdesc relatedencoding="MARC21" level="collection">
+   <archdesc level="collection" relatedencoding="MARC21">
       <did id="main">
          <head>Collection Overview</head>
          <origination label="Creator:">
             <famname encodinganalog="100 3" source="lcnaf">Weston-Allen Family</famname>
          </origination>
-         <unittitle label="Title:" encodinganalog="245$a">
+         <unittitle encodinganalog="245$a" label="Title:">
 Weston-Allen Family Papers</unittitle><unitdate encodinganalog="245$f" type="inclusive">1848-1985</unitdate>
             <unitdate encodinganalog="245$g" type="bulk">1848-1868</unitdate>
          
-         <unitid label="Collection Number:" encodinganalog="099" repositorycode="mnsss" countrycode="us">MS 185</unitid>
+         <unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 185</unitid>
          <physdesc label="Quantity:">
             <extent encodinganalog="300$a">1 box		  </extent>
             <extent encodinganalog="300$a">(.5 linear ft.)</extent>
@@ -81,14 +82,14 @@ Weston-Allen Family Papers</unittitle><unitdate encodinganalog="245$f" type="inc
                <addressline>Northampton, MA</addressline>
             </address>
             </repository>
-         <abstract label="Abstract:" encodinganalog="520$a">The vast majority of the collection is correspondence, documenting the courtship and marriage of Grace Weston Allen and Walter Allen. The collection includes letters exchanged between Grace and Walter before and after their marriage and from other family members to Allen during his service as paymaster in the U.S. Navy during the Civil War. Also included are a published version of the Weston-Allen letters: <title>Ten Years A-Courting: Letters of Walter Allen and Grace Weston, 1856-1868</title>, as well as photographs and biographical materials.</abstract>
-         <langmaterial label="Language of Material:" encodinganalog="546">
+         <abstract encodinganalog="520$a" label="Abstract:">The vast majority of the collection is correspondence, documenting the courtship and marriage of Grace Weston Allen and Walter Allen. The collection includes letters exchanged between Grace and Walter before and after their marriage and from other family members to Allen during his service as paymaster in the U.S. Navy during the Civil War. Also included are a published version of the Weston-Allen letters: <title>Ten Years A-Courting: Letters of Walter Allen and Grace Weston, 1856-1868</title>, as well as photographs and biographical materials.</abstract>
+         <langmaterial encodinganalog="546" label="Language of Material:">
             <language langcode="eng">English.</language>
          </langmaterial>
       </did>
       <bioghist id="bioghist">
          <head>Biographical Note</head>
-<dao linktype="simple" actuate="onload" show="embed" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6269.jpg" altrender="right">
+<dao actuate="onLoad" altrender="right" href="http://www.smith.edu/libraries/libs/ssc/eadfiles/ssc6269.jpg" linktype="simple" show="embed">
 <daodesc><p>Walter Allen with his wife, Grace Weston Allen, and their children, circa 1892</p></daodesc></dao> 
          <p>Walter Allen was born in Boston, Massachusetts March 21, 1840, but the family soon moved to Worcester, Massachusetts, where he lived until his marriage.  He graduated from Yale in 1863 and in the same year enlisted in the 26th Regiment Massachusetts Volunteers.  Shortly thereafter he was mustered out to become Acting Assistant Paymaster in the U.S. Navy.  After his discharge in August 1865 he decided to move west and began his newspaper career in Cairo, Illinois and Cincinnati, Ohio.  During his years as a journalist he wrote for 8 different newspapers, mostly in New York and Boston.  He died in Boston in 1907.
 
@@ -106,7 +107,7 @@ Weston-Allen Family Papers</unittitle><unitdate encodinganalog="245$f" type="inc
          <head>Scope and Contents of the Collection</head>
          <p>The Weston-Allen Family Papers consist mainly of letters of Grace Weston and Walter Allen, 1856-1868.  There are 81 letters from Grace Weston to Walter Allen, 1856-1868, plus 65 letters from Walter Allen to his family while he was in the Navy during the Civil War. Their granddaughter, Alice Allen Eaton Johnson (Smith Class 1929), compiled an edited version of the letters entitled Ten Years a-Courting, Letters of Walter Allen and Grace Weston, 1856-1868 (1985), which is included in this collection.  In addition there are 3 miscellaneous letters and a few photographs.</p>
       </scopecontent>
-      <descgrp type="admininfo" id="admin">
+      <descgrp id="admin" type="admininfo">
          <head>Information on Use</head>
          <descgrp type="admininfo">
             <head>Terms of Access and Use</head>
@@ -147,7 +148,7 @@ Weston-Allen Family Papers</unittitle><unitdate encodinganalog="245$f" type="inc
          <geogname encodinganalog="651" source="lcsh">United States--History--Civil War, 1861-1865--Personal narratives.</geogname>
          <persname encodinganalog="700" source="lcnaf">Johnson, Alice Allen Eaton. Ten years a-courting, letters of Walter Allen and Grace Weston, 1856-1868.</persname>
       </controlaccess>
-      <descgrp type="add" id="addinfo">
+      <descgrp id="addinfo" type="add">
          <head>Additional Information</head>
          <relatedmaterial id="add-related">
             <head>Related Material</head>
@@ -157,7 +158,7 @@ Weston-Allen Family Papers</unittitle><unitdate encodinganalog="245$f" type="inc
         </p>
          </relatedmaterial>
       </descgrp>
-      <dsc type="in-depth" id="list-contlist">
+      <dsc id="list-contlist" type="in-depth">
          <c01>
             <did>
                <container type="box">1</container>

@@ -5,9 +5,9 @@ The scope of the project is as follows:
 
 **Data cleanup and transformation**
 - [ ] single-level resource records \(EAD)
-- [ x ] single-level resource records \ (InMagic resource records)
+- [x] single-level resource records \(InMagic resource records)
 - [ ] multi-level resource records \(EAD)
-- [ x ] accession records
+- [x] accession records
 - [ ] agent records
 - [ ] top containers
 - [ ] reconciliation of subjects \(*depending on timeline, this may need to be pushed out of scope*)

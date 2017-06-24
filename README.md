@@ -38,7 +38,7 @@ Specifications for remediating and processing Smith SSC accessions records may b
 
 
 ### RESOURCE RECORD SPECIFICATIONS
-Specifications for remediating and processing Smith SSC resource records may be found here: *Forthcoming*
+Specifications for remediating and processing Smith SSC resource records may be found here: [SSC Resource Data + JSON mapping] (https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
 
 
 ### AGENT RECORD SPECIFICATIONS

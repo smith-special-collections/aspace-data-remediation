@@ -12,7 +12,7 @@ The scope of the project is as follows:
 - [ ] top containers
 - [ ] reconciliation of subjects \(*depending on timeline, this may need to be pushed out of scope*)
 - [ ] merge duplicate names and subjects \(*depending on timeline, this may need to be pushed out of scope*)
-- [ ] normalization of dates \ *in process*
+- [ ] normalization of dates \*in process*
 
 **Migration**
 - [ ] single-level resource records \(EAD and InMagic resource records)
@@ -36,7 +36,7 @@ The scope of the project is as follows:
 
 
 ### RESOURCE RECORD SPECIFICATIONS
-[SSC Resource Data + JSON mapping] (https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
+[SSC Resource Data + JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
 
 
 ### AGENT RECORD SPECIFICATIONS

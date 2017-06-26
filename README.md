@@ -30,15 +30,13 @@ The scope of the project is as follows:
 
 
 ### ACCESSION RECORD SPECIFICATIONS
-Specifications for remediating and processing Smith SSC accessions records may be found here:
-
 [SSC Accession Data + JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/12gRyw0CcjafSPmB4zvC6NF0WDWW05yhCSTqpnc05xu8/edit?usp=sharing)
 
 [SCA Accession Data + JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1dZ-hHBhSAKpKUCBereJhhoLBICtyTZXpbTi-euH4mj4/edit?usp=sharing)
 
 
 ### RESOURCE RECORD SPECIFICATIONS
-Specifications for remediating and processing Smith SSC resource records may be found here: [SSC Resource Data + JSON mapping] (https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
+[SSC Resource Data + JSON mapping] (https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
 
 
 ### AGENT RECORD SPECIFICATIONS
@@ -46,7 +44,7 @@ Specifications for remediating and processing Smith SSC resource records may be 
 
 
 ### CONTAINER AND LOCATION RECORD SPECIFICATIONS
-*Forthcoming*
+[SSC Young 219 container data sample + JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1d4FaOoGwxMdjrdvdBP61h1O8BQZTR7UYG1B1MSVgoTM/edit?usp=sharing)
 
 
 ### SCA CLASSIFICATION SPECIFICATIONS

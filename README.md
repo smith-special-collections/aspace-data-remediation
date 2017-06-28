@@ -4,17 +4,17 @@ Files, tools, and plans for remediating data for migration to ArchivesSpace at S
 The scope of the project is as follows:
 
 **Data cleanup and transformation**
-- [ ] single-level resource records \(EAD)
+- [ ] single-level resource records \(EAD) 
 - [x] single-level resource records \(InMagic resource records)
 - [ ] multi-level resource records \(EAD)
 - [x] accession records
-- [ ] agent records
-- [ ] top containers
+- [ ] agent records \(*in process*)
+- [ ] top containers \(*in process*)
 - [ ] reconciliation of subjects \(*depending on timeline, this may need to be pushed out of scope*)
 - [ ] merge duplicate names and subjects \(*depending on timeline, this may need to be pushed out of scope*)
-- [ ] normalization of dates \*in process*
+- [x] normalization of dates
 
-**Migration**
+**Migration to prod**
 - [ ] single-level resource records \(EAD and InMagic resource records)
 - [ ] multi-level resource records \(EAD)
 - [ ] accession records

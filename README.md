@@ -64,7 +64,6 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | profiledesc/langusage | Replace existing content with "Finding aid written in English." |
 | lb | Enter a space where line break tag previously existed. |
 | archdesc/did/unitid | HOLD -- request information from collection stewards. 
-
 | archdesc/did/unittitle | For files with mnsss in filename, replace titles in this field with titles in this document: http://bit.ly/2pAj5dF. Match on EADID. For files with manosca and manoscmr in filename, replace "Records" with "records", "Papers" with "papers", and "Collection" with "collection". |
 | archdesc/extent | First extent in EAD: numeric character is entered in number field. If first extent's measurement in EAD = boxes, enter boxes in ASpace type. If first extent's measurement in EAD = linear feet / linear ft., enter "Linear Feet" in ASpace type. Second extent in EAD is mapped to container summary. |
 | archdesc/langmaterial | Language subelement is entered, where missing in langmaterial element. |
@@ -90,5 +89,4 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | ref @target | Remove all ref subelements but leave content. Ref subelements will be found in dsc/c/odd and archdesc/arrangement. |
 | archdesc/index | Pull out content from index and save as text file. Retain EADID for later integration. |
 | archdesc/odd | Pull out appendix content from odd and save as text file. Retain EADID for later integration. |
-| archdesc/scopecontent/chronlist | Pull out chronlist conent from bioghist and save as text file. Retain EADID for later integration. |
-| archdesc/bioghist/chronlist | Pull out chronlist conent from bioghist and save as text file. Retain EADID for later integration. |
+

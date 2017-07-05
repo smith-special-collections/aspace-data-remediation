@@ -5,9 +5,9 @@ The scope of the project is as follows:
 
 **Data cleanup and processing**
 - [ ] single-level resource records (*minor revisions to processor need to be applied*) \(EAD) 
-- [ ] single-level resource records (*cleanup complete / parsing halfway complete*) \(InMagic resource records)
+- [ ] single-level resource records (*cleanup complete*) \(InMagic resource records)
 - [ ] multi-level resource records (*minor revisions to processor need to be applied*) \(EAD)
-- [ ] accession records (*cleanup complete / parsing tbc*)
+- [ ] accession records (*cleanup complete*)
 - [ ] agent records \(*in process*)
 - [ ] top containers \(*in process*)
 - [ ] reconciliation of subjects (to LCSH, AAT, and TGN) \(*depending on timeline, this may need to be pushed out of scope*)

@@ -40,7 +40,8 @@ The scope of the project is as follows:
 
 
 ### AGENT RECORD SPECIFICATIONS
-*Forthcoming*
+[SCA Sample Agent Data + JSON mapping](https://docs.google.com/spreadsheets/d/13Hs30SmUP4E-YrxmGXI48dx-YvxDWCrtxesGSknKxLo/edit#gid=310677041)
+[SSC Sample Agent Data + JSON mapping](https://docs.google.com/spreadsheets/d/1ZrLrGFD2-bWyclsfojssTd5BQU47Iv5SELqd-urx0UU/edit#gid=0)
 
 
 ### CONTAINER AND LOCATION RECORD SPECIFICATIONS

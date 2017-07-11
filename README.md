@@ -31,19 +31,23 @@ The scope of the project is as follows:
 
 ### ACCESSION RECORD SPECIFICATIONS
 [SCA accession JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/15FH8crZdmMBQC5hdMlvfAq39qYH_MlA0mlMfe8_QpP8/edit?usp=sharing)
+
 [SCA accession data](https://docs.google.com/a/smith.edu/spreadsheets/d/1dZ-hHBhSAKpKUCBereJhhoLBICtyTZXpbTi-euH4mj4/edit?usp=sharing)
 
 [SSC accession JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1yIzDbvAS_hQjOywsNexMESoIQNBCz2oXlykEsaoLmkY/edit?usp=sharing)
+
 [SSC accession data](https://docs.google.com/a/smith.edu/spreadsheets/d/12gRyw0CcjafSPmB4zvC6NF0WDWW05yhCSTqpnc05xu8/edit?usp=sharing)
 
 
 ### RESOURCE RECORD SPECIFICATIONS
 [SSC resource JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1ULmNGHuKJMMgj8zCymQznoBjuA_jiHct99zLeq1ciLI/edit?usp=sharing)
+
 [SSC resource data](https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
 
 
 ### AGENT RECORD SPECIFICATIONS
 [SCA Sample Agent Data + JSON mapping](https://docs.google.com/spreadsheets/d/13Hs30SmUP4E-YrxmGXI48dx-YvxDWCrtxesGSknKxLo/edit#gid=310677041)
+
 [SSC Sample Agent Data + JSON mapping](https://docs.google.com/spreadsheets/d/1ZrLrGFD2-bWyclsfojssTd5BQU47Iv5SELqd-urx0UU/edit#gid=0)
 
 

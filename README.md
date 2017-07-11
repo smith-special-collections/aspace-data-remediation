@@ -30,13 +30,16 @@ The scope of the project is as follows:
 
 
 ### ACCESSION RECORD SPECIFICATIONS
-[SSC Accession Data + JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/12gRyw0CcjafSPmB4zvC6NF0WDWW05yhCSTqpnc05xu8/edit?usp=sharing)
+[SCA accession JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/15FH8crZdmMBQC5hdMlvfAq39qYH_MlA0mlMfe8_QpP8/edit?usp=sharing)
+[SCA accession data](https://docs.google.com/a/smith.edu/spreadsheets/d/1dZ-hHBhSAKpKUCBereJhhoLBICtyTZXpbTi-euH4mj4/edit?usp=sharing)
 
-[SCA Accession Data + JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1dZ-hHBhSAKpKUCBereJhhoLBICtyTZXpbTi-euH4mj4/edit?usp=sharing)
+[SSC accession JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1yIzDbvAS_hQjOywsNexMESoIQNBCz2oXlykEsaoLmkY/edit?usp=sharing)
+[SSC accession data](https://docs.google.com/a/smith.edu/spreadsheets/d/12gRyw0CcjafSPmB4zvC6NF0WDWW05yhCSTqpnc05xu8/edit?usp=sharing)
 
 
 ### RESOURCE RECORD SPECIFICATIONS
-[SSC Resource Data + JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
+[SSC resource JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1ULmNGHuKJMMgj8zCymQznoBjuA_jiHct99zLeq1ciLI/edit?usp=sharing)
+[SSC resource data](https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
 
 
 ### AGENT RECORD SPECIFICATIONS
@@ -50,6 +53,7 @@ The scope of the project is as follows:
 
 ### SCA CLASSIFICATION SPECIFICATIONS
 [SCA classification data + JSON mapping](https://docs.google.com/a/smith.edu/spreadsheets/d/1giEEPnwh4I0jbYOMtxf6jTeK0xAqQINtdPz8B8Qentc/edit?usp=sharing)
+
 
 ### EAD SPECIFICATIONS
 Specifications for remediating and processing Smith SC EAD may be found here: [sc_ead-specifications](https://docs.google.com/a/smith.edu/spreadsheets/d/13QDuQZnGBNV0gqr6gzy6yRNtlZCfN9usJNgY6FVxHIM/edit?usp=sharing). To see information about manual updates, etc., check the spreadsheet. Specific decisions by element are below:

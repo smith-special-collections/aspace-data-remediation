@@ -44,6 +44,8 @@ The scope of the project is as follows:
 
 [SSC resource data](https://docs.google.com/a/smith.edu/spreadsheets/d/1n1-qjVFxi0FTsBbaav4aB2kO7vMrNsUhpG-5qN2taxk/edit?usp=sharing)
 
+[MRBC resource data *identifiers*](https://docs.google.com/a/smith.edu/spreadsheets/d/1dpe1jQgt4PQp_pndf8V2cdLCkzI4qUx6deCWc3E7J1c/edit?usp=sharing)
+
 
 ### AGENT RECORD SPECIFICATIONS
 [SCA Sample Agent Data + JSON mapping](https://docs.google.com/spreadsheets/d/13Hs30SmUP4E-YrxmGXI48dx-YvxDWCrtxesGSknKxLo/edit#gid=310677041)

@@ -48,7 +48,16 @@ The scope of the project is as follows:
 
 
 ### AGENT RECORD SPECIFICATIONS
-[SCA Sample Agent Data + JSON mapping](https://docs.google.com/spreadsheets/d/13Hs30SmUP4E-YrxmGXI48dx-YvxDWCrtxesGSknKxLo/edit#gid=310677041)
+[SCA agent data JSON mapping](https://docs.google.com/spreadsheets/d/13Hs30SmUP4E-YrxmGXI48dx-YvxDWCrtxesGSknKxLo/edit#gid=310677041)
+
+[SCA faculty agent data](https://docs.google.com/a/smith.edu/spreadsheets/d/1otZqGC517oFVCYPAxx7EXLQkz8it0V5BqYVfPXP9wCw/edit?usp=sharing)
+
+[SCA alumnae agent data](https://docs.google.com/a/smith.edu/spreadsheets/d/1CJNbVk4ttJTCwvHMiRzFkPTTIjO0G4xP1vBbaw2OeZs/edit?usp=sharing)
+
+[SCA alumnae memorial agent data](https://docs.google.com/a/smith.edu/spreadsheets/d/1CVxEDzn7vSPWlSFEwpE4UgDz4LUse9JOjkhb4qBBQoU/edit?usp=sharing)
+
+[SCA source agent data](https://docs.google.com/a/smith.edu/spreadsheets/d/1s9xGUBROTN_CZgIn_zVHWY_MRL54VNUPmdQckM9a3Bk/edit?usp=sharing)
+
 
 [SSC Sample Agent Data + JSON mapping](https://docs.google.com/spreadsheets/d/1ZrLrGFD2-bWyclsfojssTd5BQU47Iv5SELqd-urx0UU/edit#gid=0)
 

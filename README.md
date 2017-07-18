@@ -61,7 +61,9 @@ The scope of the project is as follows:
 
 [SSC agent data JSON mapping](https://docs.google.com/spreadsheets/d/1ZrLrGFD2-bWyclsfojssTd5BQU47Iv5SELqd-urx0UU/edit#gid=0)
 
-[SSC agent data -- person and corporate in separate tabs](https://docs.google.com/a/smith.edu/spreadsheets/d/1E1FrwaOysM_6D-wNte5_93N_dr_csEODVA7mFoQnB8U/edit?usp=sharing)
+[SSC agent data -- person](https://docs.google.com/a/smith.edu/spreadsheets/d/1E1FrwaOysM_6D-wNte5_93N_dr_csEODVA7mFoQnB8U/edit?usp=sharing)
+
+[SSC agent data -- corporate](https://docs.google.com/a/smith.edu/spreadsheets/d/1hCIHOYdUQwqAs65ff97u0ft1mK_n1jM0TE3eZ6z1TEU/edit?usp=sharing)
 
 
 ### CONTAINER AND LOCATION RECORD SPECIFICATIONS

@@ -85,7 +85,7 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 #### DECISIONS BY ELEMENT
 
 | Element       | Decision      | Completed |
-| ------------- |--------------| |
+| ------------- |---------------|-----------|
 | archdesc @level | For most files, @level="collection". Exception: files that start with mnsss292 -- @level="recordgrp". Files that start with mnsss148s -- @level="series". | ✔ |
 | profiledesc/langusage | Replace existing content with "Finding aid written in English." | |
 | lb | Enter a space where line break tag previously existed. | |

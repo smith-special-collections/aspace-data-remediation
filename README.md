@@ -93,9 +93,9 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | archdesc/did/unittitle | For files with mnsss in filename, replace titles in this field with titles in this document: http://bit.ly/2pAj5dF. Match on EADID. For files with manosca and manoscmr in filename, replace "Records" with "records", "Papers" with "papers", and "Collection" with "collection". | ✔ |
 | archdesc/extent | First extent in EAD: numeric character is entered in number field. If first extent's measurement in EAD = boxes, enter boxes in ASpace type. If first extent's measurement in EAD = linear feet / linear ft., enter "Linear Feet" in ASpace type. Second extent in EAD is mapped to container summary. | ✔ |
 | archdesc/langmaterial | Language subelement is entered, where missing in langmaterial element. | |
-| archdesc/bioghist/head | Remove head subelement. | |
-| archdesc/scopecontent/head | Remove head subelement. | |
-| archdesc/arrangement/head | Remove head subelement. | |
+| archdesc/bioghist/head | Remove head subelement. | ✔ |
+| archdesc/scopecontent/head | Remove head subelement. | ✔ |
+| archdesc/arrangement/head | Remove head subelement. | ✔ |
 | arcdesc/descgrp  | Remove descgrp element and retain content inside (accessrestrict, userestrict, processinfo, prefercite, altformavail, acqinfo, accruals, custodhist) | |
 | bioghist/dao | Remove completely. Generate report of dao links, content, and the EAD ID from which they were pulled. | |
 | unittitle | Remove trailing commas. | |

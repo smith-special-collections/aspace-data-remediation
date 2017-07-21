@@ -96,10 +96,10 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | archdesc/bioghist/head | Remove head subelement. | ✔ | |
 | archdesc/scopecontent/head | Remove head subelement. | ✔ | |
 | archdesc/arrangement/head | Remove head subelement. | ✔ | |
-| arcdesc/descgrp  | Remove descgrp element and retain content inside (accessrestrict, userestrict, processinfo, prefercite, altformavail, acqinfo, accruals, custodhist) | | high |
-| bioghist/dao | Remove completely. Generate report of dao links, content, and the EAD ID from which they were pulled. | |high |
+| arcdesc/descgrp  | Remove descgrp element and retain content inside (accessrestrict, userestrict, processinfo, prefercite, altformavail, acqinfo, accruals, custodhist) | ✔ | high |
+| bioghist/dao | Remove completely. Generate report of dao links, content, and the EAD ID from which they were pulled. | ✔ | high |
 | unittitle | Remove trailing commas. | | high |
-| unitdate @ type | If there is more than one date or a range of dates in unitdate (e.g. "1897-1902" or "1965, 1967, 1989"), the value in @type should be "inclusive", rather than "single". | | medium |
+| unitdate @ type | If there is more than one date or a range of dates in unitdate (e.g. "1897-1902" or "1965, 1967, 1989"), the value in @type should be "inclusive", rather than "single". | ✔ | medium |
 | unitdate | Where "c.", "c", "ca", or "ca.", change to "circa". | | high |
 | unitdate | Where "n.d." or "nd", change to "undated". | | high |
 | unitdate | When dates are in parentheses, remove parentheses and retain date information. | | medium |

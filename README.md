@@ -87,9 +87,9 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | Element       | Decision      | Completed | Priorities |
 | ------------- |---------------|-----------|------------|
 | archdesc @level | For most files, @level="collection". Exception: files that start with mnsss292 -- @level="recordgrp". Files that start with mnsss148s -- @level="series". | ✔ | |
-| profiledesc/langusage | Replace existing content with "Finding aid written in English." | | high |
-| lb | Enter a space where line break tag previously existed. | | medium |
-| archdesc/did/unitid | Use unitids in resource spreadsheets.  | | high |
+| profiledesc/langusage | Replace existing content with "Finding aid written in English." | ✔ | high |
+| lb | Enter a space where line break tag previously existed. | ✔ | medium |
+| archdesc/did/unitid | Use unitids in resource spreadsheets.  | ✔ | high |
 | archdesc/did/unittitle | For files with mnsss in filename, replace titles in this field with titles in this document: http://bit.ly/2pAj5dF. Match on EADID. For files with manosca and manoscmr in filename, replace "Records" with "records", "Papers" with "papers", and "Collection" with "collection". | ✔ | |
 | archdesc/extent | First extent in EAD: numeric character is entered in number field. If first extent's measurement in EAD = boxes, enter boxes in ASpace type. If first extent's measurement in EAD = linear feet / linear ft., enter "Linear Feet" in ASpace type. Second extent in EAD is mapped to container summary. | ✔ | |
 | archdesc/langmaterial | Language subelement is entered, where missing in langmaterial element. | | low |

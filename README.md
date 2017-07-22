@@ -108,7 +108,7 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | unitdate | Remove duplicate unitdates, created when moving unitdate out of unittitle. | ✔ | high |
 | did/note | Change to odd element. | ✔ | high |
 | dsc @type="analyticcover"/c01 | Match c01s in analyticover dsc and in-depth dsc by unittitle. Copy over unittitle, extent, unitdate, arrangement, scopecontent from c01s in analyticover dsc to in-depth c01s. Where multiple unittitle, use unittitle from in-depth dsc. Where multiple, matching (as in equal) extent and unitdate, use extent and unitdate in analyticover dsc. Where multiple, non-matching extent and unitdate, keep both for repeatable extent or date. The unitdates we are likely to come across in both the analyticover and in-depth dsc will either be a range or a range + n.d./single date in a single unitdate. It will always be an expression and not a normalized date. Equal means that the expression is identical. | ✔ | high |
-| dsc/c/unittitle | Introduce sentence case formatting for series-level components (c01). | | low |
+| dsc/c/unittitle | Introduce sentence case formatting for series-level components (c01). | WontFix | low |
 | dsc/c @level | For c02-cN (i.e. all but c01), change @level value from "unspecified" to "file". | ✔ | high |
 | dsc/c/did/container | For c02-cN (i.e. all but c01), change @label value from "unspecified" to "mixed materials". | | high |
 | c/did/note | Change note subelement to odd and move out of did element. Remove @href or @target and leave content of the note. | | medium |

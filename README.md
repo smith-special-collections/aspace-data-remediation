@@ -102,8 +102,8 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | unitdate @ type | If there is more than one date or a range of dates in unitdate (e.g. "1897-1902" or "1965, 1967, 1989"), the value in @type should be "inclusive", rather than "single". | ✔ | medium |
 | unitdate | Where "c.", "c", "ca", or "ca.", change to "circa". | ✔ | high |
 | unitdate | Where "n.d." or "nd", change to "undated". | ✔ | high |
-| unitdate | When dates are in parentheses, remove parentheses and retain date information. | | medium |
-| unitdate | When dates are in brackets, remove brackets and retain date information. | | medium |
+| unitdate | When dates are in parentheses, remove parentheses and retain date information. | ✔ | medium |
+| unitdate | When dates are in brackets, remove brackets and retain date information. | ✔ | medium |
 | unitdate | Normalize dates in begin and end date fields so that they follow ISO 8601 formatting, e.g. YYYY-MM-DD.| | high |
 | unitdate | Remove duplicate unitdates, created when moving unitdate out of unittitle. | ✔ | high |
 | did/note | Change to odd element. | ✔ | high |

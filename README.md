@@ -113,5 +113,5 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | dsc/c/did/container | For c02-cN (i.e. all but c01), change @label value from "unspecified" to "mixed materials". | | high |
 | c/did/note | Change note subelement to odd and move out of did element. Remove @href or @target and leave content of the note. | | medium |
 | ref @target | Remove all ref subelements but leave content. Ref subelements will be found in dsc/c/odd and archdesc/arrangement. | | medium |
-| archdesc/index | Pull out content from index and save as text file. Retain EADID for later integration. | | medium |
+| archdesc/index | Pull out content from index and save as text file. Retain EADID for later integration. | ✔ | medium |
 | archdesc/odd | Pull out appendix content from odd and save as text file. Retain EADID for later integration. | | medium |

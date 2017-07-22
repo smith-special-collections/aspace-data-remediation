@@ -19,40 +19,47 @@
 		</publicationstmt>
 </filedesc>
 <profiledesc>
-	<creation encodinganalog="500">Finding aid encoded in NoteTab Pro. Encoded by Jennifer Smar. 
+	<creation encodinganalog="500">Finding aid encoded in NoteTab Pro. Encoded by Jennifer Smar.
 		<date>2005-11-07</date>
 	</creation>
 	<langusage>Finding aid written in English.</langusage>
 </profiledesc>
 </eadheader>
 
-  <frontmatter id="front"> 
-	 <titlepage> 
-		<publisher encodinganalog="260$b">Sophia Smith Collection Smith College</publisher> 
+  <frontmatter id="front">
+	 <titlepage>
+		<publisher encodinganalog="260$b">Sophia Smith Collection Smith College</publisher>
 		<titleproper encodinganalog="245$a">Countries collection, 1540-2006 (bulk 1920-1970)</titleproper>
-		<subtitle>Finding Aid</subtitle> 
-		<num>MS 445</num> 
-		<author encodinganalog="245$c"/> 
-		<date>Revised 2004</date> 
-		 
-		 
-		<p>© 2005 Smith College. All rights reserved.</p> 
-	 </titlepage> 
-  </frontmatter> 
+		<subtitle>Finding Aid</subtitle>
+		<num>MS 445</num>
+		<author encodinganalog="245$c"/>
+		<date>Revised 2004</date>
+
+
+		<p>© 2005 Smith College. All rights reserved.</p>
+	 </titlepage>
+  </frontmatter>
 
 <archdesc level="collection" relatedencoding="MARC21">
 <did id="main">
 	<head>Collection Overview</head>
 		<unittitle encodinganalog="245$a" label="Title:">Countries collection</unittitle><unitdate label="Dates:">1540-2006</unitdate>
 			<unitdate encodinganalog="245$g" type="bulk">1920-1970</unitdate>
-		
+
 		<unitid countrycode="us" encodinganalog="099" label="Collection Number:" repositorycode="mnsss">MS 445</unitid>
-		
+
 		<physdesc label="Quantity:">
 			<extent encodinganalog="300$a">64 boxes</extent>
 			<extent encodinganalog="300$a">(32 linear ft.)</extent>
 		</physdesc>
-		<langmaterial encodinganalog="546" label="Language of Material:">English, French, German, Spanish, Russian, Arabic</langmaterial>
+		<langmaterial encodinganalog="546" label="Language of Material:">
+      <language langcode="eng">English</language>
+      <language langcode="fre">French</language>
+      <language langcode="ger">German</language>
+      <language langcode="spa">Spanish</language>
+      <language langcode="rus">Russian</language>
+      <language langcode="ara">Arabic</language>
+    </langmaterial>
 
          <repository label="Location:">
             <corpname>Sophia Smith Collection</corpname>
@@ -104,7 +111,7 @@
 	<descgrp>
 		<head>History of the Collection</head>
 		<acqinfo id="admin-acqinfo">
-			<p>Materials in this subject collection were either purchased or given to the Sophia Smith Collection by various donors.  Periodic additions are expected. </p> 
+			<p>Materials in this subject collection were either purchased or given to the Sophia Smith Collection by various donors.  Periodic additions are expected. </p>
 			<p>Finding aid revised by Jessica Lawson (intern), 2004. It was revised in 2016 by Maida Goodwin.</p>
 		</acqinfo>
 	</descgrp>
@@ -117,7 +124,7 @@
 <controlaccess id="subj">
 <head>Search Terms</head>
 
-		
+
 <subject encodinganalog="650" source="lcsh">Feminism--History--Sources</subject>
 <subject encodinganalog="650" source="lcsh">Women--History--Sources</subject>
 <subject encodinganalog="650" source="lcsh">Women's rights--History--Sources</subject>
@@ -128,7 +135,7 @@
 <subject encodinganalog="650" source="lcsh">Women--India--History--Sources</subject>
 <subject encodinganalog="650" source="lcsh">Women--Japan--History--Sources</subject>
 <subject encodinganalog="650" source="lcsh">Women--Middle East--History--Sources</subject>
-<subject encodinganalog="650" source="lcsh">Indians of North America--History--19th century</subject> 
+<subject encodinganalog="650" source="lcsh">Indians of North America--History--19th century</subject>
 	</controlaccess>
 
 <!-- end controlled access terms -->

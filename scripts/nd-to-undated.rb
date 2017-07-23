@@ -6,9 +6,13 @@ Dir['eads/*.xml'].each do |fname|
 
   write_me = false
   xml.xpath("//unitdate").each do |ud|
-    if ud.content[/(?<=\W|\b)n\.?d\.?(?=\W|\b)/]
-      ud.content = ud.content.gsub(/(?<=\A|\W)n\.?d\.?(?=\z|\W)/, 'undated')
+    if ud.content[/(?<=\W|\b)n\.?d\.?(?=\W|\b)/i]
+      ud.content = ud.content.gsub(/(?<=\A|\W)n\.?d\.?(?=\z|\W)/i, 'undated')
       write_me = true
+    end
+    if ud.content[/other undated/i]
+      write_me = true
+      ud.content = ud.content.gsub(/other undated/i, 'undated')
     end
   end
 

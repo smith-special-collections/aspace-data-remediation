@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 require 'nokogiri'
 
-i = "01" # i is skipped
-c_xpath = 11.times.map do "//c#{i.succ!}" end.join('|')
+i = "00" # i is skipped
+c_xpath = 12.times.map do "//c#{i.succ!}" end.join('|')
 
 Dir['eads/*.xml'].each do |fname|
   xml = Nokogiri.XML(IO.read(fname), nil, 'utf-8')

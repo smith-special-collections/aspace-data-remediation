@@ -104,7 +104,7 @@ Specifications for remediating and processing Smith SC EAD may be found here: [s
 | unitdate | Where "n.d." or "nd", change to "undated". | ✔ | high |
 | unitdate | When dates are in parentheses, remove parentheses and retain date information. | ✔ | medium |
 | unitdate | When dates are in brackets, remove brackets and retain date information. | ✔ | medium |
-| unitdate | Normalize dates in begin and end date fields so that they follow ISO 8601 formatting, e.g. YYYY-MM-DD.| ??? | high |
+| unitdate | Normalize dates in begin and end date fields so that they follow ISO 8601 formatting, e.g. YYYY-MM-DD.| ✔ | high |
 | unitdate | Remove duplicate unitdates, created when moving unitdate out of unittitle. | ✔ | high |
 | did/note | Change to odd element. | ✔ | high |
 | dsc @type="analyticcover"/c01 | Match c01s in analyticover dsc and in-depth dsc by unittitle. Copy over unittitle, extent, unitdate, arrangement, scopecontent from c01s in analyticover dsc to in-depth c01s. Where multiple unittitle, use unittitle from in-depth dsc. Where multiple, matching (as in equal) extent and unitdate, use extent and unitdate in analyticover dsc. Where multiple, non-matching extent and unitdate, keep both for repeatable extent or date. The unitdates we are likely to come across in both the analyticover and in-depth dsc will either be a range or a range + n.d./single date in a single unitdate. It will always be an expression and not a normalized date. Equal means that the expression is identical. | ✔ | high |

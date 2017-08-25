@@ -4,9 +4,9 @@ Files, tools, and plans for remediating data for migration to ArchivesSpace at S
 The scope of the project is as follows:
 
 **Data cleanup and processing**
-- [ ] single-level resource records (*minor revisions to processor need to be applied*) \(EAD)
+- [x] single-level resource records (*minor revisions to processor need to be applied*) \(EAD)
 - [x] single-level resource records (*cleanup complete*) \(InMagic resource records)
-- [ ] multi-level resource records (*minor revisions to processor need to be applied*) \(EAD)
+- [x] multi-level resource records (*minor revisions to processor need to be applied*) \(EAD)
 - [x] accession records
 - [x] agent records
 - [ ] top containers \(*pushed out of scope -- more assessment and planning need to be undertaken*)
@@ -15,18 +15,18 @@ The scope of the project is as follows:
 - [x] normalization of dates (*solution implemented*)
 
 **Post records to prod**
-- [ ] single-level resource records \(EAD and InMagic resource records)
-- [ ] multi-level resource records \(EAD)
-- [ ] accession records
-- [ ] agent records
+- [x] single-level resource records \(EAD and InMagic resource records)
+- [x] multi-level resource records \(EAD)
+- [x] accession records
+- [x] agent records
 - [ ] top containers
-- [ ] container profiles
-- [ ] locations
-- [ ] classifications
+- [ ] container profiles (*in process*)
+- [x] locations
+- [x] classifications
 
 **Other**
-- [ ] recommend solutions for item-level archival objects (images, AV, and objects) described out of context from parent collections
-- [ ] training
+- [ ] recommend solutions for item-level archival objects (images, AV, and objects) described out of context from parent collections \(*pushed out of scope*)
+- [x] training
 
 
 ### ACCESSION RECORD SPECIFICATIONS
